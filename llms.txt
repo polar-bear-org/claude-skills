@@ -43,7 +43,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack/templates): the Review Cycle Pack's shared files — team-context.md, growth-matrix.md, company-direction.md, review-form.md (blanks the founder's skills fill in) and question-bank.md (ships complete, for 1:1s).
 - [exercise-bank.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/resources/exercise-bank.md): the workshop format library — openers, ideation (Crazy 8s, brainwriting 6-3-5, SCAMPER), convergence, decision, and closing exercises with timing, materials, scripts, and failure modes.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
-- [docs/creating-a-pack.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/creating-a-pack.md): how to add a new pack to this repository.
+- [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
 
 ## About

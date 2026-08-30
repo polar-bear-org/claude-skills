@@ -137,7 +137,7 @@ No. The Annual Review Cycle Pack runs the whole cycle — growth matrix, review 
 Free to use inside your company. Not for resale. See [LICENSE](LICENSE.md).
 
 **Can I add my own pack?**
-Yes — see [docs/creating-a-pack.md](docs/creating-a-pack.md). Copy [`packs/_template`](packs/_template/), write your skills, add one entry to `.claude-plugin/marketplace.json`.
+Yes — see [CONTRIBUTING.md](CONTRIBUTING.md). It covers creating a pack from scratch, bringing in a pack that already exists, adding a skill to a pack, and editing one.
 
 ---
 
@@ -158,8 +158,8 @@ claude-skills/
 │   ├── review-cycle-pack/      # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
-│   ├── creating-a-pack.md
-│   └── installing.md
+│   └── installing.md           # every install path, for users
+├── CONTRIBUTING.md             # how to add or edit a pack, for the team
 ├── catalog.json                # machine-readable index of every pack and skill
 ├── llms.txt                    # index for AI agents and LLM crawlers
 └── README.md
