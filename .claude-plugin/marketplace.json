@@ -35,6 +35,34 @@
         "synthesis",
         "retrospective"
       ]
+    },
+    {
+      "name": "review-cycle-pack",
+      "source": "./packs/review-cycle-pack",
+      "description": "11 Claude Skills that run an annual performance review cycle without performance software: cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1 prep, and the end-of-cycle retro.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "performance-review",
+        "annual-review",
+        "review-cycle",
+        "growth-matrix",
+        "career-framework",
+        "competency-matrix",
+        "self-review",
+        "one-on-one",
+        "feedback",
+        "people-ops",
+        "hr",
+        "promotion"
+      ]
     }
   ]
 }

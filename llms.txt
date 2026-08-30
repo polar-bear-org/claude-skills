@@ -10,7 +10,11 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
+- [Annual Review Cycle Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack): 11 skills that run an annual performance review cycle without performance software — cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1 prep, and the end-of-cycle retro. Split by role: 6 skills for the founder or people lead, 3 for managers, 4 for employees.
+
 ## Skills
+
+### Workshop Pack
 
 - [intention-framer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/intention-framer/SKILL.md): decides whether a workshop deserves to exist and what it must produce.
 - [agenda-designer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/agenda-designer/SKILL.md): designs blocks, exercises, timings, group splits, and the energy curve.
@@ -20,8 +24,23 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [synthesis-writer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/synthesis-writer/SKILL.md): writes the follow-up and the synthesis within 48 hours.
 - [workshop-retro](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/workshop-retro/SKILL.md): runs the facilitation debrief and writes the retro note.
 
+### Annual Review Cycle Pack
+
+- [cycle-setup](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/cycle-setup/SKILL.md): guided setup of the workspace, Project, and files. Everyone runs it first.
+- [cycle-planner](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/cycle-planner/SKILL.md): builds the cycle calendar, team context, and company direction (founder).
+- [growth-matrix-builder](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/growth-matrix-builder/SKILL.md): drafts levels and competencies (founder).
+- [review-form-builder](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/review-form-builder/SKILL.md): creates the self and manager review forms (founder).
+- [comms-drafter](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/comms-drafter/SKILL.md): kickoff memo, reminders, wrap-up (founder).
+- [cycle-retro](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/cycle-retro/SKILL.md): closes the cycle and improves next year's plan (founder).
+- [review-prepper](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/review-prepper/SKILL.md): evidence sheet and growth memo per direct report (manager).
+- [one-on-one-companion](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/one-on-one-companion/SKILL.md): briefs a manager before every 1:1 and review conversation (manager).
+- [brag-doc-keeper](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/brag-doc-keeper/SKILL.md): logs wins through the year (employee).
+- [self-review-prepper](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/self-review-prepper/SKILL.md): interviews and drafts the self-review (employee).
+- [growth-navigator](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/growth-navigator/SKILL.md): finds the aspiration and builds a personal growth profile (employee).
+
 ## Reference
 
+- [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack/templates): the Review Cycle Pack's shared files — team-context.md, growth-matrix.md, company-direction.md, review-form.md (blanks the founder's skills fill in) and question-bank.md (ships complete, for 1:1s).
 - [exercise-bank.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/resources/exercise-bank.md): the workshop format library — openers, ideation (Crazy 8s, brainwriting 6-3-5, SCAMPER), convergence, decision, and closing exercises with timing, materials, scripts, and failure modes.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [docs/creating-a-pack.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/creating-a-pack.md): how to add a new pack to this repository.

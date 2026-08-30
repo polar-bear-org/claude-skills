@@ -16,6 +16,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | Pack | Skills | What it is for | Install |
 |------|--------|----------------|---------|
 | **[Workshop Pack](packs/workshop-pack/)** | 7 | Running workshops, offsites, and facilitated working sessions that end with a decision, not a feeling | `/plugin install workshop-pack@polar-bear-skills` |
+| **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
 
@@ -78,6 +79,38 @@ Every skill in this repository, searchable in one table.
 
 Shared reference file: [`exercise-bank.md`](packs/workshop-pack/resources/exercise-bank.md) — the full format library (Crazy 8s, brainwriting 6-3-5, SCAMPER, assumption reversal, dot voting, and more), each with group size, timing, materials, facilitation script, and its classic failure mode.
 
+### Annual Review Cycle Pack — [`packs/review-cycle-pack`](packs/review-cycle-pack/)
+
+Eleven skills across three roles. You install the three or six that match your role; everyone installs `cycle-setup`.
+
+**If you run the cycle (founder or people lead)**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`cycle-setup`](packs/review-cycle-pack/skills/cycle-setup/SKILL.md) | Walks you through your workspace: which Project, which files, a test run | "set up my review cycle", "how do I get started" |
+| [`cycle-planner`](packs/review-cycle-pack/skills/cycle-planner/SKILL.md) | Builds the cycle calendar, the team context, and this year's company direction | "plan our review cycle", "when should we do reviews" |
+| [`growth-matrix-builder`](packs/review-cycle-pack/skills/growth-matrix-builder/SKILL.md) | Drafts your levels and competencies matrix | "build our growth matrix", "create career levels", "what does senior mean here" |
+| [`review-form-builder`](packs/review-cycle-pack/skills/review-form-builder/SKILL.md) | Creates the self and manager review forms, 8 questions max | "create our review form", "what should we ask in reviews" |
+| [`comms-drafter`](packs/review-cycle-pack/skills/comms-drafter/SKILL.md) | The kickoff memo and every reminder, in your tone | "write the kickoff email", "announce the review cycle" |
+| [`cycle-retro`](packs/review-cycle-pack/skills/cycle-retro/SKILL.md) | Closes the cycle and upgrades next year's plan | "the review cycle is done", "what should we change next year" |
+
+**If you manage people**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`review-prepper`](packs/review-cycle-pack/skills/review-prepper/SKILL.md) | One session per person: the evidence sheet and the growth memo | "help me prepare Maria's review", "I have six reviews to write" |
+| [`one-on-one-companion`](packs/review-cycle-pack/skills/one-on-one-companion/SKILL.md) | Briefs you before every conversation, the weekly 1:1 and the review alike | "prep my 1:1 with Maria", "what should I ask Tomas today" |
+
+**If you are getting reviewed**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`brag-doc-keeper`](packs/review-cycle-pack/skills/brag-doc-keeper/SKILL.md) | Logs your wins during the year, so December has material | "log a win", "add this to my brag doc" |
+| [`self-review-prepper`](packs/review-cycle-pack/skills/self-review-prepper/SKILL.md) | Interviews you about your year and drafts your self-review | "help me write my self-review", "I don't know what to write about my year" |
+| [`growth-navigator`](packs/review-cycle-pack/skills/growth-navigator/SKILL.md) | Finds your aspiration and builds your personal growth profile | "what does the next level mean", "am I ready for senior" |
+
+Shared files: [`templates/`](packs/review-cycle-pack/templates/) ships blanks for `team-context.md`, `growth-matrix.md`, `company-direction.md`, and `review-form.md` (the founder's skills fill them in and the kickoff memo distributes them), plus [`question-bank.md`](packs/review-cycle-pack/templates/question-bank.md), which ships complete for managers to use in 1:1s.
+
 ---
 
 ## FAQ
@@ -96,6 +129,9 @@ Yes. Each pack's `install/` folder holds one zip per skill, ready for **Settings
 
 **Do these skills replace the facilitator?**
 No. In the Workshop Pack, Claude designs and captures; humans facilitate. No skill here runs the room. They take everything around the craft off your plate.
+
+**Do I need performance review software to run a review cycle?**
+No. The Annual Review Cycle Pack runs the whole cycle — growth matrix, review forms, self-reviews, manager growth memos, 1:1s, retro — in Claude plus a shared folder of Markdown files. It is built for teams of 20–200, where per-seat performance software costs more than it returns.
 
 **Are the skills free?**
 Free to use inside your company. Not for resale. See [LICENSE](LICENSE.md).
@@ -119,6 +155,7 @@ claude-skills/
 │   │   ├── resources/          # reference files the skills read
 │   │   ├── install/            # one zip per skill, for claude.ai upload
 │   │   └── README.md
+│   ├── review-cycle-pack/      # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   ├── creating-a-pack.md
@@ -136,4 +173,4 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · people ops · ai for consultants</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants</sub>

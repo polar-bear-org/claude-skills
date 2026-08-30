@@ -20,8 +20,23 @@
       "path": "packs/workshop-pack",
       "version": "1.0.0",
       "description": "7 Claude Skills for workshops worth the room: intention framing, agenda design, pre-work, facilitator run sheet, live capture, 48-hour synthesis, and the facilitation retro.",
-      "audience": ["facilitators", "consultants", "founders", "people ops", "product leads"],
-      "keywords": ["workshop", "facilitation", "agenda design", "offsite", "design sprint", "meeting design", "synthesis", "retrospective"],
+      "audience": [
+        "facilitators",
+        "consultants",
+        "founders",
+        "people ops",
+        "product leads"
+      ],
+      "keywords": [
+        "workshop",
+        "facilitation",
+        "agenda design",
+        "offsite",
+        "design sprint",
+        "meeting design",
+        "synthesis",
+        "retrospective"
+      ],
       "resources": [
         {
           "file": "resources/exercise-bank.md",
@@ -34,49 +49,296 @@
           "path": "packs/workshop-pack/skills/intention-framer",
           "order": 1,
           "summary": "Turns \"we should run a workshop\" into a real outcome worth a room, or concludes honestly that it should be an email.",
-          "triggers": ["run intention-framer", "I need to plan a workshop", "we're thinking about a team session", "help me frame this offsite"]
+          "triggers": [
+            "run intention-framer",
+            "I need to plan a workshop",
+            "we're thinking about a team session",
+            "help me frame this offsite"
+          ]
         },
         {
           "name": "agenda-designer",
           "path": "packs/workshop-pack/skills/agenda-designer",
           "order": 2,
           "summary": "Designs the workshop arc: blocks, exercises, timeboxes, group splits, and the energy curve.",
-          "triggers": ["run agenda-designer", "build the workshop agenda", "design the session", "what exercises should we run"]
+          "triggers": [
+            "run agenda-designer",
+            "build the workshop agenda",
+            "design the session",
+            "what exercises should we run"
+          ]
         },
         {
           "name": "pre-work-drafter",
           "path": "packs/workshop-pack/skills/pre-work-drafter",
           "order": 3,
           "summary": "Drafts the invitation, pre-read, come-with ask, and the facilitation team's briefing.",
-          "triggers": ["run pre-work-drafter", "write the workshop invite", "draft the pre-read"]
+          "triggers": [
+            "run pre-work-drafter",
+            "write the workshop invite",
+            "draft the pre-read"
+          ]
         },
         {
           "name": "run-sheet-builder",
           "path": "packs/workshop-pack/skills/run-sheet-builder",
           "order": 4,
           "summary": "Builds the facilitators pack: run sheet with transition scripts and wobble plans, worksheets, canvases, room and tools plan.",
-          "triggers": ["run run-sheet-builder", "build the run sheet", "make the facilitator pack", "prepare the workshop materials"]
+          "triggers": [
+            "run run-sheet-builder",
+            "build the run sheet",
+            "make the facilitator pack",
+            "prepare the workshop materials"
+          ]
         },
         {
           "name": "live-capturer",
           "path": "packs/workshop-pack/skills/live-capturer",
           "order": 5,
           "summary": "Structures post-it walls, flipcharts, board exports, and transcripts while memory is fresh.",
-          "triggers": ["run live-capturer", "here are the photos of the walls", "capture this session"]
+          "triggers": [
+            "run live-capturer",
+            "here are the photos of the walls",
+            "capture this session"
+          ]
         },
         {
           "name": "synthesis-writer",
           "path": "packs/workshop-pack/skills/synthesis-writer",
           "order": 6,
           "summary": "Writes the participant follow-up and the full synthesis within 48 hours of the session.",
-          "triggers": ["run synthesis-writer", "write the workshop synthesis", "send the follow-up to participants"]
+          "triggers": [
+            "run synthesis-writer",
+            "write the workshop synthesis",
+            "send the follow-up to participants"
+          ]
         },
         {
           "name": "workshop-retro",
           "path": "packs/workshop-pack/skills/workshop-retro",
           "order": 7,
           "summary": "Runs the facilitation team's debrief and writes the retro note the next agenda reads.",
-          "triggers": ["run workshop-retro", "let's debrief the session", "what did we learn"]
+          "triggers": [
+            "run workshop-retro",
+            "let's debrief the session",
+            "what did we learn"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "review-cycle-pack",
+      "title": "The Annual Review Cycle Pack",
+      "path": "packs/review-cycle-pack",
+      "version": "1.0.0",
+      "description": "11 Claude Skills that run an annual performance review cycle without performance software: cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1 prep, and the end-of-cycle retro.",
+      "audience": [
+        "founders",
+        "people ops",
+        "HR leads",
+        "managers",
+        "employees"
+      ],
+      "keywords": [
+        "performance review",
+        "annual review",
+        "review cycle",
+        "growth matrix",
+        "career framework",
+        "competency matrix",
+        "levels",
+        "self-review",
+        "growth memo",
+        "one-on-one",
+        "1:1",
+        "feedback",
+        "promotion",
+        "people ops"
+      ],
+      "roles": {
+        "founder": [
+          "cycle-setup",
+          "cycle-planner",
+          "growth-matrix-builder",
+          "review-form-builder",
+          "comms-drafter",
+          "cycle-retro"
+        ],
+        "manager": [
+          "cycle-setup",
+          "review-prepper",
+          "one-on-one-companion"
+        ],
+        "employee": [
+          "cycle-setup",
+          "brag-doc-keeper",
+          "self-review-prepper",
+          "growth-navigator"
+        ]
+      },
+      "resources": [
+        {
+          "file": "templates/team-context.md",
+          "description": "Blank team context file: who is on the team, roles, tenure, context every skill reads. Filled in by cycle-planner."
+        },
+        {
+          "file": "templates/growth-matrix.md",
+          "description": "Blank levels-and-competencies matrix. Filled in by growth-matrix-builder, used by every role."
+        },
+        {
+          "file": "templates/company-direction.md",
+          "description": "Blank one-pager on strategy, client signals, and where the market is going. Refreshed each cycle by cycle-planner."
+        },
+        {
+          "file": "templates/review-form.md",
+          "description": "Blank self-review and manager review form. Filled in by review-form-builder."
+        },
+        {
+          "file": "templates/question-bank.md",
+          "description": "Ships complete: the question bank managers draw on for 1:1s and review conversations."
+        }
+      ],
+      "skills": [
+        {
+          "name": "cycle-setup",
+          "path": "packs/review-cycle-pack/skills/cycle-setup",
+          "order": 1,
+          "role": "all",
+          "summary": "Guided setup: which Project to create, which files to add, and a test run of the first skill. Everyone runs this first.",
+          "triggers": [
+            "run cycle-setup",
+            "set up my review cycle",
+            "how do I get started",
+            "my skills aren't triggering"
+          ]
+        },
+        {
+          "name": "cycle-planner",
+          "path": "packs/review-cycle-pack/skills/cycle-planner",
+          "order": 2,
+          "role": "founder",
+          "summary": "Builds the cycle calendar, team-context.md, and this year's company-direction.md.",
+          "triggers": [
+            "run cycle-planner",
+            "plan our review cycle",
+            "when should we do reviews",
+            "plan review season"
+          ]
+        },
+        {
+          "name": "growth-matrix-builder",
+          "path": "packs/review-cycle-pack/skills/growth-matrix-builder",
+          "order": 3,
+          "role": "founder",
+          "summary": "Drafts a v1 growth matrix: levels and competencies, and what each one actually looks like.",
+          "triggers": [
+            "run growth-matrix-builder",
+            "build our growth matrix",
+            "create career levels",
+            "define competencies",
+            "what does senior mean here"
+          ]
+        },
+        {
+          "name": "review-form-builder",
+          "path": "packs/review-cycle-pack/skills/review-form-builder",
+          "order": 4,
+          "role": "founder",
+          "summary": "Creates the self-review and manager review forms, eight questions maximum.",
+          "triggers": [
+            "run review-form-builder",
+            "create our review form",
+            "what should we ask in reviews"
+          ]
+        },
+        {
+          "name": "comms-drafter",
+          "path": "packs/review-cycle-pack/skills/comms-drafter",
+          "order": 5,
+          "role": "founder",
+          "summary": "Writes the kickoff memo, the manager briefing, every reminder, and the wrap-up, in your tone.",
+          "triggers": [
+            "run comms-drafter",
+            "write the kickoff email",
+            "announce the review cycle",
+            "draft a reminder"
+          ]
+        },
+        {
+          "name": "cycle-retro",
+          "path": "packs/review-cycle-pack/skills/cycle-retro",
+          "order": 6,
+          "role": "founder",
+          "summary": "Closes the cycle and turns what happened into next year's improved plan.",
+          "triggers": [
+            "run cycle-retro",
+            "the review cycle is done",
+            "what should we change next year"
+          ]
+        },
+        {
+          "name": "review-prepper",
+          "path": "packs/review-cycle-pack/skills/review-prepper",
+          "order": 7,
+          "role": "manager",
+          "summary": "One session per direct report: the evidence sheet and the forward-looking growth memo.",
+          "triggers": [
+            "run review-prepper",
+            "help me prepare Maria's review",
+            "I need to write reviews for my team",
+            "build the growth memo"
+          ]
+        },
+        {
+          "name": "one-on-one-companion",
+          "path": "packs/review-cycle-pack/skills/one-on-one-companion",
+          "order": 8,
+          "role": "manager",
+          "summary": "Briefs a manager before every conversation, the weekly 1:1 and the review conversation alike, and digests the transcript afterwards.",
+          "triggers": [
+            "run one-on-one-companion",
+            "prep my 1:1 with [name]",
+            "I'm meeting Maria in an hour",
+            "what should I ask today"
+          ]
+        },
+        {
+          "name": "brag-doc-keeper",
+          "path": "packs/review-cycle-pack/skills/brag-doc-keeper",
+          "order": 9,
+          "role": "employee",
+          "summary": "Logs an employee's wins during the year, so review season has material.",
+          "triggers": [
+            "run brag-doc-keeper",
+            "log a win",
+            "add this to my brag doc",
+            "note what I did this week"
+          ]
+        },
+        {
+          "name": "self-review-prepper",
+          "path": "packs/review-cycle-pack/skills/self-review-prepper",
+          "order": 10,
+          "role": "employee",
+          "summary": "Interviews an employee about their year and drafts the self-review with them.",
+          "triggers": [
+            "run self-review-prepper",
+            "help me write my self-review",
+            "I don't know what to write about my year"
+          ]
+        },
+        {
+          "name": "growth-navigator",
+          "path": "packs/review-cycle-pack/skills/growth-navigator",
+          "order": 11,
+          "role": "employee",
+          "summary": "Reads the growth matrix with the employee, finds their aspiration, and builds a personal growth profile.",
+          "triggers": [
+            "run growth-navigator",
+            "what does the next level mean",
+            "am I ready for senior",
+            "help me figure out where I want to grow"
+          ]
         }
       ]
     }

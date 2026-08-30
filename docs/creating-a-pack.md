@@ -37,7 +37,12 @@ Rules that matter:
 
 ## 3. Add the reference files
 
-Anything the skills read repeatedly goes in `resources/` as Markdown: format libraries, checklists, rubrics, templates. Reference files are shared across a pack's skills; that sharing is what makes a pack more than a folder of prompts.
+Anything the skills read repeatedly goes in Markdown files next to the skills. Two conventions, pick the one that matches what the files are:
+
+- **`resources/`** — reference material the skills read but nobody edits: format libraries, checklists, rubrics. The Workshop Pack's `exercise-bank.md` is one.
+- **`templates/`** — blanks the user fills in, usually by running the pack's own skills. The Review Cycle Pack ships five: four blanks plus one question bank that ships complete.
+
+Reference files are shared across a pack's skills; that sharing is what makes a pack more than a folder of prompts.
 
 ## 4. Build the upload zips
 
@@ -77,6 +82,10 @@ Three files outside your pack folder:
 ```
 
 It checks that manifests parse, names match, every skill has frontmatter with a description, every skill has a zip, and every pack is registered in both indexes.
+
+## Packs with roles
+
+Some packs serve more than one audience — the Review Cycle Pack has six skills for the founder, three for managers, four for employees. Plugin install is all-or-nothing, so a role-split pack installs every skill and sorts it out in the content: give each skill a setup skill to point at, say the role in the pack README's tables, and record it as `role` on each skill in `catalog.json`. On claude.ai, where skills upload one at a time, the role tables tell people which zips to take.
 
 ## Writing for discovery
 
