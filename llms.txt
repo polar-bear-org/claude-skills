@@ -1,0 +1,32 @@
+# Claude Skills by Polar Bear
+
+> A GitHub repository of themed Claude Skill (Agent Skill) packs for Claude Code and Claude.ai. Each pack is an installable Claude Code plugin bundling several SKILL.md skills plus the reference files they share. Repository: https://github.com/polar-bear-org/claude-skills
+
+Install in Claude Code: `/plugin marketplace add polar-bear-org/claude-skills`, then `/plugin install <pack-name>@polar-bear-skills`.
+Install on claude.ai: upload the per-skill zips from a pack's `install/` folder via Settings → Customize → Skills → Upload skill.
+Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a project's `.claude/skills/`.
+
+## Packs
+
+- [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
+
+## Skills
+
+- [intention-framer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/intention-framer/SKILL.md): decides whether a workshop deserves to exist and what it must produce.
+- [agenda-designer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/agenda-designer/SKILL.md): designs blocks, exercises, timings, group splits, and the energy curve.
+- [pre-work-drafter](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/pre-work-drafter/SKILL.md): writes the invitation, pre-read, and facilitator briefing.
+- [run-sheet-builder](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/run-sheet-builder/SKILL.md): builds the facilitators pack and run sheet.
+- [live-capturer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/live-capturer/SKILL.md): structures what the room produced, during and right after the session.
+- [synthesis-writer](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/synthesis-writer/SKILL.md): writes the follow-up and the synthesis within 48 hours.
+- [workshop-retro](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/skills/workshop-retro/SKILL.md): runs the facilitation debrief and writes the retro note.
+
+## Reference
+
+- [exercise-bank.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/resources/exercise-bank.md): the workshop format library — openers, ideation (Crazy 8s, brainwriting 6-3-5, SCAMPER), convergence, decision, and closing exercises with timing, materials, scripts, and failure modes.
+- [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
+- [docs/creating-a-pack.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/creating-a-pack.md): how to add a new pack to this repository.
+- [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
+
+## About
+
+Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by ex-McKinsey consultants. Free to use inside your company, not for resale.

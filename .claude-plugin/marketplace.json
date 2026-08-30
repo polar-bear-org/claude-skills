@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "polar-bear-skills",
+  "owner": {
+    "name": "Polar Bear",
+    "url": "https://github.com/polar-bear-org"
+  },
+  "metadata": {
+    "description": "Themed packs of Claude Skills (Agent Skills) for Claude Code and Claude.ai. Each pack is an installable plugin bundling SKILL.md skills and shared reference files around one job to be done.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "workshop-pack",
+      "source": "./packs/workshop-pack",
+      "description": "7 Claude Skills for running workshops that produce decisions: intention framing, agenda design, pre-work emails, facilitator run sheet, live capture of post-it walls, 48-hour synthesis, and the facilitation retro.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "workshop",
+        "facilitation",
+        "meeting",
+        "agenda",
+        "offsite",
+        "design-sprint",
+        "consulting",
+        "people-ops",
+        "synthesis",
+        "retrospective"
+      ]
+    }
+  ]
+}

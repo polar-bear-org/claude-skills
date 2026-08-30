@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "PACK-NAME",
+  "version": "0.1.0",
+  "description": "One sentence saying what this pack is for and who it is for. This text shows up in the plugin browser and in search results, so lead with the job, not the adjectives.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/PACK-NAME",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": ["keyword-one", "keyword-two", "keyword-three"]
+}

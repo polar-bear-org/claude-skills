@@ -1,0 +1,84 @@
+{
+  "name": "polar-bear-skills",
+  "title": "Claude Skills — themed skill packs for Claude Code and Claude.ai",
+  "description": "A marketplace of themed Claude Skill (Agent Skill) packs. Each pack bundles SKILL.md skills and shared reference files around one job to be done.",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "marketplace": ".claude-plugin/marketplace.json",
+  "install": {
+    "claudeCode": [
+      "/plugin marketplace add polar-bear-org/claude-skills",
+      "/plugin install <pack>@polar-bear-skills"
+    ],
+    "claudeAi": "Settings → Customize → Skills → Upload skill, using the zips in each pack's install/ folder",
+    "manual": "Copy packs/<pack>/skills/* into ~/.claude/skills/ or .claude/skills/"
+  },
+  "license": "Free to use inside your company, not for resale.",
+  "packs": [
+    {
+      "name": "workshop-pack",
+      "title": "The Workshop Pack",
+      "path": "packs/workshop-pack",
+      "version": "1.0.0",
+      "description": "7 Claude Skills for workshops worth the room: intention framing, agenda design, pre-work, facilitator run sheet, live capture, 48-hour synthesis, and the facilitation retro.",
+      "audience": ["facilitators", "consultants", "founders", "people ops", "product leads"],
+      "keywords": ["workshop", "facilitation", "agenda design", "offsite", "design sprint", "meeting design", "synthesis", "retrospective"],
+      "resources": [
+        {
+          "file": "resources/exercise-bank.md",
+          "description": "Format library: openers, alignment, ideation (Crazy 8s, brainwriting 6-3-5, SCAMPER, assumption reversal, mash-ups, idea box, worst-possible-idea, analogy storming), convergence, decision, and closing exercises, each with timing, group size, materials, facilitation script, and failure mode."
+        }
+      ],
+      "skills": [
+        {
+          "name": "intention-framer",
+          "path": "packs/workshop-pack/skills/intention-framer",
+          "order": 1,
+          "summary": "Turns \"we should run a workshop\" into a real outcome worth a room, or concludes honestly that it should be an email.",
+          "triggers": ["run intention-framer", "I need to plan a workshop", "we're thinking about a team session", "help me frame this offsite"]
+        },
+        {
+          "name": "agenda-designer",
+          "path": "packs/workshop-pack/skills/agenda-designer",
+          "order": 2,
+          "summary": "Designs the workshop arc: blocks, exercises, timeboxes, group splits, and the energy curve.",
+          "triggers": ["run agenda-designer", "build the workshop agenda", "design the session", "what exercises should we run"]
+        },
+        {
+          "name": "pre-work-drafter",
+          "path": "packs/workshop-pack/skills/pre-work-drafter",
+          "order": 3,
+          "summary": "Drafts the invitation, pre-read, come-with ask, and the facilitation team's briefing.",
+          "triggers": ["run pre-work-drafter", "write the workshop invite", "draft the pre-read"]
+        },
+        {
+          "name": "run-sheet-builder",
+          "path": "packs/workshop-pack/skills/run-sheet-builder",
+          "order": 4,
+          "summary": "Builds the facilitators pack: run sheet with transition scripts and wobble plans, worksheets, canvases, room and tools plan.",
+          "triggers": ["run run-sheet-builder", "build the run sheet", "make the facilitator pack", "prepare the workshop materials"]
+        },
+        {
+          "name": "live-capturer",
+          "path": "packs/workshop-pack/skills/live-capturer",
+          "order": 5,
+          "summary": "Structures post-it walls, flipcharts, board exports, and transcripts while memory is fresh.",
+          "triggers": ["run live-capturer", "here are the photos of the walls", "capture this session"]
+        },
+        {
+          "name": "synthesis-writer",
+          "path": "packs/workshop-pack/skills/synthesis-writer",
+          "order": 6,
+          "summary": "Writes the participant follow-up and the full synthesis within 48 hours of the session.",
+          "triggers": ["run synthesis-writer", "write the workshop synthesis", "send the follow-up to participants"]
+        },
+        {
+          "name": "workshop-retro",
+          "path": "packs/workshop-pack/skills/workshop-retro",
+          "order": 7,
+          "summary": "Runs the facilitation team's debrief and writes the retro note the next agenda reads.",
+          "triggers": ["run workshop-retro", "let's debrief the session", "what did we learn"]
+        }
+      ]
+    }
+  ]
+}
