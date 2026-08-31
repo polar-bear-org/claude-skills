@@ -12,6 +12,8 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 - [Annual Review Cycle Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack): 11 skills that run an annual performance review cycle without performance software — cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1 prep, and the end-of-cycle retro. Split by role: 6 skills for the founder or people lead, 3 for managers, 4 for employees.
 
+- [Smoke Test Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/smoke-test-pack): 2 skills for keeping a decision trail — meeting notes tidied into decisions, actions, open questions and context the same day, and each real decision logged with what was rejected and how expensive it is to reverse.
+
 ## Skills
 
 ### Workshop Pack
@@ -38,10 +40,16 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [self-review-prepper](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/self-review-prepper/SKILL.md): interviews and drafts the self-review (employee).
 - [growth-navigator](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/skills/growth-navigator/SKILL.md): finds the aspiration and builds a personal growth profile (employee).
 
+### Smoke Test Pack
+
+- [meeting-notes-tidier](https://github.com/polar-bear-org/claude-skills/blob/main/packs/smoke-test-pack/skills/meeting-notes-tidier/SKILL.md): turns raw notes into decisions, actions with owners, open questions and context, and flags the gaps.
+- [decision-logger](https://github.com/polar-bear-org/claude-skills/blob/main/packs/smoke-test-pack/skills/decision-logger/SKILL.md): logs one decision with its alternatives, reversal cost, and who decided.
+
 ## Reference
 
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack/templates): the Review Cycle Pack's shared files — team-context.md, growth-matrix.md, company-direction.md, review-form.md (blanks the founder's skills fill in) and question-bank.md (ships complete, for 1:1s).
 - [exercise-bank.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/resources/exercise-bank.md): the workshop format library — openers, ideation (Crazy 8s, brainwriting 6-3-5, SCAMPER), convergence, decision, and closing exercises with timing, materials, scripts, and failure modes.
+- [note-shapes.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/smoke-test-pack/resources/note-shapes.md): the Smoke Test Pack's shared file — the four-section tidied-note shape plus its gaps list, and the decision log entry shape (decided by, rejected, reversal cost, context), newest first in decision-log.md.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.

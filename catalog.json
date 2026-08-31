@@ -341,6 +341,64 @@
           ]
         }
       ]
+    },
+    {
+      "name": "smoke-test-pack",
+      "title": "The Smoke Test Pack",
+      "path": "packs/smoke-test-pack",
+      "version": "1.0.0",
+      "description": "2 Claude Skills for keeping a decision trail: meeting notes tidied into decisions, actions, open questions and context, and each real decision logged with its alternatives and reversal cost.",
+      "audience": [
+        "teams",
+        "founders",
+        "people ops",
+        "managers",
+        "project leads"
+      ],
+      "keywords": [
+        "meeting notes",
+        "meeting minutes",
+        "decision log",
+        "decision record",
+        "action items",
+        "open questions",
+        "note taking",
+        "documentation",
+        "knowledge management"
+      ],
+      "resources": [
+        {
+          "file": "resources/note-shapes.md",
+          "description": "The two output shapes both skills write: the four-section tidied note (decisions, actions, open questions, context) plus its gaps list, and the decision log entry (decided by, rejected, reversal cost, context), newest first in decision-log.md."
+        }
+      ],
+      "skills": [
+        {
+          "name": "meeting-notes-tidier",
+          "path": "packs/smoke-test-pack/skills/meeting-notes-tidier",
+          "order": 1,
+          "summary": "Turns raw meeting notes into a structured record with decisions, actions with named owners, open questions and context separated, and the gaps flagged.",
+          "triggers": [
+            "run meeting-notes-tidier",
+            "tidy these notes",
+            "clean up my meeting notes",
+            "here's what we talked about, make it readable"
+          ]
+        },
+        {
+          "name": "decision-logger",
+          "path": "packs/smoke-test-pack/skills/decision-logger",
+          "order": 2,
+          "summary": "Records a single decision with its context, what was rejected and why, and whether it is cheap, expensive or one-way to reverse.",
+          "triggers": [
+            "run decision-logger",
+            "log this decision",
+            "we decided X",
+            "write this down before we forget why",
+            "we're going with the second option"
+          ]
+        }
+      ]
     }
   ]
 }

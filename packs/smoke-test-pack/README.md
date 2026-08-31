@@ -4,6 +4,27 @@
 
 Two small skills that work together. `meeting-notes-tidier` turns raw notes into a structured record; `decision-logger` takes anything that turned out to be a real decision and writes it into a durable log with its alternatives and reversal cost. Both read one shared file so the shapes never drift.
 
+---
+
+## Install
+
+### In Claude Code
+
+```
+/plugin marketplace add polar-bear-org/claude-skills
+/plugin install smoke-test-pack@polar-bear-skills
+```
+
+Both skills load at once. Claude picks the right one from what you type ("tidy these notes from this morning"), or you call one by name ("run meeting-notes-tidier"). Update later with `/plugin marketplace update polar-bear-skills`.
+
+### In Claude.ai (web, desktop, mobile)
+
+Each skill in the **install** folder is a ready-to-upload zip. Install yours in Claude: **Settings → Customize → Skills → Upload skill**, one zip per skill. Skills need code execution: turn on "Code execution and file creation" in **Settings → Capabilities** first. (Prefer reading before installing? The **skills** folder holds the same skills as plain SKILL.md files.)
+
+Add `note-shapes.md` from the **resources** folder to your Claude Project as project knowledge; both skills read it.
+
+Full install paths, including copying the folders by hand: [docs/installing.md](../../docs/installing.md).
+
 ## The skills
 
 | Skill | What it does |
