@@ -25,6 +25,8 @@ you: correct the block if needed, comment /ship
       │ page from template → zip → OG card →             │
       │ 8 registration points → npm run build →          │
       │ push site main (Vercel deploys) → close issue    │
+      │ → Telegram: "published", with buttons to the     │
+      │   live page and to the pack on GitHub            │
       └──────────────────────────────────────────────────┘
 ```
 
@@ -82,7 +84,11 @@ recipient must have started a chat with the bot at least once, or Telegram refus
 that one silently. Leave the secrets unset and the bot stays quiet — notifications
 never fail a run.
 
-**The buttons.** Intake's message ends with a choice — `[ Pauline ] [ Alexey ]` —
+**Two messages per pack.** Intake asks who fronts the page; ship reports that it is
+published and hands you two buttons — the live page and the pack on GitHub. The second
+pair are plain link buttons, so they work whether or not the webhook below is wired up.
+
+**The choice buttons.** Intake's message ends with a choice — `[ Pauline ] [ Alexey ]` —
 naming whose author card goes in the page hero. A tap rewrites the `author_*` and
 `cta_url` lines on the issue and comments `/ship` for you, so a pack can be published
 from the phone without opening GitHub.
@@ -126,15 +132,20 @@ a link, tapping their button records the choice on the issue and deliberately do
 bot normalises it.
 
 **Check the answers.** The issue it opens carries a YAML block already drafted from
-the pack's own README. The first half is how the pack is positioned; the second is the
-author card in the hero — whose photo and name sit there, and where the button sends
-people:
+the pack's own README. The first half is how the pack is positioned, `hero_deck`
+included — that is the paragraph under the big headline, the one sentence a visitor
+actually reads before deciding to scroll. The second half is the author card in the
+hero: whose photo and name sit there, and where the button sends people:
 
 ```yaml
 slug: hiring-pack
 title: 9 Claude Skills That Run Your Hiring Loop
 tag: Hiring · Free pack
 description: One sentence for the catalogue card and the meta description.
+hero_deck: |
+  Skills that run a company's hiring loop end to end, inside Claude: they write
+  the scorecard, build the interview kit, keep the debrief honest, and turn a
+  decision into an offer people say yes to.
 audience: Who this is for, one line.
 takeaway: What a reader leaves with, one line.
 og_head: 9 Claude skills that run your hiring loop

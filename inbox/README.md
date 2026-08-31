@@ -22,8 +22,10 @@ Within a few minutes the bot has:
    whose photo, name and calendar link sit in the hero's author card — already filled
    in with its best draft.
 
-**Read that block, correct anything wrong, comment `/ship`.** The bot then builds the
-page, the download zip and the social card in the website repo and pushes them live.
+**Read that block, correct anything wrong, comment `/ship`** — or just tap the author
+button in Telegram, which does both. The bot then builds the page, the download zip and
+the social card in the website repo, pushes them live, and messages you back with links
+to the page and to the pack on GitHub.
 
 Nothing else is expected of you. The bot never guesses at a skill's content — if
 something in the pack is malformed it stops and says so on the issue rather than

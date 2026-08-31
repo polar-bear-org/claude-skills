@@ -146,6 +146,10 @@ slug: <name>                      # the URL: meet-polar-bear.com/skills/<slug>
 title: <the h1, and the SkillsIndex card title>
 tag: <Category · Free pack>       # e.g. "Facilitation · Free pack"
 description: <one sentence for the catalogue card and the meta description>
+hero_deck: |
+  <the paragraph under the h1 in the hero, 2-3 sentences, ~40 words. Different
+  from `description`: that one is a card subtitle, this is the page speaking.
+  Name what the skills do, in sequence, in the pack's own vocabulary.>
 audience: <who this is for, one line>
 takeaway: <what a reader leaves with, one line>
 og_head: <the OG card headline — normally the h1 verbatim>
@@ -234,7 +238,12 @@ Workshop) and write `site/src/pages/SkillPack<PascalName>.tsx` from it.
 
 What changes: the hero copy from the issue block, the skill table built from the
 pack's own `SKILL.md` descriptions, the shared-files section, and the install
-instructions with the new slug. Do not invent testimonials, numbers, or claims that
+instructions with the new slug.
+
+**The hero is two fields, not one.** `title` is the `<h1>`; `hero_deck` is the
+`<motion.p>` directly under it — the wide, low-contrast paragraph, `maxWidth: "62ch"`.
+Use `hero_deck` verbatim there and nowhere else. `description` belongs to the meta
+tag, the prerender and the `SkillsIndex` card, never to the hero. Do not invent testimonials, numbers, or claims that
 are not in the pack or the issue block.
 
 **Wire the author card from the issue block, never from the template.** The template
@@ -307,4 +316,24 @@ Vercel deploys `main`, so this is live within a couple of minutes.
 
 Comment on the issue with the two URLs — `https://meet-polar-bear.com/skills/<slug>`
 and the repo path — plus a one-line list of the eight points you touched, then
-`gh issue close <n>`. Send the Telegram line if configured.
+`gh issue close <n>`.
+
+Then tell Telegram it is published, with both links as tappable buttons. Send to every
+id in `TELEGRAM_CHAT_ID`:
+
+```bash
+PAGE="https://meet-polar-bear.com/skills/$SLUG"
+REPO="https://github.com/polar-bear-org/claude-skills/tree/main/packs/$SLUG"
+TEXT="✅ <b>$TITLE</b> published\n\n$N skills · /skills/$SLUG\n\nVercel takes a couple of minutes to deploy."
+for chat in ${TELEGRAM_CHAT_ID//,/ }; do
+  curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+    -H 'Content-Type: application/json' \
+    -d "$(jq -nc --arg chat "$chat" --arg text "$TEXT" --arg page "$PAGE" --arg repo "$REPO" \
+      '{chat_id:$chat, text:$text, parse_mode:"HTML", disable_web_page_preview:true,
+        reply_markup:{inline_keyboard:[[{text:"🌐 Open the page", url:$page},
+                                        {text:"⌥ GitHub",        url:$repo}]]}}')" >/dev/null
+done
+```
+
+These are `url` buttons, not `callback_data` — they open the link directly and need no
+webhook. If Telegram is not configured, skip this.
