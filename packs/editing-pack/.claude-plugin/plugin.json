@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "editing-pack",
+  "version": "1.0.0",
+  "description": "The Editing Pack: 3 Claude Skills for making writing better without making it sound generated. Fix the shape of a draft, cut the sentences that do not earn their place, and rewrite the result in the writer's own voice.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/editing-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "editing",
+    "copy-editing",
+    "line-editing",
+    "writing",
+    "proofreading",
+    "prose",
+    "document-structure",
+    "voice",
+    "tone-of-voice",
+    "style-guide",
+    "drafting",
+    "content-writing"
+  ]
+}

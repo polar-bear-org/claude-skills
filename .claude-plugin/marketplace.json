@@ -63,6 +63,34 @@
         "hr",
         "promotion"
       ]
+    },
+    {
+      "name": "editing-pack",
+      "source": "./packs/editing-pack",
+      "description": "3 Claude Skills for making writing better without making it sound generated: structural diagnosis of a draft, line-by-line cutting, and rewriting in the writer's own voice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/editing-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "editing",
+        "copy-editing",
+        "line-editing",
+        "writing",
+        "proofreading",
+        "prose",
+        "document-structure",
+        "voice",
+        "tone-of-voice",
+        "style-guide",
+        "drafting",
+        "content-writing"
+      ]
     }
   ]
 }

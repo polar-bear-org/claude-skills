@@ -341,6 +341,80 @@
           ]
         }
       ]
+    },
+    {
+      "name": "editing-pack",
+      "title": "The Editing Pack",
+      "path": "packs/editing-pack",
+      "version": "1.0.0",
+      "description": "3 Claude Skills for making writing better without making it sound generated: diagnosing the shape of a draft, cutting line by line, and rewriting in the writer's own voice.",
+      "audience": [
+        "founders",
+        "consultants",
+        "marketers",
+        "writers",
+        "anyone who drafts fast"
+      ],
+      "keywords": [
+        "editing",
+        "copy-editing",
+        "line editing",
+        "writing",
+        "proofreading",
+        "prose",
+        "document structure",
+        "voice",
+        "tone of voice",
+        "style guide",
+        "drafting",
+        "content writing"
+      ],
+      "resources": [
+        {
+          "file": "resources/house-style.md",
+          "description": "The house rules all three skills read: the defaults (say the thing, concrete over abstract, no corporate throat-clearing, hedge once, short words win), rhythm, formatting, what never gets touched, and the final check."
+        }
+      ],
+      "skills": [
+        {
+          "name": "structure-doctor",
+          "path": "packs/editing-pack/skills/structure-doctor",
+          "order": 1,
+          "summary": "Diagnoses and fixes the shape of a document: what comes first, what is buried, what should not be there at all.",
+          "triggers": [
+            "run structure-doctor",
+            "this doesn't flow",
+            "help me organise this",
+            "what order should this be in",
+            "something's off with this doc"
+          ]
+        },
+        {
+          "name": "line-editor",
+          "path": "packs/editing-pack/skills/line-editor",
+          "order": 2,
+          "summary": "Edits prose line by line, cutting what does not earn its place without changing the writer's meaning.",
+          "triggers": [
+            "run line-editor",
+            "edit this",
+            "tighten this up",
+            "make this shorter",
+            "clean up my draft"
+          ]
+        },
+        {
+          "name": "voice-matcher",
+          "path": "packs/editing-pack/skills/voice-matcher",
+          "order": 3,
+          "summary": "Learns how someone writes from a sample and rewrites text in that voice.",
+          "triggers": [
+            "run voice-matcher",
+            "make this sound like me",
+            "rewrite in my voice",
+            "this sounds like AI wrote it"
+          ]
+        }
+      ]
     }
   ]
 }
