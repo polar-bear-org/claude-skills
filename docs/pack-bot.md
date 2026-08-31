@@ -99,7 +99,8 @@ which belongs to the article bot and is bound to that bot's token. To wire it up
    | `PACK_BOT_WEBHOOK_SECRET` | any long random string you invent |
    | `PACK_BOT_CHAT_IDS` | the same ids as `TELEGRAM_CHAT_ID`, comma-separated |
    | `PACK_BOT_GH_TOKEN` | a token with Issues write on `claude-skills` — the same value as `SITE_REPO_TOKEN` works |
-   | `PACK_BOT_CAL_ALEXEY` | Alexey's calendar link, if he has one (optional) |
+   | `PACK_BOT_CAL_ALEXEY` | overrides Alexey's calendar link (optional) |
+   | `PACK_BOT_CAL_PAULINE` | overrides Pauline's calendar link (optional) |
 
 2. Point the bot's webhook at the endpoint, from the website repo:
 
@@ -111,9 +112,10 @@ Only these two people can be chosen, because only `pauline.png` and `alexey.png`
 in the website's `public/team/`. Adding a third is two edits: the photo, and an entry
 in the `AUTHORS` table at the top of `api/tg/pack.ts`.
 
-Alexey has no published calendar link. Until `PACK_BOT_CAL_ALEXEY` is set, tapping his
-button records the choice on the issue but deliberately does **not** ship — a button
-that goes nowhere is worse than a missing page.
+Each author carries their own calendar link, and it moves with them: choosing Alexey
+swaps `cta_url` to his Calendly, not just his face. If an author is ever added without
+a link, tapping their button records the choice on the issue and deliberately does
+**not** ship — a button that goes nowhere is worse than a missing page.
 
 ---
 
@@ -199,7 +201,7 @@ changes needed.
 | Ship refuses and asks for a calendar link | `cta_url` in the YAML block is blank — fill it in and comment `/ship` again |
 | Ship stops on a missing avatar | `author_photo` points at a file that is not in the website's `public/team/` — add it there first |
 | Buttons do nothing when tapped | The webhook is not registered, or `PACK_BOT_WEBHOOK_SECRET` differs between Vercel and `setWebhook`; check the function logs on Vercel |
-| Alexey's button says "needs a calendar link" | `PACK_BOT_CAL_ALEXEY` is unset — add it, or put the link in `cta_url` on the issue and comment `/ship` |
+| A button says "needs a calendar link" | That author has no `cal` in the `AUTHORS` table — add one, or put the link in `cta_url` on the issue and comment `/ship` |
 
 Runs are visible under **Actions → Pack bot**, and each run's log holds the full
 Claude transcript.
