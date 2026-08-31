@@ -120,9 +120,17 @@ git push origin main
 
 ### 7. Open the handover issue
 
-The website page needs six things the pack's files do not contain. Draft each one
-yourself from the pack's README and skills — a filled-in draft someone corrects
-beats an empty form — then open the issue with `gh issue create`.
+The website page needs a set of things the pack's files do not contain: how the pack
+is positioned, and whose face and calendar sit in the hero's author card. Draft every
+value yourself — a filled-in draft someone corrects beats an empty form — then open
+the issue with `gh issue create`.
+
+For the author block, default to whoever appears on the template page you would clone,
+and adapt only `author_pitch` to this pack's subject. The two people with photos in the
+website repo are Pauline Bertry (`/team/pauline.png`) and Alexey Lobachev
+(`/team/alexey.png`); check `site`-side `public/team/` at ship time if you need others.
+Never invent a calendar URL: reuse the one already on the template page, and if none
+applies, leave `cta_url` blank so the human has to fill it in.
 
 Title: `Pack bot: <name>`
 
@@ -143,6 +151,15 @@ takeaway: <what a reader leaves with, one line>
 og_head: <the OG card headline — normally the h1 verbatim>
 og_meta: <e.g. "A free Claude skills pack · 8 min read">
 order: <first|last>               # where it sits in the /skills catalogue
+
+# The author card in the hero — whose face, and where the button sends people.
+author_name: <full name>
+author_photo: <e.g. /team/pauline.png — must already exist in the site's public/team/>
+author_title: <the small mono line under the name, e.g. "ex-McKinsey Manager">
+author_linkedin: <profile URL, the icon next to the name>
+author_pitch: <two sentences in their voice, written for THIS pack's subject>
+cta_label: <the button, e.g. "Find 30 min together">
+cta_url: <the calendar link the button opens — leave blank if unsure, never invent one>
 ```
 
 <one paragraph on what the pack is, drafted from its README>
@@ -193,6 +210,22 @@ What changes: the hero copy from the issue block, the skill table built from the
 pack's own `SKILL.md` descriptions, the shared-files section, and the install
 instructions with the new slug. Do not invent testimonials, numbers, or claims that
 are not in the pack or the issue block.
+
+**Wire the author card from the issue block, never from the template.** The template
+page hardcodes one person; the new page uses the values you were given:
+
+| YAML key | Where it lands |
+|---|---|
+| `author_name` | the name next to the avatar, the `Built by <name>` heading, and the LinkedIn `aria-label` |
+| `author_photo` | the `<img src>` of the avatar — verify the file exists under `site/public/team/` and stop if it does not |
+| `author_title` | the small uppercase mono line under the name |
+| `author_linkedin` | the `LINKEDIN_URL` constant |
+| `author_pitch` | the paragraph under the `Built by` heading |
+| `cta_label` | the `Pill` label in the card, and the matching one in the closing section |
+| `cta_url` | the `CAL_URL` constant, used by both of those buttons |
+
+If `cta_url` is blank, do not ship: comment on the issue asking for it and stop. A
+button that goes nowhere is worse than a missing page.
 
 ### 3. Build the download zip
 

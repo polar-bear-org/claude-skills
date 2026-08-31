@@ -1,7 +1,7 @@
 # The pack bot
 
-Drop a pack folder in [`inbox/`](../inbox/), push, answer six questions on an issue,
-comment `/ship`. The bot lands the pack in this repository and builds its page on
+Drop a pack folder in [`inbox/`](../inbox/), push, check the answers it drafted on an
+issue, comment `/ship`. The bot lands the pack in this repository and builds its page on
 [meet-polar-bear.com](https://meet-polar-bear.com/skills).
 
 It is a GitHub Actions workflow running headless Claude Code, so it needs no server
@@ -14,7 +14,8 @@ you: cp -r ~/Downloads/hiring-pack inbox/ && git push
       │ INTAKE   (automatic, ~3 min)                     │
       │ normalise → register → validate → push main      │
       │ → open issue "Pack bot: hiring-pack" with a      │
-      │   pre-filled YAML block of six answers           │
+      │   pre-filled YAML block: positioning + the       │
+      │   author card in the hero                        │
       └──────────────┬───────────────────────────────────┘
                      │
 you: correct the block if needed, comment /ship
@@ -89,8 +90,10 @@ never fail a run.
 `skills/` directory, a bare pile of `SKILL.md` folders, even a committed zip. The
 bot normalises it.
 
-**Answer the questions.** The issue it opens carries a YAML block with six values
-already drafted from the pack's own README:
+**Check the answers.** The issue it opens carries a YAML block already drafted from
+the pack's own README. The first half is how the pack is positioned; the second is the
+author card in the hero — whose photo and name sit there, and where the button sends
+people:
 
 ```yaml
 slug: hiring-pack
@@ -102,7 +105,22 @@ takeaway: What a reader leaves with, one line.
 og_head: 9 Claude skills that run your hiring loop
 og_meta: A free Claude skills pack · 7 min read
 order: first
+
+author_name: Pauline Bertry
+author_photo: /team/pauline.png
+author_title: ex-McKinsey Manager
+author_linkedin: https://www.linkedin.com/in/paulinebertry/
+author_pitch: Curious how AI can run your hiring loop? Bring your open roles, your
+  scorecards, or just your team's situation.
+cta_label: Find 30 min together
+cta_url: https://cal.com/pauline-bertry/people-ops
 ```
+
+The photo must already exist in the website repo under `public/team/` — today that
+means `pauline.png` or `alexey.png`; add a new one there first if the pack belongs to
+someone else. The bot never invents a calendar link: if `cta_url` comes back blank, it
+refuses to ship and asks you for it, because a button that goes nowhere is worse than
+a missing page.
 
 Edit the issue body if anything is wrong — the bot reads the newest version — then
 comment `/ship`.
@@ -145,6 +163,8 @@ changes needed.
 | Page is live but previews as the homepage | The OG card or the prerender was skipped — see points 4 and 6 in the runbook |
 | Page is live but bots see an empty shell | The path was added to `ROUTE_MAP` but not to `config.matcher` in `middleware.js` |
 | Two packs published at once, one silently queued | Intake handles one folder per run and says so on the issue; push the second again |
+| Ship refuses and asks for a calendar link | `cta_url` in the YAML block is blank — fill it in and comment `/ship` again |
+| Ship stops on a missing avatar | `author_photo` points at a file that is not in the website's `public/team/` — add it there first |
 
 Runs are visible under **Actions → Pack bot**, and each run's log holds the full
 Claude transcript.
