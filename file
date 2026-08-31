@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+<!-- Google Tag Manager (GTM-TPXQZK2R) — first in the head, before the tags
+     below, so nothing is measured before the container exists.
+
+     Two things whoever wires the container needs to know about this page,
+     which the brief did not have:
+       1. GA4 G-X3LT4HLBEE is already configured here by /ga-consent.js. The
+          container carries G-75Y07J49C7, a different property — so both will
+          collect, into two properties, rather than one double-counting. That
+          may be intended (the container's stream is named "Quiz POI"); it is
+          not an accident of this install.
+       2. There IS a cookie banner on this site, and Consent Mode v2 defaults
+          everything to denied until it is accepted — see /ga-consent.js. Tags
+          added to the container inherit that. The quiz page is the single
+          exception and says so in its own head. -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TPXQZK2R');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Analytics 4 (G-X3LT4HLBEE) + Consent Mode v2 -->
+<script src="/ga-consent.js"></script>
+<!-- Meta Pixel (2206838633438748) — consent-gated, see meta-pixel.js -->
+<script src="/meta-pixel.js"></script>
+<!-- Lead attribution (UTM capture) -->
+<script src="/attribution.js"></script>
+<!-- Site-wide email capture -->
+<script src="/email-capture.js" defer></script>
+  <meta name="google-site-verification" content="S8-j1dALkjE3TCA2ucCRmf4Oe-OIXPskoWvJtRvRh8M" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polar Bear — People Ops for agencies</title>
+  <meta name="description"
+    content="People practices of top firms, enabled by AI, tailored to your team, by ex-McKinsey founders. Career frameworks, review cycles, onboarding, and engagement surveys." />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://meet-polar-bear.com/" />
+  <meta property="og:title" content="Polar Bear — People Ops for agencies" />
+  <meta property="og:description"
+    content="People practices of top firms, enabled by AI, tailored to your team, by ex-McKinsey founders." />
+  <meta property="og:image" content="https://meet-polar-bear.com/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Polar Bear — People Ops for agencies" />
+  <meta name="twitter:description"
+    content="People practices of top firms, enabled by AI, tailored to your team, by ex-McKinsey founders." />
+  <meta name="twitter:image" content="https://meet-polar-bear.com/og-image.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Preload critical hero image -->
+  <link rel="preload" href="/podcast-hero.webp" as="image" type="image/webp" />
+
+  <!-- Google Fonts: preconnect then non-blocking load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+
+  <!-- Critical inline CSS: prevents white flash before React + external CSS load -->
+  <style>
+    body { background-color: #f8f6f1; margin: 0; }
+    /* Visually hide SEO fallback content inside #root while React loads.
+       These selectors only match the bare h1/p/h2/ul directly in #root,
+       not React-rendered content (which is always wrapped in component divs). */
+    #root > h1, #root > p, #root > h2, #root > ul {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px; width: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+    }
+  </style>
+
+  <!-- Fonts now loaded via Fontsource in main.tsx -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://meet-polar-bear.com/#organization",
+      "name": "Polar Bear",
+      "alternateName": "Polar Bear People Ops",
+      "url": "https://meet-polar-bear.com",
+      "description": "People systems consultancy that builds and runs custom performance management systems, career frameworks, review cycles, onboarding systems, and handbooks for creative agencies, design studios, digital boutiques, and product teams of 20 to 200 people.",
+      "foundingDate": "2026",
+      "founder": [
+        {
+          "@type": "Person",
+          "@id": "https://meet-polar-bear.com/#pauline",
+          "name": "Pauline Bertry",
+          "jobTitle": "Co-founder",
+          "description": "10+ years leading product and design teams. Built and led Design Hubs at McKinsey Moscow and Budapest. Created career frameworks and growth systems tested with 100+ person cross-functional product teams.",
+          "alumniOf": { "@type": "Organization", "name": "McKinsey & Company" },
+          "sameAs": "https://www.linkedin.com/in/paulinebertry/"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://meet-polar-bear.com/#alexey",
+          "name": "Alexey Lobachev",
+          "jobTitle": "Co-founder",
+          "description": "9 years running communication, people, experience and engagement programs at McKinsey taught him the hardest skill in operations: knowing what to delegate, what to automate, and what to leave alone. As a co-founder of Polar Bear he applies that instinct to AI agents, building them to augment the internal processes and tools his team already runs on.",
+          "alumniOf": { "@type": "Organization", "name": "McKinsey & Company" },
+          "sameAs": "https://www.linkedin.com/in/alexey-lobachev-tor/"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "serviceType": [
+        "People operations consulting",
+        "Career framework design",
+        "Performance review cycle design and facilitation",
+        "Manager enablement",
+        "Onboarding system design",
+        "Employee engagement surveys"
+      ],
+      "knowsAbout": [
+        "Career frameworks",
+        "Performance management",
+        "Review cycles",
+        "People operations",
+        "Onboarding design",
+        "Employee engagement",
+        "Leadership development",
+        "Calibration",
+        "Manager enablement",
+        "Agency people ops",
+        "Design agency operations"
+      ],
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Creative agencies, design studios, digital boutiques, and product teams of 20 to 200 people"
+      },
+      "sameAs": [
+        "https://people-ops-index.vercel.app"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://meet-polar-bear.com/#website",
+      "url": "https://meet-polar-bear.com",
+      "name": "Polar Bear: people ops systems for agencies",
+      "description": "People practices of top firms, enabled by AI, tailored to your team, by ex-McKinsey founders. Career frameworks, review cycles, engagement surveys.",
+      "publisher": {
+        "@id": "https://meet-polar-bear.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Career Paths and Review Cycles",
+      "description": "Clear progression frameworks with 5 to 7 levels and structured feedback cycles that help people grow and stay. Includes evaluation criteria, calibration process, and manager templates. Delivered in 4 to 5 weeks.",
+      "provider": { "@id": "https://meet-polar-bear.com/#organization" },
+      "serviceType": "Career framework and performance review design",
+      "areaServed": "Worldwide"
+    },
+    {
+      "@type": "Service",
+      "name": "Onboarding and People Engagement",
+      "description": "Structured 30/60/90 day onboarding frameworks and pulse survey systems connected to the growth framework. Makes people feel they belong from day one.",
+      "provider": { "@id": "https://meet-polar-bear.com/#organization" },
+      "serviceType": "Onboarding and engagement system design",
+      "areaServed": "Worldwide"
+    },
+    {
+      "@type": "Service",
+      "name": "Upskilling and Leadership Workshops",
+      "description": "Practical capability-building sessions for teams and leaders: feedback skills, AI in workflows, ownership and self-reflection. Interactive and discussion-based.",
+      "provider": { "@id": "https://meet-polar-bear.com/#organization" },
+      "serviceType": "Workshop facilitation and training",
+      "areaServed": "Worldwide"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://meet-polar-bear.com/#growth-hub",
+      "name": "Growth Hub",
+      "description": "A bespoke, semi-custom review cycle platform built for agencies. 7 modules covering the full cycle: Exposure List, Self-Reflection Memo with AI coaching, Growth Advisor Dashboard, Growth Memo, Growth Committee calibration workspace, Progress Dashboard with org-wide analytics, and Employee Results page. Saves up to 6 hours per advisor per cycle.",
+      "applicationCategory": "BusinessApplication",
+      "url": "https://meet-polar-bear.com/tools/growth-hub",
+      "creator": { "@id": "https://meet-polar-bear.com/#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "People Ops Index",
+      "description": "Free 25-question diagnostic tool for agency founders. Covers Career Progression, Learning and Development, Engagement and Retention, Culture and Leadership, and Future-Proofing. Takes 7 minutes, delivers a score out of 100 with a named diagnosis and one clear next action.",
+      "applicationCategory": "BusinessApplication",
+      "url": "https://people-ops-index.vercel.app",
+      "creator": { "@id": "https://meet-polar-bear.com/#organization" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "Article",
+      "headline": "First review cycle for a distributed digital agency across three continents",
+      "description": "Case study: 8-week engagement delivering a career framework and end-to-end review cycle for a distributed digital agency of approximately 35 people across the US, Brazil, and India. 89+ feedback conversations, 18 Growth Advisors trained.",
+      "url": "https://meet-polar-bear.com/case-studies/digital-agency-review-cycle",
+      "author": { "@id": "https://meet-polar-bear.com/#organization" },
+      "publisher": { "@id": "https://meet-polar-bear.com/#organization" },
+      "about": { "@type": "Thing", "name": "Performance review cycle delivery for creative agencies" }
+    }
+  ]
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-Bbk4XDvL.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DWyBcyxK.css">
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPXQZK2R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <div id="root">
+    <h1>Polar Bear — People Ops for agencies</h1>
+    <p>Polar Bear was launched in 2026 by two practitioners with 25+ combined years inside McKinsey's people function: Pauline Bertry and Alexey Lobachev. Based in Toronto, working globally.</p>
+    <p>We build rigorous people ops systems for creative agencies, design studios, digital boutiques, and product teams of 20 to 200 people. Career frameworks, review cycles, onboarding design, handbooks, upskilling workshops, and engagement surveys. We build the system, run the first cycle, train the team, and leave you owning it.</p>
+    <h2>Services</h2>
+    <ul>
+      <li>Career frameworks</li>
+      <li>Review cycles</li>
+      <li>Handbooks</li>
+      <li>Workshops</li>
+      <li>Onboarding design</li>
+      <li>Engagement and pulse surveys</li>
+    </ul>
+    <h2>Tools</h2>
+    <p>Growth Hub: A bespoke, semi-custom review cycle platform built for agencies. Saves up to 6 hours per advisor per cycle.</p>
+    <p>People Ops Index: Free 25-question diagnostic. Score out of 100 in 7 minutes.</p>
+  </div>
+</body>
+
+</html>

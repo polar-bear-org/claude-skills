@@ -63,31 +63,6 @@
         "hr",
         "promotion"
       ]
-    },
-    {
-      "name": "smoke-test-pack",
-      "source": "./packs/smoke-test-pack",
-      "description": "2 Claude Skills for keeping a decision trail: raw meeting notes tidied into decisions, actions, open questions and context, and every real decision logged with what was rejected and how expensive it is to reverse.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
-      },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/smoke-test-pack",
-      "repository": "https://github.com/polar-bear-org/claude-skills",
-      "license": "LicenseRef-PolarBear-Internal-Use",
-      "category": "productivity",
-      "keywords": [
-        "meeting-notes",
-        "meeting-minutes",
-        "decision-log",
-        "decision-record",
-        "action-items",
-        "note-taking",
-        "documentation",
-        "knowledge-management",
-        "people-ops"
-      ]
     }
   ]
 }

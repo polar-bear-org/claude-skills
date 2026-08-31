@@ -17,7 +17,6 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 |------|--------|----------------|---------|
 | **[Workshop Pack](packs/workshop-pack/)** | 7 | Running workshops, offsites, and facilitated working sessions that end with a decision, not a feeling | `/plugin install workshop-pack@polar-bear-skills` |
 | **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
-| **[Smoke Test Pack](packs/smoke-test-pack/)** | 2 | Keeping a decision trail — meeting notes tidied into decisions, actions and open questions the same day, and every real decision logged with its alternatives and reversal cost | `/plugin install smoke-test-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
 
@@ -111,15 +110,6 @@ Eleven skills across three roles. You install the three or six that match your r
 | [`growth-navigator`](packs/review-cycle-pack/skills/growth-navigator/SKILL.md) | Finds your aspiration and builds your personal growth profile | "what does the next level mean", "am I ready for senior" |
 
 Shared files: [`templates/`](packs/review-cycle-pack/templates/) ships blanks for `team-context.md`, `growth-matrix.md`, `company-direction.md`, and `review-form.md` (the founder's skills fill them in and the kickoff memo distributes them), plus [`question-bank.md`](packs/review-cycle-pack/templates/question-bank.md), which ships complete for managers to use in 1:1s.
-
-### Smoke Test Pack — [`packs/smoke-test-pack`](packs/smoke-test-pack/)
-
-| Skill | What it does | Say this to trigger it |
-|-------|--------------|------------------------|
-| [`meeting-notes-tidier`](packs/smoke-test-pack/skills/meeting-notes-tidier/SKILL.md) | Separates decisions, actions with named owners, open questions and context, and flags what the notes never said | "tidy these notes", "clean up my meeting notes" |
-| [`decision-logger`](packs/smoke-test-pack/skills/decision-logger/SKILL.md) | Records one decision with what was rejected, why, and whether it is cheap, expensive or one-way to reverse | "log this decision", "write this down before we forget why" |
-
-Shared reference file: [`note-shapes.md`](packs/smoke-test-pack/resources/note-shapes.md) — the two output shapes both skills write, kept in one place so they never drift: the four-section tidied note plus its gaps list, and the decision log entry.
 
 ---
 
