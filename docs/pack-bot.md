@@ -73,14 +73,47 @@ claude setup-token
 Store the result as the secret `CLAUDE_CODE_OAUTH_TOKEN`. This is the same secret
 name the website repo's `article-bot.yml` already uses, so you can reuse that value.
 
-### 3. Telegram, optional
+### 3. Telegram, and the author buttons
 
-Set the secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` to get a one-line
-message when each phase finishes. `TELEGRAM_CHAT_ID` takes one id or several
+Set the secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` to get a message when each
+phase finishes. `TELEGRAM_CHAT_ID` takes one id or several
 comma-separated (`1692665541,248227147`) and the bot messages each of them; every
 recipient must have started a chat with the bot at least once, or Telegram refuses
 that one silently. Leave the secrets unset and the bot stays quiet — notifications
 never fail a run.
+
+**The buttons.** Intake's message ends with a choice — `[ Pauline ] [ Alexey ]` —
+naming whose author card goes in the page hero. A tap rewrites the `author_*` and
+`cta_url` lines on the issue and comments `/ship` for you, so a pack can be published
+from the phone without opening GitHub.
+
+That tap is handled by `api/tg/pack.ts` in the **website** repo, deployed on Vercel at
+`https://meet-polar-bear.com/api/tg/pack`. It is separate from `api/tg/webhook.ts`,
+which belongs to the article bot and is bound to that bot's token. To wire it up:
+
+1. Add these environment variables to the website's Vercel project:
+
+   | Name | Value |
+   |------|-------|
+   | `PACK_BOT_TG_TOKEN` | the pack bot's Telegram token |
+   | `PACK_BOT_WEBHOOK_SECRET` | any long random string you invent |
+   | `PACK_BOT_CHAT_IDS` | the same ids as `TELEGRAM_CHAT_ID`, comma-separated |
+   | `PACK_BOT_GH_TOKEN` | a token with Issues write on `claude-skills` — the same value as `SITE_REPO_TOKEN` works |
+   | `PACK_BOT_CAL_ALEXEY` | Alexey's calendar link, if he has one (optional) |
+
+2. Point the bot's webhook at the endpoint, from the website repo:
+
+   ```bash
+   BOT_TOKEN=<pack bot token>    WEBHOOK_SECRET=<the same secret>    WEBHOOK_URL=https://meet-polar-bear.com/api/tg/pack      bash scripts/set-telegram-webhook.sh
+   ```
+
+Only these two people can be chosen, because only `pauline.png` and `alexey.png` exist
+in the website's `public/team/`. Adding a third is two edits: the photo, and an entry
+in the `AUTHORS` table at the top of `api/tg/pack.ts`.
+
+Alexey has no published calendar link. Until `PACK_BOT_CAL_ALEXEY` is set, tapping his
+button records the choice on the issue but deliberately does **not** ship — a button
+that goes nowhere is worse than a missing page.
 
 ---
 
@@ -165,6 +198,8 @@ changes needed.
 | Two packs published at once, one silently queued | Intake handles one folder per run and says so on the issue; push the second again |
 | Ship refuses and asks for a calendar link | `cta_url` in the YAML block is blank — fill it in and comment `/ship` again |
 | Ship stops on a missing avatar | `author_photo` points at a file that is not in the website's `public/team/` — add it there first |
+| Buttons do nothing when tapped | The webhook is not registered, or `PACK_BOT_WEBHOOK_SECRET` differs between Vercel and `setWebhook`; check the function logs on Vercel |
+| Alexey's button says "needs a calendar link" | `PACK_BOT_CAL_ALEXEY` is unset — add it, or put the link in `cta_url` on the issue and comment `/ship` |
 
 Runs are visible under **Actions → Pack bot**, and each run's log holds the full
 Claude transcript.

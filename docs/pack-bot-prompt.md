@@ -170,7 +170,32 @@ cta_url: <the calendar link the button opens — leave blank if unsure, never in
 ````
 
 Add anything you had to guess or invent as a short `> Note:` line under the block.
-Then post the Telegram line, if configured, and finish.
+
+### 8. Ask who fronts the page, with buttons
+
+Instead of the plain status line, INTAKE's Telegram message carries the author choice
+as two inline buttons. A tap is handled by `api/tg/pack.ts` on the website: it rewrites
+the `author_*` and `cta_url` lines in the issue and comments `/ship` for you, so the
+whole publish can happen from the phone.
+
+Send it to every id in `TELEGRAM_CHAT_ID`, substituting the issue number and title:
+
+```bash
+for chat in ${TELEGRAM_CHAT_ID//,/ }; do
+  curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+    -H 'Content-Type: application/json' \
+    -d "$(jq -nc --arg chat "$chat" --arg text "$TEXT" --arg cb1 "pa:$ISSUE:pauline" --arg cb2 "pa:$ISSUE:alexey" \
+      '{chat_id:$chat, text:$text, parse_mode:"HTML", disable_web_page_preview:true,
+        reply_markup:{inline_keyboard:[[{text:"Pauline",callback_data:$cb1},
+                                        {text:"Alexey", callback_data:$cb2}]]}}')" >/dev/null
+done
+```
+
+`$TEXT` is three short lines: the pack name and skill count, the issue link, and
+`Whose author card goes in the hero?`. Keep it under 300 characters — it is read on a
+phone.
+
+If Telegram is not configured, skip this and finish; the issue alone is enough.
 
 ---
 
@@ -187,8 +212,9 @@ gh issue view <n> --json body,title
 ```
 
 Parse the YAML block. The newest edit of the body is the truth — a human may have
-corrected your draft. If the block is missing or unparseable, comment saying so and
-stop.
+corrected your draft by hand, or the Telegram buttons may have rewritten the
+`author_*` and `cta_url` lines. Either way, read the block as it stands now and trust
+it. If the block is missing or unparseable, comment saying so and stop.
 
 ### 2. Build the page
 
