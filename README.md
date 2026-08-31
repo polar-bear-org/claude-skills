@@ -157,9 +157,15 @@ claude-skills/
 │   │   └── README.md
 │   ├── review-cycle-pack/      # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
+├── inbox/                      # drop a finished pack here and push; the bot publishes it
+├── .github/workflows/
+│   └── pack-bot.yml            # intake + ship, headless Claude Code
 ├── docs/
-│   └── installing.md           # every install path, for users
+│   ├── installing.md           # every install path, for users
+│   ├── pack-bot.md             # the bot: setup, usage, failure modes
+│   └── pack-bot-prompt.md      # the runbook the bot follows
 ├── CONTRIBUTING.md             # how to add or edit a pack, for the team
+├── scripts/                    # build the zips, validate the repo
 ├── catalog.json                # machine-readable index of every pack and skill
 ├── llms.txt                    # index for AI agents and LLM crawlers
 └── README.md

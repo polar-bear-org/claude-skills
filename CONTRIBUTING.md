@@ -4,6 +4,8 @@ This repo holds **skill packs for Claude**. One pack = one theme = one installab
 
 You need: a clone of the repo, write access to `polar-bear-org/claude-skills`, and Claude Code installed. No build system, no dependencies — the repo is Markdown and JSON.
 
+> **Shortcut for a finished pack.** If the pack is already written and you just want it published, do not do any of this by hand: drop the folder in [`inbox/`](inbox/) and push. The pack bot does sections 1, 2, 7 and 8 for you and builds the website page too — see [docs/pack-bot.md](docs/pack-bot.md). This guide is for writing skills, editing them, and understanding what the bot is doing on your behalf.
+
 ---
 
 ## 0. Setup, once
@@ -271,7 +273,7 @@ git commit -m "Add the Hiring Pack"
 git push
 ```
 
-No PR process, no CI. `main` is what users install from, so `./scripts/validate.sh` passing is the bar.
+No PR process, no CI on ordinary commits — the only workflow is the pack bot, and it triggers on `inbox/` pushes and `/ship` comments, never on a normal commit. `main` is what users install from, so `./scripts/validate.sh` passing is the bar.
 
 Users on an older version get the update with `/plugin marketplace update polar-bear-skills`, and new users get it immediately. There is no rollback other than another commit, which is why sections 7 and 8 come first.
 
