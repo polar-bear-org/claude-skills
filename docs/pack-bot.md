@@ -8,7 +8,7 @@ It is a GitHub Actions workflow running headless Claude Code, so it needs no ser
 and nothing running on your laptop.
 
 ```
-you: cp -r ~/Downloads/hiring-pack inbox/ && git push
+you: send hiring-pack.zip to the bot  (or: cp -r … inbox/ && git push)
                      │
       ┌──────────────▼───────────────────────────────────┐
       │ INTAKE   (automatic, ~3 min)                     │
@@ -127,9 +127,15 @@ a link, tapping their button records the choice on the issue and deliberately do
 
 ## Using it
 
-**Add a pack.** Copy the folder into `inbox/` and push. Any shape works — a
-`skills/` directory, a bare pile of `SKILL.md` folders, even a committed zip. The
-bot normalises it.
+**Add a pack.** Two ways in, and they meet in the same place:
+
+- **Send the zip to the bot in Telegram.** It commits the file to `inbox/` on `main`,
+  which is exactly what a manual push does, so intake starts the same way. `/add`
+  explains the expected shape.
+- **Copy the folder into `inbox/` and push.** Any shape works — a `skills/` directory,
+  a bare pile of `SKILL.md` folders, even a zip. The bot normalises it.
+
+The zip route is capped at 20 MB by Telegram, which no pack will ever approach.
 
 **Check the answers.** The issue it opens carries a YAML block already drafted from
 the pack's own README. The first half is how the pack is positioned, `hero_deck`
@@ -180,6 +186,18 @@ idempotent: it overwrites the page, the zip and the card rather than duplicating
 
 **Trigger by hand.** Actions → Pack bot → Run workflow, optionally naming the folder
 under `inbox/`.
+
+## The bot's menu
+
+| Command | What it does |
+|---------|--------------|
+| `/add` | What shape a pack should be in before you send it |
+| `/pending` | Every open handover issue, each with its author buttons — use it when the original message got buried |
+| `/packs` | Everything published, read from `catalog.json`, with links to each page and repo folder |
+| `/status` | The last five workflow runs: ⏳ running, ✅ done, ❌ failed, each linking to its log |
+| `/help` | The flow in five lines |
+
+Commands and uploads are ignored from any chat not listed in `PACK_BOT_CHAT_IDS`.
 
 ---
 

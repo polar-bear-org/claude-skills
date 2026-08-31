@@ -1,6 +1,7 @@
 # inbox/
 
-Drop a pack folder here and push. The **pack bot** picks it up.
+Drop a pack folder here and push — or just send the zip to the bot in Telegram, which
+commits it here for you. Either way the **pack bot** picks it up.
 
 ```bash
 cp -r ~/Downloads/hiring-pack inbox/
