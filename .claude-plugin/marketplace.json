@@ -91,6 +91,34 @@
         "drafting",
         "content-writing"
       ]
+    },
+    {
+      "name": "design-thinking-pack",
+      "source": "./packs/design-thinking-pack",
+      "description": "33 Claude Skills that carry a design project from a fuzzy challenge to a tested, decision-ready concept: challenge framing, interview guides and screeners, transcript synthesis, personas and journeys, HMWs and concept cards, prototype and test plans, and the stakeholder playback.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-thinking-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "design-thinking",
+        "user-research",
+        "discovery",
+        "customer-experience",
+        "service-design",
+        "innovation",
+        "personas",
+        "journey-mapping",
+        "jobs-to-be-done",
+        "ideation",
+        "prototyping",
+        "usability-testing"
+      ]
     }
   ]
 }

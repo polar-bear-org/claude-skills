@@ -415,6 +415,460 @@
           ]
         }
       ]
+    },
+    {
+      "name": "design-thinking-pack",
+      "title": "The Design Thinking Pack",
+      "path": "packs/design-thinking-pack",
+      "version": "1.0.0",
+      "description": "33 Claude Skills that carry a design project from a fuzzy challenge to a tested, decision-ready concept: framing, research prep, synthesis, problem definition, ideation, concept testing, and the stakeholder playback.",
+      "audience": [
+        "innovation consultants",
+        "CX and service designers",
+        "design researchers",
+        "product discovery leads",
+        "founders"
+      ],
+      "keywords": [
+        "design thinking",
+        "user research",
+        "discovery",
+        "customer experience",
+        "service design",
+        "innovation",
+        "personas",
+        "journey mapping",
+        "jobs to be done",
+        "user interviews",
+        "ideation",
+        "prototyping",
+        "usability testing",
+        "product discovery"
+      ],
+      "resources": [
+        {
+          "file": "templates/challenge-brief-template.md",
+          "description": "The design-challenge-framer's output shape: context, problem statement, scope, constraints, and success criteria."
+        },
+        {
+          "file": "templates/concept-card-template.md",
+          "description": "One idea, one page: who it serves, the job it does, how it works, what is new, what is hard, and the first test. Filled in by concept-card-writer."
+        },
+        {
+          "file": "templates/interview-debrief-template.md",
+          "description": "The 24-hour interview debrief: what they said, what happened, surprises, and follow-ups. Filled in by interview-debriefer."
+        },
+        {
+          "file": "templates/journey-map-template.md",
+          "description": "Blank current-state journey map: stages across the top, touchpoints, thoughts, feelings, pains, and opportunities as rows. Filled in by journey-builder."
+        },
+        {
+          "file": "templates/research-kickoff-template.md",
+          "description": "The one-page research plan: questions, methods, sample, timeline, and roles. Filled in by research-kickoff-brief."
+        }
+      ],
+      "skills": [
+        {
+          "name": "design-challenge-framer",
+          "path": "packs/design-thinking-pack/skills/design-challenge-framer",
+          "order": 1,
+          "summary": "Turns a fuzzy ask into a proper design challenge brief.",
+          "triggers": [
+            "run design-challenge-framer",
+            "frame this challenge",
+            "write the challenge brief",
+            "help me scope this design project",
+            "we want to improve X, where do we start"
+          ]
+        },
+        {
+          "name": "stakeholder-mapper",
+          "path": "packs/design-thinking-pack/skills/stakeholder-mapper",
+          "order": 2,
+          "summary": "Maps everyone who touches, decides, or blocks a design challenge.",
+          "triggers": [
+            "run stakeholder-mapper",
+            "who are the stakeholders here",
+            "map the players",
+            "who do we need on board"
+          ]
+        },
+        {
+          "name": "assumption-mapper",
+          "path": "packs/design-thinking-pack/skills/assumption-mapper",
+          "order": 3,
+          "summary": "Separates what the team believes from what it knows and ranks the risk.",
+          "triggers": [
+            "run assumption-mapper",
+            "what are we assuming",
+            "map our assumptions",
+            "what could kill this project"
+          ]
+        },
+        {
+          "name": "desk-research-digest",
+          "path": "packs/design-thinking-pack/skills/desk-research-digest",
+          "order": 4,
+          "summary": "Digests what's already known before new research spends anyone's time.",
+          "triggers": [
+            "run desk-research-digest",
+            "what do we already know",
+            "summarize the existing research",
+            "pull together prior findings"
+          ]
+        },
+        {
+          "name": "interview-guide-designer",
+          "path": "packs/design-thinking-pack/skills/interview-guide-designer",
+          "order": 5,
+          "summary": "Designs interview guides that open people up.",
+          "triggers": [
+            "run interview-guide-designer",
+            "write an interview guide",
+            "what should we ask users",
+            "prep my discovery interviews",
+            "help me with questions for customer calls"
+          ]
+        },
+        {
+          "name": "participant-screener-builder",
+          "path": "packs/design-thinking-pack/skills/participant-screener-builder",
+          "order": 6,
+          "summary": "Builds screener surveys that recruit the right research participants.",
+          "triggers": [
+            "run participant-screener-builder",
+            "write a screener",
+            "who should we recruit",
+            "help me find the right interviewees",
+            "eight users"
+          ]
+        },
+        {
+          "name": "survey-designer",
+          "path": "packs/design-thinking-pack/skills/survey-designer",
+          "order": 7,
+          "summary": "Designs short unbiased surveys that measure instead of flatter.",
+          "triggers": [
+            "run survey-designer",
+            "write a survey",
+            "we want to poll our users",
+            "help me make a questionnaire",
+            "don't you agree"
+          ]
+        },
+        {
+          "name": "observation-plan-builder",
+          "path": "packs/design-thinking-pack/skills/observation-plan-builder",
+          "order": 8,
+          "summary": "Plans shadowing sessions and field visits.",
+          "triggers": [
+            "run observation-plan-builder",
+            "plan a field visit",
+            "we want to shadow users",
+            "set up contextual inquiry"
+          ]
+        },
+        {
+          "name": "diary-study-designer",
+          "path": "packs/design-thinking-pack/skills/diary-study-designer",
+          "order": 9,
+          "summary": "Designs diary studies for behavior that interviews can't reach.",
+          "triggers": [
+            "run diary-study-designer",
+            "set up a diary study",
+            "we need to see behavior over time",
+            "how do people use this across a week"
+          ]
+        },
+        {
+          "name": "research-kickoff-brief",
+          "path": "packs/design-thinking-pack/skills/research-kickoff-brief",
+          "order": 10,
+          "summary": "Writes the one-pager that aligns everyone before research starts.",
+          "triggers": [
+            "run research-kickoff-brief",
+            "write the research plan",
+            "align the team on the research",
+            "what's our research approach"
+          ]
+        },
+        {
+          "name": "interview-debriefer",
+          "path": "packs/design-thinking-pack/skills/interview-debriefer",
+          "order": 11,
+          "summary": "Turns one interview into structured notes within 24 hours.",
+          "triggers": [
+            "run interview-debriefer",
+            "debrief this interview",
+            "structure my interview notes",
+            "here's the transcript from today's call"
+          ]
+        },
+        {
+          "name": "transcript-synthesizer",
+          "path": "packs/design-thinking-pack/skills/transcript-synthesizer",
+          "order": 12,
+          "summary": "Finds patterns across interview transcripts and debriefs.",
+          "triggers": [
+            "run transcript-synthesizer",
+            "synthesize these interviews",
+            "what patterns are in our research",
+            "code these transcripts"
+          ]
+        },
+        {
+          "name": "survey-analyzer",
+          "path": "packs/design-thinking-pack/skills/survey-analyzer",
+          "order": 13,
+          "summary": "Analyzes survey results with statistical honesty.",
+          "triggers": [
+            "run survey-analyzer",
+            "analyze these survey results",
+            "what do the numbers tell us",
+            "here's our survey export"
+          ]
+        },
+        {
+          "name": "insight-writer",
+          "path": "packs/design-thinking-pack/skills/insight-writer",
+          "order": 14,
+          "summary": "Turns research findings into insight statements that provoke ideas.",
+          "triggers": [
+            "run insight-writer",
+            "write the insights",
+            "turn these findings into insights",
+            "what does our research actually mean"
+          ]
+        },
+        {
+          "name": "empathy-map-builder",
+          "path": "packs/design-thinking-pack/skills/empathy-map-builder",
+          "order": 15,
+          "summary": "Builds empathy maps from real research data.",
+          "triggers": [
+            "run empathy-map-builder",
+            "make an empathy map",
+            "map what users say and feel",
+            "what's going on in our users' heads"
+          ]
+        },
+        {
+          "name": "persona-designer",
+          "path": "packs/design-thinking-pack/skills/persona-designer",
+          "order": 16,
+          "summary": "Builds personas from real research data.",
+          "triggers": [
+            "run persona-designer",
+            "create personas from these interviews",
+            "who are our user types",
+            "turn this research into personas"
+          ]
+        },
+        {
+          "name": "jtbd-writer",
+          "path": "packs/design-thinking-pack/skills/jtbd-writer",
+          "order": 17,
+          "summary": "Writes jobs-to-be-done statements from research.",
+          "triggers": [
+            "run jtbd-writer",
+            "write the jobs to be done",
+            "what job are users hiring us for",
+            "turn this research into JTBD"
+          ]
+        },
+        {
+          "name": "journey-builder",
+          "path": "packs/design-thinking-pack/skills/journey-builder",
+          "order": 18,
+          "summary": "Builds the current-state journey map across all touchpoints.",
+          "triggers": [
+            "run journey-builder",
+            "map the customer journey",
+            "build the current-state journey",
+            "where does the experience break"
+          ]
+        },
+        {
+          "name": "five-whys-runner",
+          "path": "packs/design-thinking-pack/skills/five-whys-runner",
+          "order": 19,
+          "summary": "Runs evidence-backed root-cause laddering on a chosen pain.",
+          "triggers": [
+            "run five-whys-runner",
+            "do a five whys on this",
+            "what's the root cause here",
+            "why does this keep happening"
+          ]
+        },
+        {
+          "name": "problem-statement-writer",
+          "path": "packs/design-thinking-pack/skills/problem-statement-writer",
+          "order": 20,
+          "summary": "Writes POV problem statements from research insights.",
+          "triggers": [
+            "run problem-statement-writer",
+            "write the POV",
+            "turn insights into problem statements",
+            "what problem are we actually solving"
+          ]
+        },
+        {
+          "name": "hmw-generator",
+          "path": "packs/design-thinking-pack/skills/hmw-generator",
+          "order": 21,
+          "summary": "Generates the How Might We question set from POVs and insights.",
+          "triggers": [
+            "run hmw-generator",
+            "write the how might we questions",
+            "generate HMWs",
+            "prep the ideation questions"
+          ]
+        },
+        {
+          "name": "idea-expander",
+          "path": "packs/design-thinking-pack/skills/idea-expander",
+          "order": 22,
+          "summary": "Expands the idea space beyond the first obvious directions.",
+          "triggers": [
+            "run idea-expander",
+            "give us more directions",
+            "expand on these ideas",
+            "we're stuck on three obvious solutions"
+          ]
+        },
+        {
+          "name": "concept-card-writer",
+          "path": "packs/design-thinking-pack/skills/concept-card-writer",
+          "order": 23,
+          "summary": "Writes one-page concept cards in a consistent format.",
+          "triggers": [
+            "run concept-card-writer",
+            "write up these concepts",
+            "make concept cards",
+            "turn these ideas into one-pagers"
+          ]
+        },
+        {
+          "name": "value-impact-matrix",
+          "path": "packs/design-thinking-pack/skills/value-impact-matrix",
+          "order": 24,
+          "summary": "Prioritizes concepts on a calibrated 2x2 matrix.",
+          "triggers": [
+            "run value-impact-matrix",
+            "prioritize these concepts",
+            "which ideas first",
+            "make the 2x2"
+          ]
+        },
+        {
+          "name": "dfv-checker",
+          "path": "packs/design-thinking-pack/skills/dfv-checker",
+          "order": 25,
+          "summary": "Stress tests concepts for desirability, feasibility, and viability.",
+          "triggers": [
+            "run dfv-checker",
+            "stress test these concepts",
+            "check desirability feasibility viability",
+            "is this idea actually sound"
+          ]
+        },
+        {
+          "name": "role-play-designer",
+          "path": "packs/design-thinking-pack/skills/role-play-designer",
+          "order": 26,
+          "summary": "Designs role-play walkthroughs for service concepts.",
+          "triggers": [
+            "run role-play-designer",
+            "set up a service walkthrough",
+            "help us act out this concept",
+            "design a role play for the team"
+          ]
+        },
+        {
+          "name": "storyboard-writer",
+          "path": "packs/design-thinking-pack/skills/storyboard-writer",
+          "order": 27,
+          "summary": "Writes the concept as a storyboard the user would live.",
+          "triggers": [
+            "run storyboard-writer",
+            "storyboard this concept",
+            "show the idea as a story",
+            "write the frames for the illustrator"
+          ]
+        },
+        {
+          "name": "riskiest-assumption-finder",
+          "path": "packs/design-thinking-pack/skills/riskiest-assumption-finder",
+          "order": 28,
+          "summary": "Finds the assumption that kills each concept and prices its test.",
+          "triggers": [
+            "run riskiest-assumption-finder",
+            "what's the riskiest assumption here",
+            "what should we test first",
+            "what kills this idea"
+          ]
+        },
+        {
+          "name": "prototype-planner",
+          "path": "packs/design-thinking-pack/skills/prototype-planner",
+          "order": 29,
+          "summary": "Plans the cheapest prototype that answers the question.",
+          "triggers": [
+            "run prototype-planner",
+            "plan the prototype",
+            "what should we build to test this",
+            "how do we test this cheaply"
+          ]
+        },
+        {
+          "name": "test-script-designer",
+          "path": "packs/design-thinking-pack/skills/test-script-designer",
+          "order": 30,
+          "summary": "Writes usability and concept test scripts that don't lead the witness.",
+          "triggers": [
+            "run test-script-designer",
+            "write the test script",
+            "prep the usability sessions",
+            "what do we say in the concept test"
+          ]
+        },
+        {
+          "name": "test-debrief-synthesizer",
+          "path": "packs/design-thinking-pack/skills/test-debrief-synthesizer",
+          "order": 31,
+          "summary": "Synthesizes what really happened across test sessions.",
+          "triggers": [
+            "run test-debrief-synthesizer",
+            "synthesize the test results",
+            "what did the testing tell us",
+            "did the prototype pass"
+          ]
+        },
+        {
+          "name": "insight-playback-builder",
+          "path": "packs/design-thinking-pack/skills/insight-playback-builder",
+          "order": 32,
+          "summary": "Builds the client or stakeholder playback of the research and testing story.",
+          "triggers": [
+            "run insight-playback-builder",
+            "build the playback",
+            "prep the readout",
+            "make the findings presentation"
+          ]
+        },
+        {
+          "name": "recommendation-writer",
+          "path": "packs/design-thinking-pack/skills/recommendation-writer",
+          "order": 33,
+          "summary": "Writes the decision-ready close of a design project.",
+          "triggers": [
+            "run recommendation-writer",
+            "write the recommendation",
+            "what do we tell them to do",
+            "close out the project"
+          ]
+        }
+      ]
     }
   ]
 }
