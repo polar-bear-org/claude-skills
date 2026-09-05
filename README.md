@@ -17,7 +17,6 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 |------|--------|----------------|---------|
 | **[Workshop Pack](packs/workshop-pack/)** | 7 | Running workshops, offsites, and facilitated working sessions that end with a decision, not a feeling | `/plugin install workshop-pack@polar-bear-skills` |
 | **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
-| **[Editing Pack](packs/editing-pack/)** | 3 | Editing a draft without flattening it — the shape, then the sentences, then making it sound like you rather than like a model | `/plugin install editing-pack@polar-bear-skills` |
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
@@ -112,18 +111,6 @@ Eleven skills across three roles. You install the three or six that match your r
 | [`growth-navigator`](packs/review-cycle-pack/skills/growth-navigator/SKILL.md) | Finds your aspiration and builds your personal growth profile | "what does the next level mean", "am I ready for senior" |
 
 Shared files: [`templates/`](packs/review-cycle-pack/templates/) ships blanks for `team-context.md`, `growth-matrix.md`, `company-direction.md`, and `review-form.md` (the founder's skills fill them in and the kickoff memo distributes them), plus [`question-bank.md`](packs/review-cycle-pack/templates/question-bank.md), which ships complete for managers to use in 1:1s.
-
-### Editing Pack — [`packs/editing-pack`](packs/editing-pack/)
-
-Three skills, run in that order on a long piece: shape first, then sentences, then voice.
-
-| Skill | What it does | Say this to trigger it |
-|-------|--------------|------------------------|
-| [`structure-doctor`](packs/editing-pack/skills/structure-doctor/SKILL.md) | Diagnoses the shape of a draft: the buried lede, the sections doing no work, the promise the ending does not keep | "this doesn't flow", "what order should this be in" |
-| [`line-editor`](packs/editing-pack/skills/line-editor/SKILL.md) | Cuts the throat-clearing, the intensifiers and the nominalisations, keeping your voice intact | "tighten this up", "clean up my draft" |
-| [`voice-matcher`](packs/editing-pack/skills/voice-matcher/SKILL.md) | Learns how you write from one sample and rewrites text in that voice | "make this sound like me", "this sounds like AI wrote it" |
-
-Shared reference file: [`house-style.md`](packs/editing-pack/resources/house-style.md) — the rules all three skills read: the defaults, the rhythm, the formatting, and what never gets touched.
 
 ### Design Thinking Pack — [`packs/design-thinking-pack`](packs/design-thinking-pack/)
 
@@ -247,7 +234,6 @@ claude-skills/
 │   │   ├── install/            # one zip per skill, for claude.ai upload
 │   │   └── README.md
 │   ├── review-cycle-pack/      # same shape; its shared files live in templates/
-│   ├── editing-pack/           # same shape
 │   ├── design-thinking-pack/   # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
@@ -267,4 +253,4 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · editing · copy editing · line editing · writing style guide · tone of voice · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing</sub>
