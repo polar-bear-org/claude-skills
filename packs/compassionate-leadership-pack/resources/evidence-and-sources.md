@@ -1,25 +1,11 @@
 # Evidence and design notes
 
-Research and product documentation checked **6 September 2026**. Public web research was gathered with Firecrawl search and scrape. The two supplied EPUBs were read locally; book text and scraped articles are excluded from the download.
+Research and product documentation checked **6 September 2026**. Public web research was gathered with Firecrawl search and scrape. Scraped articles are excluded from the download.
 
 ## What this pack claims
 These are original, practical instructions to help a human prepare. No study cited here tests this pack, and we have not established effects on retention, performance, mental health, or team trust. We do not use a compassion score or promise a percentage improvement.
 
-The evidence is a mixture of academic synthesis, public guidance, and practitioner books. They are useful for different purposes and should not be treated as equally strong causal evidence. Much compassionate-leadership research comes from particular sectors; applying ideas to a small agency requires local judgment and feedback.
-
-## Books supplied by the user
-
-**Rasmus Hougaard and Jacqueline Carter. More Human: How the Power of AI Can Transform the Way You Lead. Harvard Business Review Press, 2025.**
-- Design influence: notice your reactions and assumptions, exercise judgment, and express care through action while keeping humans responsible for leadership.
-- Used across Pause Before Responding, Perspective Check, listening, repair, decisions, and Leadership Retrospective.
-- Evidence limit: the methodology appendix describes survey and observer-rating studies, including correlations. These do not establish that using this pack causes the book's reported outcomes.
-- Editorial choice: we have not adopted recommendations to upload personality profiles, infer employee emotions from surveillance, or use demographic simulations in place of asking people.
-
-**Clay Parker Jones. Hidden Patterns: A Playbook for More Human Workplaces. Matt Holt Books / BenBella Books, 2026.**
-- Design influence: recurring problems are shaped by authority, routines, boundaries, and other organizational conditions. A person's worth should not be collapsed into their role.
-- Used in Working Agreements, Voice and Safety, Workplace Pattern Review, workload, conflict, and change.
-- Evidence limit: a practitioner playbook offers design ideas, not proof that any particular organizational pattern will work everywhere. The book's copyright page and first e-book edition identify March 2026; embedded EPUB metadata alone was not used for its publication year.
-- Editorial choice: team exercises are optional and work-focused. We do not reproduce the book's pattern catalog or public personal-rating exercises.
+The evidence is a mixture of academic synthesis, public guidance, and practitioner methods. They are useful for different purposes and should not be treated as equally strong causal evidence. Much compassionate-leadership research comes from particular sectors; applying ideas to a small agency requires local judgment and feedback.
 
 ## Research and practice sources
 
@@ -34,10 +20,10 @@ The evidence is a mixture of academic synthesis, public guidance, and practition
 | Acas, [Redundancy consultations](https://www.acas.org.uk/manage-staff-redundancies/redundancy-consultations). UK process guidance. | Distinguish a genuine proposal from a finalized decision in change and exit preparation; consider alternatives before finality. | Employment processes differ by location and circumstances. No thresholds, pay amounts, or legal conclusions are encoded in this pack. |
 
 ## Source-to-skill map
-- **Individual response (1–4, 20):** More Human; compassionate-leadership review; Polar Bear's original reflection and output design.
-- **Conversations (5–9):** CCL for the named feedback method; both books and the review for care, clarity, responsibility, and system context.
+- **Individual response (1–4, 20):** Compassionate-leadership review; Polar Bear's original reflection and output design.
+- **Conversations (5–9):** CCL for the named feedback method; the compassionate-leadership review for care and responsibility; Polar Bear's conversation and follow-through design.
 - **Workload and life events (10–12):** WHO, Surgeon General framework, Acas bereavement, and original practical templates.
-- **Voice, agreements, decisions, change, recurring patterns (13–16, 19):** Hidden Patterns, HBS/Edmondson, Surgeon General framework, and original operating experiments.
+- **Voice, agreements, decisions, change, recurring patterns (13–16, 19):** HBS/Edmondson, Surgeon General framework, and original operating experiments.
 - **Exits and hard news (17–18):** local-process boundary informed by Acas consultation guidance; original communication and follow-through design.
 
 ## Deliberate design choices

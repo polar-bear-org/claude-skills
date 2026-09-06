@@ -63,7 +63,7 @@ Product instructions checked 6 September 2026 against [OpenAI's Projects documen
 - `install/`: 20 individual Claude upload ZIPs.
 - `portable/`: the same instructions as plain prompts, individually and in one combined file.
 - `PROJECT-INSTRUCTIONS.md`: routing instructions for a ChatGPT or other project.
-- `resources/evidence-and-sources.md`: books, research, design choices, and limits.
+- `resources/evidence-and-sources.md`: research, design choices, and limits.
 - `resources/practice-lab.md`: three fictional worked examples and a team practice session.
 - `resources/follow-through.md`: a minimal action note and a two-week practice plan.
 - `LICENSE.md`: Polar Bear's existing internal/client-use license. Not for resale.
@@ -72,7 +72,7 @@ Product instructions checked 6 September 2026 against [OpenAI's Projects documen
 These skills prepare drafts. They do not send messages, keep employee dossiers, assess mental health, rate people, choose who loses a job, or decide whether a formal employment action is lawful. Use your approved workplace policies and qualified local support for formal employment matters. Sensitive concerns require the appropriate safe human route.
 
 ## Where it comes from
-Original Polar Bear workflows informed in part by **More Human**, Rasmus Hougaard and Jacqueline Carter (2025), and **Hidden Patterns**, Clay Parker Jones (2026), alongside research and guidance gathered using Firecrawl. The pack brings together individual leadership practice and workplace design. It does not reproduce the books, ship their text, or claim endorsement by their authors.
+The pack brings together individual leadership practice and workplace design, with research and public guidance gathered using Firecrawl. The workflows help leaders prepare clearer conversations, offer practical support, and address the conditions behind recurring problems. Cited sources do not imply endorsement.
 
 This is a practice resource, not a validated intervention. See [evidence and sources](resources/evidence-and-sources.md) for the distinction between research findings, practitioner ideas, and our design choices.
 

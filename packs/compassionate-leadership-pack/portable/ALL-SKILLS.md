@@ -52,7 +52,7 @@ Can the leader honestly say these words? Is there a time to return to the issue?
 ## Try it
 > A project lead just blamed my team in Slack. Help me respond without escalating.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -83,7 +83,7 @@ Ensure alternatives remain uncertain and no invented motive has slipped into the
 ## Try it
 > My colleague keeps challenging me in meetings. Help me check what I might be missing.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -114,7 +114,7 @@ Do not fabricate rapport or claim the AI understands the person's inner life. Th
 ## Try it
 > A team member says work feels impossible. Help me listen before offering advice.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -145,7 +145,7 @@ Would the recipient recognize the event? Could another contributor reasonably fe
 ## Try it
 > Help me thank the people who rescued a difficult client handoff.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -178,7 +178,7 @@ Method source: https://www.ccl.org/articles/leading-effectively-articles/closing
 ## Try it
 > A senior designer interrupted two junior colleagues. Help me give clear feedback.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -208,7 +208,7 @@ Does the leader still own the real conversation? Have unresolved facts stayed un
 ## Try it
 > Help me practise telling a project lead that their scope changes are exhausting the team.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -238,7 +238,7 @@ Could the employee understand what improvement means and access the promised sup
 ## Try it
 > Two deliverables were late. Help me discuss expectations and support fairly.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -268,7 +268,7 @@ Avoid “both sides” language when evidence describes a power abuse. A workabl
 ## Try it
 > Our delivery and sales leads keep fighting over client promises. Help us address it.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -300,7 +300,7 @@ Is responsibility explicit? Is there an action beyond tone? Can the recipient de
 ## Try it
 > I dismissed a colleague's concern in front of the team. Help me repair that.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -330,7 +330,7 @@ Has something actually come off someone's plate? Is the leader's decision explic
 ## Try it
 > Everyone is working evenings to meet client deadlines. Help me make a practical change.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -362,7 +362,7 @@ Practice reference: Acas, supporting an employee after a death (UK guidance; che
 ## Try it
 > A colleague's parent has died. What can I say and what should I arrange?
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -392,7 +392,7 @@ Is the plan realistic under actual capacity? Are medical and employment judgment
 ## Try it
 > A colleague is returning after an extended absence. Help me plan the first conversation.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -422,7 +422,7 @@ Can someone use the process without publicly declaring vulnerability? Is there a
 ## Try it
 > People tell me privately that they disagree, but stay silent in meetings. Help me change that.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -454,7 +454,7 @@ Can someone tell whether an agreement was followed? Are exceptions fair and spec
 ## Try it
 > Our hybrid team needs clearer agreements about response times and decisions.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -484,7 +484,7 @@ Have you surfaced the uncomfortable cost rather than decorating a preferred opti
 ## Try it
 > We may stop an unprofitable service. Help me examine the decision and its effect on people.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -514,7 +514,7 @@ Could someone tell the truth without being branded negative? Does the timeline a
 ## Try it
 > We're introducing AI into delivery. Help me involve the team and explain what is open.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -544,7 +544,7 @@ Label every draft by stage. Human review is necessary for formal employment acti
 ## Try it
 > Help me prepare a respectful exit conversation and check what must be confirmed first.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -574,7 +574,7 @@ Is the message honest without invading privacy? Are people allowed different rea
 ## Try it
 > After a difficult departure, the team is worried and carrying extra work. Help me respond.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -606,7 +606,7 @@ Is there a change to the operating conditions and an owner able to make it? Keep
 ## Try it
 > Every project ends in last-minute overtime, even with different project leads. Help us find what repeats.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
 
 ---
@@ -636,5 +636,5 @@ Is the commitment testable in the user's next working week? Is learning connecte
 ## Try it
 > Help me review how I handled a difficult week and choose one thing to change.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 

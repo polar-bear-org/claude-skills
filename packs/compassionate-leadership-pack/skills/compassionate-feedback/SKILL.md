@@ -28,5 +28,5 @@ Method source: https://www.ccl.org/articles/leading-effectively-articles/closing
 ## Try it
 > A senior designer interrupted two junior colleagues. Help me give clear feedback.
 
-Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. Original practice guidance informed by More Human (Hougaard and Carter, 2025), Hidden Patterns (Jones, 2026), and the pack's evidence notes. No endorsement by those authors is implied. Free for internal and client work under the Polar Bear license; not for resale.
+Part of Polar Bear's Compassionate Leadership Pack, v1.0.0. See the pack's evidence notes for research and practice sources. Free for internal and client work under the Polar Bear license; not for resale.
 
