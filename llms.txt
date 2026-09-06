@@ -106,3 +106,12 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 ## About
 
 Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by ex-McKinsey consultants. Free to use inside your company, not for resale.
+
+## Compassionate Leadership Pack
+
+20 skills for founders and managers: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes Claude-native skills and portable ChatGPT/other-assistant prompts.
+
+- Overview: packs/compassionate-leadership-pack/README.md
+- Skill index: packs/compassionate-leadership-pack/catalog.json
+- Research notes: packs/compassionate-leadership-pack/resources/evidence-and-sources.md
+- Portable project source: packs/compassionate-leadership-pack/portable/ALL-SKILLS.md

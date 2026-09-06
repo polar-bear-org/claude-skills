@@ -19,10 +19,13 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
 | **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
+| **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
 
 ---
+
+The **Compassionate Leadership Pack** also includes standalone prompts for ChatGPT and other text assistants. See its README for project setup and platform differences.
 
 ## Install
 

@@ -1011,6 +1011,235 @@
           ]
         }
       ]
+    },
+    {
+      "name": "compassionate-leadership-pack",
+      "version": "1.0.0",
+      "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/compassionate-leadership-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "keywords": [
+        "leadership",
+        "compassion",
+        "managers",
+        "feedback",
+        "conflict",
+        "workplace",
+        "change",
+        "people-ops"
+      ],
+      "title": "Compassionate Leadership Pack",
+      "path": "packs/compassionate-leadership-pack",
+      "audience": [
+        "founders",
+        "managers"
+      ],
+      "platforms": [
+        "Claude",
+        "ChatGPT (portable prompts)",
+        "Other text assistants (portable prompts)"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "Sources and limits of the evidence."
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "Fictional worked examples and team practice."
+        },
+        {
+          "file": "resources/follow-through.md",
+          "description": "Action note and a two-week practice plan."
+        }
+      ],
+      "skills": [
+        {
+          "name": "pause-before-responding",
+          "path": "packs/compassionate-leadership-pack/skills/pause-before-responding",
+          "order": 1,
+          "summary": "A short pause plan, a factual opening, and a next step.",
+          "triggers": [
+            "A project lead just blamed my team in Slack. Help me respond without escalating."
+          ]
+        },
+        {
+          "name": "perspective-check",
+          "path": "packs/compassionate-leadership-pack/skills/perspective-check",
+          "order": 2,
+          "summary": "A facts-and-assumptions note with questions to test the gaps.",
+          "triggers": [
+            "My colleague keeps challenging me in meetings. Help me check what I might be missing."
+          ]
+        },
+        {
+          "name": "listen-without-fixing",
+          "path": "packs/compassionate-leadership-pack/skills/listen-without-fixing",
+          "order": 3,
+          "summary": "A listening guide and an agreed support or action summary.",
+          "triggers": [
+            "A team member says work feels impossible. Help me listen before offering advice."
+          ]
+        },
+        {
+          "name": "meaningful-recognition",
+          "path": "packs/compassionate-leadership-pack/skills/meaningful-recognition",
+          "order": 4,
+          "summary": "A specific thank-you and a fair way to share credit.",
+          "triggers": [
+            "Help me thank the people who rescued a difficult client handoff."
+          ]
+        },
+        {
+          "name": "compassionate-feedback",
+          "path": "packs/compassionate-leadership-pack/skills/compassionate-feedback",
+          "order": 5,
+          "summary": "A factual opening, inquiry, and behavior-and-support agreement.",
+          "triggers": [
+            "A senior designer interrupted two junior colleagues. Help me give clear feedback."
+          ]
+        },
+        {
+          "name": "difficult-conversation-rehearsal",
+          "path": "packs/compassionate-leadership-pack/skills/difficult-conversation-rehearsal",
+          "order": 6,
+          "summary": "A short role-play, practical feedback, and a revised opening.",
+          "triggers": [
+            "Help me practise telling a project lead that their scope changes are exhausting the team."
+          ]
+        },
+        {
+          "name": "underperformance-support",
+          "path": "packs/compassionate-leadership-pack/skills/underperformance-support",
+          "order": 7,
+          "summary": "An evidence note and a draft improvement-and-support plan.",
+          "triggers": [
+            "Two deliverables were late. Help me discuss expectations and support fairly."
+          ]
+        },
+        {
+          "name": "conflict-navigation",
+          "path": "packs/compassionate-leadership-pack/skills/conflict-navigation",
+          "order": 8,
+          "summary": "A conflict map, an appropriate conversation route, and a working agreement.",
+          "triggers": [
+            "Our delivery and sales leads keep fighting over client promises. Help us address it."
+          ]
+        },
+        {
+          "name": "repair-after-harm",
+          "path": "packs/compassionate-leadership-pack/skills/repair-after-harm",
+          "order": 9,
+          "summary": "An accountable apology and a concrete repair plan.",
+          "triggers": [
+            "I dismissed a colleague's concern in front of the team. Help me repair that."
+          ]
+        },
+        {
+          "name": "workload-and-boundaries",
+          "path": "packs/compassionate-leadership-pack/skills/workload-and-boundaries",
+          "order": 10,
+          "summary": "A capacity decision and a boundary agreement with owners.",
+          "triggers": [
+            "Everyone is working evenings to meet client deadlines. Help me make a practical change."
+          ]
+        },
+        {
+          "name": "support-through-loss",
+          "path": "packs/compassionate-leadership-pack/skills/support-through-loss",
+          "order": 11,
+          "summary": "A first message, a work-cover plan, and an agreed contact plan.",
+          "triggers": [
+            "A colleague's parent has died. What can I say and what should I arrange?"
+          ]
+        },
+        {
+          "name": "return-to-work-conversation",
+          "path": "packs/compassionate-leadership-pack/skills/return-to-work-conversation",
+          "order": 12,
+          "summary": "A collaborative return plan and a review of adjustments.",
+          "triggers": [
+            "A colleague is returning after an extended absence. Help me plan the first conversation."
+          ]
+        },
+        {
+          "name": "voice-and-safety",
+          "path": "packs/compassionate-leadership-pack/skills/voice-and-safety",
+          "order": 13,
+          "summary": "A safe input plan and a visible response-and-action loop.",
+          "triggers": [
+            "People tell me privately that they disagree, but stay silent in meetings. Help me change that."
+          ]
+        },
+        {
+          "name": "working-agreements",
+          "path": "packs/compassionate-leadership-pack/skills/working-agreements",
+          "order": 14,
+          "summary": "A small set of testable team agreements with a review date.",
+          "triggers": [
+            "Our hybrid team needs clearer agreements about response times and decisions."
+          ]
+        },
+        {
+          "name": "decision-with-care",
+          "path": "packs/compassionate-leadership-pack/skills/decision-with-care",
+          "order": 15,
+          "summary": "An options-and-impact brief with consultation and follow-through.",
+          "triggers": [
+            "We may stop an unprofitable service. Help me examine the decision and its effect on people."
+          ]
+        },
+        {
+          "name": "change-with-people",
+          "path": "packs/compassionate-leadership-pack/skills/change-with-people",
+          "order": 16,
+          "summary": "A change conversation, participation plan, and practical transition support.",
+          "triggers": [
+            "We're introducing AI into delivery. Help me involve the team and explain what is open."
+          ]
+        },
+        {
+          "name": "dignified-exit-preparation",
+          "path": "packs/compassionate-leadership-pack/skills/dignified-exit-preparation",
+          "order": 17,
+          "summary": "A process-readiness brief and a conditional conversation draft.",
+          "triggers": [
+            "Help me prepare a respectful exit conversation and check what must be confirmed first."
+          ]
+        },
+        {
+          "name": "team-after-hard-news",
+          "path": "packs/compassionate-leadership-pack/skills/team-after-hard-news",
+          "order": 18,
+          "summary": "An honest team message, workload reset, and follow-up plan.",
+          "triggers": [
+            "After a difficult departure, the team is worried and carrying extra work. Help me respond."
+          ]
+        },
+        {
+          "name": "workplace-pattern-review",
+          "path": "packs/compassionate-leadership-pack/skills/workplace-pattern-review",
+          "order": 19,
+          "summary": "A system hypothesis and a small, owned experiment.",
+          "triggers": [
+            "Every project ends in last-minute overtime, even with different project leads. Help us find what repeats."
+          ]
+        },
+        {
+          "name": "leadership-retrospective",
+          "path": "packs/compassionate-leadership-pack/skills/leadership-retrospective",
+          "order": 20,
+          "summary": "A short reflection and one observable leadership commitment.",
+          "triggers": [
+            "Help me review how I handled a difficult week and choose one thing to change."
+          ]
+        }
+      ]
     }
   ]
 }

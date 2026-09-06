@@ -119,6 +119,30 @@
         "people-ops",
         "hr"
       ]
+    },
+    {
+      "name": "compassionate-leadership-pack",
+      "version": "1.0.0",
+      "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/compassionate-leadership-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "keywords": [
+        "leadership",
+        "compassion",
+        "managers",
+        "feedback",
+        "conflict",
+        "workplace",
+        "change",
+        "people-ops"
+      ],
+      "source": "./packs/compassionate-leadership-pack",
+      "category": "productivity"
     }
   ]
 }
