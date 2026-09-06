@@ -91,6 +91,34 @@
         "prototyping",
         "usability-testing"
       ]
+    },
+    {
+      "name": "onboarding-pack",
+      "source": "./packs/onboarding-pack",
+      "description": "12 Claude Skills that carry a new hire from \"yes\" to day 90: the pre-boarding plan, the internal setup emails for IT and finance, the cultural brief, the welcome pack, the per-joiner checklist and dashboard, the team deck, the intro email, the first goals, the first week, and the joiner's own 90-day companion.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/onboarding-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "onboarding",
+        "employee-onboarding",
+        "new-hire",
+        "new-joiner",
+        "preboarding",
+        "first-90-days",
+        "welcome-pack",
+        "onboarding-checklist",
+        "day-one",
+        "employee-experience",
+        "people-ops",
+        "hr"
+      ]
     }
   ]
 }

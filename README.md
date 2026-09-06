@@ -18,6 +18,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Workshop Pack](packs/workshop-pack/)** | 7 | Running workshops, offsites, and facilitated working sessions that end with a decision, not a feeling | `/plugin install workshop-pack@polar-bear-skills` |
 | **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
+| **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
 
@@ -186,6 +187,44 @@ Thirty-three skills across the whole arc, from a fuzzy challenge to a decision-r
 
 Shared files: [`templates/`](packs/design-thinking-pack/templates/) ships five blanks — `challenge-brief-template.md`, `concept-card-template.md`, `interview-debrief-template.md`, `journey-map-template.md`, and `research-kickoff-template.md`. Each also ships inside the skill that fills it in, so a claude.ai upload needs no project setup.
 
+### Onboarding Pack — [`packs/onboarding-pack`](packs/onboarding-pack/)
+
+Twelve skills across three roles, covering the whole journey from a signed offer to day 90. You install the ones that match your role; everyone installs `onboarding-setup`. Claude prepares and keeps track; humans welcome.
+
+**Everyone starts here**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`onboarding-setup`](packs/onboarding-pack/skills/onboarding-setup/SKILL.md) | Gets your workspace ready in fifteen minutes: creates your Project, interviews you to fill `company-onboarding-context.md`, and test-runs your first skill | "set up the onboarding pack", "where do I start with this pack" |
+
+**If you run onboarding (founder, HR lead, or HRBP)**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`preboarding-planner`](packs/onboarding-pack/skills/preboarding-planner/SKILL.md) | The plan from "yes" to day one: internal prep, keep-warm touchpoints, owners, and dates | "someone just accepted our offer", "we have a new hire starting" |
+| [`onboarding-comms-drafter`](packs/onboarding-pack/skills/onboarding-comms-drafter/SKILL.md) | The internal emails that make it happen: IT, finance, workspace, access, all short and on time | "write the IT setup email", "draft the message to finance about the new hire" |
+| [`welcome-brief-writer`](packs/onboarding-pack/skills/welcome-brief-writer/SKILL.md) | The cultural brief the joiner gets three days before starting, plus the congratulations choreography | "write the welcome brief", "what should Maria know before day one" |
+| [`welcome-pack-designer`](packs/onboarding-pack/skills/welcome-pack-designer/SKILL.md) | A welcome pack people keep: necessities per role, meaningful items, quality over logo count | "design our welcome pack", "what should we put in the welcome box" |
+| [`onboarding-checklist-builder`](packs/onboarding-pack/skills/onboarding-checklist-builder/SKILL.md) | The per-joiner checklist with tasks, owners, deadlines, and flags, plus a tickable dashboard you can keep local or host at a URL | "make the onboarding checklist", "build the onboarding dashboard" |
+| [`joiner-companion-builder`](packs/onboarding-pack/skills/joiner-companion-builder/SKILL.md) | Builds your policy-answering assistant, so "where's the expense policy" stops landing on you | "build the HR assistant", "new joiners keep asking me the same questions" |
+
+**If you are the hiring manager**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`team-deck-builder`](packs/onboarding-pack/skills/team-deck-builder/SKILL.md) | The four-layer intro deck: company, function, team, person, reusable for every joiner | "build the onboarding deck", "what do I present to my new hire" |
+| [`team-intro-writer`](packs/onboarding-pack/skills/team-intro-writer/SKILL.md) | The email that introduces the joiner to the whole team, photo included, in your voice | "write the intro email for Maria", "announce the new hire to the team" |
+| [`first-goals-writer`](packs/onboarding-pack/skills/first-goals-writer/SKILL.md) | First goals and expectations within two weeks, plus the ways-of-working session | "set Maria's first goals", "what should my new hire's 90-day goals be" |
+| [`week-one-designer`](packs/onboarding-pack/skills/week-one-designer/SKILL.md) | The pre-booked first week: who they meet, when, and why, ready before day one | "plan Maria's first week", "who should the new hire meet" |
+
+**If you are the one joining**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`my-first-90`](packs/onboarding-pack/skills/my-first-90/SKILL.md) | Your own pinned chat that tracks your meetings, trainings, and goals, and answers "what's next" | "I'm starting a new job", "what should I focus on in my first 90 days" |
+
+Shared file: [`company-onboarding-context.md`](packs/onboarding-pack/templates/company-onboarding-context.md) — your standing setup: who plays which role, the systems a joiner needs, your start-date rhythm, and the practical facts every brief draws from. `onboarding-setup` interviews you and fills it in once; every skill reads it, so you never re-explain your company.
+
 ---
 
 ## FAQ
@@ -211,6 +250,9 @@ No, and the Design Thinking Pack is explicit about it: Claude prepares and synth
 **Do I need performance review software to run a review cycle?**
 No. The Annual Review Cycle Pack runs the whole cycle — growth matrix, review forms, self-reviews, manager growth memos, 1:1s, retro — in Claude plus a shared folder of Markdown files. It is built for teams of 20–200, where per-seat performance software costs more than it returns.
 
+**Do I need onboarding software to onboard a new hire?**
+No. The Onboarding Pack runs the whole journey — pre-boarding plan, IT and finance setup emails, welcome brief, welcome pack, per-joiner checklist and dashboard, team deck, intro email, first goals, first week, and the joiner's own 90-day companion — in Claude plus a shared folder of Markdown files. Claude prepares and keeps track; the welcome itself stays human.
+
 **Are the skills free?**
 Free to use inside your company. Not for resale. See [LICENSE](LICENSE.md).
 
@@ -235,6 +277,7 @@ claude-skills/
 │   │   └── README.md
 │   ├── review-cycle-pack/      # same shape; its shared files live in templates/
 │   ├── design-thinking-pack/   # same shape; its shared files live in templates/
+│   ├── onboarding-pack/       # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -253,4 +296,4 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience</sub>

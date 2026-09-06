@@ -795,6 +795,222 @@
           ]
         }
       ]
+    },
+    {
+      "name": "onboarding-pack",
+      "title": "The Onboarding Pack",
+      "path": "packs/onboarding-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills that carry a new hire from \"yes\" to day 90: the pre-boarding plan, the internal setup emails, the cultural brief, the welcome pack, the per-joiner checklist and dashboard, the team deck, the intro email, the first goals, the first week, and the joiner's own 90-day companion.",
+      "audience": [
+        "founders",
+        "people ops",
+        "HR leads",
+        "HRBPs",
+        "hiring managers",
+        "new joiners"
+      ],
+      "keywords": [
+        "onboarding",
+        "employee onboarding",
+        "new hire",
+        "new joiner",
+        "pre-boarding",
+        "first 90 days",
+        "welcome pack",
+        "onboarding checklist",
+        "day one",
+        "first week",
+        "induction",
+        "employee experience",
+        "people ops",
+        "hr"
+      ],
+      "roles": {
+        "onboarding-owner": [
+          "onboarding-setup",
+          "preboarding-planner",
+          "onboarding-comms-drafter",
+          "welcome-brief-writer",
+          "welcome-pack-designer",
+          "onboarding-checklist-builder",
+          "joiner-companion-builder"
+        ],
+        "hiring-manager": [
+          "onboarding-setup",
+          "team-deck-builder",
+          "team-intro-writer",
+          "first-goals-writer",
+          "week-one-designer"
+        ],
+        "new-joiner": [
+          "my-first-90"
+        ]
+      },
+      "resources": [
+        {
+          "file": "templates/company-onboarding-context.md",
+          "description": "Your standing setup: who plays which role (recruiter, HR, or the founder wearing every hat), the systems a joiner needs, your start-date rhythm, and the practical facts every brief draws from. Filled in once by onboarding-setup, read by every skill."
+        }
+      ],
+      "skills": [
+        {
+          "name": "onboarding-setup",
+          "path": "packs/onboarding-pack/skills/onboarding-setup",
+          "order": 1,
+          "role": "all",
+          "summary": "Guided setup: creates your Project, interviews you to fill company-onboarding-context.md, and test-runs your first skill. Everyone runs this first.",
+          "triggers": [
+            "run onboarding-setup",
+            "set up the onboarding pack",
+            "I just installed the onboarding skills",
+            "where do I start with this pack"
+          ]
+        },
+        {
+          "name": "preboarding-planner",
+          "path": "packs/onboarding-pack/skills/preboarding-planner",
+          "order": 2,
+          "role": "onboarding-owner",
+          "summary": "The plan from \"yes\" to day one: internal prep, keep-warm touchpoints, owners, and dates.",
+          "triggers": [
+            "run preboarding-planner",
+            "someone just accepted our offer",
+            "we have a new hire starting",
+            "plan the onboarding for [name]"
+          ]
+        },
+        {
+          "name": "onboarding-comms-drafter",
+          "path": "packs/onboarding-pack/skills/onboarding-comms-drafter",
+          "order": 3,
+          "role": "onboarding-owner",
+          "summary": "The internal emails that make it happen: IT, finance, workspace, access, plus the keep-warm notes to the joiner.",
+          "triggers": [
+            "run onboarding-comms-drafter",
+            "write the IT setup email",
+            "draft the message to finance about the new hire",
+            "write the keep-warm note"
+          ]
+        },
+        {
+          "name": "welcome-brief-writer",
+          "path": "packs/onboarding-pack/skills/welcome-brief-writer",
+          "order": 4,
+          "role": "onboarding-owner",
+          "summary": "The cultural brief the joiner gets a few days before starting, plus the congratulations choreography right after they accept.",
+          "triggers": [
+            "run welcome-brief-writer",
+            "write the welcome brief",
+            "what should Maria know before day one",
+            "prepare the pre-start info"
+          ]
+        },
+        {
+          "name": "welcome-pack-designer",
+          "path": "packs/onboarding-pack/skills/welcome-pack-designer",
+          "order": 5,
+          "role": "onboarding-owner",
+          "summary": "A welcome pack people keep: necessities per role, meaningful items, quality over logo count.",
+          "triggers": [
+            "run welcome-pack-designer",
+            "design our welcome pack",
+            "what should we put in the welcome box",
+            "new hire swag"
+          ]
+        },
+        {
+          "name": "onboarding-checklist-builder",
+          "path": "packs/onboarding-pack/skills/onboarding-checklist-builder",
+          "order": 6,
+          "role": "onboarding-owner",
+          "summary": "The per-joiner checklist with tasks, owners, deadlines, and flags, plus a tickable dashboard you can keep local or host at a URL.",
+          "triggers": [
+            "run onboarding-checklist-builder",
+            "make the onboarding checklist",
+            "build the onboarding dashboard",
+            "how do I track where we are with Maria's onboarding"
+          ]
+        },
+        {
+          "name": "joiner-companion-builder",
+          "path": "packs/onboarding-pack/skills/joiner-companion-builder",
+          "order": 7,
+          "role": "onboarding-owner",
+          "summary": "Builds the company's policy-answering assistant, so \"where's the expense policy\" stops landing on you.",
+          "triggers": [
+            "run joiner-companion-builder",
+            "build the HR assistant",
+            "set up the ask-HR bot",
+            "new joiners keep asking me the same questions"
+          ]
+        },
+        {
+          "name": "team-deck-builder",
+          "path": "packs/onboarding-pack/skills/team-deck-builder",
+          "order": 8,
+          "role": "hiring-manager",
+          "summary": "The four-layer intro deck: company, function, team, person, reusable for every joiner.",
+          "triggers": [
+            "run team-deck-builder",
+            "build the onboarding deck",
+            "what do I present to my new hire",
+            "prepare the intro presentation for Maria"
+          ]
+        },
+        {
+          "name": "team-intro-writer",
+          "path": "packs/onboarding-pack/skills/team-intro-writer",
+          "order": 9,
+          "role": "hiring-manager",
+          "summary": "The email that introduces the joiner to the whole team, photo included, approved by the joiner.",
+          "triggers": [
+            "run team-intro-writer",
+            "write the intro email for Maria",
+            "announce the new hire to the team",
+            "introduce our new designer"
+          ]
+        },
+        {
+          "name": "first-goals-writer",
+          "path": "packs/onboarding-pack/skills/first-goals-writer",
+          "order": 10,
+          "role": "hiring-manager",
+          "summary": "First goals and expectations within two weeks, plus the ways-of-working session with the manager.",
+          "triggers": [
+            "run first-goals-writer",
+            "set Maria's first goals",
+            "what should my new hire's 90-day goals be",
+            "prepare the expectations conversation"
+          ]
+        },
+        {
+          "name": "week-one-designer",
+          "path": "packs/onboarding-pack/skills/week-one-designer",
+          "order": 11,
+          "role": "hiring-manager",
+          "summary": "The pre-booked first week: who they meet, when, and why, ready before day one.",
+          "triggers": [
+            "run week-one-designer",
+            "plan Maria's first week",
+            "who should the new hire meet",
+            "design day one"
+          ]
+        },
+        {
+          "name": "my-first-90",
+          "path": "packs/onboarding-pack/skills/my-first-90",
+          "order": 12,
+          "role": "new-joiner",
+          "summary": "The joiner's own pinned chat: tracks their meetings, trainings, and goals, and answers \"what's next\".",
+          "triggers": [
+            "run my-first-90",
+            "I'm starting a new job",
+            "help me through my first weeks",
+            "what should I focus on in my first 90 days"
+          ]
+        }
+      ]
     }
   ]
 }
