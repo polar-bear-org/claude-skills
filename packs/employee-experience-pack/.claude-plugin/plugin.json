@@ -1,0 +1,23 @@
+{
+  "name": "employee-experience-pack",
+  "version": "1.0.0",
+  "description": "Listen to employees, locate everyday work friction, choose fair improvements, and close the feedback loop.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "employee-experience",
+    "listening",
+    "work-design",
+    "employee-voice",
+    "feedback",
+    "participation",
+    "fairness",
+    "workplace",
+    "manager",
+    "improvement"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/employee-experience-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

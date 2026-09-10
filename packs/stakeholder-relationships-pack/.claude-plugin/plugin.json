@@ -1,0 +1,23 @@
+{
+  "name": "stakeholder-relationships-pack",
+  "version": "1.0.0",
+  "description": "Improve recurring stakeholder relationships with clearer dependencies, reliable commitments, trust repair and workable boundaries.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "keywords": [
+    "stakeholders",
+    "relationships",
+    "trust",
+    "repair",
+    "coordination",
+    "boundaries",
+    "clients",
+    "leadership",
+    "communication",
+    "handoffs"
+  ],
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "homepage": "https://meet-polar-bear.com/skills/stakeholder-relationships-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

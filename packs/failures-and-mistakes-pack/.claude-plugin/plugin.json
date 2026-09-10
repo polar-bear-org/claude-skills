@@ -1,0 +1,23 @@
+{
+  "name": "failures-and-mistakes-pack",
+  "version": "1.0.0",
+  "description": "Contain mistakes, take responsibility, analyze contributing conditions, and test prevention with eight practical management skills.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "keywords": [
+    "failures",
+    "mistakes",
+    "learning",
+    "incident-response",
+    "error-management",
+    "accountability",
+    "repair",
+    "prevention",
+    "leadership",
+    "management"
+  ],
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "homepage": "https://meet-polar-bear.com/skills/failures-and-mistakes-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

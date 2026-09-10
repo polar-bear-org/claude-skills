@@ -20,6 +20,15 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
 | **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
+| **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
+| **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
+| **[Stakeholder Relationships](packs/stakeholder-relationships-pack/)** | 10 | Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship. | `/plugin install stakeholder-relationships-pack@polar-bear-skills` |
+| **[Failures and Mistakes](packs/failures-and-mistakes-pack/)** | 8 | Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures. | `/plugin install failures-and-mistakes-pack@polar-bear-skills` |
+| **[Delegation](packs/delegation-pack/)** | 10 | Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back. | `/plugin install delegation-pack@polar-bear-skills` |
+| **[Changing Ways of Working](packs/ways-of-working-change-pack/)** | 10 | Define a behavior change, understand barriers, involve the team, and learn from a practical pilot. | `/plugin install ways-of-working-change-pack@polar-bear-skills` |
+| **[Handling Disagreements](packs/disagreements-pack/)** | 10 | Clarify a disagreement, understand the other view, test options, and reach a decision people can work with. | `/plugin install disagreements-pack@polar-bear-skills` |
+| **[Time for Top Priorities](packs/top-priorities-pack/)** | 10 | Clarify priorities, confront capacity, protect focused time, and renegotiate commitments. | `/plugin install top-priorities-pack@polar-bear-skills` |
+| **[Important Decisions](packs/important-decisions-pack/)** | 10 | Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind. | `/plugin install important-decisions-pack@polar-bear-skills` |
 
 More packs are in progress. Watch or star the repo to get them as they land.
 
@@ -300,3 +309,172 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 ---
 
 <sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience</sub>
+
+## 10 Skills for Employee Experience
+
+Listen to employees, find friction in the work, and turn feedback into changes people can see.
+
+[Read the pack](packs/employee-experience-pack/README.md). Install after publication: `/plugin install employee-experience-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Employee Listening Plan](packs/employee-experience-pack/skills/ex-listening-plan/SKILL.md) | Produces a scoped listening plan |
+| [Workday Experience Interview](packs/employee-experience-pack/skills/ex-workday-interview/SKILL.md) | Produces an interview guide and confirmed friction note |
+| [Employee Journey Friction Map](packs/employee-experience-pack/skills/ex-journey-friction-map/SKILL.md) | Produces a journey map with repair opportunities |
+| [Feedback Theme Review](packs/employee-experience-pack/skills/ex-feedback-theme-review/SKILL.md) | Produces a traceable and privacy-conscious theme brief |
+| [Work Design Check](packs/employee-experience-pack/skills/ex-work-design-check/SKILL.md) | Produces a work redesign brief |
+| [Fair Experience Priorities](packs/employee-experience-pack/skills/ex-fair-action-priorities/SKILL.md) | Produces an explained action shortlist |
+| [Employee Experience Experiment](packs/employee-experience-pack/skills/ex-experience-experiment/SKILL.md) | Produces a bounded experiment card |
+| [Close the Feedback Loop](packs/employee-experience-pack/skills/ex-close-feedback-loop/SKILL.md) | Produces a clear feedback response and action ledger |
+| [Lightweight Experience Pulse](packs/employee-experience-pack/skills/ex-lightweight-pulse/SKILL.md) | Produces a minimal pulse and interpretation plan |
+| [Experience Improvement Review](packs/employee-experience-pack/skills/ex-experience-review/SKILL.md) | Produces a keep-change-stop review |
+
+## 10 Skills for Team Performance
+
+Run useful retrospectives, agree team norms, and improve coordination in everyday work.
+
+[Read the pack](packs/team-performance-pack/README.md). Install after publication: `/plugin install team-performance-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Team Performance Check](packs/team-performance-pack/skills/team-performance-check/SKILL.md) | Produces a prioritized team-process diagnosis |
+| [Team Charter](packs/team-performance-pack/skills/team-performance-charter/SKILL.md) | Produces a one-page delivery charter |
+| [Testable Team Norms](packs/team-performance-pack/skills/team-performance-norms/SKILL.md) | Produces a short norms trial |
+| [Evidence-Led Retrospective](packs/team-performance-pack/skills/team-performance-retro/SKILL.md) | Produces a facilitated retrospective and one experiment |
+| [Quick Team Debrief](packs/team-performance-pack/skills/team-performance-quick-debrief/SKILL.md) | Produces a ten-minute operational debrief |
+| [Reliable Handoff](packs/team-performance-pack/skills/team-performance-handoff/SKILL.md) | Produces a tested handoff contract |
+| [Meeting Reset](packs/team-performance-pack/skills/team-performance-meeting-reset/SKILL.md) | Produces a keep/change/replace meeting plan |
+| [Shared Work Map](packs/team-performance-pack/skills/team-performance-shared-map/SKILL.md) | Produces a reconciled work-and-expertise map |
+| [Team Coordination Practice](packs/team-performance-pack/skills/team-performance-practice/SKILL.md) | Produces a fictional exercise and observation sheet |
+| [Team Process Experiment](packs/team-performance-pack/skills/team-performance-experiment/SKILL.md) | Produces a small improvement trial and review decision |
+
+## 10 Skills for Stakeholder Relationships
+
+Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship.
+
+[Read the pack](packs/stakeholder-relationships-pack/README.md). Install after publication: `/plugin install stakeholder-relationships-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Map the Relationship](packs/stakeholder-relationships-pack/skills/stakeholder-relationship-map/SKILL.md) | A recurring stakeholder relationship is slowing delivery; map dependencies and choose a practical starting point. |
+| [Get Their Perspective](packs/stakeholder-relationships-pack/skills/stakeholder-get-perspective/SKILL.md) | You think you know why a stakeholder behaves this way; prepare questions and update your understanding from their actual answers. |
+| [Find Shared Interests](packs/stakeholder-relationships-pack/skills/stakeholder-interests-and-constraints/SKILL.md) | Stakeholders want incompatible things; identify real constraints and develop a mutually workable arrangement. |
+| [Check What Trust Needs](packs/stakeholder-relationships-pack/skills/stakeholder-trust-check/SKILL.md) | A stakeholder says they do not trust your team; translate the concern into evidence and a bounded response. |
+| [Build Reliability Through a Small Trial](packs/stakeholder-relationships-pack/skills/stakeholder-reliability-trial/SKILL.md) | Good intentions have not improved a stakeholder relationship; create a small commitment people can verify. |
+| [Repair a Broken Commitment](packs/stakeholder-relationships-pack/skills/stakeholder-repair-plan/SKILL.md) | Your team has harmed an ongoing stakeholder relationship; prepare acknowledgment and a credible repair process. |
+| [Agree the Working Interface](packs/stakeholder-relationships-pack/skills/stakeholder-interface-agreement/SKILL.md) | Repeated friction happens at approvals and handoffs between teams or organizations; agree how the interface works. |
+| [Send Useful Updates and Early Warnings](packs/stakeholder-relationships-pack/skills/stakeholder-update-and-warning/SKILL.md) | A stakeholder hears about problems too late or receives too much reporting; design an honest update rhythm. |
+| [Set Boundaries and Escalate](packs/stakeholder-relationships-pack/skills/stakeholder-boundaries-and-escalation/SKILL.md) | Repeated demands or harmful conduct are overwhelming the relationship; choose a proportionate boundary and escalation route. |
+| [Review the Relationship](packs/stakeholder-relationships-pack/skills/stakeholder-relationship-review/SKILL.md) | A stakeholder agreement or repair trial has run for a few weeks; review evidence and decide what to change. |
+
+## 8 Skills for Failures and Mistakes
+
+Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures.
+
+[Read the pack](packs/failures-and-mistakes-pack/README.md). Install after publication: `/plugin install failures-and-mistakes-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Contain the Incident](packs/failures-and-mistakes-pack/skills/failure-contain-the-incident/SKILL.md) | A mistake is still affecting a client, delivery, or team. |
+| [Own the Mistake and Plan Repair](packs/failures-and-mistakes-pack/skills/failure-own-and-repair/SKILL.md) | You caused or own an error and need an accountable response. |
+| [Reconstruct the Event](packs/failures-and-mistakes-pack/skills/failure-reconstruct-the-event/SKILL.md) | Accounts conflict or hindsight is replacing evidence after an error. |
+| [Map Contributing Conditions](packs/failures-and-mistakes-pack/skills/failure-map-contributing-conditions/SKILL.md) | The explanation has stopped at carelessness, poor communication, or one root cause. |
+| [Respond to a Reported Error](packs/failures-and-mistakes-pack/skills/failure-respond-to-a-reported-error/SKILL.md) | Someone tells you about a mistake or near miss and your response will affect future reporting. |
+| [Recover Enough to Learn](packs/failures-and-mistakes-pack/skills/failure-recover-for-learning/SKILL.md) | Shame or defensive thinking is making a factual review difficult. |
+| [Test a Prevention Change](packs/failures-and-mistakes-pack/skills/failure-test-a-prevention-change/SKILL.md) | A review produced recommendations but no evidence that they work. |
+| [Close the Incident and Transfer Learning](packs/failures-and-mistakes-pack/skills/failure-close-and-transfer-learning/SKILL.md) | Repairs are complete but lessons may be forgotten or copied too widely. |
+
+## 10 Skills for Delegation
+
+Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back.
+
+[Read the pack](packs/delegation-pack/README.md). Install after publication: `/plugin install delegation-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Choose What to Delegate](packs/delegation-pack/skills/delegation-task-picker/SKILL.md) | A task shortlist with reasons, retained decisions, and a first handoff. Part of Polar Bear's Delegation Pack. |
+| [Check Capacity Before the Handoff](packs/delegation-pack/skills/delegation-capacity-check/SKILL.md) | A feasible scope and a concrete workload trade-off. Part of Polar Bear's Delegation Pack. |
+| [Write the Outcome Brief](packs/delegation-pack/skills/delegation-outcome-brief/SKILL.md) | A one-page brief defining useful completion without prescribing every method. Part of Polar Bear's Delegation Pack. |
+| [Separate Constraints From Discretion](packs/delegation-pack/skills/delegation-authority-map/SKILL.md) | An explicit decision map and escalation boundaries. Part of Polar Bear's Delegation Pack. |
+| [Prepare the Handoff Conversation](packs/delegation-pack/skills/delegation-handoff-conversation/SKILL.md) | A short conversation guide and an agreement awaiting human confirmation. Part of Polar Bear's Delegation Pack. |
+| [Set Useful Checkpoints](packs/delegation-pack/skills/delegation-checkpoint-plan/SKILL.md) | A small review schedule tied to risks and decisions. Part of Polar Bear's Delegation Pack. |
+| [Coach Without Taking the Task Back](packs/delegation-pack/skills/delegation-coach-without-taking-over/SKILL.md) | A support conversation that resolves the blocker and makes ownership explicit. Part of Polar Bear's Delegation Pack. |
+| [Reset a Delegation That Is Slipping](packs/delegation-pack/skills/delegation-reset-handoff/SKILL.md) | A recovery agreement addressing outcome, capacity, authority, and support. Part of Polar Bear's Delegation Pack. |
+| [Close the Loop and Build Capability](packs/delegation-pack/skills/delegation-close-and-learn/SKILL.md) | A completion decision and one change for the next handoff. Part of Polar Bear's Delegation Pack. |
+| [Review Your Delegation Pattern](packs/delegation-pack/skills/delegation-pattern-review/SKILL.md) | A fairer distribution experiment and a manager commitment. Part of Polar Bear's Delegation Pack. |
+
+## 10 Skills for Changing Ways of Working
+
+Define a behavior change, understand barriers, involve the team, and learn from a practical pilot.
+
+[Read the pack](packs/ways-of-working-change-pack/README.md). Install after publication: `/plugin install ways-of-working-change-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Define the Work Change](packs/ways-of-working-change-pack/skills/change-behavior-brief/SKILL.md) | Turn a vague transformation into one observable work change. |
+| [Find the Real Barriers](packs/ways-of-working-change-pack/skills/change-barrier-diagnosis/SKILL.md) | Diagnose obstacles before selecting training or reminders. |
+| [Make Participation Real](packs/ways-of-working-change-pack/skills/change-involvement-plan/SKILL.md) | Design input that can influence the change. |
+| [Check Transition Capacity](packs/ways-of-working-change-pack/skills/change-capacity-check/SKILL.md) | Make space and support for a work change. |
+| [Design a Useful Pilot](packs/ways-of-working-change-pack/skills/change-pilot-design/SKILL.md) | Test a work change with predictions and stop rules. |
+| [Make the New Behavior Easier](packs/ways-of-working-change-pack/skills/change-practice-support/SKILL.md) | Create practice and point-of-use support for a specific barrier. |
+| [Measure Actual Adoption](packs/ways-of-working-change-pack/skills/change-adoption-evidence/SKILL.md) | Distinguish use, usefulness and unintended effects. |
+| [Adapt Without Losing the Purpose](packs/ways-of-working-change-pack/skills/change-adaptation-review/SKILL.md) | Decide whether a local variation preserves the work change. |
+| [Decide Whether to Expand](packs/ways-of-working-change-pack/skills/change-rollout-decision/SKILL.md) | Turn pilot evidence into a proportionate rollout decision. |
+| [Keep What Works and Retire What Does Not](packs/ways-of-working-change-pack/skills/change-sustainment-review/SKILL.md) | Review durability and retire obsolete process work. |
+
+## 10 Skills for Handling Disagreements
+
+Clarify a disagreement, understand the other view, test options, and reach a decision people can work with.
+
+[Read the pack](packs/disagreements-pack/README.md). Install after publication: `/plugin install disagreements-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Map the Disagreement](packs/disagreements-pack/skills/disagreement-issue-map/SKILL.md) | Produces a one-page map distinguishing evidence, predictions, values, process and personal harm. Part of Polar Bear’s Disagreements Pack. |
+| [Test the Contested Facts](packs/disagreements-pack/skills/disagreement-fact-check/SKILL.md) | Produces a shared evidence-check plan and a provisional conclusion. Part of Polar Bear’s Disagreements Pack. |
+| [Understand Their View](packs/disagreements-pack/skills/disagreement-listen-and-check/SKILL.md) | Produces a short listening guide and a checked-understanding note. Part of Polar Bear’s Disagreements Pack. |
+| [State a Constructive Objection](packs/disagreements-pack/skills/disagreement-clear-dissent/SKILL.md) | Produces a clear objection, alternative and decision request. Part of Polar Bear’s Disagreements Pack. |
+| [Agree How to Resolve It](packs/disagreements-pack/skills/disagreement-fair-process/SKILL.md) | Produces a fair participation and decision-process agreement. Part of Polar Bear’s Disagreements Pack. |
+| [Bring Missing Views Into the Room](packs/disagreements-pack/skills/disagreement-surface-dissent/SKILL.md) | Produces a bounded dissent session with an evidence and objection log. Part of Polar Bear’s Disagreements Pack. |
+| [Find Workable Trade-offs](packs/disagreements-pack/skills/disagreement-integrative-options/SKILL.md) | Produces an option comparison that tests joint gains and real trade-offs. Part of Polar Bear’s Disagreements Pack. |
+| [Reset an Escalating Exchange](packs/disagreements-pack/skills/disagreement-reset-exchange/SKILL.md) | Produces a pause sentence, revised opening and safe continuation plan. Part of Polar Bear’s Disagreements Pack. |
+| [Close Without False Consensus](packs/disagreements-pack/skills/disagreement-close-decision/SKILL.md) | Produces a decision record preserving dissent and implementation responsibilities. Part of Polar Bear’s Disagreements Pack. |
+| [Check Whether It Worked](packs/disagreements-pack/skills/disagreement-review-resolution/SKILL.md) | Produces a short outcome review with one corrective action. Part of Polar Bear’s Disagreements Pack. |
+
+## 10 Skills to Make Time for Your Top Priorities
+
+Clarify priorities, confront capacity, protect focused time, and renegotiate commitments.
+
+[Read the pack](packs/top-priorities-pack/README.md). Install after publication: `/plugin install top-priorities-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Choose the Outcomes That Matter](packs/top-priorities-pack/skills/priorities-choose-outcomes/SKILL.md) | Everything feels important and you need a defensible short list. Produces a ranked outcome brief and an explicit not-now list. |
+| [Audit Where the Week Goes](packs/top-priorities-pack/skills/priorities-time-audit/SKILL.md) | Your stated priorities and actual use of time do not match. Produces a light time audit with two changes worth testing. |
+| [Build a Week That Fits](packs/top-priorities-pack/skills/priorities-capacity-plan/SKILL.md) | You have more promised work than time available. Produces a capacity calculation and a workable commitment proposal. |
+| [Make Space in the Calendar](packs/top-priorities-pack/skills/priorities-calendar-reset/SKILL.md) | Meetings and recurring commitments crowd out a chosen priority. Produces a proposed calendar reset with preserved coordination. |
+| [Start a Useful Focus Session](packs/top-priorities-pack/skills/priorities-focus-session/SKILL.md) | You have protected time but keep delaying or spreading attention across tasks. Produces a small concrete work session with a restart note. |
+| [Handle Interruptions Without Losing the Thread](packs/top-priorities-pack/skills/priorities-interruptions/SKILL.md) | Reactive work repeatedly derails your main task. Produces an interruption agreement and concise resumption routine. |
+| [Renegotiate a Competing Request](packs/top-priorities-pack/skills/priorities-renegotiate/SKILL.md) | A new request would displace work already promised. Produces a factual trade-off brief and a draft response. |
+| [Turn a Priority Into a Realistic Plan](packs/top-priorities-pack/skills/priorities-realistic-plan/SKILL.md) | An important outcome keeps slipping despite repeated intentions. Produces a staged plan with evidence-based estimates and contingencies. |
+| [Close the Day With a Clear Restart](packs/top-priorities-pack/skills/priorities-close-day/SKILL.md) | Unfinished work follows you into the evening or causes a confused restart. Produces a short closure note and a realistic next working-day entry point. |
+| [Review Progress and Reset Priorities](packs/top-priorities-pack/skills/priorities-weekly-review/SKILL.md) | Your plan needs updating after a week of real work. Produces a short evidence-based review and next-week commitment change. |
+
+## 10 Skills for Important Decisions
+
+Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind.
+
+[Read the pack](packs/important-decisions-pack/README.md). Install after publication: `/plugin install important-decisions-pack@polar-bear-skills`.
+
+| Skill | What it does |
+|---|---|
+| [Frame the Decision](packs/important-decisions-pack/skills/decision-frame/SKILL.md) | Produces a one-page decision frame |
+| [Create Real Alternatives](packs/important-decisions-pack/skills/decision-options/SKILL.md) | Produces a shortlist of genuinely different options |
+| [Compare Trade-offs](packs/important-decisions-pack/skills/decision-tradeoffs/SKILL.md) | Produces a consequence and trade-off table |
+| [Check the Outside View](packs/important-decisions-pack/skills/decision-uncertainty/SKILL.md) | Produces an evidence and uncertainty brief |
+| [Test the Preferred Option](packs/important-decisions-pack/skills/decision-counterevidence/SKILL.md) | Produces a disconfirming-evidence plan |
+| [Gather Independent Input](packs/important-decisions-pack/skills/decision-independent-input/SKILL.md) | Produces a consultation and synthesis plan |
+| [Run a Grounded Premortem](packs/important-decisions-pack/skills/decision-premortem/SKILL.md) | Produces a risk and prevention note |
+| [Find What Would Change the Choice](packs/important-decisions-pack/skills/decision-sensitivity/SKILL.md) | Produces a sensitivity and next-evidence brief |
+| [Write the Decision Record](packs/important-decisions-pack/skills/decision-record/SKILL.md) | Produces a dated decision record |
+| [Review Without Hindsight](packs/important-decisions-pack/skills/decision-review/SKILL.md) | Produces a decision learning and revisit note |

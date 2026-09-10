@@ -1,0 +1,23 @@
+{
+  "name": "ways-of-working-change-pack",
+  "version": "1.0.0",
+  "description": "Define, test, support and evaluate changes to the way work gets done.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "change",
+    "adoption",
+    "workflow",
+    "implementation",
+    "pilots",
+    "behavior",
+    "participation",
+    "adaptation",
+    "managers",
+    "agencies"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/ways-of-working-change-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

@@ -7,6 +7,15 @@ Install on claude.ai: upload the per-skill zips from a pack's `install/` folder 
 Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a project's `.claude/skills/`.
 
 ## Packs
+- Employee Experience: packs/employee-experience-pack/README.md
+- Team Performance: packs/team-performance-pack/README.md
+- Stakeholder Relationships: packs/stakeholder-relationships-pack/README.md
+- Failures and Mistakes: packs/failures-and-mistakes-pack/README.md
+- Delegation: packs/delegation-pack/README.md
+- Changing Ways of Working: packs/ways-of-working-change-pack/README.md
+- Handling Disagreements: packs/disagreements-pack/README.md
+- Time for Top Priorities: packs/top-priorities-pack/README.md
+- Important Decisions: packs/important-decisions-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -115,3 +124,148 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - Skill index: packs/compassionate-leadership-pack/catalog.json
 - Research notes: packs/compassionate-leadership-pack/resources/evidence-and-sources.md
 - Portable project source: packs/compassionate-leadership-pack/portable/ALL-SKILLS.md
+
+## 10 Skills for Employee Experience
+- Pack: packs/employee-experience-pack/README.md
+- ex-listening-plan: packs/employee-experience-pack/skills/ex-listening-plan/SKILL.md — Produces a scoped listening plan
+- ex-workday-interview: packs/employee-experience-pack/skills/ex-workday-interview/SKILL.md — Produces an interview guide and confirmed friction note
+- ex-journey-friction-map: packs/employee-experience-pack/skills/ex-journey-friction-map/SKILL.md — Produces a journey map with repair opportunities
+- ex-feedback-theme-review: packs/employee-experience-pack/skills/ex-feedback-theme-review/SKILL.md — Produces a traceable and privacy-conscious theme brief
+- ex-work-design-check: packs/employee-experience-pack/skills/ex-work-design-check/SKILL.md — Produces a work redesign brief
+- ex-fair-action-priorities: packs/employee-experience-pack/skills/ex-fair-action-priorities/SKILL.md — Produces an explained action shortlist
+- ex-experience-experiment: packs/employee-experience-pack/skills/ex-experience-experiment/SKILL.md — Produces a bounded experiment card
+- ex-close-feedback-loop: packs/employee-experience-pack/skills/ex-close-feedback-loop/SKILL.md — Produces a clear feedback response and action ledger
+- ex-lightweight-pulse: packs/employee-experience-pack/skills/ex-lightweight-pulse/SKILL.md — Produces a minimal pulse and interpretation plan
+- ex-experience-review: packs/employee-experience-pack/skills/ex-experience-review/SKILL.md — Produces a keep-change-stop review
+- Reference: packs/employee-experience-pack/resources/evidence-and-sources.md
+- Reference: packs/employee-experience-pack/resources/practice-lab.md
+- Reference: packs/employee-experience-pack/templates/action-toolkit.md
+
+## 10 Skills for Team Performance
+- Pack: packs/team-performance-pack/README.md
+- team-performance-check: packs/team-performance-pack/skills/team-performance-check/SKILL.md — Produces a prioritized team-process diagnosis
+- team-performance-charter: packs/team-performance-pack/skills/team-performance-charter/SKILL.md — Produces a one-page delivery charter
+- team-performance-norms: packs/team-performance-pack/skills/team-performance-norms/SKILL.md — Produces a short norms trial
+- team-performance-retro: packs/team-performance-pack/skills/team-performance-retro/SKILL.md — Produces a facilitated retrospective and one experiment
+- team-performance-quick-debrief: packs/team-performance-pack/skills/team-performance-quick-debrief/SKILL.md — Produces a ten-minute operational debrief
+- team-performance-handoff: packs/team-performance-pack/skills/team-performance-handoff/SKILL.md — Produces a tested handoff contract
+- team-performance-meeting-reset: packs/team-performance-pack/skills/team-performance-meeting-reset/SKILL.md — Produces a keep/change/replace meeting plan
+- team-performance-shared-map: packs/team-performance-pack/skills/team-performance-shared-map/SKILL.md — Produces a reconciled work-and-expertise map
+- team-performance-practice: packs/team-performance-pack/skills/team-performance-practice/SKILL.md — Produces a fictional exercise and observation sheet
+- team-performance-experiment: packs/team-performance-pack/skills/team-performance-experiment/SKILL.md — Produces a small improvement trial and review decision
+- Reference: packs/team-performance-pack/resources/evidence-and-sources.md
+- Reference: packs/team-performance-pack/resources/practice-lab.md
+- Reference: packs/team-performance-pack/templates/team-workbook.md
+
+## 10 Skills for Stakeholder Relationships
+- Pack: packs/stakeholder-relationships-pack/README.md
+- stakeholder-relationship-map: packs/stakeholder-relationships-pack/skills/stakeholder-relationship-map/SKILL.md — A recurring stakeholder relationship is slowing delivery; map dependencies and choose a practical starting point.
+- stakeholder-get-perspective: packs/stakeholder-relationships-pack/skills/stakeholder-get-perspective/SKILL.md — You think you know why a stakeholder behaves this way; prepare questions and update your understanding from their actual answers.
+- stakeholder-interests-and-constraints: packs/stakeholder-relationships-pack/skills/stakeholder-interests-and-constraints/SKILL.md — Stakeholders want incompatible things; identify real constraints and develop a mutually workable arrangement.
+- stakeholder-trust-check: packs/stakeholder-relationships-pack/skills/stakeholder-trust-check/SKILL.md — A stakeholder says they do not trust your team; translate the concern into evidence and a bounded response.
+- stakeholder-reliability-trial: packs/stakeholder-relationships-pack/skills/stakeholder-reliability-trial/SKILL.md — Good intentions have not improved a stakeholder relationship; create a small commitment people can verify.
+- stakeholder-repair-plan: packs/stakeholder-relationships-pack/skills/stakeholder-repair-plan/SKILL.md — Your team has harmed an ongoing stakeholder relationship; prepare acknowledgment and a credible repair process.
+- stakeholder-interface-agreement: packs/stakeholder-relationships-pack/skills/stakeholder-interface-agreement/SKILL.md — Repeated friction happens at approvals and handoffs between teams or organizations; agree how the interface works.
+- stakeholder-update-and-warning: packs/stakeholder-relationships-pack/skills/stakeholder-update-and-warning/SKILL.md — A stakeholder hears about problems too late or receives too much reporting; design an honest update rhythm.
+- stakeholder-boundaries-and-escalation: packs/stakeholder-relationships-pack/skills/stakeholder-boundaries-and-escalation/SKILL.md — Repeated demands or harmful conduct are overwhelming the relationship; choose a proportionate boundary and escalation route.
+- stakeholder-relationship-review: packs/stakeholder-relationships-pack/skills/stakeholder-relationship-review/SKILL.md — A stakeholder agreement or repair trial has run for a few weeks; review evidence and decide what to change.
+- Reference: packs/stakeholder-relationships-pack/resources/evidence-and-sources.md
+- Reference: packs/stakeholder-relationships-pack/resources/practice-lab.md
+- Reference: packs/stakeholder-relationships-pack/templates/relationship-tools.md
+
+## 8 Skills for Failures and Mistakes
+- Pack: packs/failures-and-mistakes-pack/README.md
+- failure-contain-the-incident: packs/failures-and-mistakes-pack/skills/failure-contain-the-incident/SKILL.md — A mistake is still affecting a client, delivery, or team.
+- failure-own-and-repair: packs/failures-and-mistakes-pack/skills/failure-own-and-repair/SKILL.md — You caused or own an error and need an accountable response.
+- failure-reconstruct-the-event: packs/failures-and-mistakes-pack/skills/failure-reconstruct-the-event/SKILL.md — Accounts conflict or hindsight is replacing evidence after an error.
+- failure-map-contributing-conditions: packs/failures-and-mistakes-pack/skills/failure-map-contributing-conditions/SKILL.md — The explanation has stopped at carelessness, poor communication, or one root cause.
+- failure-respond-to-a-reported-error: packs/failures-and-mistakes-pack/skills/failure-respond-to-a-reported-error/SKILL.md — Someone tells you about a mistake or near miss and your response will affect future reporting.
+- failure-recover-for-learning: packs/failures-and-mistakes-pack/skills/failure-recover-for-learning/SKILL.md — Shame or defensive thinking is making a factual review difficult.
+- failure-test-a-prevention-change: packs/failures-and-mistakes-pack/skills/failure-test-a-prevention-change/SKILL.md — A review produced recommendations but no evidence that they work.
+- failure-close-and-transfer-learning: packs/failures-and-mistakes-pack/skills/failure-close-and-transfer-learning/SKILL.md — Repairs are complete but lessons may be forgotten or copied too widely.
+- Reference: packs/failures-and-mistakes-pack/resources/evidence-and-sources.md
+- Reference: packs/failures-and-mistakes-pack/resources/practice-lab.md
+- Reference: packs/failures-and-mistakes-pack/templates/incident-and-learning.md
+
+## 10 Skills for Delegation
+- Pack: packs/delegation-pack/README.md
+- delegation-task-picker: packs/delegation-pack/skills/delegation-task-picker/SKILL.md — A task shortlist with reasons, retained decisions, and a first handoff. Part of Polar Bear's Delegation Pack.
+- delegation-capacity-check: packs/delegation-pack/skills/delegation-capacity-check/SKILL.md — A feasible scope and a concrete workload trade-off. Part of Polar Bear's Delegation Pack.
+- delegation-outcome-brief: packs/delegation-pack/skills/delegation-outcome-brief/SKILL.md — A one-page brief defining useful completion without prescribing every method. Part of Polar Bear's Delegation Pack.
+- delegation-authority-map: packs/delegation-pack/skills/delegation-authority-map/SKILL.md — An explicit decision map and escalation boundaries. Part of Polar Bear's Delegation Pack.
+- delegation-handoff-conversation: packs/delegation-pack/skills/delegation-handoff-conversation/SKILL.md — A short conversation guide and an agreement awaiting human confirmation. Part of Polar Bear's Delegation Pack.
+- delegation-checkpoint-plan: packs/delegation-pack/skills/delegation-checkpoint-plan/SKILL.md — A small review schedule tied to risks and decisions. Part of Polar Bear's Delegation Pack.
+- delegation-coach-without-taking-over: packs/delegation-pack/skills/delegation-coach-without-taking-over/SKILL.md — A support conversation that resolves the blocker and makes ownership explicit. Part of Polar Bear's Delegation Pack.
+- delegation-reset-handoff: packs/delegation-pack/skills/delegation-reset-handoff/SKILL.md — A recovery agreement addressing outcome, capacity, authority, and support. Part of Polar Bear's Delegation Pack.
+- delegation-close-and-learn: packs/delegation-pack/skills/delegation-close-and-learn/SKILL.md — A completion decision and one change for the next handoff. Part of Polar Bear's Delegation Pack.
+- delegation-pattern-review: packs/delegation-pack/skills/delegation-pattern-review/SKILL.md — A fairer distribution experiment and a manager commitment. Part of Polar Bear's Delegation Pack.
+- Reference: packs/delegation-pack/resources/evidence-and-sources.md
+- Reference: packs/delegation-pack/resources/practice-lab.md
+- Reference: packs/delegation-pack/templates/delegation-notes.md
+
+## 10 Skills for Changing Ways of Working
+- Pack: packs/ways-of-working-change-pack/README.md
+- change-behavior-brief: packs/ways-of-working-change-pack/skills/change-behavior-brief/SKILL.md — Turn a vague transformation into one observable work change.
+- change-barrier-diagnosis: packs/ways-of-working-change-pack/skills/change-barrier-diagnosis/SKILL.md — Diagnose obstacles before selecting training or reminders.
+- change-involvement-plan: packs/ways-of-working-change-pack/skills/change-involvement-plan/SKILL.md — Design input that can influence the change.
+- change-capacity-check: packs/ways-of-working-change-pack/skills/change-capacity-check/SKILL.md — Make space and support for a work change.
+- change-pilot-design: packs/ways-of-working-change-pack/skills/change-pilot-design/SKILL.md — Test a work change with predictions and stop rules.
+- change-practice-support: packs/ways-of-working-change-pack/skills/change-practice-support/SKILL.md — Create practice and point-of-use support for a specific barrier.
+- change-adoption-evidence: packs/ways-of-working-change-pack/skills/change-adoption-evidence/SKILL.md — Distinguish use, usefulness and unintended effects.
+- change-adaptation-review: packs/ways-of-working-change-pack/skills/change-adaptation-review/SKILL.md — Decide whether a local variation preserves the work change.
+- change-rollout-decision: packs/ways-of-working-change-pack/skills/change-rollout-decision/SKILL.md — Turn pilot evidence into a proportionate rollout decision.
+- change-sustainment-review: packs/ways-of-working-change-pack/skills/change-sustainment-review/SKILL.md — Review durability and retire obsolete process work.
+- Reference: packs/ways-of-working-change-pack/resources/evidence-and-sources.md
+- Reference: packs/ways-of-working-change-pack/resources/practice-lab.md
+- Reference: packs/ways-of-working-change-pack/templates/change-records.md
+
+## 10 Skills for Handling Disagreements
+- Pack: packs/disagreements-pack/README.md
+- disagreement-issue-map: packs/disagreements-pack/skills/disagreement-issue-map/SKILL.md — Produces a one-page map distinguishing evidence, predictions, values, process and personal harm. Part of Polar Bear’s Disagreements Pack.
+- disagreement-fact-check: packs/disagreements-pack/skills/disagreement-fact-check/SKILL.md — Produces a shared evidence-check plan and a provisional conclusion. Part of Polar Bear’s Disagreements Pack.
+- disagreement-listen-and-check: packs/disagreements-pack/skills/disagreement-listen-and-check/SKILL.md — Produces a short listening guide and a checked-understanding note. Part of Polar Bear’s Disagreements Pack.
+- disagreement-clear-dissent: packs/disagreements-pack/skills/disagreement-clear-dissent/SKILL.md — Produces a clear objection, alternative and decision request. Part of Polar Bear’s Disagreements Pack.
+- disagreement-fair-process: packs/disagreements-pack/skills/disagreement-fair-process/SKILL.md — Produces a fair participation and decision-process agreement. Part of Polar Bear’s Disagreements Pack.
+- disagreement-surface-dissent: packs/disagreements-pack/skills/disagreement-surface-dissent/SKILL.md — Produces a bounded dissent session with an evidence and objection log. Part of Polar Bear’s Disagreements Pack.
+- disagreement-integrative-options: packs/disagreements-pack/skills/disagreement-integrative-options/SKILL.md — Produces an option comparison that tests joint gains and real trade-offs. Part of Polar Bear’s Disagreements Pack.
+- disagreement-reset-exchange: packs/disagreements-pack/skills/disagreement-reset-exchange/SKILL.md — Produces a pause sentence, revised opening and safe continuation plan. Part of Polar Bear’s Disagreements Pack.
+- disagreement-close-decision: packs/disagreements-pack/skills/disagreement-close-decision/SKILL.md — Produces a decision record preserving dissent and implementation responsibilities. Part of Polar Bear’s Disagreements Pack.
+- disagreement-review-resolution: packs/disagreements-pack/skills/disagreement-review-resolution/SKILL.md — Produces a short outcome review with one corrective action. Part of Polar Bear’s Disagreements Pack.
+- Reference: packs/disagreements-pack/resources/evidence-and-sources.md
+- Reference: packs/disagreements-pack/resources/practice-lab.md
+- Reference: packs/disagreements-pack/templates/decision-record.md
+- Reference: packs/disagreements-pack/templates/disagreement-canvas.md
+
+## 10 Skills to Make Time for Your Top Priorities
+- Pack: packs/top-priorities-pack/README.md
+- priorities-choose-outcomes: packs/top-priorities-pack/skills/priorities-choose-outcomes/SKILL.md — Everything feels important and you need a defensible short list. Produces a ranked outcome brief and an explicit not-now list.
+- priorities-time-audit: packs/top-priorities-pack/skills/priorities-time-audit/SKILL.md — Your stated priorities and actual use of time do not match. Produces a light time audit with two changes worth testing.
+- priorities-capacity-plan: packs/top-priorities-pack/skills/priorities-capacity-plan/SKILL.md — You have more promised work than time available. Produces a capacity calculation and a workable commitment proposal.
+- priorities-calendar-reset: packs/top-priorities-pack/skills/priorities-calendar-reset/SKILL.md — Meetings and recurring commitments crowd out a chosen priority. Produces a proposed calendar reset with preserved coordination.
+- priorities-focus-session: packs/top-priorities-pack/skills/priorities-focus-session/SKILL.md — You have protected time but keep delaying or spreading attention across tasks. Produces a small concrete work session with a restart note.
+- priorities-interruptions: packs/top-priorities-pack/skills/priorities-interruptions/SKILL.md — Reactive work repeatedly derails your main task. Produces an interruption agreement and concise resumption routine.
+- priorities-renegotiate: packs/top-priorities-pack/skills/priorities-renegotiate/SKILL.md — A new request would displace work already promised. Produces a factual trade-off brief and a draft response.
+- priorities-realistic-plan: packs/top-priorities-pack/skills/priorities-realistic-plan/SKILL.md — An important outcome keeps slipping despite repeated intentions. Produces a staged plan with evidence-based estimates and contingencies.
+- priorities-close-day: packs/top-priorities-pack/skills/priorities-close-day/SKILL.md — Unfinished work follows you into the evening or causes a confused restart. Produces a short closure note and a realistic next working-day entry point.
+- priorities-weekly-review: packs/top-priorities-pack/skills/priorities-weekly-review/SKILL.md — Your plan needs updating after a week of real work. Produces a short evidence-based review and next-week commitment change.
+- Reference: packs/top-priorities-pack/resources/evidence-and-sources.md
+- Reference: packs/top-priorities-pack/resources/practice-lab.md
+- Reference: packs/top-priorities-pack/templates/capacity-and-tradeoffs.md
+- Reference: packs/top-priorities-pack/templates/focus-and-review.md
+
+## 10 Skills for Important Decisions
+- Pack: packs/important-decisions-pack/README.md
+- decision-frame: packs/important-decisions-pack/skills/decision-frame/SKILL.md — Produces a one-page decision frame
+- decision-options: packs/important-decisions-pack/skills/decision-options/SKILL.md — Produces a shortlist of genuinely different options
+- decision-tradeoffs: packs/important-decisions-pack/skills/decision-tradeoffs/SKILL.md — Produces a consequence and trade-off table
+- decision-uncertainty: packs/important-decisions-pack/skills/decision-uncertainty/SKILL.md — Produces an evidence and uncertainty brief
+- decision-counterevidence: packs/important-decisions-pack/skills/decision-counterevidence/SKILL.md — Produces a disconfirming-evidence plan
+- decision-independent-input: packs/important-decisions-pack/skills/decision-independent-input/SKILL.md — Produces a consultation and synthesis plan
+- decision-premortem: packs/important-decisions-pack/skills/decision-premortem/SKILL.md — Produces a risk and prevention note
+- decision-sensitivity: packs/important-decisions-pack/skills/decision-sensitivity/SKILL.md — Produces a sensitivity and next-evidence brief
+- decision-record: packs/important-decisions-pack/skills/decision-record/SKILL.md — Produces a dated decision record
+- decision-review: packs/important-decisions-pack/skills/decision-review/SKILL.md — Produces a decision learning and revisit note
+- Reference: packs/important-decisions-pack/resources/evidence-and-sources.md
+- Reference: packs/important-decisions-pack/resources/practice-lab.md
+- Reference: packs/important-decisions-pack/templates/decision-brief.md
+- Reference: packs/important-decisions-pack/templates/decision-review.md

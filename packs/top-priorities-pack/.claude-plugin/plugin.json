@@ -1,0 +1,24 @@
+{
+  "name": "top-priorities-pack",
+  "version": "1.0.0",
+  "description": "Choose meaningful priorities, make a week that fits, protect attention and renegotiate competing demands.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "priorities",
+    "time-management",
+    "capacity",
+    "planning",
+    "focus",
+    "interruptions",
+    "boundaries",
+    "weekly-review",
+    "leadership",
+    "workload"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/top-priorities-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

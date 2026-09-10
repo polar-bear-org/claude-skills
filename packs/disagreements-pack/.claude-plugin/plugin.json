@@ -1,0 +1,23 @@
+{
+  "name": "disagreements-pack",
+  "version": "1.0.0",
+  "description": "Prepare, work through and close bounded workplace disagreements with clear evidence, meaningful dissent and fair decisions.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "disagreements",
+    "conflict",
+    "dissent",
+    "listening",
+    "decisions",
+    "negotiation",
+    "managers",
+    "communication",
+    "fairness",
+    "leadership"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/disagreements-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

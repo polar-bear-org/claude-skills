@@ -1,0 +1,24 @@
+{
+  "name": "team-performance-pack",
+  "version": "1.0.0",
+  "description": "Turn team delivery friction into useful retrospectives, clear norms, reliable handoffs and tested process improvements.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "teamwork",
+    "retrospectives",
+    "team-norms",
+    "coordination",
+    "handoffs",
+    "meetings",
+    "team-charter",
+    "debrief",
+    "ways-of-working",
+    "team-performance"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/team-performance-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

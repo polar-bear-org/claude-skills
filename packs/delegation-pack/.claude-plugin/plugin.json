@@ -1,0 +1,23 @@
+{
+  "name": "delegation-pack",
+  "version": "1.0.0",
+  "description": "Delegate useful outcomes with clear authority, realistic capacity, and proportionate support. Ten practical skills for founders and managers.",
+  "author": {
+    "name": "Polar Bear"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "delegation",
+    "management",
+    "leadership",
+    "autonomy",
+    "empowerment",
+    "capacity",
+    "coaching",
+    "handoff",
+    "checkpoints",
+    "accountability"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/delegation-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}

@@ -143,6 +143,231 @@
       ],
       "source": "./packs/compassionate-leadership-pack",
       "category": "productivity"
+    },
+    {
+      "name": "employee-experience-pack",
+      "source": "./packs/employee-experience-pack",
+      "description": "Listen to employees, find friction in the work, and turn feedback into changes people can see.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/employee-experience-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "employee-experience",
+        "listening",
+        "work-design",
+        "employee-voice",
+        "feedback",
+        "participation",
+        "fairness",
+        "workplace",
+        "manager",
+        "improvement"
+      ]
+    },
+    {
+      "name": "team-performance-pack",
+      "source": "./packs/team-performance-pack",
+      "description": "Run useful retrospectives, agree team norms, and improve coordination in everyday work.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/team-performance-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "teamwork",
+        "retrospectives",
+        "team-norms",
+        "coordination",
+        "handoffs",
+        "meetings",
+        "team-charter",
+        "debrief",
+        "ways-of-working",
+        "team-performance"
+      ]
+    },
+    {
+      "name": "stakeholder-relationships-pack",
+      "source": "./packs/stakeholder-relationships-pack",
+      "description": "Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/stakeholder-relationships-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "stakeholders",
+        "relationships",
+        "trust",
+        "repair",
+        "coordination",
+        "boundaries",
+        "clients",
+        "leadership",
+        "communication",
+        "handoffs"
+      ]
+    },
+    {
+      "name": "failures-and-mistakes-pack",
+      "source": "./packs/failures-and-mistakes-pack",
+      "description": "Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/failures-and-mistakes-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "failures",
+        "mistakes",
+        "learning",
+        "incident-response",
+        "error-management",
+        "accountability",
+        "repair",
+        "prevention",
+        "leadership",
+        "management"
+      ]
+    },
+    {
+      "name": "delegation-pack",
+      "source": "./packs/delegation-pack",
+      "description": "Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/delegation-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "delegation",
+        "management",
+        "leadership",
+        "autonomy",
+        "empowerment",
+        "capacity",
+        "coaching",
+        "handoff",
+        "checkpoints",
+        "accountability"
+      ]
+    },
+    {
+      "name": "ways-of-working-change-pack",
+      "source": "./packs/ways-of-working-change-pack",
+      "description": "Define a behavior change, understand barriers, involve the team, and learn from a practical pilot.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/ways-of-working-change-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "change",
+        "adoption",
+        "workflow",
+        "implementation",
+        "pilots",
+        "behavior",
+        "participation",
+        "adaptation",
+        "managers",
+        "agencies"
+      ]
+    },
+    {
+      "name": "disagreements-pack",
+      "source": "./packs/disagreements-pack",
+      "description": "Clarify a disagreement, understand the other view, test options, and reach a decision people can work with.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/disagreements-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "disagreements",
+        "conflict",
+        "dissent",
+        "listening",
+        "decisions",
+        "negotiation",
+        "managers",
+        "communication",
+        "fairness",
+        "leadership"
+      ]
+    },
+    {
+      "name": "top-priorities-pack",
+      "source": "./packs/top-priorities-pack",
+      "description": "Clarify priorities, confront capacity, protect focused time, and renegotiate commitments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/top-priorities-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "priorities",
+        "time-management",
+        "capacity",
+        "planning",
+        "focus",
+        "interruptions",
+        "boundaries",
+        "weekly-review",
+        "leadership",
+        "workload"
+      ]
+    },
+    {
+      "name": "important-decisions-pack",
+      "source": "./packs/important-decisions-pack",
+      "description": "Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/important-decisions-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "decisions",
+        "leadership",
+        "management",
+        "alternatives",
+        "uncertainty",
+        "evidence",
+        "premortem",
+        "tradeoffs",
+        "consultation",
+        "review"
+      ]
     }
   ]
 }

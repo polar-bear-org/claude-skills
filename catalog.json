@@ -1240,6 +1240,1170 @@
           ]
         }
       ]
+    },
+    {
+      "name": "employee-experience-pack",
+      "title": "10 Skills for Employee Experience",
+      "path": "packs/employee-experience-pack",
+      "version": "1.0.0",
+      "description": "Listen to employees, find friction in the work, and turn feedback into changes people can see.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "employee-experience",
+        "listening",
+        "work-design",
+        "employee-voice",
+        "feedback",
+        "participation",
+        "fairness",
+        "workplace",
+        "manager",
+        "improvement"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/action-toolkit.md",
+          "description": "action toolkit"
+        }
+      ],
+      "skills": [
+        {
+          "name": "ex-listening-plan",
+          "path": "packs/employee-experience-pack/skills/ex-listening-plan",
+          "order": 1,
+          "summary": "Produces a scoped listening plan",
+          "triggers": [
+            "run ex-listening-plan"
+          ]
+        },
+        {
+          "name": "ex-workday-interview",
+          "path": "packs/employee-experience-pack/skills/ex-workday-interview",
+          "order": 2,
+          "summary": "Produces an interview guide and confirmed friction note",
+          "triggers": [
+            "run ex-workday-interview"
+          ]
+        },
+        {
+          "name": "ex-journey-friction-map",
+          "path": "packs/employee-experience-pack/skills/ex-journey-friction-map",
+          "order": 3,
+          "summary": "Produces a journey map with repair opportunities",
+          "triggers": [
+            "run ex-journey-friction-map"
+          ]
+        },
+        {
+          "name": "ex-feedback-theme-review",
+          "path": "packs/employee-experience-pack/skills/ex-feedback-theme-review",
+          "order": 4,
+          "summary": "Produces a traceable and privacy-conscious theme brief",
+          "triggers": [
+            "run ex-feedback-theme-review"
+          ]
+        },
+        {
+          "name": "ex-work-design-check",
+          "path": "packs/employee-experience-pack/skills/ex-work-design-check",
+          "order": 5,
+          "summary": "Produces a work redesign brief",
+          "triggers": [
+            "run ex-work-design-check"
+          ]
+        },
+        {
+          "name": "ex-fair-action-priorities",
+          "path": "packs/employee-experience-pack/skills/ex-fair-action-priorities",
+          "order": 6,
+          "summary": "Produces an explained action shortlist",
+          "triggers": [
+            "run ex-fair-action-priorities"
+          ]
+        },
+        {
+          "name": "ex-experience-experiment",
+          "path": "packs/employee-experience-pack/skills/ex-experience-experiment",
+          "order": 7,
+          "summary": "Produces a bounded experiment card",
+          "triggers": [
+            "run ex-experience-experiment"
+          ]
+        },
+        {
+          "name": "ex-close-feedback-loop",
+          "path": "packs/employee-experience-pack/skills/ex-close-feedback-loop",
+          "order": 8,
+          "summary": "Produces a clear feedback response and action ledger",
+          "triggers": [
+            "run ex-close-feedback-loop"
+          ]
+        },
+        {
+          "name": "ex-lightweight-pulse",
+          "path": "packs/employee-experience-pack/skills/ex-lightweight-pulse",
+          "order": 9,
+          "summary": "Produces a minimal pulse and interpretation plan",
+          "triggers": [
+            "run ex-lightweight-pulse"
+          ]
+        },
+        {
+          "name": "ex-experience-review",
+          "path": "packs/employee-experience-pack/skills/ex-experience-review",
+          "order": 10,
+          "summary": "Produces a keep-change-stop review",
+          "triggers": [
+            "run ex-experience-review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "team-performance-pack",
+      "title": "10 Skills for Team Performance",
+      "path": "packs/team-performance-pack",
+      "version": "1.0.0",
+      "description": "Run useful retrospectives, agree team norms, and improve coordination in everyday work.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "teamwork",
+        "retrospectives",
+        "team-norms",
+        "coordination",
+        "handoffs",
+        "meetings",
+        "team-charter",
+        "debrief",
+        "ways-of-working",
+        "team-performance"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/team-workbook.md",
+          "description": "team workbook"
+        }
+      ],
+      "skills": [
+        {
+          "name": "team-performance-check",
+          "path": "packs/team-performance-pack/skills/team-performance-check",
+          "order": 1,
+          "summary": "Produces a prioritized team-process diagnosis",
+          "triggers": [
+            "run team-performance-check"
+          ]
+        },
+        {
+          "name": "team-performance-charter",
+          "path": "packs/team-performance-pack/skills/team-performance-charter",
+          "order": 2,
+          "summary": "Produces a one-page delivery charter",
+          "triggers": [
+            "run team-performance-charter"
+          ]
+        },
+        {
+          "name": "team-performance-norms",
+          "path": "packs/team-performance-pack/skills/team-performance-norms",
+          "order": 3,
+          "summary": "Produces a short norms trial",
+          "triggers": [
+            "run team-performance-norms"
+          ]
+        },
+        {
+          "name": "team-performance-retro",
+          "path": "packs/team-performance-pack/skills/team-performance-retro",
+          "order": 4,
+          "summary": "Produces a facilitated retrospective and one experiment",
+          "triggers": [
+            "run team-performance-retro"
+          ]
+        },
+        {
+          "name": "team-performance-quick-debrief",
+          "path": "packs/team-performance-pack/skills/team-performance-quick-debrief",
+          "order": 5,
+          "summary": "Produces a ten-minute operational debrief",
+          "triggers": [
+            "run team-performance-quick-debrief"
+          ]
+        },
+        {
+          "name": "team-performance-handoff",
+          "path": "packs/team-performance-pack/skills/team-performance-handoff",
+          "order": 6,
+          "summary": "Produces a tested handoff contract",
+          "triggers": [
+            "run team-performance-handoff"
+          ]
+        },
+        {
+          "name": "team-performance-meeting-reset",
+          "path": "packs/team-performance-pack/skills/team-performance-meeting-reset",
+          "order": 7,
+          "summary": "Produces a keep/change/replace meeting plan",
+          "triggers": [
+            "run team-performance-meeting-reset"
+          ]
+        },
+        {
+          "name": "team-performance-shared-map",
+          "path": "packs/team-performance-pack/skills/team-performance-shared-map",
+          "order": 8,
+          "summary": "Produces a reconciled work-and-expertise map",
+          "triggers": [
+            "run team-performance-shared-map"
+          ]
+        },
+        {
+          "name": "team-performance-practice",
+          "path": "packs/team-performance-pack/skills/team-performance-practice",
+          "order": 9,
+          "summary": "Produces a fictional exercise and observation sheet",
+          "triggers": [
+            "run team-performance-practice"
+          ]
+        },
+        {
+          "name": "team-performance-experiment",
+          "path": "packs/team-performance-pack/skills/team-performance-experiment",
+          "order": 10,
+          "summary": "Produces a small improvement trial and review decision",
+          "triggers": [
+            "run team-performance-experiment"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stakeholder-relationships-pack",
+      "title": "10 Skills for Stakeholder Relationships",
+      "path": "packs/stakeholder-relationships-pack",
+      "version": "1.0.0",
+      "description": "Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "stakeholders",
+        "relationships",
+        "trust",
+        "repair",
+        "coordination",
+        "boundaries",
+        "clients",
+        "leadership",
+        "communication",
+        "handoffs"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/relationship-tools.md",
+          "description": "relationship tools"
+        }
+      ],
+      "skills": [
+        {
+          "name": "stakeholder-relationship-map",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-relationship-map",
+          "order": 1,
+          "summary": "A recurring stakeholder relationship is slowing delivery; map dependencies and choose a practical starting point.",
+          "triggers": [
+            "run stakeholder-relationship-map"
+          ]
+        },
+        {
+          "name": "stakeholder-get-perspective",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-get-perspective",
+          "order": 2,
+          "summary": "You think you know why a stakeholder behaves this way; prepare questions and update your understanding from their actual answers.",
+          "triggers": [
+            "run stakeholder-get-perspective"
+          ]
+        },
+        {
+          "name": "stakeholder-interests-and-constraints",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-interests-and-constraints",
+          "order": 3,
+          "summary": "Stakeholders want incompatible things; identify real constraints and develop a mutually workable arrangement.",
+          "triggers": [
+            "run stakeholder-interests-and-constraints"
+          ]
+        },
+        {
+          "name": "stakeholder-trust-check",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-trust-check",
+          "order": 4,
+          "summary": "A stakeholder says they do not trust your team; translate the concern into evidence and a bounded response.",
+          "triggers": [
+            "run stakeholder-trust-check"
+          ]
+        },
+        {
+          "name": "stakeholder-reliability-trial",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-reliability-trial",
+          "order": 5,
+          "summary": "Good intentions have not improved a stakeholder relationship; create a small commitment people can verify.",
+          "triggers": [
+            "run stakeholder-reliability-trial"
+          ]
+        },
+        {
+          "name": "stakeholder-repair-plan",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-repair-plan",
+          "order": 6,
+          "summary": "Your team has harmed an ongoing stakeholder relationship; prepare acknowledgment and a credible repair process.",
+          "triggers": [
+            "run stakeholder-repair-plan"
+          ]
+        },
+        {
+          "name": "stakeholder-interface-agreement",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-interface-agreement",
+          "order": 7,
+          "summary": "Repeated friction happens at approvals and handoffs between teams or organizations; agree how the interface works.",
+          "triggers": [
+            "run stakeholder-interface-agreement"
+          ]
+        },
+        {
+          "name": "stakeholder-update-and-warning",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-update-and-warning",
+          "order": 8,
+          "summary": "A stakeholder hears about problems too late or receives too much reporting; design an honest update rhythm.",
+          "triggers": [
+            "run stakeholder-update-and-warning"
+          ]
+        },
+        {
+          "name": "stakeholder-boundaries-and-escalation",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-boundaries-and-escalation",
+          "order": 9,
+          "summary": "Repeated demands or harmful conduct are overwhelming the relationship; choose a proportionate boundary and escalation route.",
+          "triggers": [
+            "run stakeholder-boundaries-and-escalation"
+          ]
+        },
+        {
+          "name": "stakeholder-relationship-review",
+          "path": "packs/stakeholder-relationships-pack/skills/stakeholder-relationship-review",
+          "order": 10,
+          "summary": "A stakeholder agreement or repair trial has run for a few weeks; review evidence and decide what to change.",
+          "triggers": [
+            "run stakeholder-relationship-review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "failures-and-mistakes-pack",
+      "title": "8 Skills for Failures and Mistakes",
+      "path": "packs/failures-and-mistakes-pack",
+      "version": "1.0.0",
+      "description": "Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "failures",
+        "mistakes",
+        "learning",
+        "incident-response",
+        "error-management",
+        "accountability",
+        "repair",
+        "prevention",
+        "leadership",
+        "management"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/incident-and-learning.md",
+          "description": "incident and learning"
+        }
+      ],
+      "skills": [
+        {
+          "name": "failure-contain-the-incident",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-contain-the-incident",
+          "order": 1,
+          "summary": "A mistake is still affecting a client, delivery, or team.",
+          "triggers": [
+            "run failure-contain-the-incident"
+          ]
+        },
+        {
+          "name": "failure-own-and-repair",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-own-and-repair",
+          "order": 2,
+          "summary": "You caused or own an error and need an accountable response.",
+          "triggers": [
+            "run failure-own-and-repair"
+          ]
+        },
+        {
+          "name": "failure-reconstruct-the-event",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-reconstruct-the-event",
+          "order": 3,
+          "summary": "Accounts conflict or hindsight is replacing evidence after an error.",
+          "triggers": [
+            "run failure-reconstruct-the-event"
+          ]
+        },
+        {
+          "name": "failure-map-contributing-conditions",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-map-contributing-conditions",
+          "order": 4,
+          "summary": "The explanation has stopped at carelessness, poor communication, or one root cause.",
+          "triggers": [
+            "run failure-map-contributing-conditions"
+          ]
+        },
+        {
+          "name": "failure-respond-to-a-reported-error",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-respond-to-a-reported-error",
+          "order": 5,
+          "summary": "Someone tells you about a mistake or near miss and your response will affect future reporting.",
+          "triggers": [
+            "run failure-respond-to-a-reported-error"
+          ]
+        },
+        {
+          "name": "failure-recover-for-learning",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-recover-for-learning",
+          "order": 6,
+          "summary": "Shame or defensive thinking is making a factual review difficult.",
+          "triggers": [
+            "run failure-recover-for-learning"
+          ]
+        },
+        {
+          "name": "failure-test-a-prevention-change",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-test-a-prevention-change",
+          "order": 7,
+          "summary": "A review produced recommendations but no evidence that they work.",
+          "triggers": [
+            "run failure-test-a-prevention-change"
+          ]
+        },
+        {
+          "name": "failure-close-and-transfer-learning",
+          "path": "packs/failures-and-mistakes-pack/skills/failure-close-and-transfer-learning",
+          "order": 8,
+          "summary": "Repairs are complete but lessons may be forgotten or copied too widely.",
+          "triggers": [
+            "run failure-close-and-transfer-learning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "delegation-pack",
+      "title": "10 Skills for Delegation",
+      "path": "packs/delegation-pack",
+      "version": "1.0.0",
+      "description": "Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "delegation",
+        "management",
+        "leadership",
+        "autonomy",
+        "empowerment",
+        "capacity",
+        "coaching",
+        "handoff",
+        "checkpoints",
+        "accountability"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/delegation-notes.md",
+          "description": "delegation notes"
+        }
+      ],
+      "skills": [
+        {
+          "name": "delegation-task-picker",
+          "path": "packs/delegation-pack/skills/delegation-task-picker",
+          "order": 1,
+          "summary": "A task shortlist with reasons, retained decisions, and a first handoff. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-task-picker"
+          ]
+        },
+        {
+          "name": "delegation-capacity-check",
+          "path": "packs/delegation-pack/skills/delegation-capacity-check",
+          "order": 2,
+          "summary": "A feasible scope and a concrete workload trade-off. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-capacity-check"
+          ]
+        },
+        {
+          "name": "delegation-outcome-brief",
+          "path": "packs/delegation-pack/skills/delegation-outcome-brief",
+          "order": 3,
+          "summary": "A one-page brief defining useful completion without prescribing every method. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-outcome-brief"
+          ]
+        },
+        {
+          "name": "delegation-authority-map",
+          "path": "packs/delegation-pack/skills/delegation-authority-map",
+          "order": 4,
+          "summary": "An explicit decision map and escalation boundaries. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-authority-map"
+          ]
+        },
+        {
+          "name": "delegation-handoff-conversation",
+          "path": "packs/delegation-pack/skills/delegation-handoff-conversation",
+          "order": 5,
+          "summary": "A short conversation guide and an agreement awaiting human confirmation. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-handoff-conversation"
+          ]
+        },
+        {
+          "name": "delegation-checkpoint-plan",
+          "path": "packs/delegation-pack/skills/delegation-checkpoint-plan",
+          "order": 6,
+          "summary": "A small review schedule tied to risks and decisions. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-checkpoint-plan"
+          ]
+        },
+        {
+          "name": "delegation-coach-without-taking-over",
+          "path": "packs/delegation-pack/skills/delegation-coach-without-taking-over",
+          "order": 7,
+          "summary": "A support conversation that resolves the blocker and makes ownership explicit. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-coach-without-taking-over"
+          ]
+        },
+        {
+          "name": "delegation-reset-handoff",
+          "path": "packs/delegation-pack/skills/delegation-reset-handoff",
+          "order": 8,
+          "summary": "A recovery agreement addressing outcome, capacity, authority, and support. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-reset-handoff"
+          ]
+        },
+        {
+          "name": "delegation-close-and-learn",
+          "path": "packs/delegation-pack/skills/delegation-close-and-learn",
+          "order": 9,
+          "summary": "A completion decision and one change for the next handoff. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-close-and-learn"
+          ]
+        },
+        {
+          "name": "delegation-pattern-review",
+          "path": "packs/delegation-pack/skills/delegation-pattern-review",
+          "order": 10,
+          "summary": "A fairer distribution experiment and a manager commitment. Part of Polar Bear's Delegation Pack.",
+          "triggers": [
+            "run delegation-pattern-review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ways-of-working-change-pack",
+      "title": "10 Skills for Changing Ways of Working",
+      "path": "packs/ways-of-working-change-pack",
+      "version": "1.0.0",
+      "description": "Define a behavior change, understand barriers, involve the team, and learn from a practical pilot.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "change",
+        "adoption",
+        "workflow",
+        "implementation",
+        "pilots",
+        "behavior",
+        "participation",
+        "adaptation",
+        "managers",
+        "agencies"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/change-records.md",
+          "description": "change records"
+        }
+      ],
+      "skills": [
+        {
+          "name": "change-behavior-brief",
+          "path": "packs/ways-of-working-change-pack/skills/change-behavior-brief",
+          "order": 1,
+          "summary": "Turn a vague transformation into one observable work change.",
+          "triggers": [
+            "run change-behavior-brief"
+          ]
+        },
+        {
+          "name": "change-barrier-diagnosis",
+          "path": "packs/ways-of-working-change-pack/skills/change-barrier-diagnosis",
+          "order": 2,
+          "summary": "Diagnose obstacles before selecting training or reminders.",
+          "triggers": [
+            "run change-barrier-diagnosis"
+          ]
+        },
+        {
+          "name": "change-involvement-plan",
+          "path": "packs/ways-of-working-change-pack/skills/change-involvement-plan",
+          "order": 3,
+          "summary": "Design input that can influence the change.",
+          "triggers": [
+            "run change-involvement-plan"
+          ]
+        },
+        {
+          "name": "change-capacity-check",
+          "path": "packs/ways-of-working-change-pack/skills/change-capacity-check",
+          "order": 4,
+          "summary": "Make space and support for a work change.",
+          "triggers": [
+            "run change-capacity-check"
+          ]
+        },
+        {
+          "name": "change-pilot-design",
+          "path": "packs/ways-of-working-change-pack/skills/change-pilot-design",
+          "order": 5,
+          "summary": "Test a work change with predictions and stop rules.",
+          "triggers": [
+            "run change-pilot-design"
+          ]
+        },
+        {
+          "name": "change-practice-support",
+          "path": "packs/ways-of-working-change-pack/skills/change-practice-support",
+          "order": 6,
+          "summary": "Create practice and point-of-use support for a specific barrier.",
+          "triggers": [
+            "run change-practice-support"
+          ]
+        },
+        {
+          "name": "change-adoption-evidence",
+          "path": "packs/ways-of-working-change-pack/skills/change-adoption-evidence",
+          "order": 7,
+          "summary": "Distinguish use, usefulness and unintended effects.",
+          "triggers": [
+            "run change-adoption-evidence"
+          ]
+        },
+        {
+          "name": "change-adaptation-review",
+          "path": "packs/ways-of-working-change-pack/skills/change-adaptation-review",
+          "order": 8,
+          "summary": "Decide whether a local variation preserves the work change.",
+          "triggers": [
+            "run change-adaptation-review"
+          ]
+        },
+        {
+          "name": "change-rollout-decision",
+          "path": "packs/ways-of-working-change-pack/skills/change-rollout-decision",
+          "order": 9,
+          "summary": "Turn pilot evidence into a proportionate rollout decision.",
+          "triggers": [
+            "run change-rollout-decision"
+          ]
+        },
+        {
+          "name": "change-sustainment-review",
+          "path": "packs/ways-of-working-change-pack/skills/change-sustainment-review",
+          "order": 10,
+          "summary": "Review durability and retire obsolete process work.",
+          "triggers": [
+            "run change-sustainment-review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "disagreements-pack",
+      "title": "10 Skills for Handling Disagreements",
+      "path": "packs/disagreements-pack",
+      "version": "1.0.0",
+      "description": "Clarify a disagreement, understand the other view, test options, and reach a decision people can work with.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "disagreements",
+        "conflict",
+        "dissent",
+        "listening",
+        "decisions",
+        "negotiation",
+        "managers",
+        "communication",
+        "fairness",
+        "leadership"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/decision-record.md",
+          "description": "decision record"
+        },
+        {
+          "file": "templates/disagreement-canvas.md",
+          "description": "disagreement canvas"
+        }
+      ],
+      "skills": [
+        {
+          "name": "disagreement-issue-map",
+          "path": "packs/disagreements-pack/skills/disagreement-issue-map",
+          "order": 1,
+          "summary": "Produces a one-page map distinguishing evidence, predictions, values, process and personal harm. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-issue-map"
+          ]
+        },
+        {
+          "name": "disagreement-fact-check",
+          "path": "packs/disagreements-pack/skills/disagreement-fact-check",
+          "order": 2,
+          "summary": "Produces a shared evidence-check plan and a provisional conclusion. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-fact-check"
+          ]
+        },
+        {
+          "name": "disagreement-listen-and-check",
+          "path": "packs/disagreements-pack/skills/disagreement-listen-and-check",
+          "order": 3,
+          "summary": "Produces a short listening guide and a checked-understanding note. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-listen-and-check"
+          ]
+        },
+        {
+          "name": "disagreement-clear-dissent",
+          "path": "packs/disagreements-pack/skills/disagreement-clear-dissent",
+          "order": 4,
+          "summary": "Produces a clear objection, alternative and decision request. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-clear-dissent"
+          ]
+        },
+        {
+          "name": "disagreement-fair-process",
+          "path": "packs/disagreements-pack/skills/disagreement-fair-process",
+          "order": 5,
+          "summary": "Produces a fair participation and decision-process agreement. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-fair-process"
+          ]
+        },
+        {
+          "name": "disagreement-surface-dissent",
+          "path": "packs/disagreements-pack/skills/disagreement-surface-dissent",
+          "order": 6,
+          "summary": "Produces a bounded dissent session with an evidence and objection log. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-surface-dissent"
+          ]
+        },
+        {
+          "name": "disagreement-integrative-options",
+          "path": "packs/disagreements-pack/skills/disagreement-integrative-options",
+          "order": 7,
+          "summary": "Produces an option comparison that tests joint gains and real trade-offs. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-integrative-options"
+          ]
+        },
+        {
+          "name": "disagreement-reset-exchange",
+          "path": "packs/disagreements-pack/skills/disagreement-reset-exchange",
+          "order": 8,
+          "summary": "Produces a pause sentence, revised opening and safe continuation plan. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-reset-exchange"
+          ]
+        },
+        {
+          "name": "disagreement-close-decision",
+          "path": "packs/disagreements-pack/skills/disagreement-close-decision",
+          "order": 9,
+          "summary": "Produces a decision record preserving dissent and implementation responsibilities. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-close-decision"
+          ]
+        },
+        {
+          "name": "disagreement-review-resolution",
+          "path": "packs/disagreements-pack/skills/disagreement-review-resolution",
+          "order": 10,
+          "summary": "Produces a short outcome review with one corrective action. Part of Polar Bear’s Disagreements Pack.",
+          "triggers": [
+            "run disagreement-review-resolution"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "top-priorities-pack",
+      "title": "10 Skills to Make Time for Your Top Priorities",
+      "path": "packs/top-priorities-pack",
+      "version": "1.0.0",
+      "description": "Clarify priorities, confront capacity, protect focused time, and renegotiate commitments.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "priorities",
+        "time-management",
+        "capacity",
+        "planning",
+        "focus",
+        "interruptions",
+        "boundaries",
+        "weekly-review",
+        "leadership",
+        "workload"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/capacity-and-tradeoffs.md",
+          "description": "capacity and tradeoffs"
+        },
+        {
+          "file": "templates/focus-and-review.md",
+          "description": "focus and review"
+        }
+      ],
+      "skills": [
+        {
+          "name": "priorities-choose-outcomes",
+          "path": "packs/top-priorities-pack/skills/priorities-choose-outcomes",
+          "order": 1,
+          "summary": "Everything feels important and you need a defensible short list. Produces a ranked outcome brief and an explicit not-now list.",
+          "triggers": [
+            "run priorities-choose-outcomes"
+          ]
+        },
+        {
+          "name": "priorities-time-audit",
+          "path": "packs/top-priorities-pack/skills/priorities-time-audit",
+          "order": 2,
+          "summary": "Your stated priorities and actual use of time do not match. Produces a light time audit with two changes worth testing.",
+          "triggers": [
+            "run priorities-time-audit"
+          ]
+        },
+        {
+          "name": "priorities-capacity-plan",
+          "path": "packs/top-priorities-pack/skills/priorities-capacity-plan",
+          "order": 3,
+          "summary": "You have more promised work than time available. Produces a capacity calculation and a workable commitment proposal.",
+          "triggers": [
+            "run priorities-capacity-plan"
+          ]
+        },
+        {
+          "name": "priorities-calendar-reset",
+          "path": "packs/top-priorities-pack/skills/priorities-calendar-reset",
+          "order": 4,
+          "summary": "Meetings and recurring commitments crowd out a chosen priority. Produces a proposed calendar reset with preserved coordination.",
+          "triggers": [
+            "run priorities-calendar-reset"
+          ]
+        },
+        {
+          "name": "priorities-focus-session",
+          "path": "packs/top-priorities-pack/skills/priorities-focus-session",
+          "order": 5,
+          "summary": "You have protected time but keep delaying or spreading attention across tasks. Produces a small concrete work session with a restart note.",
+          "triggers": [
+            "run priorities-focus-session"
+          ]
+        },
+        {
+          "name": "priorities-interruptions",
+          "path": "packs/top-priorities-pack/skills/priorities-interruptions",
+          "order": 6,
+          "summary": "Reactive work repeatedly derails your main task. Produces an interruption agreement and concise resumption routine.",
+          "triggers": [
+            "run priorities-interruptions"
+          ]
+        },
+        {
+          "name": "priorities-renegotiate",
+          "path": "packs/top-priorities-pack/skills/priorities-renegotiate",
+          "order": 7,
+          "summary": "A new request would displace work already promised. Produces a factual trade-off brief and a draft response.",
+          "triggers": [
+            "run priorities-renegotiate"
+          ]
+        },
+        {
+          "name": "priorities-realistic-plan",
+          "path": "packs/top-priorities-pack/skills/priorities-realistic-plan",
+          "order": 8,
+          "summary": "An important outcome keeps slipping despite repeated intentions. Produces a staged plan with evidence-based estimates and contingencies.",
+          "triggers": [
+            "run priorities-realistic-plan"
+          ]
+        },
+        {
+          "name": "priorities-close-day",
+          "path": "packs/top-priorities-pack/skills/priorities-close-day",
+          "order": 9,
+          "summary": "Unfinished work follows you into the evening or causes a confused restart. Produces a short closure note and a realistic next working-day entry point.",
+          "triggers": [
+            "run priorities-close-day"
+          ]
+        },
+        {
+          "name": "priorities-weekly-review",
+          "path": "packs/top-priorities-pack/skills/priorities-weekly-review",
+          "order": 10,
+          "summary": "Your plan needs updating after a week of real work. Produces a short evidence-based review and next-week commitment change.",
+          "triggers": [
+            "run priorities-weekly-review"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "important-decisions-pack",
+      "title": "10 Skills for Important Decisions",
+      "path": "packs/important-decisions-pack",
+      "version": "1.0.0",
+      "description": "Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind.",
+      "audience": [
+        "founders",
+        "managers",
+        "people leads"
+      ],
+      "keywords": [
+        "decisions",
+        "leadership",
+        "management",
+        "alternatives",
+        "uncertainty",
+        "evidence",
+        "premortem",
+        "tradeoffs",
+        "consultation",
+        "review"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/decision-brief.md",
+          "description": "decision brief"
+        },
+        {
+          "file": "templates/decision-review.md",
+          "description": "decision review"
+        }
+      ],
+      "skills": [
+        {
+          "name": "decision-frame",
+          "path": "packs/important-decisions-pack/skills/decision-frame",
+          "order": 1,
+          "summary": "Produces a one-page decision frame",
+          "triggers": [
+            "run decision-frame"
+          ]
+        },
+        {
+          "name": "decision-options",
+          "path": "packs/important-decisions-pack/skills/decision-options",
+          "order": 2,
+          "summary": "Produces a shortlist of genuinely different options",
+          "triggers": [
+            "run decision-options"
+          ]
+        },
+        {
+          "name": "decision-tradeoffs",
+          "path": "packs/important-decisions-pack/skills/decision-tradeoffs",
+          "order": 3,
+          "summary": "Produces a consequence and trade-off table",
+          "triggers": [
+            "run decision-tradeoffs"
+          ]
+        },
+        {
+          "name": "decision-uncertainty",
+          "path": "packs/important-decisions-pack/skills/decision-uncertainty",
+          "order": 4,
+          "summary": "Produces an evidence and uncertainty brief",
+          "triggers": [
+            "run decision-uncertainty"
+          ]
+        },
+        {
+          "name": "decision-counterevidence",
+          "path": "packs/important-decisions-pack/skills/decision-counterevidence",
+          "order": 5,
+          "summary": "Produces a disconfirming-evidence plan",
+          "triggers": [
+            "run decision-counterevidence"
+          ]
+        },
+        {
+          "name": "decision-independent-input",
+          "path": "packs/important-decisions-pack/skills/decision-independent-input",
+          "order": 6,
+          "summary": "Produces a consultation and synthesis plan",
+          "triggers": [
+            "run decision-independent-input"
+          ]
+        },
+        {
+          "name": "decision-premortem",
+          "path": "packs/important-decisions-pack/skills/decision-premortem",
+          "order": 7,
+          "summary": "Produces a risk and prevention note",
+          "triggers": [
+            "run decision-premortem"
+          ]
+        },
+        {
+          "name": "decision-sensitivity",
+          "path": "packs/important-decisions-pack/skills/decision-sensitivity",
+          "order": 8,
+          "summary": "Produces a sensitivity and next-evidence brief",
+          "triggers": [
+            "run decision-sensitivity"
+          ]
+        },
+        {
+          "name": "decision-record",
+          "path": "packs/important-decisions-pack/skills/decision-record",
+          "order": 9,
+          "summary": "Produces a dated decision record",
+          "triggers": [
+            "run decision-record"
+          ]
+        },
+        {
+          "name": "decision-review",
+          "path": "packs/important-decisions-pack/skills/decision-review",
+          "order": 10,
+          "summary": "Produces a decision learning and revisit note",
+          "triggers": [
+            "run decision-review"
+          ]
+        }
+      ]
     }
   ]
 }

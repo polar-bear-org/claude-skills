@@ -1,0 +1,24 @@
+{
+  "name": "important-decisions-pack",
+  "version": "1.0.0",
+  "description": "10 practical skills to frame important decisions, compare real alternatives, test evidence and uncertainty, gather input, and record human choices. Includes portable prompts.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "decisions",
+    "leadership",
+    "management",
+    "alternatives",
+    "uncertainty",
+    "evidence",
+    "premortem",
+    "tradeoffs",
+    "consultation",
+    "review"
+  ],
+  "homepage": "https://meet-polar-bear.com/skills/important-decisions-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills"
+}
