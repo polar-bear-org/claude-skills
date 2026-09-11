@@ -1386,6 +1386,181 @@
       ]
     },
     {
+      "name": "innovation-pack",
+      "title": "The Innovation Pack",
+      "path": "packs/innovation-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills for running an innovation program that tests real bets, kills most of them cheaply, and earns its next round of funding: chartering the program, designing gates that ask questions instead of handing out scores, keeping the innovation ledger, mapping the portfolio, framing challenges, running ideation, planning the discovery interviews, designing and reading experiments, preparing each gate review, writing the case for continued investment, and closing initiatives with dignity.",
+      "audience": [
+        "innovation leads",
+        "consultants",
+        "founders",
+        "partners",
+        "heads of innovation"
+      ],
+      "keywords": [
+        "innovation",
+        "innovation program",
+        "innovation management",
+        "stage gate",
+        "innovation portfolio",
+        "innovation accounting",
+        "experiment design",
+        "discovery interviews",
+        "problem interviews",
+        "ideation",
+        "gate review",
+        "investment case"
+      ],
+      "resources": [],
+      "skills": [
+        {
+          "name": "program-charter-writer",
+          "path": "packs/innovation-pack/skills/program-charter-writer",
+          "order": 1,
+          "summary": "Writes the one-page charter for the program: purpose, what counts as an initiative, the target ambition mix, the money and time envelope, decision rights, and the review rhythm. Every other skill in the pack reads it.",
+          "triggers": [
+            "run program-charter-writer",
+            "write the innovation charter",
+            "set up our innovation program",
+            "we need rules for side projects"
+          ]
+        },
+        {
+          "name": "stage-gate-designer",
+          "path": "packs/innovation-pack/skills/stage-gate-designer",
+          "order": 2,
+          "summary": "Designs the stages and gates: one decision per gate, questions instead of scores, a small funding round per stage, a way back one stage, and kill criteria agreed before anything enters.",
+          "triggers": [
+            "run stage-gate-designer",
+            "design our gates",
+            "our review meeting kills everything",
+            "we never kill anything"
+          ]
+        },
+        {
+          "name": "innovation-ledger-keeper",
+          "path": "packs/innovation-pack/skills/innovation-ledger-keeper",
+          "order": 3,
+          "summary": "Sets up and updates the program's innovation accounting: leading indicators per initiative and per stage, plus program-level cycle time, kill rate, learning velocity, and money by stage.",
+          "triggers": [
+            "run innovation-ledger-keeper",
+            "update the innovation ledger",
+            "how do we measure the program",
+            "leadership wants numbers on the program"
+          ]
+        },
+        {
+          "name": "portfolio-mapper",
+          "path": "packs/innovation-pack/skills/portfolio-mapper",
+          "order": 4,
+          "summary": "Maps every live initiative on ambition and stage, compares the mix against the charter, and names where the portfolio is crowded and where it is empty. It does not rank initiatives.",
+          "triggers": [
+            "run portfolio-mapper",
+            "map our innovation portfolio",
+            "are we too concentrated",
+            "portfolio review"
+          ]
+        },
+        {
+          "name": "innovation-challenge-framer",
+          "path": "packs/innovation-pack/skills/innovation-challenge-framer",
+          "order": 5,
+          "summary": "Turns a strategy gap, a portfolio hole, or a client signal into a challenge brief: the problem, who has it, the boundaries, what would make it worth doing, and what is out.",
+          "triggers": [
+            "run innovation-challenge-framer",
+            "write an innovation challenge",
+            "the partners want us to do something with AI",
+            "frame this as a problem"
+          ]
+        },
+        {
+          "name": "ideation-session-runner",
+          "path": "packs/innovation-pack/skills/ideation-session-runner",
+          "order": 6,
+          "summary": "Designs and runs the ideation formats a program needs (pitch hour, sketch sprint, worst-idea round, client-signal harvest), keeps seniority out of selection, and turns the output into idea one-pagers.",
+          "triggers": [
+            "run ideation-session-runner",
+            "plan an ideation session",
+            "run a pitch day",
+            "turn these ideas into one-pagers"
+          ]
+        },
+        {
+          "name": "discovery-interview-planner",
+          "path": "packs/innovation-pack/skills/discovery-interview-planner",
+          "order": 7,
+          "summary": "Plans the customer conversations an idea needs before anything is built: who, how many, the interview guide, consent, the note template, and the synthesis into evidence.",
+          "triggers": [
+            "run discovery-interview-planner",
+            "plan problem interviews",
+            "who should we talk to before we build this",
+            "synthesize the interviews"
+          ]
+        },
+        {
+          "name": "experiment-designer",
+          "path": "packs/innovation-pack/skills/experiment-designer",
+          "order": 8,
+          "summary": "Maps the assumptions behind an idea, picks the riskiest, and writes an experiment card with pass and fail thresholds set before the experiment runs.",
+          "triggers": [
+            "run experiment-designer",
+            "design an experiment",
+            "how do we test this without building it",
+            "what is our riskiest assumption"
+          ]
+        },
+        {
+          "name": "experiment-results-reader",
+          "path": "packs/innovation-pack/skills/experiment-results-reader",
+          "order": 9,
+          "summary": "Reads results against the thresholds written on the card, records what was learned, and prepares a scale, pivot, persevere or kill recommendation for named humans to decide on.",
+          "triggers": [
+            "run experiment-results-reader",
+            "read these results",
+            "pivot or persevere",
+            "what did we learn from the test"
+          ]
+        },
+        {
+          "name": "gate-review-preparer",
+          "path": "packs/innovation-pack/skills/gate-review-preparer",
+          "order": 10,
+          "summary": "Prepares one initiative for one gate: the one-page evidence brief, the reviewer's question list, the 10-minute meeting script, and the decision record with a named signer.",
+          "triggers": [
+            "run gate-review-preparer",
+            "prepare the gate review",
+            "write the evidence brief",
+            "record the gate decision"
+          ]
+        },
+        {
+          "name": "investment-case-writer",
+          "path": "packs/innovation-pack/skills/investment-case-writer",
+          "order": 11,
+          "summary": "Writes the quarterly or annual case for continued investment: what was learned, what was stopped and why, the portfolio against the target mix, and what the next round costs.",
+          "triggers": [
+            "run investment-case-writer",
+            "write the innovation budget case",
+            "justify the program to the partners",
+            "quarterly innovation review"
+          ]
+        },
+        {
+          "name": "initiative-sunset-writer",
+          "path": "packs/innovation-pack/skills/initiative-sunset-writer",
+          "order": 12,
+          "summary": "Closes an initiative well: the sunset memo, the harvest of reusable assets, the honest reasons, and the team message that separates the decision from the people.",
+          "triggers": [
+            "run initiative-sunset-writer",
+            "we are stopping this project",
+            "write the kill memo",
+            "what do we keep from this"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

@@ -21,6 +21,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
 | **[Design Sprint Pack](packs/design-sprint-pack/)** | 13 | Selling, running, and landing a five-day design sprint — qualification, challenge framing, casting the room, recruiting five testers, the week itself, and the Monday after | `/plugin install design-sprint-pack@polar-bear-skills` |
 | **[DesignOps Pack](packs/designops-pack/)** | 12 | Making the invisible ops of a design team explicit — the ops map, the critique ritual, the handoff standard, design-system governance, file conventions, request intake, capacity, onboarding, and the handbook | `/plugin install designops-pack@polar-bear-skills` |
+| **[Innovation Pack](packs/innovation-pack/)** | 12 | Running an innovation program that tests real bets and kills most of them cheaply — the charter, the gates, the ledger, the portfolio map, challenges and ideation, discovery interviews, experiments, gate reviews, the investment case, and the sunset | `/plugin install innovation-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -307,6 +308,45 @@ Twelve skills for the ops a design team already runs on but has never written do
 
 No shared files: each skill reads the standards the earlier ones wrote, by file name, inside your DesignOps Studio project.
 
+
+### Innovation Pack — [`packs/innovation-pack`](packs/innovation-pack/)
+
+Twelve skills for a firm that keeps starting things and cannot say what any of them proved. The program skills set the frame — the charter, the gates, the ledger, the portfolio map — and the initiative skills carry one bet from a framed challenge through interviews and experiments to a gate decision that a named person signs. Evidence comes from the market and decisions come from humans: no skill here simulates a customer, scores an idea, or makes the kill call.
+
+**Set the program up**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`program-charter-writer`](packs/innovation-pack/skills/program-charter-writer/SKILL.md) | The one page that lets a program say no: purpose, what counts as an initiative, the target ambition mix, the money and time envelope, who signs what, the review rhythm | "write the innovation charter", "we need rules for side projects" |
+| [`stage-gate-designer`](packs/innovation-pack/skills/stage-gate-designer/SKILL.md) | Three or four stages, one question per gate, a small funding round per stage, a way back one stage, and kill criteria agreed while nobody's project was on the table | "design our gates", "our review meeting kills everything" |
+| [`innovation-ledger-keeper`](packs/innovation-pack/skills/innovation-ledger-keeper/SKILL.md) | Innovation accounting that moves before revenue does: indicators per initiative and stage, plus cycle time, kill rate, learning velocity and money by stage | "update the innovation ledger", "leadership wants numbers on the program" |
+
+**Find the bets worth making**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`portfolio-mapper`](packs/innovation-pack/skills/portfolio-mapper/SKILL.md) | Turns the pile into a map: every initiative placed by ambition and stage against the mix the charter promised, with the crowding and the holes named. It never ranks initiatives | "map our innovation portfolio", "are we too concentrated" |
+| [`innovation-challenge-framer`](packs/innovation-pack/skills/innovation-challenge-framer/SKILL.md) | A problem statement with edges: who has it, what it costs them, what a good answer must be true of, and what is out of bounds | "write an innovation challenge", "the partners want us to do something with AI" |
+| [`ideation-session-runner`](packs/innovation-pack/skills/ideation-session-runner/SKILL.md) | The format the challenge needs — pitch hour, sketch sprint, worst-idea round, client-signal harvest — with selection rules that keep seniority out, ending in idea one-pagers rather than a wall of notes | "plan an ideation session", "run a pitch day" |
+
+**Test them before they get expensive**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`discovery-interview-planner`](packs/innovation-pack/skills/discovery-interview-planner/SKILL.md) | The conversations that have to happen before the prototype: who, how many, the guide, consent, the note template, and the synthesis into evidence | "plan problem interviews", "who should we talk to before we build this" |
+| [`experiment-designer`](packs/innovation-pack/skills/experiment-designer/SKILL.md) | The assumptions behind the idea, the riskiest one picked, and an experiment card whose pass and fail numbers are written before the test runs | "design an experiment", "how do we test this without building it" |
+| [`experiment-results-reader`](packs/innovation-pack/skills/experiment-results-reader/SKILL.md) | Results held against the card without renegotiating the numbers, the learning in a paragraph, and a scale, pivot, persevere or kill recommendation for a human to decide | "read these results", "pivot or persevere" |
+
+**Decide, fund, and stop well**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`gate-review-preparer`](packs/innovation-pack/skills/gate-review-preparer/SKILL.md) | One page of evidence in a fixed shape, the gate's own questions, a ten-minute script, and a decision record with one name on it — so reviewers compare evidence, not presentation skill | "prepare the gate review", "gate is Thursday" |
+| [`investment-case-writer`](packs/innovation-pack/skills/investment-case-writer/SKILL.md) | What the money bought in the currency the program produces — reduced uncertainty — with what was stopped and why, the portfolio against the target mix, and the ask for the next round | "write the innovation budget case", "the CFO is asking what innovation is for" |
+| [`initiative-sunset-writer`](packs/innovation-pack/skills/initiative-sunset-writer/SKILL.md) | The sunset memo, the harvest of what can be reused, and the message that separates the decision from the people, so the next ideation session still fills up | "we are stopping this project", "write the kill memo" |
+
+No shared files: each skill reads the artifacts the earlier ones wrote, by file name, inside your Innovation HQ project.
+
 ---
 
 ## FAQ
@@ -365,6 +405,7 @@ claude-skills/
 │   ├── onboarding-pack/       # same shape; its shared files live in templates/
 │   ├── design-sprint-pack/     # same shape; its shared files live in templates/
 │   ├── designops-pack/        # same shape; no shared files — the skills read each other's output
+│   ├── innovation-pack/       # same shape; no shared files — the skills read each other's output
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -383,7 +424,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case</sub>
 
 ## 10 Skills for Employee Experience
 

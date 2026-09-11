@@ -177,6 +177,34 @@
       ]
     },
     {
+      "name": "innovation-pack",
+      "source": "./packs/innovation-pack",
+      "description": "12 Claude Skills for running an innovation program that tests real bets, kills most of them cheaply, and earns its next round of funding: chartering the program, designing gates that ask questions instead of handing out scores, keeping the innovation ledger, mapping the portfolio, framing challenges, running ideation, planning the discovery interviews, designing and reading experiments, preparing each gate review, writing the case for continued investment, and closing initiatives with dignity.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/innovation-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "innovation",
+        "innovation-program",
+        "innovation-management",
+        "stage-gate",
+        "innovation-portfolio",
+        "innovation-accounting",
+        "experiment-design",
+        "discovery-interviews",
+        "ideation",
+        "gate-review",
+        "investment-case",
+        "consulting"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
