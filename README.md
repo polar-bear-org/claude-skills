@@ -19,6 +19,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Annual Review Cycle Pack](packs/review-cycle-pack/)** | 11 | Running a performance review cycle end to end — growth matrix, review forms, self-reviews, growth memos, 1:1s — without performance software | `/plugin install review-cycle-pack@polar-bear-skills` |
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
 | **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
+| **[Design Sprint Pack](packs/design-sprint-pack/)** | 13 | Selling, running, and landing a five-day design sprint — qualification, challenge framing, casting the room, recruiting five testers, the week itself, and the Monday after | `/plugin install design-sprint-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -237,6 +238,40 @@ Twelve skills across three roles, covering the whole journey from a signed offer
 
 Shared file: [`company-onboarding-context.md`](packs/onboarding-pack/templates/company-onboarding-context.md) — your standing setup: who plays which role, the systems a joiner needs, your start-date rhythm, and the practical facts every brief draws from. `onboarding-setup` interviews you and fills it in once; every skill reads it, so you never re-explain your company.
 
+### Design Sprint Pack — [`packs/design-sprint-pack`](packs/design-sprint-pack/)
+
+Thirteen skills for the whole engagement: deciding whether a sprint is the right tool at all, the weeks of preparation nobody budgets for, the five days themselves, and the Monday after, which is where most sprints quietly end. Claude prepares, captures, and synthesises; the heat map, the Decider's call, and the five conversations stay human.
+
+**Before the week**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`sprint-qualifier`](packs/design-sprint-pack/skills/sprint-qualifier/SKILL.md) | Tests whether a sprint is the right tool, and is built to end in "no" without embarrassment: the sentence to say, and the alternative to sell instead | "should we run a sprint", "the client wants a design sprint" |
+| [`challenge-framer`](packs/design-sprint-pack/skills/challenge-framer/SKILL.md) | The long-term goal, three to five sprint questions, one challenge statement, and the sprint brief every other skill reads | "frame the sprint challenge", "what is this sprint actually about" |
+| [`sprint-cast-builder`](packs/design-sprint-pack/skills/sprint-cast-builder/SKILL.md) | Casts the Decider and the seven seats, lines up the experts, writes the pre-reads, and builds the hour-by-hour calendar for your variant | "who should be in the sprint", "build the sprint schedule" |
+| [`test-recruiter`](packs/design-sprint-pack/skills/test-recruiter/SKILL.md) | Gets five real strangers booked for Friday: screener, sourcing, incentives, scheduling, consent | "recruit five users for Friday", "write the screener" |
+| [`sprint-facilitator-kit`](packs/design-sprint-pack/skills/sprint-facilitator-kit/SKILL.md) | The room craft: timeboxing that holds, protecting silent work, the dominant talker, energy across five days, and running it remote | "how do I facilitate this", "someone keeps derailing the room" |
+
+**The week**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`map-and-target-runner`](packs/design-sprint-pack/skills/map-and-target-runner/SKILL.md) | Day one: goal check, the map, expert interviews captured as How Might We candidates, and the Decider's target choice | "run day one of the sprint", "pick the target moment" |
+| [`sketch-day-runner`](packs/design-sprint-pack/skills/sketch-day-runner/SKILL.md) | Scouts Lightning Demos overnight, sets up the four-step sketch, then adds machine concepts to the wall once the human round is sealed | "find lightning demos", "prepare Crazy 8s" |
+| [`decision-day-runner`](packs/design-sprint-pack/skills/decision-day-runner/SKILL.md) | The decision with teeth: art museum, heat map, speed critique on the clock, the adoption check, straw poll, supervote | "run the heat map", "we need to pick a sketch" |
+| [`storyboard-builder`](packs/design-sprint-pack/skills/storyboard-builder/SKILL.md) | The winning sketches into a fifteen-panel storyboard with a real opening scene, stress-tested for the gaps a tester will fall into | "build the storyboard", "what screens do we need" |
+| [`prototype-plan-writer`](packs/design-sprint-pack/skills/prototype-plan-writer/SKILL.md) | Plans and staffs the build day, decides what is real and what is facade, writes the prototype's content, and forces the trial run | "plan the prototype", "who builds what tomorrow" |
+| [`test-script-writer`](packs/design-sprint-pack/skills/test-script-writer/SKILL.md) | The five-act interview script for your actual sprint questions, with the leading questions stripped out and the note grid set up | "write the test script", "what do we ask the testers" |
+| [`friday-debrief-synthesizer`](packs/design-sprint-pack/skills/friday-debrief-synthesizer/SKILL.md) | Five conversations into an answer: patterns confirmed by humans, each sprint question marked yes, no, or unclear, and an honest confidence statement | "synthesize the test sessions", "what did we learn" |
+
+**After the week**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`monday-after-planner`](packs/design-sprint-pack/skills/monday-after-planner/SKILL.md) | Friday's answer into a decision record, a named owner, a two-week plan, and the evidence your sponsor will ask for before funding a build | "what happens after the sprint", "our sprint results are going nowhere" |
+
+Shared files: [`templates/`](packs/design-sprint-pack/templates/) ships two — `sprint-brief.md`, the one page holding the goal, questions, challenge, variant, cast and dates that `challenge-framer` fills in and every other skill reads, and `friday-notes-grid.md`, the blank grid the room fills live during the five interviews.
+
 ---
 
 ## FAQ
@@ -265,6 +300,9 @@ No. The Annual Review Cycle Pack runs the whole cycle — growth matrix, review 
 **Do I need onboarding software to onboard a new hire?**
 No. The Onboarding Pack runs the whole journey — pre-boarding plan, IT and finance setup emails, welcome brief, welcome pack, per-joiner checklist and dashboard, team deck, intro email, first goals, first week, and the joiner's own 90-day companion — in Claude plus a shared folder of Markdown files. Claude prepares and keeps track; the welcome itself stays human.
 
+**Can Claude run a design sprint for us?**
+No, and the Design Sprint Pack is explicit about where the line sits: Claude qualifies, frames, casts, scouts, captures, and synthesises, and it will even put concepts on the wall on sketch day — but no concept of its own reaches the vote unless a human puts their name on it, and the heat map, the Decider's call, and the five Friday conversations stay human throughout.
+
 **Are the skills free?**
 Free to use inside your company. Not for resale. See [LICENSE](LICENSE.md).
 
@@ -290,6 +328,7 @@ claude-skills/
 │   ├── review-cycle-pack/      # same shape; its shared files live in templates/
 │   ├── design-thinking-pack/   # same shape; its shared files live in templates/
 │   ├── onboarding-pack/       # same shape; its shared files live in templates/
+│   ├── design-sprint-pack/     # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -308,7 +347,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making</sub>
 
 ## 10 Skills for Employee Experience
 

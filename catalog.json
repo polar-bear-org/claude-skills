@@ -1013,6 +1013,204 @@
       ]
     },
     {
+      "name": "design-sprint-pack",
+      "title": "The Design Sprint Pack",
+      "path": "packs/design-sprint-pack",
+      "version": "1.0.0",
+      "description": "13 Claude Skills for selling, running, and landing a design sprint: qualifying the ask, framing the challenge, casting the room, recruiting five testers, running map, target, sketch, decision, storyboard, prototype and Friday's interviews, and landing it on the Monday after.",
+      "audience": [
+        "consultants",
+        "facilitators",
+        "design leads",
+        "product leads",
+        "founders"
+      ],
+      "keywords": [
+        "design sprint",
+        "sprint facilitation",
+        "five-day sprint",
+        "sprint week",
+        "workshop",
+        "product discovery",
+        "prototyping",
+        "user testing",
+        "usability testing",
+        "storyboard",
+        "lightning demos",
+        "decision making",
+        "innovation",
+        "consulting"
+      ],
+      "resources": [
+        {
+          "file": "templates/sprint-brief.md",
+          "description": "The one page that holds the goal, the sprint questions, the challenge statement, the variant, the cast, and the dates. Filled in by challenge-framer, read by every other skill in the pack."
+        },
+        {
+          "file": "templates/friday-notes-grid.md",
+          "description": "The blank grid the room fills live during the five test interviews, one column per tester and one row per thing you are watching. Read by friday-debrief-synthesizer."
+        }
+      ],
+      "skills": [
+        {
+          "name": "sprint-qualifier",
+          "path": "packs/design-sprint-pack/skills/sprint-qualifier",
+          "order": 1,
+          "summary": "Tests whether a design sprint is the right tool and produces a qualification memo plus the words to say if the answer is no.",
+          "triggers": [
+            "run sprint-qualifier",
+            "should we run a sprint",
+            "the client wants a design sprint",
+            "is this a sprint problem"
+          ]
+        },
+        {
+          "name": "challenge-framer",
+          "path": "packs/design-sprint-pack/skills/challenge-framer",
+          "order": 2,
+          "summary": "Writes the long-term goal, the sprint questions and the challenge statement, then creates the sprint brief every other skill reads.",
+          "triggers": [
+            "run challenge-framer",
+            "frame the sprint challenge",
+            "write the sprint brief",
+            "what is this sprint actually about"
+          ]
+        },
+        {
+          "name": "sprint-cast-builder",
+          "path": "packs/design-sprint-pack/skills/sprint-cast-builder",
+          "order": 3,
+          "summary": "Casts the Decider and the sprint team, lines up the expert interviews, writes the pre-reads, and builds the hour-by-hour calendar.",
+          "triggers": [
+            "run sprint-cast-builder",
+            "who should be in the sprint",
+            "build the sprint schedule",
+            "write the sprint invite"
+          ]
+        },
+        {
+          "name": "test-recruiter",
+          "path": "packs/design-sprint-pack/skills/test-recruiter",
+          "order": 4,
+          "summary": "Gets five real target users booked for the test day: screener, sourcing routes, incentives, scheduling, and consent.",
+          "triggers": [
+            "run test-recruiter",
+            "recruit five users for Friday",
+            "write the screener",
+            "we need testers for the sprint"
+          ]
+        },
+        {
+          "name": "sprint-facilitator-kit",
+          "path": "packs/design-sprint-pack/skills/sprint-facilitator-kit",
+          "order": 5,
+          "summary": "The room craft: timeboxing that holds, protecting silent work, the people problems, energy across five days, and running it remote.",
+          "triggers": [
+            "run sprint-facilitator-kit",
+            "how do I facilitate this",
+            "someone keeps derailing the room",
+            "how do I run this remotely"
+          ]
+        },
+        {
+          "name": "map-and-target-runner",
+          "path": "packs/design-sprint-pack/skills/map-and-target-runner",
+          "order": 6,
+          "summary": "Runs day one: the goal check, the map, expert interviews captured live as How Might We candidates, and the Decider's target choice.",
+          "triggers": [
+            "run map-and-target-runner",
+            "run day one of the sprint",
+            "build the sprint map",
+            "pick the target moment"
+          ]
+        },
+        {
+          "name": "sketch-day-runner",
+          "path": "packs/design-sprint-pack/skills/sketch-day-runner",
+          "order": 7,
+          "summary": "Runs sketch day: Lightning Demo scouting, the four-step sketch, and machine concepts that join the wall once the human round is sealed.",
+          "triggers": [
+            "run sketch-day-runner",
+            "find lightning demos",
+            "run the sketch day",
+            "prepare Crazy 8s"
+          ]
+        },
+        {
+          "name": "decision-day-runner",
+          "path": "packs/design-sprint-pack/skills/decision-day-runner",
+          "order": 8,
+          "summary": "Runs the decision mechanics: art museum, heat map, speed critique on the clock, straw poll, and the Decider's supervote.",
+          "triggers": [
+            "run decision-day-runner",
+            "run the heat map",
+            "how does the supervote work",
+            "we need to pick a sketch"
+          ]
+        },
+        {
+          "name": "storyboard-builder",
+          "path": "packs/design-sprint-pack/skills/storyboard-builder",
+          "order": 9,
+          "summary": "Turns the winning sketches into a fifteen-panel storyboard with a real opening scene, stress-tested for the gaps a tester falls into.",
+          "triggers": [
+            "run storyboard-builder",
+            "build the storyboard",
+            "what screens do we need",
+            "write the opening scene"
+          ]
+        },
+        {
+          "name": "prototype-plan-writer",
+          "path": "packs/design-sprint-pack/skills/prototype-plan-writer",
+          "order": 10,
+          "summary": "Plans and staffs the build day, decides what is real and what is facade, writes the prototype's content, and forces the trial run.",
+          "triggers": [
+            "run prototype-plan-writer",
+            "plan the prototype",
+            "who builds what tomorrow",
+            "write the prototype copy"
+          ]
+        },
+        {
+          "name": "test-script-writer",
+          "path": "packs/design-sprint-pack/skills/test-script-writer",
+          "order": 11,
+          "summary": "Writes the five-act interview script for the sprint's own questions, strips the leading questions, and sets up the note grid.",
+          "triggers": [
+            "run test-script-writer",
+            "write the test script",
+            "what do we ask the testers",
+            "set up the note grid"
+          ]
+        },
+        {
+          "name": "friday-debrief-synthesizer",
+          "path": "packs/design-sprint-pack/skills/friday-debrief-synthesizer",
+          "order": 12,
+          "summary": "Turns the five sessions into an answer: patterns confirmed by the room, each sprint question marked yes, no or unclear, and an honest confidence statement.",
+          "triggers": [
+            "run friday-debrief-synthesizer",
+            "synthesize the test sessions",
+            "what did we learn",
+            "debrief the sprint"
+          ]
+        },
+        {
+          "name": "monday-after-planner",
+          "path": "packs/design-sprint-pack/skills/monday-after-planner",
+          "order": 13,
+          "summary": "Converts the sprint's result into a decision record, a named owner, a two-week plan, and the evidence a sponsor will ask for.",
+          "triggers": [
+            "run monday-after-planner",
+            "what happens after the sprint",
+            "write the sprint readout",
+            "the client wants to know next steps"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

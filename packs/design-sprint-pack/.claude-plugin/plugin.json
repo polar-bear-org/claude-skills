@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "design-sprint-pack",
+  "version": "1.0.0",
+  "description": "The Design Sprint Pack: 13 Claude Skills for selling, running, and landing a design sprint. Qualify the ask, frame the challenge, cast the room, recruit five testers, run the week from map and target through sketch, decision, storyboard, prototype and Friday's five interviews, and land the result on the Monday after.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-sprint-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "design-sprint",
+    "sprint-facilitation",
+    "facilitation",
+    "workshop",
+    "product-discovery",
+    "prototyping",
+    "user-testing",
+    "usability-testing",
+    "storyboard",
+    "decision-making",
+    "innovation",
+    "consulting",
+    "people-ops"
+  ]
+}

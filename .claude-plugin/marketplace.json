@@ -121,6 +121,34 @@
       ]
     },
     {
+      "name": "design-sprint-pack",
+      "source": "./packs/design-sprint-pack",
+      "description": "13 Claude Skills for selling, running, and landing a design sprint: qualifying the ask, framing the challenge, casting the room, recruiting five testers, running map, target, sketch, decision, storyboard, prototype and Friday's interviews, and landing it on the Monday after.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-sprint-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "design-sprint",
+        "sprint-facilitation",
+        "facilitation",
+        "workshop",
+        "product-discovery",
+        "prototyping",
+        "user-testing",
+        "usability-testing",
+        "storyboard",
+        "decision-making",
+        "innovation",
+        "consulting"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
