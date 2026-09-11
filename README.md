@@ -24,6 +24,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Innovation Pack](packs/innovation-pack/)** | 12 | Running an innovation program that tests real bets and kills most of them cheaply — the charter, the gates, the ledger, the portfolio map, challenges and ideation, discovery interviews, experiments, gate reviews, the investment case, and the sunset | `/plugin install innovation-pack@polar-bear-skills` |
 | **[Employer Branding Pack](packs/employer-branding-pack/)** | 12 | Building an employer brand a joiner's first week does not disprove — the listening round, the peer-claims map, the evidence base, the EVP, the careers page and the job ad, the realistic preview, hiring content, the measures, the first-weeks check, and the quarterly review | `/plugin install employer-branding-pack@polar-bear-skills` |
 | **[Case Study Factory Pack](packs/case-study-factory-pack/)** | 10 | Turning one thirty-minute interview about a delivered project into a case study in every format — the source file, the short web case, the long read, the one-pager and two-pager as PowerPoint files, the credentials slide, the LinkedIn posts, the award entry, the proposal paragraph, and the video script | `/plugin install case-study-factory-pack@polar-bear-skills` |
+| **[Proposals Pack](packs/proposals-pack/)** | 12 | Writing a proposal deck the client can decide from, section by section, from an RFP or your own notes, ending in a .pptx — the firm context, the brief, the storyline, the context, market, problem, vision, approach, team and investment sections, the deck build, and the review from the client's chair | `/plugin install proposals-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -425,6 +426,45 @@ Ten skills for a firm whose best project is still an anecdote three people can t
 
 Shared files: [`templates/`](packs/case-study-factory-pack/templates/) ships `firm-context.md` (a founder or lead fills it once — positioning, tone, colors, type, naming policy, who signs off — and every skill reads it) and `case-source.md` (the blank the interviewer fills, one per project, and the only source every writer reads).
 
+
+### Proposals Pack — [`packs/proposals-pack`](packs/proposals-pack/)
+
+Twelve skills for the week a request lands and the deck is due Friday. Something arrives — an RFP, an email, a founder's notes after a call — and the pack turns it into a brief that keeps what the client asked for, what you know and where you know it from, and what you are assuming in three separate columns. Then the storyline is written as action titles before any slide exists, each section is drafted in the client's language, the deck is assembled on your own template, and someone reads it back from the client's chair before it goes. Claude writes the slides; people own the facts. Every claim about the client, the market, or a number comes from the brief or a named source, or it carries an assumption marker onto the slide. What the firm promises and what it charges stay a named person's call.
+
+**Set up once**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`firm-context-writer`](packs/proposals-pack/skills/firm-context-writer/SKILL.md) | One conversation that writes firm-context.md: services and refusals, ideal client, the credentials library with real outcomes only, the team roster, the cost basis behind your prices, who approves what, and your deck conventions | "set up the proposals pack", "our rates changed" |
+
+**Decide what the deck argues**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`proposal-brief-builder`](packs/proposals-pack/skills/proposal-brief-builder/SKILL.md) | Whatever arrived turned into the one file every section reads: the ask in a sentence, who decides and how, the requirements matrix for an RFP, known facts with sources, the assumptions register, your angle — plus the questions that would fill a thin brief | "we got an RFP", "we need a proposal for Acme by Friday" |
+| [`storyline-designer`](packs/proposals-pack/skills/storyline-designer/SKILL.md) | The ghost deck before any content: the executive summary, the sections this client actually needs, one action title per slide with the evidence it requires, and the slide budget | "what slides do we need", "how should this deck flow" |
+
+**Write the sections**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`context-objectives-writer`](packs/proposals-pack/skills/context-objectives-writer/SKILL.md) | "Your situation and objectives" in the client's own words — quoting the brief rather than improving on it, and marking every inference on the slide | "write the context section", "play back the brief" |
+| [`market-section-writer`](packs/proposals-pack/skills/market-section-writer/SKILL.md) | The market section from named sources only, keeping the two or three facts that change the answer, with the source on the slide. No sources, no section — it tells the storyline to drop it | "we need a trends section", "what's happening in their industry" |
+| [`problem-section-writer`](packs/proposals-pack/skills/problem-section-writer/SKILL.md) | The problem as a diagnosis: symptoms, hypotheses about causes each labeled tested or untested, what it costs the client, and the boundary of what this engagement fixes | "frame the problem for Acme", "make the pain tangible" |
+| [`vision-section-writer`](packs/proposals-pack/skills/vision-section-writer/SKILL.md) | The answer as a position rather than a service list: what will be different, what you will refuse, the two or three big moves, and why this fits this client | "what's our point of view", "write the target picture" |
+| [`approach-section-writer`](packs/proposals-pack/skills/approach-section-writer/SKILL.md) | Phases, deliverables, timeline, governance, the client's role, and the risks named before the client names them — with dates and people kept as drafts until a person approves them | "draft the workplan for Acme", "what happens in each phase" |
+| [`team-section-writer`](packs/proposals-pack/skills/team-section-writer/SKILL.md) | Who is on this and why each fits, plus two or three cases chosen by resemblance rather than logo size, short and placed after the work rather than before it | "write the why us section", "which case studies should we show" |
+| [`investment-section-writer`](packs/proposals-pack/skills/investment-section-writer/SKILL.md) | One to three options that are each a real offer, priced from your approved numbers with the assumptions next to them, plus terms and next steps with dates. No decoys, no invented market rate | "how do we present the fee", "write the commercials" |
+
+**Build it and read it back**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`deck-builder`](packs/proposals-pack/skills/deck-builder/SKILL.md) | The .pptx on your template through code execution: one slide per action title, executive summary and dividers, a source line on every data slide, assumptions still visible, speaker notes, and the RFP requirements cross-reference | "build the deck", "generate the PowerPoint for Acme" |
+| [`deck-reviewer`](packs/proposals-pack/skills/deck-reviewer/SKILL.md) | Four readers in one — the evaluator with the scoring sheet, the executive who reads only titles, the finance lead, the sceptic checking every number — returning an edit list ordered by what would cost you the decision, sent back to the section files rather than patched into the deck | "check the proposal before it goes", "does this answer the RFP" |
+
+Shared files: [`templates/`](packs/proposals-pack/templates/) ships `firm-context.md` (filled once with firm-context-writer — positioning, credentials, team, cost basis, approvals, deck conventions — and read by every skill) and `proposal-brief.md` (the blank the brief builder fills from an RFP or your notes, one per opportunity, and the source every section draws from).
+
 ---
 
 ## FAQ
@@ -486,6 +526,7 @@ claude-skills/
 │   ├── innovation-pack/       # same shape; no shared files — the skills read each other's output
 │   ├── employer-branding-pack/ # same shape; its shared files live in templates/
 │   ├── case-study-factory-pack/ # same shape; its shared files live in templates/
+│   ├── proposals-pack/        # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -504,7 +545,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case · employer branding · employer brand · EVP · employee value proposition · careers page · job ad · job description · recruitment marketing · stay interviews · realistic job preview · employee advocacy · talent attraction · hiring content · case study · case studies · client case study · portfolio case study · credentials deck · capability statement · proposal writing · rfp response · award entry · award submission · linkedin post · one-pager · leave-behind · client interview · business development</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case · employer branding · employer brand · EVP · employee value proposition · careers page · job ad · job description · recruitment marketing · stay interviews · realistic job preview · employee advocacy · talent attraction · hiring content · case study · case studies · client case study · portfolio case study · credentials deck · capability statement · proposal writing · rfp response · award entry · award submission · linkedin post · one-pager · leave-behind · client interview · business development · proposal · proposal writing · proposal deck · rfp · rfp response · bid writing · pitch deck · ghost deck · storyline · action titles · executive summary · pricing options · investment slide · consulting proposal · agency proposal · powerpoint deck</sub>
 
 ## 10 Skills for Employee Experience
 

@@ -1920,6 +1920,214 @@
       ]
     },
     {
+      "name": "proposals-pack",
+      "title": "The Proposals Pack",
+      "path": "packs/proposals-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx: the firm context file, the brief that separates facts from assumptions, the storyline as action titles, the context, market, problem, vision, approach, team and investment sections, the deck build on your template, and the review from the client's chair.",
+      "audience": [
+        "consultants",
+        "agency and studio principals",
+        "founders",
+        "business development leads",
+        "engagement and project leads",
+        "bid and proposal managers"
+      ],
+      "keywords": [
+        "proposal",
+        "proposals",
+        "RFP",
+        "RFP response",
+        "pitch deck",
+        "storyline",
+        "ghost deck",
+        "action titles",
+        "executive summary",
+        "pricing",
+        "credentials",
+        "business development",
+        "PowerPoint",
+        "consulting",
+        "agency"
+      ],
+      "resources": [
+        {
+          "file": "templates/firm-context.md",
+          "description": "Filled once by a founder or a lead with firm-context-writer: what the firm does and refuses, its ideal client, the credentials library with real outcomes only, the team roster, the cost basis behind its prices, who approves what, and the deck conventions. Every other skill reads it before writing a word."
+        },
+        {
+          "file": "templates/proposal-brief.md",
+          "description": "The blank proposal-brief-builder fills from an RFP or the team's notes, one per opportunity. A team can also fill it by hand and hand it straight to storyline-designer. Every section skill draws from it; if a fact is not in the brief, it does not go on a slide."
+        }
+      ],
+      "skills": [
+        {
+          "name": "firm-context-writer",
+          "path": "packs/proposals-pack/skills/firm-context-writer",
+          "order": 1,
+          "summary": "Interviews you and writes firm-context.md, the ground-truth file every other skill reads: what the firm does and refuses, the ideal client, the credentials library with real outcomes only, the team roster, the cost basis behind prices, who approves what, and the deck conventions.",
+          "triggers": [
+            "run firm-context-writer",
+            "set up the proposals pack",
+            "write our firm context",
+            "add our deck template",
+            "update our case studies",
+            "help us write better proposals"
+          ]
+        },
+        {
+          "name": "proposal-brief-builder",
+          "path": "packs/proposals-pack/skills/proposal-brief-builder",
+          "order": 2,
+          "summary": "Turns whatever arrived, an RFP, an email, call notes or a founder's paragraph, into the brief every section skill reads: the ask in one sentence, who decides and how, the requirements matrix, known facts with sources, the assumptions register, and the firm's angle. Flags a thin brief and drafts the questions to fill it.",
+          "triggers": [
+            "run proposal-brief-builder",
+            "we got an RFP",
+            "here's what we know, build the brief",
+            "extract the requirements from this RFP",
+            "we need to write something for Acme by Friday"
+          ]
+        },
+        {
+          "name": "storyline-designer",
+          "path": "packs/proposals-pack/skills/storyline-designer",
+          "order": 3,
+          "summary": "Writes the ghost deck before any content exists: the executive summary, which sections this client needs, an action title for every slide, the evidence each title needs, and the slide budget.",
+          "triggers": [
+            "run storyline-designer",
+            "build the storyline for Acme",
+            "what slides do we need",
+            "write the ghost deck",
+            "draft the executive summary",
+            "how should this deck flow"
+          ]
+        },
+        {
+          "name": "context-objectives-writer",
+          "path": "packs/proposals-pack/skills/context-objectives-writer",
+          "order": 4,
+          "summary": "Writes the “your situation and objectives” section in the client's own words, with every fact sourced to the brief and every inference marked as an assumption on the slide.",
+          "triggers": [
+            "run context-objectives-writer",
+            "write the context section",
+            "draft our understanding of the client",
+            "write the objectives slides",
+            "play back the brief",
+            "start the deck"
+          ]
+        },
+        {
+          "name": "market-section-writer",
+          "path": "packs/proposals-pack/skills/market-section-writer",
+          "order": 5,
+          "summary": "Writes the market section only from named sources the team supplies or approves, keeping the two or three facts that change the answer with a source line on every slide, and refuses to write it from general knowledge.",
+          "triggers": [
+            "run market-section-writer",
+            "write the market slides",
+            "add market context to the proposal",
+            "what's happening in their industry",
+            "we need a trends section",
+            "give some context on their space"
+          ]
+        },
+        {
+          "name": "problem-section-writer",
+          "path": "packs/proposals-pack/skills/problem-section-writer",
+          "order": 6,
+          "summary": "Writes the problem as a diagnosis rather than a restatement of the RFP: symptoms, hypotheses about causes labeled tested or untested, what it costs the client, and what the proposal will and will not solve.",
+          "triggers": [
+            "run problem-section-writer",
+            "write the problem slides",
+            "frame the problem for Acme",
+            "write the diagnosis",
+            "make the pain tangible"
+          ]
+        },
+        {
+          "name": "vision-section-writer",
+          "path": "packs/proposals-pack/skills/vision-section-writer",
+          "order": 7,
+          "summary": "Writes the answer and the target picture as a position rather than a service list: what will be different, the principles the firm will hold, the two or three big moves, and why this answer fits this client.",
+          "triggers": [
+            "run vision-section-writer",
+            "write our vision for Acme",
+            "draft the answer slides",
+            "what's our point of view",
+            "write the target picture"
+          ]
+        },
+        {
+          "name": "approach-section-writer",
+          "path": "packs/proposals-pack/skills/approach-section-writer",
+          "order": 8,
+          "summary": "Writes phases, deliverables, timeline, governance, the client's role, and risks, keeping dates and named people as drafts until the person who approves the promise says yes.",
+          "triggers": [
+            "run approach-section-writer",
+            "write the approach slides",
+            "draft the workplan for Acme",
+            "build the timeline",
+            "what happens in each phase",
+            "write the how"
+          ]
+        },
+        {
+          "name": "team-section-writer",
+          "path": "packs/proposals-pack/skills/team-section-writer",
+          "order": 9,
+          "summary": "Writes the team and credentials section: who is on this engagement and why each fits, plus two or three cases that mirror the client's situation, drawn from the credentials library with real outcomes only, kept short and placed after the work.",
+          "triggers": [
+            "run team-section-writer",
+            "write the team slide",
+            "add our credentials",
+            "which case studies should we show",
+            "write the why us section"
+          ]
+        },
+        {
+          "name": "investment-section-writer",
+          "path": "packs/proposals-pack/skills/investment-section-writer",
+          "order": 10,
+          "summary": "Writes one to three honest options that differ in scope and outcome, the price of each from the firm's approved numbers, the assumptions behind the price, terms, and next steps with dates. No decoys, no invented market rates.",
+          "triggers": [
+            "run investment-section-writer",
+            "write the pricing slides",
+            "build the options for Acme",
+            "how do we present the fee",
+            "write the commercials",
+            "add the price"
+          ]
+        },
+        {
+          "name": "deck-builder",
+          "path": "packs/proposals-pack/skills/deck-builder",
+          "order": 11,
+          "summary": "Assembles the section files into proposal-[client].pptx on the firm's template through code execution: one slide per action title, executive summary and dividers, a source line on every data slide, assumptions kept visible, speaker notes, and the requirements cross-reference for RFPs.",
+          "triggers": [
+            "run deck-builder",
+            "build the deck",
+            "assemble the proposal pptx",
+            "put the sections into slides",
+            "generate the PowerPoint for Acme",
+            "make the deck"
+          ]
+        },
+        {
+          "name": "deck-reviewer",
+          "path": "packs/proposals-pack/skills/deck-reviewer",
+          "order": 12,
+          "summary": "Reads the built deck from the client's chair and against the brief — the storyline from the titles alone, unsourced claims, unanswered requirements, the firm talking about itself too early, numbers that do not add up — and returns an edit list rather than a rewrite.",
+          "triggers": [
+            "run deck-reviewer",
+            "review the deck",
+            "read this like the client would",
+            "check the proposal before it goes",
+            "does this answer the RFP",
+            "does this look okay"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

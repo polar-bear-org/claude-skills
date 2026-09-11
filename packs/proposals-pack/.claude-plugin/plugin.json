@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "proposals-pack",
+  "version": "1.0.0",
+  "description": "The Proposals Pack: 12 Claude Skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx. Write your firm context once, turn whatever arrived into a brief that separates facts from assumptions, write the storyline as action titles before any content, draft context, market, problem, vision, approach, team and investment in the client's language, assemble the deck on your template, and read it back from the client's chair. Every claim comes from the brief or a named source or is marked as an assumption to verify.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "proposal",
+    "proposals",
+    "rfp",
+    "rfp-response",
+    "pitch-deck",
+    "storyline",
+    "ghost-deck",
+    "pricing",
+    "credentials",
+    "business-development",
+    "consulting",
+    "agency",
+    "powerpoint",
+    "client-deck"
+  ]
+}

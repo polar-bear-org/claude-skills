@@ -261,6 +261,36 @@
       ]
     },
     {
+      "name": "proposals-pack",
+      "source": "./packs/proposals-pack",
+      "description": "12 Claude Skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx: the firm context file, the brief, the storyline as action titles, the context, market, problem, vision, approach, team and investment sections, the deck build, and the review from the client's chair.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "proposal",
+        "proposals",
+        "rfp",
+        "rfp-response",
+        "pitch-deck",
+        "storyline",
+        "ghost-deck",
+        "pricing",
+        "credentials",
+        "business-development",
+        "powerpoint",
+        "consulting",
+        "agency",
+        "client-deck"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
