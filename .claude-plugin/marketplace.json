@@ -233,6 +233,34 @@
       ]
     },
     {
+      "name": "case-study-factory-pack",
+      "source": "./packs/case-study-factory-pack",
+      "description": "10 Claude Skills for turning one thirty-minute interview about a delivered project into a case study in every format: the source file, the short web case, the long read, the one-pager and two-pager as real PowerPoint files, the credentials slide, the LinkedIn posts, the award entry, the proposal paragraph, and the video script.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/case-study-factory-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "case-study",
+        "case-studies",
+        "client-work",
+        "portfolio",
+        "credentials-deck",
+        "proposals",
+        "rfp",
+        "award-entry",
+        "linkedin",
+        "content-marketing",
+        "agency",
+        "business-development"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

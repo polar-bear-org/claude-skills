@@ -23,6 +23,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[DesignOps Pack](packs/designops-pack/)** | 12 | Making the invisible ops of a design team explicit — the ops map, the critique ritual, the handoff standard, design-system governance, file conventions, request intake, capacity, onboarding, and the handbook | `/plugin install designops-pack@polar-bear-skills` |
 | **[Innovation Pack](packs/innovation-pack/)** | 12 | Running an innovation program that tests real bets and kills most of them cheaply — the charter, the gates, the ledger, the portfolio map, challenges and ideation, discovery interviews, experiments, gate reviews, the investment case, and the sunset | `/plugin install innovation-pack@polar-bear-skills` |
 | **[Employer Branding Pack](packs/employer-branding-pack/)** | 12 | Building an employer brand a joiner's first week does not disprove — the listening round, the peer-claims map, the evidence base, the EVP, the careers page and the job ad, the realistic preview, hiring content, the measures, the first-weeks check, and the quarterly review | `/plugin install employer-branding-pack@polar-bear-skills` |
+| **[Case Study Factory Pack](packs/case-study-factory-pack/)** | 10 | Turning one thirty-minute interview about a delivered project into a case study in every format — the source file, the short web case, the long read, the one-pager and two-pager as PowerPoint files, the credentials slide, the LinkedIn posts, the award entry, the proposal paragraph, and the video script | `/plugin install case-study-factory-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -387,6 +388,43 @@ Twelve skills for a firm whose careers page says "fast-paced and collaborative" 
 
 Shared files: [`templates/`](packs/employer-branding-pack/templates/) ships `firm-context.md` (the founder fills it once; every skill reads it), `interview-notes.md` (one per listening conversation, the only thing the synthesizer reads about individuals), and `first-weeks-check.md` (the joiner fills it at week 1, 4 and 12, and decides what is shared).
 
+
+### Case Study Factory Pack — [`packs/case-study-factory-pack`](packs/case-study-factory-pack/)
+
+Ten skills for a firm whose best project is still an anecdote three people can tell. You sit down for thirty minutes with the person who ran it, and the pack turns that conversation into a source file: the story in order, the numbers with a named person behind each one, the client's lines as they were said. Every other skill writes from that one file — the web case, the long read, the pagers, the slide, the posts, the award entry, the proposal paragraph, the video script. Claude writes every format; it never supplies the experience, and it never fills a gap with a plausible number, quote, or scene. Getting the client's permission to publish stays your relationship and your job.
+
+**Get the story down first**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`case-interviewer`](packs/case-study-factory-pack/skills/case-interviewer/SKILL.md) | The thirty-minute interview with the person who ran the project, one question at a time, written into the source file every other skill reads: the story in order, the numbers with their source and a named defender, the client's lines as said, what not to claim, how the client may be named | "let's get the story down", "capture this case before the team moves on" |
+
+**Write the case**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`website-case-writer`](packs/case-study-factory-pack/skills/website-case-writer/SKILL.md) | The short web case, 400 to 700 words: the snapshot, the honest before, what was done, what changed with its base and its period, one quote, one takeaway | "we need a case study on the site", "write the case for the work page" |
+| [`long-read-case-writer`](packs/case-study-factory-pack/skills/long-read-case-writer/SKILL.md) | The long read, 1,500 to 2,500 words in magazine shape: the decisions, the missteps, the thing a reader can actually learn, with an image list and captions | "write the long version", "a case study that shows our process" |
+
+**Build the files a pitch runs on**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`case-one-pager-builder`](packs/case-study-factory-pack/skills/case-one-pager-builder/SKILL.md) | The A4 leave-behind as a real PowerPoint file, and a PDF when it can export one, in your colors and type, built through code execution | "make a one-pager for this case", "the prospect wants something to forward" |
+| [`case-two-pager-builder`](packs/case-study-factory-pack/skills/case-two-pager-builder/SKILL.md) | The two-page version: page one the story, page two the approach, the results, the quote, the next step. Real PowerPoint file | "make a two-pager", "the buyer wants more than one page but not the deck" |
+| [`credentials-slide-builder`](packs/case-study-factory-pack/skills/credentials-slide-builder/SKILL.md) | The one slide for the creds deck, inside your own deck template when you give it one: the change in the title, three lines, one to three figures, logo if allowed | "put this case in the creds deck", "the pitch is Tuesday and this belongs in the deck" |
+
+**Take it outward**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`linkedin-case-post-writer`](packs/case-study-factory-pack/skills/linkedin-case-post-writer/SKILL.md) | The post from the firm and the post from the lead, plus a carousel outline, with the anti-slop rules built in | "post about the Acme project", "let's tell people about this one" |
+| [`award-entry-writer`](packs/case-study-factory-pack/skills/award-entry-writer/SKILL.md) | The category recommendation first, then the entry written inside the form's word counts for a jury reader, with results only from the source file | "can we enter this?", "which category should this go in" |
+| [`proposal-case-paragraph-writer`](packs/case-study-factory-pack/skills/proposal-case-paragraph-writer/SKILL.md) | The 120 to 180 word proof paragraph for a proposal or an RFP answer, matched to the prospect's situation without bending the case, plus a 40-word version | "add the Acme case to the proposal", "relevant experience for the RFP" |
+| [`case-video-script-writer`](packs/case-study-factory-pack/skills/case-video-script-writer/SKILL.md) | A 60 to 90 second script for the lead or the client to say on camera, with a shot list and lower thirds, built from lines that were actually said | "marketing wants a video of this case", "can we do a video of this?" |
+
+Shared files: [`templates/`](packs/case-study-factory-pack/templates/) ships `firm-context.md` (a founder or lead fills it once — positioning, tone, colors, type, naming policy, who signs off — and every skill reads it) and `case-source.md` (the blank the interviewer fills, one per project, and the only source every writer reads).
+
 ---
 
 ## FAQ
@@ -447,6 +485,7 @@ claude-skills/
 │   ├── designops-pack/        # same shape; no shared files — the skills read each other's output
 │   ├── innovation-pack/       # same shape; no shared files — the skills read each other's output
 │   ├── employer-branding-pack/ # same shape; its shared files live in templates/
+│   ├── case-study-factory-pack/ # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -465,7 +504,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case · employer branding · employer brand · EVP · employee value proposition · careers page · job ad · job description · recruitment marketing · stay interviews · realistic job preview · employee advocacy · talent attraction · hiring content</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case · employer branding · employer brand · EVP · employee value proposition · careers page · job ad · job description · recruitment marketing · stay interviews · realistic job preview · employee advocacy · talent attraction · hiring content · case study · case studies · client case study · portfolio case study · credentials deck · capability statement · proposal writing · rfp response · award entry · award submission · linkedin post · one-pager · leave-behind · client interview · business development</sub>
 
 ## 10 Skills for Employee Experience
 
