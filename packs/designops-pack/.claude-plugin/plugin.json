@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "designops-pack",
+  "version": "1.0.0",
+  "description": "The DesignOps Pack: 12 Claude Skills for making the invisible ops of a design team explicit and runnable. Map how the team works today, then write the critique ritual, the handoff standard, design-system governance, file conventions, request intake, the capacity plan, a new designer's onboarding, and the handbook that holds them all.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/designops-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "designops",
+    "design-team",
+    "design-leadership",
+    "design-critique",
+    "design-handoff",
+    "design-system-governance",
+    "ways-of-working",
+    "file-naming",
+    "request-intake",
+    "capacity-planning",
+    "designer-onboarding",
+    "design-operations"
+  ]
+}

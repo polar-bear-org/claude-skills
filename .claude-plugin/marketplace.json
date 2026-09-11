@@ -149,6 +149,34 @@
       ]
     },
     {
+      "name": "designops-pack",
+      "source": "./packs/designops-pack",
+      "description": "12 Claude Skills for making the invisible ops of a design team explicit and runnable: mapping how the team works today, then writing the critique ritual, the handoff standard, design-system governance, file conventions, request intake, the capacity plan, a new designer's onboarding, and the handbook that holds them all.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/designops-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "designops",
+        "design-team",
+        "design-leadership",
+        "design-critique",
+        "design-handoff",
+        "design-system-governance",
+        "ways-of-working",
+        "request-intake",
+        "capacity-planning",
+        "designer-onboarding",
+        "design-operations",
+        "consulting"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

@@ -20,6 +20,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Design Thinking Pack](packs/design-thinking-pack/)** | 33 | Carrying a design project from a fuzzy challenge to a tested, decision-ready concept — framing, research, synthesis, ideation, testing, and the playback | `/plugin install design-thinking-pack@polar-bear-skills` |
 | **[Onboarding Pack](packs/onboarding-pack/)** | 12 | Carrying a new hire from "yes" to day 90 — pre-boarding plan, setup emails, welcome brief and pack, checklist and dashboard, team deck, intro email, first goals, first week | `/plugin install onboarding-pack@polar-bear-skills` |
 | **[Design Sprint Pack](packs/design-sprint-pack/)** | 13 | Selling, running, and landing a five-day design sprint — qualification, challenge framing, casting the room, recruiting five testers, the week itself, and the Monday after | `/plugin install design-sprint-pack@polar-bear-skills` |
+| **[DesignOps Pack](packs/designops-pack/)** | 12 | Making the invisible ops of a design team explicit — the ops map, the critique ritual, the handoff standard, design-system governance, file conventions, request intake, capacity, onboarding, and the handbook | `/plugin install designops-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -272,6 +273,40 @@ Thirteen skills for the whole engagement: deciding whether a sprint is the right
 
 Shared files: [`templates/`](packs/design-sprint-pack/templates/) ships two — `sprint-brief.md`, the one page holding the goal, questions, challenge, variant, cast and dates that `challenge-framer` fills in and every other skill reads, and `friday-notes-grid.md`, the blank grid the room fills live during the five interviews.
 
+
+### DesignOps Pack — [`packs/designops-pack`](packs/designops-pack/)
+
+Twelve skills for the ops a design team already runs on but has never written down. Start with the map of how the team works today, then write one standard at a time; each skill reads the ones before it, so the last one can compile the lot into a handbook. Claude designs the rituals and keeps the records; the critique stays human — no skill here judges a design, scores a designer, or ranks anyone's work.
+
+**Start here**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`team-ops-mapper`](packs/designops-pack/skills/team-ops-mapper/SKILL.md) | Writes down the rituals, handoffs, tools, decisions and pains as they are, not as you wish they were — the first file, and the one every other skill reads | "map our ops", "how does our team actually work" |
+
+**The rituals and standards**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`critique-ritual-designer`](packs/designops-pack/skills/critique-ritual-designer/SKILL.md) | Cadence, format, roles, rules for givers and receivers, and the objectives work gets assessed against | "design our crit", "our critiques are not working" |
+| [`critique-session-preparer`](packs/designops-pack/skills/critique-session-preparer/SKILL.md) | One session: the brief, the framing question, the timebox — and afterwards, the presenter's notes turned into next steps | "prep my crit", "write up the crit notes" |
+| [`handoff-standard-writer`](packs/designops-pack/skills/handoff-standard-writer/SKILL.md) | Your definition of ready for design-to-engineering: package contents, states, edge cases, tokens, motion, and the checkpoint conversation | "define our handoff", "engineers keep asking for missing states" |
+| [`handoff-package-checker`](packs/designops-pack/skills/handoff-package-checker/SKILL.md) | One package against that standard, item by item, as a to-do list rather than a list of what the designer forgot | "is this ready for engineering", "check my handoff" |
+| [`system-governance-designer`](packs/designops-pack/skills/system-governance-designer/SKILL.md) | Governance sized for a small team: a named owner, the change path, versioning, deprecation, and the decision-record format | "who decides on the design system", "our system keeps drifting" |
+| [`system-change-recorder`](packs/designops-pack/skills/system-change-recorder/SKILL.md) | One proposed change through that path, written up as a decision record a person can find a year later | "propose a system change", "can I just add this to the design system" |
+| [`file-hygiene-standard-writer`](packs/designops-pack/skills/file-hygiene-standard-writer/SKILL.md) | Naming, project structure, cover and status pages, archiving, branching, what lives where — a page that fits on a wall | "how should we name our files", "Figma is a mess" |
+
+**Taking work on, and taking people in**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`request-intake-designer`](packs/designops-pack/skills/request-intake-designer/SKILL.md) | The front door: the brief, the triage rules behind yes, not-yet and no, and how the answer is delivered without losing the requester | "design request process", "requests come in by DM" |
+| [`capacity-planner`](packs/designops-pack/skills/capacity-planner/SKILL.md) | Supply against demand for a week, month or quarter, at team and stream level, never as a per-person load report | "can we take this on", "the quarter looks impossible" |
+| [`designer-onboarding-planner`](packs/designops-pack/skills/designer-onboarding-planner/SKILL.md) | A 30/60/90 plan built from the standards you have written: buddy, first critique, first handoff, first system contribution | "a designer starts in two weeks", "first 90 days for a designer" |
+| [`ways-of-working-handbook-writer`](packs/designops-pack/skills/ways-of-working-handbook-writer/SKILL.md) | Every standard compiled into one document a joiner, a client or an engineer reads in twenty minutes, with the contradictions flagged rather than resolved | "write the design team handbook", "compile our standards" |
+
+No shared files: each skill reads the standards the earlier ones wrote, by file name, inside your DesignOps Studio project.
+
 ---
 
 ## FAQ
@@ -329,6 +364,7 @@ claude-skills/
 │   ├── design-thinking-pack/   # same shape; its shared files live in templates/
 │   ├── onboarding-pack/       # same shape; its shared files live in templates/
 │   ├── design-sprint-pack/     # same shape; its shared files live in templates/
+│   ├── designops-pack/        # same shape; no shared files — the skills read each other's output
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -347,7 +383,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook</sub>
 
 ## 10 Skills for Employee Experience
 

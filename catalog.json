@@ -1211,6 +1211,181 @@
       ]
     },
     {
+      "name": "designops-pack",
+      "title": "The DesignOps Pack",
+      "path": "packs/designops-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills for making the invisible ops of a design team explicit and runnable: mapping how the team works today, then writing the critique ritual, the handoff standard, design-system governance, file conventions, request intake, the capacity plan, a new designer's onboarding, and the handbook that holds them all.",
+      "audience": [
+        "design leads",
+        "design ops leads",
+        "founders",
+        "heads of design",
+        "studio principals"
+      ],
+      "keywords": [
+        "designops",
+        "design ops",
+        "design team operations",
+        "design critique",
+        "design handoff",
+        "design system governance",
+        "ways of working",
+        "file naming",
+        "design request intake",
+        "capacity planning",
+        "designer onboarding",
+        "design team handbook"
+      ],
+      "resources": [],
+      "skills": [
+        {
+          "name": "team-ops-mapper",
+          "path": "packs/designops-pack/skills/team-ops-mapper",
+          "order": 1,
+          "summary": "Interviews the design lead and writes the map of how the team actually works today: rituals, handoffs, tools, who decides what, and where it hurts. Every other skill in the pack reads it.",
+          "triggers": [
+            "run team-ops-mapper",
+            "map our ops",
+            "how does our team actually work",
+            "design ops audit"
+          ]
+        },
+        {
+          "name": "critique-ritual-designer",
+          "path": "packs/designops-pack/skills/critique-ritual-designer",
+          "order": 2,
+          "summary": "Designs the team's critique ritual: cadence, format, roles, rules for givers and receivers, and the objectives work gets assessed against.",
+          "triggers": [
+            "run critique-ritual-designer",
+            "design our crit",
+            "our critiques are not working",
+            "set up design critique"
+          ]
+        },
+        {
+          "name": "critique-session-preparer",
+          "path": "packs/designops-pack/skills/critique-session-preparer",
+          "order": 3,
+          "summary": "Prepares one critique (brief, objectives, framing question, timebox) and afterwards turns the presenter's notes into next steps.",
+          "triggers": [
+            "run critique-session-preparer",
+            "prep my crit",
+            "I'm presenting at critique Thursday",
+            "write up the crit notes"
+          ]
+        },
+        {
+          "name": "handoff-standard-writer",
+          "path": "packs/designops-pack/skills/handoff-standard-writer",
+          "order": 4,
+          "summary": "Writes the team's definition of ready for design-to-engineering handoff: package contents, states and edge cases, tokens, motion, and the conversation that goes with it.",
+          "triggers": [
+            "run handoff-standard-writer",
+            "define our handoff",
+            "what should a finished design include",
+            "design definition of done"
+          ]
+        },
+        {
+          "name": "handoff-package-checker",
+          "path": "packs/designops-pack/skills/handoff-package-checker",
+          "order": 5,
+          "summary": "Checks one handoff package against the team's own standard and lists what is missing, phrased as process flags rather than blame.",
+          "triggers": [
+            "run handoff-package-checker",
+            "is this ready for engineering",
+            "check my handoff",
+            "pre-handoff review"
+          ]
+        },
+        {
+          "name": "system-governance-designer",
+          "path": "packs/designops-pack/skills/system-governance-designer",
+          "order": 6,
+          "summary": "Designs design-system governance sized for a small team: ownership, how changes are proposed and decided, versioning, deprecation, and the decision-record format.",
+          "triggers": [
+            "run system-governance-designer",
+            "who decides on the design system",
+            "our system keeps drifting",
+            "design system governance"
+          ]
+        },
+        {
+          "name": "system-change-recorder",
+          "path": "packs/designops-pack/skills/system-change-recorder",
+          "order": 7,
+          "summary": "Runs one proposed system change through the team's governance rules and writes the decision record a person then decides on.",
+          "triggers": [
+            "run system-change-recorder",
+            "I want to add a component to the system",
+            "propose a system change",
+            "write a decision record"
+          ]
+        },
+        {
+          "name": "file-hygiene-standard-writer",
+          "path": "packs/designops-pack/skills/file-hygiene-standard-writer",
+          "order": 8,
+          "summary": "Writes the team's file and tool conventions: naming, project structure, cover and status pages, archiving, branching, and what lives in which tool.",
+          "triggers": [
+            "run file-hygiene-standard-writer",
+            "how should we name our files",
+            "Figma is a mess",
+            "file naming convention"
+          ]
+        },
+        {
+          "name": "request-intake-designer",
+          "path": "packs/designops-pack/skills/request-intake-designer",
+          "order": 9,
+          "summary": "Designs the front door for design requests: the brief, the triage rules, what gets a yes, a not-yet or a no, and how the answer is communicated.",
+          "triggers": [
+            "run request-intake-designer",
+            "design request process",
+            "requests come in by DM",
+            "how do we prioritize design asks"
+          ]
+        },
+        {
+          "name": "capacity-planner",
+          "path": "packs/designops-pack/skills/capacity-planner",
+          "order": 10,
+          "summary": "Plans a week, month or quarter at team level: supply versus demand, what to defer, and the wording for the no. Never a per-person load report.",
+          "triggers": [
+            "run capacity-planner",
+            "can we take this on",
+            "the quarter looks impossible",
+            "plan the team's capacity"
+          ]
+        },
+        {
+          "name": "designer-onboarding-planner",
+          "path": "packs/designops-pack/skills/designer-onboarding-planner",
+          "order": 11,
+          "summary": "Builds a 30/60/90 plan that brings one new designer into the team's ways of working: buddy, first critique, first handoff, first system contribution.",
+          "triggers": [
+            "run designer-onboarding-planner",
+            "a designer starts in two weeks",
+            "onboarding plan for our new hire",
+            "first 90 days for a designer"
+          ]
+        },
+        {
+          "name": "ways-of-working-handbook-writer",
+          "path": "packs/designops-pack/skills/ways-of-working-handbook-writer",
+          "order": 12,
+          "summary": "Compiles every standard and ritual the team has written into one readable handbook and flags where they disagree.",
+          "triggers": [
+            "run ways-of-working-handbook-writer",
+            "put our ways of working in one place",
+            "write the design team handbook",
+            "compile our standards"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
