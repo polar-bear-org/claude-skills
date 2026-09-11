@@ -1561,6 +1561,194 @@
       ]
     },
     {
+      "name": "employer-branding-pack",
+      "title": "The Employer Branding Pack",
+      "path": "packs/employer-branding-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills for an employer brand a joiner's first week does not disprove: the listening round, the peer-claims map, the evidence base, the EVP as Give and Get pairs, the careers page, the job ad, the realistic preview, a colleague's own post, a quarter of hiring content, measures that work at six hires a year, the first-weeks promise check, and the quarterly review.",
+      "audience": [
+        "founders",
+        "hiring leads",
+        "consultants",
+        "people leads",
+        "agency and studio principals"
+      ],
+      "keywords": [
+        "employer branding",
+        "employer brand",
+        "EVP",
+        "employee value proposition",
+        "careers page",
+        "job ad",
+        "job description",
+        "recruitment marketing",
+        "stay interviews",
+        "realistic job preview",
+        "employee advocacy",
+        "talent attraction"
+      ],
+      "resources": [
+        {
+          "file": "templates/firm-context.md",
+          "description": "Filled once by the founder or hiring lead: who the firm is, who it hires, pay policy, the hard parts it will say out loud and the ones it will not. Every skill reads it first, except team-voice-editor."
+        },
+        {
+          "file": "templates/interview-notes.md",
+          "description": "Blank note sheet, one per conversation in the listening round, filled by the interviewer right after it ends. The only thing evidence-synthesizer reads about individuals."
+        },
+        {
+          "file": "templates/first-weeks-check.md",
+          "description": "Blank check the joiner fills on their own at week 1, 4 and 12, before the conversation. They decide what goes to the firm."
+        }
+      ],
+      "skills": [
+        {
+          "name": "evidence-interview-designer",
+          "path": "packs/employer-branding-pack/skills/evidence-interview-designer",
+          "order": 1,
+          "summary": "Designs the listening round an honest employer brand is built from: who to talk to across roles and tenure, the stay-interview guide, the consent script, and the note-taking rule.",
+          "triggers": [
+            "run evidence-interview-designer",
+            "who should I talk to about our culture",
+            "stay interview questions",
+            "how do I find out what it's really like to work here"
+          ]
+        },
+        {
+          "name": "peer-claims-mapper",
+          "path": "packs/employer-branding-pack/skills/peer-claims-mapper",
+          "order": 2,
+          "summary": "Maps the claims on 5 to 10 peer firms' careers pages and job ads into table stakes, rare, and specific, so the EVP avoids the noise everyone else makes.",
+          "triggers": [
+            "run peer-claims-mapper",
+            "what do other agencies say on their careers pages",
+            "how do we stand out from other studios",
+            "everyone says great culture"
+          ]
+        },
+        {
+          "name": "evidence-synthesizer",
+          "path": "packs/employer-branding-pack/skills/evidence-synthesizer",
+          "order": 3,
+          "summary": "Turns the filled interview notes, exit notes, review-site text and survey verbatims into the evidence base: themes with counts, the minority view kept, contradictions named, leadership view against team view.",
+          "triggers": [
+            "run evidence-synthesizer",
+            "what did the interviews tell us",
+            "synthesize the employee interviews",
+            "find the themes in these notes"
+          ]
+        },
+        {
+          "name": "evp-from-evidence-writer",
+          "path": "packs/employer-branding-pack/skills/evp-from-evidence-writer",
+          "order": 4,
+          "summary": "Writes the EVP as Give and Get pairs from the evidence base, each claim tagged with its evidence strength, plus the list of what the firm will not claim yet.",
+          "triggers": [
+            "run evp-from-evidence-writer",
+            "write our EVP",
+            "employee value proposition",
+            "what's our employer brand promise"
+          ]
+        },
+        {
+          "name": "careers-page-writer",
+          "path": "packs/employer-branding-pack/skills/careers-page-writer",
+          "order": 5,
+          "summary": "Writes the careers page from the EVP: what it is like here, the hard parts said plainly, who should not apply, how hiring really works, pay policy, and only approved quotes.",
+          "triggers": [
+            "run careers-page-writer",
+            "write our careers page",
+            "rewrite the join us page",
+            "what should be on a careers page"
+          ]
+        },
+        {
+          "name": "job-ad-writer",
+          "path": "packs/employer-branding-pack/skills/job-ad-writer",
+          "order": 6,
+          "summary": "Writes one job ad that attracts the right few: the real first 90 days, the give and the get for this role, who will dislike it, the pay range, and the process with dates.",
+          "triggers": [
+            "run job-ad-writer",
+            "write a job ad",
+            "rewrite this job posting",
+            "we're hiring a developer, draft the post"
+          ]
+        },
+        {
+          "name": "realistic-preview-builder",
+          "path": "packs/employer-branding-pack/skills/realistic-preview-builder",
+          "order": 7,
+          "summary": "Builds a realistic job preview for one role from a conversation with the person doing the job today: a written “a real week” piece and, if wanted, a short video script and shot list.",
+          "triggers": [
+            "run realistic-preview-builder",
+            "realistic job preview",
+            "day in the life for this role",
+            "show candidates what the job is really like"
+          ]
+        },
+        {
+          "name": "team-voice-editor",
+          "path": "packs/employer-branding-pack/skills/team-voice-editor",
+          "order": 8,
+          "summary": "Interviews a colleague who wants to write about the work, structures their own answers into a draft, marks what was rearranged, and hands it back to them to finish.",
+          "triggers": [
+            "run team-voice-editor",
+            "help Sam write a LinkedIn post about the project",
+            "employee advocacy",
+            "turn this into a post in my own voice"
+          ]
+        },
+        {
+          "name": "hiring-content-planner",
+          "path": "packs/employer-branding-pack/skills/hiring-content-planner",
+          "order": 9,
+          "summary": "Plans a quarter of hiring content where every piece maps to one EVP claim and one willing human owner, and shows evidence rather than asserting it.",
+          "triggers": [
+            "run hiring-content-planner",
+            "content plan for employer branding",
+            "what should we post about working here",
+            "employer brand content calendar"
+          ]
+        },
+        {
+          "name": "brand-measure-designer",
+          "path": "packs/employer-branding-pack/skills/brand-measure-designer",
+          "order": 10,
+          "summary": "Designs the handful of measures that mean something when a firm hires a few people a year, and how to collect each without tracking individuals.",
+          "triggers": [
+            "run brand-measure-designer",
+            "is our employer branding working",
+            "employer brand KPIs",
+            "metrics for hiring content"
+          ]
+        },
+        {
+          "name": "first-weeks-promise-checker",
+          "path": "packs/employer-branding-pack/skills/first-weeks-promise-checker",
+          "order": 11,
+          "summary": "Prepares the week 1, 4 and 12 conversations with a joiner from the exact claims they read before applying, and turns their approved answers into promise-kept and promise-broken flags on the process.",
+          "triggers": [
+            "run first-weeks-promise-checker",
+            "someone starts Monday, check the promise",
+            "did we tell the new hire the truth",
+            "new joiner check-in questions"
+          ]
+        },
+        {
+          "name": "brand-review-runner",
+          "path": "packs/employer-branding-pack/skills/brand-review-runner",
+          "order": 12,
+          "summary": "Runs the quarterly review: promotes or demotes every EVP claim on new evidence, separates “fix the words” from “fix the workplace”, and lists what changes next quarter.",
+          "triggers": [
+            "run brand-review-runner",
+            "quarterly employer brand review",
+            "is our careers page still true",
+            "review the EVP"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

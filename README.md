@@ -22,6 +22,7 @@ Built and maintained by [Polar Bear](https://www.linkedin.com/company/polar-bear
 | **[Design Sprint Pack](packs/design-sprint-pack/)** | 13 | Selling, running, and landing a five-day design sprint — qualification, challenge framing, casting the room, recruiting five testers, the week itself, and the Monday after | `/plugin install design-sprint-pack@polar-bear-skills` |
 | **[DesignOps Pack](packs/designops-pack/)** | 12 | Making the invisible ops of a design team explicit — the ops map, the critique ritual, the handoff standard, design-system governance, file conventions, request intake, capacity, onboarding, and the handbook | `/plugin install designops-pack@polar-bear-skills` |
 | **[Innovation Pack](packs/innovation-pack/)** | 12 | Running an innovation program that tests real bets and kills most of them cheaply — the charter, the gates, the ledger, the portfolio map, challenges and ideation, discovery interviews, experiments, gate reviews, the investment case, and the sunset | `/plugin install innovation-pack@polar-bear-skills` |
+| **[Employer Branding Pack](packs/employer-branding-pack/)** | 12 | Building an employer brand a joiner's first week does not disprove — the listening round, the peer-claims map, the evidence base, the EVP, the careers page and the job ad, the realistic preview, hiring content, the measures, the first-weeks check, and the quarterly review | `/plugin install employer-branding-pack@polar-bear-skills` |
 | **[Compassionate Leadership Pack](packs/compassionate-leadership-pack/)** | 20 | Feedback, conflict, workload, grief, change, exits, and more human workplaces; includes ChatGPT and other portable prompts | `/plugin install compassionate-leadership-pack@polar-bear-skills` |
 | **[Employee Experience](packs/employee-experience-pack/)** | 10 | Listen to employees, find friction in the work, and turn feedback into changes people can see. | `/plugin install employee-experience-pack@polar-bear-skills` |
 | **[Team Performance](packs/team-performance-pack/)** | 10 | Run useful retrospectives, agree team norms, and improve coordination in everyday work. | `/plugin install team-performance-pack@polar-bear-skills` |
@@ -347,6 +348,45 @@ Twelve skills for a firm that keeps starting things and cannot say what any of t
 
 No shared files: each skill reads the artifacts the earlier ones wrote, by file name, inside your Innovation HQ project.
 
+
+### Employer Branding Pack — [`packs/employer-branding-pack`](packs/employer-branding-pack/)
+
+Twelve skills for a firm whose careers page says "fast-paced and collaborative" and whose joiners find out otherwise in week two. The pack runs one loop: listen to the people who already work here, distill what they say into a promise you can keep, tell it on a careers page and in job ads that help the wrong people not apply, then test the promise against a joiner's first weeks and correct whatever broke. Every claim about working here needs a living witness: a colleague said it or a founder signs it, no skill invents the witness, and nobody is quoted who has not approved the quote.
+
+**Listen before you write a word**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`evidence-interview-designer`](packs/employer-branding-pack/skills/evidence-interview-designer/SKILL.md) | Eight to twelve conversations rather than a survey: who to talk to across roles and tenure (not the fans), the stay-interview guide that gets past "it's fine", the consent script, the note-taking rule | "who should I talk to about our culture", "stay interview questions" |
+| [`peer-claims-mapper`](packs/employer-branding-pack/skills/peer-claims-mapper/SKILL.md) | The claims on five to ten peer careers pages sorted into table stakes, rare and specific — a list of phrases your EVP must not lean on. A firm of 35 cannot outspend anyone; it can out-specify everyone | "what do other agencies say on their careers pages", "everyone says great culture" |
+| [`evidence-synthesizer`](packs/employer-branding-pack/skills/evidence-synthesizer/SKILL.md) | The notes read the unflattering way: themes with counts, the one person's view kept, contradictions named, the leadership view held against the team view | "what did the interviews tell us", "find the themes in these notes" |
+
+**Write the promise, and the pages that carry it**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`evp-from-evidence-writer`](packs/employer-branding-pack/skills/evp-from-evidence-writer/SKILL.md) | The EVP as Give and Get pairs written only from the evidence base, each claim tagged with its evidence strength, plus the "not claimable yet" list — next quarter's to-do list for the workplace | "write our EVP", "what's our employer brand promise" |
+| [`careers-page-writer`](packs/employer-branding-pack/skills/careers-page-writer/SKILL.md) | The page in a fixed order: what it is actually like here before the perks, the hard parts before the benefits, the honest process before the apply button, and only quotes people approved | "write our careers page", "rewrite the join us page" |
+| [`job-ad-writer`](packs/employer-branding-pack/skills/job-ad-writer/SKILL.md) | The ad that rules people out on purpose: the real first ninety days, the give and the get for this role, "you'll dislike this if", the pay range, the process with dates | "write a job ad", "rewrite this job posting" |
+| [`realistic-preview-builder`](packs/employer-branding-pack/skills/realistic-preview-builder/SKILL.md) | A Tuesday rather than a responsibility list, built from a conversation with the person doing the job today and approved by them, as a written piece and optionally a video script and shot list | "realistic job preview", "day in the life for this role" |
+
+**Be visible without a marketing team**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`team-voice-editor`](packs/employer-branding-pack/skills/team-voice-editor/SKILL.md) | An editor, not a writer: it interviews the colleague, keeps their answers, marks every sentence it moved, and gives the draft back to them to finish. If they have nothing to say, there is no post | "help Sam write a LinkedIn post about the project", "employee advocacy" |
+| [`hiring-content-planner`](packs/employer-branding-pack/skills/hiring-content-planner/SKILL.md) | A quarter where each piece makes one EVP claim visible through something that happened, told by the person it happened to. A piece with no willing owner is dropped, not assigned | "content plan for employer branding", "we only post when a role opens" |
+
+**Check whether the promise held**
+
+| Skill | What it does | Say this to trigger it |
+|-------|--------------|------------------------|
+| [`brand-measure-designer`](packs/employer-branding-pack/skills/brand-measure-designer/SKILL.md) | Five or six measures that mean something at six hires a year — not applicant volume or reach — and how to collect each without tracking any individual | "is our employer branding working", "employer brand KPIs" |
+| [`first-weeks-promise-checker`](packs/employer-branding-pack/skills/first-weeks-promise-checker/SKILL.md) | Week 1, 4 and 12 built from the exact sentences the joiner read before they applied, answered on their own, kept only with their consent, and turned into flags on the process rather than on the joiner | "someone starts Monday, check the promise", "did we tell the new hire the truth" |
+| [`brand-review-runner`](packs/employer-branding-pack/skills/brand-review-runner/SKILL.md) | Every claim promoted or demoted on new evidence, and every broken promise sorted into "fix the words" or "fix the workplace" with an owner and a date. It never closes a broken promise by rephrasing it | "quarterly employer brand review", "is our careers page still true" |
+
+Shared files: [`templates/`](packs/employer-branding-pack/templates/) ships `firm-context.md` (the founder fills it once; every skill reads it), `interview-notes.md` (one per listening conversation, the only thing the synthesizer reads about individuals), and `first-weeks-check.md` (the joiner fills it at week 1, 4 and 12, and decides what is shared).
+
 ---
 
 ## FAQ
@@ -406,6 +446,7 @@ claude-skills/
 │   ├── design-sprint-pack/     # same shape; its shared files live in templates/
 │   ├── designops-pack/        # same shape; no shared files — the skills read each other's output
 │   ├── innovation-pack/       # same shape; no shared files — the skills read each other's output
+│   ├── employer-branding-pack/ # same shape; its shared files live in templates/
 │   └── _template/              # copy this to start a new pack
 ├── docs/
 │   └── installing.md           # every install path, for users
@@ -424,7 +465,7 @@ Made by **Polar Bear**, a people ops consultancy for human-size teams (20 to 200
 
 ---
 
-<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case</sub>
+<sub>Topics: claude skills · agent skills · claude code plugin · claude code marketplace · SKILL.md · anthropic claude · ai workshop facilitation · agenda design · meeting design · offsite planning · design sprint · workshop synthesis · performance review · annual review cycle · growth matrix · career framework · competency matrix · self-review · 1:1 meetings · people ops · hr without hr software · ai for consultants · meeting notes · meeting minutes · decision log · decision record · action items · design thinking · user research · design research · discovery · customer experience · service design · personas · journey mapping · jobs to be done · user interviews · ideation · how might we · prototyping · usability testing · onboarding · employee onboarding · new hire onboarding · preboarding · first 90 days · welcome pack · onboarding checklist · day one · induction · employee experience · design sprint · sprint facilitation · five-day sprint · sprint week · lightning demos · crazy 8s · storyboard · rapid prototyping · user testing · decision making · designops · design ops · design team operations · design critique · design handoff · design system governance · design system · ways of working · file naming · design request intake · capacity planning · designer onboarding · design team handbook · innovation · innovation program · innovation management · stage gate · innovation portfolio · innovation accounting · experiment design · problem interviews · discovery interviews · gate review · innovation kpis · investment case · employer branding · employer brand · EVP · employee value proposition · careers page · job ad · job description · recruitment marketing · stay interviews · realistic job preview · employee advocacy · talent attraction · hiring content</sub>
 
 ## 10 Skills for Employee Experience
 

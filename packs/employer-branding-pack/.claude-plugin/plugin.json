@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "employer-branding-pack",
+  "version": "1.0.0",
+  "description": "The Employer Branding Pack: 12 Claude Skills for building an employer brand a joiner's first week does not disprove. Design the listening round, map what peer firms claim, synthesise the evidence base, write the EVP as Give and Get pairs, write the careers page and the job ad that helps the wrong people not apply, build a realistic job preview, edit a colleague's own post in their voice, plan a quarter of hiring content, design measures that work at six hires a year, check the promise against a joiner's first weeks, and run the quarterly review.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/employer-branding-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "employer-branding",
+    "employer-brand",
+    "evp",
+    "employee-value-proposition",
+    "careers-page",
+    "job-ad",
+    "job-description",
+    "recruitment-marketing",
+    "stay-interviews",
+    "realistic-job-preview",
+    "employee-advocacy",
+    "hiring",
+    "talent-attraction",
+    "consulting"
+  ]
+}

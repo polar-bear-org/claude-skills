@@ -205,6 +205,34 @@
       ]
     },
     {
+      "name": "employer-branding-pack",
+      "source": "./packs/employer-branding-pack",
+      "description": "12 Claude Skills for an employer brand a joiner's first week does not disprove: the listening round, the peer-claims map, the evidence base, the EVP as Give and Get pairs, the careers page, the job ad, the realistic preview, a colleague's own post, a quarter of hiring content, measures that work at six hires a year, the first-weeks promise check, and the quarterly review.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/employer-branding-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "employer-branding",
+        "employer-brand",
+        "evp",
+        "employee-value-proposition",
+        "careers-page",
+        "job-ad",
+        "job-description",
+        "recruitment-marketing",
+        "stay-interviews",
+        "realistic-job-preview",
+        "employee-advocacy",
+        "talent-attraction"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
