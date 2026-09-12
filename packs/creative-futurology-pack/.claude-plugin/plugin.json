@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "creative-futurology-pack",
+  "version": "1.0.0",
+  "description": "12 Claude Skills for turning signals of change into scenarios and scenarios into decisions: the focal question, the sourced signal scan, the trend synthesis, the uncertainty map, three or four constructed futures, the artifacts that make them tangible, the strategy wind tunnel, the roadmap of moves, the signposts that keep watching, the publishable trend report, the scenario workshop, and the leadership playback.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "futurology",
+    "foresight",
+    "strategic-foresight",
+    "scenario-planning",
+    "scenarios",
+    "horizon-scanning",
+    "signals",
+    "trends",
+    "trend-report",
+    "wind-tunnelling",
+    "uncertainty",
+    "signposts",
+    "strategy",
+    "workshop"
+  ]
+}

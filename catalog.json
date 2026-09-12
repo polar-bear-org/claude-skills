@@ -2128,6 +2128,218 @@
       ]
     },
     {
+      "name": "creative-futurology-pack",
+      "title": "The Creative Futurology Pack",
+      "path": "packs/creative-futurology-pack",
+      "version": "1.0.0",
+      "description": "12 Claude Skills for teams to imagine their future and act on it, carrying signals of change into scenarios and scenarios into decisions: the focal question and the engagement brief, the sourced signal scan, the trend synthesis with an evidence grade, the uncertainty map and the scenario axes, three or four constructed futures, the artifacts that make them tangible, the strategy wind tunnel, the roadmap of no-regret moves, options and big bets, the signposts and the quarterly re-scan, the publishable trend report, the scenario workshop, and the leadership playback.",
+      "audience": [
+        "consultants",
+        "agency and studio principals",
+        "founders",
+        "strategy and innovation leads",
+        "insight and trends teams",
+        "facilitators"
+      ],
+      "keywords": [
+        "futurology",
+        "strategic foresight",
+        "foresight",
+        "scenario planning",
+        "scenarios",
+        "horizon scanning",
+        "signals of change",
+        "trends",
+        "trend report",
+        "wind tunnelling",
+        "uncertainty",
+        "signposts",
+        "design fiction",
+        "strategy",
+        "workshop"
+      ],
+      "resources": [
+        {
+          "file": "templates/engagement-brief.md",
+          "description": "The blank behind brief-[slug].md, the context file every skill reads first: the focal question and its horizon, the decision the work must inform, the scope, who is in the room, and what the firm already believes. focal-question-framer fills it; whoever leads the engagement keeps it current."
+        },
+        {
+          "file": "templates/signal-log.md",
+          "description": "A blank set of signal cards for humans to fill in during a scan — title, date, source, territory, strength, spotted by. signal-scanner reads these, checks each source, and merges them into the signal log; cards without a source are kept separately and never counted as evidence."
+        }
+      ],
+      "skills": [
+        {
+          "name": "focal-question-framer",
+          "path": "packs/creative-futurology-pack/skills/focal-question-framer",
+          "order": 1,
+          "summary": "Turns a vague wish to think about the future into one focal question with a horizon, a scope and the decision it must inform, and fills the engagement brief every other skill reads.",
+          "triggers": [
+            "run focal-question-framer",
+            "we need a trends piece",
+            "the client wants a future-of session",
+            "help me frame this futures work",
+            "what should our offsite be about",
+            "I don't know, something about where our industry is going"
+          ]
+        },
+        {
+          "name": "signal-scanner",
+          "path": "packs/creative-futurology-pack/skills/signal-scanner",
+          "order": 2,
+          "summary": "Researches the web and logs concrete, dated, sourced signals of change, one card per signal with a link, across social, technological, economic, environmental and political territory, and merges the signals the team spotted. Never invents a signal.",
+          "triggers": [
+            "run signal-scanner",
+            "find signals for our focal question",
+            "what's changing in [market]",
+            "scan the horizon for us",
+            "we need evidence, not opinions",
+            "just find me some interesting stuff about where this is going"
+          ]
+        },
+        {
+          "name": "trend-synthesizer",
+          "path": "packs/creative-futurology-pack/skills/trend-synthesizer",
+          "order": 3,
+          "summary": "Clusters sourced signals into named trends with a direction, a maturity and an honest evidence grade. A trend needs three signals from two independent sources or it is filed as a hunch.",
+          "triggers": [
+            "run trend-synthesizer",
+            "what do these signals add up to",
+            "turn the signal log into trends",
+            "name the trends for the workshop",
+            "cluster these",
+            "can you make sense of all this"
+          ]
+        },
+        {
+          "name": "uncertainty-mapper",
+          "path": "packs/creative-futurology-pack/skills/uncertainty-mapper",
+          "order": 4,
+          "summary": "Separates what is already settled from what could go either way, sorts the drivers by impact and uncertainty, and proposes the two axes the scenarios will stand on — recording the team's argument rather than replacing it.",
+          "triggers": [
+            "run uncertainty-mapper",
+            "which trends matter most",
+            "pick the scenario axes",
+            "what's certain and what isn't",
+            "impact versus uncertainty",
+            "help us decide what to build the scenarios around"
+          ]
+        },
+        {
+          "name": "scenario-builder",
+          "path": "packs/creative-futurology-pack/skills/scenario-builder",
+          "order": 5,
+          "summary": "Builds three or four internally consistent constructed futures from the agreed axes, each with its logic, its timeline, who wins and who loses, and the first signs you would see. Every scenario is labeled a constructed future, never a prediction.",
+          "triggers": [
+            "run scenario-builder",
+            "write the scenarios",
+            "build four worlds for 2030",
+            "turn the axes into stories",
+            "what could this look like",
+            "give me a few futures for our industry"
+          ]
+        },
+        {
+          "name": "future-artifact-maker",
+          "path": "packs/creative-futurology-pack/skills/future-artifact-maker",
+          "order": 6,
+          "summary": "Makes artifacts from inside each scenario — a headline, a product listing, a complaint letter, an annual report excerpt, a job ad, a policy notice — clearly marked fictional and built to make a room react rather than nod.",
+          "triggers": [
+            "run future-artifact-maker",
+            "make the scenarios tangible",
+            "write a headline from 2030",
+            "design fiction for the workshop",
+            "something people can hold",
+            "the deck is boring, help"
+          ]
+        },
+        {
+          "name": "strategy-wind-tunneler",
+          "path": "packs/creative-futurology-pack/skills/strategy-wind-tunneler",
+          "order": 7,
+          "summary": "Runs the firm's current strategy, or a set of options, through every scenario and grades each as holds, conditional or fragile, naming the trigger that would force a change and guarding against the team's favorite answer.",
+          "triggers": [
+            "run strategy-wind-tunneler",
+            "stress-test our strategy against the scenarios",
+            "are we fine in all four worlds",
+            "which of these options survives",
+            "test the plan",
+            "does our plan still make sense"
+          ]
+        },
+        {
+          "name": "implications-roadmap-builder",
+          "path": "packs/creative-futurology-pack/skills/implications-roadmap-builder",
+          "order": 8,
+          "summary": "Turns scenarios and wind-tunnel results into moves — no-regret moves now, options to keep open, big bets with triggers — each with an owner and a date, without choosing the bet for the leadership team.",
+          "triggers": [
+            "run implications-roadmap-builder",
+            "so what do we do",
+            "turn the scenarios into actions",
+            "build the roadmap from the offsite",
+            "implications for our strategy",
+            "what does all this mean for us"
+          ]
+        },
+        {
+          "name": "signpost-tracker",
+          "path": "packs/creative-futurology-pack/skills/signpost-tracker",
+          "order": 9,
+          "summary": "Designs the early-warning indicators for each scenario, with thresholds and a review cadence, and runs the quarterly re-scan and review so the scenarios and the roadmap stay alive after the workshop.",
+          "triggers": [
+            "run signpost-tracker",
+            "which future are we in now",
+            "set up the early warning indicators",
+            "quarterly scenario review",
+            "has anything changed since the offsite",
+            "should we be worried about anything yet"
+          ]
+        },
+        {
+          "name": "trend-report-writer",
+          "path": "packs/creative-futurology-pack/skills/trend-report-writer",
+          "order": 10,
+          "summary": "Writes the publishable trend report the firm sends to clients: each trend framed as a tension with a question for leaders, sourced signals, implications and a provocation. Refuses to print a trend with no sourced signals behind it.",
+          "triggers": [
+            "run trend-report-writer",
+            "write our annual trends report",
+            "turn the trends into a client piece",
+            "we need a point of view on the future of [market]",
+            "draft the trends article",
+            "make something we can publish from all this"
+          ]
+        },
+        {
+          "name": "scenario-workshop-runner",
+          "path": "packs/creative-futurology-pack/skills/scenario-workshop-runner",
+          "order": 11,
+          "summary": "Designs and supports the half-day or full-day workshop where a team sorts the uncertainties, builds or tests the scenarios and claims the first moves: agenda, materials, facilitation prompts and capture. The room itself stays human.",
+          "triggers": [
+            "run scenario-workshop-runner",
+            "plan the scenario workshop",
+            "design the offsite session on the future",
+            "facilitation guide for the scenarios",
+            "we're running the session next week",
+            "help me run this thing"
+          ]
+        },
+        {
+          "name": "leadership-playback-designer",
+          "path": "packs/creative-futurology-pack/skills/leadership-playback-designer",
+          "order": 12,
+          "summary": "Designs the playback that makes leadership care: the pre-read, the 45-minute arc, the one decision asked for, and the capture afterwards. Will not ship the playback as a document instead of a session.",
+          "triggers": [
+            "run leadership-playback-designer",
+            "present the scenarios to the board",
+            "how do I get leadership to care",
+            "playback session for the partners",
+            "the readout",
+            "I have to show this to the CEO on Thursday"
+          ]
+        }
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",

@@ -291,6 +291,36 @@
       ]
     },
     {
+      "name": "creative-futurology-pack",
+      "source": "./packs/creative-futurology-pack",
+      "description": "12 Claude Skills for turning signals of change into scenarios and scenarios into decisions: the focal question, the sourced signal scan, the trend synthesis, the uncertainty map, three or four constructed futures, the artifacts that make them tangible, the strategy wind tunnel, the roadmap of moves, the signposts, the publishable trend report, the scenario workshop, and the leadership playback.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "futurology",
+        "foresight",
+        "strategic-foresight",
+        "scenario-planning",
+        "scenarios",
+        "horizon-scanning",
+        "signals",
+        "trends",
+        "trend-report",
+        "wind-tunnelling",
+        "uncertainty",
+        "signposts",
+        "strategy",
+        "workshop"
+      ]
+    },
+    {
       "name": "compassionate-leadership-pack",
       "version": "1.0.0",
       "description": "20 practical skills for compassionate leadership: feedback, conflict, workload, grief, change, exits, and more human workplaces. Includes portable prompts for ChatGPT and other assistants.",
