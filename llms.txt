@@ -16,6 +16,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Handling Disagreements: packs/disagreements-pack/README.md
 - Time for Top Priorities: packs/top-priorities-pack/README.md
 - Important Decisions: packs/important-decisions-pack/README.md
+- AI and Psychological Safety: packs/ai-psychological-safety-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -391,3 +392,15 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - Reference: packs/important-decisions-pack/resources/practice-lab.md
 - Reference: packs/important-decisions-pack/templates/decision-brief.md
 - Reference: packs/important-decisions-pack/templates/decision-review.md
+
+## 6 Skills for AI and Psychological Safety
+- Pack: packs/ai-psychological-safety-pack/README.md
+- ai-decision-stress-test: packs/ai-psychological-safety-pack/skills/ai-decision-stress-test/SKILL.md — Produces a grounded challenge brief and consultation questions
+- concern-clarifier: packs/ai-psychological-safety-pack/skills/concern-clarifier/SKILL.md — Produces a clear concern, a concrete request, and a suitable route
+- speak-up-rehearsal: packs/ai-psychological-safety-pack/skills/speak-up-rehearsal/SKILL.md — Produces a short role-play, practical feedback, and a revised opening
+- invite-team-challenge: packs/ai-psychological-safety-pack/skills/invite-team-challenge/SKILL.md — Produces an invitation, participation options, and a response commitment
+- respond-to-ai-raised-concerns: packs/ai-psychological-safety-pack/skills/respond-to-ai-raised-concerns/SKILL.md — Produces an evidence note, response draft, and follow-up step
+- close-the-concern-loop: packs/ai-psychological-safety-pack/skills/close-the-concern-loop/SKILL.md — Produces a response-and-action note with commitments to confirm
+- Reference: packs/ai-psychological-safety-pack/resources/evidence-and-sources.md
+- Reference: packs/ai-psychological-safety-pack/resources/practice-lab.md
+- Reference: packs/ai-psychological-safety-pack/templates/concern-and-response.md

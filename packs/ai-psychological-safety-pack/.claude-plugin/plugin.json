@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-psychological-safety-pack",
+  "version": "1.0.0",
+  "description": "Six practical skills to clarify concerns, test decisions, practise speaking up, and help leaders respond and follow through. Includes portable prompts.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-psychological-safety-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "psychological-safety",
+    "ai",
+    "leadership",
+    "managers",
+    "speaking-up",
+    "concerns",
+    "feedback",
+    "consultation",
+    "disagreement",
+    "decision-making",
+    "people-ops"
+  ]
+}

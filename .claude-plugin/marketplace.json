@@ -568,6 +568,33 @@
         "consultation",
         "review"
       ]
+    },
+    {
+      "name": "ai-psychological-safety-pack",
+      "source": "./packs/ai-psychological-safety-pack",
+      "description": "Clarify a concern, question a proposed decision, rehearse speaking up, invite disagreement, prepare a response, and follow through. Includes portable prompts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-psychological-safety-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "psychological-safety",
+        "ai",
+        "leadership",
+        "managers",
+        "speaking-up",
+        "concerns",
+        "feedback",
+        "consultation",
+        "disagreement",
+        "decision-making",
+        "people-ops"
+      ]
     }
   ]
 }

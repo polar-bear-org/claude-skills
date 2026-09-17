@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ai-decision-stress-test",
+    "title": "Test a Decision Before Announcing It",
+    "group": "Before the decision",
+    "use": "You want to challenge a proposed change before asking the team.",
+    "output": "A grounded challenge brief and consultation questions.",
+    "prompt": "We want to require AI-written self-reviews next quarter. Test that proposal and help me ask the team what we might be missing.",
+    "number": 1
+  },
+  {
+    "id": "concern-clarifier",
+    "title": "Put a Concern Into Words",
+    "group": "Prepare to speak",
+    "use": "You know something needs raising but struggle to express it.",
+    "output": "A clear concern, a concrete request, and a suitable route.",
+    "prompt": "English is my second language. I think our promotion criteria overlook support work. Help me put the concern into words.",
+    "number": 2
+  },
+  {
+    "id": "speak-up-rehearsal",
+    "title": "Rehearse Speaking Up",
+    "group": "Prepare to speak",
+    "use": "You want to practise questioning someone with more authority.",
+    "output": "A short role-play, practical feedback, and a revised opening.",
+    "prompt": "Help me practise telling the founder that the new delivery deadline is unrealistic.",
+    "number": 3
+  },
+  {
+    "id": "invite-team-challenge",
+    "title": "Make Room for Challenge",
+    "group": "Before the decision",
+    "use": "You want input before a decision becomes final.",
+    "output": "An invitation, participation options, and a response commitment.",
+    "prompt": "We are changing how project leads collect performance feedback. Help me hear different views before we decide.",
+    "number": 4
+  },
+  {
+    "id": "respond-to-ai-raised-concerns",
+    "title": "Respond When AI Carries the Concern",
+    "group": "Hear and respond",
+    "use": "A concern arrives through an AI-assisted or unattributed document.",
+    "output": "An evidence note, response draft, and follow-up step.",
+    "prompt": "Someone shared an AI-generated critique of our new review process without a name. Help me respond and decide what to check.",
+    "number": 5
+  },
+  {
+    "id": "close-the-concern-loop",
+    "title": "Show What Happened Next",
+    "group": "Hear and respond",
+    "use": "People have raised a concern and need an honest update.",
+    "output": "A response-and-action note with commitments to confirm.",
+    "prompt": "We agreed to clarify how mentoring counts as promotion evidence. Help me explain what will change and track the follow-through.",
+    "number": 6
+  }
+]

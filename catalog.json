@@ -3731,6 +3731,106 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-psychological-safety-pack",
+      "title": "6 Skills for AI and Psychological Safety",
+      "path": "packs/ai-psychological-safety-pack",
+      "version": "1.0.0",
+      "description": "Clarify a concern, question a proposed decision, rehearse speaking up, invite disagreement, prepare a response, and follow through.",
+      "audience": [
+        "founders",
+        "managers",
+        "colleagues"
+      ],
+      "platforms": [
+        "Claude",
+        "ChatGPT (portable prompts)",
+        "Other text assistants (portable prompts)"
+      ],
+      "keywords": [
+        "psychological-safety",
+        "ai",
+        "leadership",
+        "managers",
+        "speaking-up",
+        "concerns",
+        "feedback",
+        "consultation",
+        "disagreement",
+        "decision-making",
+        "people-ops"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        },
+        {
+          "file": "resources/practice-lab.md",
+          "description": "practice lab"
+        },
+        {
+          "file": "templates/concern-and-response.md",
+          "description": "concern and response note"
+        }
+      ],
+      "skills": [
+        {
+          "name": "ai-decision-stress-test",
+          "path": "packs/ai-psychological-safety-pack/skills/ai-decision-stress-test",
+          "order": 1,
+          "summary": "Produces a grounded challenge brief and consultation questions",
+          "triggers": [
+            "run ai-decision-stress-test"
+          ]
+        },
+        {
+          "name": "concern-clarifier",
+          "path": "packs/ai-psychological-safety-pack/skills/concern-clarifier",
+          "order": 2,
+          "summary": "Produces a clear concern, a concrete request, and a suitable route",
+          "triggers": [
+            "run concern-clarifier"
+          ]
+        },
+        {
+          "name": "speak-up-rehearsal",
+          "path": "packs/ai-psychological-safety-pack/skills/speak-up-rehearsal",
+          "order": 3,
+          "summary": "Produces a short role-play, practical feedback, and a revised opening",
+          "triggers": [
+            "run speak-up-rehearsal"
+          ]
+        },
+        {
+          "name": "invite-team-challenge",
+          "path": "packs/ai-psychological-safety-pack/skills/invite-team-challenge",
+          "order": 4,
+          "summary": "Produces an invitation, participation options, and a response commitment",
+          "triggers": [
+            "run invite-team-challenge"
+          ]
+        },
+        {
+          "name": "respond-to-ai-raised-concerns",
+          "path": "packs/ai-psychological-safety-pack/skills/respond-to-ai-raised-concerns",
+          "order": 5,
+          "summary": "Produces an evidence note, response draft, and follow-up step",
+          "triggers": [
+            "run respond-to-ai-raised-concerns"
+          ]
+        },
+        {
+          "name": "close-the-concern-loop",
+          "path": "packs/ai-psychological-safety-pack/skills/close-the-concern-loop",
+          "order": 6,
+          "summary": "Produces a response-and-action note with commitments to confirm",
+          "triggers": [
+            "run close-the-concern-loop"
+          ]
+        }
+      ]
     }
   ]
 }
