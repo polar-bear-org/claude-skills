@@ -555,7 +555,7 @@ Yes, free to use inside your company, not for resale. You may use them for your 
 The `SKILL.md` skills are built for Claude. Eleven packs also ship plain-text prompts in a `portable/` folder that you can paste into ChatGPT, Gemini, Copilot or another text assistant, plus an `ALL-SKILLS.md` and `PROJECT-INSTRUCTIONS.md` for project setups: Compassionate Leadership, AI & Psychological Safety, Employee Experience, Team Performance, Stakeholder Relationships, Failures and Mistakes, Delegation, Changing Ways of Working, Handling Disagreements, Time for Top Priorities, and Important Decisions. That is prompt compatibility, not a native integration; results vary by assistant.
 
 **Where can I see each pack before installing it?**
-Every pack has a page at [meet-polar-bear.com/skills](https://meet-polar-bear.com/skills) with a guide, screenshots and a zip download. The address is `meet-polar-bear.com/skills/<pack-name>`, for example [meet-polar-bear.com/skills/ai-for-hr-pack](https://meet-polar-bear.com/skills/ai-for-hr-pack).
+Every pack has a page at [meet-polar-bear.com/skills](https://meet-polar-bear.com/skills) with a guide and a zip download. The address is `meet-polar-bear.com/skills/<pack-name>`, for example [meet-polar-bear.com/skills/ai-for-hr-pack](https://meet-polar-bear.com/skills/ai-for-hr-pack).
 
 **Can I add my own pack?**
 Yes — see [CONTRIBUTING.md](CONTRIBUTING.md). It covers creating a pack from scratch, bringing in a pack that already exists, adding a skill to a pack, and editing one.
