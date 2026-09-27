@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-training-pack",
+  "version": "1.0.0",
+  "description": "30 Claude Skills for L&D and corporate training, from the first training request to proof of what changed: training request intake, performance gap analysis, training needs assessment and action mapping, SME interview guides, content triage and SME review plans, learning objectives, instructional design documents and curriculum maps, scenario-based learning, e-learning storyboards, knowledge checks, job aids and an AI content QA checklist, session plans, facilitator guides, role-play training and train-the-trainer kits, 70-20-10 and spaced repetition plans, manager follow-up kits and onboarding training plans, Kirkpatrick evaluation plans, training evaluation forms, success case studies and training ROI estimates, the annual training plan, ADDIE project plans and compliance training. Claude drafts the learning and an expert signs it off.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-training-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "learning-and-development",
+    "instructional-design",
+    "corporate-training",
+    "training-needs-analysis",
+    "action-mapping",
+    "addie",
+    "kirkpatrick",
+    "learning-objectives",
+    "elearning",
+    "scenario-based-learning",
+    "spaced-repetition",
+    "training-roi",
+    "ai",
+    "people-ops"
+  ]
+}

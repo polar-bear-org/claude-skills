@@ -775,6 +775,36 @@
         "offer-letter",
         "ai"
       ]
+    },
+    {
+      "name": "ai-for-training-pack",
+      "source": "./packs/ai-for-training-pack",
+      "description": "30 skills for L&D and corporate training, from the first training request to proof of what changed: finding the real need, getting it out of the experts, designing the programme, building the materials, delivering it live, making it stick, proving what changed, and running the L&D desk.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-training-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "learning-and-development",
+        "instructional-design",
+        "corporate-training",
+        "training-needs-analysis",
+        "action-mapping",
+        "addie",
+        "kirkpatrick",
+        "learning-objectives",
+        "elearning",
+        "scenario-based-learning",
+        "spaced-repetition",
+        "training-roi",
+        "ai",
+        "people-ops"
+      ]
     }
   ]
 }

@@ -5745,6 +5745,312 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-training-pack",
+      "title": "AI for L&D and Corporate Training: 30 Claude Skills",
+      "path": "packs/ai-for-training-pack",
+      "version": "1.0.0",
+      "description": "30 skills for L&D and corporate training, from the first training request to proof of what changed: finding the real need, getting it out of the experts, designing the programme, building the materials, delivering it live, making it stick, proving what changed, and running the L&D desk.",
+      "audience": [
+        "L&D leads",
+        "instructional designers",
+        "corporate trainers"
+      ],
+      "keywords": [
+        "learning-and-development",
+        "instructional-design",
+        "corporate-training",
+        "training-needs-analysis",
+        "action-mapping",
+        "addie",
+        "kirkpatrick",
+        "learning-objectives",
+        "elearning",
+        "scenario-based-learning",
+        "spaced-repetition",
+        "training-roi",
+        "ai",
+        "people-ops"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "ld-training-request-intake",
+          "path": "packs/ai-for-training-pack/skills/ld-training-request-intake",
+          "order": 1,
+          "summary": "Produces intake questions, the problem in one line, an \"is it training?\" triage, a reply to the requester",
+          "triggers": [
+            "run ld-training-request-intake"
+          ]
+        },
+        {
+          "name": "ld-performance-gap-analysis",
+          "path": "packs/ai-for-training-pack/skills/ld-performance-gap-analysis",
+          "order": 2,
+          "summary": "Produces desired versus actual performance, a cause table, non-training options, a recommendation",
+          "triggers": [
+            "run ld-performance-gap-analysis"
+          ]
+        },
+        {
+          "name": "ld-training-needs-assessment",
+          "path": "packs/ai-for-training-pack/skills/ld-training-needs-assessment",
+          "order": 3,
+          "summary": "Produces needs by role and task, evidence for each, a priority table, what training cannot fix",
+          "triggers": [
+            "run ld-training-needs-assessment"
+          ]
+        },
+        {
+          "name": "ld-action-map",
+          "path": "packs/ai-for-training-pack/skills/ld-action-map",
+          "order": 4,
+          "summary": "Produces one measurable goal, observable actions, why they are not happening, practice, minimum information",
+          "triggers": [
+            "run ld-action-map"
+          ]
+        },
+        {
+          "name": "ld-sme-interview-guide",
+          "path": "packs/ai-for-training-pack/skills/ld-sme-interview-guide",
+          "order": 5,
+          "summary": "Produces incident questions, decision points, common mistakes, exceptions, scenario seeds",
+          "triggers": [
+            "run ld-sme-interview-guide"
+          ]
+        },
+        {
+          "name": "ld-content-triage",
+          "path": "packs/ai-for-training-pack/skills/ld-content-triage",
+          "order": 6,
+          "summary": "Produces must-do, must-know, look-up and cut table, job aid candidates, a cut list with reasons",
+          "triggers": [
+            "run ld-content-triage"
+          ]
+        },
+        {
+          "name": "ld-sme-review-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-sme-review-plan",
+          "order": 7,
+          "summary": "Produces who reviews what, one decider, rounds and dates, a feedback log, a change rule",
+          "triggers": [
+            "run ld-sme-review-plan"
+          ]
+        },
+        {
+          "name": "ld-learning-objectives",
+          "path": "packs/ai-for-training-pack/skills/ld-learning-objectives",
+          "order": 8,
+          "summary": "Produces observable objectives at the right Bloom's level, conditions and criteria, rewrites",
+          "triggers": [
+            "run ld-learning-objectives"
+          ]
+        },
+        {
+          "name": "ld-design-document",
+          "path": "packs/ai-for-training-pack/skills/ld-design-document",
+          "order": 9,
+          "summary": "Produces audience, need, objectives, strategy, practice and checks, evaluation, decisions, sign-off",
+          "triggers": [
+            "run ld-design-document"
+          ]
+        },
+        {
+          "name": "ld-curriculum-map",
+          "path": "packs/ai-for-training-pack/skills/ld-curriculum-map",
+          "order": 10,
+          "summary": "Produces modules by objective, activity, check and format, sequence, learning path",
+          "triggers": [
+            "run ld-curriculum-map"
+          ]
+        },
+        {
+          "name": "ld-scenario-based-learning",
+          "path": "packs/ai-for-training-pack/skills/ld-scenario-based-learning",
+          "order": 11,
+          "summary": "Produces decision scenarios from real mistakes, branches and consequences, feedback per choice",
+          "triggers": [
+            "run ld-scenario-based-learning"
+          ]
+        },
+        {
+          "name": "ld-elearning-storyboard",
+          "path": "packs/ai-for-training-pack/skills/ld-elearning-storyboard",
+          "order": 12,
+          "summary": "Produces screen-by-screen text, visuals, interactions, narration, accessibility notes",
+          "triggers": [
+            "run ld-elearning-storyboard"
+          ]
+        },
+        {
+          "name": "ld-knowledge-check",
+          "path": "packs/ai-for-training-pack/skills/ld-knowledge-check",
+          "order": 13,
+          "summary": "Produces scenario questions per objective, distractors from real mistakes, feedback, retake rules",
+          "triggers": [
+            "run ld-knowledge-check"
+          ]
+        },
+        {
+          "name": "ld-job-aid",
+          "path": "packs/ai-for-training-pack/skills/ld-job-aid",
+          "order": 14,
+          "summary": "Produces a checklist, decision table or one-page flow, where it lives, who updates it",
+          "triggers": [
+            "run ld-job-aid"
+          ]
+        },
+        {
+          "name": "ld-ai-content-qa",
+          "path": "packs/ai-for-training-pack/skills/ld-ai-content-qa",
+          "order": 15,
+          "summary": "Produces source-traced accuracy, alignment, accessibility, myth and bias scan, SME sign-off record",
+          "triggers": [
+            "run ld-ai-content-qa"
+          ]
+        },
+        {
+          "name": "ld-session-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-session-plan",
+          "order": 16,
+          "summary": "Produces a timed flow (open, recall, show, practise, apply), activities, materials, the first five minutes",
+          "triggers": [
+            "run ld-session-plan"
+          ]
+        },
+        {
+          "name": "ld-facilitator-guide",
+          "path": "packs/ai-for-training-pack/skills/ld-facilitator-guide",
+          "order": 17,
+          "summary": "Produces cues per segment, questions to ask, activity instructions, timing flex, what-if notes",
+          "triggers": [
+            "run ld-facilitator-guide"
+          ]
+        },
+        {
+          "name": "ld-role-play-training",
+          "path": "packs/ai-for-training-pack/skills/ld-role-play-training",
+          "order": 18,
+          "summary": "Produces role cards, learning points, good and poor models, private observer notes, debrief",
+          "triggers": [
+            "run ld-role-play-training"
+          ]
+        },
+        {
+          "name": "ld-train-the-trainer",
+          "path": "packs/ai-for-training-pack/skills/ld-train-the-trainer",
+          "order": 19,
+          "summary": "Produces teach-back plan, practice rounds, delivery notes, a readiness conversation guide",
+          "triggers": [
+            "run ld-train-the-trainer"
+          ]
+        },
+        {
+          "name": "ld-70-20-10-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-70-20-10-plan",
+          "order": 20,
+          "summary": "Produces on-the-job assignments, coaching and peer learning, the formal pieces",
+          "triggers": [
+            "run ld-70-20-10-plan"
+          ]
+        },
+        {
+          "name": "ld-spaced-repetition-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-spaced-repetition-plan",
+          "order": 21,
+          "summary": "Produces retrieval prompts at widening gaps, 5-minute micro-units, schedule and channel",
+          "triggers": [
+            "run ld-spaced-repetition-plan"
+          ]
+        },
+        {
+          "name": "ld-manager-follow-up-kit",
+          "path": "packs/ai-for-training-pack/skills/ld-manager-follow-up-kit",
+          "order": 22,
+          "summary": "Produces before and after conversation guides, the first on-the-job task, check-ins, a barrier log",
+          "triggers": [
+            "run ld-manager-follow-up-kit"
+          ]
+        },
+        {
+          "name": "ld-onboarding-training-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-onboarding-training-plan",
+          "order": 23,
+          "summary": "Produces a week-by-week path, the real tasks to handle, buddy sessions, sign-off by doing",
+          "triggers": [
+            "run ld-onboarding-training-plan"
+          ]
+        },
+        {
+          "name": "ld-kirkpatrick-evaluation-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-kirkpatrick-evaluation-plan",
+          "order": 24,
+          "summary": "Produces Level 4 result and leading indicators, Level 3 behaviours and drivers, Level 2 and 1 checks",
+          "triggers": [
+            "run ld-kirkpatrick-evaluation-plan"
+          ]
+        },
+        {
+          "name": "ld-training-evaluation-form",
+          "path": "packs/ai-for-training-pack/skills/ld-training-evaluation-form",
+          "order": 25,
+          "summary": "Produces questions on relevance, confidence to apply and barriers, open prompts, a summary template",
+          "triggers": [
+            "run ld-training-evaluation-form"
+          ]
+        },
+        {
+          "name": "ld-success-case-study",
+          "path": "packs/ai-for-training-pack/skills/ld-success-case-study",
+          "order": 26,
+          "summary": "Produces a short survey on use, an interview guide, anonymous case write-ups, a barrier list",
+          "triggers": [
+            "run ld-success-case-study"
+          ]
+        },
+        {
+          "name": "ld-training-roi",
+          "path": "packs/ai-for-training-pack/skills/ld-training-roi",
+          "order": 27,
+          "summary": "Produces benefits and how they were isolated, money conversion, full costs, a conservative ROI range",
+          "triggers": [
+            "run ld-training-roi"
+          ]
+        },
+        {
+          "name": "ld-training-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-training-plan",
+          "order": 28,
+          "summary": "Produces programmes ranked against business goals, capacity and budget, a quarterly calendar, a not-this-year list",
+          "triggers": [
+            "run ld-training-plan"
+          ]
+        },
+        {
+          "name": "ld-addie-project-plan",
+          "path": "packs/ai-for-training-pack/skills/ld-addie-project-plan",
+          "order": 29,
+          "summary": "Produces phases, deliverables, owners, review gates, realistic durations, SAM iterations",
+          "triggers": [
+            "run ld-addie-project-plan"
+          ]
+        },
+        {
+          "name": "ld-compliance-training",
+          "path": "packs/ai-for-training-pack/skills/ld-compliance-training",
+          "order": 30,
+          "summary": "Produces the few decisions per rule, scenario checks, a refresh cadence, limits on the record",
+          "triggers": [
+            "run ld-compliance-training"
+          ]
+        }
+      ]
     }
   ]
 }

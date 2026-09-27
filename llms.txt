@@ -23,6 +23,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for Product Management: packs/ai-for-product-management-pack/README.md
 - AI for Project Management: packs/ai-for-project-management-pack/README.md
 - AI for Recruiting: packs/ai-for-recruiting-pack/README.md
+- AI for L&D and Corporate Training: packs/ai-for-training-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -622,3 +623,37 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - recruit-ai-recruiting-policy: packs/ai-for-recruiting-pack/skills/recruit-ai-recruiting-policy/SKILL.md — Produces allowed and banned uses, candidate notices, human review steps, adviser questions
 - recruit-interviewer-training: packs/ai-for-recruiting-pack/skills/recruit-interviewer-training/SKILL.md — Produces 45-minute session plan and a one-page cheat sheet
 - Reference: packs/ai-for-recruiting-pack/resources/evidence-and-sources.md
+
+## AI for L&D and Corporate Training: 30 Claude Skills
+- Pack: packs/ai-for-training-pack/README.md
+- ld-training-request-intake: packs/ai-for-training-pack/skills/ld-training-request-intake/SKILL.md — Produces intake questions, the problem in one line, an "is it training?" triage, a reply to the requester
+- ld-performance-gap-analysis: packs/ai-for-training-pack/skills/ld-performance-gap-analysis/SKILL.md — Produces desired versus actual performance, a cause table, non-training options, a recommendation
+- ld-training-needs-assessment: packs/ai-for-training-pack/skills/ld-training-needs-assessment/SKILL.md — Produces needs by role and task, evidence for each, a priority table, what training cannot fix
+- ld-action-map: packs/ai-for-training-pack/skills/ld-action-map/SKILL.md — Produces one measurable goal, observable actions, why they are not happening, practice, minimum information
+- ld-sme-interview-guide: packs/ai-for-training-pack/skills/ld-sme-interview-guide/SKILL.md — Produces incident questions, decision points, common mistakes, exceptions, scenario seeds
+- ld-content-triage: packs/ai-for-training-pack/skills/ld-content-triage/SKILL.md — Produces must-do, must-know, look-up and cut table, job aid candidates, a cut list with reasons
+- ld-sme-review-plan: packs/ai-for-training-pack/skills/ld-sme-review-plan/SKILL.md — Produces who reviews what, one decider, rounds and dates, a feedback log, a change rule
+- ld-learning-objectives: packs/ai-for-training-pack/skills/ld-learning-objectives/SKILL.md — Produces observable objectives at the right Bloom's level, conditions and criteria, rewrites
+- ld-design-document: packs/ai-for-training-pack/skills/ld-design-document/SKILL.md — Produces audience, need, objectives, strategy, practice and checks, evaluation, decisions, sign-off
+- ld-curriculum-map: packs/ai-for-training-pack/skills/ld-curriculum-map/SKILL.md — Produces modules by objective, activity, check and format, sequence, learning path
+- ld-scenario-based-learning: packs/ai-for-training-pack/skills/ld-scenario-based-learning/SKILL.md — Produces decision scenarios from real mistakes, branches and consequences, feedback per choice
+- ld-elearning-storyboard: packs/ai-for-training-pack/skills/ld-elearning-storyboard/SKILL.md — Produces screen-by-screen text, visuals, interactions, narration, accessibility notes
+- ld-knowledge-check: packs/ai-for-training-pack/skills/ld-knowledge-check/SKILL.md — Produces scenario questions per objective, distractors from real mistakes, feedback, retake rules
+- ld-job-aid: packs/ai-for-training-pack/skills/ld-job-aid/SKILL.md — Produces a checklist, decision table or one-page flow, where it lives, who updates it
+- ld-ai-content-qa: packs/ai-for-training-pack/skills/ld-ai-content-qa/SKILL.md — Produces source-traced accuracy, alignment, accessibility, myth and bias scan, SME sign-off record
+- ld-session-plan: packs/ai-for-training-pack/skills/ld-session-plan/SKILL.md — Produces a timed flow (open, recall, show, practise, apply), activities, materials, the first five minutes
+- ld-facilitator-guide: packs/ai-for-training-pack/skills/ld-facilitator-guide/SKILL.md — Produces cues per segment, questions to ask, activity instructions, timing flex, what-if notes
+- ld-role-play-training: packs/ai-for-training-pack/skills/ld-role-play-training/SKILL.md — Produces role cards, learning points, good and poor models, private observer notes, debrief
+- ld-train-the-trainer: packs/ai-for-training-pack/skills/ld-train-the-trainer/SKILL.md — Produces teach-back plan, practice rounds, delivery notes, a readiness conversation guide
+- ld-70-20-10-plan: packs/ai-for-training-pack/skills/ld-70-20-10-plan/SKILL.md — Produces on-the-job assignments, coaching and peer learning, the formal pieces
+- ld-spaced-repetition-plan: packs/ai-for-training-pack/skills/ld-spaced-repetition-plan/SKILL.md — Produces retrieval prompts at widening gaps, 5-minute micro-units, schedule and channel
+- ld-manager-follow-up-kit: packs/ai-for-training-pack/skills/ld-manager-follow-up-kit/SKILL.md — Produces before and after conversation guides, the first on-the-job task, check-ins, a barrier log
+- ld-onboarding-training-plan: packs/ai-for-training-pack/skills/ld-onboarding-training-plan/SKILL.md — Produces a week-by-week path, the real tasks to handle, buddy sessions, sign-off by doing
+- ld-kirkpatrick-evaluation-plan: packs/ai-for-training-pack/skills/ld-kirkpatrick-evaluation-plan/SKILL.md — Produces Level 4 result and leading indicators, Level 3 behaviours and drivers, Level 2 and 1 checks
+- ld-training-evaluation-form: packs/ai-for-training-pack/skills/ld-training-evaluation-form/SKILL.md — Produces questions on relevance, confidence to apply and barriers, open prompts, a summary template
+- ld-success-case-study: packs/ai-for-training-pack/skills/ld-success-case-study/SKILL.md — Produces a short survey on use, an interview guide, anonymous case write-ups, a barrier list
+- ld-training-roi: packs/ai-for-training-pack/skills/ld-training-roi/SKILL.md — Produces benefits and how they were isolated, money conversion, full costs, a conservative ROI range
+- ld-training-plan: packs/ai-for-training-pack/skills/ld-training-plan/SKILL.md — Produces programmes ranked against business goals, capacity and budget, a quarterly calendar, a not-this-year list
+- ld-addie-project-plan: packs/ai-for-training-pack/skills/ld-addie-project-plan/SKILL.md — Produces phases, deliverables, owners, review gates, realistic durations, SAM iterations
+- ld-compliance-training: packs/ai-for-training-pack/skills/ld-compliance-training/SKILL.md — Produces the few decisions per rule, scenario checks, a refresh cadence, limits on the record
+- Reference: packs/ai-for-training-pack/resources/evidence-and-sources.md
