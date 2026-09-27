@@ -4797,6 +4797,322 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-product-management-pack",
+      "title": "AI for Product Management: 31 Claude Skills",
+      "path": "packs/ai-for-product-management-pack",
+      "version": "1.0.0",
+      "description": "31 skills for deciding what to build, what to drop and whether it worked: prioritising and saying no, setting direction, discovering what customers need, defining the work, deciding and aligning, launching, and measuring and learning.",
+      "audience": [
+        "product managers",
+        "product owners",
+        "heads of product",
+        "founders who own the roadmap"
+      ],
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-discovery",
+        "prioritization",
+        "rice-scoring",
+        "product-roadmap",
+        "product-strategy",
+        "okrs",
+        "prd",
+        "user-stories",
+        "customer-interviews",
+        "jobs-to-be-done",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "pm-feature-request-triage",
+          "path": "packs/ai-for-product-management-pack/skills/pm-feature-request-triage",
+          "order": 1,
+          "summary": "Produces request log, why-behind-it questions, build / later / no sort, reply drafts",
+          "triggers": [
+            "run pm-feature-request-triage"
+          ]
+        },
+        {
+          "name": "pm-cost-of-delay",
+          "path": "packs/ai-for-product-management-pack/skills/pm-cost-of-delay",
+          "order": 2,
+          "summary": "Produces urgency profiles, CD3 order, \"yes, if\" options, reply to the asker",
+          "triggers": [
+            "run pm-cost-of-delay"
+          ]
+        },
+        {
+          "name": "pm-rice-prioritization",
+          "path": "packs/ai-for-product-management-pack/skills/pm-rice-prioritization",
+          "order": 3,
+          "summary": "Produces scored backlog, confidence notes, out-of-order exceptions, cut list",
+          "triggers": [
+            "run pm-rice-prioritization"
+          ]
+        },
+        {
+          "name": "pm-moscow-prioritization",
+          "path": "packs/ai-for-product-management-pack/skills/pm-moscow-prioritization",
+          "order": 4,
+          "summary": "Produces must / Should / Could / Won't list, Must budget check, Won't-this-time list",
+          "triggers": [
+            "run pm-moscow-prioritization"
+          ]
+        },
+        {
+          "name": "pm-kano-model",
+          "path": "packs/ai-for-product-management-pack/skills/pm-kano-model",
+          "order": 5,
+          "summary": "Produces paired survey questions, category table per feature, build-first list",
+          "triggers": [
+            "run pm-kano-model"
+          ]
+        },
+        {
+          "name": "pm-product-vision",
+          "path": "packs/ai-for-product-management-pack/skills/pm-product-vision",
+          "order": 6,
+          "summary": "Produces vision statement, vision board (target group, needs, product, business goals)",
+          "triggers": [
+            "run pm-product-vision"
+          ]
+        },
+        {
+          "name": "pm-product-strategy",
+          "path": "packs/ai-for-product-management-pack/skills/pm-product-strategy",
+          "order": 7,
+          "summary": "Produces diagnosis, guiding policy, coherent actions, \"we will not\" list",
+          "triggers": [
+            "run pm-product-strategy"
+          ]
+        },
+        {
+          "name": "pm-north-star-metric",
+          "path": "packs/ai-for-product-management-pack/skills/pm-north-star-metric",
+          "order": 8,
+          "summary": "Produces north star, 3 to 5 named inputs with definitions, counter-metrics",
+          "triggers": [
+            "run pm-north-star-metric"
+          ]
+        },
+        {
+          "name": "pm-okrs",
+          "path": "packs/ai-for-product-management-pack/skills/pm-okrs",
+          "order": 9,
+          "summary": "Produces quarterly objectives, measurable key results, key-result grading notes",
+          "triggers": [
+            "run pm-okrs"
+          ]
+        },
+        {
+          "name": "pm-product-roadmap",
+          "path": "packs/ai-for-product-management-pack/skills/pm-product-roadmap",
+          "order": 10,
+          "summary": "Produces now-next-later board, confidence notes, what is not on it, executive version",
+          "triggers": [
+            "run pm-product-roadmap"
+          ]
+        },
+        {
+          "name": "pm-customer-interview-guide",
+          "path": "packs/ai-for-product-management-pack/skills/pm-customer-interview-guide",
+          "order": 11,
+          "summary": "Produces screener lines, story-based questions, probes, consent note, notes template",
+          "triggers": [
+            "run pm-customer-interview-guide"
+          ]
+        },
+        {
+          "name": "pm-interview-synthesis",
+          "path": "packs/ai-for-product-management-pack/skills/pm-interview-synthesis",
+          "order": 12,
+          "summary": "Produces affinity clusters, need statements with sources, contradictions, open questions",
+          "triggers": [
+            "run pm-interview-synthesis"
+          ]
+        },
+        {
+          "name": "pm-jobs-to-be-done",
+          "path": "packs/ai-for-product-management-pack/skills/pm-jobs-to-be-done",
+          "order": 13,
+          "summary": "Produces job statements, circumstances, forces for and against switching, alternatives",
+          "triggers": [
+            "run pm-jobs-to-be-done"
+          ]
+        },
+        {
+          "name": "pm-opportunity-solution-tree",
+          "path": "packs/ai-for-product-management-pack/skills/pm-opportunity-solution-tree",
+          "order": 14,
+          "summary": "Produces outcome, opportunity tree, target opportunity, three solution ideas, assumption tests",
+          "triggers": [
+            "run pm-opportunity-solution-tree"
+          ]
+        },
+        {
+          "name": "pm-assumption-mapping",
+          "path": "packs/ai-for-product-management-pack/skills/pm-assumption-mapping",
+          "order": 15,
+          "summary": "Produces desirability, viability and feasibility assumptions, evidence map, riskiest three",
+          "triggers": [
+            "run pm-assumption-mapping"
+          ]
+        },
+        {
+          "name": "pm-pr-faq",
+          "path": "packs/ai-for-product-management-pack/skills/pm-pr-faq",
+          "order": 16,
+          "summary": "Produces one-page press release, customer FAQ, internal FAQ",
+          "triggers": [
+            "run pm-pr-faq"
+          ]
+        },
+        {
+          "name": "pm-prototype-brief",
+          "path": "packs/ai-for-product-management-pack/skills/pm-prototype-brief",
+          "order": 17,
+          "summary": "Produces what it tests, pass line set in advance, what it does not prove, gap-to-production list",
+          "triggers": [
+            "run pm-prototype-brief"
+          ]
+        },
+        {
+          "name": "pm-prd",
+          "path": "packs/ai-for-product-management-pack/skills/pm-prd",
+          "order": 18,
+          "summary": "Produces problem, goals, non-goals, requirements, open questions, success measures",
+          "triggers": [
+            "run pm-prd"
+          ]
+        },
+        {
+          "name": "pm-story-mapping",
+          "path": "packs/ai-for-product-management-pack/skills/pm-story-mapping",
+          "order": 19,
+          "summary": "Produces user activity backbone, walking skeleton, release slices",
+          "triggers": [
+            "run pm-story-mapping"
+          ]
+        },
+        {
+          "name": "pm-user-stories",
+          "path": "packs/ai-for-product-management-pack/skills/pm-user-stories",
+          "order": 20,
+          "summary": "Produces stories, Given / When / Then criteria, INVEST check, refinement questions",
+          "triggers": [
+            "run pm-user-stories"
+          ]
+        },
+        {
+          "name": "pm-product-role-charter",
+          "path": "packs/ai-for-product-management-pack/skills/pm-product-role-charter",
+          "order": 21,
+          "summary": "Produces what product owns, what others own, stop-doing list, meeting audit",
+          "triggers": [
+            "run pm-product-role-charter"
+          ]
+        },
+        {
+          "name": "pm-daci-decision",
+          "path": "packs/ai-for-product-management-pack/skills/pm-daci-decision",
+          "order": 22,
+          "summary": "Produces driver, approver, contributors, informed, inputs, decision date",
+          "triggers": [
+            "run pm-daci-decision"
+          ]
+        },
+        {
+          "name": "pm-decision-log",
+          "path": "packs/ai-for-product-management-pack/skills/pm-decision-log",
+          "order": 23,
+          "summary": "Produces dated records (context, decision, status, consequences), reopening rule",
+          "triggers": [
+            "run pm-decision-log"
+          ]
+        },
+        {
+          "name": "pm-pre-mortem",
+          "path": "packs/ai-for-product-management-pack/skills/pm-pre-mortem",
+          "order": 24,
+          "summary": "Produces failure story, reasons list, top risks with owners and signals, go / adjust / stop",
+          "triggers": [
+            "run pm-pre-mortem"
+          ]
+        },
+        {
+          "name": "pm-competitive-analysis",
+          "path": "packs/ai-for-product-management-pack/skills/pm-competitive-analysis",
+          "order": 25,
+          "summary": "Produces landscape table, win / loss themes, where you differ, what not to copy",
+          "triggers": [
+            "run pm-competitive-analysis"
+          ]
+        },
+        {
+          "name": "pm-value-proposition-canvas",
+          "path": "packs/ai-for-product-management-pack/skills/pm-value-proposition-canvas",
+          "order": 26,
+          "summary": "Produces customer profile, value map, fit notes, one message all teams use",
+          "triggers": [
+            "run pm-value-proposition-canvas"
+          ]
+        },
+        {
+          "name": "pm-go-to-market-plan",
+          "path": "packs/ai-for-product-management-pack/skills/pm-go-to-market-plan",
+          "order": 27,
+          "summary": "Produces launch tier, audiences, positioning line, readiness by team, enablement brief",
+          "triggers": [
+            "run pm-go-to-market-plan"
+          ]
+        },
+        {
+          "name": "pm-release-notes",
+          "path": "packs/ai-for-product-management-pack/skills/pm-release-notes",
+          "order": 28,
+          "summary": "Produces customer notes by change type, internal version for support, who is affected",
+          "triggers": [
+            "run pm-release-notes"
+          ]
+        },
+        {
+          "name": "pm-success-metrics",
+          "path": "packs/ai-for-product-management-pack/skills/pm-success-metrics",
+          "order": 29,
+          "summary": "Produces hEART table (goals, signals, metrics), baseline, target, guardrail",
+          "triggers": [
+            "run pm-success-metrics"
+          ]
+        },
+        {
+          "name": "pm-experiment-design",
+          "path": "packs/ai-for-product-management-pack/skills/pm-experiment-design",
+          "order": 30,
+          "summary": "Produces hypothesis, variants, primary metric, guardrails, sample check, decision rule",
+          "triggers": [
+            "run pm-experiment-design"
+          ]
+        },
+        {
+          "name": "pm-post-launch-review",
+          "path": "packs/ai-for-product-management-pack/skills/pm-post-launch-review",
+          "order": 31,
+          "summary": "Produces intended versus actual, why, keep / change list, keep, fix or remove call",
+          "triggers": [
+            "run pm-post-launch-review"
+          ]
+        }
+      ]
     }
   ]
 }

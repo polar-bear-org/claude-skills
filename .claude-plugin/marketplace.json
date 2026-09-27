@@ -685,6 +685,36 @@
         "ai",
         "people-ops"
       ]
+    },
+    {
+      "name": "ai-for-product-management-pack",
+      "source": "./packs/ai-for-product-management-pack",
+      "description": "31 skills for deciding what to build, what to drop and whether it worked: prioritising and saying no, setting direction, discovering what customers need, defining the work, deciding and aligning, launching, and measuring and learning.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-product-management-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-discovery",
+        "prioritization",
+        "rice-scoring",
+        "product-roadmap",
+        "product-strategy",
+        "okrs",
+        "prd",
+        "user-stories",
+        "customer-interviews",
+        "jobs-to-be-done",
+        "ai"
+      ]
     }
   ]
 }

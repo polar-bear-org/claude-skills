@@ -20,6 +20,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for Customer Service: packs/ai-for-customer-service-pack/README.md
 - AI for HR: packs/ai-for-hr-pack/README.md
 - AI for Managers: packs/ai-for-managers-pack/README.md
+- AI for Product Management: packs/ai-for-product-management-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -514,3 +515,38 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - mgr-stay-interview: packs/ai-for-managers-pack/skills/mgr-stay-interview/SKILL.md — Produces question set, listening notes, a stay plan you own
 - mgr-recognition-note: packs/ai-for-managers-pack/skills/mgr-recognition-note/SKILL.md — Produces a specific note, where to share it, a team-wide list
 - Reference: packs/ai-for-managers-pack/resources/evidence-and-sources.md
+
+## AI for Product Management: 31 Claude Skills
+- Pack: packs/ai-for-product-management-pack/README.md
+- pm-feature-request-triage: packs/ai-for-product-management-pack/skills/pm-feature-request-triage/SKILL.md — Produces request log, why-behind-it questions, build / later / no sort, reply drafts
+- pm-cost-of-delay: packs/ai-for-product-management-pack/skills/pm-cost-of-delay/SKILL.md — Produces urgency profiles, CD3 order, "yes, if" options, reply to the asker
+- pm-rice-prioritization: packs/ai-for-product-management-pack/skills/pm-rice-prioritization/SKILL.md — Produces scored backlog, confidence notes, out-of-order exceptions, cut list
+- pm-moscow-prioritization: packs/ai-for-product-management-pack/skills/pm-moscow-prioritization/SKILL.md — Produces must / Should / Could / Won't list, Must budget check, Won't-this-time list
+- pm-kano-model: packs/ai-for-product-management-pack/skills/pm-kano-model/SKILL.md — Produces paired survey questions, category table per feature, build-first list
+- pm-product-vision: packs/ai-for-product-management-pack/skills/pm-product-vision/SKILL.md — Produces vision statement, vision board (target group, needs, product, business goals)
+- pm-product-strategy: packs/ai-for-product-management-pack/skills/pm-product-strategy/SKILL.md — Produces diagnosis, guiding policy, coherent actions, "we will not" list
+- pm-north-star-metric: packs/ai-for-product-management-pack/skills/pm-north-star-metric/SKILL.md — Produces north star, 3 to 5 named inputs with definitions, counter-metrics
+- pm-okrs: packs/ai-for-product-management-pack/skills/pm-okrs/SKILL.md — Produces quarterly objectives, measurable key results, key-result grading notes
+- pm-product-roadmap: packs/ai-for-product-management-pack/skills/pm-product-roadmap/SKILL.md — Produces now-next-later board, confidence notes, what is not on it, executive version
+- pm-customer-interview-guide: packs/ai-for-product-management-pack/skills/pm-customer-interview-guide/SKILL.md — Produces screener lines, story-based questions, probes, consent note, notes template
+- pm-interview-synthesis: packs/ai-for-product-management-pack/skills/pm-interview-synthesis/SKILL.md — Produces affinity clusters, need statements with sources, contradictions, open questions
+- pm-jobs-to-be-done: packs/ai-for-product-management-pack/skills/pm-jobs-to-be-done/SKILL.md — Produces job statements, circumstances, forces for and against switching, alternatives
+- pm-opportunity-solution-tree: packs/ai-for-product-management-pack/skills/pm-opportunity-solution-tree/SKILL.md — Produces outcome, opportunity tree, target opportunity, three solution ideas, assumption tests
+- pm-assumption-mapping: packs/ai-for-product-management-pack/skills/pm-assumption-mapping/SKILL.md — Produces desirability, viability and feasibility assumptions, evidence map, riskiest three
+- pm-pr-faq: packs/ai-for-product-management-pack/skills/pm-pr-faq/SKILL.md — Produces one-page press release, customer FAQ, internal FAQ
+- pm-prototype-brief: packs/ai-for-product-management-pack/skills/pm-prototype-brief/SKILL.md — Produces what it tests, pass line set in advance, what it does not prove, gap-to-production list
+- pm-prd: packs/ai-for-product-management-pack/skills/pm-prd/SKILL.md — Produces problem, goals, non-goals, requirements, open questions, success measures
+- pm-story-mapping: packs/ai-for-product-management-pack/skills/pm-story-mapping/SKILL.md — Produces user activity backbone, walking skeleton, release slices
+- pm-user-stories: packs/ai-for-product-management-pack/skills/pm-user-stories/SKILL.md — Produces stories, Given / When / Then criteria, INVEST check, refinement questions
+- pm-product-role-charter: packs/ai-for-product-management-pack/skills/pm-product-role-charter/SKILL.md — Produces what product owns, what others own, stop-doing list, meeting audit
+- pm-daci-decision: packs/ai-for-product-management-pack/skills/pm-daci-decision/SKILL.md — Produces driver, approver, contributors, informed, inputs, decision date
+- pm-decision-log: packs/ai-for-product-management-pack/skills/pm-decision-log/SKILL.md — Produces dated records (context, decision, status, consequences), reopening rule
+- pm-pre-mortem: packs/ai-for-product-management-pack/skills/pm-pre-mortem/SKILL.md — Produces failure story, reasons list, top risks with owners and signals, go / adjust / stop
+- pm-competitive-analysis: packs/ai-for-product-management-pack/skills/pm-competitive-analysis/SKILL.md — Produces landscape table, win / loss themes, where you differ, what not to copy
+- pm-value-proposition-canvas: packs/ai-for-product-management-pack/skills/pm-value-proposition-canvas/SKILL.md — Produces customer profile, value map, fit notes, one message all teams use
+- pm-go-to-market-plan: packs/ai-for-product-management-pack/skills/pm-go-to-market-plan/SKILL.md — Produces launch tier, audiences, positioning line, readiness by team, enablement brief
+- pm-release-notes: packs/ai-for-product-management-pack/skills/pm-release-notes/SKILL.md — Produces customer notes by change type, internal version for support, who is affected
+- pm-success-metrics: packs/ai-for-product-management-pack/skills/pm-success-metrics/SKILL.md — Produces hEART table (goals, signals, metrics), baseline, target, guardrail
+- pm-experiment-design: packs/ai-for-product-management-pack/skills/pm-experiment-design/SKILL.md — Produces hypothesis, variants, primary metric, guardrails, sample check, decision rule
+- pm-post-launch-review: packs/ai-for-product-management-pack/skills/pm-post-launch-review/SKILL.md — Produces intended versus actual, why, keep / change list, keep, fix or remove call
+- Reference: packs/ai-for-product-management-pack/resources/evidence-and-sources.md

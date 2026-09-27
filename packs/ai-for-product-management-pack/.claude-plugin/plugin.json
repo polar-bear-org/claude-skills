@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-product-management-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for deciding what to build, what to drop and whether it worked: feature request triage, cost of delay, RICE and MoSCoW prioritisation, the Kano model, product vision and strategy, the north star metric, product OKRs and the now-next-later roadmap, customer interview guides and interview synthesis, jobs to be done, opportunity solution trees and assumption mapping, the working backwards PR/FAQ, prototype briefs, PRDs, story mapping and user stories, the product role charter, DACI decisions, the decision log and the pre-mortem, competitive analysis, the value proposition canvas, go-to-market plans and release notes, HEART success metrics, experiment design and the post-launch review.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-product-management-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "product-management",
+    "product-manager",
+    "product-owner",
+    "product-discovery",
+    "prioritization",
+    "rice-scoring",
+    "product-roadmap",
+    "product-strategy",
+    "okrs",
+    "prd",
+    "user-stories",
+    "customer-interviews",
+    "jobs-to-be-done",
+    "ai"
+  ]
+}
