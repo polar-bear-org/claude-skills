@@ -625,6 +625,36 @@
         "ai",
         "people-ops"
       ]
+    },
+    {
+      "name": "ai-for-hr-pack",
+      "source": "./packs/ai-for-hr-pack",
+      "description": "32 skills for running HR as a clear, fair process, from complaints and investigations to leave, pay bands and the handbook: the HR desk, complaints and investigations, performance and discipline, leave and absence, pay and levels, policies and the handbook, stay and leave, and join.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-hr-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "hr",
+        "human-resources",
+        "employee-relations",
+        "grievance",
+        "disciplinary",
+        "workplace-investigation",
+        "employee-handbook",
+        "hr-policy",
+        "leave-of-absence",
+        "salary-bands",
+        "pay-equity",
+        "onboarding",
+        "ai",
+        "people-ops"
+      ]
     }
   ]
 }

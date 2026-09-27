@@ -18,6 +18,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Important Decisions: packs/important-decisions-pack/README.md
 - AI and Psychological Safety: packs/ai-psychological-safety-pack/README.md
 - AI for Customer Service: packs/ai-for-customer-service-pack/README.md
+- AI for HR: packs/ai-for-hr-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -441,3 +442,39 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - cs-self-service-deflection: packs/ai-for-customer-service-pack/skills/cs-self-service-deflection/SKILL.md — Produces the questions to move to self-service, honest resolved-versus-abandoned measures and a second-line restaffing check
 - cs-ai-use-policy: packs/ai-for-customer-service-pack/skills/cs-ai-use-policy/SKILL.md — Produces useful AI tasks with their risks, customer-data and send rules, disclosure wording and a review log
 - Reference: packs/ai-for-customer-service-pack/resources/evidence-and-sources.md
+
+## AI for HR: 32 Claude Skills
+- Pack: packs/ai-for-hr-pack/README.md
+- hr-raci-matrix: packs/ai-for-hr-pack/skills/hr-raci-matrix/SKILL.md — Produces who-owns-what matrix, "manager first" rules, escalation line, a must-do list leaders sign
+- hr-calendar: packs/ai-for-hr-pack/skills/hr-calendar/SKILL.md — Produces 12-month calendar with owners and lead times, statutory dates marked for an adviser, clash check
+- hr-compliance-checklist: packs/ai-for-hr-pack/skills/hr-compliance-checklist/SKILL.md — Produces obligations register by location and headcount, source and date checked per line, owner, adviser column
+- hr-audit: packs/ai-for-hr-pack/skills/hr-audit/SKILL.md — Produces audit checklist for files, policies and practices, gaps ranked by risk and effort, fix plan, sign-off summary
+- hr-dashboard: packs/ai-for-hr-pack/skills/hr-dashboard/SKILL.md — Produces one-page aggregate dashboard, a definition per metric, small groups suppressed, a "cannot tell you" line
+- hr-complaint-intake: packs/ai-for-hr-pack/skills/hr-complaint-intake/SKILL.md — Produces first-conversation script, intake note, route options, who decides the route
+- hr-grievance-procedure: packs/ai-for-hr-pack/skills/hr-grievance-procedure/SKILL.md — Produces written procedure from informal first to appeal, timescales, roles, the conflicted-hearer rule
+- hr-workplace-investigation: packs/ai-for-hr-pack/skills/hr-workplace-investigation/SKILL.md — Produces terms of reference, investigator check, interview order and questions, evidence log, confidentiality script
+- hr-investigation-report: packs/ai-for-hr-pack/skills/hr-investigation-report/SKILL.md — Produces report that separates allegation, evidence, findings of fact and open questions, evidence index
+- hr-case-log: packs/ai-for-hr-pack/skills/hr-case-log/SKILL.md — Produces case log with stage, owner, next date and documents, recording rules, a monthly aggregate count
+- hr-performance-improvement-plan: packs/ai-for-hr-pack/skills/hr-performance-improvement-plan/SKILL.md — Produces the gap with examples, the standard, support, review points, the end, and who decided a PIP is warranted
+- hr-disciplinary-procedure: packs/ai-for-hr-pack/skills/hr-disciplinary-procedure/SKILL.md — Produces written procedure from facts to appeal, warning levels, suspension as a last resort, companion rules
+- hr-written-warning: packs/ai-for-hr-pack/skills/hr-written-warning/SKILL.md — Produces hearing invitation, warning or outcome letter, appeal invitation and appeal outcome
+- hr-termination-letter: packs/ai-for-hr-pack/skills/hr-termination-letter/SKILL.md — Produces meeting plan with one stated reason, the letter, final pay and benefits questions for payroll and an adviser
+- hr-leave-of-absence: packs/ai-for-hr-pack/skills/hr-leave-of-absence/SKILL.md — Produces case plan with eligibility points to confirm, dates, contact, cover and return, letters, administrator questions
+- hr-accommodation-process: packs/ai-for-hr-pack/skills/hr-accommodation-process/SKILL.md — Produces interactive process record, response letter, adviser questions before any refusal
+- hr-absence-management: packs/ai-for-hr-pack/skills/hr-absence-management/SKILL.md — Produces reporting and recording rules, return-to-work guide, triggers that open a conversation, adjustments check
+- hr-leave-policy: packs/ai-for-hr-pack/skills/hr-leave-policy/SKILL.md — Produces holiday, sick, parental, bereavement and carer leave, statutory floors flagged, named owner for enhancements
+- hr-job-architecture: packs/ai-for-hr-pack/skills/hr-job-architecture/SKILL.md — Produces job families, levels with written differences, title rules, how roles move up, a leveling guide
+- hr-salary-bands: packs/ai-for-hr-pack/skills/hr-salary-bands/SKILL.md — Produces bands per level from your market data, offer and in-band rules, a band letter template
+- hr-pay-equity-audit: packs/ai-for-hr-pack/skills/hr-pay-equity-audit/SKILL.md — Produces aggregate pay comparison for equal work, gap figures, small groups suppressed, gaps as questions, action plan
+- hr-compensation-philosophy: packs/ai-for-hr-pack/skills/hr-compensation-philosophy/SKILL.md — Produces one page on market position, what pay rewards, progression, openness, review rhythm, trade-offs
+- hr-policy: packs/ai-for-hr-pack/skills/hr-policy/SKILL.md — Produces one plain-language policy with scope, owner, review date, manager guidance and adviser questions
+- hr-employee-handbook: packs/ai-for-hr-pack/skills/hr-employee-handbook/SKILL.md — Produces handbook from approved policies, contents, disclaimer, acknowledgement page, change log, gap list
+- hr-code-of-conduct: packs/ai-for-hr-pack/skills/hr-code-of-conduct/SKILL.md — Produces values as behaviours, conflicts of interest, privacy at work, speak-up route, non-retaliation, breach steps
+- hr-policy-faq: packs/ai-for-hr-pack/skills/hr-policy-faq/SKILL.md — Produces answers from your own handbook with the clause quoted, "not covered" when it is not, routing, no record of who asked
+- hr-stay-interview: packs/ai-for-hr-pack/skills/hr-stay-interview/SKILL.md — Produces short question set, manager script, a stay plan the manager owns, team-level themes only
+- hr-exit-interview: packs/ai-for-hr-pack/skills/hr-exit-interview/SKILL.md — Produces who runs it, question set, consent note, a quarterly theme read for groups, the loop back to leaders
+- hr-offboarding-checklist: packs/ai-for-hr-pack/skills/hr-offboarding-checklist/SKILL.md — Produces notice to last day steps, final pay questions, access removal by system with owners, records, the leaver's copy
+- hr-offer-letter: packs/ai-for-hr-pack/skills/hr-offer-letter/SKILL.md — Produces offer from approved terms, a clause list for adviser review, a check against the contract
+- hr-onboarding-checklist: packs/ai-for-hr-pack/skills/hr-onboarding-checklist/SKILL.md — Produces day one to day 90 in four blocks, owner and date per item, the new starter's copy
+- hr-probation-review: packs/ai-for-hr-pack/skills/hr-probation-review/SKILL.md — Produces expectations, review dates, a short review form, extension rules, outcome letters after the manager decides
+- Reference: packs/ai-for-hr-pack/resources/evidence-and-sources.md

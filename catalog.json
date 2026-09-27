@@ -4156,6 +4156,331 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-hr-pack",
+      "title": "AI for HR: 32 Claude Skills",
+      "path": "packs/ai-for-hr-pack",
+      "version": "1.0.0",
+      "description": "32 skills for running HR as a clear, fair process, from complaints and investigations to leave, pay bands and the handbook: the HR desk, complaints and investigations, performance and discipline, leave and absence, pay and levels, policies and the handbook, stay and leave, and join.",
+      "audience": [
+        "HR leads",
+        "HR business partners",
+        "HR generalists",
+        "people ops managers"
+      ],
+      "keywords": [
+        "hr",
+        "human-resources",
+        "employee-relations",
+        "grievance",
+        "disciplinary",
+        "workplace-investigation",
+        "employee-handbook",
+        "hr-policy",
+        "leave-of-absence",
+        "salary-bands",
+        "pay-equity",
+        "onboarding",
+        "ai",
+        "people-ops"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "hr-raci-matrix",
+          "path": "packs/ai-for-hr-pack/skills/hr-raci-matrix",
+          "order": 1,
+          "summary": "Produces who-owns-what matrix, \"manager first\" rules, escalation line, a must-do list leaders sign",
+          "triggers": [
+            "run hr-raci-matrix"
+          ]
+        },
+        {
+          "name": "hr-calendar",
+          "path": "packs/ai-for-hr-pack/skills/hr-calendar",
+          "order": 2,
+          "summary": "Produces 12-month calendar with owners and lead times, statutory dates marked for an adviser, clash check",
+          "triggers": [
+            "run hr-calendar"
+          ]
+        },
+        {
+          "name": "hr-compliance-checklist",
+          "path": "packs/ai-for-hr-pack/skills/hr-compliance-checklist",
+          "order": 3,
+          "summary": "Produces obligations register by location and headcount, source and date checked per line, owner, adviser column",
+          "triggers": [
+            "run hr-compliance-checklist"
+          ]
+        },
+        {
+          "name": "hr-audit",
+          "path": "packs/ai-for-hr-pack/skills/hr-audit",
+          "order": 4,
+          "summary": "Produces audit checklist for files, policies and practices, gaps ranked by risk and effort, fix plan, sign-off summary",
+          "triggers": [
+            "run hr-audit"
+          ]
+        },
+        {
+          "name": "hr-dashboard",
+          "path": "packs/ai-for-hr-pack/skills/hr-dashboard",
+          "order": 5,
+          "summary": "Produces one-page aggregate dashboard, a definition per metric, small groups suppressed, a \"cannot tell you\" line",
+          "triggers": [
+            "run hr-dashboard"
+          ]
+        },
+        {
+          "name": "hr-complaint-intake",
+          "path": "packs/ai-for-hr-pack/skills/hr-complaint-intake",
+          "order": 6,
+          "summary": "Produces first-conversation script, intake note, route options, who decides the route",
+          "triggers": [
+            "run hr-complaint-intake"
+          ]
+        },
+        {
+          "name": "hr-grievance-procedure",
+          "path": "packs/ai-for-hr-pack/skills/hr-grievance-procedure",
+          "order": 7,
+          "summary": "Produces written procedure from informal first to appeal, timescales, roles, the conflicted-hearer rule",
+          "triggers": [
+            "run hr-grievance-procedure"
+          ]
+        },
+        {
+          "name": "hr-workplace-investigation",
+          "path": "packs/ai-for-hr-pack/skills/hr-workplace-investigation",
+          "order": 8,
+          "summary": "Produces terms of reference, investigator check, interview order and questions, evidence log, confidentiality script",
+          "triggers": [
+            "run hr-workplace-investigation"
+          ]
+        },
+        {
+          "name": "hr-investigation-report",
+          "path": "packs/ai-for-hr-pack/skills/hr-investigation-report",
+          "order": 9,
+          "summary": "Produces report that separates allegation, evidence, findings of fact and open questions, evidence index",
+          "triggers": [
+            "run hr-investigation-report"
+          ]
+        },
+        {
+          "name": "hr-case-log",
+          "path": "packs/ai-for-hr-pack/skills/hr-case-log",
+          "order": 10,
+          "summary": "Produces case log with stage, owner, next date and documents, recording rules, a monthly aggregate count",
+          "triggers": [
+            "run hr-case-log"
+          ]
+        },
+        {
+          "name": "hr-performance-improvement-plan",
+          "path": "packs/ai-for-hr-pack/skills/hr-performance-improvement-plan",
+          "order": 11,
+          "summary": "Produces the gap with examples, the standard, support, review points, the end, and who decided a PIP is warranted",
+          "triggers": [
+            "run hr-performance-improvement-plan"
+          ]
+        },
+        {
+          "name": "hr-disciplinary-procedure",
+          "path": "packs/ai-for-hr-pack/skills/hr-disciplinary-procedure",
+          "order": 12,
+          "summary": "Produces written procedure from facts to appeal, warning levels, suspension as a last resort, companion rules",
+          "triggers": [
+            "run hr-disciplinary-procedure"
+          ]
+        },
+        {
+          "name": "hr-written-warning",
+          "path": "packs/ai-for-hr-pack/skills/hr-written-warning",
+          "order": 13,
+          "summary": "Produces hearing invitation, warning or outcome letter, appeal invitation and appeal outcome",
+          "triggers": [
+            "run hr-written-warning"
+          ]
+        },
+        {
+          "name": "hr-termination-letter",
+          "path": "packs/ai-for-hr-pack/skills/hr-termination-letter",
+          "order": 14,
+          "summary": "Produces meeting plan with one stated reason, the letter, final pay and benefits questions for payroll and an adviser",
+          "triggers": [
+            "run hr-termination-letter"
+          ]
+        },
+        {
+          "name": "hr-leave-of-absence",
+          "path": "packs/ai-for-hr-pack/skills/hr-leave-of-absence",
+          "order": 15,
+          "summary": "Produces case plan with eligibility points to confirm, dates, contact, cover and return, letters, administrator questions",
+          "triggers": [
+            "run hr-leave-of-absence"
+          ]
+        },
+        {
+          "name": "hr-accommodation-process",
+          "path": "packs/ai-for-hr-pack/skills/hr-accommodation-process",
+          "order": 16,
+          "summary": "Produces interactive process record, response letter, adviser questions before any refusal",
+          "triggers": [
+            "run hr-accommodation-process"
+          ]
+        },
+        {
+          "name": "hr-absence-management",
+          "path": "packs/ai-for-hr-pack/skills/hr-absence-management",
+          "order": 17,
+          "summary": "Produces reporting and recording rules, return-to-work guide, triggers that open a conversation, adjustments check",
+          "triggers": [
+            "run hr-absence-management"
+          ]
+        },
+        {
+          "name": "hr-leave-policy",
+          "path": "packs/ai-for-hr-pack/skills/hr-leave-policy",
+          "order": 18,
+          "summary": "Produces holiday, sick, parental, bereavement and carer leave, statutory floors flagged, named owner for enhancements",
+          "triggers": [
+            "run hr-leave-policy"
+          ]
+        },
+        {
+          "name": "hr-job-architecture",
+          "path": "packs/ai-for-hr-pack/skills/hr-job-architecture",
+          "order": 19,
+          "summary": "Produces job families, levels with written differences, title rules, how roles move up, a leveling guide",
+          "triggers": [
+            "run hr-job-architecture"
+          ]
+        },
+        {
+          "name": "hr-salary-bands",
+          "path": "packs/ai-for-hr-pack/skills/hr-salary-bands",
+          "order": 20,
+          "summary": "Produces bands per level from your market data, offer and in-band rules, a band letter template",
+          "triggers": [
+            "run hr-salary-bands"
+          ]
+        },
+        {
+          "name": "hr-pay-equity-audit",
+          "path": "packs/ai-for-hr-pack/skills/hr-pay-equity-audit",
+          "order": 21,
+          "summary": "Produces aggregate pay comparison for equal work, gap figures, small groups suppressed, gaps as questions, action plan",
+          "triggers": [
+            "run hr-pay-equity-audit"
+          ]
+        },
+        {
+          "name": "hr-compensation-philosophy",
+          "path": "packs/ai-for-hr-pack/skills/hr-compensation-philosophy",
+          "order": 22,
+          "summary": "Produces one page on market position, what pay rewards, progression, openness, review rhythm, trade-offs",
+          "triggers": [
+            "run hr-compensation-philosophy"
+          ]
+        },
+        {
+          "name": "hr-policy",
+          "path": "packs/ai-for-hr-pack/skills/hr-policy",
+          "order": 23,
+          "summary": "Produces one plain-language policy with scope, owner, review date, manager guidance and adviser questions",
+          "triggers": [
+            "run hr-policy"
+          ]
+        },
+        {
+          "name": "hr-employee-handbook",
+          "path": "packs/ai-for-hr-pack/skills/hr-employee-handbook",
+          "order": 24,
+          "summary": "Produces handbook from approved policies, contents, disclaimer, acknowledgement page, change log, gap list",
+          "triggers": [
+            "run hr-employee-handbook"
+          ]
+        },
+        {
+          "name": "hr-code-of-conduct",
+          "path": "packs/ai-for-hr-pack/skills/hr-code-of-conduct",
+          "order": 25,
+          "summary": "Produces values as behaviours, conflicts of interest, privacy at work, speak-up route, non-retaliation, breach steps",
+          "triggers": [
+            "run hr-code-of-conduct"
+          ]
+        },
+        {
+          "name": "hr-policy-faq",
+          "path": "packs/ai-for-hr-pack/skills/hr-policy-faq",
+          "order": 26,
+          "summary": "Produces answers from your own handbook with the clause quoted, \"not covered\" when it is not, routing, no record of who asked",
+          "triggers": [
+            "run hr-policy-faq"
+          ]
+        },
+        {
+          "name": "hr-stay-interview",
+          "path": "packs/ai-for-hr-pack/skills/hr-stay-interview",
+          "order": 27,
+          "summary": "Produces short question set, manager script, a stay plan the manager owns, team-level themes only",
+          "triggers": [
+            "run hr-stay-interview"
+          ]
+        },
+        {
+          "name": "hr-exit-interview",
+          "path": "packs/ai-for-hr-pack/skills/hr-exit-interview",
+          "order": 28,
+          "summary": "Produces who runs it, question set, consent note, a quarterly theme read for groups, the loop back to leaders",
+          "triggers": [
+            "run hr-exit-interview"
+          ]
+        },
+        {
+          "name": "hr-offboarding-checklist",
+          "path": "packs/ai-for-hr-pack/skills/hr-offboarding-checklist",
+          "order": 29,
+          "summary": "Produces notice to last day steps, final pay questions, access removal by system with owners, records, the leaver's copy",
+          "triggers": [
+            "run hr-offboarding-checklist"
+          ]
+        },
+        {
+          "name": "hr-offer-letter",
+          "path": "packs/ai-for-hr-pack/skills/hr-offer-letter",
+          "order": 30,
+          "summary": "Produces offer from approved terms, a clause list for adviser review, a check against the contract",
+          "triggers": [
+            "run hr-offer-letter"
+          ]
+        },
+        {
+          "name": "hr-onboarding-checklist",
+          "path": "packs/ai-for-hr-pack/skills/hr-onboarding-checklist",
+          "order": 31,
+          "summary": "Produces day one to day 90 in four blocks, owner and date per item, the new starter's copy",
+          "triggers": [
+            "run hr-onboarding-checklist"
+          ]
+        },
+        {
+          "name": "hr-probation-review",
+          "path": "packs/ai-for-hr-pack/skills/hr-probation-review",
+          "order": 32,
+          "summary": "Produces expectations, review dates, a short review form, extension rules, outcome letters after the manager decides",
+          "triggers": [
+            "run hr-probation-review"
+          ]
+        }
+      ]
     }
   ]
 }

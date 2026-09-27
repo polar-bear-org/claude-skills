@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-hr-pack",
+  "version": "1.0.0",
+  "description": "32 Claude Skills for running HR as a clear, fair process, from complaints and investigations to leave, pay bands and the handbook: the HR RACI, calendar, compliance register, audit and dashboard, employee relations intake, grievance and disciplinary procedures, investigation plans and reports, the case log, PIPs, warning and termination letters, leave of absence, accommodations, absence management and leave policy, job architecture, salary bands, pay equity and compensation philosophy, policies, the handbook, the code of conduct and the policy FAQ, stay and exit interviews, offboarding, offers, onboarding and probation reviews.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-hr-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "hr",
+    "human-resources",
+    "employee-relations",
+    "grievance",
+    "disciplinary",
+    "workplace-investigation",
+    "employee-handbook",
+    "hr-policy",
+    "leave-of-absence",
+    "salary-bands",
+    "pay-equity",
+    "onboarding",
+    "ai",
+    "people-ops"
+  ]
+}
