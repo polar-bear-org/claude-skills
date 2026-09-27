@@ -5113,6 +5113,322 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-project-management-pack",
+      "title": "AI for Project Management: 31 Claude Skills",
+      "path": "packs/ai-for-project-management-pack",
+      "version": "1.0.0",
+      "description": "31 skills for running a project from charter to clean handover: starting the project, stopping scope creep, estimating and scheduling, catching risks early, getting decisions made, running the delivery rhythm, reporting honestly, and closing well.",
+      "audience": [
+        "project managers",
+        "delivery managers",
+        "programme managers",
+        "PMO leads"
+      ],
+      "keywords": [
+        "project-management",
+        "project-manager",
+        "programme-management",
+        "pmo",
+        "delivery-management",
+        "project-charter",
+        "risk-register",
+        "raid-log",
+        "gantt-chart",
+        "critical-path",
+        "raci-matrix",
+        "status-report",
+        "earned-value-management",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "proj-project-charter",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-charter",
+          "order": 1,
+          "summary": "Produces objectives, success measures, authority, scope, milestones, budget envelope, sign-off",
+          "triggers": [
+            "run proj-project-charter"
+          ]
+        },
+        {
+          "name": "proj-kickoff-meeting-agenda",
+          "path": "packs/ai-for-project-management-pack/skills/proj-kickoff-meeting-agenda",
+          "order": 2,
+          "summary": "Produces timed agenda, the hard questions, roles, pre-read, outputs to confirm",
+          "triggers": [
+            "run proj-kickoff-meeting-agenda"
+          ]
+        },
+        {
+          "name": "proj-project-scope-statement",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-scope-statement",
+          "order": 3,
+          "summary": "Produces in and out of scope, deliverables with acceptance criteria, assumptions, sign-off",
+          "triggers": [
+            "run proj-project-scope-statement"
+          ]
+        },
+        {
+          "name": "proj-change-request-form",
+          "path": "packs/ai-for-project-management-pack/skills/proj-change-request-form",
+          "order": 4,
+          "summary": "Produces impact on time, cost, scope, quality and risk, options, decider, change log entry",
+          "triggers": [
+            "run proj-change-request-form"
+          ]
+        },
+        {
+          "name": "proj-moscow-prioritization",
+          "path": "packs/ai-for-project-management-pack/skills/proj-moscow-prioritization",
+          "order": 5,
+          "summary": "Produces Must, Should, Could and Won't list, effort share, what drops next",
+          "triggers": [
+            "run proj-moscow-prioritization"
+          ]
+        },
+        {
+          "name": "proj-work-breakdown-structure",
+          "path": "packs/ai-for-project-management-pack/skills/proj-work-breakdown-structure",
+          "order": 6,
+          "summary": "Produces deliverable tree, 100% rule check, owners, gaps list",
+          "triggers": [
+            "run proj-work-breakdown-structure"
+          ]
+        },
+        {
+          "name": "proj-three-point-estimate",
+          "path": "packs/ai-for-project-management-pack/skills/proj-three-point-estimate",
+          "order": 7,
+          "summary": "Produces PERT ranges per work package, forgotten work, a range and confidence line",
+          "triggers": [
+            "run proj-three-point-estimate"
+          ]
+        },
+        {
+          "name": "proj-dependency-map",
+          "path": "packs/ai-for-project-management-pack/skills/proj-dependency-map",
+          "order": 8,
+          "summary": "Produces dependency table, blocking diagram, at-risk list",
+          "triggers": [
+            "run proj-dependency-map"
+          ]
+        },
+        {
+          "name": "proj-critical-path",
+          "path": "packs/ai-for-project-management-pack/skills/proj-critical-path",
+          "order": 9,
+          "summary": "Produces forward and backward pass, float per activity, the path in words",
+          "triggers": [
+            "run proj-critical-path"
+          ]
+        },
+        {
+          "name": "proj-gantt-chart",
+          "path": "packs/ai-for-project-management-pack/skills/proj-gantt-chart",
+          "order": 10,
+          "summary": "Produces schedule table, Mermaid chart, baseline versus current, change notes",
+          "triggers": [
+            "run proj-gantt-chart"
+          ]
+        },
+        {
+          "name": "proj-resource-allocation-plan",
+          "path": "packs/ai-for-project-management-pack/skills/proj-resource-allocation-plan",
+          "order": 11,
+          "summary": "Produces demand against capacity by role, bottlenecks, levelling options, the trade-off",
+          "triggers": [
+            "run proj-resource-allocation-plan"
+          ]
+        },
+        {
+          "name": "proj-pre-mortem",
+          "path": "packs/ai-for-project-management-pack/skills/proj-pre-mortem",
+          "order": 12,
+          "summary": "Produces failure reasons grouped, top five as owned risks, plan changes",
+          "triggers": [
+            "run proj-pre-mortem"
+          ]
+        },
+        {
+          "name": "proj-risk-register",
+          "path": "packs/ai-for-project-management-pack/skills/proj-risk-register",
+          "order": 13,
+          "summary": "Produces cause, event and effect, scored likelihood and impact, owner, trigger, response",
+          "triggers": [
+            "run proj-risk-register"
+          ]
+        },
+        {
+          "name": "proj-raid-log",
+          "path": "packs/ai-for-project-management-pack/skills/proj-raid-log",
+          "order": 14,
+          "summary": "Produces risks, assumptions, issues, dependencies, stale flags, weekly review agenda",
+          "triggers": [
+            "run proj-raid-log"
+          ]
+        },
+        {
+          "name": "proj-stakeholder-map",
+          "path": "packs/ai-for-project-management-pack/skills/proj-stakeholder-map",
+          "order": 15,
+          "summary": "Produces stakeholders by role, power and interest grid, needs, who decides what",
+          "triggers": [
+            "run proj-stakeholder-map"
+          ]
+        },
+        {
+          "name": "proj-raci-matrix",
+          "path": "packs/ai-for-project-management-pack/skills/proj-raci-matrix",
+          "order": 16,
+          "summary": "Produces deliverables by roles, one Accountable per row, gaps and overloads",
+          "triggers": [
+            "run proj-raci-matrix"
+          ]
+        },
+        {
+          "name": "proj-escalation-email",
+          "path": "packs/ai-for-project-management-pack/skills/proj-escalation-email",
+          "order": 17,
+          "summary": "Produces one decision, one decider, options, recommendation, decide-by date, default",
+          "triggers": [
+            "run proj-escalation-email"
+          ]
+        },
+        {
+          "name": "proj-steering-committee-deck",
+          "path": "packs/ai-for-project-management-pack/skills/proj-steering-committee-deck",
+          "order": 18,
+          "summary": "Produces decisions first, delivery confidence, forecast, risks, draft resolutions",
+          "triggers": [
+            "run proj-steering-committee-deck"
+          ]
+        },
+        {
+          "name": "proj-decision-log",
+          "path": "packs/ai-for-project-management-pack/skills/proj-decision-log",
+          "order": 19,
+          "summary": "Produces decision, decider, options, reason, consequences, review date",
+          "triggers": [
+            "run proj-decision-log"
+          ]
+        },
+        {
+          "name": "proj-project-management-plan",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-management-plan",
+          "order": 20,
+          "summary": "Produces lifecycle choice, meetings kept and dropped, documents, cadence, tolerances",
+          "triggers": [
+            "run proj-project-management-plan"
+          ]
+        },
+        {
+          "name": "proj-meeting-minutes",
+          "path": "packs/ai-for-project-management-pack/skills/proj-meeting-minutes",
+          "order": 21,
+          "summary": "Produces decisions, actions with owners and dates, risks, open questions, chat summary",
+          "triggers": [
+            "run proj-meeting-minutes"
+          ]
+        },
+        {
+          "name": "proj-sprint-planning",
+          "path": "packs/ai-for-project-management-pack/skills/proj-sprint-planning",
+          "order": 22,
+          "summary": "Produces sprint goal, capacity, selected items, definition of done check, what was left out",
+          "triggers": [
+            "run proj-sprint-planning"
+          ]
+        },
+        {
+          "name": "proj-kanban-board",
+          "path": "packs/ai-for-project-management-pack/skills/proj-kanban-board",
+          "order": 23,
+          "summary": "Produces real workflow columns, WIP limits, the four flow measures, oldest items",
+          "triggers": [
+            "run proj-kanban-board"
+          ]
+        },
+        {
+          "name": "proj-retrospective",
+          "path": "packs/ai-for-project-management-pack/skills/proj-retrospective",
+          "order": 24,
+          "summary": "Produces a format for the question, themes, one owned improvement, items above the team",
+          "triggers": [
+            "run proj-retrospective"
+          ]
+        },
+        {
+          "name": "proj-project-status-report",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-status-report",
+          "order": 25,
+          "summary": "Produces one-screen report, worded RAG with evidence, asks at the top, risks",
+          "triggers": [
+            "run proj-project-status-report"
+          ]
+        },
+        {
+          "name": "proj-burndown-chart",
+          "path": "packs/ai-for-project-management-pack/skills/proj-burndown-chart",
+          "order": 26,
+          "summary": "Produces burndown and burnup, scope line, a two-sentence reading",
+          "triggers": [
+            "run proj-burndown-chart"
+          ]
+        },
+        {
+          "name": "proj-earned-value-management",
+          "path": "packs/ai-for-project-management-pack/skills/proj-earned-value-management",
+          "order": 27,
+          "summary": "Produces PV, EV and AC table, SPI, CPI, forecast at completion, one-line verdict",
+          "triggers": [
+            "run proj-earned-value-management"
+          ]
+        },
+        {
+          "name": "proj-communication-plan",
+          "path": "packs/ai-for-project-management-pack/skills/proj-communication-plan",
+          "order": 28,
+          "summary": "Produces audience table, one cut of status per audience, announcements, read check",
+          "triggers": [
+            "run proj-communication-plan"
+          ]
+        },
+        {
+          "name": "proj-lessons-learned",
+          "path": "packs/ai-for-project-management-pack/skills/proj-lessons-learned",
+          "order": 29,
+          "summary": "Produces blameless review, each lesson turned into an owned action or template change",
+          "triggers": [
+            "run proj-lessons-learned"
+          ]
+        },
+        {
+          "name": "proj-project-closure-report",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-closure-report",
+          "order": 30,
+          "summary": "Produces objectives versus results, acceptance, final cost and schedule, benefits owner, sign-off",
+          "triggers": [
+            "run proj-project-closure-report"
+          ]
+        },
+        {
+          "name": "proj-project-handover",
+          "path": "packs/ai-for-project-management-pack/skills/proj-project-handover",
+          "order": 31,
+          "summary": "Produces acceptance status, open items, known issues, support period, receiver's confirmation",
+          "triggers": [
+            "run proj-project-handover"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-project-management-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for running a project from charter to clean handover: the project charter, kickoff agenda and scope statement, change requests, MoSCoW prioritisation and the work breakdown structure, three-point PERT estimates, dependency maps, the critical path, Gantt charts and resource allocation, pre-mortems, the risk register and the RAID log, stakeholder maps, the RACI matrix, escalation emails, steering committee decks and the decision log, the project management plan, meeting minutes, sprint planning, Kanban boards and retrospectives, status reports, burndown charts, earned value management and the communication plan, lessons learned, the closure report and the project handover.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "project-management",
+    "project-manager",
+    "programme-management",
+    "pmo",
+    "delivery-management",
+    "project-charter",
+    "risk-register",
+    "raid-log",
+    "gantt-chart",
+    "critical-path",
+    "raci-matrix",
+    "status-report",
+    "earned-value-management",
+    "ai"
+  ]
+}

@@ -715,6 +715,36 @@
         "jobs-to-be-done",
         "ai"
       ]
+    },
+    {
+      "name": "ai-for-project-management-pack",
+      "source": "./packs/ai-for-project-management-pack",
+      "description": "31 skills for running a project from charter to clean handover: starting the project, stopping scope creep, estimating and scheduling, catching risks early, getting decisions made, running the delivery rhythm, reporting honestly, and closing well.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "project-management",
+        "project-manager",
+        "programme-management",
+        "pmo",
+        "delivery-management",
+        "project-charter",
+        "risk-register",
+        "raid-log",
+        "gantt-chart",
+        "critical-path",
+        "raci-matrix",
+        "status-report",
+        "earned-value-management",
+        "ai"
+      ]
     }
   ]
 }

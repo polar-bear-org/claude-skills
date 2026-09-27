@@ -21,6 +21,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for HR: packs/ai-for-hr-pack/README.md
 - AI for Managers: packs/ai-for-managers-pack/README.md
 - AI for Product Management: packs/ai-for-product-management-pack/README.md
+- AI for Project Management: packs/ai-for-project-management-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -550,3 +551,38 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - pm-experiment-design: packs/ai-for-product-management-pack/skills/pm-experiment-design/SKILL.md — Produces hypothesis, variants, primary metric, guardrails, sample check, decision rule
 - pm-post-launch-review: packs/ai-for-product-management-pack/skills/pm-post-launch-review/SKILL.md — Produces intended versus actual, why, keep / change list, keep, fix or remove call
 - Reference: packs/ai-for-product-management-pack/resources/evidence-and-sources.md
+
+## AI for Project Management: 31 Claude Skills
+- Pack: packs/ai-for-project-management-pack/README.md
+- proj-project-charter: packs/ai-for-project-management-pack/skills/proj-project-charter/SKILL.md — Produces objectives, success measures, authority, scope, milestones, budget envelope, sign-off
+- proj-kickoff-meeting-agenda: packs/ai-for-project-management-pack/skills/proj-kickoff-meeting-agenda/SKILL.md — Produces timed agenda, the hard questions, roles, pre-read, outputs to confirm
+- proj-project-scope-statement: packs/ai-for-project-management-pack/skills/proj-project-scope-statement/SKILL.md — Produces in and out of scope, deliverables with acceptance criteria, assumptions, sign-off
+- proj-change-request-form: packs/ai-for-project-management-pack/skills/proj-change-request-form/SKILL.md — Produces impact on time, cost, scope, quality and risk, options, decider, change log entry
+- proj-moscow-prioritization: packs/ai-for-project-management-pack/skills/proj-moscow-prioritization/SKILL.md — Produces Must, Should, Could and Won't list, effort share, what drops next
+- proj-work-breakdown-structure: packs/ai-for-project-management-pack/skills/proj-work-breakdown-structure/SKILL.md — Produces deliverable tree, 100% rule check, owners, gaps list
+- proj-three-point-estimate: packs/ai-for-project-management-pack/skills/proj-three-point-estimate/SKILL.md — Produces PERT ranges per work package, forgotten work, a range and confidence line
+- proj-dependency-map: packs/ai-for-project-management-pack/skills/proj-dependency-map/SKILL.md — Produces dependency table, blocking diagram, at-risk list
+- proj-critical-path: packs/ai-for-project-management-pack/skills/proj-critical-path/SKILL.md — Produces forward and backward pass, float per activity, the path in words
+- proj-gantt-chart: packs/ai-for-project-management-pack/skills/proj-gantt-chart/SKILL.md — Produces schedule table, Mermaid chart, baseline versus current, change notes
+- proj-resource-allocation-plan: packs/ai-for-project-management-pack/skills/proj-resource-allocation-plan/SKILL.md — Produces demand against capacity by role, bottlenecks, levelling options, the trade-off
+- proj-pre-mortem: packs/ai-for-project-management-pack/skills/proj-pre-mortem/SKILL.md — Produces failure reasons grouped, top five as owned risks, plan changes
+- proj-risk-register: packs/ai-for-project-management-pack/skills/proj-risk-register/SKILL.md — Produces cause, event and effect, scored likelihood and impact, owner, trigger, response
+- proj-raid-log: packs/ai-for-project-management-pack/skills/proj-raid-log/SKILL.md — Produces risks, assumptions, issues, dependencies, stale flags, weekly review agenda
+- proj-stakeholder-map: packs/ai-for-project-management-pack/skills/proj-stakeholder-map/SKILL.md — Produces stakeholders by role, power and interest grid, needs, who decides what
+- proj-raci-matrix: packs/ai-for-project-management-pack/skills/proj-raci-matrix/SKILL.md — Produces deliverables by roles, one Accountable per row, gaps and overloads
+- proj-escalation-email: packs/ai-for-project-management-pack/skills/proj-escalation-email/SKILL.md — Produces one decision, one decider, options, recommendation, decide-by date, default
+- proj-steering-committee-deck: packs/ai-for-project-management-pack/skills/proj-steering-committee-deck/SKILL.md — Produces decisions first, delivery confidence, forecast, risks, draft resolutions
+- proj-decision-log: packs/ai-for-project-management-pack/skills/proj-decision-log/SKILL.md — Produces decision, decider, options, reason, consequences, review date
+- proj-project-management-plan: packs/ai-for-project-management-pack/skills/proj-project-management-plan/SKILL.md — Produces lifecycle choice, meetings kept and dropped, documents, cadence, tolerances
+- proj-meeting-minutes: packs/ai-for-project-management-pack/skills/proj-meeting-minutes/SKILL.md — Produces decisions, actions with owners and dates, risks, open questions, chat summary
+- proj-sprint-planning: packs/ai-for-project-management-pack/skills/proj-sprint-planning/SKILL.md — Produces sprint goal, capacity, selected items, definition of done check, what was left out
+- proj-kanban-board: packs/ai-for-project-management-pack/skills/proj-kanban-board/SKILL.md — Produces real workflow columns, WIP limits, the four flow measures, oldest items
+- proj-retrospective: packs/ai-for-project-management-pack/skills/proj-retrospective/SKILL.md — Produces a format for the question, themes, one owned improvement, items above the team
+- proj-project-status-report: packs/ai-for-project-management-pack/skills/proj-project-status-report/SKILL.md — Produces one-screen report, worded RAG with evidence, asks at the top, risks
+- proj-burndown-chart: packs/ai-for-project-management-pack/skills/proj-burndown-chart/SKILL.md — Produces burndown and burnup, scope line, a two-sentence reading
+- proj-earned-value-management: packs/ai-for-project-management-pack/skills/proj-earned-value-management/SKILL.md — Produces PV, EV and AC table, SPI, CPI, forecast at completion, one-line verdict
+- proj-communication-plan: packs/ai-for-project-management-pack/skills/proj-communication-plan/SKILL.md — Produces audience table, one cut of status per audience, announcements, read check
+- proj-lessons-learned: packs/ai-for-project-management-pack/skills/proj-lessons-learned/SKILL.md — Produces blameless review, each lesson turned into an owned action or template change
+- proj-project-closure-report: packs/ai-for-project-management-pack/skills/proj-project-closure-report/SKILL.md — Produces objectives versus results, acceptance, final cost and schedule, benefits owner, sign-off
+- proj-project-handover: packs/ai-for-project-management-pack/skills/proj-project-handover/SKILL.md — Produces acceptance status, open items, known issues, support period, receiver's confirmation
+- Reference: packs/ai-for-project-management-pack/resources/evidence-and-sources.md
