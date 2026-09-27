@@ -595,6 +595,36 @@
         "decision-making",
         "people-ops"
       ]
+    },
+    {
+      "name": "ai-for-customer-service-pack",
+      "source": "./packs/ai-for-customer-service-pack",
+      "description": "32 skills for running a support desk, from the hard reply to the bot handoff: hard conversations, workload and staffing, roles, metrics and coaching, escalations and incidents, learning from tickets, answers and knowledge, service design, and AI and bots, safely.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-customer-service-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "customer-service",
+        "customer-support",
+        "helpdesk",
+        "de-escalation",
+        "escalation",
+        "sla",
+        "csat",
+        "nps",
+        "knowledge-base",
+        "chatbot",
+        "ticketing",
+        "service-design",
+        "ai",
+        "people-ops"
+      ]
     }
   ]
 }

@@ -17,6 +17,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Time for Top Priorities: packs/top-priorities-pack/README.md
 - Important Decisions: packs/important-decisions-pack/README.md
 - AI and Psychological Safety: packs/ai-psychological-safety-pack/README.md
+- AI for Customer Service: packs/ai-for-customer-service-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -404,3 +405,39 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - Reference: packs/ai-psychological-safety-pack/resources/evidence-and-sources.md
 - Reference: packs/ai-psychological-safety-pack/resources/practice-lab.md
 - Reference: packs/ai-psychological-safety-pack/templates/concern-and-response.md
+
+## AI for Customer Service: 32 Claude Skills
+- Pack: packs/ai-for-customer-service-pack/README.md
+- cs-abusive-customer-policy: packs/ai-for-customer-service-pack/skills/cs-abusive-customer-policy/SKILL.md — Produces warn, final warning and end-contact steps, a script per step and channel, a supervisor backup rule and an incident log
+- cs-de-escalation-playbook: packs/ai-for-customer-service-pack/skills/cs-de-escalation-playbook/SKILL.md — Produces phone and chat steps, phrases to use and avoid, the “I want your manager” path and a handoff note
+- cs-service-recovery-plan: packs/ai-for-customer-service-pack/skills/cs-service-recovery-plan/SKILL.md — Produces an owned-mistake reply, a fix and follow-up plan, a gesture within limits and an apology letter
+- cs-complaint-handling-procedure: packs/ai-for-customer-service-pack/skills/cs-complaint-handling-procedure/SKILL.md — Produces receive-to-close steps, acknowledgement and outcome letters and a complaint log
+- cs-refund-exception-policy: packs/ai-for-customer-service-pack/skills/cs-refund-exception-policy/SKILL.md — Produces refund wording, a decision-rights table, a precedent log, a never-do list and kind ways to say no
+- cs-workload-recovery-rules: packs/ai-for-customer-service-pack/skills/cs-workload-recovery-rules/SKILL.md — Produces occupancy caps, breaks between hard contacts, recovery after abuse, cover rules and a team stress check
+- cs-erlang-c-staffing: packs/ai-for-customer-service-pack/skills/cs-erlang-c-staffing/SKILL.md — Produces an interval forecast, the agents needed at a service level, occupancy and shrinkage, and a case for more hands
+- cs-backlog-recovery-plan: packs/ai-for-customer-service-pack/skills/cs-backlog-recovery-plan/SKILL.md — Produces triage by age and risk, a bulk-reply and merge plan, a pause list and a daily burn-down
+- cs-shift-handover: packs/ai-for-customer-service-pack/skills/cs-shift-handover/SKILL.md — Produces open tickets with owner and promise made, who talks to each customer, and a holiday cover sheet
+- cs-raci-matrix: packs/ai-for-customer-service-pack/skills/cs-raci-matrix/SKILL.md — Produces owners across support, success, sales, product and engineering, gaps and double owners, and a rule for new asks
+- cs-support-metrics-scorecard: packs/ai-for-customer-service-pack/skills/cs-support-metrics-scorecard/SKILL.md — Produces closed versus resolved, first contact resolution, reopen rate, an SLA clock owner per stage and the limits of each number
+- cs-qa-scorecard: packs/ai-for-customer-service-pack/skills/cs-qa-scorecard/SKILL.md — Produces a reply rubric, a sample plan, a calibration session and same-day coaching notes about replies
+- cs-training-plan: packs/ai-for-customer-service-pack/skills/cs-training-plan/SKILL.md — Produces a practice-first ramp, a shadow and reverse-shadow schedule, a go-solo checklist and a check that training changed the work
+- cs-role-play-scenarios: packs/ai-for-customer-service-pack/skills/cs-role-play-scenarios/SKILL.md — Produces a scenario bank by contact type, Claude as the customer, debrief questions and a team practice log
+- cs-escalation-matrix: packs/ai-for-customer-service-pack/skills/cs-escalation-matrix/SKILL.md — Produces tiers, triggers, target times, the information each route needs, and when a lead or head steps in
+- cs-sla-ola: packs/ai-for-customer-service-pack/skills/cs-sla-ola/SKILL.md — Produces customer targets by priority and channel, internal OLAs, breach rules and a named clock owner
+- cs-bug-report: packs/ai-for-customer-service-pack/skills/cs-bug-report/SKILL.md — Produces steps to reproduce, expected and actual result, impact, urgency, a workaround and what the customer was told
+- cs-release-readiness-brief: packs/ai-for-customer-service-pack/skills/cs-release-readiness-brief/SKILL.md — Produces what changes and for whom, the expected confusion, day-one saved replies and articles, and who to call
+- cs-incident-communication: packs/ai-for-customer-service-pack/skills/cs-incident-communication/SKILL.md — Produces a first notice, an update cadence, no-ETA wording, an all-clear, a closing note and an agent brief
+- cs-csat-survey: packs/ai-for-customer-service-pack/skills/cs-csat-survey/SKILL.md — Produces a short post-ticket survey, comment sorting by cause and a monthly summary that names causes, not agents
+- cs-ticket-taxonomy: packs/ai-for-customer-service-pack/skills/cs-ticket-taxonomy/SKILL.md — Produces a reason-based tag tree, definitions with examples, a tagging guide and a retire list
+- cs-five-whys: packs/ai-for-customer-service-pack/skills/cs-five-whys/SKILL.md — Produces top drivers by volume, a 5 Whys chain per driver that stops at a process, a fix owner and asks for product
+- cs-nps-survey: packs/ai-for-customer-service-pack/skills/cs-nps-survey/SKILL.md — Produces a relationship survey plan, a follow-up question, a close-the-loop rule and what support can and cannot move
+- cs-canned-responses: packs/ai-for-customer-service-pack/skills/cs-canned-responses/SKILL.md — Produces saved replies with personal slots, naming rules, an owner and review date per reply, and a retire list
+- cs-knowledge-base-article: packs/ai-for-customer-service-pack/skills/cs-knowledge-base-article/SKILL.md — Produces an article from a solved ticket, an article state, a gap list and a review cadence
+- cs-customer-service-policy: packs/ai-for-customer-service-pack/skills/cs-customer-service-policy/SKILL.md — Produces one page per topic, a change log and a what-we-never-say list
+- cs-customer-journey-map: packs/ai-for-customer-service-pack/skills/cs-customer-journey-map/SKILL.md — Produces phases, actions, thoughts and feelings, the contact points where customers write in, and message rewrites
+- cs-customer-effort-score: packs/ai-for-customer-service-pack/skills/cs-customer-effort-score/SKILL.md — Produces the effort question and where to ask it, the effort drivers counted from tickets and comments, and a fix list
+- cs-service-blueprint: packs/ai-for-customer-service-pack/skills/cs-service-blueprint/SKILL.md — Produces frontstage and backstage actions, support processes, the line of visibility, and fail and wait points
+- cs-chatbot-handoff-rules: packs/ai-for-customer-service-pack/skills/cs-chatbot-handoff-rules/SKILL.md — Produces a bot scope table, handoff triggers, a context packet, a disclosure line and a loop test script
+- cs-self-service-deflection: packs/ai-for-customer-service-pack/skills/cs-self-service-deflection/SKILL.md — Produces the questions to move to self-service, honest resolved-versus-abandoned measures and a second-line restaffing check
+- cs-ai-use-policy: packs/ai-for-customer-service-pack/skills/cs-ai-use-policy/SKILL.md — Produces useful AI tasks with their risks, customer-data and send rules, disclosure wording and a review log
+- Reference: packs/ai-for-customer-service-pack/resources/evidence-and-sources.md

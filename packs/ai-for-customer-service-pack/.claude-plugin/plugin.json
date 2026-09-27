@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-customer-service-pack",
+  "version": "1.0.0",
+  "description": "32 Claude Skills for running a support desk, from the hard reply to the bot handoff: abusive-contact and de-escalation rules, service recovery, complaints and refunds, workload rules, Erlang C staffing and backlog recovery, shift handover, RACI, metrics and QA, training and role play, escalation matrix, SLAs and OLAs, bug reports, release readiness and incident comms, CSAT, NPS, CES, ticket taxonomy and 5 Whys, saved replies, knowledge base and policy, journey maps and service blueprints, and chatbot handoff, deflection and AI use policy.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-customer-service-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "customer-service",
+    "customer-support",
+    "helpdesk",
+    "de-escalation",
+    "escalation",
+    "sla",
+    "csat",
+    "nps",
+    "knowledge-base",
+    "chatbot",
+    "ticketing",
+    "service-design",
+    "ai",
+    "people-ops"
+  ]
+}

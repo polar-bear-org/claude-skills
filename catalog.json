@@ -3831,6 +3831,331 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-customer-service-pack",
+      "title": "AI for Customer Service: 32 Claude Skills",
+      "path": "packs/ai-for-customer-service-pack",
+      "version": "1.0.0",
+      "description": "32 skills for running a support desk, from the hard reply to the bot handoff: hard conversations, workload and staffing, roles, metrics and coaching, escalations and incidents, learning from tickets, answers and knowledge, service design, and AI and bots, safely.",
+      "audience": [
+        "support leads",
+        "customer service managers",
+        "support agents",
+        "customer success managers"
+      ],
+      "keywords": [
+        "customer-service",
+        "customer-support",
+        "helpdesk",
+        "de-escalation",
+        "escalation",
+        "sla",
+        "csat",
+        "nps",
+        "knowledge-base",
+        "chatbot",
+        "ticketing",
+        "service-design",
+        "ai",
+        "people-ops"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "cs-abusive-customer-policy",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-abusive-customer-policy",
+          "order": 1,
+          "summary": "Produces warn, final warning and end-contact steps, a script per step and channel, a supervisor backup rule and an incident log",
+          "triggers": [
+            "run cs-abusive-customer-policy"
+          ]
+        },
+        {
+          "name": "cs-de-escalation-playbook",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-de-escalation-playbook",
+          "order": 2,
+          "summary": "Produces phone and chat steps, phrases to use and avoid, the “I want your manager” path and a handoff note",
+          "triggers": [
+            "run cs-de-escalation-playbook"
+          ]
+        },
+        {
+          "name": "cs-service-recovery-plan",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-service-recovery-plan",
+          "order": 3,
+          "summary": "Produces an owned-mistake reply, a fix and follow-up plan, a gesture within limits and an apology letter",
+          "triggers": [
+            "run cs-service-recovery-plan"
+          ]
+        },
+        {
+          "name": "cs-complaint-handling-procedure",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-complaint-handling-procedure",
+          "order": 4,
+          "summary": "Produces receive-to-close steps, acknowledgement and outcome letters and a complaint log",
+          "triggers": [
+            "run cs-complaint-handling-procedure"
+          ]
+        },
+        {
+          "name": "cs-refund-exception-policy",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-refund-exception-policy",
+          "order": 5,
+          "summary": "Produces refund wording, a decision-rights table, a precedent log, a never-do list and kind ways to say no",
+          "triggers": [
+            "run cs-refund-exception-policy"
+          ]
+        },
+        {
+          "name": "cs-workload-recovery-rules",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-workload-recovery-rules",
+          "order": 6,
+          "summary": "Produces occupancy caps, breaks between hard contacts, recovery after abuse, cover rules and a team stress check",
+          "triggers": [
+            "run cs-workload-recovery-rules"
+          ]
+        },
+        {
+          "name": "cs-erlang-c-staffing",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-erlang-c-staffing",
+          "order": 7,
+          "summary": "Produces an interval forecast, the agents needed at a service level, occupancy and shrinkage, and a case for more hands",
+          "triggers": [
+            "run cs-erlang-c-staffing"
+          ]
+        },
+        {
+          "name": "cs-backlog-recovery-plan",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-backlog-recovery-plan",
+          "order": 8,
+          "summary": "Produces triage by age and risk, a bulk-reply and merge plan, a pause list and a daily burn-down",
+          "triggers": [
+            "run cs-backlog-recovery-plan"
+          ]
+        },
+        {
+          "name": "cs-shift-handover",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-shift-handover",
+          "order": 9,
+          "summary": "Produces open tickets with owner and promise made, who talks to each customer, and a holiday cover sheet",
+          "triggers": [
+            "run cs-shift-handover"
+          ]
+        },
+        {
+          "name": "cs-raci-matrix",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-raci-matrix",
+          "order": 10,
+          "summary": "Produces owners across support, success, sales, product and engineering, gaps and double owners, and a rule for new asks",
+          "triggers": [
+            "run cs-raci-matrix"
+          ]
+        },
+        {
+          "name": "cs-support-metrics-scorecard",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-support-metrics-scorecard",
+          "order": 11,
+          "summary": "Produces closed versus resolved, first contact resolution, reopen rate, an SLA clock owner per stage and the limits of each number",
+          "triggers": [
+            "run cs-support-metrics-scorecard"
+          ]
+        },
+        {
+          "name": "cs-qa-scorecard",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-qa-scorecard",
+          "order": 12,
+          "summary": "Produces a reply rubric, a sample plan, a calibration session and same-day coaching notes about replies",
+          "triggers": [
+            "run cs-qa-scorecard"
+          ]
+        },
+        {
+          "name": "cs-training-plan",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-training-plan",
+          "order": 13,
+          "summary": "Produces a practice-first ramp, a shadow and reverse-shadow schedule, a go-solo checklist and a check that training changed the work",
+          "triggers": [
+            "run cs-training-plan"
+          ]
+        },
+        {
+          "name": "cs-role-play-scenarios",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-role-play-scenarios",
+          "order": 14,
+          "summary": "Produces a scenario bank by contact type, Claude as the customer, debrief questions and a team practice log",
+          "triggers": [
+            "run cs-role-play-scenarios"
+          ]
+        },
+        {
+          "name": "cs-escalation-matrix",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-escalation-matrix",
+          "order": 15,
+          "summary": "Produces tiers, triggers, target times, the information each route needs, and when a lead or head steps in",
+          "triggers": [
+            "run cs-escalation-matrix"
+          ]
+        },
+        {
+          "name": "cs-sla-ola",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-sla-ola",
+          "order": 16,
+          "summary": "Produces customer targets by priority and channel, internal OLAs, breach rules and a named clock owner",
+          "triggers": [
+            "run cs-sla-ola"
+          ]
+        },
+        {
+          "name": "cs-bug-report",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-bug-report",
+          "order": 17,
+          "summary": "Produces steps to reproduce, expected and actual result, impact, urgency, a workaround and what the customer was told",
+          "triggers": [
+            "run cs-bug-report"
+          ]
+        },
+        {
+          "name": "cs-release-readiness-brief",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-release-readiness-brief",
+          "order": 18,
+          "summary": "Produces what changes and for whom, the expected confusion, day-one saved replies and articles, and who to call",
+          "triggers": [
+            "run cs-release-readiness-brief"
+          ]
+        },
+        {
+          "name": "cs-incident-communication",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-incident-communication",
+          "order": 19,
+          "summary": "Produces a first notice, an update cadence, no-ETA wording, an all-clear, a closing note and an agent brief",
+          "triggers": [
+            "run cs-incident-communication"
+          ]
+        },
+        {
+          "name": "cs-csat-survey",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-csat-survey",
+          "order": 20,
+          "summary": "Produces a short post-ticket survey, comment sorting by cause and a monthly summary that names causes, not agents",
+          "triggers": [
+            "run cs-csat-survey"
+          ]
+        },
+        {
+          "name": "cs-ticket-taxonomy",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-ticket-taxonomy",
+          "order": 21,
+          "summary": "Produces a reason-based tag tree, definitions with examples, a tagging guide and a retire list",
+          "triggers": [
+            "run cs-ticket-taxonomy"
+          ]
+        },
+        {
+          "name": "cs-five-whys",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-five-whys",
+          "order": 22,
+          "summary": "Produces top drivers by volume, a 5 Whys chain per driver that stops at a process, a fix owner and asks for product",
+          "triggers": [
+            "run cs-five-whys"
+          ]
+        },
+        {
+          "name": "cs-nps-survey",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-nps-survey",
+          "order": 23,
+          "summary": "Produces a relationship survey plan, a follow-up question, a close-the-loop rule and what support can and cannot move",
+          "triggers": [
+            "run cs-nps-survey"
+          ]
+        },
+        {
+          "name": "cs-canned-responses",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-canned-responses",
+          "order": 24,
+          "summary": "Produces saved replies with personal slots, naming rules, an owner and review date per reply, and a retire list",
+          "triggers": [
+            "run cs-canned-responses"
+          ]
+        },
+        {
+          "name": "cs-knowledge-base-article",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-knowledge-base-article",
+          "order": 25,
+          "summary": "Produces an article from a solved ticket, an article state, a gap list and a review cadence",
+          "triggers": [
+            "run cs-knowledge-base-article"
+          ]
+        },
+        {
+          "name": "cs-customer-service-policy",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-customer-service-policy",
+          "order": 26,
+          "summary": "Produces one page per topic, a change log and a what-we-never-say list",
+          "triggers": [
+            "run cs-customer-service-policy"
+          ]
+        },
+        {
+          "name": "cs-customer-journey-map",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-customer-journey-map",
+          "order": 27,
+          "summary": "Produces phases, actions, thoughts and feelings, the contact points where customers write in, and message rewrites",
+          "triggers": [
+            "run cs-customer-journey-map"
+          ]
+        },
+        {
+          "name": "cs-customer-effort-score",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-customer-effort-score",
+          "order": 28,
+          "summary": "Produces the effort question and where to ask it, the effort drivers counted from tickets and comments, and a fix list",
+          "triggers": [
+            "run cs-customer-effort-score"
+          ]
+        },
+        {
+          "name": "cs-service-blueprint",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-service-blueprint",
+          "order": 29,
+          "summary": "Produces frontstage and backstage actions, support processes, the line of visibility, and fail and wait points",
+          "triggers": [
+            "run cs-service-blueprint"
+          ]
+        },
+        {
+          "name": "cs-chatbot-handoff-rules",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-chatbot-handoff-rules",
+          "order": 30,
+          "summary": "Produces a bot scope table, handoff triggers, a context packet, a disclosure line and a loop test script",
+          "triggers": [
+            "run cs-chatbot-handoff-rules"
+          ]
+        },
+        {
+          "name": "cs-self-service-deflection",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-self-service-deflection",
+          "order": 31,
+          "summary": "Produces the questions to move to self-service, honest resolved-versus-abandoned measures and a second-line restaffing check",
+          "triggers": [
+            "run cs-self-service-deflection"
+          ]
+        },
+        {
+          "name": "cs-ai-use-policy",
+          "path": "packs/ai-for-customer-service-pack/skills/cs-ai-use-policy",
+          "order": 32,
+          "summary": "Produces useful AI tasks with their risks, customer-data and send rules, disclosure wording and a review log",
+          "triggers": [
+            "run cs-ai-use-policy"
+          ]
+        }
+      ]
     }
   ]
 }
