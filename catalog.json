@@ -4481,6 +4481,322 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-managers-pack",
+      "title": "AI for Managers: 31 Claude Skills",
+      "path": "packs/ai-for-managers-pack",
+      "version": "1.0.0",
+      "description": "31 skills for running a team, from the first 1:1 to the hard conversation: the hard conversation, stepping into the role, delegating and letting go, protecting the team's capacity, managing up and through change, the team's rhythm, setting direction, and coaching and growing people.",
+      "audience": [
+        "people managers",
+        "team leads",
+        "first-time managers",
+        "founders who manage"
+      ],
+      "keywords": [
+        "management",
+        "people-management",
+        "new-manager",
+        "first-time-manager",
+        "one-on-ones",
+        "delegation",
+        "feedback",
+        "difficult-conversations",
+        "coaching",
+        "grow-model",
+        "team-okrs",
+        "psychological-safety",
+        "ai",
+        "people-ops"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "mgr-difficult-conversation-prep",
+          "path": "packs/ai-for-managers-pack/skills/mgr-difficult-conversation-prep",
+          "order": 1,
+          "summary": "Produces purpose line, dated facts, opening sentences, likely reactions, follow-up note",
+          "triggers": [
+            "run mgr-difficult-conversation-prep"
+          ]
+        },
+        {
+          "name": "mgr-sbi-feedback",
+          "path": "packs/ai-for-managers-pack/skills/mgr-sbi-feedback",
+          "order": 2,
+          "summary": "Produces situation, behaviour and impact statements, intent question, one request",
+          "triggers": [
+            "run mgr-sbi-feedback"
+          ]
+        },
+        {
+          "name": "mgr-performance-improvement-plan",
+          "path": "packs/ai-for-managers-pack/skills/mgr-performance-improvement-plan",
+          "order": 3,
+          "summary": "Produces expected standard, dated gap, support offered, review dates, questions for HR",
+          "triggers": [
+            "run mgr-performance-improvement-plan"
+          ]
+        },
+        {
+          "name": "mgr-conflict-resolution",
+          "path": "packs/ai-for-managers-pack/skills/mgr-conflict-resolution",
+          "order": 4,
+          "summary": "Produces issue map, each side's interests, options, agreed behaviours",
+          "triggers": [
+            "run mgr-conflict-resolution"
+          ]
+        },
+        {
+          "name": "mgr-return-to-work-conversation",
+          "path": "packs/ai-for-managers-pack/skills/mgr-return-to-work-conversation",
+          "order": 5,
+          "summary": "Produces welcome plan, questions, adjustments to consider, agreed note",
+          "triggers": [
+            "run mgr-return-to-work-conversation"
+          ]
+        },
+        {
+          "name": "mgr-new-manager-plan",
+          "path": "packs/ai-for-managers-pack/skills/mgr-new-manager-plan",
+          "order": 6,
+          "summary": "Produces listening plan, map of the work, first decisions, 90-day check",
+          "triggers": [
+            "run mgr-new-manager-plan"
+          ]
+        },
+        {
+          "name": "mgr-one-on-one-agenda",
+          "path": "packs/ai-for-managers-pack/skills/mgr-one-on-one-agenda",
+          "order": 7,
+          "summary": "Produces first 1:1 questions, report-owned agenda, question bank, actions",
+          "triggers": [
+            "run mgr-one-on-one-agenda"
+          ]
+        },
+        {
+          "name": "mgr-manager-readme",
+          "path": "packs/ai-for-managers-pack/skills/mgr-manager-readme",
+          "order": 8,
+          "summary": "Produces how I work, what I expect, how to disagree with me",
+          "triggers": [
+            "run mgr-manager-readme"
+          ]
+        },
+        {
+          "name": "mgr-delegation-levels",
+          "path": "packs/ai-for-managers-pack/skills/mgr-delegation-levels",
+          "order": 9,
+          "summary": "Produces decision areas on seven levels, the board, changes to announce",
+          "triggers": [
+            "run mgr-delegation-levels"
+          ]
+        },
+        {
+          "name": "mgr-delegation-handoff",
+          "path": "packs/ai-for-managers-pack/skills/mgr-delegation-handoff",
+          "order": 10,
+          "summary": "Produces outcome, limits, authority level, check-ins, what done looks like",
+          "triggers": [
+            "run mgr-delegation-handoff"
+          ]
+        },
+        {
+          "name": "mgr-raci-matrix",
+          "path": "packs/ai-for-managers-pack/skills/mgr-raci-matrix",
+          "order": 11,
+          "summary": "Produces tasks against roles, one Accountable per row, gaps flagged",
+          "triggers": [
+            "run mgr-raci-matrix"
+          ]
+        },
+        {
+          "name": "mgr-cross-training-plan",
+          "path": "packs/ai-for-managers-pack/skills/mgr-cross-training-plan",
+          "order": 12,
+          "summary": "Produces critical tasks, cover today, learning pairs, what to document",
+          "triggers": [
+            "run mgr-cross-training-plan"
+          ]
+        },
+        {
+          "name": "mgr-capacity-check",
+          "path": "packs/ai-for-managers-pack/skills/mgr-capacity-check",
+          "order": 13,
+          "summary": "Produces work inventory, real hours, stop, delay or ask list, case for leadership",
+          "triggers": [
+            "run mgr-capacity-check"
+          ]
+        },
+        {
+          "name": "mgr-eisenhower-matrix",
+          "path": "packs/ai-for-managers-pack/skills/mgr-eisenhower-matrix",
+          "order": 14,
+          "summary": "Produces your week in do, schedule, delegate, drop, three priorities",
+          "triggers": [
+            "run mgr-eisenhower-matrix"
+          ]
+        },
+        {
+          "name": "mgr-psychological-safety-check",
+          "path": "packs/ai-for-managers-pack/skills/mgr-psychological-safety-check",
+          "order": 15,
+          "summary": "Produces anonymous team questions, discussion guide, one team experiment",
+          "triggers": [
+            "run mgr-psychological-safety-check"
+          ]
+        },
+        {
+          "name": "mgr-ai-team-playbook",
+          "path": "packs/ai-for-managers-pack/skills/mgr-ai-team-playbook",
+          "order": 16,
+          "summary": "Produces agreed uses, never-put-in list, review rules, review date",
+          "triggers": [
+            "run mgr-ai-team-playbook"
+          ]
+        },
+        {
+          "name": "mgr-managing-up-brief",
+          "path": "packs/ai-for-managers-pack/skills/mgr-managing-up-brief",
+          "order": 17,
+          "summary": "Produces one-page situation, background, assessment, recommendation, the ask",
+          "triggers": [
+            "run mgr-managing-up-brief"
+          ]
+        },
+        {
+          "name": "mgr-skip-level-meeting",
+          "path": "packs/ai-for-managers-pack/skills/mgr-skip-level-meeting",
+          "order": 18,
+          "summary": "Produces agenda, question set, themes without names, follow-up",
+          "triggers": [
+            "run mgr-skip-level-meeting"
+          ]
+        },
+        {
+          "name": "mgr-change-announcement",
+          "path": "packs/ai-for-managers-pack/skills/mgr-change-announcement",
+          "order": 19,
+          "summary": "Produces what is decided, what is not, what changes for whom, FAQ",
+          "triggers": [
+            "run mgr-change-announcement"
+          ]
+        },
+        {
+          "name": "mgr-daci-decision",
+          "path": "packs/ai-for-managers-pack/skills/mgr-daci-decision",
+          "order": 20,
+          "summary": "Produces driver, approver, contributors, informed, options, decision record",
+          "triggers": [
+            "run mgr-daci-decision"
+          ]
+        },
+        {
+          "name": "mgr-team-meeting-agenda",
+          "path": "packs/ai-for-managers-pack/skills/mgr-team-meeting-agenda",
+          "order": 21,
+          "summary": "Produces purpose, timed items, decisions needed, action log",
+          "triggers": [
+            "run mgr-team-meeting-agenda"
+          ]
+        },
+        {
+          "name": "mgr-working-agreements",
+          "path": "packs/ai-for-managers-pack/skills/mgr-working-agreements",
+          "order": 22,
+          "summary": "Produces channels, hours, response times, escalation path, review date",
+          "triggers": [
+            "run mgr-working-agreements"
+          ]
+        },
+        {
+          "name": "mgr-team-retrospective",
+          "path": "packs/ai-for-managers-pack/skills/mgr-team-retrospective",
+          "order": 23,
+          "summary": "Produces facilitation plan, prompts, themes, owned actions",
+          "triggers": [
+            "run mgr-team-retrospective"
+          ]
+        },
+        {
+          "name": "mgr-team-charter",
+          "path": "packs/ai-for-managers-pack/skills/mgr-team-charter",
+          "order": 24,
+          "summary": "Produces purpose, scope, who we serve, goals, roles, decision rights",
+          "triggers": [
+            "run mgr-team-charter"
+          ]
+        },
+        {
+          "name": "mgr-team-okrs",
+          "path": "packs/ai-for-managers-pack/skills/mgr-team-okrs",
+          "order": 25,
+          "summary": "Produces one to three objectives, measurable key results, check-in rhythm",
+          "triggers": [
+            "run mgr-team-okrs"
+          ]
+        },
+        {
+          "name": "mgr-smart-goals",
+          "path": "packs/ai-for-managers-pack/skills/mgr-smart-goals",
+          "order": 26,
+          "summary": "Produces goals rewritten as SMART, linked to team OKRs, check dates",
+          "triggers": [
+            "run mgr-smart-goals"
+          ]
+        },
+        {
+          "name": "mgr-grow-coaching",
+          "path": "packs/ai-for-managers-pack/skills/mgr-grow-coaching",
+          "order": 27,
+          "summary": "Produces goal, reality, options and will questions, the person's next step",
+          "triggers": [
+            "run mgr-grow-coaching"
+          ]
+        },
+        {
+          "name": "mgr-career-conversation",
+          "path": "packs/ai-for-managers-pack/skills/mgr-career-conversation",
+          "order": 28,
+          "summary": "Produces question guide, energises and drains, options map",
+          "triggers": [
+            "run mgr-career-conversation"
+          ]
+        },
+        {
+          "name": "mgr-individual-development-plan",
+          "path": "packs/ai-for-managers-pack/skills/mgr-individual-development-plan",
+          "order": 29,
+          "summary": "Produces one or two goals, experiences, learning, support, dates",
+          "triggers": [
+            "run mgr-individual-development-plan"
+          ]
+        },
+        {
+          "name": "mgr-stay-interview",
+          "path": "packs/ai-for-managers-pack/skills/mgr-stay-interview",
+          "order": 30,
+          "summary": "Produces question set, listening notes, a stay plan you own",
+          "triggers": [
+            "run mgr-stay-interview"
+          ]
+        },
+        {
+          "name": "mgr-recognition-note",
+          "path": "packs/ai-for-managers-pack/skills/mgr-recognition-note",
+          "order": 31,
+          "summary": "Produces a specific note, where to share it, a team-wide list",
+          "triggers": [
+            "run mgr-recognition-note"
+          ]
+        }
+      ]
     }
   ]
 }

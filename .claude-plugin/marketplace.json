@@ -655,6 +655,36 @@
         "ai",
         "people-ops"
       ]
+    },
+    {
+      "name": "ai-for-managers-pack",
+      "source": "./packs/ai-for-managers-pack",
+      "description": "31 skills for running a team, from the first 1:1 to the hard conversation: the hard conversation, stepping into the role, delegating and letting go, protecting the team's capacity, managing up and through change, the team's rhythm, setting direction, and coaching and growing people.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "management",
+        "people-management",
+        "new-manager",
+        "first-time-manager",
+        "one-on-ones",
+        "delegation",
+        "feedback",
+        "difficult-conversations",
+        "coaching",
+        "grow-model",
+        "team-okrs",
+        "psychological-safety",
+        "ai",
+        "people-ops"
+      ]
     }
   ]
 }

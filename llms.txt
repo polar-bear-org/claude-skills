@@ -19,6 +19,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI and Psychological Safety: packs/ai-psychological-safety-pack/README.md
 - AI for Customer Service: packs/ai-for-customer-service-pack/README.md
 - AI for HR: packs/ai-for-hr-pack/README.md
+- AI for Managers: packs/ai-for-managers-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -478,3 +479,38 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - hr-onboarding-checklist: packs/ai-for-hr-pack/skills/hr-onboarding-checklist/SKILL.md — Produces day one to day 90 in four blocks, owner and date per item, the new starter's copy
 - hr-probation-review: packs/ai-for-hr-pack/skills/hr-probation-review/SKILL.md — Produces expectations, review dates, a short review form, extension rules, outcome letters after the manager decides
 - Reference: packs/ai-for-hr-pack/resources/evidence-and-sources.md
+
+## AI for Managers: 31 Claude Skills
+- Pack: packs/ai-for-managers-pack/README.md
+- mgr-difficult-conversation-prep: packs/ai-for-managers-pack/skills/mgr-difficult-conversation-prep/SKILL.md — Produces purpose line, dated facts, opening sentences, likely reactions, follow-up note
+- mgr-sbi-feedback: packs/ai-for-managers-pack/skills/mgr-sbi-feedback/SKILL.md — Produces situation, behaviour and impact statements, intent question, one request
+- mgr-performance-improvement-plan: packs/ai-for-managers-pack/skills/mgr-performance-improvement-plan/SKILL.md — Produces expected standard, dated gap, support offered, review dates, questions for HR
+- mgr-conflict-resolution: packs/ai-for-managers-pack/skills/mgr-conflict-resolution/SKILL.md — Produces issue map, each side's interests, options, agreed behaviours
+- mgr-return-to-work-conversation: packs/ai-for-managers-pack/skills/mgr-return-to-work-conversation/SKILL.md — Produces welcome plan, questions, adjustments to consider, agreed note
+- mgr-new-manager-plan: packs/ai-for-managers-pack/skills/mgr-new-manager-plan/SKILL.md — Produces listening plan, map of the work, first decisions, 90-day check
+- mgr-one-on-one-agenda: packs/ai-for-managers-pack/skills/mgr-one-on-one-agenda/SKILL.md — Produces first 1:1 questions, report-owned agenda, question bank, actions
+- mgr-manager-readme: packs/ai-for-managers-pack/skills/mgr-manager-readme/SKILL.md — Produces how I work, what I expect, how to disagree with me
+- mgr-delegation-levels: packs/ai-for-managers-pack/skills/mgr-delegation-levels/SKILL.md — Produces decision areas on seven levels, the board, changes to announce
+- mgr-delegation-handoff: packs/ai-for-managers-pack/skills/mgr-delegation-handoff/SKILL.md — Produces outcome, limits, authority level, check-ins, what done looks like
+- mgr-raci-matrix: packs/ai-for-managers-pack/skills/mgr-raci-matrix/SKILL.md — Produces tasks against roles, one Accountable per row, gaps flagged
+- mgr-cross-training-plan: packs/ai-for-managers-pack/skills/mgr-cross-training-plan/SKILL.md — Produces critical tasks, cover today, learning pairs, what to document
+- mgr-capacity-check: packs/ai-for-managers-pack/skills/mgr-capacity-check/SKILL.md — Produces work inventory, real hours, stop, delay or ask list, case for leadership
+- mgr-eisenhower-matrix: packs/ai-for-managers-pack/skills/mgr-eisenhower-matrix/SKILL.md — Produces your week in do, schedule, delegate, drop, three priorities
+- mgr-psychological-safety-check: packs/ai-for-managers-pack/skills/mgr-psychological-safety-check/SKILL.md — Produces anonymous team questions, discussion guide, one team experiment
+- mgr-ai-team-playbook: packs/ai-for-managers-pack/skills/mgr-ai-team-playbook/SKILL.md — Produces agreed uses, never-put-in list, review rules, review date
+- mgr-managing-up-brief: packs/ai-for-managers-pack/skills/mgr-managing-up-brief/SKILL.md — Produces one-page situation, background, assessment, recommendation, the ask
+- mgr-skip-level-meeting: packs/ai-for-managers-pack/skills/mgr-skip-level-meeting/SKILL.md — Produces agenda, question set, themes without names, follow-up
+- mgr-change-announcement: packs/ai-for-managers-pack/skills/mgr-change-announcement/SKILL.md — Produces what is decided, what is not, what changes for whom, FAQ
+- mgr-daci-decision: packs/ai-for-managers-pack/skills/mgr-daci-decision/SKILL.md — Produces driver, approver, contributors, informed, options, decision record
+- mgr-team-meeting-agenda: packs/ai-for-managers-pack/skills/mgr-team-meeting-agenda/SKILL.md — Produces purpose, timed items, decisions needed, action log
+- mgr-working-agreements: packs/ai-for-managers-pack/skills/mgr-working-agreements/SKILL.md — Produces channels, hours, response times, escalation path, review date
+- mgr-team-retrospective: packs/ai-for-managers-pack/skills/mgr-team-retrospective/SKILL.md — Produces facilitation plan, prompts, themes, owned actions
+- mgr-team-charter: packs/ai-for-managers-pack/skills/mgr-team-charter/SKILL.md — Produces purpose, scope, who we serve, goals, roles, decision rights
+- mgr-team-okrs: packs/ai-for-managers-pack/skills/mgr-team-okrs/SKILL.md — Produces one to three objectives, measurable key results, check-in rhythm
+- mgr-smart-goals: packs/ai-for-managers-pack/skills/mgr-smart-goals/SKILL.md — Produces goals rewritten as SMART, linked to team OKRs, check dates
+- mgr-grow-coaching: packs/ai-for-managers-pack/skills/mgr-grow-coaching/SKILL.md — Produces goal, reality, options and will questions, the person's next step
+- mgr-career-conversation: packs/ai-for-managers-pack/skills/mgr-career-conversation/SKILL.md — Produces question guide, energises and drains, options map
+- mgr-individual-development-plan: packs/ai-for-managers-pack/skills/mgr-individual-development-plan/SKILL.md — Produces one or two goals, experiences, learning, support, dates
+- mgr-stay-interview: packs/ai-for-managers-pack/skills/mgr-stay-interview/SKILL.md — Produces question set, listening notes, a stay plan you own
+- mgr-recognition-note: packs/ai-for-managers-pack/skills/mgr-recognition-note/SKILL.md — Produces a specific note, where to share it, a team-wide list
+- Reference: packs/ai-for-managers-pack/resources/evidence-and-sources.md

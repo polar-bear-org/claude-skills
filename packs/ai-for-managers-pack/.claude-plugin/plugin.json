@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-managers-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for running a team, from the first 1:1 to the hard conversation: difficult conversation prep, SBI feedback, PIPs, conflict resolution and return-to-work, the new manager 30-60-90 plan, 1:1 agendas and the manager README, levels of delegation, handoff notes, the RACI and the cross-training plan, capacity planning, the Eisenhower matrix, psychological safety checks and a team AI playbook, managing up briefs, skip-levels, change announcements and DACI decisions, team meeting agendas, working agreements and retrospectives, the team charter, team OKRs and SMART goals, GROW coaching, career conversations, IDPs, stay interviews and recognition notes.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-managers-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "management",
+    "people-management",
+    "new-manager",
+    "first-time-manager",
+    "one-on-ones",
+    "delegation",
+    "feedback",
+    "difficult-conversations",
+    "coaching",
+    "grow-model",
+    "team-okrs",
+    "psychological-safety",
+    "ai",
+    "people-ops"
+  ]
+}
