@@ -5429,6 +5429,322 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-for-recruiting-pack",
+      "title": "AI for Recruiting: 31 Claude Skills",
+      "path": "packs/ai-for-recruiting-pack",
+      "version": "1.0.0",
+      "description": "31 skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk: briefing the role, keeping candidates in the loop, attracting applicants, sourcing and reaching out, screening and interviewing on the same criteria for everyone, deciding and closing, the agency desk, and running the desk.",
+      "audience": [
+        "recruiters",
+        "talent acquisition partners",
+        "sourcers",
+        "agency recruiters"
+      ],
+      "keywords": [
+        "recruiting",
+        "talent-acquisition",
+        "hiring",
+        "recruiter",
+        "agency-recruiting",
+        "sourcing",
+        "boolean-search",
+        "talent-mapping",
+        "structured-interview",
+        "interview-scorecard",
+        "job-description",
+        "candidate-experience",
+        "offer-letter",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "recruit-intake-meeting",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-intake-meeting",
+          "order": 1,
+          "summary": "Produces question plan, profile calibration, must-have versus trainable list, one-page intake summary",
+          "triggers": [
+            "run recruit-intake-meeting"
+          ]
+        },
+        {
+          "name": "recruit-job-scorecard",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-job-scorecard",
+          "order": 2,
+          "summary": "Produces first-year outcomes, 4 to 6 criteria with evidence, where each is assessed",
+          "triggers": [
+            "run recruit-job-scorecard"
+          ]
+        },
+        {
+          "name": "recruit-salary-range",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-salary-range",
+          "order": 3,
+          "summary": "Produces proposed range from your evidence, where it appears, candidate lines, adviser questions",
+          "triggers": [
+            "run recruit-salary-range"
+          ]
+        },
+        {
+          "name": "recruit-hiring-process",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-hiring-process",
+          "order": 4,
+          "summary": "Produces stage map, maximum rounds, feedback deadlines, decision meeting date",
+          "triggers": [
+            "run recruit-hiring-process"
+          ]
+        },
+        {
+          "name": "recruit-candidate-communication-plan",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-candidate-communication-plan",
+          "order": 5,
+          "summary": "Produces a promise per stage, the \"no update yet\" message, close-the-loop rule, keep-warm notes",
+          "triggers": [
+            "run recruit-candidate-communication-plan"
+          ]
+        },
+        {
+          "name": "recruit-interview-scheduling",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-interview-scheduling",
+          "order": 6,
+          "summary": "Produces invitation with adjustments offer, confirmation, reminder, reschedule, apologies",
+          "triggers": [
+            "run recruit-interview-scheduling"
+          ]
+        },
+        {
+          "name": "recruit-rejection-email",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-rejection-email",
+          "order": 7,
+          "summary": "Produces messages per stage, job-related feedback lines, finalist call script, calm reply",
+          "triggers": [
+            "run recruit-rejection-email"
+          ]
+        },
+        {
+          "name": "recruit-candidate-experience-survey",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-candidate-experience-survey",
+          "order": 8,
+          "summary": "Produces 5 to 7 questions per stage, send timing, aggregate reading, fix list",
+          "triggers": [
+            "run recruit-candidate-experience-survey"
+          ]
+        },
+        {
+          "name": "recruit-job-description",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-job-description",
+          "order": 9,
+          "summary": "Produces outcomes-first description, must-haves only, pay and adjustments lines, wording check",
+          "triggers": [
+            "run recruit-job-description"
+          ]
+        },
+        {
+          "name": "recruit-job-ad",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-job-ad",
+          "order": 10,
+          "summary": "Produces hook, the real job with its hard parts, pay, rules up front, what happens next",
+          "triggers": [
+            "run recruit-job-ad"
+          ]
+        },
+        {
+          "name": "recruit-employee-referral-program",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-employee-referral-program",
+          "order": 11,
+          "summary": "Produces the ask to staff, good referral guide, bonus rules as placeholders, update loop",
+          "triggers": [
+            "run recruit-employee-referral-program"
+          ]
+        },
+        {
+          "name": "recruit-boolean-search",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-boolean-search",
+          "order": 12,
+          "summary": "Produces synonym sets, strings for LinkedIn, X-ray and boards, broad and narrow versions, test log",
+          "triggers": [
+            "run recruit-boolean-search"
+          ]
+        },
+        {
+          "name": "recruit-talent-map",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-talent-map",
+          "order": 13,
+          "summary": "Produces target companies and teams, adjacent titles, feeder fields, pool estimate",
+          "triggers": [
+            "run recruit-talent-map"
+          ]
+        },
+        {
+          "name": "recruit-sourcing-strategy",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-sourcing-strategy",
+          "order": 14,
+          "summary": "Produces channel mix, free routes, weekly targets, what to stop",
+          "triggers": [
+            "run recruit-sourcing-strategy"
+          ]
+        },
+        {
+          "name": "recruit-recruiting-email-templates",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-recruiting-email-templates",
+          "order": 15,
+          "summary": "Produces first message and two follow-ups from real facts, subject lines, InMail version",
+          "triggers": [
+            "run recruit-recruiting-email-templates"
+          ]
+        },
+        {
+          "name": "recruit-screening-questions",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-screening-questions",
+          "order": 16,
+          "summary": "Produces evidence questions for the form, phone screen guide, work authorisation step for a person",
+          "triggers": [
+            "run recruit-screening-questions"
+          ]
+        },
+        {
+          "name": "recruit-star-interview-questions",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-star-interview-questions",
+          "order": 17,
+          "summary": "Produces behavioural questions per criterion, STAR probes, situational questions, questions never to ask",
+          "triggers": [
+            "run recruit-star-interview-questions"
+          ]
+        },
+        {
+          "name": "recruit-structured-interview",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-structured-interview",
+          "order": 18,
+          "summary": "Produces interview plan, who covers what, order, timing, note rules, adjustments",
+          "triggers": [
+            "run recruit-structured-interview"
+          ]
+        },
+        {
+          "name": "recruit-work-sample-test",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-work-sample-test",
+          "order": 19,
+          "summary": "Produces a short task that mirrors the job, time limit, instructions, evidence guide",
+          "triggers": [
+            "run recruit-work-sample-test"
+          ]
+        },
+        {
+          "name": "recruit-interview-scorecard",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-interview-scorecard",
+          "order": 20,
+          "summary": "Produces blank form per interviewer, anchored evidence levels, notes space, no total",
+          "triggers": [
+            "run recruit-interview-scorecard"
+          ]
+        },
+        {
+          "name": "recruit-interview-debrief",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-interview-debrief",
+          "order": 21,
+          "summary": "Produces agenda that collects scorecards first, criterion by criterion, decision record",
+          "triggers": [
+            "run recruit-interview-debrief"
+          ]
+        },
+        {
+          "name": "recruit-reference-check",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-reference-check",
+          "order": 22,
+          "summary": "Produces consent step, questions tied to criteria, probes, never-ask list, note template",
+          "triggers": [
+            "run recruit-reference-check"
+          ]
+        },
+        {
+          "name": "recruit-offer-letter",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-offer-letter",
+          "order": 23,
+          "summary": "Produces letter from approved terms, conditions, offer call script, clause list for an adviser",
+          "triggers": [
+            "run recruit-offer-letter"
+          ]
+        },
+        {
+          "name": "recruit-counter-offer",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-counter-offer",
+          "order": 24,
+          "summary": "Produces pre-offer questions, resignation prep, honest counter-offer answers, keep-warm plan",
+          "triggers": [
+            "run recruit-counter-offer"
+          ]
+        },
+        {
+          "name": "recruit-business-development",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-business-development",
+          "order": 25,
+          "summary": "Produces account list from hiring signals, one-page approach, first-call questions, four-touch plan",
+          "triggers": [
+            "run recruit-business-development"
+          ]
+        },
+        {
+          "name": "recruit-terms-of-business",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-terms-of-business",
+          "order": 26,
+          "summary": "Produces plain explainer of fees, guarantee, introduction period, payment, adviser checklist",
+          "triggers": [
+            "run recruit-terms-of-business"
+          ]
+        },
+        {
+          "name": "recruit-candidate-submittal",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-candidate-submittal",
+          "order": 27,
+          "summary": "Produces consent record, facts against each criterion, pay, notice, availability, no fit score",
+          "triggers": [
+            "run recruit-candidate-submittal"
+          ]
+        },
+        {
+          "name": "recruit-client-search-update",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-client-search-update",
+          "order": 28,
+          "summary": "Produces weekly activity, market feedback, proposed brief change, decisions by a date",
+          "triggers": [
+            "run recruit-client-search-update"
+          ]
+        },
+        {
+          "name": "recruit-recruiting-metrics",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-recruiting-metrics",
+          "order": 29,
+          "summary": "Produces time to fill and hire, source, acceptance, pass-through, ageing with reasons",
+          "triggers": [
+            "run recruit-recruiting-metrics"
+          ]
+        },
+        {
+          "name": "recruit-ai-recruiting-policy",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-ai-recruiting-policy",
+          "order": 30,
+          "summary": "Produces allowed and banned uses, candidate notices, human review steps, adviser questions",
+          "triggers": [
+            "run recruit-ai-recruiting-policy"
+          ]
+        },
+        {
+          "name": "recruit-interviewer-training",
+          "path": "packs/ai-for-recruiting-pack/skills/recruit-interviewer-training",
+          "order": 31,
+          "summary": "Produces 45-minute session plan and a one-page cheat sheet",
+          "triggers": [
+            "run recruit-interviewer-training"
+          ]
+        }
+      ]
     }
   ]
 }

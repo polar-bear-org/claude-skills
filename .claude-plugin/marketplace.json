@@ -745,6 +745,36 @@
         "earned-value-management",
         "ai"
       ]
+    },
+    {
+      "name": "ai-for-recruiting-pack",
+      "source": "./packs/ai-for-recruiting-pack",
+      "description": "31 skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk: briefing the role, keeping candidates in the loop, attracting applicants, sourcing and reaching out, screening and interviewing on the same criteria for everyone, deciding and closing, the agency desk, and running the desk.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://github.com/polar-bear-org"
+      },
+      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-recruiting-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "recruiting",
+        "talent-acquisition",
+        "hiring",
+        "recruiter",
+        "agency-recruiting",
+        "sourcing",
+        "boolean-search",
+        "talent-mapping",
+        "structured-interview",
+        "interview-scorecard",
+        "job-description",
+        "candidate-experience",
+        "offer-letter",
+        "ai"
+      ]
     }
   ]
 }

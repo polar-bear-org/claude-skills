@@ -22,6 +22,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for Managers: packs/ai-for-managers-pack/README.md
 - AI for Product Management: packs/ai-for-product-management-pack/README.md
 - AI for Project Management: packs/ai-for-project-management-pack/README.md
+- AI for Recruiting: packs/ai-for-recruiting-pack/README.md
 
 - [Workshop Pack](https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack): 7 skills for running workshops, offsites, and facilitated sessions that end in decisions — intention framing, agenda design, pre-work communications, facilitator run sheet, live capture of walls and transcripts, 48-hour synthesis, and the facilitation retro.
 
@@ -586,3 +587,38 @@ Made by Polar Bear, a people ops consultancy for teams of 20–200, founded by e
 - proj-project-closure-report: packs/ai-for-project-management-pack/skills/proj-project-closure-report/SKILL.md — Produces objectives versus results, acceptance, final cost and schedule, benefits owner, sign-off
 - proj-project-handover: packs/ai-for-project-management-pack/skills/proj-project-handover/SKILL.md — Produces acceptance status, open items, known issues, support period, receiver's confirmation
 - Reference: packs/ai-for-project-management-pack/resources/evidence-and-sources.md
+
+## AI for Recruiting: 31 Claude Skills
+- Pack: packs/ai-for-recruiting-pack/README.md
+- recruit-intake-meeting: packs/ai-for-recruiting-pack/skills/recruit-intake-meeting/SKILL.md — Produces question plan, profile calibration, must-have versus trainable list, one-page intake summary
+- recruit-job-scorecard: packs/ai-for-recruiting-pack/skills/recruit-job-scorecard/SKILL.md — Produces first-year outcomes, 4 to 6 criteria with evidence, where each is assessed
+- recruit-salary-range: packs/ai-for-recruiting-pack/skills/recruit-salary-range/SKILL.md — Produces proposed range from your evidence, where it appears, candidate lines, adviser questions
+- recruit-hiring-process: packs/ai-for-recruiting-pack/skills/recruit-hiring-process/SKILL.md — Produces stage map, maximum rounds, feedback deadlines, decision meeting date
+- recruit-candidate-communication-plan: packs/ai-for-recruiting-pack/skills/recruit-candidate-communication-plan/SKILL.md — Produces a promise per stage, the "no update yet" message, close-the-loop rule, keep-warm notes
+- recruit-interview-scheduling: packs/ai-for-recruiting-pack/skills/recruit-interview-scheduling/SKILL.md — Produces invitation with adjustments offer, confirmation, reminder, reschedule, apologies
+- recruit-rejection-email: packs/ai-for-recruiting-pack/skills/recruit-rejection-email/SKILL.md — Produces messages per stage, job-related feedback lines, finalist call script, calm reply
+- recruit-candidate-experience-survey: packs/ai-for-recruiting-pack/skills/recruit-candidate-experience-survey/SKILL.md — Produces 5 to 7 questions per stage, send timing, aggregate reading, fix list
+- recruit-job-description: packs/ai-for-recruiting-pack/skills/recruit-job-description/SKILL.md — Produces outcomes-first description, must-haves only, pay and adjustments lines, wording check
+- recruit-job-ad: packs/ai-for-recruiting-pack/skills/recruit-job-ad/SKILL.md — Produces hook, the real job with its hard parts, pay, rules up front, what happens next
+- recruit-employee-referral-program: packs/ai-for-recruiting-pack/skills/recruit-employee-referral-program/SKILL.md — Produces the ask to staff, good referral guide, bonus rules as placeholders, update loop
+- recruit-boolean-search: packs/ai-for-recruiting-pack/skills/recruit-boolean-search/SKILL.md — Produces synonym sets, strings for LinkedIn, X-ray and boards, broad and narrow versions, test log
+- recruit-talent-map: packs/ai-for-recruiting-pack/skills/recruit-talent-map/SKILL.md — Produces target companies and teams, adjacent titles, feeder fields, pool estimate
+- recruit-sourcing-strategy: packs/ai-for-recruiting-pack/skills/recruit-sourcing-strategy/SKILL.md — Produces channel mix, free routes, weekly targets, what to stop
+- recruit-recruiting-email-templates: packs/ai-for-recruiting-pack/skills/recruit-recruiting-email-templates/SKILL.md — Produces first message and two follow-ups from real facts, subject lines, InMail version
+- recruit-screening-questions: packs/ai-for-recruiting-pack/skills/recruit-screening-questions/SKILL.md — Produces evidence questions for the form, phone screen guide, work authorisation step for a person
+- recruit-star-interview-questions: packs/ai-for-recruiting-pack/skills/recruit-star-interview-questions/SKILL.md — Produces behavioural questions per criterion, STAR probes, situational questions, questions never to ask
+- recruit-structured-interview: packs/ai-for-recruiting-pack/skills/recruit-structured-interview/SKILL.md — Produces interview plan, who covers what, order, timing, note rules, adjustments
+- recruit-work-sample-test: packs/ai-for-recruiting-pack/skills/recruit-work-sample-test/SKILL.md — Produces a short task that mirrors the job, time limit, instructions, evidence guide
+- recruit-interview-scorecard: packs/ai-for-recruiting-pack/skills/recruit-interview-scorecard/SKILL.md — Produces blank form per interviewer, anchored evidence levels, notes space, no total
+- recruit-interview-debrief: packs/ai-for-recruiting-pack/skills/recruit-interview-debrief/SKILL.md — Produces agenda that collects scorecards first, criterion by criterion, decision record
+- recruit-reference-check: packs/ai-for-recruiting-pack/skills/recruit-reference-check/SKILL.md — Produces consent step, questions tied to criteria, probes, never-ask list, note template
+- recruit-offer-letter: packs/ai-for-recruiting-pack/skills/recruit-offer-letter/SKILL.md — Produces letter from approved terms, conditions, offer call script, clause list for an adviser
+- recruit-counter-offer: packs/ai-for-recruiting-pack/skills/recruit-counter-offer/SKILL.md — Produces pre-offer questions, resignation prep, honest counter-offer answers, keep-warm plan
+- recruit-business-development: packs/ai-for-recruiting-pack/skills/recruit-business-development/SKILL.md — Produces account list from hiring signals, one-page approach, first-call questions, four-touch plan
+- recruit-terms-of-business: packs/ai-for-recruiting-pack/skills/recruit-terms-of-business/SKILL.md — Produces plain explainer of fees, guarantee, introduction period, payment, adviser checklist
+- recruit-candidate-submittal: packs/ai-for-recruiting-pack/skills/recruit-candidate-submittal/SKILL.md — Produces consent record, facts against each criterion, pay, notice, availability, no fit score
+- recruit-client-search-update: packs/ai-for-recruiting-pack/skills/recruit-client-search-update/SKILL.md — Produces weekly activity, market feedback, proposed brief change, decisions by a date
+- recruit-recruiting-metrics: packs/ai-for-recruiting-pack/skills/recruit-recruiting-metrics/SKILL.md — Produces time to fill and hire, source, acceptance, pass-through, ageing with reasons
+- recruit-ai-recruiting-policy: packs/ai-for-recruiting-pack/skills/recruit-ai-recruiting-policy/SKILL.md — Produces allowed and banned uses, candidate notices, human review steps, adviser questions
+- recruit-interviewer-training: packs/ai-for-recruiting-pack/skills/recruit-interviewer-training/SKILL.md — Produces 45-minute session plan and a one-page cheat sheet
+- Reference: packs/ai-for-recruiting-pack/resources/evidence-and-sources.md

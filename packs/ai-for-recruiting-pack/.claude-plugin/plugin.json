@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-for-recruiting-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk: intake meetings, job scorecards, salary range briefs and hiring process plans, candidate communication plans, scheduling messages, rejection emails and candidate experience surveys, job descriptions, job ads and employee referral programs, Boolean search strings, talent maps, sourcing strategy and outreach emails, screening questions, STAR interview questions, structured interviews, work sample tests and interview scorecards, debriefs, reference checks, offer letters and counter-offer plans, agency business development, terms of business, candidate submittals and client search updates, recruiting metrics, an AI recruiting policy and interviewer training. Claude writes the search, the questions and the message, never the verdict.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+  },
+  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-recruiting-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "recruiting",
+    "talent-acquisition",
+    "hiring",
+    "recruiter",
+    "agency-recruiting",
+    "sourcing",
+    "boolean-search",
+    "structured-interview",
+    "interview-scorecard",
+    "job-description",
+    "candidate-experience",
+    "offer-letter",
+    "ai",
+    "people-ops"
+  ]
+}
