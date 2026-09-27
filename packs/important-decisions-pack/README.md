@@ -2,6 +2,8 @@
 
 **10 practical AI skills for founders and managers facing a choice that matters.** For agencies and professional-services teams of roughly 20–200, adaptable elsewhere.
 
+**Guide and download:** [meet-polar-bear.com/skills/important-decisions-pack](https://meet-polar-bear.com/skills/important-decisions-pack)
+
 Turn an unclear choice into real alternatives, visible trade-offs, honest uncertainty, and a decision someone can own. AI helps prepare and challenge your reasoning; you verify the facts and make the choice.
 
 ## Start in five minutes

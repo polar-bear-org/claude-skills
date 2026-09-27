@@ -2,6 +2,8 @@
 
 12 Claude skills for making the invisible ops of a design team explicit and runnable. For design leads, ops leads, and founders at design-driven firms of 20 to 200 people.
 
+**Guide and download:** [meet-polar-bear.com/skills/designops-pack](https://meet-polar-bear.com/skills/designops-pack)
+
 Map how your team actually works today, then write down the things that were only ever in someone's head: how critique runs, what a finished handoff contains, who decides on the design system, where files live, how a request gets a yes or a no, how much the team can take on, and how a new designer learns all of it. Each skill writes one standard and reads the ones before it, so by the end you hold a handbook your team wrote, not one you copied. Claude designs the rituals and keeps the records, but the critique stays human: no skill in this pack judges a design, scores a designer, or ranks anyone's work.
 
 ## Install

@@ -2,6 +2,8 @@
 
 **11 Claude Skills that run your annual performance review cycle.** No performance software, no per-seat fees.
 
+**Guide and download:** [meet-polar-bear.com/skills/review-cycle-pack](https://meet-polar-bear.com/skills/review-cycle-pack)
+
 The pack covers the whole cycle: planning it, building your growth matrix and review forms, self-reviews, manager conversations, growth memos, and the 1:1s that keep everything alive for the rest of the year. Claude structures the work and sharpens the language. The judgment about people stays with people.
 
 Made by Polar Bear, a people ops consultancy for human-size teams (20 to 200 people). Built by ex-McKinsey founders with a dream to make AI work for People, not instead of them. We design career frameworks and run review systems for our clients, and we run our own company on Claude. This pack is the free, self-serve version of how we work.

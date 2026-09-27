@@ -2,6 +2,8 @@
 
 **20 practical AI skills for founders and managers who want to do hard things with clarity and care.** Built by Polar Bear for teams of roughly 20–200, and adaptable to other workplaces.
 
+**Guide and download:** [meet-polar-bear.com/skills/compassionate-leadership-pack](https://meet-polar-bear.com/skills/compassionate-leadership-pack)
+
 Use this pack to prepare for feedback, conflict, underperformance, overload, grief, change, and exits—and to change the workplace conditions behind recurring problems. AI helps you prepare, rehearse, organize evidence, and follow through. Humans hear each other and make decisions.
 
 ## Start in five minutes

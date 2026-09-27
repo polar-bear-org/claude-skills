@@ -2,6 +2,8 @@
 
 32 Claude skills for running HR as a clear, fair process, from complaints and investigations to leave, pay bands and the handbook. For HR leads, HR business partners, HR generalists and people ops managers.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-hr-pack](https://meet-polar-bear.com/skills/ai-for-hr-pack)
+
 ## What this is
 
 The skills follow the HR week. First you run the desk: who owns what, the calendar, the compliance register, the audit and the dashboard. Then the work that hurts most: a complaint comes in, you choose the route, investigate and write up the facts. Performance and discipline, leave and absence, pay and levels, and policies follow, then the way people stay and leave, and the way they join. Each skill produces one artifact you can use the same day, and points to the skill to run next.

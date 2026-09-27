@@ -2,6 +2,8 @@
 
 12 Claude skills for teams to imagine their future, and act on it: signals of change into scenarios, scenarios into decisions. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/creative-futurology-pack](https://meet-polar-bear.com/skills/creative-futurology-pack)
+
 The arc in one breath: frame the question, scan for real signals, synthesize them into trends, sort the certainties from the uncertainties, build three or four constructed futures, make them tangible, run your strategy through them, turn what you learn into moves with owners and triggers, keep watching the signposts, and play the whole thing back to the people who decide. The pack's position, held in every skill: real, dated signals are not optional and no scenario is ever a forecast: Claude scans and drafts, the leadership team does the arguing and the choosing.
 
 ## Install

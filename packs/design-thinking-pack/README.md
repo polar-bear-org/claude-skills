@@ -2,6 +2,8 @@
 
 33 Claude skills for design thinking that ships. For the innovation, CX, and design consultants who carry a project from a fuzzy challenge to a tested, decision-ready concept.
 
+**Guide and download:** [meet-polar-bear.com/skills/design-thinking-pack](https://meet-polar-bear.com/skills/design-thinking-pack)
+
 The pack covers the whole arc: framing the challenge, preparing the research, making sense of what real people told you, defining the problem, shaping the ideas, testing them with real users, and landing the whole thing in front of the people who decide. One rule runs through all of it: Claude prepares and synthesizes, humans meet the users. No skill here replaces a single conversation with a real customer; every persona, insight, and finding in this pack is built from research with real people, and the pack will tell you when it's time to go talk to them.
 
 ---

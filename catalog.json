@@ -3,6 +3,7 @@
   "title": "Claude Skills — themed skill packs for Claude Code and Claude.ai",
   "description": "A marketplace of themed Claude Skill (Agent Skill) packs. Each pack bundles SKILL.md skills and shared reference files around one job to be done.",
   "repository": "https://github.com/polar-bear-org/claude-skills",
+  "homepage": "https://meet-polar-bear.com/skills",
   "marketplace": ".claude-plugin/marketplace.json",
   "install": {
     "claudeCode": [
@@ -18,6 +19,7 @@
       "name": "workshop-pack",
       "title": "The Workshop Pack",
       "path": "packs/workshop-pack",
+      "homepage": "https://meet-polar-bear.com/skills/workshop-pack",
       "version": "1.0.0",
       "description": "7 Claude Skills for workshops worth the room: intention framing, agenda design, pre-work, facilitator run sheet, live capture, 48-hour synthesis, and the facilitation retro.",
       "audience": [
@@ -130,6 +132,7 @@
       "name": "review-cycle-pack",
       "title": "The Annual Review Cycle Pack",
       "path": "packs/review-cycle-pack",
+      "homepage": "https://meet-polar-bear.com/skills/review-cycle-pack",
       "version": "1.0.0",
       "description": "11 Claude Skills that run an annual performance review cycle without performance software: cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1 prep, and the end-of-cycle retro.",
       "audience": [
@@ -346,6 +349,7 @@
       "name": "design-thinking-pack",
       "title": "The Design Thinking Pack",
       "path": "packs/design-thinking-pack",
+      "homepage": "https://meet-polar-bear.com/skills/design-thinking-pack",
       "version": "1.0.0",
       "description": "33 Claude Skills that carry a design project from a fuzzy challenge to a tested, decision-ready concept: framing, research prep, synthesis, problem definition, ideation, concept testing, and the stakeholder playback.",
       "audience": [
@@ -800,6 +804,7 @@
       "name": "onboarding-pack",
       "title": "The Onboarding Pack",
       "path": "packs/onboarding-pack",
+      "homepage": "https://meet-polar-bear.com/skills/onboarding-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills that carry a new hire from \"yes\" to day 90: the pre-boarding plan, the internal setup emails, the cultural brief, the welcome pack, the per-joiner checklist and dashboard, the team deck, the intro email, the first goals, the first week, and the joiner's own 90-day companion.",
       "audience": [
@@ -1016,6 +1021,7 @@
       "name": "design-sprint-pack",
       "title": "The Design Sprint Pack",
       "path": "packs/design-sprint-pack",
+      "homepage": "https://meet-polar-bear.com/skills/design-sprint-pack",
       "version": "1.0.0",
       "description": "13 Claude Skills for selling, running, and landing a design sprint: qualifying the ask, framing the challenge, casting the room, recruiting five testers, running map, target, sketch, decision, storyboard, prototype and Friday's interviews, and landing it on the Monday after.",
       "audience": [
@@ -1214,6 +1220,7 @@
       "name": "designops-pack",
       "title": "The DesignOps Pack",
       "path": "packs/designops-pack",
+      "homepage": "https://meet-polar-bear.com/skills/designops-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills for making the invisible ops of a design team explicit and runnable: mapping how the team works today, then writing the critique ritual, the handoff standard, design-system governance, file conventions, request intake, the capacity plan, a new designer's onboarding, and the handbook that holds them all.",
       "audience": [
@@ -1389,6 +1396,7 @@
       "name": "innovation-pack",
       "title": "The Innovation Pack",
       "path": "packs/innovation-pack",
+      "homepage": "https://meet-polar-bear.com/skills/innovation-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills for running an innovation program that tests real bets, kills most of them cheaply, and earns its next round of funding: chartering the program, designing gates that ask questions instead of handing out scores, keeping the innovation ledger, mapping the portfolio, framing challenges, running ideation, planning the discovery interviews, designing and reading experiments, preparing each gate review, writing the case for continued investment, and closing initiatives with dignity.",
       "audience": [
@@ -1564,6 +1572,7 @@
       "name": "employer-branding-pack",
       "title": "The Employer Branding Pack",
       "path": "packs/employer-branding-pack",
+      "homepage": "https://meet-polar-bear.com/skills/employer-branding-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills for an employer brand a joiner's first week does not disprove: the listening round, the peer-claims map, the evidence base, the EVP as Give and Get pairs, the careers page, the job ad, the realistic preview, a colleague's own post, a quarter of hiring content, measures that work at six hires a year, the first-weeks promise check, and the quarterly review.",
       "audience": [
@@ -1752,6 +1761,7 @@
       "name": "case-study-factory-pack",
       "title": "The Case Study Factory Pack",
       "path": "packs/case-study-factory-pack",
+      "homepage": "https://meet-polar-bear.com/skills/case-study-factory-pack",
       "version": "1.0.0",
       "description": "10 Claude Skills for turning one thirty-minute interview about a delivered project into a case study in every format: the source file, the short web case, the long read, the one-pager and two-pager as real PowerPoint files, the credentials slide, the LinkedIn posts, the award entry, the proposal paragraph, and the video script.",
       "audience": [
@@ -1923,6 +1933,7 @@
       "name": "proposals-pack",
       "title": "The Proposals Pack",
       "path": "packs/proposals-pack",
+      "homepage": "https://meet-polar-bear.com/skills/proposals-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx: the firm context file, the brief that separates facts from assumptions, the storyline as action titles, the context, market, problem, vision, approach, team and investment sections, the deck build on your template, and the review from the client's chair.",
       "audience": [
@@ -2131,6 +2142,7 @@
       "name": "creative-futurology-pack",
       "title": "The Creative Futurology Pack",
       "path": "packs/creative-futurology-pack",
+      "homepage": "https://meet-polar-bear.com/skills/creative-futurology-pack",
       "version": "1.0.0",
       "description": "12 Claude Skills for teams to imagine their future and act on it, carrying signals of change into scenarios and scenarios into decisions: the focal question and the engagement brief, the sourced signal scan, the trend synthesis with an evidence grade, the uncertainty map and the scenario axes, three or four constructed futures, the artifacts that make them tangible, the strategy wind tunnel, the roadmap of no-regret moves, options and big bets, the signposts and the quarterly re-scan, the publishable trend report, the scenario workshop, and the leadership playback.",
       "audience": [
@@ -2347,7 +2359,6 @@
         "name": "Polar Bear",
         "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://meet-polar-bear.com/skills/compassionate-leadership-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "keywords": [
@@ -2362,6 +2373,7 @@
       ],
       "title": "Compassionate Leadership Pack",
       "path": "packs/compassionate-leadership-pack",
+      "homepage": "https://meet-polar-bear.com/skills/compassionate-leadership-pack",
       "audience": [
         "founders",
         "managers"
@@ -2572,6 +2584,7 @@
       "name": "employee-experience-pack",
       "title": "10 Skills for Employee Experience",
       "path": "packs/employee-experience-pack",
+      "homepage": "https://meet-polar-bear.com/skills/employee-experience-pack",
       "version": "1.0.0",
       "description": "Listen to employees, find friction in the work, and turn feedback into changes people can see.",
       "audience": [
@@ -2702,6 +2715,7 @@
       "name": "team-performance-pack",
       "title": "10 Skills for Team Performance",
       "path": "packs/team-performance-pack",
+      "homepage": "https://meet-polar-bear.com/skills/team-performance-pack",
       "version": "1.0.0",
       "description": "Run useful retrospectives, agree team norms, and improve coordination in everyday work.",
       "audience": [
@@ -2832,6 +2846,7 @@
       "name": "stakeholder-relationships-pack",
       "title": "10 Skills for Stakeholder Relationships",
       "path": "packs/stakeholder-relationships-pack",
+      "homepage": "https://meet-polar-bear.com/skills/stakeholder-relationships-pack",
       "version": "1.0.0",
       "description": "Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship.",
       "audience": [
@@ -2962,6 +2977,7 @@
       "name": "failures-and-mistakes-pack",
       "title": "8 Skills for Failures and Mistakes",
       "path": "packs/failures-and-mistakes-pack",
+      "homepage": "https://meet-polar-bear.com/skills/failures-and-mistakes-pack",
       "version": "1.0.0",
       "description": "Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures.",
       "audience": [
@@ -3074,6 +3090,7 @@
       "name": "delegation-pack",
       "title": "10 Skills for Delegation",
       "path": "packs/delegation-pack",
+      "homepage": "https://meet-polar-bear.com/skills/delegation-pack",
       "version": "1.0.0",
       "description": "Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back.",
       "audience": [
@@ -3204,6 +3221,7 @@
       "name": "ways-of-working-change-pack",
       "title": "10 Skills for Changing Ways of Working",
       "path": "packs/ways-of-working-change-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ways-of-working-change-pack",
       "version": "1.0.0",
       "description": "Define a behavior change, understand barriers, involve the team, and learn from a practical pilot.",
       "audience": [
@@ -3334,6 +3352,7 @@
       "name": "disagreements-pack",
       "title": "10 Skills for Handling Disagreements",
       "path": "packs/disagreements-pack",
+      "homepage": "https://meet-polar-bear.com/skills/disagreements-pack",
       "version": "1.0.0",
       "description": "Clarify a disagreement, understand the other view, test options, and reach a decision people can work with.",
       "audience": [
@@ -3468,6 +3487,7 @@
       "name": "top-priorities-pack",
       "title": "10 Skills to Make Time for Your Top Priorities",
       "path": "packs/top-priorities-pack",
+      "homepage": "https://meet-polar-bear.com/skills/top-priorities-pack",
       "version": "1.0.0",
       "description": "Clarify priorities, confront capacity, protect focused time, and renegotiate commitments.",
       "audience": [
@@ -3602,6 +3622,7 @@
       "name": "important-decisions-pack",
       "title": "10 Skills for Important Decisions",
       "path": "packs/important-decisions-pack",
+      "homepage": "https://meet-polar-bear.com/skills/important-decisions-pack",
       "version": "1.0.0",
       "description": "Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind.",
       "audience": [
@@ -3736,6 +3757,7 @@
       "name": "ai-psychological-safety-pack",
       "title": "6 Skills for AI and Psychological Safety",
       "path": "packs/ai-psychological-safety-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-psychological-safety-pack",
       "version": "1.0.0",
       "description": "Clarify a concern, question a proposed decision, rehearse speaking up, invite disagreement, prepare a response, and follow through.",
       "audience": [
@@ -3836,6 +3858,7 @@
       "name": "ai-for-customer-service-pack",
       "title": "AI for Customer Service: 32 Claude Skills",
       "path": "packs/ai-for-customer-service-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-customer-service-pack",
       "version": "1.0.0",
       "description": "32 skills for running a support desk, from the hard reply to the bot handoff: hard conversations, workload and staffing, roles, metrics and coaching, escalations and incidents, learning from tickets, answers and knowledge, service design, and AI and bots, safely.",
       "audience": [
@@ -4161,6 +4184,7 @@
       "name": "ai-for-hr-pack",
       "title": "AI for HR: 32 Claude Skills",
       "path": "packs/ai-for-hr-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-hr-pack",
       "version": "1.0.0",
       "description": "32 skills for running HR as a clear, fair process, from complaints and investigations to leave, pay bands and the handbook: the HR desk, complaints and investigations, performance and discipline, leave and absence, pay and levels, policies and the handbook, stay and leave, and join.",
       "audience": [
@@ -4486,6 +4510,7 @@
       "name": "ai-for-managers-pack",
       "title": "AI for Managers: 31 Claude Skills",
       "path": "packs/ai-for-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-managers-pack",
       "version": "1.0.0",
       "description": "31 skills for running a team, from the first 1:1 to the hard conversation: the hard conversation, stepping into the role, delegating and letting go, protecting the team's capacity, managing up and through change, the team's rhythm, setting direction, and coaching and growing people.",
       "audience": [
@@ -4802,6 +4827,7 @@
       "name": "ai-for-product-management-pack",
       "title": "AI for Product Management: 31 Claude Skills",
       "path": "packs/ai-for-product-management-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-product-management-pack",
       "version": "1.0.0",
       "description": "31 skills for deciding what to build, what to drop and whether it worked: prioritising and saying no, setting direction, discovering what customers need, defining the work, deciding and aligning, launching, and measuring and learning.",
       "audience": [
@@ -5118,6 +5144,7 @@
       "name": "ai-for-project-management-pack",
       "title": "AI for Project Management: 31 Claude Skills",
       "path": "packs/ai-for-project-management-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-project-management-pack",
       "version": "1.0.0",
       "description": "31 skills for running a project from charter to clean handover: starting the project, stopping scope creep, estimating and scheduling, catching risks early, getting decisions made, running the delivery rhythm, reporting honestly, and closing well.",
       "audience": [
@@ -5434,6 +5461,7 @@
       "name": "ai-for-recruiting-pack",
       "title": "AI for Recruiting: 31 Claude Skills",
       "path": "packs/ai-for-recruiting-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-recruiting-pack",
       "version": "1.0.0",
       "description": "31 skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk: briefing the role, keeping candidates in the loop, attracting applicants, sourcing and reaching out, screening and interviewing on the same criteria for everyone, deciding and closing, the agency desk, and running the desk.",
       "audience": [
@@ -5750,6 +5778,7 @@
       "name": "ai-for-training-pack",
       "title": "AI for L&D and Corporate Training: 30 Claude Skills",
       "path": "packs/ai-for-training-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-training-pack",
       "version": "1.0.0",
       "description": "30 skills for L&D and corporate training, from the first training request to proof of what changed: finding the real need, getting it out of the experts, designing the programme, building the materials, delivering it live, making it stick, proving what changed, and running the L&D desk.",
       "audience": [

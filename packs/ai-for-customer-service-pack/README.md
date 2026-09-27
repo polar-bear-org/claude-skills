@@ -2,6 +2,8 @@
 
 32 Claude skills for running a support desk, from the hard reply to the bot handoff. For support leads, customer service managers, support agents and customer success managers.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-customer-service-pack](https://meet-polar-bear.com/skills/ai-for-customer-service-pack)
+
 ## What this is
 
 The pack follows the work of a support desk in one arc. It starts with the hardest moment, an upset or abusive customer, then covers the team behind the queue (staffing, workload, handover), the roles and metrics that decide who gets blamed, the escalations and incidents that cross into other teams, what the tickets teach you, the answers and knowledge that stop repeat work, the design of the service itself, and finally how to add AI and bots without trapping anyone. Each skill is one named method or one artifact, works from a pasted ticket, policy or export, and ends with a decision a named person makes.

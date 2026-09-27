@@ -5,9 +5,9 @@
   "description": "Six practical skills to clarify concerns, test decisions, practise speaking up, and help leaders respond and follow through. Includes portable prompts.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-psychological-safety-pack",
+  "homepage": "https://meet-polar-bear.com/skills/ai-psychological-safety-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

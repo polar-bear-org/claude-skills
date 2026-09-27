@@ -2,6 +2,8 @@
 
 12 Claude skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/proposals-pack](https://meet-polar-bear.com/skills/proposals-pack)
+
 Something arrives: an RFP, an email, a founder's notes after a call. You turn it into a brief with what is known and what is assumed, write the storyline as slide titles before any content, draft each section in the client's language, assemble the deck, and read it back from the client's chair. Claude writes the slides, people own the facts: every claim about the client, the market, or a number comes from the brief or a named source or is marked as an assumption to verify, and what the firm promises and charges is a person's call.
 
 ## Install

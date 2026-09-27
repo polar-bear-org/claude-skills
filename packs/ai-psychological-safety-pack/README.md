@@ -2,6 +2,8 @@
 
 **Six practical AI skills to help people raise concerns and leaders respond thoughtfully.** By [Polar Bear](https://meet-polar-bear.com).
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-psychological-safety-pack](https://meet-polar-bear.com/skills/ai-psychological-safety-pack)
+
 Use AI to clarify a concern, question a proposed decision, rehearse speaking up, invite disagreement, prepare a response, and follow through. Designed for founders, managers, and colleagues in agencies and professional-services teams, and adaptable elsewhere.
 
 AI helps prepare the work. People choose what to share, hear each other, check the facts, and make the decisions.

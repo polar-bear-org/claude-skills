@@ -2,6 +2,8 @@
 
 10 Claude skills for turning one interview about a delivered project into a case study in every format you need. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/case-study-factory-pack](https://meet-polar-bear.com/skills/case-study-factory-pack)
+
 You sit down for thirty minutes with the person who ran the project, and the pack turns that conversation into a source file. From that one file it writes the short web case and the long read, builds the one-pager and the two-pager as real PowerPoint files, drops a slide into your credentials deck, writes the LinkedIn posts, fits the award entry to the form, writes the paragraph for your next proposal, and scripts the short video. One line holds it together: **every case starts with a real interview and every number is the client's number with a named person behind it: Claude writes every format, it never supplies the experience.** Getting the client's permission to publish is your job and your relationship; the pack reminds you once and never pretends to have done it for you.
 
 ## Install

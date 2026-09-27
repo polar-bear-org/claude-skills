@@ -5,9 +5,9 @@
   "description": "The Proposals Pack: 12 Claude Skills for writing a proposal deck the client can decide from, section by section, from an RFP or from your team's own notes, ending in a .pptx. Write your firm context once, turn whatever arrived into a brief that separates facts from assumptions, write the storyline as action titles before any content, draft context, market, problem, vision, approach, team and investment in the client's language, assemble the deck on your template, and read it back from the client's chair. Every claim comes from the brief or a named source or is marked as an assumption to verify.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack",
+  "homepage": "https://meet-polar-bear.com/skills/proposals-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

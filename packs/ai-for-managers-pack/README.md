@@ -2,6 +2,8 @@
 
 31 Claude skills for running a team, from the first 1:1 to the hard conversation. For people managers and team leads, first-time and experienced.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-managers-pack](https://meet-polar-bear.com/skills/ai-for-managers-pack)
+
 ## What this is
 
 The skills follow a manager's real week, starting where it hurts most. You prepare the conversation you keep putting off, step into the role, delegate and let go, protect the team's capacity, manage up and through change, run the team's rhythm, set direction, and coach and grow your people. Each skill is one named method or one artifact you walk away with: a prep sheet, a 1:1 agenda, a delegation board, a capacity case, a decision record, a development plan.

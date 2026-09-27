@@ -5,9 +5,9 @@
   "description": "The Case Study Factory Pack: 10 Claude Skills for turning one thirty-minute interview about a delivered project into a case study in every format you need. Run the interview and write the source file, then write the short web case and the long read, build the one-pager and the two-pager as real PowerPoint files, drop a slide into the credentials deck, write the LinkedIn posts, fit the award entry to the form, write the proposal paragraph, and script the short video. Every number is the client's number with a named person behind it.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/case-study-factory-pack",
+  "homepage": "https://meet-polar-bear.com/skills/case-study-factory-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

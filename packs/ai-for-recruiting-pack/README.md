@@ -2,6 +2,8 @@
 
 31 Claude skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk. For recruiters, talent acquisition partners, sourcers and agency recruiters.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-recruiting-pack](https://meet-polar-bear.com/skills/ai-for-recruiting-pack)
+
 ## What this is
 
 The pack follows a search from start to finish. You brief the role with the hiring manager, keep candidates informed at every stage, attract the right applicants, source and reach out, screen and interview on the same criteria for everyone, then decide and close the offer. Agency recruiters get a desk of their own for winning clients, agreeing terms, presenting candidates and reporting on a search. The last domain runs the desk: the numbers, the rules for AI, and the interviewers.

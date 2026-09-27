@@ -5,9 +5,9 @@
   "description": "The Design Thinking Pack: 33 Claude Skills for carrying a design project from a fuzzy challenge to a tested, decision-ready concept. Frame the challenge, prepare and synthesize the research, define the problem, shape and stress-test the concepts, and land the recommendation with the people who decide.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-thinking-pack",
+  "homepage": "https://meet-polar-bear.com/skills/design-thinking-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

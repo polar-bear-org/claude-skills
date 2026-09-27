@@ -2,6 +2,8 @@
 
 **Eight practical AI skills to contain mistakes, take responsibility, investigate conditions, and test prevention.** For founders and managers in agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/failures-and-mistakes-pack](https://meet-polar-bear.com/skills/failures-and-mistakes-pack)
+
 Use a real incident or near miss. Leave with a response, timeline, repair plan, or tested change. This pack addresses a specific failure; use a team-performance pack for recurring retrospectives and working agreements.
 
 ## Start in five minutes

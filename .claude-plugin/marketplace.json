@@ -3,7 +3,7 @@
   "name": "polar-bear-skills",
   "owner": {
     "name": "Polar Bear",
-    "url": "https://github.com/polar-bear-org"
+    "url": "https://meet-polar-bear.com"
   },
   "metadata": {
     "description": "Themed packs of Claude Skills (Agent Skills) for Claude Code and Claude.ai. Each pack is an installable plugin bundling SKILL.md skills and shared reference files around one job to be done.",
@@ -17,9 +17,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack",
+      "homepage": "https://meet-polar-bear.com/skills/workshop-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -43,9 +43,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack",
+      "homepage": "https://meet-polar-bear.com/skills/review-cycle-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -71,9 +71,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-thinking-pack",
+      "homepage": "https://meet-polar-bear.com/skills/design-thinking-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -99,9 +99,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/onboarding-pack",
+      "homepage": "https://meet-polar-bear.com/skills/onboarding-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -127,9 +127,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/design-sprint-pack",
+      "homepage": "https://meet-polar-bear.com/skills/design-sprint-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -155,9 +155,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/designops-pack",
+      "homepage": "https://meet-polar-bear.com/skills/designops-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -183,9 +183,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/innovation-pack",
+      "homepage": "https://meet-polar-bear.com/skills/innovation-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -211,9 +211,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/employer-branding-pack",
+      "homepage": "https://meet-polar-bear.com/skills/employer-branding-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -239,9 +239,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/case-study-factory-pack",
+      "homepage": "https://meet-polar-bear.com/skills/case-study-factory-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -267,9 +267,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack",
+      "homepage": "https://meet-polar-bear.com/skills/proposals-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -297,9 +297,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack",
+      "homepage": "https://meet-polar-bear.com/skills/creative-futurology-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -350,7 +350,8 @@
       "description": "Listen to employees, find friction in the work, and turn feedback into changes people can see.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/employee-experience-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -375,7 +376,8 @@
       "description": "Run useful retrospectives, agree team norms, and improve coordination in everyday work.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/team-performance-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -400,7 +402,8 @@
       "description": "Understand recurring stakeholder friction, prepare a repair conversation, and agree a more workable relationship.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/stakeholder-relationships-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -425,7 +428,8 @@
       "description": "Respond to mistakes, understand what happened, take responsibility, and test changes that reduce repeat failures.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/failures-and-mistakes-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -450,7 +454,8 @@
       "description": "Choose what to delegate, agree outcomes and decision rights, and support progress without taking the work back.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/delegation-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -475,7 +480,8 @@
       "description": "Define a behavior change, understand barriers, involve the team, and learn from a practical pilot.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/ways-of-working-change-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -500,7 +506,8 @@
       "description": "Clarify a disagreement, understand the other view, test options, and reach a decision people can work with.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/disagreements-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -525,7 +532,8 @@
       "description": "Clarify priorities, confront capacity, protect focused time, and renegotiate commitments.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/top-priorities-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -550,7 +558,8 @@
       "description": "Frame a consequential choice, compare options, challenge assumptions, and record what would change your mind.",
       "version": "1.0.0",
       "author": {
-        "name": "Polar Bear"
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
       },
       "homepage": "https://meet-polar-bear.com/skills/important-decisions-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
@@ -576,9 +585,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-psychological-safety-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-psychological-safety-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -603,9 +612,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-customer-service-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-customer-service-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -633,9 +642,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-hr-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-hr-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -663,9 +672,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-managers-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -693,9 +702,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-product-management-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-product-management-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -723,9 +732,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-project-management-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-project-management-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -753,9 +762,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-recruiting-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-recruiting-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",
@@ -783,9 +792,9 @@
       "version": "1.0.0",
       "author": {
         "name": "Polar Bear",
-        "url": "https://github.com/polar-bear-org"
+        "url": "https://meet-polar-bear.com"
       },
-      "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/ai-for-training-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-for-training-pack",
       "repository": "https://github.com/polar-bear-org/claude-skills",
       "license": "LicenseRef-PolarBear-Internal-Use",
       "category": "productivity",

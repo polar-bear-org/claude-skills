@@ -2,6 +2,8 @@
 
 13 Claude skills for selling, running, and landing a design sprint. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/design-sprint-pack](https://meet-polar-bear.com/skills/design-sprint-pack)
+
 The arc is one breath: work out whether a sprint is even the right tool, frame the challenge, cast the room, book five real testers, then run the week from map to target to sketch to decision to storyboard to prototype to Friday's five conversations, and land the whole thing on the Monday after, which is the part every sprint book skips. Through all of it, one line holds: **a sprint buys a decision people will defend on Monday, not a document. Ideas can come from anywhere, including Claude; the vote, the Decider's call, and the five real conversations stay human.** Claude will happily generate concepts for the wall on sketch day, and they compete on the same heat map as everyone else's. What they cannot do is win unadopted: if a machine concept draws heat, a person has to put their name on it before it reaches the vote, because a concept whose only defender is a file will not survive the meeting where it costs something. Ideas are cheap. Commitment is what the client is buying.
 
 Everything the week needs is in this pack, including the room craft. Nothing here depends on another pack being installed.

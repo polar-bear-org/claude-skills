@@ -2,6 +2,8 @@
 
 31 Claude skills for deciding what to build, what to drop and whether it worked. For product managers, product owners and heads of product.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-product-management-pack](https://meet-polar-bear.com/skills/ai-for-product-management-pack)
+
 ## What this is
 
 The pack follows the product job from the inbox to the review after launch. It starts where the week starts, with requests you have to sort and say no to. Then it sets direction (vision, strategy, north star, OKRs, roadmap), goes out to customers (interviews, synthesis, jobs, opportunity trees, assumptions), writes the work down (PR/FAQ, prototype brief, PRD, story map, user stories), gets a decision that sticks, prepares sales, support and marketing for launch, and checks what the release actually changed. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.

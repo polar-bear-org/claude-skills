@@ -2,6 +2,8 @@
 
 <One paragraph: what this pack is, who it is for, and what changes for them once it is installed. Written for a stranger who found this from a search result.>
 
+**Guide and download:** [meet-polar-bear.com/skills/<slug>](https://meet-polar-bear.com/skills/<slug>)
+
 The pack covers <the arc, step by step, so the reader sees it is a workflow and not a bag of prompts>. Claude does <what Claude does>. Humans do <what stays human>.
 
 ---

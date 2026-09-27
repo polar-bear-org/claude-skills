@@ -2,6 +2,8 @@
 
 **Ten practical AI skills to hand over useful work with clear outcomes, real authority, and enough support.** For founders and managers in agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/delegation-pack](https://meet-polar-bear.com/skills/delegation-pack)
+
 Use this pack when you keep doing everything yourself, a handoff keeps bouncing back, or delegated responsibility is becoming extra work without the power to act. You leave with briefs, capacity decisions, decision maps, conversation guides, and recovery plans. People agree the work and make the decisions.
 
 ## Start in five minutes

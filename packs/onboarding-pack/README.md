@@ -2,6 +2,8 @@
 
 12 Claude skills that carry a new hire from "yes" to day 90. For the founders, HR leads, and hiring managers who want a joiner's first weeks to feel designed, not improvised.
 
+**Guide and download:** [meet-polar-bear.com/skills/onboarding-pack](https://meet-polar-bear.com/skills/onboarding-pack)
+
 The pack covers the whole journey: the 10-day pre-boarding plan, the internal emails that get IT and finance moving, the cultural brief, the welcome pack worth keeping, the checklist that catches what's falling through, the team deck, the intro email, the first goals, and the joiner's own first-90 companion. One rule runs through all of it: Claude prepares and keeps track, humans welcome. No skill replaces the manager's first conversation, the team's hello, or the lunch on day one; it makes sure nothing around those moments falls through the cracks.
 
 ---

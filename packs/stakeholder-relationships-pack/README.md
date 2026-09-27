@@ -2,6 +2,8 @@
 
 **10 practical AI skills for founders and managers who need to work well with clients, sponsors, partners and other teams over time.** Built for agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/stakeholder-relationships-pack](https://meet-polar-bear.com/skills/stakeholder-relationships-pack)
+
 Turn repeated friction into a clearer understanding of the work, a realistic commitment, or a boundary people can use. You leave with drafts to discuss and agreements to verify with the people involved.
 
 ## Start in five minutes

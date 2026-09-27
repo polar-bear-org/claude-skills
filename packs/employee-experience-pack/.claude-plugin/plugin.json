@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Listen to employees, locate everyday work friction, choose fair improvements, and close the feedback loop.",
   "author": {
-    "name": "Polar Bear"
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
   },
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

@@ -2,6 +2,8 @@
 
 30 Claude skills for L&D work, from the first training request to proof of what changed. For L&D leads, instructional designers and corporate trainers.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-training-pack](https://meet-polar-bear.com/skills/ai-for-training-pack)
+
 ## What this is
 
 The skills follow the job in the order it happens. You find the real need before anyone says "course", get the know-how out of the experts, design the programme, build the materials, deliver it live, make it stick back at work, prove what changed, and run the L&D desk with the time and budget you actually have. Each skill is one named method or one artifact, with a fixed output you can hand to a sponsor, an SME or a trainer.

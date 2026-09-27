@@ -5,9 +5,9 @@
   "description": "The Workshop Pack: 7 Claude Skills for workshops worth the room. Frame the intention, design the agenda, write the pre-work, build the facilitator run sheet, capture the walls, ship the synthesis in 48 hours, and run the retro.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/workshop-pack",
+  "homepage": "https://meet-polar-bear.com/skills/workshop-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

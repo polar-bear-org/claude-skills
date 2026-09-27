@@ -2,6 +2,8 @@
 
 31 Claude skills for running a project from charter to clean handover, with honest status and dates the team commits to. For project, delivery and programme managers, and the PMO leads who support them.
 
+**Guide and download:** [meet-polar-bear.com/skills/ai-for-project-management-pack](https://meet-polar-bear.com/skills/ai-for-project-management-pack)
+
 ## What this is
 
 The skills follow the life of a project. You start it with a charter, a kickoff and an agreed scope, then stop scope creep with change control and hard priorities. You estimate and schedule in ranges, catch risks while they are still cheap, and get decisions made by the people who own them. You run the delivery rhythm without process theatre, report status that means something, and close well: lessons that change the next project, a closure report and a handover that sticks.

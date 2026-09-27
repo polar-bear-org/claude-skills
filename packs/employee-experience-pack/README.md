@@ -2,6 +2,8 @@
 
 **10 practical AI skills to listen to employees, improve everyday work, and show what happened next.** For founders and managers in agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/employee-experience-pack](https://meet-polar-bear.com/skills/employee-experience-pack)
+
 Find the friction in normal work: confusing handoffs, avoidable waiting, inaccessible processes, uneven workloads, and feedback that never receives a response. This pack focuses on the listening-to-action cycle. Use the existing onboarding and review packs for those specialist processes.
 
 ## Start in five minutes

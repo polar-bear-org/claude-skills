@@ -2,6 +2,8 @@
 
 12 Claude skills for an employer brand your first week does not disprove. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/employer-branding-pack](https://meet-polar-bear.com/skills/employer-branding-pack)
+
 The pack runs one loop: listen to the people who already work here, distill what they say into a promise you can keep, tell it on a careers page and in job ads that help the wrong people not apply, then test the promise against a joiner's first weeks and correct whatever broke. Every claim about working here needs a living witness: a current colleague said it or a founder signs it, AI never invents the witness, and nobody is quoted who hasn't approved the quote.
 
 ## Install

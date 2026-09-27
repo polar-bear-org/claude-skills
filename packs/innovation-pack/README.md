@@ -2,6 +2,8 @@
 
 12 Claude skills for running an innovation program that tests real bets, kills most of them cheaply, and earns its next round of funding. For consultants, leads, and founders at 20 to 200 person creative and digital firms.
 
+**Guide and download:** [meet-polar-bear.com/skills/innovation-pack](https://meet-polar-bear.com/skills/innovation-pack)
+
 The pack runs the whole arc: charter the program, design gates that ask questions instead of handing out scores, keep an innovation ledger, map the portfolio, frame challenges, run ideation sessions, plan the customer interviews, design and read experiments, prepare each gate review, write the case for continued investment, and close initiatives with dignity. One position holds it together: evidence comes from the market and decisions come from named humans. Claude designs the test and keeps the ledger, but it never simulates a customer, scores an idea, or makes the kill call.
 
 ## Install

@@ -2,6 +2,8 @@
 
 **7 Claude Skills for workshops worth the room.** For facilitators, consultants, and founders who run sessions where something has to actually get decided, invented, or moved.
 
+**Guide and download:** [meet-polar-bear.com/skills/workshop-pack](https://meet-polar-bear.com/skills/workshop-pack)
+
 The pack covers the whole arc: framing the intention, designing the agenda, prepping the room, running from a real run sheet, capturing what the room produced, turning it into synthesis within 48 hours, and learning from every session. Claude designs and captures. Humans facilitate. No skill here runs the room or replaces the craft of standing in front of people; it takes everything around that craft off your plate.
 
 ---

@@ -51,7 +51,7 @@ Naming: lowercase with hyphens, theme first — `workshop-pack`, `review-cycle-p
 
 **Add the shared files.** Anything several skills read goes in `resources/` or `templates/` — see [section 6](#6-resources-vs-templates).
 
-**Write the pack README.** The template has the skeleton. It is a landing page for a stranger who arrived from a search result: what the pack is, who it is for, install commands, a table of skills with concrete verbs, a table of the shared files, and what to run first.
+**Write the pack README.** The template has the skeleton. It is a landing page for a stranger who arrived from a search result: what the pack is, who it is for, install commands, a table of skills with concrete verbs, a table of the shared files, and what to run first. Directly under the H1 and its one-line intro, it carries the website-page line: `**Guide and download:** [meet-polar-bear.com/skills/<slug>](https://meet-polar-bear.com/skills/<slug>)`, with `<slug>` being the pack folder name. The template already has it.
 
 **Register, verify, publish** — [section 7](#7-register-the-pack) and [section 8](#8-verify-before-you-push).
 
@@ -209,8 +209,8 @@ Four files outside the pack folder. Miss one and the pack works but nobody finds
   "source": "./packs/hiring-pack",
   "description": "…",
   "version": "1.0.0",
-  "author": { "name": "Polar Bear", "url": "https://github.com/polar-bear-org" },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/hiring-pack",
+  "author": { "name": "Polar Bear", "url": "https://meet-polar-bear.com" },
+  "homepage": "https://meet-polar-bear.com/skills/hiring-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "category": "productivity",
@@ -218,11 +218,13 @@ Four files outside the pack folder. Miss one and the pack works but nobody finds
 }
 ```
 
-**`catalog.json`** — the pack, its shared files, and every skill with its trigger phrases. This is the machine-readable index AI assistants read when someone asks "is there a skill for X".
+`homepage` is always the pack's page on the website, `https://meet-polar-bear.com/skills/<slug>`, not the GitHub folder, and `author.url` is `https://meet-polar-bear.com`. Use the same two values in the pack's own `plugin.json`.
 
-**Root `README.md`** — a row in the packs table, a section in the skill index, and a keyword or two in the footer. Add an FAQ entry if the pack answers a question people actually search ("do I need performance review software?").
+**`catalog.json`** — the pack, its `homepage` (the website page, next to `path`), its shared files, and every skill with its trigger phrases. This is the machine-readable index AI assistants read when someone asks "is there a skill for X".
 
-**`llms.txt`** — a line under `## Packs`, a block under `## Skills`, and the shared files under `## Reference`.
+**Root `README.md`** — a row in the packs table (with its Guide link to the website page), updated pack and skill counts in the opening line, a section in the skill index, and a keyword or two in the footer. Add an FAQ entry if the pack answers a question people actually search ("do I need performance review software?").
+
+**`llms.txt`** — a line under `## Packs` (title, skill count, one-line description, website page, README path), a block under `## Skills`, and the shared files under `## Reference`.
 
 Two audiences find these packs and they read different files. Humans and search engines read the READMEs, so give each pack a plain-language heading that names the job, tables over prose, and a real install snippet. AI assistants read `catalog.json`, `llms.txt`, and the skill frontmatter, so keep the skill names, install commands, and trigger phrases exact there.
 

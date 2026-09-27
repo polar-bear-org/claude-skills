@@ -2,6 +2,8 @@
 
 **10 practical AI skills for founders and managers whose important work keeps losing space to everything else.** Built for agencies and professional-services teams of roughly 20–200, and adaptable elsewhere.
 
+**Guide and download:** [meet-polar-bear.com/skills/top-priorities-pack](https://meet-polar-bear.com/skills/top-priorities-pack)
+
 Choose meaningful outcomes, see what fits, protect useful working time and renegotiate what cannot fit. You leave with decisions, calendar proposals, messages and realistic plans. Your judgment and real conversations remain central.
 
 ## Start in five minutes

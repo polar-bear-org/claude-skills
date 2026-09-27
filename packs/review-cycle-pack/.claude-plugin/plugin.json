@@ -5,9 +5,9 @@
   "description": "The Annual Review Cycle Pack: 11 Claude Skills that run a performance review cycle without performance software. Cycle planning, growth matrix, review forms, self-reviews, manager growth memos, 1:1s, and the end-of-cycle retro.",
   "author": {
     "name": "Polar Bear",
-    "url": "https://www.linkedin.com/company/polar-bear-people-ops/"
+    "url": "https://meet-polar-bear.com"
   },
-  "homepage": "https://github.com/polar-bear-org/claude-skills/tree/main/packs/review-cycle-pack",
+  "homepage": "https://meet-polar-bear.com/skills/review-cycle-pack",
   "repository": "https://github.com/polar-bear-org/claude-skills",
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [

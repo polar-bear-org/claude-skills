@@ -2,6 +2,8 @@
 
 **10 practical AI skills for founders and managers who need to work through a specific disagreement and move forward fairly.** Built for agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/disagreements-pack](https://meet-polar-bear.com/skills/disagreements-pack)
+
 Separate contested facts from priorities, hear the other view, make a clear objection, explore trade-offs and close a decision without pretending everyone agrees. Use this for one bounded issue; persistent stakeholder friction may need a broader relationship review.
 
 ## Start in five minutes

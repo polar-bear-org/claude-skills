@@ -2,6 +2,8 @@
 
 **10 practical AI skills for changing how work gets done, from a concrete behavior to a tested rollout.** For founders and managers in agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/ways-of-working-change-pack](https://meet-polar-bear.com/skills/ways-of-working-change-pack)
+
 Use this for a new intake process, delivery workflow, approval step or tool-enabled practice. You leave with usable change briefs, barrier checks, pilot plans and decisions supported by evidence. Routine team agreements and retrospectives belong in the Team Performance Pack; this pack handles introducing, testing and sustaining a different way of working.
 
 ## Start in five minutes

@@ -2,6 +2,8 @@
 
 **10 practical AI skills for better retrospectives, team norms and ways of working.** Built for founders and managers in agencies and professional-services teams of roughly 20–200.
 
+**Guide and download:** [meet-polar-bear.com/skills/team-performance-pack](https://meet-polar-bear.com/skills/team-performance-pack)
+
 Turn delivery friction into a clear working agreement, a useful conversation and a small test. Start with one actual team and one problem. This pack focuses on collective work processes; it does not assess individual performance.
 
 ## Start in five minutes

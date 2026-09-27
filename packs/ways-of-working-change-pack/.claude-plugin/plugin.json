@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Define, test, support and evaluate changes to the way work gets done.",
   "author": {
-    "name": "Polar Bear"
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
   },
   "license": "LicenseRef-PolarBear-Internal-Use",
   "keywords": [
