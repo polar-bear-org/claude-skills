@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-34 packs, 668 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+35 packs, 699 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -47,6 +47,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Opus 5.5 for Product Managers: 39 Claude Skills (39 skills): 39 skills for running your whole product cycle with Claude, from setup to the weekly loop. Page: https://meet-polar-bear.com/skills/opus-for-product-managers-pack. README: [packs/opus-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/README.md)
 - Claude Slides for Product Managers: 32 Claude Skills (32 skills): 32 Claude skills for every deck a product person makes, drafted in Claude Slides from your own sources, from the deck context file to the read-cold pre-read. Page: https://meet-polar-bear.com/skills/slides-for-product-managers-pack. README: [packs/slides-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/README.md)
 - The Complete Claude Guide for Product Managers: 42 Claude Skills (42 skills): 42 Claude skills for the whole product job, stage by stage, from the vision to the weekly update. Page: https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack. README: [packs/complete-claude-guide-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/README.md)
+- Claude for Business Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the work a business graduate is hired for, checking every output, and showing it to employers. Page: https://meet-polar-bear.com/skills/grad-business-pack. README: [packs/grad-business-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/README.md)
 
 ## Skills
 
@@ -246,6 +247,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Opus 5.5 for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Slides for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/resources/evidence-and-sources.md): the Complete Claude Guide for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/resources/evidence-and-sources.md): the Claude for Business Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -881,3 +883,41 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - pmg-run-the-retro: packs/complete-claude-guide-for-product-managers-pack/skills/pmg-run-the-retro/SKILL.md — A retro that checks last retro's action first, picks a format for this cycle's question, groups input into themes, and ends in one owned change with a check date
 - pmg-plan-the-quarter: packs/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-quarter/SKILL.md — A quarter plan: objectives and key results marked committed or aspirational, a capacity split, the bets behind each key result, what is out, check-in dates
 - Reference: packs/complete-claude-guide-for-product-managers-pack/resources/evidence-and-sources.md
+
+## Claude for Business Graduates: 31 Claude Skills
+
+31 Claude skills for doing the work a business graduate is hired for, checking every output, and showing it to employers.
+
+- Pack: packs/grad-business-pack/README.md
+- gbiz-ai-delegation-map: packs/grad-business-pack/skills/gbiz-ai-delegation-map/SKILL.md — Your recurring tasks sorted into do it yourself, Claude helps, Claude drafts and you check, never AI, with reason, risk and the rules that apply
+- gbiz-claude-project-setup: packs/grad-business-pack/skills/gbiz-claude-project-setup/SKILL.md — Project instructions, files to add, a "never paste" list, a checking rule, three test prompts
+- gbiz-ai-task-brief: packs/grad-business-pack/skills/gbiz-ai-task-brief/SKILL.md — Goal, audience, sources, format, an example of good, constraints, how Claude should work, the check you will run
+- gbiz-ai-output-check: packs/grad-business-pack/skills/gbiz-ai-output-check/SKILL.md — Claim-by-claim table, numbers recomputed, reasoning gaps, fix or cut list, a revised brief
+- gbiz-ai-use-statement: packs/grad-business-pack/skills/gbiz-ai-use-statement/SKILL.md — What Claude did, what you did, what you checked, what data went in, in three lengths
+- gbiz-company-research: packs/grad-business-pack/skills/gbiz-company-research/SKILL.md — Business model canvas, revenue lines, customers, competitors, results and filings, recent news, every line sourced
+- gbiz-pestle-analysis: packs/grad-business-pack/skills/gbiz-pestle-analysis/SKILL.md — Six external factors for one sector, each with a dated source, likely effect and "so what", plus the one to watch
+- gbiz-swot-analysis: packs/grad-business-pack/skills/gbiz-swot-analysis/SKILL.md — Evidence-backed strengths, weaknesses, opportunities and threats, cross-moves, two priorities
+- gbiz-commercial-awareness: packs/grad-business-pack/skills/gbiz-commercial-awareness/SKILL.md — Three stories a week, why each matters, "so what for this employer", a question to ask, sources
+- gbiz-issue-tree: packs/grad-business-pack/skills/gbiz-issue-tree/SKILL.md — Problem statement, branches that do not overlap, a hypothesis per branch, the analysis each needs, the order
+- gbiz-spreadsheet-explainer: packs/grad-business-pack/skills/gbiz-spreadsheet-explainer/SKILL.md — Formula map, each step in plain words with its cell, a rebuild exercise, questions for the owner
+- gbiz-data-analysis: packs/grad-business-pack/skills/gbiz-data-analysis/SKILL.md — Cleaning log, each step with its formula or pivot, findings you recompute, limits of the data
+- gbiz-financial-model: packs/grad-business-pack/skills/gbiz-financial-model/SKILL.md — Inputs, calculations and outputs on separate tabs, sourced assumptions, base and two scenarios
+- gbiz-sanity-check: packs/grad-business-pack/skills/gbiz-sanity-check/SKILL.md — Cross-footed totals, units and signs, magnitude checks, broken references, hard-codes, pass, fix or ask list
+- gbiz-executive-summary: packs/grad-business-pack/skills/gbiz-executive-summary/SKILL.md — The answer first, three supporting points with evidence, the ask, one page, checked against the analysis
+- gbiz-email-to-senior: packs/grad-business-pack/skills/gbiz-email-to-senior/SKILL.md — A subject that states the point, bottom line first, two lines of context, the ask with a date, a tone check
+- gbiz-business-case: packs/grad-business-pack/skills/gbiz-business-case/SKILL.md — Case for change, options in a trade-off table, sourced costs and benefits, pre-mortem risks, delivery, the decision asked
+- gbiz-status-update: packs/grad-business-pack/skills/gbiz-status-update/SKILL.md — Done, next, blocked, RAG per workstream with the reason, asks of your manager
+- gbiz-storyline: packs/grad-business-pack/skills/gbiz-storyline/SKILL.md — Situation, complication, resolution, an action title per slide, the evidence each needs, a slide budget
+- gbiz-chart-choice: packs/grad-business-pack/skills/gbiz-chart-choice/SKILL.md — Per number, the message, the chart or table that shows it, a takeaway title, axis rules, what to cut
+- gbiz-slide-deck: packs/grad-business-pack/skills/gbiz-slide-deck/SKILL.md — Slides from the storyline, assertion titles with evidence, speaker notes, a source line on every number
+- gbiz-deck-review: packs/grad-business-pack/skills/gbiz-deck-review/SKILL.md — Titles-only read, a sceptic's read of numbers and sources, consistency check, an edit list by severity
+- gbiz-proof-project-brief: packs/grad-business-pack/skills/gbiz-proof-project-brief/SKILL.md — One real business question from public data, the deliverable, a two-week scope, sources, what Claude will not do
+- gbiz-ai-work-log: packs/grad-business-pack/skills/gbiz-ai-work-log/SKILL.md — Dated entries of what you asked, what came back, what you checked and changed, and why
+- gbiz-portfolio-case-study: packs/grad-business-pack/skills/gbiz-portfolio-case-study/SKILL.md — One page with the question, your approach, your decisions, what Claude did and what you checked, the result
+- gbiz-project-reflection: packs/grad-business-pack/skills/gbiz-project-reflection/SKILL.md — What happened, what worked, what you learned about the work and about AI, what you would change, written by you
+- gbiz-job-ad-decoder: packs/grad-business-pack/skills/gbiz-job-ad-decoder/SKILL.md — Must-haves, nice-to-haves, hidden tasks, AI and data skills, your evidence for each, gaps and what to do
+- gbiz-cv-evidence-lines: packs/grad-business-pack/skills/gbiz-cv-evidence-lines/SKILL.md — CV bullets with action, tool, how you checked it and result, each traceable to your work log
+- gbiz-ai-interview-answer: packs/grad-business-pack/skills/gbiz-ai-interview-answer/SKILL.md — Two or three STAR stories on how you briefed, checked and disclosed AI, practised aloud with follow-ups
+- gbiz-application-voice-check: packs/grad-business-pack/skills/gbiz-application-voice-check/SKILL.md — Generic phrases, claims you cannot back, missing examples, words you would never say, an edit list you apply
+- gbiz-case-study-practice: packs/grad-business-pack/skills/gbiz-case-study-practice/SKILL.md — A fictional practice case, your notes and recommendation, a critique of structure and numbers, a presentation plan
+- Reference: packs/grad-business-pack/resources/evidence-and-sources.md

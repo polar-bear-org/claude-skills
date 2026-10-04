@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "grad-business-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for doing the work a business graduate is hired for, checking every output, and showing it to employers: an AI delegation map, a Claude Project setup, task briefs, output checks and AI use statements; company research briefs, PESTLE, SWOT and a weekly commercial awareness habit; issue trees, spreadsheet explainers, data analysis walkthroughs, simple financial models and sanity checks; executive summaries, emails to senior stakeholders, business cases and weekly status updates; deck storylines, chart choices, slide builds and deck reviews; a proof project brief, an AI work log, a portfolio case study and a reflection; plus job ad decoding, CV evidence lines, AI interview answers, an application voice check and assessment centre case practice. For business, management, accounting, finance and economics graduates, final-year students, business analysts and management trainees. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template and the next skill to run.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/grad-business-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "business-graduates",
+    "graduate-jobs",
+    "commercial-awareness",
+    "financial-modelling",
+    "data-analysis",
+    "executive-summary",
+    "business-case",
+    "slide-decks",
+    "ai-fluency",
+    "graduate-cv",
+    "interview-preparation",
+    "assessment-centre",
+    "management-trainee",
+    "ai"
+  ]
+}

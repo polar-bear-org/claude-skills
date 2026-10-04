@@ -964,6 +964,36 @@
         "north-star-metric",
         "ai"
       ]
+    },
+    {
+      "name": "grad-business-pack",
+      "source": "./packs/grad-business-pack",
+      "description": "31 skills for doing the work a business graduate is hired for, in seven stages: get AI-fluent for work, research the business, analyse the numbers, write for busy people, present it, build a proof project, and show it to employers. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/grad-business-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "business-graduates",
+        "graduate-jobs",
+        "commercial-awareness",
+        "financial-modelling",
+        "data-analysis",
+        "executive-summary",
+        "business-case",
+        "slide-decks",
+        "ai-fluency",
+        "graduate-cv",
+        "interview-preparation",
+        "assessment-centre",
+        "management-trainee",
+        "ai"
+      ]
     }
   ]
 }

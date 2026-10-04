@@ -8778,6 +8778,534 @@
           ]
         }
       ]
+    },
+    {
+      "name": "grad-business-pack",
+      "title": "Claude for Business Graduates: 31 Claude Skills",
+      "path": "packs/grad-business-pack",
+      "homepage": "https://meet-polar-bear.com/skills/grad-business-pack",
+      "version": "1.0.0",
+      "description": "31 skills for doing the work a business graduate is hired for, in seven stages: get AI-fluent for work, research the business, analyse the numbers, write for busy people, present it, build a proof project, and show it to employers. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "business graduates",
+        "final-year business students",
+        "business analysts",
+        "finance graduates",
+        "management trainees"
+      ],
+      "keywords": [
+        "business-graduates",
+        "graduate-jobs",
+        "commercial-awareness",
+        "financial-modelling",
+        "data-analysis",
+        "executive-summary",
+        "business-case",
+        "slide-decks",
+        "ai-fluency",
+        "graduate-cv",
+        "interview-preparation",
+        "assessment-centre",
+        "management-trainee",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "gbiz-ai-delegation-map",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-delegation-map",
+          "order": 1,
+          "summary": "Your recurring tasks sorted into do it yourself, Claude helps, Claude drafts and you check, never AI, with reason, risk and the rules that apply",
+          "triggers": [
+            "run gbiz-ai-delegation-map",
+            "what should I use AI for at work",
+            "which tasks can I give Claude",
+            "am I using AI too much",
+            "what should I never put into AI",
+            "AI at work as a graduate",
+            "decide what to delegate to Claude",
+            "sort my tasks for AI"
+          ]
+        },
+        {
+          "name": "gbiz-claude-project-setup",
+          "path": "packs/grad-business-pack/skills/gbiz-claude-project-setup",
+          "order": 2,
+          "summary": "Project instructions, files to add, a \"never paste\" list, a checking rule, three test prompts",
+          "triggers": [
+            "run gbiz-claude-project-setup",
+            "set up a Claude Project",
+            "write project instructions",
+            "stop re-explaining my job to Claude",
+            "Claude keeps forgetting my role",
+            "what files should I add to my Project",
+            "Claude Project for my graduate job",
+            "custom instructions for work"
+          ]
+        },
+        {
+          "name": "gbiz-ai-task-brief",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-task-brief",
+          "order": 3,
+          "summary": "Goal, audience, sources, format, an example of good, constraints, how Claude should work, the check you will run",
+          "triggers": [
+            "run gbiz-ai-task-brief",
+            "write a better prompt",
+            "Claude's answer is too generic",
+            "how do I brief Claude",
+            "prompt for a work task",
+            "improve my prompt",
+            "get a better first draft from Claude",
+            "brief Claude like a colleague"
+          ]
+        },
+        {
+          "name": "gbiz-ai-output-check",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-output-check",
+          "order": 4,
+          "summary": "Claim-by-claim table, numbers recomputed, reasoning gaps, fix or cut list, a revised brief",
+          "triggers": [
+            "run gbiz-ai-output-check",
+            "check this AI answer",
+            "fact-check Claude",
+            "is this AI output right",
+            "verify before I send to my manager",
+            "check AI for hallucinations",
+            "can I trust this summary",
+            "check the numbers Claude gave me"
+          ]
+        },
+        {
+          "name": "gbiz-ai-use-statement",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-use-statement",
+          "order": 5,
+          "summary": "What Claude did, what you did, what you checked, what data went in, in three lengths",
+          "triggers": [
+            "run gbiz-ai-use-statement",
+            "how do I disclose AI use",
+            "should I say I used AI",
+            "AI acknowledgement for my assignment",
+            "AI declaration on an application",
+            "tell my manager I used Claude",
+            "AI use statement",
+            "be honest about using AI"
+          ]
+        },
+        {
+          "name": "gbiz-company-research",
+          "path": "packs/grad-business-pack/skills/gbiz-company-research",
+          "order": 6,
+          "summary": "Business model canvas, revenue lines, customers, competitors, results and filings, recent news, every line sourced",
+          "triggers": [
+            "run gbiz-company-research",
+            "research this company",
+            "company research for an interview",
+            "understand this business fast",
+            "business model canvas for",
+            "prep for a client call",
+            "what does this company actually do",
+            "company profile with sources"
+          ]
+        },
+        {
+          "name": "gbiz-pestle-analysis",
+          "path": "packs/grad-business-pack/skills/gbiz-pestle-analysis",
+          "order": 7,
+          "summary": "Six external factors for one sector, each with a dated source, likely effect and \"so what\", plus the one to watch",
+          "triggers": [
+            "so what for this business",
+            "run gbiz-pestle-analysis",
+            "PESTLE analysis",
+            "PESTEL for this sector",
+            "what's going on in the market",
+            "external factors affecting",
+            "market scan",
+            "macro environment analysis",
+            "industry trends with sources"
+          ]
+        },
+        {
+          "name": "gbiz-swot-analysis",
+          "path": "packs/grad-business-pack/skills/gbiz-swot-analysis",
+          "order": 8,
+          "summary": "Evidence-backed strengths, weaknesses, opportunities and threats, cross-moves, two priorities",
+          "triggers": [
+            "run gbiz-swot-analysis",
+            "SWOT analysis",
+            "do a SWOT on",
+            "SWOT for my assessment centre practice",
+            "strengths weaknesses opportunities threats",
+            "TOWS matrix",
+            "turn this SWOT into priorities",
+            "SWOT with evidence"
+          ]
+        },
+        {
+          "name": "gbiz-commercial-awareness",
+          "path": "packs/grad-business-pack/skills/gbiz-commercial-awareness",
+          "order": 9,
+          "summary": "Three stories a week, why each matters, \"so what for this employer\", a question to ask, sources",
+          "triggers": [
+            "so what for this employer",
+            "run gbiz-commercial-awareness",
+            "commercial awareness",
+            "business news this week for my interview",
+            "what challenges does our business face",
+            "weekly news briefing",
+            "keep up with the industry",
+            "commercial awareness for assessment centre",
+            "so what for this employer"
+          ]
+        },
+        {
+          "name": "gbiz-issue-tree",
+          "path": "packs/grad-business-pack/skills/gbiz-issue-tree",
+          "order": 10,
+          "summary": "Problem statement, branches that do not overlap, a hypothesis per branch, the analysis each needs, the order",
+          "triggers": [
+            "run gbiz-issue-tree",
+            "build an issue tree",
+            "why are sales down",
+            "where do I start with this question",
+            "break this problem down",
+            "hypothesis tree",
+            "structure this analysis",
+            "plan my analysis"
+          ]
+        },
+        {
+          "name": "gbiz-spreadsheet-explainer",
+          "path": "packs/grad-business-pack/skills/gbiz-spreadsheet-explainer",
+          "order": 11,
+          "summary": "Formula map, each step in plain words with its cell, a rebuild exercise, questions for the owner",
+          "triggers": [
+            "run gbiz-spreadsheet-explainer",
+            "explain this spreadsheet",
+            "how does this workbook work",
+            "I inherited this model",
+            "trace this formula",
+            "what does this tab do",
+            "walk me through this Excel file",
+            "I have to update this by Friday"
+          ]
+        },
+        {
+          "name": "gbiz-data-analysis",
+          "path": "packs/grad-business-pack/skills/gbiz-data-analysis",
+          "order": 12,
+          "summary": "Cleaning log, each step with its formula or pivot, findings you recompute, limits of the data",
+          "triggers": [
+            "run gbiz-data-analysis",
+            "analyse this data",
+            "I have a raw export",
+            "help me find the answer in this data",
+            "pivot this for me",
+            "clean this dataset",
+            "what does this data show",
+            "findings I can defend"
+          ]
+        },
+        {
+          "name": "gbiz-financial-model",
+          "path": "packs/grad-business-pack/skills/gbiz-financial-model",
+          "order": 13,
+          "summary": "Inputs, calculations and outputs on separate tabs, sourced assumptions, base and two scenarios",
+          "triggers": [
+            "run gbiz-financial-model",
+            "build a financial model",
+            "what would it cost",
+            "what would we make",
+            "cost model in Excel",
+            "revenue forecast",
+            "scenario model",
+            "model this for me"
+          ]
+        },
+        {
+          "name": "gbiz-sanity-check",
+          "path": "packs/grad-business-pack/skills/gbiz-sanity-check",
+          "order": 14,
+          "summary": "Cross-footed totals, units and signs, magnitude checks, broken references, hard-codes, pass, fix or ask list",
+          "triggers": [
+            "run gbiz-sanity-check",
+            "check my spreadsheet",
+            "sanity check these numbers",
+            "check this before I send it",
+            "find errors in my Excel",
+            "do these totals add up",
+            "review my workbook",
+            "spreadsheet error check"
+          ]
+        },
+        {
+          "name": "gbiz-executive-summary",
+          "path": "packs/grad-business-pack/skills/gbiz-executive-summary",
+          "order": 15,
+          "summary": "The answer first, three supporting points with evidence, the ask, one page, checked against the analysis",
+          "triggers": [
+            "run gbiz-executive-summary",
+            "executive summary",
+            "just give me the one page",
+            "summarise my analysis for my manager",
+            "write an exec summary",
+            "bottom line up front",
+            "turn this spreadsheet into a summary",
+            "one page summary of my findings"
+          ]
+        },
+        {
+          "name": "gbiz-email-to-senior",
+          "path": "packs/grad-business-pack/skills/gbiz-email-to-senior",
+          "order": 16,
+          "summary": "A subject that states the point, bottom line first, two lines of context, the ask with a date, a tone check",
+          "triggers": [
+            "run gbiz-email-to-senior",
+            "email to a director",
+            "email to senior management",
+            "how do I ask my boss's boss",
+            "rewrite my email to be shorter",
+            "email asking for a decision",
+            "professional email to a senior manager",
+            "chase a director politely"
+          ]
+        },
+        {
+          "name": "gbiz-business-case",
+          "path": "packs/grad-business-pack/skills/gbiz-business-case",
+          "order": 17,
+          "summary": "Case for change, options in a trade-off table, sourced costs and benefits, pre-mortem risks, delivery, the decision asked",
+          "triggers": [
+            "run gbiz-business-case",
+            "write a business case",
+            "business case template",
+            "five case model",
+            "options appraisal",
+            "write up my recommendation",
+            "cost benefit for my manager",
+            "make the case for"
+          ]
+        },
+        {
+          "name": "gbiz-status-update",
+          "path": "packs/grad-business-pack/skills/gbiz-status-update",
+          "order": 18,
+          "summary": "Done, next, blocked, RAG per workstream with the reason, asks of your manager",
+          "triggers": [
+            "run gbiz-status-update",
+            "weekly status update",
+            "weekly update to my manager",
+            "RAG status",
+            "status report template",
+            "nobody reads my weekly update",
+            "how to write a weekly report",
+            "red amber green update"
+          ]
+        },
+        {
+          "name": "gbiz-storyline",
+          "path": "packs/grad-business-pack/skills/gbiz-storyline",
+          "order": 19,
+          "summary": "Situation, complication, resolution, an action title per slide, the evidence each needs, a slide budget",
+          "triggers": [
+            "run gbiz-storyline",
+            "write the storyline for my deck",
+            "what slides do I need",
+            "help me structure this presentation",
+            "ghost deck",
+            "action titles",
+            "the story is not clear yet",
+            "turn my analysis into a presentation"
+          ]
+        },
+        {
+          "name": "gbiz-chart-choice",
+          "path": "packs/grad-business-pack/skills/gbiz-chart-choice",
+          "order": 20,
+          "summary": "Per number, the message, the chart or table that shows it, a takeaway title, axis rules, what to cut",
+          "triggers": [
+            "run gbiz-chart-choice",
+            "which chart should I use",
+            "what chart shows this best",
+            "my chart does not make the point",
+            "chart title",
+            "bar or line chart",
+            "should this be a table",
+            "clean up this chart"
+          ]
+        },
+        {
+          "name": "gbiz-slide-deck",
+          "path": "packs/grad-business-pack/skills/gbiz-slide-deck",
+          "order": 21,
+          "summary": "Slides from the storyline, assertion titles with evidence, speaker notes, a source line on every number",
+          "triggers": [
+            "run gbiz-slide-deck",
+            "build the deck",
+            "make the slides from my storyline",
+            "turn this into PowerPoint",
+            "I need the deck by tomorrow",
+            "assertion evidence slides",
+            "make my slides less wordy",
+            "speaker notes"
+          ]
+        },
+        {
+          "name": "gbiz-deck-review",
+          "path": "packs/grad-business-pack/skills/gbiz-deck-review",
+          "order": 22,
+          "summary": "Titles-only read, a sceptic's read of numbers and sources, consistency check, an edit list by severity",
+          "triggers": [
+            "run gbiz-deck-review",
+            "review my deck",
+            "check my slides before I send them",
+            "does this presentation make sense",
+            "read this like my manager would",
+            "check the numbers in my deck",
+            "is this deck ready",
+            "feedback on my slides"
+          ]
+        },
+        {
+          "name": "gbiz-proof-project-brief",
+          "path": "packs/grad-business-pack/skills/gbiz-proof-project-brief",
+          "order": 23,
+          "summary": "One real business question from public data, the deliverable, a two-week scope, sources, what Claude will not do",
+          "triggers": [
+            "run gbiz-proof-project-brief",
+            "I have no experience to show",
+            "give me a portfolio project idea",
+            "scope a business project on public data",
+            "what project can I do to get a graduate job",
+            "plan a side project for my CV",
+            "proof of work for a business analyst role"
+          ]
+        },
+        {
+          "name": "gbiz-ai-work-log",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-work-log",
+          "order": 24,
+          "summary": "Dated entries of what you asked, what came back, what you checked and changed, and why",
+          "triggers": [
+            "run gbiz-ai-work-log",
+            "log how I used AI",
+            "keep a record of my AI use",
+            "show how I used Claude on this project",
+            "AI usage log for my portfolio",
+            "prove I checked the AI output",
+            "start my work log"
+          ]
+        },
+        {
+          "name": "gbiz-portfolio-case-study",
+          "path": "packs/grad-business-pack/skills/gbiz-portfolio-case-study",
+          "order": 25,
+          "summary": "One page with the question, your approach, your decisions, what Claude did and what you checked, the result",
+          "triggers": [
+            "run gbiz-portfolio-case-study",
+            "write up my project for employers",
+            "portfolio page for my business project",
+            "one page case study of my work",
+            "turn my project into something recruiters read",
+            "summarise my proof project",
+            "project write-up for my CV link"
+          ]
+        },
+        {
+          "name": "gbiz-project-reflection",
+          "path": "packs/grad-business-pack/skills/gbiz-project-reflection",
+          "order": 26,
+          "summary": "What happened, what worked, what you learned about the work and about AI, what you would change, written by you",
+          "triggers": [
+            "run gbiz-project-reflection",
+            "reflect on my project",
+            "Gibbs reflective cycle",
+            "what did I learn from this project",
+            "lessons learned for interviews",
+            "help me reflect on using AI",
+            "reflective account of my work"
+          ]
+        },
+        {
+          "name": "gbiz-job-ad-decoder",
+          "path": "packs/grad-business-pack/skills/gbiz-job-ad-decoder",
+          "order": 27,
+          "summary": "Must-haves, nice-to-haves, hidden tasks, AI and data skills, your evidence for each, gaps and what to do",
+          "triggers": [
+            "run gbiz-job-ad-decoder",
+            "decode this job ad",
+            "what does this job actually want",
+            "what should I show for this role",
+            "map my experience to this ad",
+            "graduate analyst job description",
+            "am I a fit for this ad"
+          ]
+        },
+        {
+          "name": "gbiz-cv-evidence-lines",
+          "path": "packs/grad-business-pack/skills/gbiz-cv-evidence-lines",
+          "order": 28,
+          "summary": "CV bullets with action, tool, how you checked it and result, each traceable to your work log",
+          "triggers": [
+            "run gbiz-cv-evidence-lines",
+            "write my CV bullets",
+            "how do I put AI on my CV",
+            "replace proficient in AI",
+            "CV lines for my project",
+            "make my CV specific",
+            "tailor my CV to this ad"
+          ]
+        },
+        {
+          "name": "gbiz-ai-interview-answer",
+          "path": "packs/grad-business-pack/skills/gbiz-ai-interview-answer",
+          "order": 29,
+          "summary": "Two or three STAR stories on how you briefed, checked and disclosed AI, practised aloud with follow-ups",
+          "triggers": [
+            "run gbiz-ai-interview-answer",
+            "how do you use AI interview question",
+            "STAR answer about AI",
+            "practise interview answers",
+            "mock interview follow-ups",
+            "prepare for graduate interview",
+            "talk about AI in an interview"
+          ]
+        },
+        {
+          "name": "gbiz-application-voice-check",
+          "path": "packs/grad-business-pack/skills/gbiz-application-voice-check",
+          "order": 30,
+          "summary": "Generic phrases, claims you cannot back, missing examples, words you would never say, an edit list you apply",
+          "triggers": [
+            "run gbiz-application-voice-check",
+            "does my application sound like AI",
+            "check my cover letter",
+            "make my answer sound like me",
+            "review my application answer",
+            "is this too generic",
+            "check before I submit my application"
+          ]
+        },
+        {
+          "name": "gbiz-case-study-practice",
+          "path": "packs/grad-business-pack/skills/gbiz-case-study-practice",
+          "order": 31,
+          "summary": "A fictional practice case, your notes and recommendation, a critique of structure and numbers, a presentation plan",
+          "triggers": [
+            "run gbiz-case-study-practice",
+            "practise a case study",
+            "assessment centre case exercise",
+            "mock case study",
+            "group exercise practice",
+            "case study presentation practice",
+            "I have an assessment centre next week"
+          ]
+        }
+      ]
     }
   ]
 }
