@@ -874,6 +874,36 @@
         "unit-economics",
         "ai"
       ]
+    },
+    {
+      "name": "opus-for-product-managers-pack",
+      "source": "./packs/opus-for-product-managers-pack",
+      "description": "39 skills for running the whole product cycle with Claude, in seven phases that each hand a named artifact to the next: set Claude up and connect it, frame the question, discover the evidence, decide, build and ship, communicate the call and run the week. Each skill teaches one named, checkable method, with the inputs it needs, where it breaks, a fixed output template and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/opus-for-product-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "head-of-product",
+        "product-discovery",
+        "product-roadmap",
+        "product-strategy",
+        "customer-research",
+        "experimentation",
+        "product-analytics",
+        "claude-connectors",
+        "claude-docs",
+        "claude-slides",
+        "ai"
+      ]
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "opus-for-product-managers-pack",
+  "version": "1.0.0",
+  "description": "39 Claude Skills for running the whole product cycle with Claude, in seven phases that each hand a named artifact to the next: set Claude up and connect it (a product project, a dated product context file with memory rules, a connector plan with writes kept off, draft-only scheduled routines, turning a repeat prompt into a skill); frame the question (problem frame, product health read, stakeholder map, issue tree, hypotheses, discovery workplan); discover the evidence (call synthesis with linked quotes, a sourced competitor landscape, top-down and bottom-up market sizing, needs-based segments, usage analysis with a cleaning log, a cited deep research report); decide (distinct options with do-nothing, scenario models, a weighted scorecard agreed before scoring, a one-page business case, a red team review, the recommendation); build and ship (now-next-later roadmap by cost of delay, the spec in Claude Docs, a prototype in Claude Design, Claude Code set up read-only for a PM, KPI definitions, the experiment readout); communicate (executive summary, leadership memo, a deck in Claude Slides, the hard questions sheet, a one-decision meeting with DACI and a decision record); and run the week (morning brief, feedback triage, the Friday update, meeting prep, the weekly wrap). For product managers, product owners and heads of product. Claude reads your tools, drafts the work and runs the routines; you talk to the customers, make every call and press send.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/opus-for-product-managers-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "product-management",
+    "product-manager",
+    "product-owner",
+    "head-of-product",
+    "product-discovery",
+    "product-roadmap",
+    "product-strategy",
+    "customer-research",
+    "experimentation",
+    "product-analytics",
+    "claude-connectors",
+    "claude-docs",
+    "claude-slides",
+    "ai"
+  ]
+}

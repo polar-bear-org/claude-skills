@@ -7155,6 +7155,550 @@
           ]
         }
       ]
+    },
+    {
+      "name": "opus-for-product-managers-pack",
+      "title": "Claude Opus 5.5 for Product Managers: 39 Claude Skills",
+      "path": "packs/opus-for-product-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/opus-for-product-managers-pack",
+      "version": "1.0.0",
+      "description": "39 skills for running the whole product cycle with Claude, in seven phases that each hand a named artifact to the next: set Claude up and connect it, frame the question, discover the evidence, decide, build and ship, communicate the call and run the week. Each skill teaches one named, checkable method, with the inputs it needs, where it breaks, a fixed output template and the next skill to run.",
+      "audience": [
+        "product managers",
+        "product owners",
+        "heads of product"
+      ],
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "head-of-product",
+        "product-discovery",
+        "product-roadmap",
+        "product-strategy",
+        "customer-research",
+        "experimentation",
+        "product-analytics",
+        "claude-connectors",
+        "claude-docs",
+        "claude-slides",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "pmc-set-up-product-project",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-set-up-product-project",
+          "order": 1,
+          "summary": "Project instructions, knowledge list (load, link, keep out), five test prompts",
+          "triggers": [
+            "run pmc-set-up-product-project",
+            "set up a Claude project for our product",
+            "which files should go into the project",
+            "write project instructions",
+            "Claude keeps giving generic answers"
+          ]
+        },
+        {
+          "name": "pmc-write-product-context",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-write-product-context",
+          "order": 2,
+          "summary": "Dated context file with owners, memory rules, Topics audit",
+          "triggers": [
+            "run pmc-write-product-context",
+            "build our product context file",
+            "interview me about the product",
+            "add our metric definitions",
+            "what should never go into memory"
+          ]
+        },
+        {
+          "name": "pmc-turn-task-into-skill",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-turn-task-into-skill",
+          "order": 3,
+          "summary": "Skill draft, three test inputs from past work, before and after check",
+          "triggers": [
+            "run pmc-turn-task-into-skill",
+            "turn this prompt into a skill",
+            "make a skill for release notes",
+            "test this skill on last month's updates",
+            "why does this skill keep missing"
+          ]
+        },
+        {
+          "name": "pmc-plan-connectors",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-plan-connectors",
+          "order": 4,
+          "summary": "Stack map, read and write actions, writes kept off, setup order, first-run tests",
+          "triggers": [
+            "run pmc-plan-connectors",
+            "what can you connect to",
+            "which write actions should I keep off",
+            "write the request to our admin",
+            "test the analytics connector"
+          ]
+        },
+        {
+          "name": "pmc-schedule-a-routine",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-schedule-a-routine",
+          "order": 5,
+          "summary": "Scheduled task spec, connectors kept and removed, draft-only rule, first-run review",
+          "triggers": [
+            "run pmc-schedule-a-routine",
+            "schedule my weekly update draft",
+            "which connectors should this routine not have",
+            "review last night's run",
+            "run this every Friday"
+          ]
+        },
+        {
+          "name": "pmc-frame-the-problem",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-frame-the-problem",
+          "order": 6,
+          "summary": "One testable question, the decision it feeds, owner, scope, criteria, deadline",
+          "triggers": [
+            "run pmc-frame-the-problem",
+            "frame the problem",
+            "turn fix onboarding into one question",
+            "what decision is this for",
+            "who owns this decision"
+          ]
+        },
+        {
+          "name": "pmc-read-product-health",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-read-product-health",
+          "order": 7,
+          "summary": "Sourced, dated read of usage, quality, revenue signals and feedback, unknowns",
+          "triggers": [
+            "run pmc-read-product-health",
+            "health read of the product",
+            "what state is the product in",
+            "what changed since last quarter",
+            "read Amplitude, Jira and Intercom for me"
+          ]
+        },
+        {
+          "name": "pmc-map-the-stakeholders",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-map-the-stakeholders",
+          "order": 8,
+          "summary": "Who decides, influences and can block, by role, and how to involve each",
+          "triggers": [
+            "run pmc-map-the-stakeholders",
+            "map the stakeholders",
+            "who decides on the pricing change",
+            "who could block this",
+            "power interest grid"
+          ]
+        },
+        {
+          "name": "pmc-build-issue-tree",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-build-issue-tree",
+          "order": 9,
+          "summary": "Sub-questions that do not overlap and cover the question, data per branch",
+          "triggers": [
+            "run pmc-build-issue-tree",
+            "build an issue tree",
+            "break down why activation is flat",
+            "check this tree for overlaps",
+            "what is missing from this tree"
+          ]
+        },
+        {
+          "name": "pmc-draft-hypotheses",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-draft-hypotheses",
+          "order": 10,
+          "summary": "Answer-first guess per branch, what would kill it, test, ranked list",
+          "triggers": [
+            "run pmc-draft-hypotheses",
+            "draft the hypotheses",
+            "first-guess answer for each branch",
+            "what evidence would kill this",
+            "which three should we test first"
+          ]
+        },
+        {
+          "name": "pmc-plan-the-discovery",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-plan-the-discovery",
+          "order": 11,
+          "summary": "Time-boxed workplan, method and owner per hypothesis, decision checkpoint",
+          "triggers": [
+            "run pmc-plan-the-discovery",
+            "plan the discovery",
+            "plan two weeks of discovery",
+            "what can we answer from data we have",
+            "where is the checkpoint"
+          ]
+        },
+        {
+          "name": "pmc-synthesise-customer-calls",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-synthesise-customer-calls",
+          "order": 12,
+          "summary": "Themes with linked quotes, contradictions, counts by segment, next questions",
+          "triggers": [
+            "run pmc-synthesise-customer-calls",
+            "synthesise these calls",
+            "what did customers say about reporting",
+            "themes from our interviews",
+            "show the quotes behind each theme"
+          ]
+        },
+        {
+          "name": "pmc-map-the-competitors",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-map-the-competitors",
+          "order": 13,
+          "summary": "Sourced, dated landscape table, where you differ, optional weekly watch",
+          "triggers": [
+            "run pmc-map-the-competitors",
+            "map the competitors",
+            "competitor landscape with sources",
+            "what did they ship this quarter",
+            "should we copy this feature"
+          ]
+        },
+        {
+          "name": "pmc-size-the-market",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-size-the-market",
+          "order": 14,
+          "summary": "Top-down and bottom-up ranges, sourced assumptions, the gap explained",
+          "triggers": [
+            "run pmc-size-the-market",
+            "size the market",
+            "how big is this",
+            "TAM SAM SOM",
+            "top-down and bottom-up sizing"
+          ]
+        },
+        {
+          "name": "pmc-segment-by-needs",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-segment-by-needs",
+          "order": 15,
+          "summary": "Segments by job and circumstance, size signal, current alternative, needs",
+          "triggers": [
+            "run pmc-segment-by-needs",
+            "segment our customers by needs",
+            "jobs to be done segments",
+            "what do customers hire the product to do",
+            "which segment is underserved"
+          ]
+        },
+        {
+          "name": "pmc-analyse-usage-data",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-analyse-usage-data",
+          "order": 16,
+          "summary": "Answer with query, definitions, cleaning log, charts, caveats",
+          "triggers": [
+            "run pmc-analyse-usage-data",
+            "is the feature used",
+            "how many accounts used bulk export",
+            "analyse this CSV",
+            "show your cleaning steps"
+          ]
+        },
+        {
+          "name": "pmc-run-deep-research",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-run-deep-research",
+          "order": 17,
+          "summary": "Research brief, cited report, confidence per finding, still-unknown list",
+          "triggers": [
+            "run pmc-run-deep-research",
+            "deep research",
+            "research this and cite everything",
+            "market read by Thursday",
+            "which findings have only one source"
+          ]
+        },
+        {
+          "name": "pmc-generate-options",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-generate-options",
+          "order": 18,
+          "summary": "Three to five options that differ in kind, do nothing included, bets and costs",
+          "triggers": [
+            "run pmc-generate-options",
+            "give me four genuinely different ways to fix churn in month two",
+            "add the do-nothing option and what it costs",
+            "which option did we not consider?",
+            "widen the options"
+          ]
+        },
+        {
+          "name": "pmc-model-scenarios",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-model-scenarios",
+          "order": 19,
+          "summary": "Base, upside and downside per option, drivers, early signals",
+          "triggers": [
+            "run pmc-model-scenarios",
+            "model base, upside and downside for the usage-based pricing option",
+            "which assumption flips the answer?",
+            "what early signal tells us we are in the downside?",
+            "scenario model"
+          ]
+        },
+        {
+          "name": "pmc-score-the-options",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-score-the-options",
+          "order": 20,
+          "summary": "Weighted criteria agreed first, evidence per score, weight sensitivity",
+          "triggers": [
+            "run pmc-score-the-options",
+            "score these four options on impact, cost, risk and strategic fit",
+            "agree the weights with me first",
+            "would the winner change if risk weighed double?",
+            "weighted decision matrix"
+          ]
+        },
+        {
+          "name": "pmc-build-business-case",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-build-business-case",
+          "order": 21,
+          "summary": "One-page case, confirmed figures apart from assumptions, ranges",
+          "triggers": [
+            "run pmc-build-business-case",
+            "build a one-page business case for the integrations team",
+            "separate what we know from what we assume",
+            "what does finance need to see to say yes?",
+            "ROI case"
+          ]
+        },
+        {
+          "name": "pmc-red-team-the-plan",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-red-team-the-plan",
+          "order": 22,
+          "summary": "Case against, pre-mortem story, counter-evidence, what to change now",
+          "triggers": [
+            "run pmc-red-team-the-plan",
+            "argue against this plan as hard as you can",
+            "it is a year from now and this failed. Why?",
+            "what should I change before the review?",
+            "pre-mortem"
+          ]
+        },
+        {
+          "name": "pmc-write-the-recommendation",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-write-the-recommendation",
+          "order": 23,
+          "summary": "Recommendation first, reasons, rejected options, risks, the ask, owner",
+          "triggers": [
+            "run pmc-write-the-recommendation",
+            "write the recommendation from this analysis",
+            "put the ask in the first line",
+            "what are we rejecting, and why?",
+            "make the call"
+          ]
+        },
+        {
+          "name": "pmc-sequence-the-roadmap",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-sequence-the-roadmap",
+          "order": 24,
+          "summary": "Now, next, later board, cost of delay order, not-on-the-roadmap list, exec cut",
+          "triggers": [
+            "run pmc-sequence-the-roadmap",
+            "sequence these initiatives into now, next, later",
+            "order them by cost of delay",
+            "write the not on the roadmap list",
+            "everything is priority one"
+          ]
+        },
+        {
+          "name": "pmc-write-spec-in-claude-docs",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-write-spec-in-claude-docs",
+          "order": 25,
+          "summary": "Answer-first spec, testable requirements, open questions with owners",
+          "triggers": [
+            "run pmc-write-spec-in-claude-docs",
+            "write the spec as a Claude Doc",
+            "write a PRD in Claude Docs",
+            "list non-goals and open questions with owners",
+            "cut the spec to what engineering needs"
+          ]
+        },
+        {
+          "name": "pmc-prototype-in-claude-design",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-prototype-in-claude-design",
+          "order": 26,
+          "summary": "Clickable prototype, layout options, edge states, test brief",
+          "triggers": [
+            "run pmc-prototype-in-claude-design",
+            "prototype the flow from the spec",
+            "show two layouts and the error states",
+            "write what this prototype does not prove",
+            "leadership thinks the demo is the product"
+          ]
+        },
+        {
+          "name": "pmc-set-up-claude-code",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-set-up-claude-code",
+          "order": 27,
+          "summary": "Product folder, read-only setup, feature explainer with file references",
+          "triggers": [
+            "run pmc-set-up-claude-code",
+            "set me up in Claude Code with read-only access",
+            "how does the refund rule work in the code",
+            "which edge cases does the import handle",
+            "what does the feature really do"
+          ]
+        },
+        {
+          "name": "pmc-define-the-kpis",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-define-the-kpis",
+          "order": 28,
+          "summary": "Outcome metric, leading and lagging indicators, baseline, target, guardrails",
+          "triggers": [
+            "run pmc-define-the-kpis",
+            "define the KPIs for the new onboarding",
+            "which are leading and which are lagging",
+            "pull the baseline from Amplitude",
+            "what does success look like"
+          ]
+        },
+        {
+          "name": "pmc-read-the-experiment",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-read-the-experiment",
+          "order": 29,
+          "summary": "Readout with interval, guardrails, sample ratio check, ship, iterate or stop",
+          "triggers": [
+            "run pmc-read-the-experiment",
+            "read the results of the pricing page test",
+            "check the sample ratio before anything else",
+            "ship, iterate or stop",
+            "is this test significant"
+          ]
+        },
+        {
+          "name": "pmc-write-executive-summary",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-write-executive-summary",
+          "order": 30,
+          "summary": "One page, point first, three supported points, the ask, the risk",
+          "triggers": [
+            "run pmc-write-executive-summary",
+            "turn this doc into a one-page exec summary",
+            "say the point in one sentence",
+            "the exec never reads past page one",
+            "write the summary for leadership"
+          ]
+        },
+        {
+          "name": "pmc-write-leadership-memo",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-write-leadership-memo",
+          "order": 31,
+          "summary": "Narrative pre-read for one decision meeting, read in silence first",
+          "triggers": [
+            "run pmc-write-leadership-memo",
+            "write a six-page memo for the platform decision",
+            "make it readable in ten minutes of silence",
+            "write the pre-read",
+            "the meeting keeps relitigating the basics"
+          ]
+        },
+        {
+          "name": "pmc-build-deck-in-claude-slides",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-build-deck-in-claude-slides",
+          "order": 32,
+          "summary": "Action-title storyline, deck, speaker notes, numbers matched to the doc",
+          "triggers": [
+            "run pmc-build-deck-in-claude-slides",
+            "write the action titles first, then build the deck",
+            "make the deck from the recommendation doc in this chat",
+            "check every number against the doc",
+            "the review is tomorrow"
+          ]
+        },
+        {
+          "name": "pmc-prepare-hard-questions",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-prepare-hard-questions",
+          "order": 33,
+          "summary": "Questions by role, short answers with evidence, numbers to have ready",
+          "triggers": [
+            "run pmc-prepare-hard-questions",
+            "what will finance ask about this plan",
+            "give me a 30-second answer to why not build it for the big client",
+            "which numbers must I have ready",
+            "prep me for the roadmap review"
+          ]
+        },
+        {
+          "name": "pmc-run-decision-meeting",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-run-decision-meeting",
+          "order": 34,
+          "summary": "One-decision agenda, DACI roles, pre-read, decision record after",
+          "triggers": [
+            "run pmc-run-decision-meeting",
+            "plan a 45-minute meeting to decide on the pricing change",
+            "who is the approver and who is only informed",
+            "write the decision record from these notes",
+            "meetings end with let's take this offline"
+          ]
+        },
+        {
+          "name": "pmc-morning-brief",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-morning-brief",
+          "order": 35,
+          "summary": "Daily brief of what needs you, a \"since date\" mode after time off",
+          "triggers": [
+            "run pmc-morning-brief",
+            "brief me every weekday at 8",
+            "what needs me today",
+            "morning brief",
+            "daily briefing from Slack and tickets"
+          ]
+        },
+        {
+          "name": "pmc-triage-feedback",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-triage-feedback",
+          "order": 36,
+          "summary": "Tagged feedback log, new against known themes, reply drafts",
+          "triggers": [
+            "run pmc-triage-feedback",
+            "triage this week's feedback",
+            "triage feedback from Intercom and #feedback",
+            "what is new compared with last month",
+            "draft replies for the loudest requests"
+          ]
+        },
+        {
+          "name": "pmc-prepare-weekly-update",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-prepare-weekly-update",
+          "order": 37,
+          "summary": "Friday draft, headline, at risk, asks, one cut per audience",
+          "triggers": [
+            "run pmc-prepare-weekly-update",
+            "draft my weekly update from Linear and Slack",
+            "weekly product update",
+            "Friday status update",
+            "make a short cut for execs and a longer one for the team"
+          ]
+        },
+        {
+          "name": "pmc-prep-for-meeting",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-prep-for-meeting",
+          "order": 38,
+          "summary": "One-page brief, decision wanted, what each role cares about, open actions",
+          "triggers": [
+            "run pmc-prep-for-meeting",
+            "prep me for my 2pm with sales leadership",
+            "what did we agree last time and what is still open",
+            "give me three questions to ask",
+            "meeting brief"
+          ]
+        },
+        {
+          "name": "pmc-wrap-the-week",
+          "path": "packs/opus-for-product-managers-pack/skills/pmc-wrap-the-week",
+          "order": 39,
+          "summary": "Done against planned, decisions to log, open loops, context file edits",
+          "triggers": [
+            "run pmc-wrap-the-week",
+            "wrap my week",
+            "which decisions from this week should go in the log",
+            "what should change in our context file",
+            "Friday close"
+          ]
+        }
+      ]
     }
   ]
 }

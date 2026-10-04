@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-31 packs, 555 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+32 packs, 594 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -44,6 +44,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for L&D and Corporate Training: 30 Claude Skills (30 skills): 30 skills for L&D and corporate training, from the first training request to proof of what changed. Page: https://meet-polar-bear.com/skills/ai-for-training-pack. README: [packs/ai-for-training-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-training-pack/README.md)
 - Claude Docs for Product Managers: 41 Claude Skills (41 skills): 41 skills for the documents product people write, from the first brief to the post-launch review. Page: https://meet-polar-bear.com/skills/docs-for-product-managers-pack. README: [packs/docs-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/docs-for-product-managers-pack/README.md)
 - Claude for AI Product Managers: 36 Claude Skills (36 skills): 36 skills for deciding if AI fits, testing it before launch and keeping it honest after. Page: https://meet-polar-bear.com/skills/ai-product-managers-pack. README: [packs/ai-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/README.md)
+- Claude Opus 5.5 for Product Managers: 39 Claude Skills (39 skills): 39 skills for running your whole product cycle with Claude, from setup to the weekly loop. Page: https://meet-polar-bear.com/skills/opus-for-product-managers-pack. README: [packs/opus-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/README.md)
 
 ## Skills
 
@@ -240,6 +241,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack/templates): the Proposals Pack's shared files — firm-context.md, filled once with firm-context-writer (services and refusals, ideal client, the credentials library, the team roster, the cost basis behind prices, who approves what, the deck conventions) and read by every other skill; and proposal-brief.md, the blank proposal-brief-builder fills from an RFP or the team's notes, one per opportunity, and the source every section writer draws from.
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack/templates): the Creative Futurology Pack's shared files — engagement-brief.md, the context file every skill reads first (the focal question and its horizon, the decision the work must inform, the scope, who is in the room, what the firm already believes), filled with focal-question-framer and kept current by whoever leads the engagement; and signal-log.md, the blank signal cards anyone on the team fills when they notice something, which signal-scanner checks against its sources and merges into the signal log.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/resources/evidence-and-sources.md): the Claude for AI Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Opus 5.5 for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -744,3 +746,46 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - aipm-feature-card: packs/ai-product-managers-pack/skills/aipm-feature-card/SKILL.md — Intended and out-of-scope use, data, eval results as run with dates, known limits, disclosures, owner
 - aipm-exec-brief: packs/ai-product-managers-pack/skills/aipm-exec-brief/SKILL.md — One page, bottom line first: how often it is wrong by severity, what that costs, run cost, the decision asked
 - Reference: packs/ai-product-managers-pack/resources/evidence-and-sources.md
+
+## Claude Opus 5.5 for Product Managers: 39 Claude Skills
+- Pack: packs/opus-for-product-managers-pack/README.md
+- pmc-set-up-product-project: packs/opus-for-product-managers-pack/skills/pmc-set-up-product-project/SKILL.md — Project instructions, knowledge list (load, link, keep out), five test prompts
+- pmc-write-product-context: packs/opus-for-product-managers-pack/skills/pmc-write-product-context/SKILL.md — Dated context file with owners, memory rules, Topics audit
+- pmc-turn-task-into-skill: packs/opus-for-product-managers-pack/skills/pmc-turn-task-into-skill/SKILL.md — Skill draft, three test inputs from past work, before and after check
+- pmc-plan-connectors: packs/opus-for-product-managers-pack/skills/pmc-plan-connectors/SKILL.md — Stack map, read and write actions, writes kept off, setup order, first-run tests
+- pmc-schedule-a-routine: packs/opus-for-product-managers-pack/skills/pmc-schedule-a-routine/SKILL.md — Scheduled task spec, connectors kept and removed, draft-only rule, first-run review
+- pmc-frame-the-problem: packs/opus-for-product-managers-pack/skills/pmc-frame-the-problem/SKILL.md — One testable question, the decision it feeds, owner, scope, criteria, deadline
+- pmc-read-product-health: packs/opus-for-product-managers-pack/skills/pmc-read-product-health/SKILL.md — Sourced, dated read of usage, quality, revenue signals and feedback, unknowns
+- pmc-map-the-stakeholders: packs/opus-for-product-managers-pack/skills/pmc-map-the-stakeholders/SKILL.md — Who decides, influences and can block, by role, and how to involve each
+- pmc-build-issue-tree: packs/opus-for-product-managers-pack/skills/pmc-build-issue-tree/SKILL.md — Sub-questions that do not overlap and cover the question, data per branch
+- pmc-draft-hypotheses: packs/opus-for-product-managers-pack/skills/pmc-draft-hypotheses/SKILL.md — Answer-first guess per branch, what would kill it, test, ranked list
+- pmc-plan-the-discovery: packs/opus-for-product-managers-pack/skills/pmc-plan-the-discovery/SKILL.md — Time-boxed workplan, method and owner per hypothesis, decision checkpoint
+- pmc-synthesise-customer-calls: packs/opus-for-product-managers-pack/skills/pmc-synthesise-customer-calls/SKILL.md — Themes with linked quotes, contradictions, counts by segment, next questions
+- pmc-map-the-competitors: packs/opus-for-product-managers-pack/skills/pmc-map-the-competitors/SKILL.md — Sourced, dated landscape table, where you differ, optional weekly watch
+- pmc-size-the-market: packs/opus-for-product-managers-pack/skills/pmc-size-the-market/SKILL.md — Top-down and bottom-up ranges, sourced assumptions, the gap explained
+- pmc-segment-by-needs: packs/opus-for-product-managers-pack/skills/pmc-segment-by-needs/SKILL.md — Segments by job and circumstance, size signal, current alternative, needs
+- pmc-analyse-usage-data: packs/opus-for-product-managers-pack/skills/pmc-analyse-usage-data/SKILL.md — Answer with query, definitions, cleaning log, charts, caveats
+- pmc-run-deep-research: packs/opus-for-product-managers-pack/skills/pmc-run-deep-research/SKILL.md — Research brief, cited report, confidence per finding, still-unknown list
+- pmc-generate-options: packs/opus-for-product-managers-pack/skills/pmc-generate-options/SKILL.md — Three to five options that differ in kind, do nothing included, bets and costs
+- pmc-model-scenarios: packs/opus-for-product-managers-pack/skills/pmc-model-scenarios/SKILL.md — Base, upside and downside per option, drivers, early signals
+- pmc-score-the-options: packs/opus-for-product-managers-pack/skills/pmc-score-the-options/SKILL.md — Weighted criteria agreed first, evidence per score, weight sensitivity
+- pmc-build-business-case: packs/opus-for-product-managers-pack/skills/pmc-build-business-case/SKILL.md — One-page case, confirmed figures apart from assumptions, ranges
+- pmc-red-team-the-plan: packs/opus-for-product-managers-pack/skills/pmc-red-team-the-plan/SKILL.md — Case against, pre-mortem story, counter-evidence, what to change now
+- pmc-write-the-recommendation: packs/opus-for-product-managers-pack/skills/pmc-write-the-recommendation/SKILL.md — Recommendation first, reasons, rejected options, risks, the ask, owner
+- pmc-sequence-the-roadmap: packs/opus-for-product-managers-pack/skills/pmc-sequence-the-roadmap/SKILL.md — Now, next, later board, cost of delay order, not-on-the-roadmap list, exec cut
+- pmc-write-spec-in-claude-docs: packs/opus-for-product-managers-pack/skills/pmc-write-spec-in-claude-docs/SKILL.md — Answer-first spec, testable requirements, open questions with owners
+- pmc-prototype-in-claude-design: packs/opus-for-product-managers-pack/skills/pmc-prototype-in-claude-design/SKILL.md — Clickable prototype, layout options, edge states, test brief
+- pmc-set-up-claude-code: packs/opus-for-product-managers-pack/skills/pmc-set-up-claude-code/SKILL.md — Product folder, read-only setup, feature explainer with file references
+- pmc-define-the-kpis: packs/opus-for-product-managers-pack/skills/pmc-define-the-kpis/SKILL.md — Outcome metric, leading and lagging indicators, baseline, target, guardrails
+- pmc-read-the-experiment: packs/opus-for-product-managers-pack/skills/pmc-read-the-experiment/SKILL.md — Readout with interval, guardrails, sample ratio check, ship, iterate or stop
+- pmc-write-executive-summary: packs/opus-for-product-managers-pack/skills/pmc-write-executive-summary/SKILL.md — One page, point first, three supported points, the ask, the risk
+- pmc-write-leadership-memo: packs/opus-for-product-managers-pack/skills/pmc-write-leadership-memo/SKILL.md — Narrative pre-read for one decision meeting, read in silence first
+- pmc-build-deck-in-claude-slides: packs/opus-for-product-managers-pack/skills/pmc-build-deck-in-claude-slides/SKILL.md — Action-title storyline, deck, speaker notes, numbers matched to the doc
+- pmc-prepare-hard-questions: packs/opus-for-product-managers-pack/skills/pmc-prepare-hard-questions/SKILL.md — Questions by role, short answers with evidence, numbers to have ready
+- pmc-run-decision-meeting: packs/opus-for-product-managers-pack/skills/pmc-run-decision-meeting/SKILL.md — One-decision agenda, DACI roles, pre-read, decision record after
+- pmc-morning-brief: packs/opus-for-product-managers-pack/skills/pmc-morning-brief/SKILL.md — Daily brief of what needs you, a "since date" mode after time off
+- pmc-triage-feedback: packs/opus-for-product-managers-pack/skills/pmc-triage-feedback/SKILL.md — Tagged feedback log, new against known themes, reply drafts
+- pmc-prepare-weekly-update: packs/opus-for-product-managers-pack/skills/pmc-prepare-weekly-update/SKILL.md — Friday draft, headline, at risk, asks, one cut per audience
+- pmc-prep-for-meeting: packs/opus-for-product-managers-pack/skills/pmc-prep-for-meeting/SKILL.md — One-page brief, decision wanted, what each role cares about, open actions
+- pmc-wrap-the-week: packs/opus-for-product-managers-pack/skills/pmc-wrap-the-week/SKILL.md — Done against planned, decisions to log, open loops, context file edits
+- Reference: packs/opus-for-product-managers-pack/resources/evidence-and-sources.md
