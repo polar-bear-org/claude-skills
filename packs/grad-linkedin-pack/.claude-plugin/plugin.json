@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "grad-linkedin-pack",
+  "version": "1.0.0",
+  "description": "28 Claude Skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine: an experience inventory interview, a target role brief from real job ads, a personal voice guide and a personal AI use policy; a headline, an About section, experience entries, education and projects entries, a skills section and a profile audit; a project interview, a one-page project case study, a Featured section plan and a recommendation request; a post ideas bank, learning, project and milestone posts and a voice check on any AI-assisted draft; a follow list, thoughtful comments and connection request notes; Open to Work settings, a recruiter reply with a scam check first and an alumni search plan; plus a 20-minute weekly routine, an activity log and a monthly profile refresh. For final-year students and new graduates. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/grad-linkedin-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "linkedin",
+    "linkedin-profile",
+    "graduate-jobs",
+    "early-career",
+    "personal-branding",
+    "networking",
+    "linkedin-headline",
+    "linkedin-about",
+    "recruiter-outreach",
+    "alumni-networking",
+    "job-search",
+    "student-careers",
+    "ai-fluency",
+    "ai"
+  ]
+}

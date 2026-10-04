@@ -9824,6 +9824,469 @@
           ]
         }
       ]
+    },
+    {
+      "name": "grad-linkedin-pack",
+      "title": "Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills",
+      "path": "packs/grad-linkedin-pack",
+      "homepage": "https://meet-polar-bear.com/skills/grad-linkedin-pack",
+      "version": "1.0.0",
+      "description": "28 skills for an honest LinkedIn presence in your own voice, in seven stages: know your story, build the profile, show your proof of work, post as a graduate, comment and connect, be found by recruiters and alumni, and the weekly 20 minutes. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "final-year students",
+        "new graduates",
+        "students building a LinkedIn profile from scratch",
+        "graduates job hunting on LinkedIn",
+        "early-career job seekers"
+      ],
+      "keywords": [
+        "linkedin",
+        "linkedin-profile",
+        "graduate-jobs",
+        "early-career",
+        "personal-branding",
+        "networking",
+        "linkedin-headline",
+        "linkedin-about",
+        "recruiter-outreach",
+        "alumni-networking",
+        "job-search",
+        "student-careers",
+        "ai-fluency",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "glink-experience-inventory",
+          "path": "packs/grad-linkedin-pack/skills/glink-experience-inventory",
+          "order": 1,
+          "summary": "Interview notes, one evidence row per real thing you did, strengths backed by two rows, gaps marked as gaps",
+          "triggers": [
+            "run glink-experience-inventory",
+            "I have no experience",
+            "my profile looks empty",
+            "what can I put on LinkedIn",
+            "interview me about what I have done",
+            "does my bar job count",
+            "list my experience",
+            "find my evidence"
+          ]
+        },
+        {
+          "name": "glink-target-role-brief",
+          "path": "packs/grad-linkedin-pack/skills/glink-target-role-brief",
+          "order": 2,
+          "summary": "Two or three target roles, employer words from five real job ads, matching evidence rows, what to say yes to next",
+          "triggers": [
+            "run glink-target-role-brief",
+            "what roles should my profile aim at",
+            "read these job ads",
+            "which keywords can I use",
+            "match my experience to job ads",
+            "what do employers want for this role",
+            "I do not know what I want next"
+          ]
+        },
+        {
+          "name": "glink-personal-voice-guide",
+          "path": "packs/grad-linkedin-pack/skills/glink-personal-voice-guide",
+          "order": 3,
+          "summary": "Your words and phrases, sentence length, words you never use, AI tells to strip, before and after lines",
+          "triggers": [
+            "run glink-personal-voice-guide",
+            "make it sound like me",
+            "AI drafts sound like a stranger",
+            "my profile sounds like everyone else's",
+            "build my voice guide",
+            "how do I write",
+            "stop it sounding like AI"
+          ]
+        },
+        {
+          "name": "glink-ai-use-policy",
+          "path": "packs/grad-linkedin-pack/skills/glink-ai-use-policy",
+          "order": 4,
+          "summary": "One page on what you use Claude for and never do, how you disclose AI help, your check before anything goes public",
+          "triggers": [
+            "run glink-ai-use-policy",
+            "how do I explain my AI use",
+            "did you use AI on your profile",
+            "write my AI policy",
+            "is it ok to use AI on LinkedIn",
+            "what should I say if an employer asks about AI",
+            "my rules for using Claude"
+          ]
+        },
+        {
+          "name": "glink-linkedin-headline",
+          "path": "packs/grad-linkedin-pack/skills/glink-linkedin-headline",
+          "order": 5,
+          "summary": "Three headline options within LinkedIn's limit, status plus target role plus proof, the evidence row behind each",
+          "triggers": [
+            "run glink-linkedin-headline",
+            "write my LinkedIn headline",
+            "better headline than student at university",
+            "headline for a graduate",
+            "what should my LinkedIn headline say",
+            "replace aspiring in my headline",
+            "LinkedIn headline with no experience"
+          ]
+        },
+        {
+          "name": "glink-about-section",
+          "path": "packs/grad-linkedin-pack/skills/glink-about-section",
+          "order": 6,
+          "summary": "One or two short paragraphs in your voice, every claim tied to an evidence row",
+          "triggers": [
+            "run glink-about-section",
+            "write my LinkedIn about section",
+            "LinkedIn summary for a graduate",
+            "fix my about section",
+            "about section without buzzwords",
+            "what to write in LinkedIn about as a student",
+            "my about box is empty"
+          ]
+        },
+        {
+          "name": "glink-experience-entries",
+          "path": "packs/grad-linkedin-pack/skills/glink-experience-entries",
+          "order": 7,
+          "summary": "Two to four CAR lines per role, numbers only with a source, transferable skill per line",
+          "triggers": [
+            "run glink-experience-entries",
+            "write my LinkedIn experience section",
+            "does a bar job count on LinkedIn",
+            "put my society role on LinkedIn",
+            "experience entries with no figures",
+            "how to quantify impact as a student",
+            "describe my part-time job on LinkedIn"
+          ]
+        },
+        {
+          "name": "glink-education-projects",
+          "path": "packs/grad-linkedin-pack/skills/glink-education-projects",
+          "order": 8,
+          "summary": "Degree entry with matching modules and dissertation, Projects entries with your part, links as media",
+          "triggers": [
+            "run glink-education-projects",
+            "add my dissertation to LinkedIn",
+            "LinkedIn projects section for students",
+            "put coursework on LinkedIn",
+            "which modules to list on LinkedIn",
+            "add a group project to LinkedIn",
+            "my education section is one line"
+          ]
+        },
+        {
+          "name": "glink-skills-section",
+          "path": "packs/grad-linkedin-pack/skills/glink-skills-section",
+          "order": 9,
+          "summary": "Five to ten skills from your brief, each linked to proof, a \"learning\" list for the rest",
+          "triggers": [
+            "run glink-skills-section",
+            "which skills to add on LinkedIn",
+            "fix my LinkedIn skills section",
+            "too many skills on my LinkedIn",
+            "LinkedIn skills for a graduate",
+            "match my skills to job ads",
+            "should I swap endorsements"
+          ]
+        },
+        {
+          "name": "glink-profile-audit",
+          "path": "packs/grad-linkedin-pack/skills/glink-profile-audit",
+          "order": 10,
+          "summary": "Section-by-section check, truth check against your CV and evidence, fixes in order",
+          "triggers": [
+            "run glink-profile-audit",
+            "audit my LinkedIn profile",
+            "review my LinkedIn as a graduate",
+            "is my LinkedIn profile ready",
+            "what will a recruiter see on my profile",
+            "check my profile matches my CV",
+            "LinkedIn profile checklist"
+          ]
+        },
+        {
+          "name": "glink-project-interview",
+          "path": "packs/grad-linkedin-pack/skills/glink-project-interview",
+          "order": 11,
+          "summary": "Six-moment interview on one project, your words kept, a do-not-claim list",
+          "triggers": [
+            "run glink-project-interview",
+            "interview me about my project",
+            "help me write up my dissertation",
+            "turn my group project into something",
+            "what can I say about my placement project",
+            "we just got a good mark, now what",
+            "get the real story out of my project"
+          ]
+        },
+        {
+          "name": "glink-project-case",
+          "path": "packs/grad-linkedin-pack/skills/glink-project-case",
+          "order": 12,
+          "summary": "One-page case, a 150-word Featured version, the permission note",
+          "triggers": [
+            "run glink-project-case",
+            "write up my project as a case study",
+            "one page on my dissertation",
+            "something a recruiter can open",
+            "turn my interview notes into a case",
+            "short version for Featured",
+            "show how I think"
+          ]
+        },
+        {
+          "name": "glink-featured-section",
+          "path": "packs/grad-linkedin-pack/skills/glink-featured-section",
+          "order": 13,
+          "summary": "Three to five items to pin, a line for each, permission check, reading order",
+          "triggers": [
+            "run glink-featured-section",
+            "what should I put in Featured",
+            "my Featured section is empty",
+            "can I pin my group assignment",
+            "is it ok to share my placement work",
+            "order my Featured items",
+            "plan my Featured section"
+          ]
+        },
+        {
+          "name": "glink-recommendation-request",
+          "path": "packs/grad-linkedin-pack/skills/glink-recommendation-request",
+          "order": 14,
+          "summary": "Who to ask, a short personal request with real reminders, a thank-you",
+          "triggers": [
+            "run glink-recommendation-request",
+            "ask for a LinkedIn recommendation",
+            "who should I ask for a recommendation",
+            "message my placement manager for a recommendation",
+            "ask my supervisor to recommend me",
+            "not the default request",
+            "thank someone for a recommendation"
+          ]
+        },
+        {
+          "name": "glink-post-ideas-bank",
+          "path": "packs/grad-linkedin-pack/skills/glink-post-ideas-bank",
+          "order": 15,
+          "summary": "Ten ideas from your real month, the one true thing each says, five you will never post",
+          "triggers": [
+            "run glink-post-ideas-bank",
+            "I have nothing to say yet",
+            "what should I post about",
+            "give me LinkedIn post ideas",
+            "ideas from my month",
+            "first post as a student",
+            "what is worth posting",
+            "is this too cringe to post"
+          ]
+        },
+        {
+          "name": "glink-learning-post",
+          "path": "packs/grad-linkedin-pack/skills/glink-learning-post",
+          "order": 16,
+          "summary": "One post in What? So what? Now what? order, first line inside the moment",
+          "triggers": [
+            "run glink-learning-post",
+            "post about the employer talk",
+            "I finished a course and want to post",
+            "what I learned at the careers fair",
+            "write up my insight day",
+            "post about a module",
+            "something real about an event"
+          ]
+        },
+        {
+          "name": "glink-project-post",
+          "path": "packs/grad-linkedin-pack/skills/glink-project-post",
+          "order": 17,
+          "summary": "One post on one project moment, first person, optional carousel outline in text",
+          "triggers": [
+            "run glink-project-post",
+            "post about my dissertation",
+            "turn my case study into a post",
+            "share my group project on LinkedIn",
+            "post about my placement project",
+            "carousel outline for my project",
+            "people will not open Featured"
+          ]
+        },
+        {
+          "name": "glink-milestone-post",
+          "path": "packs/grad-linkedin-pack/skills/glink-milestone-post",
+          "order": 18,
+          "summary": "Short post for an offer, placement or degree, bottom line first, thanks only with a yes",
+          "triggers": [
+            "run glink-milestone-post",
+            "announce my graduate job",
+            "I got the offer",
+            "post about graduating",
+            "starting my placement post",
+            "announce my degree result",
+            "new job post that is not cringe"
+          ]
+        },
+        {
+          "name": "glink-voice-check",
+          "path": "packs/grad-linkedin-pack/skills/glink-voice-check",
+          "order": 19,
+          "summary": "Draft checked against your voice guide, AI tells flagged, claims matched to evidence, every change shown",
+          "triggers": [
+            "run glink-voice-check",
+            "does this still sound like me",
+            "check my post before I publish",
+            "I used AI on this draft",
+            "strip the AI from this",
+            "is everything in here true",
+            "proofread my LinkedIn post"
+          ]
+        },
+        {
+          "name": "glink-follow-list",
+          "path": "packs/grad-linkedin-pack/skills/glink-follow-list",
+          "order": 20,
+          "summary": "Up to 20 employers, alumni and bodies you chose by hand, why each, what to watch for",
+          "triggers": [
+            "run glink-follow-list",
+            "who should I follow on LinkedIn",
+            "my LinkedIn feed is useless",
+            "fix my feed as a graduate",
+            "which companies to follow on LinkedIn",
+            "follow employers as a student",
+            "make my feed relevant to my job search"
+          ]
+        },
+        {
+          "name": "glink-thoughtful-comment",
+          "path": "packs/grad-linkedin-pack/skills/glink-thoughtful-comment",
+          "order": 21,
+          "summary": "Two or three angles you could genuinely add to one post, the facts you need, no flattery",
+          "triggers": [
+            "run glink-thoughtful-comment",
+            "what should I comment on this post",
+            "how to comment on LinkedIn as a student",
+            "better than great post",
+            "comment on a recruiter's post",
+            "add value in LinkedIn comments",
+            "LinkedIn comment that is not cringe"
+          ]
+        },
+        {
+          "name": "glink-connection-note",
+          "path": "packs/grad-linkedin-pack/skills/glink-connection-note",
+          "order": 22,
+          "summary": "Short personal note within LinkedIn's limit, no job ask, a follow-up line for later",
+          "triggers": [
+            "run glink-connection-note",
+            "LinkedIn connection request message",
+            "what to write when connecting on LinkedIn",
+            "connect with someone I met at a careers fair",
+            "message an alumnus on LinkedIn",
+            "personalised invitation note",
+            "connection request that is not spam"
+          ]
+        },
+        {
+          "name": "glink-open-to-work",
+          "path": "packs/grad-linkedin-pack/skills/glink-open-to-work",
+          "order": 23,
+          "summary": "Which visibility fits your situation, job preferences from your brief, the privacy caveat",
+          "triggers": [
+            "run glink-open-to-work",
+            "should I turn on open to work",
+            "is the green frame desperate",
+            "open to work recruiters only",
+            "open to work on placement",
+            "will my manager see open to work",
+            "set my job preferences on LinkedIn"
+          ]
+        },
+        {
+          "name": "glink-recruiter-reply",
+          "path": "packs/grad-linkedin-pack/skills/glink-recruiter-reply",
+          "order": 24,
+          "summary": "Scam check first, questions to ask, a reply in your words, what to log",
+          "triggers": [
+            "run glink-recruiter-reply",
+            "a recruiter messaged me",
+            "is this recruiter real",
+            "is this a job scam",
+            "how do I reply to a recruiter on LinkedIn",
+            "recruiter asked for my bank details",
+            "politely decline a recruiter"
+          ]
+        },
+        {
+          "name": "glink-alumni-search-plan",
+          "path": "packs/grad-linkedin-pack/skills/glink-alumni-search-plan",
+          "order": 25,
+          "summary": "Manual filters on your university page, up to ten alumni you choose, the reason and one question each",
+          "triggers": [
+            "run glink-alumni-search-plan",
+            "find alumni on LinkedIn",
+            "how do I use the alumni tool",
+            "which alumni should I contact",
+            "alumni in my target role",
+            "where do I start with alumni",
+            "plan my alumni outreach"
+          ]
+        },
+        {
+          "name": "glink-weekly-routine",
+          "path": "packs/grad-linkedin-pack/skills/glink-weekly-routine",
+          "order": 26,
+          "summary": "A 20-minute weekly plan, an if-then plan for a rejection week, a stop rule for scrolling",
+          "triggers": [
+            "run glink-weekly-routine",
+            "LinkedIn routine",
+            "how often should I use LinkedIn",
+            "I keep giving up on LinkedIn",
+            "LinkedIn after a rejection",
+            "20 minutes a week on LinkedIn",
+            "stop doom scrolling LinkedIn",
+            "LinkedIn habit plan"
+          ]
+        },
+        {
+          "name": "glink-activity-log",
+          "path": "packs/grad-linkedin-pack/skills/glink-activity-log",
+          "order": 27,
+          "summary": "One row per action, what it led to, notes for the monthly refresh",
+          "triggers": [
+            "run glink-activity-log",
+            "LinkedIn activity log",
+            "track my LinkedIn activity",
+            "who did I message on LinkedIn",
+            "LinkedIn tracker spreadsheet",
+            "keep track of LinkedIn connections",
+            "which posts worked",
+            "log my comments"
+          ]
+        },
+        {
+          "name": "glink-monthly-refresh",
+          "path": "packs/grad-linkedin-pack/skills/glink-monthly-refresh",
+          "order": 28,
+          "summary": "New evidence added, profile lines to update, one thing to stop and one to try",
+          "triggers": [
+            "run glink-monthly-refresh",
+            "update my LinkedIn profile",
+            "monthly LinkedIn review",
+            "my profile is out of date",
+            "refresh my LinkedIn",
+            "what should I change on LinkedIn this month",
+            "LinkedIn monthly check-in"
+          ]
+        }
+      ]
     }
   ]
 }

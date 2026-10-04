@@ -1024,6 +1024,36 @@
         "early-career",
         "ai"
       ]
+    },
+    {
+      "name": "grad-linkedin-pack",
+      "source": "./packs/grad-linkedin-pack",
+      "description": "28 skills for an honest LinkedIn presence in your own voice, in seven stages: know your story, build the profile, show your proof of work, post as a graduate, comment and connect, be found by recruiters and alumni, and the weekly 20 minutes. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/grad-linkedin-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "linkedin",
+        "linkedin-profile",
+        "graduate-jobs",
+        "early-career",
+        "personal-branding",
+        "networking",
+        "linkedin-headline",
+        "linkedin-about",
+        "recruiter-outreach",
+        "alumni-networking",
+        "job-search",
+        "student-careers",
+        "ai-fluency",
+        "ai"
+      ]
     }
   ]
 }

@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-36 packs, 730 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+37 packs, 758 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -49,6 +49,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - The Complete Claude Guide for Product Managers: 42 Claude Skills (42 skills): 42 Claude skills for the whole product job, stage by stage, from the vision to the weekly update. Page: https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack. README: [packs/complete-claude-guide-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/README.md)
 - Claude for Business Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the work a business graduate is hired for, checking every output, and showing it to employers. Page: https://meet-polar-bear.com/skills/grad-business-pack. README: [packs/grad-business-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/README.md)
 - Nail Your First Job with Claude: 31 Claude Skills (31 skills): 31 Claude skills for getting up to speed in your first job, from before day one to your first review. Page: https://meet-polar-bear.com/skills/grad-first-job-pack. README: [packs/grad-first-job-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/README.md)
+- Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills (28 skills): 28 Claude skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine. Page: https://meet-polar-bear.com/skills/grad-linkedin-pack. README: [packs/grad-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/README.md)
 
 ## Skills
 
@@ -250,6 +251,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/resources/evidence-and-sources.md): the Complete Claude Guide for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/resources/evidence-and-sources.md): the Claude for Business Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/resources/evidence-and-sources.md): the Nail Your First Job with Claude Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/resources/evidence-and-sources.md): the Claude for LinkedIn Networking for Recent Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -961,3 +963,38 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - fjob-stretch-assignment-ask: packs/grad-first-job-pack/skills/fjob-stretch-assignment-ask/SKILL.md — One or two pieces of work beyond your tasks, what you would learn, how you protect your work, the message
 - fjob-internal-network-plan: packs/grad-first-job-pack/skills/fjob-internal-network-plan/SKILL.md — Six to ten people across teams worth meeting for the work, what to ask and offer, an invite you send
 - Reference: packs/grad-first-job-pack/resources/evidence-and-sources.md
+
+## Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills
+
+28 Claude skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine.
+
+- Pack: packs/grad-linkedin-pack/README.md
+- glink-experience-inventory: packs/grad-linkedin-pack/skills/glink-experience-inventory/SKILL.md — Interview notes, one evidence row per real thing you did, strengths backed by two rows, gaps marked as gaps
+- glink-target-role-brief: packs/grad-linkedin-pack/skills/glink-target-role-brief/SKILL.md — Two or three target roles, employer words from five real job ads, matching evidence rows, what to say yes to next
+- glink-personal-voice-guide: packs/grad-linkedin-pack/skills/glink-personal-voice-guide/SKILL.md — Your words and phrases, sentence length, words you never use, AI tells to strip, before and after lines
+- glink-ai-use-policy: packs/grad-linkedin-pack/skills/glink-ai-use-policy/SKILL.md — One page on what you use Claude for and never do, how you disclose AI help, your check before anything goes public
+- glink-linkedin-headline: packs/grad-linkedin-pack/skills/glink-linkedin-headline/SKILL.md — Three headline options within LinkedIn's limit, status plus target role plus proof, the evidence row behind each
+- glink-about-section: packs/grad-linkedin-pack/skills/glink-about-section/SKILL.md — One or two short paragraphs in your voice, every claim tied to an evidence row
+- glink-experience-entries: packs/grad-linkedin-pack/skills/glink-experience-entries/SKILL.md — Two to four CAR lines per role, numbers only with a source, transferable skill per line
+- glink-education-projects: packs/grad-linkedin-pack/skills/glink-education-projects/SKILL.md — Degree entry with matching modules and dissertation, Projects entries with your part, links as media
+- glink-skills-section: packs/grad-linkedin-pack/skills/glink-skills-section/SKILL.md — Five to ten skills from your brief, each linked to proof, a "learning" list for the rest
+- glink-profile-audit: packs/grad-linkedin-pack/skills/glink-profile-audit/SKILL.md — Section-by-section check, truth check against your CV and evidence, fixes in order
+- glink-project-interview: packs/grad-linkedin-pack/skills/glink-project-interview/SKILL.md — Six-moment interview on one project, your words kept, a do-not-claim list
+- glink-project-case: packs/grad-linkedin-pack/skills/glink-project-case/SKILL.md — One-page case, a 150-word Featured version, the permission note
+- glink-featured-section: packs/grad-linkedin-pack/skills/glink-featured-section/SKILL.md — Three to five items to pin, a line for each, permission check, reading order
+- glink-recommendation-request: packs/grad-linkedin-pack/skills/glink-recommendation-request/SKILL.md — Who to ask, a short personal request with real reminders, a thank-you
+- glink-post-ideas-bank: packs/grad-linkedin-pack/skills/glink-post-ideas-bank/SKILL.md — Ten ideas from your real month, the one true thing each says, five you will never post
+- glink-learning-post: packs/grad-linkedin-pack/skills/glink-learning-post/SKILL.md — One post in What? So what? Now what? order, first line inside the moment
+- glink-project-post: packs/grad-linkedin-pack/skills/glink-project-post/SKILL.md — One post on one project moment, first person, optional carousel outline in text
+- glink-milestone-post: packs/grad-linkedin-pack/skills/glink-milestone-post/SKILL.md — Short post for an offer, placement or degree, bottom line first, thanks only with a yes
+- glink-voice-check: packs/grad-linkedin-pack/skills/glink-voice-check/SKILL.md — Draft checked against your voice guide, AI tells flagged, claims matched to evidence, every change shown
+- glink-follow-list: packs/grad-linkedin-pack/skills/glink-follow-list/SKILL.md — Up to 20 employers, alumni and bodies you chose by hand, why each, what to watch for
+- glink-thoughtful-comment: packs/grad-linkedin-pack/skills/glink-thoughtful-comment/SKILL.md — Two or three angles you could genuinely add to one post, the facts you need, no flattery
+- glink-connection-note: packs/grad-linkedin-pack/skills/glink-connection-note/SKILL.md — Short personal note within LinkedIn's limit, no job ask, a follow-up line for later
+- glink-open-to-work: packs/grad-linkedin-pack/skills/glink-open-to-work/SKILL.md — Which visibility fits your situation, job preferences from your brief, the privacy caveat
+- glink-recruiter-reply: packs/grad-linkedin-pack/skills/glink-recruiter-reply/SKILL.md — Scam check first, questions to ask, a reply in your words, what to log
+- glink-alumni-search-plan: packs/grad-linkedin-pack/skills/glink-alumni-search-plan/SKILL.md — Manual filters on your university page, up to ten alumni you choose, the reason and one question each
+- glink-weekly-routine: packs/grad-linkedin-pack/skills/glink-weekly-routine/SKILL.md — A 20-minute weekly plan, an if-then plan for a rejection week, a stop rule for scrolling
+- glink-activity-log: packs/grad-linkedin-pack/skills/glink-activity-log/SKILL.md — One row per action, what it led to, notes for the monthly refresh
+- glink-monthly-refresh: packs/grad-linkedin-pack/skills/glink-monthly-refresh/SKILL.md — New evidence added, profile lines to update, one thing to stop and one to try
+- Reference: packs/grad-linkedin-pack/resources/evidence-and-sources.md
