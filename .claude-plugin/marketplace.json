@@ -994,6 +994,36 @@
         "management-trainee",
         "ai"
       ]
+    },
+    {
+      "name": "grad-first-job-pack",
+      "source": "./packs/grad-first-job-pack",
+      "description": "31 skills for getting up to speed in your first job, in seven stages: before day one, AI at work safely, learn fast, your first 30, 60 and 90 days, do the work well, feedback and progress, and the habits that compound. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/grad-first-job-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "first-job",
+        "graduate-jobs",
+        "new-starter",
+        "onboarding",
+        "first-90-days",
+        "30-60-90-plan",
+        "probation-review",
+        "ai-policy-at-work",
+        "ai-fluency",
+        "weekly-update",
+        "one-to-one",
+        "brag-document",
+        "early-career",
+        "ai"
+      ]
     }
   ]
 }

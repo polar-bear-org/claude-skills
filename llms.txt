@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-35 packs, 699 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+36 packs, 730 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -48,6 +48,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Slides for Product Managers: 32 Claude Skills (32 skills): 32 Claude skills for every deck a product person makes, drafted in Claude Slides from your own sources, from the deck context file to the read-cold pre-read. Page: https://meet-polar-bear.com/skills/slides-for-product-managers-pack. README: [packs/slides-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/README.md)
 - The Complete Claude Guide for Product Managers: 42 Claude Skills (42 skills): 42 Claude skills for the whole product job, stage by stage, from the vision to the weekly update. Page: https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack. README: [packs/complete-claude-guide-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/README.md)
 - Claude for Business Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the work a business graduate is hired for, checking every output, and showing it to employers. Page: https://meet-polar-bear.com/skills/grad-business-pack. README: [packs/grad-business-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/README.md)
+- Nail Your First Job with Claude: 31 Claude Skills (31 skills): 31 Claude skills for getting up to speed in your first job, from before day one to your first review. Page: https://meet-polar-bear.com/skills/grad-first-job-pack. README: [packs/grad-first-job-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/README.md)
 
 ## Skills
 
@@ -248,6 +249,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Slides for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/complete-claude-guide-for-product-managers-pack/resources/evidence-and-sources.md): the Complete Claude Guide for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/resources/evidence-and-sources.md): the Claude for Business Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/resources/evidence-and-sources.md): the Nail Your First Job with Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -921,3 +923,41 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - gbiz-application-voice-check: packs/grad-business-pack/skills/gbiz-application-voice-check/SKILL.md — Generic phrases, claims you cannot back, missing examples, words you would never say, an edit list you apply
 - gbiz-case-study-practice: packs/grad-business-pack/skills/gbiz-case-study-practice/SKILL.md — A fictional practice case, your notes and recommendation, a critique of structure and numbers, a presentation plan
 - Reference: packs/grad-business-pack/resources/evidence-and-sources.md
+
+## Nail Your First Job with Claude: 31 Claude Skills
+
+31 Claude skills for getting up to speed in your first job, from before day one to your first review.
+
+- Pack: packs/grad-first-job-pack/README.md
+- fjob-company-research-brief: packs/grad-first-job-pack/skills/fjob-company-research-brief/SKILL.md — One-page brief from public sources, five "so what for my role" lines, ten questions for week one
+- fjob-claude-project-setup: packs/grad-first-job-pack/skills/fjob-claude-project-setup/SKILL.md — Project instructions for 90 days, what goes in and never goes in, which account, Incognito and memory check
+- fjob-first-week-plan: packs/grad-first-job-pack/skills/fjob-first-week-plan/SKILL.md — Day-by-day plan, questions for manager, buddy and IT, documents to ask for, end-of-week note
+- fjob-ai-policy-card: packs/grad-first-job-pack/skills/fjob-ai-policy-card/SKILL.md — Your AI policy on one page, gaps as questions, a no-policy branch to agree with your manager
+- fjob-data-check: packs/grad-first-job-pack/skills/fjob-data-check/SKILL.md — Green, amber or red for one piece of content, how to strip identifiers, the safer route
+- fjob-ai-task-picker: packs/grad-first-job-pack/skills/fjob-ai-task-picker/SKILL.md — Tasks sorted into do it yourself, with Claude, Claude first pass, not allowed; what you learn by hand
+- fjob-ai-output-check: packs/grad-first-job-pack/skills/fjob-ai-output-check/SKILL.md — Claim-by-claim check of a Claude draft, what you changed, what still needs a colleague
+- fjob-ai-disclosure-note: packs/grad-first-job-pack/skills/fjob-ai-disclosure-note/SKILL.md — One or two lines on what Claude did and what you did, worded to your policy, and how to say it
+- fjob-question-log: packs/grad-first-job-pack/skills/fjob-question-log/SKILL.md — Running log of questions and answers, batched questions for your check-in, a "stuck, then ask" rule
+- fjob-work-glossary: packs/grad-first-job-pack/skills/fjob-work-glossary/SKILL.md — Acronyms and internal terms in plain words, where you heard them, confirmed or to check
+- fjob-who-does-what-map: packs/grad-first-job-pack/skills/fjob-who-does-what-map/SKILL.md — Team and stakeholder map by role, what each owns and needs, who to ask for what
+- fjob-document-explainer: packs/grad-first-job-pack/skills/fjob-document-explainer/SKILL.md — Plain summary of one shareable document, its terms, what it asks of you, three questions
+- fjob-30-60-90-plan: packs/grad-first-job-pack/skills/fjob-30-60-90-plan/SKILL.md — Understand by 30, contribute by 60, own a piece by 90, checkpoints and support, a draft for your manager
+- fjob-first-goals: packs/grad-first-job-pack/skills/fjob-first-goals/SKILL.md — Three to five proposed goals, SMART where counting is honest, one learning goal, how you will be reviewed
+- fjob-ways-of-working-note: packs/grad-first-job-pack/skills/fjob-ways-of-working-note/SKILL.md — Questions to agree with your manager and a half-page note of what you both agreed
+- fjob-weekly-plan: packs/grad-first-job-pack/skills/fjob-weekly-plan/SKILL.md — Three outcomes, tasks by urgent and important, time blocks, what to ask your manager to prioritise
+- fjob-priority-clash-reply: packs/grad-first-job-pack/skills/fjob-priority-clash-reply/SKILL.md — Factual trade-off note with two options and a short message asking someone to choose
+- fjob-email-to-senior: packs/grad-first-job-pack/skills/fjob-email-to-senior/SKILL.md — Point and ask first, context after, deadline, subject line, tone check
+- fjob-meeting-notes: packs/grad-first-job-pack/skills/fjob-meeting-notes/SKILL.md — Decisions, actions with owner and date, open questions, a follow-up message
+- fjob-spreadsheet-check: packs/grad-first-job-pack/skills/fjob-spreadsheet-check/SKILL.md — Analysis plan, formulas in plain words, layout check, totals reconciled, what the numbers say
+- fjob-short-report: packs/grad-first-job-pack/skills/fjob-short-report/SKILL.md — One to two pages, answer first, three supporting points, what you are unsure of, the ask
+- fjob-presentation-of-work: packs/grad-first-job-pack/skills/fjob-presentation-of-work/SKILL.md — Storyline, full-sentence slide headlines with evidence, likely questions, a rehearsal
+- fjob-mistake-recovery: packs/grad-first-job-pack/skills/fjob-mistake-recovery/SKILL.md — Facts, impact, fix, an early message to your manager, what changes next time
+- fjob-brag-document: packs/grad-first-job-pack/skills/fjob-brag-document/SKILL.md — Dated log of what you did and the result, lessons, monthly recap by theme
+- fjob-weekly-update: packs/grad-first-job-pack/skills/fjob-weekly-update/SKILL.md — Five lines: done, next, blocked, decisions needed, one thing learned
+- fjob-one-to-one-agenda: packs/grad-first-job-pack/skills/fjob-one-to-one-agenda/SKILL.md — Agenda on goals, blockers, decisions, one business question, a feedback ask; notes after
+- fjob-feedback-request: packs/grad-first-job-pack/skills/fjob-feedback-request/SKILL.md — Two or three specific questions about one piece of work, a template for what you hear, one change
+- fjob-first-review-prep: packs/grad-first-job-pack/skills/fjob-first-review-prep/SKILL.md — Evidence against your first goals, a self-review in your words, your questions, support you need
+- fjob-learning-review: packs/grad-first-job-pack/skills/fjob-learning-review/SKILL.md — 15-minute Friday review, one thing to practise next week, the month's pattern
+- fjob-stretch-assignment-ask: packs/grad-first-job-pack/skills/fjob-stretch-assignment-ask/SKILL.md — One or two pieces of work beyond your tasks, what you would learn, how you protect your work, the message
+- fjob-internal-network-plan: packs/grad-first-job-pack/skills/fjob-internal-network-plan/SKILL.md — Six to ten people across teams worth meeting for the work, what to ask and offer, an invite you send
+- Reference: packs/grad-first-job-pack/resources/evidence-and-sources.md

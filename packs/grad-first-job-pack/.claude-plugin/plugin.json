@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "grad-first-job-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for getting up to speed in your first job, from before day one to your first review: a company research brief from public sources, a Claude Project for the first 90 days and a first week plan; an AI policy card, a data check before you paste, an AI task picker, an output check and a disclosure note; a question log, a work glossary, a who does what map and a document explainer; a 30 60 90 day plan, first goals, a ways of working note, a weekly plan and a priority clash reply; emails to senior colleagues, meeting notes, spreadsheet checks, short reports, presentations and a mistake recovery note; a brag document, weekly updates, 1:1 agendas, feedback requests and first review prep; plus a weekly learning review, a stretch assignment ask and an internal network plan. For graduates starting their first job, placement and internship students, apprentices and anyone starting a new job. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/grad-first-job-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "first-job",
+    "graduate-jobs",
+    "new-starter",
+    "onboarding",
+    "first-90-days",
+    "30-60-90-plan",
+    "probation-review",
+    "ai-policy-at-work",
+    "ai-fluency",
+    "weekly-update",
+    "one-to-one",
+    "brag-document",
+    "early-career",
+    "ai"
+  ]
+}

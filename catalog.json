@@ -9306,6 +9306,524 @@
           ]
         }
       ]
+    },
+    {
+      "name": "grad-first-job-pack",
+      "title": "Nail Your First Job with Claude: 31 Claude Skills",
+      "path": "packs/grad-first-job-pack",
+      "homepage": "https://meet-polar-bear.com/skills/grad-first-job-pack",
+      "version": "1.0.0",
+      "description": "31 skills for getting up to speed in your first job, in seven stages: before day one, AI at work safely, learn fast, your first 30, 60 and 90 days, do the work well, feedback and progress, and the habits that compound. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "graduates starting their first job",
+        "placement and internship students",
+        "apprentices",
+        "career changers starting a new job",
+        "new starters in their first 90 days"
+      ],
+      "keywords": [
+        "first-job",
+        "graduate-jobs",
+        "new-starter",
+        "onboarding",
+        "first-90-days",
+        "30-60-90-plan",
+        "probation-review",
+        "ai-policy-at-work",
+        "ai-fluency",
+        "weekly-update",
+        "one-to-one",
+        "brag-document",
+        "early-career",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "fjob-company-research-brief",
+          "path": "packs/grad-first-job-pack/skills/fjob-company-research-brief",
+          "order": 1,
+          "summary": "One-page brief from public sources, five \"so what for my role\" lines, ten questions for week one",
+          "triggers": [
+            "run fjob-company-research-brief",
+            "research my new employer",
+            "I start in two weeks",
+            "what does my new company actually do",
+            "commercial awareness before my first job",
+            "read their Companies House filings",
+            "questions to ask in my first week"
+          ]
+        },
+        {
+          "name": "fjob-claude-project-setup",
+          "path": "packs/grad-first-job-pack/skills/fjob-claude-project-setup",
+          "order": 2,
+          "summary": "Project instructions for 90 days, what goes in and never goes in, which account, Incognito and memory check",
+          "triggers": [
+            "run fjob-claude-project-setup",
+            "set up a Claude project for my new job",
+            "is it safe to use my personal Claude at work",
+            "which Claude account should I use",
+            "what can I put in Claude",
+            "check my Claude memory",
+            "one place for my first 90 days"
+          ]
+        },
+        {
+          "name": "fjob-first-week-plan",
+          "path": "packs/grad-first-job-pack/skills/fjob-first-week-plan",
+          "order": 3,
+          "summary": "Day-by-day plan, questions for manager, buddy and IT, documents to ask for, end-of-week note",
+          "triggers": [
+            "run fjob-first-week-plan",
+            "I start Monday",
+            "plan my first week at work",
+            "nervous about my first day",
+            "what to ask in my first week",
+            "questions for my new manager",
+            "first week of my graduate job"
+          ]
+        },
+        {
+          "name": "fjob-ai-policy-card",
+          "path": "packs/grad-first-job-pack/skills/fjob-ai-policy-card",
+          "order": 4,
+          "summary": "Your AI policy on one page, gaps as questions, a no-policy branch to agree with your manager",
+          "triggers": [
+            "run fjob-ai-policy-card",
+            "what does our AI policy mean",
+            "am I allowed to use Claude at work",
+            "use AI responsibly at work",
+            "summarise my company AI policy",
+            "we have no AI policy",
+            "can I use AI in my new job",
+            "AI rules at work"
+          ]
+        },
+        {
+          "name": "fjob-data-check",
+          "path": "packs/grad-first-job-pack/skills/fjob-data-check",
+          "order": 5,
+          "summary": "Green, amber or red for one piece of content, how to strip identifiers, the safer route",
+          "triggers": [
+            "run fjob-data-check",
+            "can I paste this into Claude",
+            "is it safe to put this in AI",
+            "what not to put into AI at work",
+            "can I share a client email with Claude",
+            "remove names before pasting",
+            "confidential data and AI",
+            "data check before I paste"
+          ]
+        },
+        {
+          "name": "fjob-ai-task-picker",
+          "path": "packs/grad-first-job-pack/skills/fjob-ai-task-picker",
+          "order": 6,
+          "summary": "Tasks sorted into do it yourself, with Claude, Claude first pass, not allowed; what you learn by hand",
+          "triggers": [
+            "run fjob-ai-task-picker",
+            "which tasks should I use AI for",
+            "am I relying on AI too much",
+            "will AI stop me learning my job",
+            "what should I do myself at work",
+            "sort my tasks for Claude",
+            "AI over-reliance new job",
+            "what to delegate to AI"
+          ]
+        },
+        {
+          "name": "fjob-ai-output-check",
+          "path": "packs/grad-first-job-pack/skills/fjob-ai-output-check",
+          "order": 7,
+          "summary": "Claim-by-claim check of a Claude draft, what you changed, what still needs a colleague",
+          "triggers": [
+            "run fjob-ai-output-check",
+            "check this AI draft",
+            "fact check what Claude wrote",
+            "is this AI output right",
+            "check before I send to my manager",
+            "verify AI content",
+            "can I trust this draft",
+            "AI hallucination check"
+          ]
+        },
+        {
+          "name": "fjob-ai-disclosure-note",
+          "path": "packs/grad-first-job-pack/skills/fjob-ai-disclosure-note",
+          "order": 8,
+          "summary": "One or two lines on what Claude did and what you did, worded to your policy, and how to say it",
+          "triggers": [
+            "run fjob-ai-disclosure-note",
+            "how do I say I used AI",
+            "AI disclosure statement for work",
+            "should I tell my manager I used Claude",
+            "I feel guilty using AI",
+            "cite AI in a document",
+            "AI use footnote",
+            "admit I used AI at work"
+          ]
+        },
+        {
+          "name": "fjob-question-log",
+          "path": "packs/grad-first-job-pack/skills/fjob-question-log",
+          "order": 9,
+          "summary": "Running log of questions and answers, batched questions for your check-in, a \"stuck, then ask\" rule",
+          "triggers": [
+            "run fjob-question-log",
+            "too many questions at work",
+            "am I asking too many questions",
+            "keep track of my questions",
+            "new job question list",
+            "what to ask my manager this week",
+            "questions for my check-in",
+            "stuck at work when to ask"
+          ]
+        },
+        {
+          "name": "fjob-work-glossary",
+          "path": "packs/grad-first-job-pack/skills/fjob-work-glossary",
+          "order": 10,
+          "summary": "Acronyms and internal terms in plain words, where you heard them, confirmed or to check",
+          "triggers": [
+            "run fjob-work-glossary",
+            "too many acronyms at work",
+            "what does this acronym mean",
+            "jargon at my new job",
+            "work glossary",
+            "explain these terms",
+            "I nod along in meetings",
+            "internal terms list"
+          ]
+        },
+        {
+          "name": "fjob-who-does-what-map",
+          "path": "packs/grad-first-job-pack/skills/fjob-who-does-what-map",
+          "order": 11,
+          "summary": "Team and stakeholder map by role, what each owns and needs, who to ask for what",
+          "triggers": [
+            "run fjob-who-does-what-map",
+            "who does what in my team",
+            "stakeholder map new job",
+            "who should I copy in",
+            "who decides this",
+            "who to ask for what",
+            "map my team",
+            "understand my stakeholders"
+          ]
+        },
+        {
+          "name": "fjob-document-explainer",
+          "path": "packs/grad-first-job-pack/skills/fjob-document-explainer",
+          "order": 12,
+          "summary": "Plain summary of one shareable document, its terms, what it asks of you, three questions",
+          "triggers": [
+            "run fjob-document-explainer",
+            "explain this document",
+            "summarise this process document",
+            "get familiar with this report",
+            "what does this document mean for me",
+            "too long to read",
+            "questions to ask about this document"
+          ]
+        },
+        {
+          "name": "fjob-30-60-90-plan",
+          "path": "packs/grad-first-job-pack/skills/fjob-30-60-90-plan",
+          "order": 13,
+          "summary": "Understand by 30, contribute by 60, own a piece by 90, checkpoints and support, a draft for your manager",
+          "triggers": [
+            "run fjob-30-60-90-plan",
+            "30 60 90 day plan",
+            "plan for my first 90 days",
+            "first three months plan new job",
+            "show my manager I have a plan",
+            "what should I do in my first month",
+            "graduate 90 day plan"
+          ]
+        },
+        {
+          "name": "fjob-first-goals",
+          "path": "packs/grad-first-job-pack/skills/fjob-first-goals",
+          "order": 14,
+          "summary": "Three to five proposed goals, SMART where counting is honest, one learning goal, how you will be reviewed",
+          "triggers": [
+            "run fjob-first-goals",
+            "first goals new job",
+            "SMART goals for my first 90 days",
+            "nobody set my objectives",
+            "write my probation goals",
+            "what does success look like in my role",
+            "propose goals to my manager"
+          ]
+        },
+        {
+          "name": "fjob-ways-of-working-note",
+          "path": "packs/grad-first-job-pack/skills/fjob-ways-of-working-note",
+          "order": 15,
+          "summary": "Questions to agree with your manager and a half-page note of what you both agreed",
+          "triggers": [
+            "run fjob-ways-of-working-note",
+            "ways of working with my manager",
+            "how does my manager want updates",
+            "how long should I be stuck before asking",
+            "agree 1:1 rhythm",
+            "working style conversation new job",
+            "how to talk to my new manager"
+          ]
+        },
+        {
+          "name": "fjob-weekly-plan",
+          "path": "packs/grad-first-job-pack/skills/fjob-weekly-plan",
+          "order": 16,
+          "summary": "Three outcomes, tasks by urgent and important, time blocks, what to ask your manager to prioritise",
+          "triggers": [
+            "run fjob-weekly-plan",
+            "plan my week",
+            "too many tasks what first",
+            "Eisenhower matrix for my week",
+            "urgent vs important new job",
+            "tasks from three people",
+            "weekly priorities",
+            "time blocking my week"
+          ]
+        },
+        {
+          "name": "fjob-priority-clash-reply",
+          "path": "packs/grad-first-job-pack/skills/fjob-priority-clash-reply",
+          "order": 17,
+          "summary": "Factual trade-off note with two options and a short message asking someone to choose",
+          "triggers": [
+            "run fjob-priority-clash-reply",
+            "two people want something by Friday",
+            "conflicting priorities at work",
+            "how to say I cannot do both",
+            "push back on a deadline politely",
+            "new request clashes with my work",
+            "ask my manager to choose"
+          ]
+        },
+        {
+          "name": "fjob-email-to-senior",
+          "path": "packs/grad-first-job-pack/skills/fjob-email-to-senior",
+          "order": 18,
+          "summary": "Point and ask first, context after, deadline, subject line, tone check",
+          "triggers": [
+            "run fjob-email-to-senior",
+            "email to my director",
+            "how do I word this to a senior person",
+            "make this email shorter",
+            "rewrite my message to my boss",
+            "bottom line up front",
+            "does this sound rude",
+            "chase a senior colleague politely"
+          ]
+        },
+        {
+          "name": "fjob-meeting-notes",
+          "path": "packs/grad-first-job-pack/skills/fjob-meeting-notes",
+          "order": 19,
+          "summary": "Decisions, actions with owner and date, open questions, a follow-up message",
+          "triggers": [
+            "run fjob-meeting-notes",
+            "write up my meeting notes",
+            "who is doing what after this meeting",
+            "meeting minutes",
+            "action items from the call",
+            "follow-up email after a meeting",
+            "what did we decide"
+          ]
+        },
+        {
+          "name": "fjob-spreadsheet-check",
+          "path": "packs/grad-first-job-pack/skills/fjob-spreadsheet-check",
+          "order": 20,
+          "summary": "Analysis plan, formulas in plain words, layout check, totals reconciled, what the numbers say",
+          "triggers": [
+            "run fjob-spreadsheet-check",
+            "explain this Excel formula",
+            "check my spreadsheet",
+            "I was never taught Excel",
+            "is this pivot table right",
+            "what does this data say",
+            "tidy up this data"
+          ]
+        },
+        {
+          "name": "fjob-short-report",
+          "path": "packs/grad-first-job-pack/skills/fjob-short-report",
+          "order": 21,
+          "summary": "One to two pages, answer first, three supporting points, what you are unsure of, the ask",
+          "triggers": [
+            "run fjob-short-report",
+            "write it up",
+            "turn my notes into a report",
+            "short report for my manager",
+            "pyramid principle",
+            "situation complication question",
+            "how do I structure this write-up"
+          ]
+        },
+        {
+          "name": "fjob-presentation-of-work",
+          "path": "packs/grad-first-job-pack/skills/fjob-presentation-of-work",
+          "order": 22,
+          "summary": "Storyline, full-sentence slide headlines with evidence, likely questions, a rehearsal",
+          "triggers": [
+            "run fjob-presentation-of-work",
+            "present my work to the team",
+            "my first presentation at work",
+            "help me with my slides",
+            "what questions will they ask",
+            "rehearse my presentation",
+            "assertion evidence slides"
+          ]
+        },
+        {
+          "name": "fjob-mistake-recovery",
+          "path": "packs/grad-first-job-pack/skills/fjob-mistake-recovery",
+          "order": 23,
+          "summary": "Facts, impact, fix, an early message to your manager, what changes next time",
+          "triggers": [
+            "run fjob-mistake-recovery",
+            "I made a mistake at work",
+            "how do I tell my manager I messed up",
+            "I sent the wrong file",
+            "owning a mistake",
+            "blameless review",
+            "should I hide this mistake"
+          ]
+        },
+        {
+          "name": "fjob-brag-document",
+          "path": "packs/grad-first-job-pack/skills/fjob-brag-document",
+          "order": 24,
+          "summary": "Dated log of what you did and the result, lessons, monthly recap by theme",
+          "triggers": [
+            "run fjob-brag-document",
+            "log a win",
+            "add this to my brag doc",
+            "note what I did this week",
+            "my manager said something nice today",
+            "I fixed something nobody else could",
+            "what have I done this month",
+            "keep track of my work for my review"
+          ]
+        },
+        {
+          "name": "fjob-weekly-update",
+          "path": "packs/grad-first-job-pack/skills/fjob-weekly-update",
+          "order": 25,
+          "summary": "Five lines: done, next, blocked, decisions needed, one thing learned",
+          "triggers": [
+            "run fjob-weekly-update",
+            "weekly update to my manager",
+            "my manager said keep me posted",
+            "write my Friday update",
+            "status update for my manager",
+            "how much should I say in my update",
+            "end of week summary",
+            "update my manager on what I did"
+          ]
+        },
+        {
+          "name": "fjob-one-to-one-agenda",
+          "path": "packs/grad-first-job-pack/skills/fjob-one-to-one-agenda",
+          "order": 26,
+          "summary": "Agenda on goals, blockers, decisions, one business question, a feedback ask; notes after",
+          "triggers": [
+            "run fjob-one-to-one-agenda",
+            "my 1:1 is tomorrow",
+            "what should I bring to my one to one",
+            "agenda for my meeting with my manager",
+            "prep my 30 day check-in",
+            "I have nothing to say in my 1:1",
+            "write up my 1:1 notes",
+            "actions from my one to one"
+          ]
+        },
+        {
+          "name": "fjob-feedback-request",
+          "path": "packs/grad-first-job-pack/skills/fjob-feedback-request",
+          "order": 27,
+          "summary": "Two or three specific questions about one piece of work, a template for what you hear, one change",
+          "triggers": [
+            "run fjob-feedback-request",
+            "how do I ask for feedback",
+            "they just said it's fine",
+            "ask my manager for feedback on my report",
+            "feedback on my presentation",
+            "what could I have done better",
+            "write down the feedback I got",
+            "turn feedback into an action"
+          ]
+        },
+        {
+          "name": "fjob-first-review-prep",
+          "path": "packs/grad-first-job-pack/skills/fjob-first-review-prep",
+          "order": 28,
+          "summary": "Evidence against your first goals, a self-review in your words, your questions, support you need",
+          "triggers": [
+            "run fjob-first-review-prep",
+            "my probation review is booked",
+            "help me write my self-review",
+            "what do I say about myself in my review",
+            "prepare for my first appraisal",
+            "fill in my probation form",
+            "evidence for my review",
+            "I don't know what to write about my first months"
+          ]
+        },
+        {
+          "name": "fjob-learning-review",
+          "path": "packs/grad-first-job-pack/skills/fjob-learning-review",
+          "order": 29,
+          "summary": "15-minute Friday review, one thing to practise next week, the month's pattern",
+          "triggers": [
+            "run fjob-learning-review",
+            "weekly reflection",
+            "Friday review",
+            "what did I learn this week",
+            "Gibbs reflective cycle for work",
+            "I feel like I am not improving",
+            "monthly learning recap"
+          ]
+        },
+        {
+          "name": "fjob-stretch-assignment-ask",
+          "path": "packs/grad-first-job-pack/skills/fjob-stretch-assignment-ask",
+          "order": 30,
+          "summary": "One or two pieces of work beyond your tasks, what you would learn, how you protect your work, the message",
+          "triggers": [
+            "run fjob-stretch-assignment-ask",
+            "ask for more responsibility",
+            "stretch assignment",
+            "I want more challenging work",
+            "how do I ask my manager for more",
+            "70-20-10 plan",
+            "I am bored in my first job"
+          ]
+        },
+        {
+          "name": "fjob-internal-network-plan",
+          "path": "packs/grad-first-job-pack/skills/fjob-internal-network-plan",
+          "order": 31,
+          "summary": "Six to ten people across teams worth meeting for the work, what to ask and offer, an invite you send",
+          "triggers": [
+            "run fjob-internal-network-plan",
+            "meet people in other teams",
+            "internal networking",
+            "coffee chats at work",
+            "who should I get to know",
+            "I only know my own team"
+          ]
+        }
+      ]
     }
   ]
 }
