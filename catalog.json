@@ -6650,6 +6650,511 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-product-managers-pack",
+      "title": "Claude for AI Product Managers: 36 Claude Skills",
+      "path": "packs/ai-product-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-product-managers-pack",
+      "version": "1.0.0",
+      "description": "36 skills for deciding if AI fits, testing it before launch and keeping it honest after: deciding if AI fits, speccing it as tests, briefing the model and the agent, building the evals from real outputs, shipping it safely, running and improving it, and its cost, price and explanation to leaders. Each skill is one named method or one artifact, with the inputs it needs, where it breaks and a fixed output template.",
+      "audience": [
+        "AI product managers",
+        "product managers adding AI features",
+        "founders shipping AI products"
+      ],
+      "keywords": [
+        "ai-product-management",
+        "ai-product-manager",
+        "product-manager",
+        "llm-evals",
+        "eval-rubric",
+        "golden-dataset",
+        "llm-as-a-judge",
+        "system-prompt",
+        "ai-agents",
+        "red-teaming",
+        "ai-risk",
+        "ai-launch",
+        "unit-economics",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "aipm-ai-use-case-canvas",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-use-case-canvas",
+          "order": 1,
+          "summary": "Canvas (prediction, judgment, action, outcome, input, feedback), simpler-fix check, data check, verdict",
+          "triggers": [
+            "run aipm-ai-use-case-canvas",
+            "AI canvas",
+            "do we even need AI for this",
+            "leadership wants an AI feature",
+            "is this a good AI use case"
+          ]
+        },
+        {
+          "name": "aipm-ai-failure-modes",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-failure-modes",
+          "order": 2,
+          "summary": "Failure list per output, false yes vs false no cost, severity and detection, graceful failure, tolerable rate left blank",
+          "triggers": [
+            "run aipm-ai-failure-modes",
+            "AI FMEA",
+            "which AI mistakes matter",
+            "leaders expect it to be right every time",
+            "false positives vs false negatives"
+          ]
+        },
+        {
+          "name": "aipm-workflow-or-agent",
+          "path": "packs/ai-product-managers-pack/skills/aipm-workflow-or-agent",
+          "order": 3,
+          "summary": "Candidate patterns, cost, latency and failure trade-offs, simplest pattern that passes, trigger for the next step up",
+          "triggers": [
+            "run aipm-workflow-or-agent",
+            "do we need an agent",
+            "workflow vs agent",
+            "agent or prompt chain",
+            "agentic architecture choice"
+          ]
+        },
+        {
+          "name": "aipm-ai-model-selection",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-model-selection",
+          "order": 4,
+          "summary": "Side by side test plan on real inputs, quality, latency and cost table per tier, pick per task, re-check date",
+          "triggers": [
+            "run aipm-ai-model-selection",
+            "which model tier should we use",
+            "justify the model choice",
+            "compare models side by side",
+            "cheaper model or stronger model"
+          ]
+        },
+        {
+          "name": "aipm-ai-prototype-brief",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-prototype-brief",
+          "order": 5,
+          "summary": "What the demo tests, pass line set in advance, cherry-picked input check, gap-to-production list",
+          "triggers": [
+            "run aipm-ai-prototype-brief",
+            "leadership thinks the demo is the product",
+            "AI demo to production",
+            "test card for an AI prototype",
+            "what does this AI demo prove"
+          ]
+        },
+        {
+          "name": "aipm-ai-prd",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-prd",
+          "order": 6,
+          "summary": "Problem, inputs the model sees, outputs, behavior summary, fallbacks, data needs, release bar, open questions",
+          "triggers": [
+            "run aipm-ai-prd",
+            "write a PRD for an AI feature",
+            "AI feature spec",
+            "spec for our copilot",
+            "PRD template for an LLM feature"
+          ]
+        },
+        {
+          "name": "aipm-ai-success-criteria",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-success-criteria",
+          "order": 7,
+          "summary": "Measurable criteria per dimension, today's baseline, target set by a named person, how each is measured",
+          "triggers": [
+            "run aipm-ai-success-criteria",
+            "define success criteria for our AI feature",
+            "what does good mean for this model",
+            "make it good is not a spec",
+            "acceptance criteria for an LLM"
+          ]
+        },
+        {
+          "name": "aipm-behavior-contract",
+          "path": "packs/ai-product-managers-pack/skills/aipm-behavior-contract",
+          "order": 8,
+          "summary": "Must, must never and when-unsure lines as Given-When-Then cases, pass rate over repeated runs, guardrails",
+          "triggers": [
+            "run aipm-behavior-contract",
+            "behavior spec for our AI",
+            "must never rules for the assistant",
+            "Given When Then for an LLM",
+            "turn helpful and safe into tests"
+          ]
+        },
+        {
+          "name": "aipm-human-in-the-loop",
+          "path": "packs/ai-product-managers-pack/skills/aipm-human-in-the-loop",
+          "order": 9,
+          "summary": "Approve, edit or take-over points, triggers, handoff message, response time a person can meet, log",
+          "triggers": [
+            "run aipm-human-in-the-loop",
+            "where should a human approve",
+            "human in the loop design",
+            "AI handoff to a person",
+            "approval step for the agent"
+          ]
+        },
+        {
+          "name": "aipm-data-privacy-brief",
+          "path": "packs/ai-product-managers-pack/skills/aipm-data-privacy-brief",
+          "order": 10,
+          "summary": "Data flow from user to model to logs, personal data in prompts, retention, region, questions for legal",
+          "triggers": [
+            "run aipm-data-privacy-brief",
+            "what user data reaches the model",
+            "data flow for our AI feature",
+            "privacy review for an LLM feature",
+            "legal asked about the model's data"
+          ]
+        },
+        {
+          "name": "aipm-system-prompt",
+          "path": "packs/ai-product-managers-pack/skills/aipm-system-prompt",
+          "order": 11,
+          "summary": "Role, audience, task, rules, examples, output format, refusals and handoffs, critique of the current prompt",
+          "triggers": [
+            "run aipm-system-prompt",
+            "write the system prompt",
+            "clean up our prompt",
+            "system prompt template",
+            "which line of the prompt does what"
+          ]
+        },
+        {
+          "name": "aipm-context-engineering",
+          "path": "packs/ai-product-managers-pack/skills/aipm-context-engineering",
+          "order": 12,
+          "summary": "Knowledge sources and owners, freshness rules, what to leave out, retrieval spot checks, context budget",
+          "triggers": [
+            "run aipm-context-engineering",
+            "context engineering",
+            "which documents should the model read",
+            "the AI answers from stale docs",
+            "knowledge base for our AI feature"
+          ]
+        },
+        {
+          "name": "aipm-agent-spec",
+          "path": "packs/ai-product-managers-pack/skills/aipm-agent-spec",
+          "order": 13,
+          "summary": "Goal, allowed tools, permissions, stop conditions, spend budget, approval points, never-alone list",
+          "triggers": [
+            "run aipm-agent-spec",
+            "agent spec",
+            "write the limits for our agent",
+            "agent permissions",
+            "where should the agent stop"
+          ]
+        },
+        {
+          "name": "aipm-tool-descriptions",
+          "path": "packs/ai-product-managers-pack/skills/aipm-tool-descriptions",
+          "order": 14,
+          "summary": "Per tool name, purpose, inputs, outputs, error messages, namespacing, overlap check, three test tasks",
+          "triggers": [
+            "run aipm-tool-descriptions",
+            "write tool descriptions",
+            "the agent picks the wrong tool",
+            "tool definitions for our agent",
+            "MCP tool descriptions"
+          ]
+        },
+        {
+          "name": "aipm-error-analysis",
+          "path": "packs/ai-product-managers-pack/skills/aipm-error-analysis",
+          "order": 15,
+          "summary": "Notes on real outputs, open codes, failure types grouped, counts per type, the three to fix first",
+          "triggers": [
+            "run aipm-error-analysis",
+            "error analysis",
+            "what is actually going wrong with our AI",
+            "read our transcripts",
+            "build a failure taxonomy"
+          ]
+        },
+        {
+          "name": "aipm-golden-dataset",
+          "path": "packs/ai-product-managers-pack/skills/aipm-golden-dataset",
+          "order": 16,
+          "summary": "20 to 50 real cases with expected outcomes, coverage by failure type, source and version, add-and-retire rules",
+          "triggers": [
+            "run aipm-golden-dataset",
+            "golden dataset",
+            "build an eval set",
+            "test cases for our AI feature",
+            "did the new prompt actually help"
+          ]
+        },
+        {
+          "name": "aipm-synthetic-test-data",
+          "path": "packs/ai-product-managers-pack/skills/aipm-synthetic-test-data",
+          "order": 17,
+          "summary": "Generated cases for coverage gaps only, each marked synthetic, checked by a person, kept out of the headline score",
+          "triggers": [
+            "run aipm-synthetic-test-data",
+            "synthetic test data",
+            "generate edge cases",
+            "we do not have enough test cases",
+            "test cases for rare inputs"
+          ]
+        },
+        {
+          "name": "aipm-eval-rubric",
+          "path": "packs/ai-product-managers-pack/skills/aipm-eval-rubric",
+          "order": 18,
+          "summary": "One pass or fail check per failure type, grader per check, pass and fail examples, blockers",
+          "triggers": [
+            "run aipm-eval-rubric",
+            "eval rubric",
+            "pass fail criteria for our AI",
+            "how should we grade outputs",
+            "our 1 to 5 scores mean nothing"
+          ]
+        },
+        {
+          "name": "aipm-llm-judge",
+          "path": "packs/ai-product-managers-pack/skills/aipm-llm-judge",
+          "order": 19,
+          "summary": "Judge prompt for one failure type, labelled set, agreement on a held-out split, bias checks",
+          "triggers": [
+            "run aipm-llm-judge",
+            "LLM as a judge",
+            "judge prompt",
+            "automate our eval grading",
+            "can we trust the LLM grader"
+          ]
+        },
+        {
+          "name": "aipm-eval-plan",
+          "path": "packs/ai-product-managers-pack/skills/aipm-eval-plan",
+          "order": 20,
+          "summary": "Capability and regression suites, when each runs, what blocks a release, named owner of quality",
+          "triggers": [
+            "run aipm-eval-plan",
+            "eval plan",
+            "AI eval strategy",
+            "who owns quality",
+            "when should evals run"
+          ]
+        },
+        {
+          "name": "aipm-red-team-plan",
+          "path": "packs/ai-product-managers-pack/skills/aipm-red-team-plan",
+          "order": 21,
+          "summary": "Attack cases by risk class, who runs them, pass line, fixes before launch",
+          "triggers": [
+            "run aipm-red-team-plan",
+            "red team our AI feature",
+            "prompt injection test plan",
+            "the agent reads emails from strangers",
+            "OWASP LLM top 10 checklist"
+          ]
+        },
+        {
+          "name": "aipm-ai-ux-review",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-ux-review",
+          "order": 22,
+          "summary": "18 interaction guidelines checked by phase, AI disclosure check, correction and handoff paths, fixes ranked",
+          "triggers": [
+            "run aipm-ai-ux-review",
+            "AI UX review",
+            "human-AI interaction guidelines",
+            "users keep rephrasing",
+            "what happens when the assistant is wrong"
+          ]
+        },
+        {
+          "name": "aipm-ai-impact-assessment",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-impact-assessment",
+          "order": 23,
+          "summary": "Who is affected, intended use and misuse, data, oversight, mitigations, residual risk owner, adviser questions",
+          "triggers": [
+            "run aipm-ai-impact-assessment",
+            "AI impact assessment",
+            "algorithmic impact assessment",
+            "the customer wants an impact assessment",
+            "foreseeable misuse of our AI feature"
+          ]
+        },
+        {
+          "name": "aipm-ai-risk-register",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-risk-register",
+          "order": 24,
+          "summary": "Cause, event, effect risks mapped to Map, Measure, Manage, owner, trigger, response",
+          "triggers": [
+            "run aipm-ai-risk-register",
+            "AI risk register",
+            "NIST AI RMF risks",
+            "legal and security want our AI risks",
+            "turn these worries into risks"
+          ]
+        },
+        {
+          "name": "aipm-legal-questions",
+          "path": "packs/ai-product-managers-pack/skills/aipm-legal-questions",
+          "order": 25,
+          "summary": "Questions for the legal and privacy team by topic, with the facts attached; asks, never answers",
+          "triggers": [
+            "run aipm-legal-questions",
+            "questions for legal",
+            "prepare for the legal review",
+            "what do I ask legal about our AI feature",
+            "legal sign-off for AI"
+          ]
+        },
+        {
+          "name": "aipm-ai-launch-checklist",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-launch-checklist",
+          "order": 26,
+          "summary": "Go-live list with an owner per line, from evals passed as run to rollback rehearsed",
+          "triggers": [
+            "run aipm-ai-launch-checklist",
+            "AI launch checklist",
+            "go-live checklist for an AI feature",
+            "are we ready to launch",
+            "launch readiness review"
+          ]
+        },
+        {
+          "name": "aipm-launch-gates",
+          "path": "packs/ai-product-managers-pack/skills/aipm-launch-gates",
+          "order": 27,
+          "summary": "Stages, eval and live numbers per gate, kill criteria, rollback path, who signs each gate",
+          "triggers": [
+            "run aipm-launch-gates",
+            "AI launch gates",
+            "staged rollout for an AI feature",
+            "canary release plan",
+            "kill criteria for our AI launch"
+          ]
+        },
+        {
+          "name": "aipm-quality-review",
+          "path": "packs/ai-product-managers-pack/skills/aipm-quality-review",
+          "order": 28,
+          "summary": "Transcript sample plan, review notes, new failure types, cases added to the golden dataset, decisions",
+          "triggers": [
+            "run aipm-quality-review",
+            "weekly AI quality review",
+            "read our AI transcripts",
+            "it worked for weeks then broke",
+            "review production conversations"
+          ]
+        },
+        {
+          "name": "aipm-feedback-signals",
+          "path": "packs/ai-product-managers-pack/skills/aipm-feedback-signals",
+          "order": 29,
+          "summary": "Signal map (accept, edit, retry, rephrase, abandon, escalate, rating), logging, weekly readout, review triggers",
+          "triggers": [
+            "run aipm-feedback-signals",
+            "users never rate our AI answers",
+            "implicit feedback for an AI feature",
+            "what should we log for our assistant",
+            "thumbs up thumbs down is not enough"
+          ]
+        },
+        {
+          "name": "aipm-prompt-regression-test",
+          "path": "packs/ai-product-managers-pack/skills/aipm-prompt-regression-test",
+          "order": 30,
+          "summary": "Change note, cases to re-run, before and after per failure type, ship or hold for a named person",
+          "triggers": [
+            "run aipm-prompt-regression-test",
+            "did this prompt change break anything",
+            "regression test a prompt edit",
+            "before and after eval for our prompt",
+            "the fix broke another case"
+          ]
+        },
+        {
+          "name": "aipm-model-migration",
+          "path": "packs/ai-product-managers-pack/skills/aipm-model-migration",
+          "order": 31,
+          "summary": "Deadline, breaking changes, eval rerun, cost difference, behavior diffs to read, rollout and fallback",
+          "triggers": [
+            "run aipm-model-migration",
+            "our model is being retired",
+            "deprecation notice for our model",
+            "migrate to the replacement model",
+            "model upgrade plan"
+          ]
+        },
+        {
+          "name": "aipm-ai-incident-response",
+          "path": "packs/ai-product-managers-pack/skills/aipm-ai-incident-response",
+          "order": 32,
+          "summary": "Severity levels, containment, customer correction, evidence timeline, fix into the golden dataset, blameless review",
+          "triggers": [
+            "run aipm-ai-incident-response",
+            "our AI told a customer something wrong",
+            "AI incident playbook",
+            "the chatbot made a promise we cannot keep",
+            "switch off the AI feature"
+          ]
+        },
+        {
+          "name": "aipm-unit-economics",
+          "path": "packs/ai-product-managers-pack/skills/aipm-unit-economics",
+          "order": 33,
+          "summary": "Cost per call, per task and per successful outcome, heavy-user case, caching and batch levers, today's cost",
+          "triggers": [
+            "run aipm-unit-economics",
+            "cost per task",
+            "cost per successful outcome",
+            "what does each AI answer cost us",
+            "finance wants to stop the feature"
+          ]
+        },
+        {
+          "name": "aipm-usage-and-pricing-test",
+          "path": "packs/ai-product-managers-pack/skills/aipm-usage-and-pricing-test",
+          "order": 34,
+          "summary": "Small real-task test, usage estimate at light, normal and heavy use, price options to test, what to re-measure",
+          "triggers": [
+            "run aipm-usage-and-pricing-test",
+            "what will this feature cost to run",
+            "estimate AI usage before launch",
+            "seat or usage pricing for AI",
+            "credits pricing test"
+          ]
+        },
+        {
+          "name": "aipm-feature-card",
+          "path": "packs/ai-product-managers-pack/skills/aipm-feature-card",
+          "order": 35,
+          "summary": "Intended and out-of-scope use, data, eval results as run with dates, known limits, disclosures, owner",
+          "triggers": [
+            "run aipm-feature-card",
+            "model card for our feature",
+            "what does the AI feature do and where does it fail",
+            "AI fact sheet for sales",
+            "document the AI feature for legal"
+          ]
+        },
+        {
+          "name": "aipm-exec-brief",
+          "path": "packs/ai-product-managers-pack/skills/aipm-exec-brief",
+          "order": 36,
+          "summary": "One page, bottom line first: how often it is wrong by severity, what that costs, run cost, the decision asked",
+          "triggers": [
+            "run aipm-exec-brief",
+            "how accurate is it",
+            "explain the AI to leadership",
+            "one-pager for execs on the AI feature",
+            "go or no-go memo for the AI"
+          ]
+        }
+      ]
     }
   ]
 }

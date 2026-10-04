@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-30 packs, 519 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+31 packs, 555 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -43,6 +43,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for Recruiting: 31 Claude Skills (31 skills): 31 skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk. Page: https://meet-polar-bear.com/skills/ai-for-recruiting-pack. README: [packs/ai-for-recruiting-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-recruiting-pack/README.md)
 - AI for L&D and Corporate Training: 30 Claude Skills (30 skills): 30 skills for L&D and corporate training, from the first training request to proof of what changed. Page: https://meet-polar-bear.com/skills/ai-for-training-pack. README: [packs/ai-for-training-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-training-pack/README.md)
 - Claude Docs for Product Managers: 41 Claude Skills (41 skills): 41 skills for the documents product people write, from the first brief to the post-launch review. Page: https://meet-polar-bear.com/skills/docs-for-product-managers-pack. README: [packs/docs-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/docs-for-product-managers-pack/README.md)
+- Claude for AI Product Managers: 36 Claude Skills (36 skills): 36 skills for deciding if AI fits, testing it before launch and keeping it honest after. Page: https://meet-polar-bear.com/skills/ai-product-managers-pack. README: [packs/ai-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/README.md)
 
 ## Skills
 
@@ -238,6 +239,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/case-study-factory-pack/templates): the Case Study Factory Pack's shared files — firm-context.md, filled once by a founder or lead (positioning, tone, the words never used, colors and type, how clients are named, who signs off) and read by every skill before it writes; and case-source.md, the blank case-interviewer fills from the conversation, one per project, and the only source every writer in the pack reads.
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/proposals-pack/templates): the Proposals Pack's shared files — firm-context.md, filled once with firm-context-writer (services and refusals, ideal client, the credentials library, the team roster, the cost basis behind prices, who approves what, the deck conventions) and read by every other skill; and proposal-brief.md, the blank proposal-brief-builder fills from an RFP or the team's notes, one per opportunity, and the source every section writer draws from.
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack/templates): the Creative Futurology Pack's shared files — engagement-brief.md, the context file every skill reads first (the focal question and its horizon, the decision the work must inform, the scope, who is in the room, what the firm already believes), filled with focal-question-framer and kept current by whoever leads the engagement; and signal-log.md, the blank signal cards anyone on the team fills when they notice something, which signal-scanner checks against its sources and merges into the signal log.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/resources/evidence-and-sources.md): the Claude for AI Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -702,3 +704,43 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - doc-executive-summary: packs/docs-for-product-managers-pack/skills/doc-executive-summary/SKILL.md — The answer in one line, three supporting points, the ask, under 120 words
 - doc-plain-language-edit: packs/docs-for-product-managers-pack/skills/doc-plain-language-edit/SKILL.md — Shorter version, word count before and after, AI tells removed, edits listed
 - Reference: packs/docs-for-product-managers-pack/resources/evidence-and-sources.md
+
+## Claude for AI Product Managers: 36 Claude Skills
+- Pack: packs/ai-product-managers-pack/README.md
+- aipm-ai-use-case-canvas: packs/ai-product-managers-pack/skills/aipm-ai-use-case-canvas/SKILL.md — Canvas (prediction, judgment, action, outcome, input, feedback), simpler-fix check, data check, verdict
+- aipm-ai-failure-modes: packs/ai-product-managers-pack/skills/aipm-ai-failure-modes/SKILL.md — Failure list per output, false yes vs false no cost, severity and detection, graceful failure, tolerable rate left blank
+- aipm-workflow-or-agent: packs/ai-product-managers-pack/skills/aipm-workflow-or-agent/SKILL.md — Candidate patterns, cost, latency and failure trade-offs, simplest pattern that passes, trigger for the next step up
+- aipm-ai-model-selection: packs/ai-product-managers-pack/skills/aipm-ai-model-selection/SKILL.md — Side by side test plan on real inputs, quality, latency and cost table per tier, pick per task, re-check date
+- aipm-ai-prototype-brief: packs/ai-product-managers-pack/skills/aipm-ai-prototype-brief/SKILL.md — What the demo tests, pass line set in advance, cherry-picked input check, gap-to-production list
+- aipm-ai-prd: packs/ai-product-managers-pack/skills/aipm-ai-prd/SKILL.md — Problem, inputs the model sees, outputs, behavior summary, fallbacks, data needs, release bar, open questions
+- aipm-ai-success-criteria: packs/ai-product-managers-pack/skills/aipm-ai-success-criteria/SKILL.md — Measurable criteria per dimension, today's baseline, target set by a named person, how each is measured
+- aipm-behavior-contract: packs/ai-product-managers-pack/skills/aipm-behavior-contract/SKILL.md — Must, must never and when-unsure lines as Given-When-Then cases, pass rate over repeated runs, guardrails
+- aipm-human-in-the-loop: packs/ai-product-managers-pack/skills/aipm-human-in-the-loop/SKILL.md — Approve, edit or take-over points, triggers, handoff message, response time a person can meet, log
+- aipm-data-privacy-brief: packs/ai-product-managers-pack/skills/aipm-data-privacy-brief/SKILL.md — Data flow from user to model to logs, personal data in prompts, retention, region, questions for legal
+- aipm-system-prompt: packs/ai-product-managers-pack/skills/aipm-system-prompt/SKILL.md — Role, audience, task, rules, examples, output format, refusals and handoffs, critique of the current prompt
+- aipm-context-engineering: packs/ai-product-managers-pack/skills/aipm-context-engineering/SKILL.md — Knowledge sources and owners, freshness rules, what to leave out, retrieval spot checks, context budget
+- aipm-agent-spec: packs/ai-product-managers-pack/skills/aipm-agent-spec/SKILL.md — Goal, allowed tools, permissions, stop conditions, spend budget, approval points, never-alone list
+- aipm-tool-descriptions: packs/ai-product-managers-pack/skills/aipm-tool-descriptions/SKILL.md — Per tool name, purpose, inputs, outputs, error messages, namespacing, overlap check, three test tasks
+- aipm-error-analysis: packs/ai-product-managers-pack/skills/aipm-error-analysis/SKILL.md — Notes on real outputs, open codes, failure types grouped, counts per type, the three to fix first
+- aipm-golden-dataset: packs/ai-product-managers-pack/skills/aipm-golden-dataset/SKILL.md — 20 to 50 real cases with expected outcomes, coverage by failure type, source and version, add-and-retire rules
+- aipm-synthetic-test-data: packs/ai-product-managers-pack/skills/aipm-synthetic-test-data/SKILL.md — Generated cases for coverage gaps only, each marked synthetic, checked by a person, kept out of the headline score
+- aipm-eval-rubric: packs/ai-product-managers-pack/skills/aipm-eval-rubric/SKILL.md — One pass or fail check per failure type, grader per check, pass and fail examples, blockers
+- aipm-llm-judge: packs/ai-product-managers-pack/skills/aipm-llm-judge/SKILL.md — Judge prompt for one failure type, labelled set, agreement on a held-out split, bias checks
+- aipm-eval-plan: packs/ai-product-managers-pack/skills/aipm-eval-plan/SKILL.md — Capability and regression suites, when each runs, what blocks a release, named owner of quality
+- aipm-red-team-plan: packs/ai-product-managers-pack/skills/aipm-red-team-plan/SKILL.md — Attack cases by risk class, who runs them, pass line, fixes before launch
+- aipm-ai-ux-review: packs/ai-product-managers-pack/skills/aipm-ai-ux-review/SKILL.md — 18 interaction guidelines checked by phase, AI disclosure check, correction and handoff paths, fixes ranked
+- aipm-ai-impact-assessment: packs/ai-product-managers-pack/skills/aipm-ai-impact-assessment/SKILL.md — Who is affected, intended use and misuse, data, oversight, mitigations, residual risk owner, adviser questions
+- aipm-ai-risk-register: packs/ai-product-managers-pack/skills/aipm-ai-risk-register/SKILL.md — Cause, event, effect risks mapped to Map, Measure, Manage, owner, trigger, response
+- aipm-legal-questions: packs/ai-product-managers-pack/skills/aipm-legal-questions/SKILL.md — Questions for the legal and privacy team by topic, with the facts attached; asks, never answers
+- aipm-ai-launch-checklist: packs/ai-product-managers-pack/skills/aipm-ai-launch-checklist/SKILL.md — Go-live list with an owner per line, from evals passed as run to rollback rehearsed
+- aipm-launch-gates: packs/ai-product-managers-pack/skills/aipm-launch-gates/SKILL.md — Stages, eval and live numbers per gate, kill criteria, rollback path, who signs each gate
+- aipm-quality-review: packs/ai-product-managers-pack/skills/aipm-quality-review/SKILL.md — Transcript sample plan, review notes, new failure types, cases added to the golden dataset, decisions
+- aipm-feedback-signals: packs/ai-product-managers-pack/skills/aipm-feedback-signals/SKILL.md — Signal map (accept, edit, retry, rephrase, abandon, escalate, rating), logging, weekly readout, review triggers
+- aipm-prompt-regression-test: packs/ai-product-managers-pack/skills/aipm-prompt-regression-test/SKILL.md — Change note, cases to re-run, before and after per failure type, ship or hold for a named person
+- aipm-model-migration: packs/ai-product-managers-pack/skills/aipm-model-migration/SKILL.md — Deadline, breaking changes, eval rerun, cost difference, behavior diffs to read, rollout and fallback
+- aipm-ai-incident-response: packs/ai-product-managers-pack/skills/aipm-ai-incident-response/SKILL.md — Severity levels, containment, customer correction, evidence timeline, fix into the golden dataset, blameless review
+- aipm-unit-economics: packs/ai-product-managers-pack/skills/aipm-unit-economics/SKILL.md — Cost per call, per task and per successful outcome, heavy-user case, caching and batch levers, today's cost
+- aipm-usage-and-pricing-test: packs/ai-product-managers-pack/skills/aipm-usage-and-pricing-test/SKILL.md — Small real-task test, usage estimate at light, normal and heavy use, price options to test, what to re-measure
+- aipm-feature-card: packs/ai-product-managers-pack/skills/aipm-feature-card/SKILL.md — Intended and out-of-scope use, data, eval results as run with dates, known limits, disclosures, owner
+- aipm-exec-brief: packs/ai-product-managers-pack/skills/aipm-exec-brief/SKILL.md — One page, bottom line first: how often it is wrong by severity, what that costs, run cost, the decision asked
+- Reference: packs/ai-product-managers-pack/resources/evidence-and-sources.md

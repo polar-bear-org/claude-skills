@@ -844,6 +844,36 @@
         "executive-summary",
         "ai"
       ]
+    },
+    {
+      "name": "ai-product-managers-pack",
+      "source": "./packs/ai-product-managers-pack",
+      "description": "36 skills for deciding if AI fits, testing it before launch and keeping it honest after: deciding if AI fits, speccing it as tests, briefing the model and the agent, building the evals from real outputs, shipping it safely, running and improving it, and its cost, price and explanation to leaders. Each skill is one named method or one artifact, with the inputs it needs, where it breaks and a fixed output template.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/ai-product-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "ai-product-management",
+        "ai-product-manager",
+        "product-manager",
+        "llm-evals",
+        "eval-rubric",
+        "golden-dataset",
+        "llm-as-a-judge",
+        "system-prompt",
+        "ai-agents",
+        "red-teaming",
+        "ai-risk",
+        "ai-launch",
+        "unit-economics",
+        "ai"
+      ]
     }
   ]
 }
