@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "complete-claude-guide-for-product-managers-pack",
+  "version": "1.0.0",
+  "description": "42 Claude Skills for the whole product job, stage by stage, from the vision to the weekly update: product vision and strategy, impact maps, market sizing, the lean canvas, north star metrics and roadmaps; customer interview guides, interview synthesis, personas, journey maps, jobs to be done, the value proposition canvas and the opportunity solution tree; feature request triage, RICE, ICE and WSJF scoring, cost of delay, business cases, DACI decisions and decision logs; one-pagers, PR/FAQs, prototype briefs, PRDs and AI feature specs; story maps, user stories, sprint planning, sprint reviews and MoSCoW scope cuts; competitive analysis, go-to-market plans, pre-mortems and release notes; success metrics, experiment design and post-launch reviews; plus the weekly update, the retro and the quarter plan. Each skill keeps one framework, with the inputs it needs, where it breaks, a fixed output template and the next skill to run.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "product-management",
+    "product-manager",
+    "product-owner",
+    "product-strategy",
+    "product-roadmap",
+    "product-discovery",
+    "prioritisation",
+    "rice",
+    "wsjf",
+    "prd",
+    "pr-faq",
+    "user-stories",
+    "north-star-metric",
+    "ai"
+  ]
+}

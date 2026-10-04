@@ -934,6 +934,36 @@
         "stakeholder-update",
         "ai"
       ]
+    },
+    {
+      "name": "complete-claude-guide-for-product-managers-pack",
+      "source": "./packs/complete-claude-guide-for-product-managers-pack",
+      "description": "42 skills for the whole product job, stage by stage, from the vision to the weekly update, in eight stages: set direction, discover, decide, define, deliver, launch, prove, and run the product. Each skill is named as an action and keeps one framework inside, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-strategy",
+        "product-roadmap",
+        "product-discovery",
+        "prioritisation",
+        "rice",
+        "wsjf",
+        "prd",
+        "pr-faq",
+        "user-stories",
+        "north-star-metric",
+        "ai"
+      ]
     }
   ]
 }

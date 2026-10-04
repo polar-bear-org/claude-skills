@@ -8153,6 +8153,631 @@
           ]
         }
       ]
+    },
+    {
+      "name": "complete-claude-guide-for-product-managers-pack",
+      "title": "The Complete Claude Guide for Product Managers: 42 Claude Skills",
+      "path": "packs/complete-claude-guide-for-product-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/complete-claude-guide-for-product-managers-pack",
+      "version": "1.0.0",
+      "description": "42 skills for the whole product job, stage by stage, from the vision to the weekly update, in eight stages: set direction, discover, decide, define, deliver, launch, prove, and run the product. Each skill is named as an action and keeps one framework inside, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "product managers",
+        "product owners",
+        "heads of product"
+      ],
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-strategy",
+        "product-roadmap",
+        "product-discovery",
+        "prioritisation",
+        "rice",
+        "wsjf",
+        "prd",
+        "pr-faq",
+        "user-stories",
+        "north-star-metric",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "pmg-write-product-vision",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-vision",
+          "order": 1,
+          "summary": "Vision statement options and a Product Vision Board (target group, needs, product, business goals), each need marked by its evidence",
+          "triggers": [
+            "run pmg-write-product-vision",
+            "write our product vision",
+            "vision statement",
+            "product vision board",
+            "what are we building toward",
+            "the team cannot explain the product in one sentence"
+          ]
+        },
+        {
+          "name": "pmg-write-product-strategy",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-product-strategy",
+          "order": 2,
+          "summary": "A strategy kernel: diagnosis, guiding policy, coherent actions and a \"we will not\" list, checked against the signs of bad strategy",
+          "triggers": [
+            "run pmg-write-product-strategy",
+            "write our product strategy",
+            "strategy one-pager",
+            "everything is high priority",
+            "we have no strategy to say no against",
+            "what will we not do"
+          ]
+        },
+        {
+          "name": "pmg-map-the-impact",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-map-the-impact",
+          "order": 3,
+          "summary": "An impact map from one business goal to actors, behaviour changes and deliverables, with every item no impact needs marked cut or justify",
+          "triggers": [
+            "run pmg-map-the-impact",
+            "impact map",
+            "impact mapping",
+            "whose behaviour does this change",
+            "our roadmap is just features",
+            "connect features to the goal"
+          ]
+        },
+        {
+          "name": "pmg-size-the-market",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-size-the-market",
+          "order": 4,
+          "summary": "TAM, SAM and SOM from top-down and bottom-up sizing, every assumption sourced, a low-base-high range and sanity checks",
+          "triggers": [
+            "run pmg-size-the-market",
+            "size the market",
+            "TAM SAM SOM",
+            "how big is this opportunity",
+            "market sizing for the slide",
+            "is this market big enough"
+          ]
+        },
+        {
+          "name": "pmg-fill-lean-canvas",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-lean-canvas",
+          "order": 5,
+          "summary": "A Lean Canvas for one segment with every box marked tested or untested and the three riskiest assumptions named",
+          "triggers": [
+            "run pmg-fill-lean-canvas",
+            "lean canvas",
+            "business model on one page",
+            "new product idea",
+            "is this bet viable",
+            "riskiest assumptions"
+          ]
+        },
+        {
+          "name": "pmg-pick-north-star-metric",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-pick-north-star-metric",
+          "order": 6,
+          "summary": "A north star metric tree: the north star, three to five input metrics with definitions, sources and owners, and a counter-metric each",
+          "triggers": [
+            "run pmg-pick-north-star-metric",
+            "pick our north star metric",
+            "north star framework",
+            "which number are we moving",
+            "input metrics",
+            "metric tree"
+          ]
+        },
+        {
+          "name": "pmg-build-product-roadmap",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-build-product-roadmap",
+          "order": 7,
+          "summary": "A now-next-later roadmap with a confidence note per item, a \"not on the roadmap\" list with reasons and a one-page executive version",
+          "triggers": [
+            "run pmg-build-product-roadmap",
+            "build our product roadmap",
+            "now next later roadmap",
+            "roadmap without dates",
+            "the CEO keeps changing the roadmap",
+            "every date becomes a promise"
+          ]
+        },
+        {
+          "name": "pmg-prepare-interview-guide",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-prepare-interview-guide",
+          "order": 8,
+          "summary": "A story-based customer interview guide timed to your slot: screener lines, questions anchored in one past instance, probes, consent note, notes template",
+          "triggers": [
+            "run pmg-prepare-interview-guide",
+            "customer interview guide",
+            "what should I ask customers",
+            "prep my customer call",
+            "discovery interview script",
+            "avoid leading questions"
+          ]
+        },
+        {
+          "name": "pmg-synthesise-interviews",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-synthesise-interviews",
+          "order": 9,
+          "summary": "An affinity board from real interview notes: need statements that cite their sources, contradictions between participants, open questions to take back",
+          "triggers": [
+            "run pmg-synthesise-interviews",
+            "synthesise these interviews",
+            "affinity map my notes",
+            "what did customers tell us",
+            "turn transcripts into insights",
+            "customer needs from interviews"
+          ]
+        },
+        {
+          "name": "pmg-build-personas",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-build-personas",
+          "order": 10,
+          "summary": "Three or four composite personas from interview evidence, each claim linked to its source, with proto-personas marked untested when no research exists",
+          "triggers": [
+            "run pmg-build-personas",
+            "build personas",
+            "user personas from interviews",
+            "who is our user",
+            "research-based personas",
+            "everyone means a different user"
+          ]
+        },
+        {
+          "name": "pmg-map-customer-journey",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-map-customer-journey",
+          "order": 11,
+          "summary": "One persona's journey through one scenario: stages, actions, thoughts and feelings, pain points, opportunities with an owning team, evidence per cell",
+          "triggers": [
+            "run pmg-map-customer-journey",
+            "customer journey map",
+            "map the user journey",
+            "where do customers drop off",
+            "end-to-end experience map",
+            "who owns this gap"
+          ]
+        },
+        {
+          "name": "pmg-map-jobs-to-be-done",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-map-jobs-to-be-done",
+          "order": 12,
+          "summary": "Solution-free job statements behind a request, the circumstances that trigger them, the forces for and against switching, and today's alternatives",
+          "triggers": [
+            "run pmg-map-jobs-to-be-done",
+            "jobs to be done",
+            "JTBD map",
+            "what job is the customer hiring this for",
+            "why do they want this feature",
+            "switching forces"
+          ]
+        },
+        {
+          "name": "pmg-fill-value-proposition-canvas",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-fill-value-proposition-canvas",
+          "order": 13,
+          "summary": "A Value Proposition Canvas for one segment: customer profile from research, value map, fit notes marked confirmed or unconfirmed, one positioning line",
+          "triggers": [
+            "run pmg-fill-value-proposition-canvas",
+            "value proposition canvas",
+            "what is our value prop",
+            "messaging for this segment",
+            "pains and gains",
+            "positioning line"
+          ]
+        },
+        {
+          "name": "pmg-build-opportunity-tree",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-build-opportunity-tree",
+          "order": 14,
+          "summary": "An opportunity solution tree from one outcome and real interviews, with a target opportunity, three ideas and the riskiest assumption per idea",
+          "triggers": [
+            "run pmg-build-opportunity-tree",
+            "opportunity solution tree",
+            "continuous discovery",
+            "which opportunity should we go after",
+            "riskiest assumption",
+            "discovery between sprints"
+          ]
+        },
+        {
+          "name": "pmg-triage-feature-requests",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-triage-feature-requests",
+          "order": 15,
+          "summary": "A triage board for a week of requests: request log, the job behind each one, a build / later / no sort and a reply draft for every requester",
+          "triggers": [
+            "run pmg-triage-feature-requests",
+            "triage feature requests",
+            "sales promised a feature",
+            "the CEO forwarded a request",
+            "sort this week's requests",
+            "how do I say no to a feature request"
+          ]
+        },
+        {
+          "name": "pmg-score-with-rice",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-rice",
+          "order": 16,
+          "summary": "A RICE-scored backlog with confidence notes, out-of-order exceptions and a cut list",
+          "triggers": [
+            "run pmg-score-with-rice",
+            "RICE score my backlog",
+            "prioritise my backlog",
+            "rank these features",
+            "the loudest voice keeps winning",
+            "what do we cut this quarter"
+          ]
+        },
+        {
+          "name": "pmg-score-with-ice",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-score-with-ice",
+          "order": 17,
+          "summary": "ICE scores for a long list of ideas, the evidence behind each confidence score, and a shortlist of the top ten to test",
+          "triggers": [
+            "run pmg-score-with-ice",
+            "ICE score these ideas",
+            "pick which experiments to run",
+            "too many growth ideas",
+            "which ideas should we test first",
+            "impact confidence ease"
+          ]
+        },
+        {
+          "name": "pmg-rank-with-wsjf",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-rank-with-wsjf",
+          "order": 18,
+          "summary": "WSJF for a shared backlog: cost of delay parts divided by job size, the ranked list, and a check of how the order moves if one estimate is wrong",
+          "triggers": [
+            "run pmg-rank-with-wsjf",
+            "WSJF",
+            "weighted shortest job first",
+            "rank the shared backlog",
+            "several teams one backlog",
+            "which epic goes first"
+          ]
+        },
+        {
+          "name": "pmg-cost-the-delay",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-cost-the-delay",
+          "order": 19,
+          "summary": "A cost of delay sheet: an urgency profile per item, a CD3 order, \"yes, if\" options that show what drops, and a reply to the person asking",
+          "triggers": [
+            "run pmg-cost-the-delay",
+            "everything is urgent",
+            "cost of delay",
+            "CD3",
+            "how do I say no to my boss",
+            "what drops if we take this on"
+          ]
+        },
+        {
+          "name": "pmg-make-business-case",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-make-business-case",
+          "order": 20,
+          "summary": "A one-page business case in five parts with an assumptions table of ranges and owners and a note on what would change the answer",
+          "triggers": [
+            "run pmg-make-business-case",
+            "business case for this feature",
+            "justify this feature to finance",
+            "ROI for a feature",
+            "build or buy",
+            "the numbers are guesses"
+          ]
+        },
+        {
+          "name": "pmg-set-up-daci-decision",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-set-up-daci-decision",
+          "order": 21,
+          "summary": "One decision set up with DACI: the question and options, driver, approver, contributors, informed list, the inputs and a decision date",
+          "triggers": [
+            "run pmg-set-up-daci-decision",
+            "who decides this",
+            "cannot get sign-off",
+            "decision keeps getting reversed",
+            "DACI for this decision",
+            "who is the approver"
+          ]
+        },
+        {
+          "name": "pmg-keep-decision-log",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-keep-decision-log",
+          "order": 22,
+          "summary": "A product decision log of short dated records (context, decision, status, consequences) and a rule for when a settled decision may be reopened",
+          "triggers": [
+            "run pmg-keep-decision-log",
+            "log this decision",
+            "decision record",
+            "decisions keep getting reopened",
+            "we already decided this",
+            "decision history"
+          ]
+        },
+        {
+          "name": "pmg-write-one-pager",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-one-pager",
+          "order": 23,
+          "summary": "A Product One-Pager: problem, who it is for, why now, the bet, the success measure, what we will not do, open questions and the ask",
+          "triggers": [
+            "run pmg-write-one-pager",
+            "write a one-pager",
+            "one page product brief",
+            "pitch this idea on a page",
+            "I need a go-ahead before the PRD",
+            "product brief"
+          ]
+        },
+        {
+          "name": "pmg-write-pr-faq",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-pr-faq",
+          "order": 24,
+          "summary": "A Working Backwards PR/FAQ: a one-page press release from the customer's side, a customer FAQ and an internal FAQ naming costs, risks and hard problems",
+          "triggers": [
+            "run pmg-write-pr-faq",
+            "write a PR/FAQ",
+            "working backwards doc",
+            "press release for this feature",
+            "why are we building this",
+            "write down the why before we build"
+          ]
+        },
+        {
+          "name": "pmg-write-prototype-brief",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-prototype-brief",
+          "order": 25,
+          "summary": "A Prototype Test Brief: the belief it tests, a pass line decided in advance, what it does not prove and a gap-to-production list",
+          "triggers": [
+            "run pmg-write-prototype-brief",
+            "leadership thinks the demo is the product",
+            "what does this prototype prove",
+            "prototype test plan",
+            "is the AI demo ready to ship",
+            "gap to production"
+          ]
+        },
+        {
+          "name": "pmg-write-the-prd",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-the-prd",
+          "order": 26,
+          "summary": "A PRD with the problem and its evidence, goals, non-goals, numbered testable requirements, open questions with owners and success measures",
+          "triggers": [
+            "run pmg-write-the-prd",
+            "write a PRD",
+            "PRD template",
+            "spec for this feature",
+            "the team keeps reading the spec differently",
+            "my AI PRD is too long"
+          ]
+        },
+        {
+          "name": "pmg-spec-the-ai-feature",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-spec-the-ai-feature",
+          "order": 27,
+          "summary": "An AI Feature Spec: the task in one line, measurable success criteria, an acceptable error rate set by a named person, an eval set plan, the human fallback, the launch bar",
+          "triggers": [
+            "run pmg-spec-the-ai-feature",
+            "spec an AI feature",
+            "eval plan for this feature",
+            "what error rate is acceptable",
+            "a prompt change broke another case",
+            "when is the AI feature ready to launch"
+          ]
+        },
+        {
+          "name": "pmg-build-story-map",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-build-story-map",
+          "order": 28,
+          "summary": "A User Story Map with the user activity backbone told left to right, a walking skeleton and release slices tied to outcomes",
+          "triggers": [
+            "run pmg-build-story-map",
+            "story map",
+            "user story mapping",
+            "I cannot see the whole product in the backlog",
+            "walking skeleton",
+            "slice the MVP"
+          ]
+        },
+        {
+          "name": "pmg-write-user-stories",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-user-stories",
+          "order": 29,
+          "summary": "A User Story Set with Given / When / Then acceptance criteria, an INVEST check per story and questions for refinement",
+          "triggers": [
+            "run pmg-write-user-stories",
+            "write user stories",
+            "acceptance criteria",
+            "Given When Then",
+            "INVEST check",
+            "engineers say the requirements are not detailed enough"
+          ]
+        },
+        {
+          "name": "pmg-plan-the-sprint",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-sprint",
+          "order": 30,
+          "summary": "A Sprint Plan: one sprint goal written as an outcome, capacity by role including bugs and debt, the items the team selected, a definition of done check, what was left out",
+          "triggers": [
+            "run pmg-plan-the-sprint",
+            "sprint planning",
+            "plan the next sprint",
+            "write a sprint goal",
+            "what fits in this sprint",
+            "we committed to too much again"
+          ]
+        },
+        {
+          "name": "pmg-run-sprint-review",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-run-sprint-review",
+          "order": 31,
+          "summary": "A Sprint Review: the increment against the sprint goal, what meets the definition of done, feedback by role, proposed backlog changes, a short key-updates deck",
+          "triggers": [
+            "run pmg-run-sprint-review",
+            "sprint review",
+            "prepare the sprint demo",
+            "end of sprint review agenda",
+            "nobody outside the team comes to the demo",
+            "key updates deck for stakeholders"
+          ]
+        },
+        {
+          "name": "pmg-cut-scope-with-moscow",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-cut-scope-with-moscow",
+          "order": 32,
+          "summary": "A Must / Should / Could / Won't list for a fixed date, with a Must budget check and a Won't-this-time list",
+          "triggers": [
+            "run pmg-cut-scope-with-moscow",
+            "MoSCoW prioritisation",
+            "the date is fixed and scope has to give",
+            "must have should have could have",
+            "cut scope for the release",
+            "everything is a must"
+          ]
+        },
+        {
+          "name": "pmg-write-competitive-analysis",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-competitive-analysis",
+          "order": 33,
+          "summary": "A Competitive Landscape Brief: a sourced landscape table, win / loss themes from buyer interviews, where you differ and what not to copy",
+          "triggers": [
+            "run pmg-write-competitive-analysis",
+            "competitive analysis",
+            "competitor landscape",
+            "the competitor has it",
+            "win loss analysis",
+            "should we copy this feature"
+          ]
+        },
+        {
+          "name": "pmg-plan-go-to-market",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-go-to-market",
+          "order": 34,
+          "summary": "A Go-to-Market Launch Plan: launch tier, audiences, the positioning line every team uses, readiness by team, an enablement brief, owners and dates",
+          "triggers": [
+            "run pmg-plan-go-to-market",
+            "go-to-market plan",
+            "GTM plan",
+            "launch plan",
+            "sales is not ready for the launch",
+            "launch readiness"
+          ]
+        },
+        {
+          "name": "pmg-run-pre-mortem",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-run-pre-mortem",
+          "order": 35,
+          "summary": "A pre-mortem on a launch or big decision: the failure story, a merged list of reasons, a risk register with owners and early signals, a go, adjust or stop call",
+          "triggers": [
+            "run pmg-run-pre-mortem",
+            "pre-mortem this launch",
+            "what could go wrong",
+            "risks before we commit",
+            "launch risk register",
+            "stress test the plan"
+          ]
+        },
+        {
+          "name": "pmg-write-release-notes",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-release-notes",
+          "order": 36,
+          "summary": "Release Notes for customers grouped by change type, an internal version for support with known issues and workarounds, and a who-is-affected list",
+          "triggers": [
+            "run pmg-write-release-notes",
+            "release notes",
+            "write the changelog",
+            "what's new post",
+            "turn these tickets into release notes",
+            "support heard about it from customers"
+          ]
+        },
+        {
+          "name": "pmg-set-success-metrics",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-set-success-metrics",
+          "order": 37,
+          "summary": "A HEART table for one release running from goals to signals to metrics, with a baseline, a target and a guardrail for each",
+          "triggers": [
+            "run pmg-set-success-metrics",
+            "success metrics for this release",
+            "HEART metrics",
+            "goals signals metrics",
+            "how do we know if it worked",
+            "define success before launch"
+          ]
+        },
+        {
+          "name": "pmg-design-the-experiment",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-design-the-experiment",
+          "order": 38,
+          "summary": "An online controlled experiment: hypothesis, variants, one primary metric, guardrails, a sample and duration check and a decision rule written before launch",
+          "triggers": [
+            "run pmg-design-the-experiment",
+            "design an A/B test",
+            "experiment plan",
+            "is my test big enough",
+            "how long should the test run",
+            "decision rule for an experiment"
+          ]
+        },
+        {
+          "name": "pmg-run-post-launch-review",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-run-post-launch-review",
+          "order": 39,
+          "summary": "An after-action review of one launch: intended against actual, the reasons, a keep and change list, and a keep, fix or remove call on the feature",
+          "triggers": [
+            "run pmg-run-post-launch-review",
+            "post-launch review",
+            "launch retrospective",
+            "did the feature work",
+            "nobody is using the new feature",
+            "keep, fix or remove"
+          ]
+        },
+        {
+          "name": "pmg-write-weekly-update",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-write-weekly-update",
+          "order": 40,
+          "summary": "A one-screen weekly update: bottom line and asks first, what shipped, what is at risk with an owner, decisions needed by date, one cut per audience",
+          "triggers": [
+            "run pmg-write-weekly-update",
+            "write my weekly update",
+            "weekly product update",
+            "status update nobody reads",
+            "Friday update",
+            "update for leadership"
+          ]
+        },
+        {
+          "name": "pmg-run-the-retro",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-run-the-retro",
+          "order": 41,
+          "summary": "A retro that checks last retro's action first, picks a format for this cycle's question, groups input into themes, and ends in one owned change with a check date",
+          "triggers": [
+            "run pmg-run-the-retro",
+            "plan our retro",
+            "sprint retrospective",
+            "retro format",
+            "our retro actions never happen",
+            "start stop continue"
+          ]
+        },
+        {
+          "name": "pmg-plan-the-quarter",
+          "path": "packs/complete-claude-guide-for-product-managers-pack/skills/pmg-plan-the-quarter",
+          "order": 42,
+          "summary": "A quarter plan: objectives and key results marked committed or aspirational, a capacity split, the bets behind each key result, what is out, check-in dates",
+          "triggers": [
+            "run pmg-plan-the-quarter",
+            "plan the quarter",
+            "quarterly OKRs",
+            "turn this feature list into OKRs",
+            "key results",
+            "OKR check-in"
+          ]
+        }
+      ]
     }
   ]
 }
