@@ -6080,6 +6080,576 @@
           ]
         }
       ]
+    },
+    {
+      "name": "docs-for-product-managers-pack",
+      "title": "Claude Docs for Product Managers: 41 Claude Skills",
+      "path": "packs/docs-for-product-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/docs-for-product-managers-pack",
+      "version": "1.0.0",
+      "description": "41 skills for the documents product people write, from the first brief to the post-launch review: setting up your voice and templates, discovering, shaping the vision, defining the work, deciding, aligning, reporting up, shipping and learning, running the team, and reviewing and editing. Each skill produces one finished document with a named reader and a length budget.",
+      "audience": [
+        "product managers",
+        "product owners",
+        "heads of product"
+      ],
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-documentation",
+        "prd",
+        "pr-faq",
+        "product-strategy",
+        "product-roadmap",
+        "okrs",
+        "user-stories",
+        "release-notes",
+        "business-case",
+        "executive-summary",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "doc-writing-style-guide",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-writing-style-guide",
+          "order": 1,
+          "summary": "One-page voice guide from your own docs, banned words list, length defaults per doc type",
+          "triggers": [
+            "run doc-writing-style-guide",
+            "make Claude write like me",
+            "my docs sound like AI",
+            "build a style guide from my docs",
+            "stop the AI phrases"
+          ]
+        },
+        {
+          "name": "doc-template-kit",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-template-kit",
+          "order": 2,
+          "summary": "Your PRD, memo and update templates as reusable outlines, section rules, a filled sample",
+          "triggers": [
+            "run doc-template-kit",
+            "Claude ignores our template",
+            "use our PRD template",
+            "turn our templates into a kit",
+            "keep our headings"
+          ]
+        },
+        {
+          "name": "doc-brief",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-brief",
+          "order": 3,
+          "summary": "Purpose, reader, decision wanted, length budget, sources, what to leave out, in six lines",
+          "triggers": [
+            "run doc-brief",
+            "brief before I write",
+            "who is this doc for",
+            "how long should this doc be",
+            "set up this doc"
+          ]
+        },
+        {
+          "name": "doc-interview-guide",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-interview-guide",
+          "order": 4,
+          "summary": "Research questions, screener, story-based questions, note sheet",
+          "triggers": [
+            "run doc-interview-guide",
+            "customer interview guide",
+            "interview questions for users",
+            "prep my customer call",
+            "discovery interview script"
+          ]
+        },
+        {
+          "name": "doc-research-summary",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-research-summary",
+          "order": 5,
+          "summary": "Findings with counts and sources, what we still do not know, opportunities, top line",
+          "triggers": [
+            "run doc-research-summary",
+            "summarise these interviews",
+            "research findings doc",
+            "affinity map my notes",
+            "what did customers tell us"
+          ]
+        },
+        {
+          "name": "doc-competitive-analysis",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-competitive-analysis",
+          "order": 6,
+          "summary": "Comparison table with dated sources, where we win and lose, what we will not copy",
+          "triggers": [
+            "run doc-competitive-analysis",
+            "competitive analysis",
+            "competitor landscape",
+            "a competitor just launched",
+            "the competitor has it"
+          ]
+        },
+        {
+          "name": "doc-opportunity-assessment",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-opportunity-assessment",
+          "order": 7,
+          "summary": "One page on the standard opportunity questions, riskiest unknowns, go or not now",
+          "triggers": [
+            "run doc-opportunity-assessment",
+            "opportunity assessment",
+            "should we even look at this idea",
+            "one page before we commit a team",
+            "is this worth pursuing"
+          ]
+        },
+        {
+          "name": "doc-lean-canvas",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-lean-canvas",
+          "order": 8,
+          "summary": "One-page canvas with the riskiest assumptions marked untested",
+          "triggers": [
+            "run doc-lean-canvas",
+            "lean canvas",
+            "business logic on one page",
+            "map this new bet",
+            "what are our riskiest assumptions"
+          ]
+        },
+        {
+          "name": "doc-business-model-canvas",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-business-model-canvas",
+          "order": 9,
+          "summary": "The nine blocks, what changes for the business, untested assumptions",
+          "triggers": [
+            "run doc-business-model-canvas",
+            "business model canvas",
+            "what changes for the business if this works",
+            "this feature changes how we make money",
+            "nine blocks"
+          ]
+        },
+        {
+          "name": "doc-value-proposition-canvas",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-value-proposition-canvas",
+          "order": 10,
+          "summary": "Jobs, pains and gains from research, value map, fit notes, one positioning line",
+          "triggers": [
+            "run doc-value-proposition-canvas",
+            "value proposition canvas",
+            "jobs pains and gains",
+            "sales and marketing describe it differently",
+            "what is our positioning line"
+          ]
+        },
+        {
+          "name": "doc-problem-statement",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-problem-statement",
+          "order": 11,
+          "summary": "Who, situation, evidence, cost of the problem, success, a \"how might we\" line",
+          "triggers": [
+            "how might we",
+            "run doc-problem-statement",
+            "write the problem statement",
+            "what problem are we solving",
+            "leadership saw a demo and wants it shipped"
+          ]
+        },
+        {
+          "name": "doc-one-pager",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-one-pager",
+          "order": 12,
+          "summary": "Problem, appetite, approach, rabbit holes, no-gos, open questions on one page",
+          "triggers": [
+            "run doc-one-pager",
+            "write a one-pager",
+            "pitch this bet",
+            "shape up pitch",
+            "I need a yes before the spec"
+          ]
+        },
+        {
+          "name": "doc-prd",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-prd",
+          "order": 13,
+          "summary": "Goals and non-goals, users, prioritised requirements, edge cases, metrics, length budget",
+          "triggers": [
+            "run doc-prd",
+            "write a PRD",
+            "spec this feature",
+            "product requirements",
+            "turn the one-pager into a spec"
+          ]
+        },
+        {
+          "name": "doc-ai-feature-spec",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-ai-feature-spec",
+          "order": 14,
+          "summary": "Model inputs and outputs, must and must-never behaviour, success criteria, test cases",
+          "triggers": [
+            "run doc-ai-feature-spec",
+            "spec an AI feature",
+            "eval plan",
+            "how do we test the AI feature",
+            "what does good look like for this model"
+          ]
+        },
+        {
+          "name": "doc-user-stories",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-user-stories",
+          "order": 15,
+          "summary": "Stories, Given/When/Then criteria, INVEST check, refinement questions",
+          "triggers": [
+            "As a, I want, so that",
+            "run doc-user-stories",
+            "write user stories",
+            "acceptance criteria",
+            "Given When Then"
+          ]
+        },
+        {
+          "name": "doc-trade-off-memo",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-trade-off-memo",
+          "order": 16,
+          "summary": "The request, what it displaces, cost of delay of each, recommendation, the costed no",
+          "triggers": [
+            "run doc-trade-off-memo",
+            "why we are not building it",
+            "help me say no to this request",
+            "what would this push out",
+            "cost of delay for this ask"
+          ]
+        },
+        {
+          "name": "doc-decision-memo",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-decision-memo",
+          "order": 17,
+          "summary": "Options with evidence, recommendation, reversibility, who decides by when, signature line",
+          "triggers": [
+            "run doc-decision-memo",
+            "write the decision memo",
+            "get sign-off that sticks",
+            "we keep reopening this decision",
+            "lay out the options for the VP"
+          ]
+        },
+        {
+          "name": "doc-pr-faq",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-pr-faq",
+          "order": 18,
+          "summary": "One-page press release, external FAQ, internal FAQ with the hard questions",
+          "triggers": [
+            "run doc-pr-faq",
+            "write a PR/FAQ",
+            "working backwards doc",
+            "press release before we build",
+            "prove customers care"
+          ]
+        },
+        {
+          "name": "doc-business-case",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-business-case",
+          "order": 19,
+          "summary": "Case for change, options including do nothing, ranges with named assumptions, the ask",
+          "triggers": [
+            "run doc-business-case",
+            "write the business case",
+            "finance wants an ROI",
+            "make the numbers hold up",
+            "funding request for this bet"
+          ]
+        },
+        {
+          "name": "doc-product-strategy",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-product-strategy",
+          "order": 20,
+          "summary": "Diagnosis, guiding policy, coherent actions, what we will not do",
+          "triggers": [
+            "run doc-product-strategy",
+            "write our product strategy",
+            "everything is high priority",
+            "we have no strategy to say no against",
+            "strategy one-pager"
+          ]
+        },
+        {
+          "name": "doc-roadmap-narrative",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-roadmap-narrative",
+          "order": 21,
+          "summary": "Written Now, Next, Later with the problem behind each item, confidence, what changed",
+          "triggers": [
+            "run doc-roadmap-narrative",
+            "write our roadmap as a doc",
+            "now next later roadmap",
+            "roadmap without dates",
+            "put a date on it and it becomes a promise"
+          ]
+        },
+        {
+          "name": "doc-okrs",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-okrs",
+          "order": 22,
+          "summary": "1 to 3 objectives, outcome key results with baselines, what we stop, check-in rhythm",
+          "triggers": [
+            "run doc-okrs",
+            "write our product OKRs",
+            "quarterly planning",
+            "our OKRs read like a task list",
+            "turn this feature list into key results"
+          ]
+        },
+        {
+          "name": "doc-weekly-update",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-weekly-update",
+          "order": 23,
+          "summary": "Decision needed at the top, what changed, risks with evidence, what is next, under 250 words",
+          "triggers": [
+            "run doc-weekly-update",
+            "write my weekly update",
+            "Friday status update",
+            "weekly product update",
+            "status report nobody reads"
+          ]
+        },
+        {
+          "name": "doc-metrics-review",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-metrics-review",
+          "order": 24,
+          "summary": "Input and output metrics with base and period, what moved and why, actions, owner questions",
+          "triggers": [
+            "run doc-metrics-review",
+            "write up the weekly metrics",
+            "what does the dashboard mean this week",
+            "metrics review doc",
+            "explain why activation dropped"
+          ]
+        },
+        {
+          "name": "doc-roadmap-review-pre-read",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-roadmap-review-pre-read",
+          "order": 25,
+          "summary": "What changed, now-next-later with confidence, what is off and why, the decision asked",
+          "triggers": [
+            "run doc-roadmap-review-pre-read",
+            "pre-read for the roadmap review",
+            "roadmap review memo",
+            "we keep explaining instead of deciding",
+            "what changed on the roadmap"
+          ]
+        },
+        {
+          "name": "doc-qbr",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-qbr",
+          "order": 26,
+          "summary": "Goals against results, shipped against promised, lessons, next bets, the asks",
+          "triggers": [
+            "run doc-qbr",
+            "write the QBR",
+            "quarterly business review doc",
+            "grade our key results",
+            "quarter review before the meeting"
+          ]
+        },
+        {
+          "name": "doc-board-memo",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-board-memo",
+          "order": 27,
+          "summary": "Progress against plan, the few metrics that matter, risks, the question for the board",
+          "triggers": [
+            "run doc-board-memo",
+            "product section of the board pack",
+            "board memo for product",
+            "board pre-read",
+            "the CEO needs the product update by Friday"
+          ]
+        },
+        {
+          "name": "doc-launch-plan",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-launch-plan",
+          "order": 28,
+          "summary": "Launch tier, readiness checklist by team, dates and owners, go or no-go criteria, comms list",
+          "triggers": [
+            "run doc-launch-plan",
+            "launch plan",
+            "launch checklist",
+            "what tier is this launch",
+            "support heard about it from customers"
+          ]
+        },
+        {
+          "name": "doc-sales-enablement-brief",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-sales-enablement-brief",
+          "order": 29,
+          "summary": "Who it is for, the problem in customer words, what it does not do, objections, internal FAQ",
+          "triggers": [
+            "run doc-sales-enablement-brief",
+            "sales enablement brief",
+            "brief the sales team",
+            "sales promised it before it shipped",
+            "sales cannot explain the feature"
+          ]
+        },
+        {
+          "name": "doc-release-notes",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-release-notes",
+          "order": 30,
+          "summary": "Customer notes grouped Added, Changed, Fixed, Removed, benefit first, plus an internal version",
+          "triggers": [
+            "run doc-release-notes",
+            "release notes",
+            "write the changelog",
+            "what's new post",
+            "turn these tickets into release notes"
+          ]
+        },
+        {
+          "name": "doc-sunset-notice",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-sunset-notice",
+          "order": 31,
+          "summary": "Internal decision note, customer notice, dates, replacement, migration steps, support FAQ",
+          "triggers": [
+            "run doc-sunset-notice",
+            "sunset notice",
+            "deprecate a feature",
+            "retire a feature customers still use",
+            "deprecation announcement"
+          ]
+        },
+        {
+          "name": "doc-experiment-readout",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-experiment-readout",
+          "order": 32,
+          "summary": "Hypothesis, design, sample, result with interval, guardrails, decision, lessons",
+          "triggers": [
+            "run doc-experiment-readout",
+            "experiment readout",
+            "write up the A/B test",
+            "did the test win",
+            "the result is not significant"
+          ]
+        },
+        {
+          "name": "doc-post-launch-review",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-post-launch-review",
+          "order": 33,
+          "summary": "Goals against actuals with sources, adoption, surprises, keep, change, stop, owners",
+          "triggers": [
+            "run doc-post-launch-review",
+            "post-launch review",
+            "did the launch work",
+            "launch retrospective",
+            "customers still use the old workflow"
+          ]
+        },
+        {
+          "name": "doc-meeting-notes",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-meeting-notes",
+          "order": 34,
+          "summary": "Decisions, actions with owners and dates, open questions, sent the same day",
+          "triggers": [
+            "run doc-meeting-notes",
+            "write up this meeting",
+            "meeting notes from this transcript",
+            "what did we decide",
+            "action items with owners"
+          ]
+        },
+        {
+          "name": "doc-decision-log",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-decision-log",
+          "order": 35,
+          "summary": "Dated table of decisions with context, options, decider, status, link",
+          "triggers": [
+            "run doc-decision-log",
+            "log this decision",
+            "decision log",
+            "why did we decide this",
+            "we already decided this"
+          ]
+        },
+        {
+          "name": "doc-team-charter",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-team-charter",
+          "order": 36,
+          "summary": "Mission, customers, scope, roles, decision rights, working agreements, review date",
+          "triggers": [
+            "run doc-team-charter",
+            "team charter",
+            "nobody knows who decides",
+            "new product team kickoff",
+            "working agreements"
+          ]
+        },
+        {
+          "name": "doc-handover",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-handover",
+          "order": 37,
+          "summary": "State of each workstream, open decisions, risks, key roles, first two weeks",
+          "triggers": [
+            "run doc-handover",
+            "handover doc",
+            "I am going on leave",
+            "changing teams",
+            "hand over my workstreams"
+          ]
+        },
+        {
+          "name": "doc-onboarding",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-onboarding",
+          "order": 38,
+          "summary": "Product, users, strategy, metrics, who decides what, open threads, first 30 days",
+          "triggers": [
+            "run doc-onboarding",
+            "onboarding doc for a new PM",
+            "a new PM joins next week",
+            "PM onboarding guide",
+            "first 30 days plan"
+          ]
+        },
+        {
+          "name": "doc-rfc-review",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-rfc-review",
+          "order": 39,
+          "summary": "Comments by severity, edge cases, missing requirements, questions, a go, revise or discuss call",
+          "triggers": [
+            "run doc-rfc-review",
+            "review this RFC",
+            "review this design doc",
+            "is this spec missing anything",
+            "find the edge cases"
+          ]
+        },
+        {
+          "name": "doc-executive-summary",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-executive-summary",
+          "order": 40,
+          "summary": "The answer in one line, three supporting points, the ask, under 120 words",
+          "triggers": [
+            "run doc-executive-summary",
+            "write an exec summary",
+            "bottom line up front",
+            "summarise this for leadership",
+            "TL;DR for my boss"
+          ]
+        },
+        {
+          "name": "doc-plain-language-edit",
+          "path": "packs/docs-for-product-managers-pack/skills/doc-plain-language-edit",
+          "order": 41,
+          "summary": "Shorter version, word count before and after, AI tells removed, edits listed",
+          "triggers": [
+            "run doc-plain-language-edit",
+            "make this sound less like AI",
+            "cut this doc in half",
+            "remove the Claudish",
+            "plain language edit"
+          ]
+        }
+      ]
     }
   ]
 }

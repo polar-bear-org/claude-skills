@@ -814,6 +814,36 @@
         "ai",
         "people-ops"
       ]
+    },
+    {
+      "name": "docs-for-product-managers-pack",
+      "source": "./packs/docs-for-product-managers-pack",
+      "description": "41 skills for the documents product people write, from the first brief to the post-launch review: setting up your voice and templates, discovering, shaping the vision, defining the work, deciding, aligning, reporting up, shipping and learning, running the team, and reviewing and editing. Each skill produces one finished document with a named reader and a length budget.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/docs-for-product-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "product-documentation",
+        "prd",
+        "pr-faq",
+        "product-strategy",
+        "product-roadmap",
+        "okrs",
+        "user-stories",
+        "release-notes",
+        "business-case",
+        "executive-summary",
+        "ai"
+      ]
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "docs-for-product-managers-pack",
+  "version": "1.0.0",
+  "description": "41 Claude Skills for the documents product people write, from the first brief to the post-launch review: a writing style guide, a doc template kit and the six-line doc brief, customer interview guides, user research summaries and competitive analysis, opportunity assessments, the lean, business model and value proposition canvases, problem statements, product one-pagers, PRDs, AI feature specs and eval plans, user stories and acceptance criteria, trade-off and decision memos, the working backwards PR/FAQ and the business case, product strategy, roadmap narratives, product OKRs and the weekly update, metrics reviews, roadmap review pre-reads, QBRs and the board memo, launch plans, sales enablement briefs, release notes, sunset notices, experiment readouts and post-launch reviews, meeting notes, decision logs, team charters, handovers and new-PM onboarding, RFC reviews, executive summaries and the plain language edit. Each skill produces one finished document with a named reader and a length budget.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/docs-for-product-managers-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "product-management",
+    "product-manager",
+    "product-owner",
+    "product-documentation",
+    "prd",
+    "pr-faq",
+    "product-strategy",
+    "product-roadmap",
+    "okrs",
+    "user-stories",
+    "release-notes",
+    "business-case",
+    "executive-summary",
+    "ai"
+  ]
+}

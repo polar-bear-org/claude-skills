@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-29 packs, 478 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+30 packs, 519 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -42,6 +42,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - AI for Project Management: 31 Claude Skills (31 skills): 31 skills for running a project from charter to clean handover. Page: https://meet-polar-bear.com/skills/ai-for-project-management-pack. README: [packs/ai-for-project-management-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-project-management-pack/README.md)
 - AI for Recruiting: 31 Claude Skills (31 skills): 31 skills for recruiting from the intake meeting to the signed offer, in-house and on the agency desk. Page: https://meet-polar-bear.com/skills/ai-for-recruiting-pack. README: [packs/ai-for-recruiting-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-recruiting-pack/README.md)
 - AI for L&D and Corporate Training: 30 Claude Skills (30 skills): 30 skills for L&D and corporate training, from the first training request to proof of what changed. Page: https://meet-polar-bear.com/skills/ai-for-training-pack. README: [packs/ai-for-training-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-for-training-pack/README.md)
+- Claude Docs for Product Managers: 41 Claude Skills (41 skills): 41 skills for the documents product people write, from the first brief to the post-launch review. Page: https://meet-polar-bear.com/skills/docs-for-product-managers-pack. README: [packs/docs-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/docs-for-product-managers-pack/README.md)
 
 ## Skills
 
@@ -656,3 +657,48 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - ld-addie-project-plan: packs/ai-for-training-pack/skills/ld-addie-project-plan/SKILL.md — Produces phases, deliverables, owners, review gates, realistic durations, SAM iterations
 - ld-compliance-training: packs/ai-for-training-pack/skills/ld-compliance-training/SKILL.md — Produces the few decisions per rule, scenario checks, a refresh cadence, limits on the record
 - Reference: packs/ai-for-training-pack/resources/evidence-and-sources.md
+
+## Claude Docs for Product Managers: 41 Claude Skills
+- Pack: packs/docs-for-product-managers-pack/README.md
+- doc-writing-style-guide: packs/docs-for-product-managers-pack/skills/doc-writing-style-guide/SKILL.md — One-page voice guide from your own docs, banned words list, length defaults per doc type
+- doc-template-kit: packs/docs-for-product-managers-pack/skills/doc-template-kit/SKILL.md — Your PRD, memo and update templates as reusable outlines, section rules, a filled sample
+- doc-brief: packs/docs-for-product-managers-pack/skills/doc-brief/SKILL.md — Purpose, reader, decision wanted, length budget, sources, what to leave out, in six lines
+- doc-interview-guide: packs/docs-for-product-managers-pack/skills/doc-interview-guide/SKILL.md — Research questions, screener, story-based questions, note sheet
+- doc-research-summary: packs/docs-for-product-managers-pack/skills/doc-research-summary/SKILL.md — Findings with counts and sources, what we still do not know, opportunities, top line
+- doc-competitive-analysis: packs/docs-for-product-managers-pack/skills/doc-competitive-analysis/SKILL.md — Comparison table with dated sources, where we win and lose, what we will not copy
+- doc-opportunity-assessment: packs/docs-for-product-managers-pack/skills/doc-opportunity-assessment/SKILL.md — One page on the standard opportunity questions, riskiest unknowns, go or not now
+- doc-lean-canvas: packs/docs-for-product-managers-pack/skills/doc-lean-canvas/SKILL.md — One-page canvas with the riskiest assumptions marked untested
+- doc-business-model-canvas: packs/docs-for-product-managers-pack/skills/doc-business-model-canvas/SKILL.md — The nine blocks, what changes for the business, untested assumptions
+- doc-value-proposition-canvas: packs/docs-for-product-managers-pack/skills/doc-value-proposition-canvas/SKILL.md — Jobs, pains and gains from research, value map, fit notes, one positioning line
+- doc-problem-statement: packs/docs-for-product-managers-pack/skills/doc-problem-statement/SKILL.md — Who, situation, evidence, cost of the problem, success, a "how might we" line
+- doc-one-pager: packs/docs-for-product-managers-pack/skills/doc-one-pager/SKILL.md — Problem, appetite, approach, rabbit holes, no-gos, open questions on one page
+- doc-prd: packs/docs-for-product-managers-pack/skills/doc-prd/SKILL.md — Goals and non-goals, users, prioritised requirements, edge cases, metrics, length budget
+- doc-ai-feature-spec: packs/docs-for-product-managers-pack/skills/doc-ai-feature-spec/SKILL.md — Model inputs and outputs, must and must-never behaviour, success criteria, test cases
+- doc-user-stories: packs/docs-for-product-managers-pack/skills/doc-user-stories/SKILL.md — Stories, Given/When/Then criteria, INVEST check, refinement questions
+- doc-trade-off-memo: packs/docs-for-product-managers-pack/skills/doc-trade-off-memo/SKILL.md — The request, what it displaces, cost of delay of each, recommendation, the costed no
+- doc-decision-memo: packs/docs-for-product-managers-pack/skills/doc-decision-memo/SKILL.md — Options with evidence, recommendation, reversibility, who decides by when, signature line
+- doc-pr-faq: packs/docs-for-product-managers-pack/skills/doc-pr-faq/SKILL.md — One-page press release, external FAQ, internal FAQ with the hard questions
+- doc-business-case: packs/docs-for-product-managers-pack/skills/doc-business-case/SKILL.md — Case for change, options including do nothing, ranges with named assumptions, the ask
+- doc-product-strategy: packs/docs-for-product-managers-pack/skills/doc-product-strategy/SKILL.md — Diagnosis, guiding policy, coherent actions, what we will not do
+- doc-roadmap-narrative: packs/docs-for-product-managers-pack/skills/doc-roadmap-narrative/SKILL.md — Written Now, Next, Later with the problem behind each item, confidence, what changed
+- doc-okrs: packs/docs-for-product-managers-pack/skills/doc-okrs/SKILL.md — 1 to 3 objectives, outcome key results with baselines, what we stop, check-in rhythm
+- doc-weekly-update: packs/docs-for-product-managers-pack/skills/doc-weekly-update/SKILL.md — Decision needed at the top, what changed, risks with evidence, what is next, under 250 words
+- doc-metrics-review: packs/docs-for-product-managers-pack/skills/doc-metrics-review/SKILL.md — Input and output metrics with base and period, what moved and why, actions, owner questions
+- doc-roadmap-review-pre-read: packs/docs-for-product-managers-pack/skills/doc-roadmap-review-pre-read/SKILL.md — What changed, now-next-later with confidence, what is off and why, the decision asked
+- doc-qbr: packs/docs-for-product-managers-pack/skills/doc-qbr/SKILL.md — Goals against results, shipped against promised, lessons, next bets, the asks
+- doc-board-memo: packs/docs-for-product-managers-pack/skills/doc-board-memo/SKILL.md — Progress against plan, the few metrics that matter, risks, the question for the board
+- doc-launch-plan: packs/docs-for-product-managers-pack/skills/doc-launch-plan/SKILL.md — Launch tier, readiness checklist by team, dates and owners, go or no-go criteria, comms list
+- doc-sales-enablement-brief: packs/docs-for-product-managers-pack/skills/doc-sales-enablement-brief/SKILL.md — Who it is for, the problem in customer words, what it does not do, objections, internal FAQ
+- doc-release-notes: packs/docs-for-product-managers-pack/skills/doc-release-notes/SKILL.md — Customer notes grouped Added, Changed, Fixed, Removed, benefit first, plus an internal version
+- doc-sunset-notice: packs/docs-for-product-managers-pack/skills/doc-sunset-notice/SKILL.md — Internal decision note, customer notice, dates, replacement, migration steps, support FAQ
+- doc-experiment-readout: packs/docs-for-product-managers-pack/skills/doc-experiment-readout/SKILL.md — Hypothesis, design, sample, result with interval, guardrails, decision, lessons
+- doc-post-launch-review: packs/docs-for-product-managers-pack/skills/doc-post-launch-review/SKILL.md — Goals against actuals with sources, adoption, surprises, keep, change, stop, owners
+- doc-meeting-notes: packs/docs-for-product-managers-pack/skills/doc-meeting-notes/SKILL.md — Decisions, actions with owners and dates, open questions, sent the same day
+- doc-decision-log: packs/docs-for-product-managers-pack/skills/doc-decision-log/SKILL.md — Dated table of decisions with context, options, decider, status, link
+- doc-team-charter: packs/docs-for-product-managers-pack/skills/doc-team-charter/SKILL.md — Mission, customers, scope, roles, decision rights, working agreements, review date
+- doc-handover: packs/docs-for-product-managers-pack/skills/doc-handover/SKILL.md — State of each workstream, open decisions, risks, key roles, first two weeks
+- doc-onboarding: packs/docs-for-product-managers-pack/skills/doc-onboarding/SKILL.md — Product, users, strategy, metrics, who decides what, open threads, first 30 days
+- doc-rfc-review: packs/docs-for-product-managers-pack/skills/doc-rfc-review/SKILL.md — Comments by severity, edge cases, missing requirements, questions, a go, revise or discuss call
+- doc-executive-summary: packs/docs-for-product-managers-pack/skills/doc-executive-summary/SKILL.md — The answer in one line, three supporting points, the ask, under 120 words
+- doc-plain-language-edit: packs/docs-for-product-managers-pack/skills/doc-plain-language-edit/SKILL.md — Shorter version, word count before and after, AI tells removed, edits listed
+- Reference: packs/docs-for-product-managers-pack/resources/evidence-and-sources.md
