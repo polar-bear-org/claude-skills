@@ -10287,6 +10287,530 @@
           ]
         }
       ]
+    },
+    {
+      "name": "grad-marketing-pack",
+      "title": "Claude for Marketing Graduates: 31 Claude Skills",
+      "path": "packs/grad-marketing-pack",
+      "homepage": "https://meet-polar-bear.com/skills/grad-marketing-pack",
+      "version": "1.0.0",
+      "description": "31 skills for doing the junior marketing job well with Claude and then showing it, in seven stages: set up AI-fluent marketing work, research the audience and market, plan the campaign, create content in the brand voice, report and improve, build a proof project, and apply and interview. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "marketing graduates",
+        "final-year marketing students",
+        "business graduates heading into marketing",
+        "marketing assistants",
+        "graduate marketing executives"
+      ],
+      "keywords": [
+        "marketing",
+        "marketing-graduate",
+        "graduate-jobs",
+        "early-career",
+        "campaign-planning",
+        "content-marketing",
+        "brand-voice",
+        "seo",
+        "email-marketing",
+        "social-media",
+        "marketing-analytics",
+        "marketing-portfolio",
+        "job-search",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "gmkt-brand-voice-guide",
+          "path": "packs/grad-marketing-pack/skills/gmkt-brand-voice-guide",
+          "order": 1,
+          "summary": "\"We are / we are not\" attributes, tone by situation, word list, three before-and-after rewrites, Project instructions block",
+          "triggers": [
+            "run gmkt-brand-voice-guide",
+            "brand voice guide",
+            "tone of voice guide",
+            "make my drafts sound like the brand",
+            "write in our brand voice",
+            "voice and tone document",
+            "every draft sounds different",
+            "set up Claude to write like us"
+          ]
+        },
+        {
+          "name": "gmkt-prompt-brief",
+          "path": "packs/grad-marketing-pack/skills/gmkt-prompt-brief",
+          "order": 2,
+          "summary": "Reusable brief per recurring task, three starters, what never goes into a prompt",
+          "triggers": [
+            "run gmkt-prompt-brief",
+            "write me a better prompt",
+            "my AI drafts are generic",
+            "prompt template for social posts",
+            "reusable prompt for the newsletter",
+            "how do I brief Claude",
+            "prompt for a report summary",
+            "stop getting bland AI copy"
+          ]
+        },
+        {
+          "name": "gmkt-ai-draft-review",
+          "path": "packs/grad-marketing-pack/skills/gmkt-ai-draft-review",
+          "order": 3,
+          "summary": "Line-by-line check for facts, voice, generic tells and unsourced numbers, kept / changed / cut log, sign-off line",
+          "triggers": [
+            "run gmkt-ai-draft-review",
+            "check this AI draft",
+            "does this sound like AI",
+            "review my copy before it goes out",
+            "fact check this post",
+            "make this less generic",
+            "edit this AI-written draft",
+            "is this ready to send"
+          ]
+        },
+        {
+          "name": "gmkt-claim-check",
+          "path": "packs/grad-marketing-pack/skills/gmkt-claim-check",
+          "order": 4,
+          "summary": "Every claim listed, evidence held or missing, reviews and ad labels checked, rewrite or cut, questions for an adviser",
+          "triggers": [
+            "run gmkt-claim-check",
+            "can we say best",
+            "is this claim allowed",
+            "substantiate this claim",
+            "check our copy for claims",
+            "where did this percentage come from",
+            "are these testimonials ok",
+            "do we need to label this as an ad"
+          ]
+        },
+        {
+          "name": "gmkt-audience-persona",
+          "path": "packs/grad-marketing-pack/skills/gmkt-audience-persona",
+          "order": 5,
+          "summary": "One or two personas from public evidence, each line cited, assumptions marked, three things to test",
+          "triggers": [
+            "run gmkt-audience-persona",
+            "build a persona",
+            "who is our audience",
+            "customer persona from reviews",
+            "the brief just says millennials",
+            "target audience for this campaign",
+            "what do customers actually say",
+            "evidence-based persona"
+          ]
+        },
+        {
+          "name": "gmkt-jobs-to-be-done",
+          "path": "packs/grad-marketing-pack/skills/gmkt-jobs-to-be-done",
+          "order": 6,
+          "summary": "Job statements, push, pull, anxiety and habit from real reviews, the message each force suggests",
+          "triggers": [
+            "run gmkt-jobs-to-be-done",
+            "jobs to be done",
+            "JTBD map",
+            "why do customers switch",
+            "why do people hesitate to buy",
+            "forces of progress",
+            "switching triggers",
+            "what job is our product hired for"
+          ]
+        },
+        {
+          "name": "gmkt-competitor-content-audit",
+          "path": "packs/grad-marketing-pack/skills/gmkt-competitor-content-audit",
+          "order": 7,
+          "summary": "Channels, themes, formats and rhythm, claims sorted into table stakes, rare and specific, gaps; a map, never a ranking",
+          "triggers": [
+            "run gmkt-competitor-content-audit",
+            "competitor content audit",
+            "what are competitors doing on social",
+            "competitor social media analysis",
+            "audit competitor content",
+            "how do we stand out from competitors",
+            "everyone says the same thing"
+          ]
+        },
+        {
+          "name": "gmkt-swot-analysis",
+          "path": "packs/grad-marketing-pack/skills/gmkt-swot-analysis",
+          "order": 8,
+          "summary": "SWOT with a source per line, PESTLE prompts, paired factors turned into actions",
+          "triggers": [
+            "run gmkt-swot-analysis",
+            "SWOT analysis",
+            "do a SWOT for this brand",
+            "marketing SWOT",
+            "PESTLE analysis",
+            "my SWOT has no so what",
+            "SWOT for an interview task",
+            "turn a SWOT into actions"
+          ]
+        },
+        {
+          "name": "gmkt-creative-brief",
+          "path": "packs/grad-marketing-pack/skills/gmkt-creative-brief",
+          "order": 9,
+          "summary": "Objective, audience, single-minded proposition, reason to believe, mandatories, deliverables, measures, deadline",
+          "triggers": [
+            "run gmkt-creative-brief",
+            "write a creative brief",
+            "brief the designer",
+            "brief an agency",
+            "turn my meeting notes into a brief",
+            "single-minded proposition",
+            "what goes in a creative brief",
+            "my brief has five messages"
+          ]
+        },
+        {
+          "name": "gmkt-messaging-house",
+          "path": "packs/grad-marketing-pack/skills/gmkt-messaging-house",
+          "order": 10,
+          "summary": "Umbrella message, three pillars, sourced proof points, words to avoid, one line per channel",
+          "triggers": [
+            "run gmkt-messaging-house",
+            "build a messaging house",
+            "message house template",
+            "key messages for a launch",
+            "messaging pillars",
+            "make every channel say the same thing",
+            "messaging framework for a campaign",
+            "proof points for our messages"
+          ]
+        },
+        {
+          "name": "gmkt-campaign-plan",
+          "path": "packs/grad-marketing-pack/skills/gmkt-campaign-plan",
+          "order": 11,
+          "summary": "Situation, SMART objectives with a baseline, strategy, tactics by channel, actions with owners, control",
+          "triggers": [
+            "run gmkt-campaign-plan",
+            "pull together a campaign plan",
+            "SOSTAC plan",
+            "marketing plan for a launch",
+            "event marketing plan",
+            "SMART marketing objectives",
+            "campaign plan template",
+            "plan for a product launch"
+          ]
+        },
+        {
+          "name": "gmkt-see-think-do-care",
+          "path": "packs/grad-marketing-pack/skills/gmkt-see-think-do-care",
+          "order": 12,
+          "summary": "Audience at each stage, content and channel per stage, one metric per stage, gaps in the mix",
+          "triggers": [
+            "run gmkt-see-think-do-care",
+            "see think do care",
+            "map our content to the funnel",
+            "content for people not ready to buy",
+            "full funnel content plan",
+            "awareness content metrics",
+            "why is all our content salesy",
+            "content mapping by intent"
+          ]
+        },
+        {
+          "name": "gmkt-launch-checklist",
+          "path": "packs/grad-marketing-pack/skills/gmkt-launch-checklist",
+          "order": 13,
+          "summary": "UTM naming sheet, link and tracking tests, named approvals, ad labels, alt text, go or no-go owner",
+          "triggers": [
+            "run gmkt-launch-checklist",
+            "campaign launch checklist",
+            "UTM naming convention",
+            "check my UTM links",
+            "pre-launch checklist",
+            "launch is tomorrow",
+            "do I need an ad label",
+            "alt text for campaign images"
+          ]
+        },
+        {
+          "name": "gmkt-content-calendar",
+          "path": "packs/grad-marketing-pack/skills/gmkt-content-calendar",
+          "order": 14,
+          "summary": "Month grid by channel, pillar, format, owner, status and approval date, evidence behind each post",
+          "triggers": [
+            "run gmkt-content-calendar",
+            "content calendar for next month",
+            "plan our social posts for the month",
+            "content plan template",
+            "what should we post this month",
+            "social media calendar",
+            "editorial calendar",
+            "we only post when there is time"
+          ]
+        },
+        {
+          "name": "gmkt-social-media-posts",
+          "path": "packs/grad-marketing-pack/skills/gmkt-social-media-posts",
+          "order": 15,
+          "summary": "One idea as LinkedIn, Instagram and TikTok variants, three hooks, alt text, \"Ad\" label where needed",
+          "triggers": [
+            "run gmkt-social-media-posts",
+            "write this week's social posts",
+            "LinkedIn post for the brand",
+            "Instagram caption",
+            "TikTok caption",
+            "make this post sound less like AI",
+            "social media copy",
+            "hooks for a post"
+          ]
+        },
+        {
+          "name": "gmkt-short-video-script",
+          "path": "packs/grad-marketing-pack/skills/gmkt-short-video-script",
+          "order": 16,
+          "summary": "Opening hook, beat-by-beat script, shot list, on-screen text and captions, edit notes",
+          "triggers": [
+            "run gmkt-short-video-script",
+            "script a reel",
+            "TikTok script",
+            "Instagram Reels script",
+            "shot list for a short video",
+            "video idea for social",
+            "what do we film",
+            "storyboard a 30 second video"
+          ]
+        },
+        {
+          "name": "gmkt-email-newsletter",
+          "path": "packs/grad-marketing-pack/skills/gmkt-email-newsletter",
+          "order": 17,
+          "summary": "Three subject lines with preview text, body, one call to action, plain-text version, a subject line test",
+          "triggers": [
+            "run gmkt-email-newsletter",
+            "write the monthly newsletter",
+            "email newsletter template",
+            "subject lines for our email",
+            "Mailchimp email copy",
+            "our newsletter gets no opens",
+            "email campaign copy",
+            "subject line A/B test"
+          ]
+        },
+        {
+          "name": "gmkt-landing-page-copy",
+          "path": "packs/grad-marketing-pack/skills/gmkt-landing-page-copy",
+          "order": 18,
+          "summary": "Hero line, problem, benefits, sourced proof, objections and FAQ, call to action, claim list",
+          "triggers": [
+            "run gmkt-landing-page-copy",
+            "write a landing page",
+            "landing page copy from this product sheet",
+            "campaign page copy",
+            "hero line and benefits",
+            "sales page copy",
+            "FAQ for the page",
+            "problem agitate solution"
+          ]
+        },
+        {
+          "name": "gmkt-seo-content-brief",
+          "path": "packs/grad-marketing-pack/skills/gmkt-seo-content-brief",
+          "order": 19,
+          "summary": "Target query, search intent, outline from real questions, title and meta description, internal links, draft",
+          "triggers": [
+            "run gmkt-seo-content-brief",
+            "write a blog post for SEO",
+            "SEO content brief",
+            "blog brief template",
+            "what keyword should this post target",
+            "meta description and title tag",
+            "SEO article outline",
+            "content brief for a writer"
+          ]
+        },
+        {
+          "name": "gmkt-metrics-readout",
+          "path": "packs/grad-marketing-pack/skills/gmkt-metrics-readout",
+          "order": 20,
+          "summary": "Each metric defined in plain words, change against last period, what it cannot tell you, questions before reporting",
+          "triggers": [
+            "run gmkt-metrics-readout",
+            "explain my GA4 numbers",
+            "what does engagement rate mean",
+            "which metrics matter",
+            "read my social analytics",
+            "make sense of this dashboard",
+            "compare this month to last month",
+            "is this number good"
+          ]
+        },
+        {
+          "name": "gmkt-monthly-report",
+          "path": "packs/grad-marketing-pack/skills/gmkt-monthly-report",
+          "order": 21,
+          "summary": "Bottom line first, results against objectives, what worked with evidence, next month's actions, the decision",
+          "triggers": [
+            "run gmkt-monthly-report",
+            "write my monthly marketing report",
+            "marketing report template",
+            "monthly report for my manager",
+            "KPI report",
+            "summarise this month's marketing",
+            "turn my numbers into a report",
+            "what should go in a marketing report"
+          ]
+        },
+        {
+          "name": "gmkt-ab-test-plan",
+          "path": "packs/grad-marketing-pack/skills/gmkt-ab-test-plan",
+          "order": 22,
+          "summary": "Test ideas ordered by ICE, one hypothesis, one variable, metric, duration, decision rule written first, result log",
+          "triggers": [
+            "run gmkt-ab-test-plan",
+            "what should we test next",
+            "A/B test plan",
+            "write a test hypothesis",
+            "split test ideas",
+            "ICE scoring",
+            "how long should my A/B test run",
+            "log my test results"
+          ]
+        },
+        {
+          "name": "gmkt-proof-project-plan",
+          "path": "packs/grad-marketing-pack/skills/gmkt-proof-project-plan",
+          "order": 23,
+          "summary": "A real brand from public information, a two-week scope, which skills to run, what you will not claim, sources",
+          "triggers": [
+            "run gmkt-proof-project-plan",
+            "I have no marketing experience to show",
+            "plan a portfolio project",
+            "spec campaign for a real brand",
+            "how do I get experience without a job",
+            "project for my marketing portfolio",
+            "pick a brand for a practice campaign"
+          ]
+        },
+        {
+          "name": "gmkt-portfolio-case-study",
+          "path": "packs/grad-marketing-pack/skills/gmkt-portfolio-case-study",
+          "order": 24,
+          "summary": "Brief, insight, idea, what you made, what you would measure, what you learned; one page and a slide version",
+          "triggers": [
+            "run gmkt-portfolio-case-study",
+            "write up my marketing project",
+            "portfolio case study",
+            "turn my project into a portfolio piece",
+            "case study for my interview",
+            "make my spec campaign readable",
+            "portfolio slides"
+          ]
+        },
+        {
+          "name": "gmkt-how-i-used-ai",
+          "path": "packs/grad-marketing-pack/skills/gmkt-how-i-used-ai",
+          "order": 25,
+          "summary": "Tasks you gave Claude, briefs used, what you checked and changed, what you did yourself, a three-line version",
+          "triggers": [
+            "run gmkt-how-i-used-ai",
+            "how do I say I used AI",
+            "should I hide that I used AI",
+            "AI use statement for my portfolio",
+            "explain my AI use in an interview",
+            "AI disclosure for my project"
+          ]
+        },
+        {
+          "name": "gmkt-portfolio-post",
+          "path": "packs/grad-marketing-pack/skills/gmkt-portfolio-post",
+          "order": 26,
+          "summary": "One moment from the project in your words, what you made, the AI note in one line, no brand tagged as a client",
+          "triggers": [
+            "run gmkt-portfolio-post",
+            "post about my portfolio project",
+            "share my marketing project on LinkedIn",
+            "LinkedIn post for my case study",
+            "how do I post my spec campaign",
+            "make my project visible to recruiters"
+          ]
+        },
+        {
+          "name": "gmkt-job-ad-decoder",
+          "path": "packs/grad-marketing-pack/skills/gmkt-job-ad-decoder",
+          "order": 27,
+          "summary": "Tasks and tools in the ad, must-have against nice-to-have, your real evidence per line, gaps and how to close them",
+          "triggers": [
+            "run gmkt-job-ad-decoder",
+            "decode this job ad",
+            "can I apply for this marketing job",
+            "what does this ad actually want",
+            "am I qualified for this role",
+            "match my experience to this job description",
+            "which marketing jobs should I apply for"
+          ]
+        },
+        {
+          "name": "gmkt-marketing-cv",
+          "path": "packs/grad-marketing-pack/skills/gmkt-marketing-cv",
+          "order": 28,
+          "summary": "Bullets as task, tool and outcome from real experience, a projects section, a true tools line, two-page layout",
+          "triggers": [
+            "run gmkt-marketing-cv",
+            "marketing CV",
+            "graduate marketing CV",
+            "rewrite my CV for marketing",
+            "marketing assistant CV",
+            "tailor my CV to this job",
+            "my CV says nothing",
+            "CV for a marketing internship"
+          ]
+        },
+        {
+          "name": "gmkt-marketing-cover-letter",
+          "path": "packs/grad-marketing-pack/skills/gmkt-marketing-cover-letter",
+          "order": 29,
+          "summary": "Why this brand with two specifics, one proof story, an honest line on AI, in your own voice",
+          "triggers": [
+            "run gmkt-marketing-cover-letter",
+            "marketing cover letter",
+            "graduate marketing cover letter",
+            "cover letter for marketing assistant",
+            "why do you want to work for us",
+            "my cover letter sounds generic",
+            "tailor my cover letter"
+          ]
+        },
+        {
+          "name": "gmkt-marketing-task-prep",
+          "path": "packs/grad-marketing-pack/skills/gmkt-marketing-task-prep",
+          "order": 30,
+          "summary": "Task brief decoded, plan and timing, practice on a sample brief, critique of your own draft, rehearsal questions",
+          "triggers": [
+            "run gmkt-marketing-task-prep",
+            "marketing take-home task",
+            "assessment centre case study",
+            "marketing case study interview",
+            "prepare for a marketing presentation task",
+            "practise a marketing brief",
+            "critique my task draft"
+          ]
+        },
+        {
+          "name": "gmkt-interview-questions",
+          "path": "packs/grad-marketing-pack/skills/gmkt-interview-questions",
+          "order": 31,
+          "summary": "Likely questions from the ad, STAR stories from real experience, a mock interview, feedback on your answers",
+          "triggers": [
+            "run gmkt-interview-questions",
+            "marketing interview questions",
+            "graduate marketing interview",
+            "mock interview for marketing",
+            "STAR answers for marketing",
+            "what campaign do you admire",
+            "how do you use AI interview question"
+          ]
+        }
+      ]
     }
   ]
 }

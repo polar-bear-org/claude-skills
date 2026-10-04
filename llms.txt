@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-37 packs, 758 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+38 packs, 789 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -50,6 +50,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude for Business Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the work a business graduate is hired for, checking every output, and showing it to employers. Page: https://meet-polar-bear.com/skills/grad-business-pack. README: [packs/grad-business-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/README.md)
 - Nail Your First Job with Claude: 31 Claude Skills (31 skills): 31 Claude skills for getting up to speed in your first job, from before day one to your first review. Page: https://meet-polar-bear.com/skills/grad-first-job-pack. README: [packs/grad-first-job-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/README.md)
 - Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills (28 skills): 28 Claude skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine. Page: https://meet-polar-bear.com/skills/grad-linkedin-pack. README: [packs/grad-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/README.md)
+- Claude for Marketing Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the junior marketing job well with Claude, then showing it, from first brief to first job. Page: https://meet-polar-bear.com/skills/grad-marketing-pack. README: [packs/grad-marketing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/README.md)
 
 ## Skills
 
@@ -252,6 +253,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-business-pack/resources/evidence-and-sources.md): the Claude for Business Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/resources/evidence-and-sources.md): the Nail Your First Job with Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/resources/evidence-and-sources.md): the Claude for LinkedIn Networking for Recent Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/resources/evidence-and-sources.md): the Claude for Marketing Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -998,3 +1000,41 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - glink-activity-log: packs/grad-linkedin-pack/skills/glink-activity-log/SKILL.md — One row per action, what it led to, notes for the monthly refresh
 - glink-monthly-refresh: packs/grad-linkedin-pack/skills/glink-monthly-refresh/SKILL.md — New evidence added, profile lines to update, one thing to stop and one to try
 - Reference: packs/grad-linkedin-pack/resources/evidence-and-sources.md
+
+## Claude for Marketing Graduates: 31 Claude Skills
+
+31 Claude skills for doing the junior marketing job well with Claude, then showing it, from first brief to first job.
+
+- Pack: packs/grad-marketing-pack/README.md
+- gmkt-brand-voice-guide: packs/grad-marketing-pack/skills/gmkt-brand-voice-guide/SKILL.md — "We are / we are not" attributes, tone by situation, word list, three before-and-after rewrites, Project instructions block
+- gmkt-prompt-brief: packs/grad-marketing-pack/skills/gmkt-prompt-brief/SKILL.md — Reusable brief per recurring task, three starters, what never goes into a prompt
+- gmkt-ai-draft-review: packs/grad-marketing-pack/skills/gmkt-ai-draft-review/SKILL.md — Line-by-line check for facts, voice, generic tells and unsourced numbers, kept / changed / cut log, sign-off line
+- gmkt-claim-check: packs/grad-marketing-pack/skills/gmkt-claim-check/SKILL.md — Every claim listed, evidence held or missing, reviews and ad labels checked, rewrite or cut, questions for an adviser
+- gmkt-audience-persona: packs/grad-marketing-pack/skills/gmkt-audience-persona/SKILL.md — One or two personas from public evidence, each line cited, assumptions marked, three things to test
+- gmkt-jobs-to-be-done: packs/grad-marketing-pack/skills/gmkt-jobs-to-be-done/SKILL.md — Job statements, push, pull, anxiety and habit from real reviews, the message each force suggests
+- gmkt-competitor-content-audit: packs/grad-marketing-pack/skills/gmkt-competitor-content-audit/SKILL.md — Channels, themes, formats and rhythm, claims sorted into table stakes, rare and specific, gaps; a map, never a ranking
+- gmkt-swot-analysis: packs/grad-marketing-pack/skills/gmkt-swot-analysis/SKILL.md — SWOT with a source per line, PESTLE prompts, paired factors turned into actions
+- gmkt-creative-brief: packs/grad-marketing-pack/skills/gmkt-creative-brief/SKILL.md — Objective, audience, single-minded proposition, reason to believe, mandatories, deliverables, measures, deadline
+- gmkt-messaging-house: packs/grad-marketing-pack/skills/gmkt-messaging-house/SKILL.md — Umbrella message, three pillars, sourced proof points, words to avoid, one line per channel
+- gmkt-campaign-plan: packs/grad-marketing-pack/skills/gmkt-campaign-plan/SKILL.md — Situation, SMART objectives with a baseline, strategy, tactics by channel, actions with owners, control
+- gmkt-see-think-do-care: packs/grad-marketing-pack/skills/gmkt-see-think-do-care/SKILL.md — Audience at each stage, content and channel per stage, one metric per stage, gaps in the mix
+- gmkt-launch-checklist: packs/grad-marketing-pack/skills/gmkt-launch-checklist/SKILL.md — UTM naming sheet, link and tracking tests, named approvals, ad labels, alt text, go or no-go owner
+- gmkt-content-calendar: packs/grad-marketing-pack/skills/gmkt-content-calendar/SKILL.md — Month grid by channel, pillar, format, owner, status and approval date, evidence behind each post
+- gmkt-social-media-posts: packs/grad-marketing-pack/skills/gmkt-social-media-posts/SKILL.md — One idea as LinkedIn, Instagram and TikTok variants, three hooks, alt text, "Ad" label where needed
+- gmkt-short-video-script: packs/grad-marketing-pack/skills/gmkt-short-video-script/SKILL.md — Opening hook, beat-by-beat script, shot list, on-screen text and captions, edit notes
+- gmkt-email-newsletter: packs/grad-marketing-pack/skills/gmkt-email-newsletter/SKILL.md — Three subject lines with preview text, body, one call to action, plain-text version, a subject line test
+- gmkt-landing-page-copy: packs/grad-marketing-pack/skills/gmkt-landing-page-copy/SKILL.md — Hero line, problem, benefits, sourced proof, objections and FAQ, call to action, claim list
+- gmkt-seo-content-brief: packs/grad-marketing-pack/skills/gmkt-seo-content-brief/SKILL.md — Target query, search intent, outline from real questions, title and meta description, internal links, draft
+- gmkt-metrics-readout: packs/grad-marketing-pack/skills/gmkt-metrics-readout/SKILL.md — Each metric defined in plain words, change against last period, what it cannot tell you, questions before reporting
+- gmkt-monthly-report: packs/grad-marketing-pack/skills/gmkt-monthly-report/SKILL.md — Bottom line first, results against objectives, what worked with evidence, next month's actions, the decision
+- gmkt-ab-test-plan: packs/grad-marketing-pack/skills/gmkt-ab-test-plan/SKILL.md — Test ideas ordered by ICE, one hypothesis, one variable, metric, duration, decision rule written first, result log
+- gmkt-proof-project-plan: packs/grad-marketing-pack/skills/gmkt-proof-project-plan/SKILL.md — A real brand from public information, a two-week scope, which skills to run, what you will not claim, sources
+- gmkt-portfolio-case-study: packs/grad-marketing-pack/skills/gmkt-portfolio-case-study/SKILL.md — Brief, insight, idea, what you made, what you would measure, what you learned; one page and a slide version
+- gmkt-how-i-used-ai: packs/grad-marketing-pack/skills/gmkt-how-i-used-ai/SKILL.md — Tasks you gave Claude, briefs used, what you checked and changed, what you did yourself, a three-line version
+- gmkt-portfolio-post: packs/grad-marketing-pack/skills/gmkt-portfolio-post/SKILL.md — One moment from the project in your words, what you made, the AI note in one line, no brand tagged as a client
+- gmkt-job-ad-decoder: packs/grad-marketing-pack/skills/gmkt-job-ad-decoder/SKILL.md — Tasks and tools in the ad, must-have against nice-to-have, your real evidence per line, gaps and how to close them
+- gmkt-marketing-cv: packs/grad-marketing-pack/skills/gmkt-marketing-cv/SKILL.md — Bullets as task, tool and outcome from real experience, a projects section, a true tools line, two-page layout
+- gmkt-marketing-cover-letter: packs/grad-marketing-pack/skills/gmkt-marketing-cover-letter/SKILL.md — Why this brand with two specifics, one proof story, an honest line on AI, in your own voice
+- gmkt-marketing-task-prep: packs/grad-marketing-pack/skills/gmkt-marketing-task-prep/SKILL.md — Task brief decoded, plan and timing, practice on a sample brief, critique of your own draft, rehearsal questions
+- gmkt-interview-questions: packs/grad-marketing-pack/skills/gmkt-interview-questions/SKILL.md — Likely questions from the ad, STAR stories from real experience, a mock interview, feedback on your answers
+- Reference: packs/grad-marketing-pack/resources/evidence-and-sources.md

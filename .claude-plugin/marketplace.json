@@ -1054,6 +1054,36 @@
         "ai-fluency",
         "ai"
       ]
+    },
+    {
+      "name": "grad-marketing-pack",
+      "source": "./packs/grad-marketing-pack",
+      "description": "31 skills for doing the junior marketing job well with Claude and then showing it, in seven stages: set up AI-fluent marketing work, research the audience and market, plan the campaign, create content in the brand voice, report and improve, build a proof project, and apply and interview. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/grad-marketing-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "marketing",
+        "marketing-graduate",
+        "graduate-jobs",
+        "early-career",
+        "campaign-planning",
+        "content-marketing",
+        "brand-voice",
+        "seo",
+        "email-marketing",
+        "social-media",
+        "marketing-analytics",
+        "marketing-portfolio",
+        "job-search",
+        "ai"
+      ]
     }
   ]
 }

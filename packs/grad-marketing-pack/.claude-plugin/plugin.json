@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "grad-marketing-pack",
+  "version": "1.0.0",
+  "description": "31 Claude Skills for doing the junior marketing job well with Claude and then showing it, from first brief to first job: a brand voice guide, reusable prompt briefs, a line-by-line review of every AI draft and a substantiation check on every claim; audience personas, a jobs-to-be-done map, a competitor content audit and a sourced SWOT; a creative brief, a messaging house, a campaign plan, a See Think Do Care plan and a launch checklist; a content calendar, social posts, short video scripts, email newsletters, landing page copy and SEO content briefs in the brand voice; a metrics readout in plain words, a monthly report with the bottom line first and an A/B test plan with the decision rule written first; then a proof project on a real brand, a portfolio case study, an honest note on how you used AI and a portfolio post; plus a job ad decoder, a marketing CV, a cover letter, take-home task prep and interview practice. For marketing graduates, final-year marketing students and graduate marketing executives. Each skill is one named method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/grad-marketing-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "marketing",
+    "marketing-graduate",
+    "graduate-jobs",
+    "early-career",
+    "campaign-planning",
+    "content-marketing",
+    "brand-voice",
+    "seo",
+    "email-marketing",
+    "social-media",
+    "marketing-analytics",
+    "marketing-portfolio",
+    "job-search",
+    "ai"
+  ]
+}
