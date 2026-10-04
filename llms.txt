@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-32 packs, 594 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+33 packs, 626 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -45,6 +45,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Docs for Product Managers: 41 Claude Skills (41 skills): 41 skills for the documents product people write, from the first brief to the post-launch review. Page: https://meet-polar-bear.com/skills/docs-for-product-managers-pack. README: [packs/docs-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/docs-for-product-managers-pack/README.md)
 - Claude for AI Product Managers: 36 Claude Skills (36 skills): 36 skills for deciding if AI fits, testing it before launch and keeping it honest after. Page: https://meet-polar-bear.com/skills/ai-product-managers-pack. README: [packs/ai-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/README.md)
 - Claude Opus 5.5 for Product Managers: 39 Claude Skills (39 skills): 39 skills for running your whole product cycle with Claude, from setup to the weekly loop. Page: https://meet-polar-bear.com/skills/opus-for-product-managers-pack. README: [packs/opus-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/README.md)
+- Claude Slides for Product Managers: 32 Claude Skills (32 skills): 32 Claude skills for every deck a product person makes, drafted in Claude Slides from your own sources, from the deck context file to the read-cold pre-read. Page: https://meet-polar-bear.com/skills/slides-for-product-managers-pack. README: [packs/slides-for-product-managers-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/README.md)
 
 ## Skills
 
@@ -242,6 +243,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [templates/](https://github.com/polar-bear-org/claude-skills/tree/main/packs/creative-futurology-pack/templates): the Creative Futurology Pack's shared files — engagement-brief.md, the context file every skill reads first (the focal question and its horizon, the decision the work must inform, the scope, who is in the room, what the firm already believes), filled with focal-question-framer and kept current by whoever leads the engagement; and signal-log.md, the blank signal cards anyone on the team fills when they notice something, which signal-scanner checks against its sources and merges into the signal log.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-product-managers-pack/resources/evidence-and-sources.md): the Claude for AI Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/opus-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Opus 5.5 for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/slides-for-product-managers-pack/resources/evidence-and-sources.md): the Claude Slides for Product Managers Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -789,3 +791,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - pmc-prep-for-meeting: packs/opus-for-product-managers-pack/skills/pmc-prep-for-meeting/SKILL.md — One-page brief, decision wanted, what each role cares about, open actions
 - pmc-wrap-the-week: packs/opus-for-product-managers-pack/skills/pmc-wrap-the-week/SKILL.md — Done against planned, decisions to log, open loops, context file edits
 - Reference: packs/opus-for-product-managers-pack/resources/evidence-and-sources.md
+
+## Claude Slides for Product Managers: 32 Claude Skills
+
+32 Claude skills for every deck a product person makes, drafted in Claude Slides from your own sources, from the deck context file to the read-cold pre-read.
+
+- Pack: packs/slides-for-product-managers-pack/README.md
+- deck-context-setup: packs/slides-for-product-managers-pack/skills/deck-context-setup/SKILL.md — deck-context.md: product, users, metric dictionary with owner, source, base and period, audiences, house words
+- deck-design-system: packs/slides-for-product-managers-pack/skills/deck-design-system/SKILL.md — Layout library, grid, type scale, colour roles, chart and table styles, components, do and don't rules
+- deck-brief: packs/slides-for-product-managers-pack/skills/deck-brief/SKILL.md — Audience and decider, the one belief or decision, live or read cold, facts with sources, the ask with a date
+- deck-storyline: packs/slides-for-product-managers-pack/skills/deck-storyline/SKILL.md — Action title per slide, evidence per title, executive summary in SCR order, slide budget, titles-only read
+- deck-doc-to-deck: packs/slides-for-product-managers-pack/skills/deck-doc-to-deck/SKILL.md — Deck drafted from a PRD, PR-FAQ, strategy doc or report, keep-in-the-doc list, doc-versus-deck check
+- deck-audience-cuts: packs/slides-for-product-managers-pack/skills/deck-audience-cuts/SKILL.md — Exec, sales, company and customer cuts, each with its own first slide and ask, one change log
+- deck-exec-one-pager: packs/slides-for-product-managers-pack/skills/deck-exec-one-pager/SKILL.md — One slide: bottom line, ask with a date, three reasons with one sourced number each
+- deck-exec-two-pager: packs/slides-for-product-managers-pack/skills/deck-exec-two-pager/SKILL.md — Key points and the ask on slide one, sourced insights worth knowing on slide two
+- deck-roadmap-review: packs/slides-for-product-managers-pack/skills/deck-roadmap-review/SKILL.md — Strategy recap, shipped vs said, Now Next Later with confidence, not doing and why, decision needed
+- deck-product-strategy: packs/slides-for-product-managers-pack/skills/deck-product-strategy/SKILL.md — What is and what could be, diagnosis, guiding policy, coherent actions, what we will not do, endorsement asked
+- deck-qbr: packs/slides-for-product-managers-pack/skills/deck-qbr/SKILL.md — Headline, asks first, commitments vs actuals, metrics with base and period, defined RAG, customer variant
+- deck-business-case: packs/slides-for-product-managers-pack/skills/deck-business-case/SKILL.md — The ask, cost of doing nothing, options including do nothing, value as ranges, kill criteria
+- deck-board-slides: packs/slides-for-product-managers-pack/skills/deck-board-slides/SKILL.md — Three to five pre-read slides, the question for the board, fewest correct metrics, shipped vs planned
+- deck-stakeholder-update: packs/slides-for-product-managers-pack/skills/deck-stakeholder-update/SKILL.md — What changed, what is at risk, what we need from you, sourced metric, dates with confidence, recurring version
+- deck-all-hands: packs/slides-for-product-managers-pack/skills/deck-all-hands/SKILL.md — Where we are, what shipped and for whom, the honest metric, decisions and reasons, thanks by name, Q&A prompts
+- deck-research-readout: packs/slides-for-product-managers-pack/skills/deck-research-readout/SKILL.md — The finding that changes a decision, method and sample, findings with quotes, contradictions, the decision asked
+- deck-onboarding: packs/slides-for-product-managers-pack/skills/deck-onboarding/SKILL.md — Product and users, strategy, roadmap now, how we decide, who owns what, first 30 days, glossary
+- deck-sprint-review: packs/slides-for-product-managers-pack/skills/deck-sprint-review/SKILL.md — Sprint goal, done and ready to try, demo order, questions for stakeholders, backlog changes, five slides at most
+- deck-retrospective: packs/slides-for-product-managers-pack/skills/deck-retrospective/SKILL.md — Prime Directive, chosen format, last actions and what happened, prompts, one to three experiments with owners
+- deck-working-agreement: packs/slides-for-product-managers-pack/skills/deck-working-agreement/SKILL.md — The friction, draft agreements as testable behaviours, non-negotiables, a decision rule, a review date
+- deck-okr-check-in: packs/slides-for-product-managers-pack/skills/deck-okr-check-in/SKILL.md — Key results with current value and source, confidence and why it moved, blockers, decisions needed
+- deck-kickoff: packs/slides-for-product-managers-pack/skills/deck-kickoff/SKILL.md — Why now, goal and success measure, scope in and out, roles and decision rights, risks, first milestones
+- deck-offsite: packs/slides-for-product-managers-pack/skills/deck-offsite/SKILL.md — Agenda with an outcome per session, announcements, recognition, connection moments, decisions, what happens after
+- deck-launch-gtm: packs/slides-for-product-managers-pack/skills/deck-launch-gtm/SKILL.md — Launch in one customer sentence, positioning and proof, tier and date, readiness by owner, sales cut, success metric
+- deck-case-study: packs/slides-for-product-managers-pack/skills/deck-case-study/SKILL.md — One or five slides: the change in the title, before, what they did, results with base and period, approved quote
+- deck-sales-demo: packs/slides-for-product-managers-pack/skills/deck-sales-demo/SKILL.md — What we heard, the outcome wanted, the result shown first, two or three workflows, proof, a dated next step
+- deck-advisory-board: packs/slides-for-product-managers-pack/skills/deck-advisory-board/SKILL.md — What you told us and what we did, product forks framed as options, a concept to react to, exercise prompts
+- deck-conference-talk: packs/slides-for-product-managers-pack/skills/deck-conference-talk/SKILL.md — One idea, a sourced hook, what is vs what could be, three stories, what to try on Monday, confidential-number check
+- deck-numbers-check: packs/slides-for-product-managers-pack/skills/deck-numbers-check/SKILL.md — Every figure with slide, source, base, period and status, mismatches, draft marks, the chart each figure needs
+- deck-build-in-template: packs/slides-for-product-managers-pack/skills/deck-build-in-template/SKILL.md — Storyline laid out with your layouts and components only, a rule check per slide, exceptions to approve
+- deck-restyle: packs/slides-for-product-managers-pack/skills/deck-restyle/SKILL.md — Dense slides split, sentence titles, evidence instead of bullets, AI tells removed, before and after list
+- deck-pre-read: packs/slides-for-product-managers-pack/skills/deck-pre-read/SKILL.md — Read-cold version with full-sentence slides, the decision on page one, source appendix, cover note
+- Reference: packs/slides-for-product-managers-pack/resources/evidence-and-sources.md

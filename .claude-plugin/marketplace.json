@@ -904,6 +904,36 @@
         "claude-slides",
         "ai"
       ]
+    },
+    {
+      "name": "slides-for-product-managers-pack",
+      "source": "./packs/slides-for-product-managers-pack",
+      "description": "32 skills for every deck a product person makes, drafted in Claude Slides from your own sources, in six groups: start every deck (the deck context file and its metric dictionary, the slide design system, the deck brief naming the decider and the ask, the ghost deck of action titles, doc to deck, one master cut per audience), the decks for leaders, the updates for everyone, the team decks, the decks for customers and the market, and the passes that make a deck hold up. Each skill is one deck type or one deck method, with its inputs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/slides-for-product-managers-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "claude-slides",
+        "presentations",
+        "slide-decks",
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "head-of-product",
+        "executive-summary",
+        "action-titles",
+        "storyline",
+        "board-deck",
+        "qbr",
+        "stakeholder-update",
+        "ai"
+      ]
     }
   ]
 }

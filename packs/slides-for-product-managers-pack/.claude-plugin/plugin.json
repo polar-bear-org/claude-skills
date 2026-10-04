@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "slides-for-product-managers-pack",
+  "version": "1.0.0",
+  "description": "32 Claude Skills for every deck a product person makes, drafted in Claude Slides from your own sources, in six groups: start every deck (a deck context file with a metric dictionary giving each metric an owner, source, base and period; a slide design system written as rules; a one-page deck brief naming the decider and the ask; a ghost deck of action titles; a doc turned into slides; one master deck cut per audience); decks for leaders (the one-slide and two-slide executive summaries, the roadmap review with confidence labels and a costed no list, the strategy deck with diagnosis and guiding policy, the QBR with commitments versus actuals and written RAG definitions, the business case with do-nothing and kill criteria, the board pre-read); updates for everyone (the stakeholder update, the all-hands, the research readout, the product onboarding deck); team decks (sprint review, retrospective, working agreement, OKR check-in, kickoff, offsite); decks for customers and the market (launch and sales enablement, case study slides with a permission check, the demo deck, the advisory board session, the conference talk); and the passes that make a deck hold up (a numbers register tracing every figure, the build in your design system, the one-claim-per-slide restyle, the read-cold pre-read slidedoc). For product managers, product owners, heads of product and anyone who makes decks about the product. Claude Slides drafts the deck from your sources; every number on a slide traces to one, nothing is invented to fill a gap, and you decide what the room is asked to decide.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/slides-for-product-managers-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "claude-slides",
+    "presentations",
+    "slide-decks",
+    "product-management",
+    "product-manager",
+    "product-owner",
+    "head-of-product",
+    "executive-summary",
+    "action-titles",
+    "storyline",
+    "board-deck",
+    "qbr",
+    "stakeholder-update",
+    "ai"
+  ]
+}

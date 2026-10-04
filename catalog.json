@@ -7699,6 +7699,460 @@
           ]
         }
       ]
+    },
+    {
+      "name": "slides-for-product-managers-pack",
+      "title": "Claude Slides for Product Managers: 32 Claude Skills",
+      "path": "packs/slides-for-product-managers-pack",
+      "homepage": "https://meet-polar-bear.com/skills/slides-for-product-managers-pack",
+      "version": "1.0.0",
+      "description": "32 skills for every deck a product person makes, drafted in Claude Slides from your own sources, in six groups: start every deck (the deck context file and its metric dictionary, the slide design system, the deck brief naming the decider and the ask, the ghost deck of action titles, doc to deck, one master cut per audience), the decks for leaders, the updates for everyone, the team decks, the decks for customers and the market, and the passes that make a deck hold up. Each skill is one deck type or one deck method, with its inputs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "product managers",
+        "product owners",
+        "heads of product",
+        "anyone who makes decks about the product"
+      ],
+      "keywords": [
+        "claude-slides",
+        "presentations",
+        "slide-decks",
+        "product-management",
+        "product-manager",
+        "product-owner",
+        "head-of-product",
+        "executive-summary",
+        "action-titles",
+        "storyline",
+        "board-deck",
+        "qbr",
+        "stakeholder-update",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "deck-context-setup",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-context-setup",
+          "order": 1,
+          "summary": "deck-context.md: product, users, metric dictionary with owner, source, base and period, audiences, house words",
+          "triggers": [
+            "run deck-context-setup",
+            "set up the slides pack",
+            "Claude keeps guessing our metrics",
+            "write our deck context",
+            "metric dictionary for decks"
+          ]
+        },
+        {
+          "name": "deck-design-system",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-design-system",
+          "order": 2,
+          "summary": "Layout library, grid, type scale, colour roles, chart and table styles, components, do and don't rules",
+          "triggers": [
+            "run deck-design-system",
+            "slide design system",
+            "make our decks look like ours",
+            "house style for Claude Slides",
+            "brand rules for slides"
+          ]
+        },
+        {
+          "name": "deck-brief",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-brief",
+          "order": 3,
+          "summary": "Audience and decider, the one belief or decision, live or read cold, facts with sources, the ask with a date",
+          "triggers": [
+            "run deck-brief",
+            "brief for this deck",
+            "I cannot get to the point",
+            "what is my ask",
+            "exec deck next week"
+          ]
+        },
+        {
+          "name": "deck-storyline",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-storyline",
+          "order": 4,
+          "summary": "Action title per slide, evidence per title, executive summary in SCR order, slide budget, titles-only read",
+          "triggers": [
+            "run deck-storyline",
+            "ghost deck",
+            "storyline for this deck",
+            "action titles",
+            "the draft has no argument"
+          ]
+        },
+        {
+          "name": "deck-doc-to-deck",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-doc-to-deck",
+          "order": 5,
+          "summary": "Deck drafted from a PRD, PR-FAQ, strategy doc or report, keep-in-the-doc list, doc-versus-deck check",
+          "triggers": [
+            "run deck-doc-to-deck",
+            "turn this PRD into slides",
+            "doc to deck",
+            "make a deck from this doc",
+            "the room still wants slides"
+          ]
+        },
+        {
+          "name": "deck-audience-cuts",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-audience-cuts",
+          "order": 6,
+          "summary": "Exec, sales, company and customer cuts, each with its own first slide and ask, one change log",
+          "triggers": [
+            "run deck-audience-cuts",
+            "one deck for four audiences",
+            "make an exec version",
+            "customer version of this deck",
+            "sales cut of the update"
+          ]
+        },
+        {
+          "name": "deck-exec-one-pager",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-exec-one-pager",
+          "order": 7,
+          "summary": "One slide: bottom line, ask with a date, three reasons with one sourced number each",
+          "triggers": [
+            "run deck-exec-one-pager",
+            "one slide for the exec",
+            "executive summary slide",
+            "boil this down to one slide",
+            "the VP only reads the first slide"
+          ]
+        },
+        {
+          "name": "deck-exec-two-pager",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-exec-two-pager",
+          "order": 8,
+          "summary": "Key points and the ask on slide one, sourced insights worth knowing on slide two",
+          "triggers": [
+            "run deck-exec-two-pager",
+            "two-slide exec summary",
+            "one slide is not enough",
+            "add the insights slide",
+            "what surprised us slide"
+          ]
+        },
+        {
+          "name": "deck-roadmap-review",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-roadmap-review",
+          "order": 9,
+          "summary": "Strategy recap, shipped vs said, Now Next Later with confidence, not doing and why, decision needed",
+          "triggers": [
+            "run deck-roadmap-review",
+            "roadmap review deck",
+            "roadmap for leadership",
+            "quarterly roadmap slides",
+            "Now Next Later deck"
+          ]
+        },
+        {
+          "name": "deck-product-strategy",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-product-strategy",
+          "order": 10,
+          "summary": "What is and what could be, diagnosis, guiding policy, coherent actions, what we will not do, endorsement asked",
+          "triggers": [
+            "run deck-product-strategy",
+            "product strategy deck",
+            "strategy slides for leadership",
+            "we need a strategy to say no against",
+            "diagnosis and guiding policy"
+          ]
+        },
+        {
+          "name": "deck-qbr",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-qbr",
+          "order": 11,
+          "summary": "Headline, asks first, commitments vs actuals, metrics with base and period, defined RAG, customer variant",
+          "triggers": [
+            "run deck-qbr",
+            "QBR deck",
+            "quarterly business review",
+            "quarterly review slides",
+            "customer QBR"
+          ]
+        },
+        {
+          "name": "deck-business-case",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-business-case",
+          "order": 12,
+          "summary": "The ask, cost of doing nothing, options including do nothing, value as ranges, kill criteria",
+          "triggers": [
+            "run deck-business-case",
+            "business case deck",
+            "investment ask slides",
+            "make the case for funding",
+            "cost of delay slide"
+          ]
+        },
+        {
+          "name": "deck-board-slides",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-board-slides",
+          "order": 13,
+          "summary": "Three to five pre-read slides, the question for the board, fewest correct metrics, shipped vs planned",
+          "triggers": [
+            "run deck-board-slides",
+            "board deck product section",
+            "product slides for the board",
+            "board pre-read",
+            "board meeting slides"
+          ]
+        },
+        {
+          "name": "deck-stakeholder-update",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-stakeholder-update",
+          "order": 14,
+          "summary": "What changed, what is at risk, what we need from you, sourced metric, dates with confidence, recurring version",
+          "triggers": [
+            "run deck-stakeholder-update",
+            "weekly update deck",
+            "status slides for stakeholders",
+            "update people actually read",
+            "what we need from you slide"
+          ]
+        },
+        {
+          "name": "deck-all-hands",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-all-hands",
+          "order": 15,
+          "summary": "Where we are, what shipped and for whom, the honest metric, decisions and reasons, thanks by name, Q&A prompts",
+          "triggers": [
+            "run deck-all-hands",
+            "all-hands slides",
+            "company update deck",
+            "town hall product section",
+            "explain the why to the company"
+          ]
+        },
+        {
+          "name": "deck-research-readout",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-research-readout",
+          "order": 16,
+          "summary": "The finding that changes a decision, method and sample, findings with quotes, contradictions, the decision asked",
+          "triggers": [
+            "run deck-research-readout",
+            "research readout",
+            "findings presentation",
+            "user research deck",
+            "playback the interviews"
+          ]
+        },
+        {
+          "name": "deck-onboarding",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-onboarding",
+          "order": 17,
+          "summary": "Product and users, strategy, roadmap now, how we decide, who owns what, first 30 days, glossary",
+          "triggers": [
+            "run deck-onboarding",
+            "onboarding deck for a new PM",
+            "new joiner slides",
+            "product onboarding presentation",
+            "replace our sixty-slide history deck"
+          ]
+        },
+        {
+          "name": "deck-sprint-review",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-sprint-review",
+          "order": 18,
+          "summary": "Sprint goal, done and ready to try, demo order, questions for stakeholders, backlog changes, five slides at most",
+          "triggers": [
+            "run deck-sprint-review",
+            "sprint review deck",
+            "sprint review slides",
+            "demo day slides",
+            "our sprint review is a slide show"
+          ]
+        },
+        {
+          "name": "deck-retrospective",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-retrospective",
+          "order": 19,
+          "summary": "Prime Directive, chosen format, last actions and what happened, prompts, one to three experiments with owners",
+          "triggers": [
+            "run deck-retrospective",
+            "retro deck",
+            "retrospective slides",
+            "plan our retro",
+            "our retros repeat the same complaints"
+          ]
+        },
+        {
+          "name": "deck-working-agreement",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-working-agreement",
+          "order": 20,
+          "summary": "The friction, draft agreements as testable behaviours, non-negotiables, a decision rule, a review date",
+          "triggers": [
+            "run deck-working-agreement",
+            "working agreement deck",
+            "team agreement slides",
+            "team norms session",
+            "we argue about the same habits"
+          ]
+        },
+        {
+          "name": "deck-okr-check-in",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-okr-check-in",
+          "order": 21,
+          "summary": "Key results with current value and source, confidence and why it moved, blockers, decisions needed",
+          "triggers": [
+            "run deck-okr-check-in",
+            "OKR check-in deck",
+            "OKR review slides",
+            "mid-quarter OKR update",
+            "key results status"
+          ]
+        },
+        {
+          "name": "deck-kickoff",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-kickoff",
+          "order": 22,
+          "summary": "Why now, goal and success measure, scope in and out, roles and decision rights, risks, first milestones",
+          "triggers": [
+            "run deck-kickoff",
+            "kickoff deck",
+            "project kickoff slides",
+            "quarter kickoff deck",
+            "product kickoff presentation"
+          ]
+        },
+        {
+          "name": "deck-offsite",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-offsite",
+          "order": 23,
+          "summary": "Agenda with an outcome per session, announcements, recognition, connection moments, decisions, what happens after",
+          "triggers": [
+            "run deck-offsite",
+            "offsite deck",
+            "team offsite slides",
+            "offsite agenda",
+            "plan our offsite"
+          ]
+        },
+        {
+          "name": "deck-launch-gtm",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-launch-gtm",
+          "order": 24,
+          "summary": "Launch in one customer sentence, positioning and proof, tier and date, readiness by owner, sales cut, success metric",
+          "triggers": [
+            "run deck-launch-gtm",
+            "launch deck",
+            "go-to-market deck",
+            "GTM slides",
+            "sales enablement deck"
+          ]
+        },
+        {
+          "name": "deck-case-study",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-case-study",
+          "order": 25,
+          "summary": "One or five slides: the change in the title, before, what they did, results with base and period, approved quote",
+          "triggers": [
+            "run deck-case-study",
+            "case study slides",
+            "customer case slide",
+            "customer story deck",
+            "proof slide for sales"
+          ]
+        },
+        {
+          "name": "deck-sales-demo",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-sales-demo",
+          "order": 26,
+          "summary": "What we heard, the outcome wanted, the result shown first, two or three workflows, proof, a dated next step",
+          "triggers": [
+            "run deck-sales-demo",
+            "demo deck",
+            "sales demo slides",
+            "deck for the prospect call",
+            "too many intro slides before the demo"
+          ]
+        },
+        {
+          "name": "deck-advisory-board",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-advisory-board",
+          "order": 27,
+          "summary": "What you told us and what we did, product forks framed as options, a concept to react to, exercise prompts",
+          "triggers": [
+            "run deck-advisory-board",
+            "customer advisory board deck",
+            "CAB deck",
+            "CAB session slides",
+            "advisory board agenda"
+          ]
+        },
+        {
+          "name": "deck-conference-talk",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-conference-talk",
+          "order": 28,
+          "summary": "One idea, a sourced hook, what is vs what could be, three stories, what to try on Monday, confidential-number check",
+          "triggers": [
+            "run deck-conference-talk",
+            "conference talk deck",
+            "slides for my talk",
+            "meetup talk",
+            "keynote slides"
+          ]
+        },
+        {
+          "name": "deck-numbers-check",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-numbers-check",
+          "order": 29,
+          "summary": "Every figure with slide, source, base, period and status, mismatches, draft marks, the chart each figure needs",
+          "triggers": [
+            "run deck-numbers-check",
+            "check the numbers in this deck",
+            "trace every figure",
+            "do these numbers match",
+            "is anything made up"
+          ]
+        },
+        {
+          "name": "deck-build-in-template",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-build-in-template",
+          "order": 30,
+          "summary": "Storyline laid out with your layouts and components only, a rule check per slide, exceptions to approve",
+          "triggers": [
+            "run deck-build-in-template",
+            "build this in our design system",
+            "lay out the ghost deck",
+            "make it on brand",
+            "check the slides against our rules"
+          ]
+        },
+        {
+          "name": "deck-restyle",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-restyle",
+          "order": 31,
+          "summary": "Dense slides split, sentence titles, evidence instead of bullets, AI tells removed, before and after list",
+          "triggers": [
+            "run deck-restyle",
+            "this deck reads as AI",
+            "make the slides less generic",
+            "fix the plain draft",
+            "too many bullets"
+          ]
+        },
+        {
+          "name": "deck-pre-read",
+          "path": "packs/slides-for-product-managers-pack/skills/deck-pre-read",
+          "order": 32,
+          "summary": "Read-cold version with full-sentence slides, the decision on page one, source appendix, cover note",
+          "triggers": [
+            "run deck-pre-read",
+            "make this a pre-read",
+            "they will read it, not hear it",
+            "send the deck ahead",
+            "people will not attend"
+          ]
+        }
+      ]
     }
   ]
 }
