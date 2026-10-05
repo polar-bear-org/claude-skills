@@ -16627,6 +16627,532 @@
           ]
         }
       ]
+    },
+    {
+      "name": "winning-proposals-pack",
+      "title": "Claude for Winning Proposals: 31 Claude Skills",
+      "path": "packs/winning-proposals-pack",
+      "homepage": "https://meet-polar-bear.com/skills/winning-proposals-pack",
+      "version": "1.0.0",
+      "description": "Claude for Winning Proposals: 31 Claude Skills for winning the work when clients have AI too, following one deal from the first qualification to the win/loss review. Qualify with MEDDIC and map the buying committee, decide bid or no-bid, read the AI-written brief and prepare the discovery call, turn the call into their problem in their words, shape good-better-best options, a fee structure and a MoSCoW scope, write the proposal, the win themes and the statement of work, red-team it and walk them through it, answer the \"AI could do this\" objection honestly, then follow up, help them decide and learn from the result. For founders, partners and consultants who pitch for their own work.",
+      "audience": [
+        "founders who pitch for their own work",
+        "partners in consultancies and agencies",
+        "independent consultants",
+        "boutique agency and studio principals",
+        "business development leads who also deliver"
+      ],
+      "keywords": [
+        "winning proposals",
+        "consulting proposal",
+        "proposal writing",
+        "RFP response",
+        "bid no bid",
+        "MEDDIC",
+        "lead qualification",
+        "buying committee",
+        "AI-written brief",
+        "pre-call research",
+        "discovery call",
+        "discovery questions",
+        "SPIN selling",
+        "cost of inaction",
+        "call notes",
+        "recap email",
+        "problem statement",
+        "issue tree",
+        "good better best",
+        "pricing options",
+        "fee structure",
+        "value pricing",
+        "MoSCoW scope",
+        "win themes",
+        "case study paragraph",
+        "AI use statement",
+        "statement of work",
+        "acceptance criteria",
+        "red team review",
+        "proposal deck",
+        "executive summary",
+        "AI objection",
+        "quote comparison",
+        "objection handling",
+        "negotiation plan",
+        "mutual action plan",
+        "proposal follow-up",
+        "decision brief",
+        "win loss review"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "disc-meddic-qualification",
+          "path": "packs/winning-proposals-pack/skills/disc-meddic-qualification",
+          "order": 1,
+          "summary": "Known and unknown per letter, gaps turned into call questions, a fit note you decide on",
+          "triggers": [
+            "run disc-meddic-qualification",
+            "qualify this lead",
+            "is this prospect worth a proposal",
+            "MEDDIC this deal",
+            "why do my proposals not close",
+            "what do I still not know about this client",
+            "fit check before the call"
+          ]
+        },
+        {
+          "name": "disc-buying-committee-map",
+          "path": "packs/winning-proposals-pack/skills/disc-buying-committee-map",
+          "order": 2,
+          "summary": "Roles in the client's decision, what each needs to hear, who you have not met",
+          "triggers": [
+            "run disc-buying-committee-map",
+            "who decides on this deal",
+            "map the buying committee",
+            "I only talked to one person",
+            "the decision maker never saw our pitch",
+            "who else is involved in this decision",
+            "stakeholder map for this proposal"
+          ]
+        },
+        {
+          "name": "disc-bid-no-bid",
+          "path": "packs/winning-proposals-pack/skills/disc-bid-no-bid",
+          "order": 3,
+          "summary": "Your written criteria, the facts against each, the shortlist check, a go or no-go with its reason",
+          "triggers": [
+            "run disc-bid-no-bid",
+            "should we answer this RFP",
+            "bid or no bid",
+            "go no-go on this tender",
+            "we are on a shortlist and not sure why",
+            "is this worth pitching",
+            "are we just the third quote"
+          ]
+        },
+        {
+          "name": "disc-ai-brief-review",
+          "path": "packs/winning-proposals-pack/skills/disc-ai-brief-review",
+          "order": 4,
+          "summary": "Decisions the client made, generic text, contradictions, missing constraints, questions only they can answer",
+          "triggers": [
+            "run disc-ai-brief-review",
+            "review this brief",
+            "the client wrote this brief with AI",
+            "I cannot scope from this brief",
+            "what is missing from this RFP",
+            "find the gaps in this brief",
+            "what should I ask them before quoting"
+          ]
+        },
+        {
+          "name": "disc-pre-call-brief",
+          "path": "packs/winning-proposals-pack/skills/disc-pre-call-brief",
+          "order": 5,
+          "summary": "Public facts with sources, the likely trigger, hypotheses to test, what not to assume",
+          "triggers": [
+            "run disc-pre-call-brief",
+            "prep me for this call",
+            "research this company before the call",
+            "I have 20 minutes before the call",
+            "what should I know about them",
+            "give me a point of view before we meet"
+          ]
+        },
+        {
+          "name": "disc-discovery-call-agenda",
+          "path": "packs/winning-proposals-pack/skills/disc-discovery-call-agenda",
+          "order": 6,
+          "summary": "A short note sent ahead, the outcomes including \"no fit\", the consent line, who attends",
+          "triggers": [
+            "run disc-discovery-call-agenda",
+            "write the agenda for the discovery call",
+            "send an agenda before the call",
+            "who should be on the call",
+            "how do I ask to record the call",
+            "our calls keep drifting"
+          ]
+        },
+        {
+          "name": "disc-discovery-call-questions",
+          "path": "packs/winning-proposals-pack/skills/disc-discovery-call-questions",
+          "order": 7,
+          "summary": "A one-page guide by SPIN type, the brief's gaps first, decision questions",
+          "triggers": [
+            "run disc-discovery-call-questions",
+            "what should I ask on the discovery call",
+            "write my discovery questions",
+            "SPIN questions for this call",
+            "help me find out who decides",
+            "my calls never get to the real problem"
+          ]
+        },
+        {
+          "name": "disc-cost-of-inaction",
+          "path": "packs/winning-proposals-pack/skills/disc-cost-of-inaction",
+          "order": 8,
+          "summary": "What staying put costs in their own figures, timing, what waiting changes",
+          "triggers": [
+            "run disc-cost-of-inaction",
+            "cost of doing nothing",
+            "what does waiting cost them",
+            "why should they act now",
+            "the client likes us but there is no urgency",
+            "build the business case from their numbers"
+          ]
+        },
+        {
+          "name": "disc-discovery-call-notes",
+          "path": "packs/winning-proposals-pack/skills/disc-discovery-call-notes",
+          "order": 9,
+          "summary": "Their words marked verbatim, facts, figures, your inferences, open questions, next step",
+          "triggers": [
+            "run disc-discovery-call-notes",
+            "sort my call notes",
+            "clean up my discovery notes",
+            "what did the client actually say",
+            "pull their exact words from the call",
+            "turn this transcript into notes",
+            "I took notes in a hurry"
+          ]
+        },
+        {
+          "name": "disc-discovery-recap-email",
+          "path": "packs/winning-proposals-pack/skills/disc-discovery-recap-email",
+          "order": 10,
+          "summary": "\"Here is what we heard\", what matters most, what is unsure, next step, an invitation to correct",
+          "triggers": [
+            "run disc-discovery-recap-email",
+            "write the recap email",
+            "here is what we heard",
+            "follow up after the discovery call",
+            "play back the call",
+            "show them I listened",
+            "recap before the proposal"
+          ]
+        },
+        {
+          "name": "disc-problem-statement",
+          "path": "packs/winning-proposals-pack/skills/disc-problem-statement",
+          "order": 11,
+          "summary": "Point of view in their words, impact in their figures, why now, out of scope, one How Might We",
+          "triggers": [
+            "run disc-problem-statement",
+            "write the problem statement",
+            "frame their problem",
+            "what is their real problem",
+            "my proposal talks about us not them",
+            "point of view statement",
+            "how might we"
+          ]
+        },
+        {
+          "name": "disc-issue-tree",
+          "path": "packs/winning-proposals-pack/skills/disc-issue-tree",
+          "order": 12,
+          "summary": "Causes that do not overlap, each branch tested or untested, what to check first",
+          "triggers": [
+            "run disc-issue-tree",
+            "build an issue tree",
+            "break down the problem",
+            "where could this answer be wrong",
+            "the client asked AI for the answer",
+            "check their AI answer",
+            "what would we test first"
+          ]
+        },
+        {
+          "name": "disc-good-better-best-options",
+          "path": "packs/winning-proposals-pack/skills/disc-good-better-best-options",
+          "order": 13,
+          "summary": "Three options from your own price list, what each leaves out, no decoy",
+          "triggers": [
+            "run disc-good-better-best-options",
+            "give them three options",
+            "good better best",
+            "options instead of one price",
+            "build tiers from my price list",
+            "they said no to my one price",
+            "what would a smaller version look like"
+          ]
+        },
+        {
+          "name": "disc-fee-structure",
+          "path": "packs/winning-proposals-pack/skills/disc-fee-structure",
+          "order": 14,
+          "summary": "Fee models compared for this work, where AI speed changes the math, your choice and why",
+          "triggers": [
+            "run disc-fee-structure",
+            "how should I charge for this",
+            "fixed fee or day rate",
+            "why pay for hours if AI is faster",
+            "should I move to value pricing",
+            "retainer or project fee",
+            "compare fee models"
+          ]
+        },
+        {
+          "name": "disc-moscow-scope",
+          "path": "packs/winning-proposals-pack/skills/disc-moscow-scope",
+          "order": 15,
+          "summary": "Must, should, could and won't, the won't list written out, what moves if budget changes",
+          "triggers": [
+            "run disc-moscow-scope",
+            "MoSCoW this scope",
+            "the brief asks for everything",
+            "what fits the budget",
+            "cut the scope down",
+            "write the won't list",
+            "must should could won't"
+          ]
+        },
+        {
+          "name": "disc-consulting-proposal",
+          "path": "packs/winning-proposals-pack/skills/disc-consulting-proposal",
+          "order": 16,
+          "summary": "A short answer-first proposal from your notes, options, proof, AI use, next step",
+          "triggers": [
+            "run disc-consulting-proposal",
+            "write the proposal",
+            "draft a consulting proposal",
+            "turn my notes into a proposal",
+            "a proposal they can read in five minutes",
+            "short proposal they can forward",
+            "answer-first proposal"
+          ]
+        },
+        {
+          "name": "disc-win-themes",
+          "path": "packs/winning-proposals-pack/skills/disc-win-themes",
+          "order": 17,
+          "summary": "Two or three themes with need, discriminator and proof, the AI-shortlist test",
+          "triggers": [
+            "run disc-win-themes",
+            "win themes",
+            "discriminators",
+            "why us for this client",
+            "we sound like every other firm",
+            "stand out from the shortlist",
+            "the buyer compared us with AI"
+          ]
+        },
+        {
+          "name": "disc-case-study-paragraph",
+          "path": "packs/winning-proposals-pack/skills/disc-case-study-paragraph",
+          "order": 18,
+          "summary": "A matched paragraph and a short version, permission status, approved results only",
+          "triggers": [
+            "run disc-case-study-paragraph",
+            "case study paragraph",
+            "add a case to the proposal",
+            "relevant experience",
+            "proof for this proposal",
+            "short case for the RFP",
+            "which past project fits"
+          ]
+        },
+        {
+          "name": "disc-ai-use-statement",
+          "path": "packs/winning-proposals-pack/skills/disc-ai-use-statement",
+          "order": 19,
+          "summary": "Where AI is used, what people own, data handling, what the client gains, what you will not use it for",
+          "triggers": [
+            "run disc-ai-use-statement",
+            "AI use statement",
+            "should I tell clients I use AI",
+            "AI disclosure for the proposal",
+            "how we use AI section",
+            "explain our AI use to the client",
+            "AI policy for this engagement"
+          ]
+        },
+        {
+          "name": "disc-statement-of-work",
+          "path": "packs/winning-proposals-pack/skills/disc-statement-of-work",
+          "order": 20,
+          "summary": "Results, deliverables with acceptance criteria, responsibilities, exclusions, change control",
+          "triggers": [
+            "run disc-statement-of-work",
+            "write the SOW",
+            "statement of work",
+            "scope of work document",
+            "acceptance criteria for deliverables",
+            "stop scope creep",
+            "change control clause"
+          ]
+        },
+        {
+          "name": "disc-proposal-red-team",
+          "path": "packs/winning-proposals-pack/skills/disc-proposal-red-team",
+          "order": 21,
+          "summary": "The draft read from the client's chair, unsourced claims flagged, an edit list",
+          "triggers": [
+            "run disc-proposal-red-team",
+            "read this like the client would",
+            "review my proposal before I send it",
+            "red team this proposal",
+            "check my proposal for unsourced claims",
+            "does this sound generic",
+            "is this ready to send"
+          ]
+        },
+        {
+          "name": "disc-proposal-walkthrough-deck",
+          "path": "packs/winning-proposals-pack/skills/disc-proposal-walkthrough-deck",
+          "order": 22,
+          "summary": "Six to ten slides, their problem first, options side by side, speaker notes, a read version",
+          "triggers": [
+            "run disc-proposal-walkthrough-deck",
+            "walk them through the proposal",
+            "turn my proposal into slides",
+            "build the proposal presentation",
+            "slides for the proposal meeting",
+            "speaker notes for my proposal",
+            "a deck they can forward"
+          ]
+        },
+        {
+          "name": "disc-executive-summary",
+          "path": "packs/winning-proposals-pack/skills/disc-executive-summary",
+          "order": 23,
+          "summary": "One page: situation, complication, question, recommended option, decision and date",
+          "triggers": [
+            "run disc-executive-summary",
+            "write the executive summary",
+            "one page for the person who signs",
+            "summarise my proposal for the CEO",
+            "the signer never met me",
+            "exec summary for this proposal"
+          ]
+        },
+        {
+          "name": "disc-ai-objection-answer",
+          "path": "packs/winning-proposals-pack/skills/disc-ai-objection-answer",
+          "order": 24,
+          "summary": "What AI does well here said first, what stays with you, an option using their own AI",
+          "triggers": [
+            "run disc-ai-objection-answer",
+            "the client says AI could do this in 10 seconds",
+            "why can't AI just do this",
+            "answer the AI objection",
+            "explain my fee when they have AI",
+            "they asked why they need us if they have AI",
+            "prepare me for the AI question"
+          ]
+        },
+        {
+          "name": "disc-quote-comparison",
+          "path": "packs/winning-proposals-pack/skills/disc-quote-comparison",
+          "order": 25,
+          "summary": "Both scopes line by line, what each leaves out, risks, questions for the other firm",
+          "triggers": [
+            "run disc-quote-comparison",
+            "we lost on price to an AI-first firm",
+            "they quoted a tenth of ours",
+            "compare my quote with theirs",
+            "the client has a cheaper quote",
+            "level these two bids",
+            "is their quote the same scope as mine"
+          ]
+        },
+        {
+          "name": "disc-objection-handling",
+          "path": "packs/winning-proposals-pack/skills/disc-objection-handling",
+          "order": 26,
+          "summary": "The objections at this stage, the question behind each, an honest response, its proof",
+          "triggers": [
+            "run disc-objection-handling",
+            "the same objections come back every deal",
+            "prepare me for objections",
+            "they said send me something",
+            "we will do it in house",
+            "the timing is not right",
+            "how do I answer it is too expensive"
+          ]
+        },
+        {
+          "name": "disc-negotiation-plan",
+          "path": "packs/winning-proposals-pack/skills/disc-negotiation-plan",
+          "order": 27,
+          "summary": "Walk-away point and alternative, what you trade, concession order, the question before any discount",
+          "triggers": [
+            "run disc-negotiation-plan",
+            "the client is haggling",
+            "they want a discount",
+            "should I lower my price",
+            "prepare me for the price negotiation",
+            "what is my walk-away",
+            "they asked me to come down on price"
+          ]
+        },
+        {
+          "name": "disc-mutual-action-plan",
+          "path": "packs/winning-proposals-pack/skills/disc-mutual-action-plan",
+          "order": 28,
+          "summary": "Steps to a decision both sides own, an owner and a date per step",
+          "triggers": [
+            "run disc-mutual-action-plan",
+            "mutual action plan",
+            "the client said yes and nothing is moving",
+            "plan the steps to signature",
+            "close plan with the client",
+            "who owns legal and procurement",
+            "work back from the start date",
+            "the deal has stalled after the pitch"
+          ]
+        },
+        {
+          "name": "disc-proposal-follow-up",
+          "path": "packs/winning-proposals-pack/skills/disc-proposal-follow-up",
+          "order": 29,
+          "summary": "Two useful follow-ups and a close-the-loop note, drafts you send",
+          "triggers": [
+            "run disc-proposal-follow-up",
+            "follow up on my proposal",
+            "the proposal went silent",
+            "no reply to my proposal",
+            "how do I follow up without being pushy",
+            "not another just checking in",
+            "close the loop email",
+            "draft a proposal follow-up"
+          ]
+        },
+        {
+          "name": "disc-client-decision-brief",
+          "path": "packs/winning-proposals-pack/skills/disc-client-decision-brief",
+          "order": 30,
+          "summary": "A neutral page with the options, including doing nothing or doing it with their own AI",
+          "triggers": [
+            "run disc-client-decision-brief",
+            "help my contact sell this internally",
+            "decision brief for the client",
+            "one page for their leadership",
+            "compare the options for the client",
+            "my champion needs to convince their boss",
+            "options including doing nothing"
+          ]
+        },
+        {
+          "name": "disc-win-loss-review",
+          "path": "packs/winning-proposals-pack/skills/disc-win-loss-review",
+          "order": 31,
+          "summary": "What was meant to happen, what happened, why, where it was decided, what to change",
+          "triggers": [
+            "run disc-win-loss-review",
+            "win loss review",
+            "we lost the pitch",
+            "post-mortem on a lost proposal",
+            "why did we win this one",
+            "after action review of a deal",
+            "learn from this deal"
+          ]
+        }
+      ]
     }
   ]
 }

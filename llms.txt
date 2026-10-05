@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-50 packs, 1147 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+51 packs, 1178 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -63,6 +63,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude pour les RH : 32 skills Claude (32 skills): 32 skills Claude en français pour tenir toute l'année RH en droit français, de la fiche de poste au départ d'un salarié. Page: https://meet-polar-bear.com/skills/fr-rh-pack. README: [packs/fr-rh-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/README.md)
 - Claude for Networking on LinkedIn: 31 Claude Skills (31 skills): 31 Claude skills for winning clients through the people you already know, from your own network to warm introductions. Page: https://meet-polar-bear.com/skills/networking-on-linkedin-pack. README: [packs/networking-on-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/README.md)
 - UX Research with Claude: 32 Claude Skills (32 skills): 32 Claude skills for planning, recruiting, running, synthesising and sharing user research, from the research plan to the repository, with real users only. Page: https://meet-polar-bear.com/skills/ux-research-pack. README: [packs/ux-research-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ux-research-pack/README.md)
+- Claude for Winning Proposals: 31 Claude Skills (31 skills): 31 Claude skills for winning the work when clients have AI too, from qualifying the lead to the proposal you send yourself. Page: https://meet-polar-bear.com/skills/winning-proposals-pack. README: [packs/winning-proposals-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/winning-proposals-pack/README.md)
 
 ## Skills
 
@@ -278,6 +279,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/resources/evidence-and-sources.md): the Claude pour les RH : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/resources/evidence-and-sources.md): the Claude for Networking on LinkedIn: 31 Claude Skills Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ux-research-pack/resources/evidence-and-sources.md): the UX Research with Claude: 32 Claude Skills Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/winning-proposals-pack/resources/evidence-and-sources.md): the Claude for Winning Proposals: 31 Claude Skills Pack's shared file — the public source behind each named method, what the evidence does and does not show, and the design choices behind the skills.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1504,3 +1506,41 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - uxr-repository-entry: packs/ux-research-pack/skills/uxr-repository-entry/SKILL.md — Atomic entries (experiment, fact, insight, recommendation), conditions and date, anonymised quote, tags, review date
 - uxr-tagging-taxonomy: packs/ux-research-pack/skills/uxr-tagging-taxonomy/SKILL.md — A short set of broad tags with definitions, rules for new tags, owner, a label test, review cadence
 - Reference: packs/ux-research-pack/resources/evidence-and-sources.md
+
+## Claude for Winning Proposals: 31 Claude Skills
+
+Claude for Winning Proposals: 31 Claude Skills for winning the work when clients have AI too, following one deal from the first qualification to the win/loss review. Qualify with MEDDIC and map the buying committee, decide bid or no-bid, read the AI-written brief and prepare the discovery call, turn the call into their problem in their words, shape good-better-best options, a fee structure and a MoSCoW scope, write the proposal, the win themes and the statement of work, red-team it and walk them through it, answer the "AI could do this" objection honestly, then follow up, help them decide and learn from the result. For founders, partners and consultants who pitch for their own work.
+
+- Pack: packs/winning-proposals-pack/README.md
+- disc-meddic-qualification: packs/winning-proposals-pack/skills/disc-meddic-qualification/SKILL.md — Known and unknown per letter, gaps turned into call questions, a fit note you decide on
+- disc-buying-committee-map: packs/winning-proposals-pack/skills/disc-buying-committee-map/SKILL.md — Roles in the client's decision, what each needs to hear, who you have not met
+- disc-bid-no-bid: packs/winning-proposals-pack/skills/disc-bid-no-bid/SKILL.md — Your written criteria, the facts against each, the shortlist check, a go or no-go with its reason
+- disc-ai-brief-review: packs/winning-proposals-pack/skills/disc-ai-brief-review/SKILL.md — Decisions the client made, generic text, contradictions, missing constraints, questions only they can answer
+- disc-pre-call-brief: packs/winning-proposals-pack/skills/disc-pre-call-brief/SKILL.md — Public facts with sources, the likely trigger, hypotheses to test, what not to assume
+- disc-discovery-call-agenda: packs/winning-proposals-pack/skills/disc-discovery-call-agenda/SKILL.md — A short note sent ahead, the outcomes including "no fit", the consent line, who attends
+- disc-discovery-call-questions: packs/winning-proposals-pack/skills/disc-discovery-call-questions/SKILL.md — A one-page guide by SPIN type, the brief's gaps first, decision questions
+- disc-cost-of-inaction: packs/winning-proposals-pack/skills/disc-cost-of-inaction/SKILL.md — What staying put costs in their own figures, timing, what waiting changes
+- disc-discovery-call-notes: packs/winning-proposals-pack/skills/disc-discovery-call-notes/SKILL.md — Their words marked verbatim, facts, figures, your inferences, open questions, next step
+- disc-discovery-recap-email: packs/winning-proposals-pack/skills/disc-discovery-recap-email/SKILL.md — "Here is what we heard", what matters most, what is unsure, next step, an invitation to correct
+- disc-problem-statement: packs/winning-proposals-pack/skills/disc-problem-statement/SKILL.md — Point of view in their words, impact in their figures, why now, out of scope, one How Might We
+- disc-issue-tree: packs/winning-proposals-pack/skills/disc-issue-tree/SKILL.md — Causes that do not overlap, each branch tested or untested, what to check first
+- disc-good-better-best-options: packs/winning-proposals-pack/skills/disc-good-better-best-options/SKILL.md — Three options from your own price list, what each leaves out, no decoy
+- disc-fee-structure: packs/winning-proposals-pack/skills/disc-fee-structure/SKILL.md — Fee models compared for this work, where AI speed changes the math, your choice and why
+- disc-moscow-scope: packs/winning-proposals-pack/skills/disc-moscow-scope/SKILL.md — Must, should, could and won't, the won't list written out, what moves if budget changes
+- disc-consulting-proposal: packs/winning-proposals-pack/skills/disc-consulting-proposal/SKILL.md — A short answer-first proposal from your notes, options, proof, AI use, next step
+- disc-win-themes: packs/winning-proposals-pack/skills/disc-win-themes/SKILL.md — Two or three themes with need, discriminator and proof, the AI-shortlist test
+- disc-case-study-paragraph: packs/winning-proposals-pack/skills/disc-case-study-paragraph/SKILL.md — A matched paragraph and a short version, permission status, approved results only
+- disc-ai-use-statement: packs/winning-proposals-pack/skills/disc-ai-use-statement/SKILL.md — Where AI is used, what people own, data handling, what the client gains, what you will not use it for
+- disc-statement-of-work: packs/winning-proposals-pack/skills/disc-statement-of-work/SKILL.md — Results, deliverables with acceptance criteria, responsibilities, exclusions, change control
+- disc-proposal-red-team: packs/winning-proposals-pack/skills/disc-proposal-red-team/SKILL.md — The draft read from the client's chair, unsourced claims flagged, an edit list
+- disc-proposal-walkthrough-deck: packs/winning-proposals-pack/skills/disc-proposal-walkthrough-deck/SKILL.md — Six to ten slides, their problem first, options side by side, speaker notes, a read version
+- disc-executive-summary: packs/winning-proposals-pack/skills/disc-executive-summary/SKILL.md — One page: situation, complication, question, recommended option, decision and date
+- disc-ai-objection-answer: packs/winning-proposals-pack/skills/disc-ai-objection-answer/SKILL.md — What AI does well here said first, what stays with you, an option using their own AI
+- disc-quote-comparison: packs/winning-proposals-pack/skills/disc-quote-comparison/SKILL.md — Both scopes line by line, what each leaves out, risks, questions for the other firm
+- disc-objection-handling: packs/winning-proposals-pack/skills/disc-objection-handling/SKILL.md — The objections at this stage, the question behind each, an honest response, its proof
+- disc-negotiation-plan: packs/winning-proposals-pack/skills/disc-negotiation-plan/SKILL.md — Walk-away point and alternative, what you trade, concession order, the question before any discount
+- disc-mutual-action-plan: packs/winning-proposals-pack/skills/disc-mutual-action-plan/SKILL.md — Steps to a decision both sides own, an owner and a date per step
+- disc-proposal-follow-up: packs/winning-proposals-pack/skills/disc-proposal-follow-up/SKILL.md — Two useful follow-ups and a close-the-loop note, drafts you send
+- disc-client-decision-brief: packs/winning-proposals-pack/skills/disc-client-decision-brief/SKILL.md — A neutral page with the options, including doing nothing or doing it with their own AI
+- disc-win-loss-review: packs/winning-proposals-pack/skills/disc-win-loss-review/SKILL.md — What was meant to happen, what happened, why, where it was decided, what to change
+- Reference: packs/winning-proposals-pack/resources/evidence-and-sources.md

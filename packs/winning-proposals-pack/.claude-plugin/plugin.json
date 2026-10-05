@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "winning-proposals-pack",
+  "version": "1.0.0",
+  "description": "Claude for Winning Proposals: 31 Claude Skills for winning the work when clients have AI too, following one deal from the first qualification to the win/loss review. Qualify with MEDDIC and map the buying committee, decide bid or no-bid, read the AI-written brief and prepare the discovery call, turn the call into their problem in their words, shape good-better-best options, a fee structure and a MoSCoW scope, write the proposal, the win themes and the statement of work, red-team it and walk them through it, answer the \"AI could do this\" objection honestly, then follow up, help them decide and learn from the result. For founders, partners and consultants who pitch for their own work.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/winning-proposals-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "proposals",
+    "consulting-proposal",
+    "discovery-call",
+    "meddic",
+    "qualification",
+    "statement-of-work",
+    "pricing",
+    "fee-structure",
+    "objection-handling",
+    "negotiation",
+    "rfp",
+    "business-development",
+    "win-loss-review",
+    "ai-objection"
+  ]
+}
