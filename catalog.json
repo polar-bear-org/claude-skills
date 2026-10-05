@@ -15003,6 +15003,555 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fr-rh-pack",
+      "title": "Claude pour les RH : 32 skills Claude",
+      "path": "packs/fr-rh-pack",
+      "homepage": "https://meet-polar-bear.com/skills/fr-rh-pack",
+      "version": "1.0.0",
+      "description": "32 skills en français pour tenir toute l'année RH en droit français, dans l'ordre où le métier se vit : utiliser Claude sans risque avec une charte IA, la pseudonymisation et le registre RGPD, piloter l'année sociale avec le calendrier social, le registre des obligations, la veille et l'index égalité, recruter et intégrer de la fiche de poste à la période d'essai, mener l'entretien de parcours professionnel et le plan de développement des compétences, tenir le dialogue social et le CSE, suivre la santé, les absences et la protection sociale, recueillir les signalements et mener les enquêtes, puis conduire la discipline et la fin de contrat. Pour les RRH, DRH, chargés RH, HRBP, gestionnaires RH et paie, et toutes les personnes qui font les RH sans service RH. Claude rédige et structure, une personne décide : chaque point de droit est vérifié par un juriste, chaque décision sur un salarié est prise et signée par une personne nommée, et rien de nominatif n'entre dans Claude sans base RGPD ni pseudonymisation.",
+      "audience": [
+        "RRH et DRH",
+        "chargés RH et HRBP",
+        "gestionnaires RH et paie",
+        "dirigeants et managers qui font les RH sans service RH"
+      ],
+      "keywords": [
+        "ressources-humaines",
+        "droit-du-travail",
+        "rgpd-rh",
+        "cse",
+        "duerp",
+        "procedure-disciplinaire",
+        "licenciement",
+        "rupture-conventionnelle",
+        "entretien-professionnel",
+        "index-egalite",
+        "arret-maladie",
+        "enquete-interne",
+        "reglement-interieur",
+        "francais"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "rh-charte-ia",
+          "path": "packs/fr-rh-pack/skills/rh-charte-ia",
+          "order": 1,
+          "summary": "Usages autorisés et interdits, données à ne jamais saisir, vérification humaine, formation, questions pour l'avocat",
+          "triggers": [
+            "run rh-charte-ia",
+            "charte IA",
+            "charte d'utilisation de l'IA",
+            "charte IA entreprise",
+            "politique IA générative",
+            "encadrer l'usage de l'IA",
+            "IA générative au travail",
+            "IA et CSE"
+          ]
+        },
+        {
+          "name": "rh-pseudonymisation",
+          "path": "packs/fr-rh-pack/skills/rh-pseudonymisation",
+          "order": 2,
+          "summary": "Contrôle de la base RGPD, liste des données identifiantes, document pseudonymisé, table de correspondance gardée hors de Claude",
+          "triggers": [
+            "run rh-pseudonymisation",
+            "pseudonymiser un document",
+            "pseudonymisation RGPD",
+            "masquer les noms",
+            "données personnelles et IA",
+            "coller un export RH dans Claude",
+            "RGPD et IA générative",
+            "minimisation des données"
+          ]
+        },
+        {
+          "name": "rh-registre-rgpd",
+          "path": "packs/fr-rh-pack/skills/rh-registre-rgpd",
+          "order": 3,
+          "summary": "Finalité, base légale, données, destinataires, durées de conservation, questions pour le DPO",
+          "triggers": [
+            "run rh-registre-rgpd",
+            "registre RGPD RH",
+            "registre des traitements",
+            "durée de conservation des données RH",
+            "référentiel CNIL RH",
+            "RGPD ressources humaines",
+            "fiche de traitement RGPD",
+            "information des salariés RGPD"
+          ]
+        },
+        {
+          "name": "rh-calendrier-social",
+          "path": "packs/fr-rh-pack/skills/rh-calendrier-social",
+          "order": 4,
+          "summary": "Douze mois d'échéances, préparation et responsable par ligne, source datée, mois surchargés",
+          "triggers": [
+            "run rh-calendrier-social",
+            "calendrier social",
+            "calendrier RH",
+            "échéances RH",
+            "planning des obligations RH",
+            "calendrier des consultations CSE",
+            "agenda social annuel",
+            "date limite index égalité"
+          ]
+        },
+        {
+          "name": "rh-registre-obligations",
+          "path": "packs/fr-rh-pack/skills/rh-registre-obligations",
+          "order": 5,
+          "summary": "Obligations selon votre effectif, preuves en place, écarts classés, plan de correction",
+          "triggers": [
+            "run rh-registre-obligations",
+            "obligations RH",
+            "obligations de l'employeur",
+            "audit RH",
+            "conformité sociale",
+            "checklist obligations légales RH",
+            "affichages obligatoires",
+            "registres obligatoires"
+          ]
+        },
+        {
+          "name": "rh-note-de-veille",
+          "path": "packs/fr-rh-pack/skills/rh-note-de-veille",
+          "order": 6,
+          "summary": "Ce qui change, pour qui, texte source, impacts sur vos process, actions, questions pour le juriste",
+          "triggers": [
+            "run rh-note-de-veille",
+            "veille sociale",
+            "veille juridique RH",
+            "note de veille",
+            "actualité droit du travail",
+            "nouveau décret RH",
+            "qu'est-ce qui change au 1er",
+            "arrêt de travail 1er septembre 2026"
+          ]
+        },
+        {
+          "name": "rh-index-egalite",
+          "path": "packs/fr-rh-pack/skills/rh-index-egalite",
+          "order": 7,
+          "summary": "Données préparées pour Egapro, petits groupes masqués, écarts en questions, fourchettes par niveau",
+          "triggers": [
+            "run rh-index-egalite",
+            "index égalité",
+            "index égalité professionnelle",
+            "Egapro",
+            "transparence salariale",
+            "directive transparence salariale",
+            "fourchette de salaire annonce",
+            "écart de rémunération femmes hommes"
+          ]
+        },
+        {
+          "name": "rh-fiche-de-poste",
+          "path": "packs/fr-rh-pack/skills/rh-fiche-de-poste",
+          "order": 8,
+          "summary": "Finalité, missions, activités, compétences, fourchette, version annonce sans critère discriminatoire",
+          "triggers": [
+            "run rh-fiche-de-poste",
+            "fiche de poste",
+            "rédiger une fiche de poste",
+            "modèle fiche de poste",
+            "annonce de recrutement",
+            "offre d'emploi",
+            "description de poste",
+            "annonce non discriminatoire"
+          ]
+        },
+        {
+          "name": "rh-promesse-embauche",
+          "path": "packs/fr-rh-pack/skills/rh-promesse-embauche",
+          "order": 9,
+          "summary": "Choix offre ou promesse pour décision, courrier, clauses pour le juriste, contrôle de cohérence",
+          "triggers": [
+            "run rh-promesse-embauche",
+            "promesse d'embauche",
+            "modèle promesse d'embauche",
+            "offre de contrat de travail",
+            "lettre d'embauche",
+            "proposition d'embauche",
+            "courrier candidat retenu",
+            "rétractation promesse d'embauche"
+          ]
+        },
+        {
+          "name": "rh-parcours-integration",
+          "path": "packs/fr-rh-pack/skills/rh-parcours-integration",
+          "order": 10,
+          "summary": "Plan de J-15 à J+90, formalités à confirmer, livret d'accueil, rapport d'étonnement",
+          "triggers": [
+            "run rh-parcours-integration",
+            "parcours d'intégration",
+            "plan d'intégration",
+            "onboarding nouveau salarié",
+            "livret d'accueil",
+            "rapport d'étonnement",
+            "checklist arrivée salarié",
+            "intégration nouvel arrivant"
+          ]
+        },
+        {
+          "name": "rh-periode-essai",
+          "path": "packs/fr-rh-pack/skills/rh-periode-essai",
+          "order": 11,
+          "summary": "Objectifs observables, dates de points, date limite de décision, courriers après décision",
+          "triggers": [
+            "run rh-periode-essai",
+            "période d'essai",
+            "renouvellement période d'essai",
+            "fin de période d'essai",
+            "délai de prévenance",
+            "rupture période d'essai",
+            "prolonger la période d'essai",
+            "confirmation période d'essai"
+          ]
+        },
+        {
+          "name": "rh-entretien-parcours",
+          "path": "packs/fr-rh-pack/skills/rh-entretien-parcours",
+          "order": 12,
+          "summary": "Calendrier par salarié, convocation, trame des thèmes de la loi, compte rendu, état des lieux",
+          "triggers": [
+            "run rh-entretien-parcours",
+            "entretien de parcours professionnel",
+            "entretien professionnel",
+            "trame entretien professionnel",
+            "convocation entretien professionnel",
+            "état des lieux récapitulatif",
+            "réforme entretien professionnel",
+            "compte rendu entretien professionnel"
+          ]
+        },
+        {
+          "name": "rh-plan-competences",
+          "path": "packs/fr-rh-pack/skills/rh-plan-competences",
+          "order": 13,
+          "summary": "Besoins, actions obligatoires ou de développement, financement à confirmer, calendrier, éléments CSE",
+          "triggers": [
+            "run rh-plan-competences",
+            "plan de développement des compétences",
+            "plan de formation",
+            "budget formation",
+            "financement OPCO",
+            "demandes de formation",
+            "formation obligatoire",
+            "plan de formation CSE"
+          ]
+        },
+        {
+          "name": "rh-plan-accompagnement",
+          "path": "packs/fr-rh-pack/skills/rh-plan-accompagnement",
+          "order": 14,
+          "summary": "Faits datés sur le travail, objectifs SMART, soutien, points de suivi, qui décide",
+          "triggers": [
+            "run rh-plan-accompagnement",
+            "plan d'accompagnement",
+            "plan d'amélioration",
+            "insuffisance professionnelle",
+            "salarié en difficulté",
+            "objectifs SMART",
+            "plan de progrès",
+            "accompagner un salarié en difficulté"
+          ]
+        },
+        {
+          "name": "rh-ordre-du-jour-cse",
+          "path": "packs/fr-rh-pack/skills/rh-ordre-du-jour-cse",
+          "order": 15,
+          "summary": "Points d'information et de consultation séparés, documents par point, date d'envoi",
+          "triggers": [
+            "run rh-ordre-du-jour-cse",
+            "ordre du jour CSE",
+            "convocation CSE",
+            "réunion CSE",
+            "préparer la réunion du CSE",
+            "modèle ordre du jour CSE",
+            "délai envoi ordre du jour CSE",
+            "points de consultation CSE"
+          ]
+        },
+        {
+          "name": "rh-consultation-cse",
+          "path": "packs/fr-rh-pack/skills/rh-consultation-cse",
+          "order": 16,
+          "summary": "Objet et base, informations écrites, calendrier et délai, questions attendues, recueil de l'avis",
+          "triggers": [
+            "run rh-consultation-cse",
+            "consultation CSE",
+            "information-consultation CSE",
+            "avis du CSE",
+            "délai de consultation CSE",
+            "consulter le CSE sur un outil d'IA",
+            "dossier CSE réorganisation",
+            "consultations récurrentes CSE"
+          ]
+        },
+        {
+          "name": "rh-proces-verbal-cse",
+          "path": "packs/fr-rh-pack/skills/rh-proces-verbal-cse",
+          "order": 17,
+          "summary": "Trame pour le secrétaire, engagements de l'employeur, réponses motivées",
+          "triggers": [
+            "run rh-proces-verbal-cse",
+            "PV CSE",
+            "procès-verbal CSE",
+            "compte rendu réunion CSE",
+            "modèle PV CSE",
+            "réponses de l'employeur au CSE",
+            "engagements de la direction CSE",
+            "propositions du CSE"
+          ]
+        },
+        {
+          "name": "rh-duerp",
+          "path": "packs/fr-rh-pack/skills/rh-duerp",
+          "order": 18,
+          "summary": "Unités de travail, risques, mesures, actions datées, version conservée, accès",
+          "triggers": [
+            "run rh-duerp",
+            "DUERP",
+            "document unique",
+            "mise à jour du DUERP",
+            "évaluation des risques professionnels",
+            "modèle DUERP",
+            "plan d'actions de prévention",
+            "unités de travail DUERP"
+          ]
+        },
+        {
+          "name": "rh-politique-conges",
+          "path": "packs/fr-rh-pack/skills/rh-politique-conges",
+          "order": 19,
+          "summary": "Congés payés, congés pendant un arrêt, congé de naissance, plancher légal et ajouts, réglages de paie",
+          "triggers": [
+            "run rh-politique-conges",
+            "politique congés",
+            "règles congés payés",
+            "congés payés arrêt maladie",
+            "congé de naissance",
+            "report des congés",
+            "note congés salariés",
+            "absences autorisées"
+          ]
+        },
+        {
+          "name": "rh-suivi-arret",
+          "path": "packs/fr-rh-pack/skills/rh-suivi-arret",
+          "order": 20,
+          "summary": "Étapes et dates, contact convenu, organisation, retour, questions pour la paie",
+          "triggers": [
+            "run rh-suivi-arret",
+            "arrêt maladie",
+            "suivi arrêt de travail",
+            "prolongation arrêt maladie",
+            "maintien de salaire",
+            "visite de reprise",
+            "rendez-vous de liaison",
+            "retour après arrêt"
+          ]
+        },
+        {
+          "name": "rh-amenagement-poste",
+          "path": "packs/fr-rh-pack/skills/rh-amenagement-poste",
+          "order": 21,
+          "summary": "Date de la demande, préconisations, options, décision motivée, courrier, revue",
+          "triggers": [
+            "run rh-amenagement-poste",
+            "aménagement de poste",
+            "préconisations médecin du travail",
+            "RQTH aménagement",
+            "adaptation du poste",
+            "poste adapté",
+            "aménagement raisonnable handicap",
+            "refus d'aménagement"
+          ]
+        },
+        {
+          "name": "rh-mutuelle-prevoyance",
+          "path": "packs/fr-rh-pack/skills/rh-mutuelle-prevoyance",
+          "order": 22,
+          "summary": "Ce que couvrent vos contrats, dispenses, démarches, questions pour l'assureur, FAQ salariés",
+          "triggers": [
+            "run rh-mutuelle-prevoyance",
+            "mutuelle entreprise",
+            "prévoyance salariés",
+            "dispense de mutuelle",
+            "complémentaire santé obligatoire",
+            "FAQ mutuelle",
+            "renouvellement mutuelle",
+            "portabilité mutuelle"
+          ]
+        },
+        {
+          "name": "rh-recueil-signalement",
+          "path": "packs/fr-rh-pack/skills/rh-recueil-signalement",
+          "order": 23,
+          "summary": "Trame du premier entretien, note de recueil, référence sans nom, routes possibles",
+          "triggers": [
+            "run rh-recueil-signalement",
+            "recueil de signalement",
+            "signalement harcèlement",
+            "salarié se plaint de son manager",
+            "entretien avec un salarié qui signale",
+            "note de recueil",
+            "plainte d'un salarié",
+            "référent harcèlement"
+          ]
+        },
+        {
+          "name": "rh-procedure-signalement",
+          "path": "packs/fr-rh-pack/skills/rh-procedure-signalement",
+          "order": 24,
+          "summary": "Canaux, destinataires, accusé de réception et délais, confidentialité, protection",
+          "triggers": [
+            "run rh-procedure-signalement",
+            "procédure de signalement",
+            "procédure lanceur d'alerte",
+            "dispositif d'alerte interne",
+            "décret 2022-1284",
+            "canal de signalement",
+            "référent harcèlement",
+            "protection lanceur d'alerte"
+          ]
+        },
+        {
+          "name": "rh-enquete-interne",
+          "path": "packs/fr-rh-pack/skills/rh-enquete-interne",
+          "order": 25,
+          "summary": "Périmètre fait par fait, enquêteurs, ordre des auditions, questions ouvertes, registre des pièces",
+          "triggers": [
+            "run rh-enquete-interne",
+            "enquête interne",
+            "enquête harcèlement",
+            "mener une enquête RH",
+            "plan d'enquête",
+            "audition de témoins",
+            "questions d'audition",
+            "enquête après signalement"
+          ]
+        },
+        {
+          "name": "rh-rapport-enquete",
+          "path": "packs/fr-rh-pack/skills/rh-rapport-enquete",
+          "order": 26,
+          "summary": "Une section par fait, pièces citées, faits établis ou non, index des pièces",
+          "triggers": [
+            "run rh-rapport-enquete",
+            "rapport d'enquête",
+            "rapport d'enquête interne",
+            "conclusions d'enquête harcèlement",
+            "rédiger le rapport après les auditions",
+            "compte rendu d'enquête",
+            "synthèse des auditions"
+          ]
+        },
+        {
+          "name": "rh-reglement-interieur",
+          "path": "packs/fr-rh-pack/skills/rh-reglement-interieur",
+          "order": 27,
+          "summary": "Les trois contenus autorisés, échelle des sanctions, droits de la défense, étapes d'adoption",
+          "triggers": [
+            "run rh-reglement-interieur",
+            "règlement intérieur",
+            "modèle règlement intérieur",
+            "échelle des sanctions",
+            "mettre à jour le règlement intérieur",
+            "règlement intérieur obligatoire",
+            "adoption du règlement intérieur",
+            "avis du CSE règlement intérieur"
+          ]
+        },
+        {
+          "name": "rh-procedure-disciplinaire",
+          "path": "packs/fr-rh-pack/skills/rh-procedure-disciplinaire",
+          "order": 28,
+          "summary": "Sanctions possibles, délai pour engager, convocation, entretien, notification, rôles séparés",
+          "triggers": [
+            "run rh-procedure-disciplinaire",
+            "procédure disciplinaire",
+            "sanction disciplinaire",
+            "prescription des faits fautifs",
+            "délai de deux mois sanction",
+            "mise à pied conservatoire",
+            "entretien préalable sanction",
+            "sanctionner un salarié"
+          ]
+        },
+        {
+          "name": "rh-avertissement",
+          "path": "packs/fr-rh-pack/skills/rh-avertissement",
+          "order": 29,
+          "summary": "Convocation à entretien préalable, notification de sanction, contrôle des dates",
+          "triggers": [
+            "run rh-avertissement",
+            "lettre d'avertissement",
+            "modèle avertissement salarié",
+            "convocation entretien préalable sanction",
+            "notification de sanction",
+            "courrier disciplinaire",
+            "lettre de mise à pied disciplinaire",
+            "avertissement écrit"
+          ]
+        },
+        {
+          "name": "rh-licenciement",
+          "path": "packs/fr-rh-pack/skills/rh-licenciement",
+          "order": 30,
+          "summary": "Convocation, préparation de l'entretien, lettre énonçant les motifs, contrôle des délais",
+          "triggers": [
+            "run rh-licenciement",
+            "lettre de licenciement",
+            "modèle lettre de licenciement",
+            "convocation entretien préalable licenciement",
+            "procédure de licenciement",
+            "licenciement pour faute",
+            "délai entre entretien et lettre de licenciement",
+            "conseiller du salarié"
+          ]
+        },
+        {
+          "name": "rh-rupture-conventionnelle",
+          "path": "packs/fr-rh-pack/skills/rh-rupture-conventionnelle",
+          "order": 31,
+          "summary": "Calendrier des entretiens, rétractation et homologation, points de la convention, questions",
+          "triggers": [
+            "run rh-rupture-conventionnelle",
+            "rupture conventionnelle",
+            "calendrier rupture conventionnelle",
+            "délai de rétractation rupture conventionnelle",
+            "homologation rupture conventionnelle",
+            "entretien rupture conventionnelle",
+            "convention de rupture"
+          ]
+        },
+        {
+          "name": "rh-depart-salarie",
+          "path": "packs/fr-rh-pack/skills/rh-depart-salarie",
+          "order": 32,
+          "summary": "Liste du préavis au dernier jour, documents de fin de contrat, accès retirés, archivage",
+          "triggers": [
+            "run rh-depart-salarie",
+            "départ d'un salarié",
+            "checklist départ salarié",
+            "documents de fin de contrat",
+            "solde de tout compte",
+            "certificat de travail",
+            "attestation France Travail",
+            "entretien de départ",
+            "démission que faire"
+          ]
+        }
+      ]
     }
   ]
 }

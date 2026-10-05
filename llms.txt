@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-47 packs, 1052 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+48 packs, 1084 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -60,6 +60,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude pour les commerciaux : 29 skills Claude (29 skills): 29 skills Claude en français pour le métier commercial B2B, de la préparation des comptes au pilotage du pipe. Page: https://meet-polar-bear.com/skills/fr-commerciaux-pack. README: [packs/fr-commerciaux-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/README.md)
 - Claude pour les entretiens annuels : 20 skills Claude (20 skills): 20 skills Claude en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, de la trame à l'état des lieux. Page: https://meet-polar-bear.com/skills/fr-entretiens-pack. README: [packs/fr-entretiens-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/README.md)
 - Claude pour le recrutement : 32 skills Claude (32 skills): 32 skills Claude en français pour recruter en droit français, du besoin du manager à la fin de la période d'essai. Page: https://meet-polar-bear.com/skills/fr-recrutement-pack. README: [packs/fr-recrutement-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/README.md)
+- Claude pour les RH : 32 skills Claude (32 skills): 32 skills Claude en français pour tenir toute l'année RH en droit français, de la fiche de poste au départ d'un salarié. Page: https://meet-polar-bear.com/skills/fr-rh-pack. README: [packs/fr-rh-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/README.md)
 
 ## Skills
 
@@ -272,6 +273,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/resources/evidence-and-sources.md): the Claude pour les commerciaux : 29 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/resources/evidence-and-sources.md): the Claude pour les entretiens annuels : 20 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/resources/evidence-and-sources.md): the Claude pour le recrutement : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/resources/evidence-and-sources.md): the Claude pour les RH : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1382,3 +1384,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - recrut-charte-ia: packs/fr-recrutement-pack/skills/recrut-charte-ia/SKILL.md — Usages permis et interdits, relecture humaine nommée, questions aux éditeurs
 - recrut-tableau-de-bord: packs/fr-recrutement-pack/skills/recrut-tableau-de-bord/SKILL.md — Délais, taux de passage, sources, postes bloqués, par poste et par canal
 - Reference: packs/fr-recrutement-pack/resources/evidence-and-sources.md
+
+## Claude pour les RH : 32 skills Claude
+
+32 skills en français pour tenir toute l'année RH en droit français, dans l'ordre où le métier se vit : utiliser Claude sans risque avec une charte IA, la pseudonymisation et le registre RGPD, piloter l'année sociale avec le calendrier social, le registre des obligations, la veille et l'index égalité, recruter et intégrer de la fiche de poste à la période d'essai, mener l'entretien de parcours professionnel et le plan de développement des compétences, tenir le dialogue social et le CSE, suivre la santé, les absences et la protection sociale, recueillir les signalements et mener les enquêtes, puis conduire la discipline et la fin de contrat. Pour les RRH, DRH, chargés RH, HRBP, gestionnaires RH et paie, et toutes les personnes qui font les RH sans service RH. Claude rédige et structure, une personne décide : chaque point de droit est vérifié par un juriste, chaque décision sur un salarié est prise et signée par une personne nommée, et rien de nominatif n'entre dans Claude sans base RGPD ni pseudonymisation.
+
+- Pack: packs/fr-rh-pack/README.md
+- rh-charte-ia: packs/fr-rh-pack/skills/rh-charte-ia/SKILL.md — Usages autorisés et interdits, données à ne jamais saisir, vérification humaine, formation, questions pour l'avocat
+- rh-pseudonymisation: packs/fr-rh-pack/skills/rh-pseudonymisation/SKILL.md — Contrôle de la base RGPD, liste des données identifiantes, document pseudonymisé, table de correspondance gardée hors de Claude
+- rh-registre-rgpd: packs/fr-rh-pack/skills/rh-registre-rgpd/SKILL.md — Finalité, base légale, données, destinataires, durées de conservation, questions pour le DPO
+- rh-calendrier-social: packs/fr-rh-pack/skills/rh-calendrier-social/SKILL.md — Douze mois d'échéances, préparation et responsable par ligne, source datée, mois surchargés
+- rh-registre-obligations: packs/fr-rh-pack/skills/rh-registre-obligations/SKILL.md — Obligations selon votre effectif, preuves en place, écarts classés, plan de correction
+- rh-note-de-veille: packs/fr-rh-pack/skills/rh-note-de-veille/SKILL.md — Ce qui change, pour qui, texte source, impacts sur vos process, actions, questions pour le juriste
+- rh-index-egalite: packs/fr-rh-pack/skills/rh-index-egalite/SKILL.md — Données préparées pour Egapro, petits groupes masqués, écarts en questions, fourchettes par niveau
+- rh-fiche-de-poste: packs/fr-rh-pack/skills/rh-fiche-de-poste/SKILL.md — Finalité, missions, activités, compétences, fourchette, version annonce sans critère discriminatoire
+- rh-promesse-embauche: packs/fr-rh-pack/skills/rh-promesse-embauche/SKILL.md — Choix offre ou promesse pour décision, courrier, clauses pour le juriste, contrôle de cohérence
+- rh-parcours-integration: packs/fr-rh-pack/skills/rh-parcours-integration/SKILL.md — Plan de J-15 à J+90, formalités à confirmer, livret d'accueil, rapport d'étonnement
+- rh-periode-essai: packs/fr-rh-pack/skills/rh-periode-essai/SKILL.md — Objectifs observables, dates de points, date limite de décision, courriers après décision
+- rh-entretien-parcours: packs/fr-rh-pack/skills/rh-entretien-parcours/SKILL.md — Calendrier par salarié, convocation, trame des thèmes de la loi, compte rendu, état des lieux
+- rh-plan-competences: packs/fr-rh-pack/skills/rh-plan-competences/SKILL.md — Besoins, actions obligatoires ou de développement, financement à confirmer, calendrier, éléments CSE
+- rh-plan-accompagnement: packs/fr-rh-pack/skills/rh-plan-accompagnement/SKILL.md — Faits datés sur le travail, objectifs SMART, soutien, points de suivi, qui décide
+- rh-ordre-du-jour-cse: packs/fr-rh-pack/skills/rh-ordre-du-jour-cse/SKILL.md — Points d'information et de consultation séparés, documents par point, date d'envoi
+- rh-consultation-cse: packs/fr-rh-pack/skills/rh-consultation-cse/SKILL.md — Objet et base, informations écrites, calendrier et délai, questions attendues, recueil de l'avis
+- rh-proces-verbal-cse: packs/fr-rh-pack/skills/rh-proces-verbal-cse/SKILL.md — Trame pour le secrétaire, engagements de l'employeur, réponses motivées
+- rh-duerp: packs/fr-rh-pack/skills/rh-duerp/SKILL.md — Unités de travail, risques, mesures, actions datées, version conservée, accès
+- rh-politique-conges: packs/fr-rh-pack/skills/rh-politique-conges/SKILL.md — Congés payés, congés pendant un arrêt, congé de naissance, plancher légal et ajouts, réglages de paie
+- rh-suivi-arret: packs/fr-rh-pack/skills/rh-suivi-arret/SKILL.md — Étapes et dates, contact convenu, organisation, retour, questions pour la paie
+- rh-amenagement-poste: packs/fr-rh-pack/skills/rh-amenagement-poste/SKILL.md — Date de la demande, préconisations, options, décision motivée, courrier, revue
+- rh-mutuelle-prevoyance: packs/fr-rh-pack/skills/rh-mutuelle-prevoyance/SKILL.md — Ce que couvrent vos contrats, dispenses, démarches, questions pour l'assureur, FAQ salariés
+- rh-recueil-signalement: packs/fr-rh-pack/skills/rh-recueil-signalement/SKILL.md — Trame du premier entretien, note de recueil, référence sans nom, routes possibles
+- rh-procedure-signalement: packs/fr-rh-pack/skills/rh-procedure-signalement/SKILL.md — Canaux, destinataires, accusé de réception et délais, confidentialité, protection
+- rh-enquete-interne: packs/fr-rh-pack/skills/rh-enquete-interne/SKILL.md — Périmètre fait par fait, enquêteurs, ordre des auditions, questions ouvertes, registre des pièces
+- rh-rapport-enquete: packs/fr-rh-pack/skills/rh-rapport-enquete/SKILL.md — Une section par fait, pièces citées, faits établis ou non, index des pièces
+- rh-reglement-interieur: packs/fr-rh-pack/skills/rh-reglement-interieur/SKILL.md — Les trois contenus autorisés, échelle des sanctions, droits de la défense, étapes d'adoption
+- rh-procedure-disciplinaire: packs/fr-rh-pack/skills/rh-procedure-disciplinaire/SKILL.md — Sanctions possibles, délai pour engager, convocation, entretien, notification, rôles séparés
+- rh-avertissement: packs/fr-rh-pack/skills/rh-avertissement/SKILL.md — Convocation à entretien préalable, notification de sanction, contrôle des dates
+- rh-licenciement: packs/fr-rh-pack/skills/rh-licenciement/SKILL.md — Convocation, préparation de l'entretien, lettre énonçant les motifs, contrôle des délais
+- rh-rupture-conventionnelle: packs/fr-rh-pack/skills/rh-rupture-conventionnelle/SKILL.md — Calendrier des entretiens, rétractation et homologation, points de la convention, questions
+- rh-depart-salarie: packs/fr-rh-pack/skills/rh-depart-salarie/SKILL.md — Liste du préavis au dernier jour, documents de fin de contrat, accès retirés, archivage
+- Reference: packs/fr-rh-pack/resources/evidence-and-sources.md

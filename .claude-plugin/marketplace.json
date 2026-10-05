@@ -1354,6 +1354,36 @@
         "fourchette-salariale",
         "francais"
       ]
+    },
+    {
+      "name": "fr-rh-pack",
+      "source": "./packs/fr-rh-pack",
+      "description": "32 skills en français pour tenir toute l'année RH en droit français, dans l'ordre où le métier se vit : utiliser Claude sans risque avec une charte IA, la pseudonymisation et le registre RGPD, piloter l'année sociale avec le calendrier social, le registre des obligations, la veille et l'index égalité, recruter et intégrer de la fiche de poste à la période d'essai, mener l'entretien de parcours professionnel et le plan de développement des compétences, tenir le dialogue social et le CSE, suivre la santé, les absences et la protection sociale, recueillir les signalements et mener les enquêtes, puis conduire la discipline et la fin de contrat. Pour les RRH, DRH, chargés RH, HRBP, gestionnaires RH et paie, et toutes les personnes qui font les RH sans service RH. Claude rédige et structure, une personne décide : chaque point de droit est vérifié par un juriste, chaque décision sur un salarié est prise et signée par une personne nommée, et rien de nominatif n'entre dans Claude sans base RGPD ni pseudonymisation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/fr-rh-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "ressources-humaines",
+        "droit-du-travail",
+        "rgpd-rh",
+        "cse",
+        "duerp",
+        "procedure-disciplinaire",
+        "licenciement",
+        "rupture-conventionnelle",
+        "entretien-professionnel",
+        "index-egalite",
+        "arret-maladie",
+        "enquete-interne",
+        "reglement-interieur",
+        "francais"
+      ]
     }
   ]
 }
