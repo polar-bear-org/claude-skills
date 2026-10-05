@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "fr-commerciaux-pack",
+  "version": "1.0.0",
+  "description": "29 skills en français pour le métier commercial B2B, dans l'ordre d'une affaire et d'une semaine : préparer ses comptes et cartographier les décideurs, prospecter avec moins de messages et de meilleurs messages, préparer et mener les rendez-vous, écrire comptes rendus, fiches CRM et emails récapitulatifs, rédiger propositions, devis et relances, préparer la négociation et conclure, puis piloter son pipe, son prévisionnel et sa semaine. Pour les ingénieurs commerciaux, ingénieurs d'affaires, KAM, technico-commerciaux et managers commerciaux. Claude prépare et contrôle à partir de ce que vous collez (notes, export CRM, grille tarifaire) : il n'invente aucun prix, chiffre ni fait sur un client, et c'est vous qui signez et envoyez chaque message.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/fr-commerciaux-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "commercial",
+    "vente-b2b",
+    "prospection",
+    "ingenieur-commercial",
+    "ingenieur-affaires",
+    "technico-commercial",
+    "kam",
+    "compte-rendu-visite",
+    "crm",
+    "proposition-commerciale",
+    "devis",
+    "negociation",
+    "revue-de-pipe",
+    "francais"
+  ]
+}

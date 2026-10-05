@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-44 packs, 971 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+45 packs, 1000 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -57,6 +57,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills (29 skills): 29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations. Page: https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack. README: [packs/authentic-linkedin-presence-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/README.md)
 - Claude for Design Leaders: 32 Claude Skills (32 skills): 32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career. Page: https://meet-polar-bear.com/skills/design-leaders-pack. README: [packs/design-leaders-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/README.md)
 - Claude Guide for Finding Clients: 32 Claude Skills (32 skills): 32 Claude skills to win clients, from your warm network to the signed proposal. Page: https://meet-polar-bear.com/skills/finding-clients-pack. README: [packs/finding-clients-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/README.md)
+- Claude pour les commerciaux : 29 skills Claude (29 skills): 29 skills Claude en français pour le métier commercial B2B, de la préparation des comptes au pilotage du pipe. Page: https://meet-polar-bear.com/skills/fr-commerciaux-pack. README: [packs/fr-commerciaux-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/README.md)
 
 ## Skills
 
@@ -266,6 +267,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md): the Claude Playbook for Authentic LinkedIn Presence Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/resources/evidence-and-sources.md): the Claude for Design Leaders Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/resources/evidence-and-sources.md): the Claude Guide for Finding Clients Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/resources/evidence-and-sources.md): the Claude pour les commerciaux : 29 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1274,3 +1276,39 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - win-proposal-follow-up: packs/finding-clients-pack/skills/win-proposal-follow-up/SKILL.md — Walk-through booked, shared next steps, two useful follow-ups, an easy no
 - win-objection-response: packs/finding-clients-pack/skills/win-objection-response/SKILL.md — The concern under the objection, an exploring question, a reply from real proof
 - Reference: packs/finding-clients-pack/resources/evidence-and-sources.md
+
+## Claude pour les commerciaux : 29 skills Claude
+
+29 skills Claude en français pour le métier commercial B2B, dans l'ordre d'une affaire et d'une semaine : préparer ses comptes et cartographier les décideurs, prospecter avec moins de messages et de meilleurs messages, préparer et mener les rendez-vous, écrire comptes rendus, fiches CRM et emails récapitulatifs, rédiger propositions, devis et relances, préparer la négociation et conclure, puis piloter son pipe, son prévisionnel et sa semaine.
+
+- Pack: packs/fr-commerciaux-pack/README.md
+- vente-fiche-compte: packs/fr-commerciaux-pack/skills/vente-fiche-compte/SKILL.md — Fiche d'une page sourcée, inconnues marquées, trois questions
+- vente-cartographie-decideurs: packs/fr-commerciaux-pack/skills/vente-cartographie-decideurs/SKILL.md — Carte des rôles, contacts manquants, prochaine prise de contact
+- vente-plan-de-compte: packs/fr-commerciaux-pack/skills/vente-plan-de-compte/SKILL.md — Enjeux, opportunités, objectifs, plan d'actions, revues
+- vente-plan-action-commercial: packs/fr-commerciaux-pack/skills/vente-plan-action-commercial/SKILL.md — Segmentation ABC, objectifs SMART, actions, calendrier
+- vente-liste-de-prospection: packs/fr-commerciaux-pack/skills/vente-liste-de-prospection/SKILL.md — Brief, 10 à 20 comptes choisis, une raison par compte, contrôle CNIL
+- vente-raison-d-ecrire: packs/fr-commerciaux-pack/skills/vente-raison-d-ecrire/SKILL.md — Trois raisons possibles, points à dire, raison retenue
+- vente-message-prospection: packs/fr-commerciaux-pack/skills/vente-message-prospection/SKILL.md — Email ou message LinkedIn en vouvoiement, relu, à réécrire
+- vente-script-appel: packs/fr-commerciaux-pack/skills/vente-script-appel/SKILL.md — Ouverture, raison, questions, réponses aux refus, message vocal
+- vente-preparation-rendez-vous: packs/fr-commerciaux-pack/skills/vente-preparation-rendez-vous/SKILL.md — Objectif, avancée visée, déroulé, avancée de repli
+- vente-guide-decouverte: packs/fr-commerciaux-pack/skills/vente-guide-decouverte/SKILL.md — Questions SPIN, grille BEBEDC, points à apprendre
+- vente-argumentaire-cap: packs/fr-commerciaux-pack/skills/vente-argumentaire-cap/SKILL.md — Caractéristique, avantage, preuve par besoin exprimé
+- vente-traitement-objections: packs/fr-commerciaux-pack/skills/vente-traitement-objections/SKILL.md — Registre des objections, réponse CRAC, question de fond
+- vente-compte-rendu-visite: packs/fr-commerciaux-pack/skills/vente-compte-rendu-visite/SKILL.md — Compte rendu lisible sur téléphone, engagements, prochaine étape
+- vente-fiche-crm: packs/fr-commerciaux-pack/skills/vente-fiche-crm/SKILL.md — Champs à mettre à jour, tableau avant et après
+- vente-email-recapitulatif: packs/fr-commerciaux-pack/skills/vente-email-recapitulatif/SKILL.md — Situation comprise, engagements, prochaine étape datée
+- vente-brief-proposition: packs/fr-commerciaux-pack/skills/vente-brief-proposition/SKILL.md — Demande, critères, faits sourcés, hypothèses, angle
+- vente-proposition-commerciale: packs/fr-commerciaux-pack/skills/vente-proposition-commerciale/SKILL.md — Synthèse, réponse, déroulé, investissement, prochaine étape
+- vente-devis: packs/fr-commerciaux-pack/skills/vente-devis/SKILL.md — Lignes à partir de vos prix, calculs contrôlés, mentions à vérifier
+- vente-preuve-client: packs/fr-commerciaux-pack/skills/vente-preuve-client/SKILL.md — Paragraphe de 120 à 180 mots, version courte, accord à obtenir
+- vente-relance-devis: packs/fr-commerciaux-pack/skills/vente-relance-devis/SKILL.md — Trois relances datées, chacune avec un apport neuf
+- vente-opportunites-dormantes: packs/fr-commerciaux-pack/skills/vente-opportunites-dormantes/SKILL.md — Affaires silencieuses, raison d'écrire ou clôture, mise à jour du pipe
+- vente-preparation-negociation: packs/fr-commerciaux-pack/skills/vente-preparation-negociation/SKILL.md — Objectifs, limite, MESORE, zone d'accord estimée, intérêts
+- vente-plan-de-concessions: packs/fr-commerciaux-pack/skills/vente-plan-de-concessions/SKILL.md — Monnaies d'échange, ordre, formulations « si vous, alors nous »
+- vente-plan-action-mutuel: packs/fr-commerciaux-pack/skills/vente-plan-action-mutuel/SKILL.md — Étapes datées des deux côtés jusqu'à la signature
+- vente-revue-de-pipe: packs/fr-commerciaux-pack/skills/vente-revue-de-pipe/SKILL.md — Affaires par étape, preuves, trous de qualification, une action
+- vente-previsionnel: packs/fr-commerciaux-pack/skills/vente-previsionnel/SKILL.md — Engagé, probable, possible selon les preuves, écarts, risques
+- vente-rapport-activite: packs/fr-commerciaux-pack/skills/vente-rapport-activite/SKILL.md — Synthèse de la semaine, signaux, aide et décisions attendues
+- vente-organisation-semaine: packs/fr-commerciaux-pack/skills/vente-organisation-semaine/SKILL.md — Semaine en blocs, trois affaires à faire avancer, renoncements
+- vente-bilan-affaire: packs/fr-commerciaux-pack/skills/vente-bilan-affaire/SKILL.md — Faits du cycle, raisons du client, ce que vous changez
+- Reference: packs/fr-commerciaux-pack/resources/evidence-and-sources.md

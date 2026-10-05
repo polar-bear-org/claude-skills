@@ -13616,6 +13616,497 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fr-commerciaux-pack",
+      "title": "Claude pour les commerciaux : 29 skills Claude",
+      "path": "packs/fr-commerciaux-pack",
+      "homepage": "https://meet-polar-bear.com/skills/fr-commerciaux-pack",
+      "version": "1.0.0",
+      "description": "29 skills en français pour le métier commercial B2B, dans l'ordre d'une affaire et d'une semaine : préparer ses comptes et cartographier les décideurs, prospecter avec moins de messages et de meilleurs messages, préparer et mener les rendez-vous, écrire comptes rendus, fiches CRM et emails récapitulatifs, rédiger propositions, devis et relances, préparer la négociation et conclure, puis piloter son pipe, son prévisionnel et sa semaine. Pour les ingénieurs commerciaux, ingénieurs d'affaires, KAM, technico-commerciaux et managers commerciaux. Claude prépare et contrôle à partir de ce que vous collez (notes, export CRM, grille tarifaire) : il n'invente aucun prix, chiffre ni fait sur un client, et c'est vous qui signez et envoyez chaque message.",
+      "audience": [
+        "ingénieurs commerciaux",
+        "ingénieurs d'affaires",
+        "responsables grands comptes et KAM",
+        "technico-commerciaux",
+        "managers et directeurs commerciaux"
+      ],
+      "keywords": [
+        "commercial",
+        "vente-b2b",
+        "prospection",
+        "ingenieur-commercial",
+        "ingenieur-affaires",
+        "technico-commercial",
+        "kam",
+        "compte-rendu-visite",
+        "crm",
+        "proposition-commerciale",
+        "devis",
+        "negociation",
+        "revue-de-pipe",
+        "francais"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "vente-fiche-compte",
+          "path": "packs/fr-commerciaux-pack/skills/vente-fiche-compte",
+          "order": 1,
+          "summary": "Fiche d'une page sourcée, inconnues marquées, trois questions",
+          "triggers": [
+            "run vente-fiche-compte",
+            "fiche compte",
+            "fiche client",
+            "préparer un rendez-vous client",
+            "se renseigner sur un prospect",
+            "recherche entreprise avant rendez-vous",
+            "fiche entreprise",
+            "connaître un compte"
+          ]
+        },
+        {
+          "name": "vente-cartographie-decideurs",
+          "path": "packs/fr-commerciaux-pack/skills/vente-cartographie-decideurs",
+          "order": 2,
+          "summary": "Carte des rôles, contacts manquants, prochaine prise de contact",
+          "triggers": [
+            "run vente-cartographie-decideurs",
+            "cartographie des décideurs",
+            "cartographie des comptes",
+            "centre de décision",
+            "qui décide chez le client",
+            "rôles dans la décision d'achat",
+            "carte des interlocuteurs",
+            "multiplier les contacts"
+          ]
+        },
+        {
+          "name": "vente-plan-de-compte",
+          "path": "packs/fr-commerciaux-pack/skills/vente-plan-de-compte",
+          "order": 3,
+          "summary": "Enjeux, opportunités, objectifs, plan d'actions, revues",
+          "triggers": [
+            "run vente-plan-de-compte",
+            "plan de compte",
+            "plan de compte clé",
+            "plan grands comptes",
+            "développer un compte clé",
+            "stratégie compte client",
+            "KAM plan de compte"
+          ]
+        },
+        {
+          "name": "vente-plan-action-commercial",
+          "path": "packs/fr-commerciaux-pack/skills/vente-plan-action-commercial",
+          "order": 4,
+          "summary": "Segmentation ABC, objectifs SMART, actions, calendrier",
+          "triggers": [
+            "run vente-plan-action-commercial",
+            "plan d'action commercial",
+            "PAC commercial",
+            "segmentation ABC clients",
+            "plan d'action commercial trimestriel",
+            "objectifs SMART commercial",
+            "plan de prospection",
+            "organiser son portefeuille clients"
+          ]
+        },
+        {
+          "name": "vente-liste-de-prospection",
+          "path": "packs/fr-commerciaux-pack/skills/vente-liste-de-prospection",
+          "order": 5,
+          "summary": "Brief, 10 à 20 comptes choisis, une raison par compte, contrôle CNIL",
+          "triggers": [
+            "run vente-liste-de-prospection",
+            "liste de prospection",
+            "fichier de prospection",
+            "prospection commerciale",
+            "cibler ses prospects",
+            "profil client idéal",
+            "prospection B2B RGPD",
+            "prospection commerciale CNIL"
+          ]
+        },
+        {
+          "name": "vente-raison-d-ecrire",
+          "path": "packs/fr-commerciaux-pack/skills/vente-raison-d-ecrire",
+          "order": 6,
+          "summary": "Trois raisons possibles, points à dire, raison retenue",
+          "triggers": [
+            "run vente-raison-d-ecrire",
+            "raison d'écrire",
+            "reprendre contact avec un prospect",
+            "comment aborder un prospect",
+            "accroche prospection",
+            "quoi écrire à un prospect",
+            "reprendre contact client",
+            "message sans je me permets"
+          ]
+        },
+        {
+          "name": "vente-message-prospection",
+          "path": "packs/fr-commerciaux-pack/skills/vente-message-prospection",
+          "order": 7,
+          "summary": "Email ou message LinkedIn en vouvoiement, relu, à réécrire",
+          "triggers": [
+            "run vente-message-prospection",
+            "message de prospection",
+            "email de prospection",
+            "mail de prospection B2B",
+            "message de prospection linkedin",
+            "prospection linkedin",
+            "premier message prospect",
+            "objet mail prospection"
+          ]
+        },
+        {
+          "name": "vente-script-appel",
+          "path": "packs/fr-commerciaux-pack/skills/vente-script-appel",
+          "order": 8,
+          "summary": "Ouverture, raison, questions, réponses aux refus, message vocal",
+          "triggers": [
+            "run vente-script-appel",
+            "script d'appel",
+            "trame d'appel",
+            "pitch commercial",
+            "appel de prospection",
+            "prospection téléphonique",
+            "phoning B2B",
+            "message vocal prospect",
+            "réponse envoyez-moi une documentation"
+          ]
+        },
+        {
+          "name": "vente-preparation-rendez-vous",
+          "path": "packs/fr-commerciaux-pack/skills/vente-preparation-rendez-vous",
+          "order": 9,
+          "summary": "Objectif, avancée visée, déroulé, avancée de repli",
+          "triggers": [
+            "run vente-preparation-rendez-vous",
+            "préparer un rendez-vous client",
+            "préparation rendez-vous commercial",
+            "préparer un premier rendez-vous",
+            "objectif de rendez-vous client",
+            "préparer une visite client",
+            "préparer un rendez-vous en visio",
+            "fiche de préparation de rendez-vous"
+          ]
+        },
+        {
+          "name": "vente-guide-decouverte",
+          "path": "packs/fr-commerciaux-pack/skills/vente-guide-decouverte",
+          "order": 10,
+          "summary": "Questions SPIN, grille BEBEDC, points à apprendre",
+          "triggers": [
+            "run vente-guide-decouverte",
+            "découverte client",
+            "questions de découverte",
+            "méthode SPIN",
+            "BEBEDC",
+            "grille de découverte client",
+            "questions à poser à un prospect",
+            "préparer la découverte"
+          ]
+        },
+        {
+          "name": "vente-argumentaire-cap",
+          "path": "packs/fr-commerciaux-pack/skills/vente-argumentaire-cap",
+          "order": 11,
+          "summary": "Caractéristique, avantage, preuve par besoin exprimé",
+          "triggers": [
+            "run vente-argumentaire-cap",
+            "argumentaire commercial",
+            "CAP SONCAS",
+            "méthode CAP",
+            "caractéristiques avantages preuves",
+            "argumentaire de vente",
+            "construire un argumentaire",
+            "argumentaire client"
+          ]
+        },
+        {
+          "name": "vente-traitement-objections",
+          "path": "packs/fr-commerciaux-pack/skills/vente-traitement-objections",
+          "order": 12,
+          "summary": "Registre des objections, réponse CRAC, question de fond",
+          "triggers": [
+            "run vente-traitement-objections",
+            "traitement des objections",
+            "méthode CRAC",
+            "objections commerciales",
+            "répondre à une objection client",
+            "objection prix",
+            "le client dit que c'est trop cher",
+            "répondre aux objections"
+          ]
+        },
+        {
+          "name": "vente-compte-rendu-visite",
+          "path": "packs/fr-commerciaux-pack/skills/vente-compte-rendu-visite",
+          "order": 13,
+          "summary": "Compte rendu lisible sur téléphone, engagements, prochaine étape",
+          "triggers": [
+            "run vente-compte-rendu-visite",
+            "compte rendu de visite",
+            "compte rendu de visite commerciale",
+            "CR de visite",
+            "compte rendu de rendez-vous client",
+            "rédiger un compte rendu commercial",
+            "modèle compte rendu de visite",
+            "mettre au propre mes notes de rendez-vous"
+          ]
+        },
+        {
+          "name": "vente-fiche-crm",
+          "path": "packs/fr-commerciaux-pack/skills/vente-fiche-crm",
+          "order": 14,
+          "summary": "Champs à mettre à jour, tableau avant et après",
+          "triggers": [
+            "run vente-fiche-crm",
+            "mettre à jour le CRM",
+            "fiche client CRM",
+            "saisie CRM",
+            "remplir le CRM après un rendez-vous",
+            "mise à jour opportunité CRM",
+            "éviter la double saisie CRM",
+            "fiche client"
+          ]
+        },
+        {
+          "name": "vente-email-recapitulatif",
+          "path": "packs/fr-commerciaux-pack/skills/vente-email-recapitulatif",
+          "order": 15,
+          "summary": "Situation comprise, engagements, prochaine étape datée",
+          "triggers": [
+            "run vente-email-recapitulatif",
+            "mail après rendez-vous client",
+            "email récapitulatif",
+            "mail de suivi après rendez-vous",
+            "récapitulatif de réunion client",
+            "email de compte rendu au client",
+            "confirmer par écrit ce qui a été convenu"
+          ]
+        },
+        {
+          "name": "vente-brief-proposition",
+          "path": "packs/fr-commerciaux-pack/skills/vente-brief-proposition",
+          "order": 16,
+          "summary": "Demande, critères, faits sourcés, hypothèses, angle",
+          "triggers": [
+            "run vente-brief-proposition",
+            "brief de proposition",
+            "préparer une proposition commerciale",
+            "cadrer une proposition",
+            "reformuler le besoin client",
+            "questions à poser au client avant une proposition",
+            "analyser une demande client"
+          ]
+        },
+        {
+          "name": "vente-proposition-commerciale",
+          "path": "packs/fr-commerciaux-pack/skills/vente-proposition-commerciale",
+          "order": 17,
+          "summary": "Synthèse, réponse, déroulé, investissement, prochaine étape",
+          "triggers": [
+            "run vente-proposition-commerciale",
+            "proposition commerciale",
+            "rédiger une proposition commerciale",
+            "modèle de proposition commerciale",
+            "plan d'une proposition commerciale",
+            "offre commerciale",
+            "répondre à une demande client"
+          ]
+        },
+        {
+          "name": "vente-devis",
+          "path": "packs/fr-commerciaux-pack/skills/vente-devis",
+          "order": 18,
+          "summary": "Lignes à partir de vos prix, calculs contrôlés, mentions à vérifier",
+          "triggers": [
+            "run vente-devis",
+            "devis",
+            "faire un devis",
+            "modèle de devis",
+            "vérifier un devis",
+            "mentions obligatoires devis",
+            "calcul devis HT TTC",
+            "devis commercial"
+          ]
+        },
+        {
+          "name": "vente-preuve-client",
+          "path": "packs/fr-commerciaux-pack/skills/vente-preuve-client",
+          "order": 19,
+          "summary": "Paragraphe de 120 à 180 mots, version courte, accord à obtenir",
+          "triggers": [
+            "run vente-preuve-client",
+            "cas client",
+            "témoignage client",
+            "rédiger un cas client",
+            "référence client pour une proposition",
+            "exemple de cas client",
+            "preuve client B2B"
+          ]
+        },
+        {
+          "name": "vente-relance-devis",
+          "path": "packs/fr-commerciaux-pack/skills/vente-relance-devis",
+          "order": 20,
+          "summary": "Trois relances datées, chacune avec un apport neuf",
+          "triggers": [
+            "run vente-relance-devis",
+            "relance devis",
+            "relancer un devis",
+            "mail de relance après devis",
+            "relance client",
+            "devis sans réponse",
+            "relancer un client qui ne répond pas"
+          ]
+        },
+        {
+          "name": "vente-opportunites-dormantes",
+          "path": "packs/fr-commerciaux-pack/skills/vente-opportunites-dormantes",
+          "order": 21,
+          "summary": "Affaires silencieuses, raison d'écrire ou clôture, mise à jour du pipe",
+          "triggers": [
+            "run vente-opportunites-dormantes",
+            "opportunités en sommeil",
+            "relance client",
+            "affaires qui ne bougent plus",
+            "nettoyer son pipe",
+            "réactiver des opportunités",
+            "prospects qui ne répondent plus",
+            "relancer d'anciennes affaires"
+          ]
+        },
+        {
+          "name": "vente-preparation-negociation",
+          "path": "packs/fr-commerciaux-pack/skills/vente-preparation-negociation",
+          "order": 22,
+          "summary": "Objectifs, limite, MESORE, zone d'accord estimée, intérêts",
+          "triggers": [
+            "run vente-preparation-negociation",
+            "préparer une négociation commerciale",
+            "l'acheteur demande une remise",
+            "préparer ma négociation",
+            "MESORE",
+            "BATNA",
+            "zone d'accord possible",
+            "négociation prix client"
+          ]
+        },
+        {
+          "name": "vente-plan-de-concessions",
+          "path": "packs/fr-commerciaux-pack/skills/vente-plan-de-concessions",
+          "order": 23,
+          "summary": "Monnaies d'échange, ordre, formulations « si vous, alors nous »",
+          "triggers": [
+            "run vente-plan-de-concessions",
+            "plan de concessions",
+            "concessions négociation",
+            "donnant-donnant",
+            "contreparties négociation",
+            "le client veut une remise",
+            "quoi lâcher en négociation"
+          ]
+        },
+        {
+          "name": "vente-plan-action-mutuel",
+          "path": "packs/fr-commerciaux-pack/skills/vente-plan-action-mutuel",
+          "order": 24,
+          "summary": "Étapes datées des deux côtés jusqu'à la signature",
+          "triggers": [
+            "run vente-plan-action-mutuel",
+            "plan d'action mutuel",
+            "rétroplanning de signature",
+            "le client dit oui mais ne signe pas",
+            "l'affaire glisse",
+            "étapes jusqu'à la signature",
+            "planning de signature"
+          ]
+        },
+        {
+          "name": "vente-revue-de-pipe",
+          "path": "packs/fr-commerciaux-pack/skills/vente-revue-de-pipe",
+          "order": 25,
+          "summary": "Affaires par étape, preuves, trous de qualification, une action",
+          "triggers": [
+            "run vente-revue-de-pipe",
+            "revue de pipe",
+            "revue du pipeline commercial",
+            "nettoyer mon pipe",
+            "qualifier mes affaires",
+            "MEDDPICC",
+            "méthode SPANCO",
+            "quelles affaires sortir du pipe"
+          ]
+        },
+        {
+          "name": "vente-previsionnel",
+          "path": "packs/fr-commerciaux-pack/skills/vente-previsionnel",
+          "order": 26,
+          "summary": "Engagé, probable, possible selon les preuves, écarts, risques",
+          "triggers": [
+            "run vente-previsionnel",
+            "prévisionnel des ventes",
+            "prévision des ventes",
+            "forecast commercial",
+            "mon prévisionnel du trimestre",
+            "engagé probable possible",
+            "préparer mon prévisionnel pour mon manager"
+          ]
+        },
+        {
+          "name": "vente-rapport-activite",
+          "path": "packs/fr-commerciaux-pack/skills/vente-rapport-activite",
+          "order": 27,
+          "summary": "Synthèse de la semaine, signaux, aide et décisions attendues",
+          "triggers": [
+            "run vente-rapport-activite",
+            "rapport d'activité commercial",
+            "rapport hebdomadaire commercial",
+            "reporting commercial de la semaine",
+            "compte rendu d'activité hebdo",
+            "mon rapport du vendredi"
+          ]
+        },
+        {
+          "name": "vente-organisation-semaine",
+          "path": "packs/fr-commerciaux-pack/skills/vente-organisation-semaine",
+          "order": 28,
+          "summary": "Semaine en blocs, trois affaires à faire avancer, renoncements",
+          "triggers": [
+            "run vente-organisation-semaine",
+            "organiser ma semaine commerciale",
+            "organisation commerciale",
+            "gestion du temps commercial",
+            "planifier ma semaine de commercial",
+            "trouver du temps pour prospecter",
+            "bloquer du temps pour les relances"
+          ]
+        },
+        {
+          "name": "vente-bilan-affaire",
+          "path": "packs/fr-commerciaux-pack/skills/vente-bilan-affaire",
+          "order": 29,
+          "summary": "Faits du cycle, raisons du client, ce que vous changez",
+          "triggers": [
+            "run vente-bilan-affaire",
+            "bilan d'affaire",
+            "analyse win loss",
+            "pourquoi j'ai perdu cette affaire",
+            "analyse d'une affaire perdue",
+            "retour d'expérience affaire gagnée",
+            "retour sur une affaire perdue"
+          ]
+        }
+      ]
     }
   ]
 }
