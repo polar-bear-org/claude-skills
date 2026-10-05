@@ -11310,6 +11310,511 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fr-appels-offres-pack",
+      "title": "Claude pour les Appels d'Offres : 30 skills Claude",
+      "path": "packs/fr-appels-offres-pack",
+      "homepage": "https://meet-polar-bear.com/skills/fr-appels-offres-pack",
+      "version": "1.0.0",
+      "description": "30 skills en français pour répondre aux appels d'offres publics, en huit étapes : la veille et la décision go / no-go, la lecture complète du DCE, le dossier de candidature, le mémoire technique, les références, le volet environnemental et les preuves, la cohérence entre le prix et le mémoire, la relecture côté évaluateur et le dépôt, puis la demande des motifs de rejet et le retour d'expérience. Pour les ingénieurs d'affaires, directeurs commerciaux, dirigeants et bid managers qui répondent aux acheteurs publics. Claude lit le DCE et rédige à partir de ce que vous avez réellement fait et pouvez prouver : il n'invente aucune référence, certification, moyen ou prix, et ne calcule jamais votre prix.",
+      "audience": [
+        "ingénieurs d'affaires",
+        "directeurs commerciaux",
+        "dirigeants de PME qui répondent aux acheteurs publics",
+        "bid managers et responsables des offres",
+        "chargés de réponse aux appels d'offres publics"
+      ],
+      "keywords": [
+        "appels-offres",
+        "marches-publics",
+        "commande-publique",
+        "memoire-technique",
+        "dce",
+        "cctp",
+        "ccap",
+        "reponse-appel-offres",
+        "bid-management",
+        "dume",
+        "go-no-go",
+        "bpu-dqe",
+        "francais",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "ao-plan-veille",
+          "path": "packs/fr-appels-offres-pack/skills/ao-plan-veille",
+          "order": 1,
+          "summary": "Mots-clés et codes CPV, sources, filtres, rythme de lecture, fiche d'avis d'une page",
+          "triggers": [
+            "run ao-plan-veille",
+            "veille appels d'offres",
+            "veille marchés publics",
+            "alerte BOAMP",
+            "codes CPV",
+            "trouver des appels d'offres",
+            "mots-clés veille marchés publics",
+            "fiche d'avis de marché"
+          ]
+        },
+        {
+          "name": "ao-go-no-go",
+          "path": "packs/fr-appels-offres-pack/skills/ao-go-no-go",
+          "order": 2,
+          "summary": "Critères éliminatoires, critères pondérés, conditions d'un go, décision écrite",
+          "triggers": [
+            "run ao-go-no-go",
+            "go no go appel d'offres",
+            "faut-il répondre à cet appel d'offres",
+            "grille de qualification appel d'offres",
+            "bid no bid",
+            "décision de répondre à un marché public",
+            "critères go no go"
+          ]
+        },
+        {
+          "name": "ao-retroplanning",
+          "path": "packs/fr-appels-offres-pack/skills/ao-retroplanning",
+          "order": 3,
+          "summary": "Jalons à rebours, date limite des questions, qui fait quoi, réunion de lancement",
+          "triggers": [
+            "run ao-retroplanning",
+            "rétroplanning appel d'offres",
+            "planning de réponse appel d'offres",
+            "date limite des questions",
+            "réunion de lancement appel d'offres",
+            "qui fait quoi réponse marché public",
+            "rétroplanning marché public"
+          ]
+        },
+        {
+          "name": "ao-synthese-dce",
+          "path": "packs/fr-appels-offres-pack/skills/ao-synthese-dce",
+          "order": 4,
+          "summary": "Objet, lots, critères et pondération, pièces, dates, points bloquants, questions",
+          "triggers": [
+            "run ao-synthese-dce",
+            "synthèse DCE",
+            "analyse DCE",
+            "résumer un DCE",
+            "lire un règlement de consultation",
+            "DCE c'est quoi",
+            "analyse appel d'offres",
+            "note de synthèse appel d'offres"
+          ]
+        },
+        {
+          "name": "ao-matrice-conformite",
+          "path": "packs/fr-appels-offres-pack/skills/ao-matrice-conformite",
+          "order": 5,
+          "summary": "Chaque exigence sur une ligne, source, réponse, responsable, statut",
+          "triggers": [
+            "run ao-matrice-conformite",
+            "matrice de conformité appel d'offres",
+            "tableau de conformité CCTP",
+            "liste des exigences DCE",
+            "offre irrégulière",
+            "exigences du CCTP",
+            "check-list exigences appel d'offres"
+          ]
+        },
+        {
+          "name": "ao-vigilance-ccap",
+          "path": "packs/fr-appels-offres-pack/skills/ao-vigilance-ccap",
+          "order": 6,
+          "summary": "Dérogations au CCAG, pénalités, paiement, garanties, questions à poser",
+          "triggers": [
+            "run ao-vigilance-ccap",
+            "analyse CCAP",
+            "lire un CCAP",
+            "dérogations au CCAG",
+            "pénalités de retard marché public",
+            "risques CCAP",
+            "points de vigilance CCAP",
+            "CCAG 2021"
+          ]
+        },
+        {
+          "name": "ao-questions-acheteur",
+          "path": "packs/fr-appels-offres-pack/skills/ao-questions-acheteur",
+          "order": 7,
+          "summary": "Questions neutres, date limite d'envoi, suivi des réponses publiées",
+          "triggers": [
+            "run ao-questions-acheteur",
+            "question acheteur appel d'offres",
+            "demande de renseignements complémentaires",
+            "contradiction CCTP BPU",
+            "poser une question sur un marché public",
+            "date limite des questions",
+            "question profil acheteur"
+          ]
+        },
+        {
+          "name": "ao-groupement-sous-traitance",
+          "path": "packs/fr-appels-offres-pack/skills/ao-groupement-sous-traitance",
+          "order": 8,
+          "summary": "Options comparées, rôle du mandataire, pièces de chaque membre, DC4, questions au juriste",
+          "triggers": [
+            "run ao-groupement-sous-traitance",
+            "groupement ou sous-traitance",
+            "groupement conjoint ou solidaire",
+            "mandataire du groupement",
+            "déclaration de sous-traitance DC4",
+            "répondre en groupement appel d'offres",
+            "il nous manque une compétence pour répondre"
+          ]
+        },
+        {
+          "name": "ao-dume-dc",
+          "path": "packs/fr-appels-offres-pack/skills/ao-dume-dc",
+          "order": 9,
+          "summary": "Formulaire pré-rempli depuis vos vraies données, champs à compléter, contrôle de cohérence",
+          "triggers": [
+            "run ao-dume-dc",
+            "remplir le DUME",
+            "DC1 DC2 marché public",
+            "formulaire DC2 à jour",
+            "lettre de candidature DC1",
+            "DUME en ligne",
+            "dossier de candidature appel d'offres",
+            "DUME groupement"
+          ]
+        },
+        {
+          "name": "ao-pieces-candidature",
+          "path": "packs/fr-appels-offres-pack/skills/ao-pieces-candidature",
+          "order": 10,
+          "summary": "Pièces exigées, validité, pièces de l'attributaire, manques et responsables",
+          "triggers": [
+            "run ao-pieces-candidature",
+            "pièces de candidature marché public",
+            "liste des pièces appel d'offres",
+            "attestation fiscale et sociale marché public",
+            "pièces à fournir par l'attributaire",
+            "dossier de candidature complet",
+            "attestation périmée appel d'offres"
+          ]
+        },
+        {
+          "name": "ao-axes-differenciation",
+          "path": "packs/fr-appels-offres-pack/skills/ao-axes-differenciation",
+          "order": 11,
+          "summary": "Trois axes reliés à un critère, un enjeu et une preuve, phrases d'ouverture",
+          "triggers": [
+            "run ao-axes-differenciation",
+            "axes de différenciation mémoire technique",
+            "se différencier appel d'offres",
+            "pourquoi nous mémoire technique",
+            "valeur ajoutée mémoire technique",
+            "points forts de l'offre",
+            "mémoire technique qui sort du lot"
+          ]
+        },
+        {
+          "name": "ao-plan-memoire",
+          "path": "packs/fr-appels-offres-pack/skills/ao-plan-memoire",
+          "order": 12,
+          "summary": "Plan calé sur les critères, pages par partie, titres-messages, annexes",
+          "triggers": [
+            "run ao-plan-memoire",
+            "plan mémoire technique",
+            "trame mémoire technique",
+            "structure mémoire technique appel d'offres",
+            "cadre de réponse technique",
+            "nombre de pages mémoire technique",
+            "sommaire mémoire technique"
+          ]
+        },
+        {
+          "name": "ao-comprehension-besoin",
+          "path": "packs/fr-appels-offres-pack/skills/ao-comprehension-besoin",
+          "order": 13,
+          "summary": "Contexte sourcé, enjeux, hypothèses marquées, points de vigilance",
+          "triggers": [
+            "run ao-comprehension-besoin",
+            "compréhension du besoin mémoire technique",
+            "rédiger la compréhension du besoin",
+            "contexte et enjeux appel d'offres",
+            "reformulation du besoin",
+            "analyse du besoin mémoire technique"
+          ]
+        },
+        {
+          "name": "ao-methodologie",
+          "path": "packs/fr-appels-offres-pack/skills/ao-methodologie",
+          "order": 14,
+          "summary": "Phases, livrables comptables, gouvernance, risques et parades",
+          "triggers": [
+            "run ao-methodologie",
+            "note méthodologique",
+            "méthodologie mémoire technique",
+            "rédiger la méthodologie appel d'offres",
+            "organisation de la prestation",
+            "gestion des risques mémoire technique",
+            "note méthodologique travaux"
+          ]
+        },
+        {
+          "name": "ao-planning-execution",
+          "path": "packs/fr-appels-offres-pack/skills/ao-planning-execution",
+          "order": 15,
+          "summary": "Tâches, jalons, délais du CCAP, dépendances, Gantt simple",
+          "triggers": [
+            "run ao-planning-execution",
+            "planning d'exécution",
+            "planning prévisionnel mémoire technique",
+            "Gantt mémoire technique",
+            "délais d'exécution appel d'offres",
+            "calendrier d'exécution marché",
+            "planning travaux mémoire technique"
+          ]
+        },
+        {
+          "name": "ao-moyens-humains-techniques",
+          "path": "packs/fr-appels-offres-pack/skills/ao-moyens-humains-techniques",
+          "order": 16,
+          "summary": "Organigramme, rôles et temps, CV adaptés avec accord, matériels réels",
+          "triggers": [
+            "run ao-moyens-humains-techniques",
+            "moyens humains et techniques",
+            "moyens humains mémoire technique",
+            "CV mémoire technique",
+            "organigramme mémoire technique",
+            "moyens matériels appel d'offres",
+            "équipe dédiée au marché"
+          ]
+        },
+        {
+          "name": "ao-fiches-references",
+          "path": "packs/fr-appels-offres-pack/skills/ao-fiches-references",
+          "order": 17,
+          "summary": "Références choisies par ressemblance, paragraphe et version courte, attestation",
+          "triggers": [
+            "run ao-fiches-references",
+            "références similaires appel d'offres",
+            "fiche référence marché public",
+            "rédiger nos références",
+            "trois références similaires",
+            "attestation de bonne exécution",
+            "références mémoire technique",
+            "quelles références citer"
+          ]
+        },
+        {
+          "name": "ao-volet-environnemental",
+          "path": "packs/fr-appels-offres-pack/skills/ao-volet-environnemental",
+          "order": 18,
+          "summary": "Ce que le DCE demande, pratiques réelles, indicateurs suivis, justificatifs",
+          "triggers": [
+            "run ao-volet-environnemental",
+            "critère environnemental marché public",
+            "volet RSE mémoire technique",
+            "clause environnementale appel d'offres",
+            "démarche environnementale appel d'offres",
+            "critère environnemental obligatoire 2026",
+            "partie développement durable mémoire",
+            "clause d'insertion sociale"
+          ]
+        },
+        {
+          "name": "ao-tableau-preuves",
+          "path": "packs/fr-appels-offres-pack/skills/ao-tableau-preuves",
+          "order": 19,
+          "summary": "Chaque affirmation, sa preuve, son statut, qui la valide",
+          "triggers": [
+            "run ao-tableau-preuves",
+            "tableau des preuves",
+            "vérifier les engagements du mémoire technique",
+            "justificatifs mémoire technique",
+            "affirmations sans preuve",
+            "relire le mémoire avant signature",
+            "engagements contractuels mémoire",
+            "traçabilité des engagements"
+          ]
+        },
+        {
+          "name": "ao-lecture-bpu-dqe",
+          "path": "packs/fr-appels-offres-pack/skills/ao-lecture-bpu-dqe",
+          "order": 20,
+          "summary": "Structure du cadre de prix, lignes ambiguës, hypothèses pour le chiffreur",
+          "triggers": [
+            "run ao-lecture-bpu-dqe",
+            "lire le BPU",
+            "analyser le DQE",
+            "bordereau des prix unitaires",
+            "détail quantitatif estimatif",
+            "DPGF appel d'offres",
+            "cadre de prix marché public",
+            "incohérence BPU CCTP"
+          ]
+        },
+        {
+          "name": "ao-coherence-prix-memoire",
+          "path": "packs/fr-appels-offres-pack/skills/ao-coherence-prix-memoire",
+          "order": 21,
+          "summary": "Promis sans être chiffré, chiffré sans être décrit, liste d'écarts",
+          "triggers": [
+            "run ao-coherence-prix-memoire",
+            "cohérence prix mémoire technique",
+            "comparer mémoire et DQE",
+            "vérifier le BPU avec le mémoire",
+            "écarts offre technique offre financière",
+            "contrôle de cohérence de l'offre",
+            "le mémoire promet ce que le prix ne paie pas"
+          ]
+        },
+        {
+          "name": "ao-offre-anormalement-basse",
+          "path": "packs/fr-appels-offres-pack/skills/ao-offre-anormalement-basse",
+          "order": 22,
+          "summary": "Plan de réponse par motif admis, pièces détenues, délai",
+          "triggers": [
+            "run ao-offre-anormalement-basse",
+            "offre anormalement basse",
+            "justifier un prix anormalement bas",
+            "demande de justification de prix acheteur public",
+            "courrier offre anormalement basse",
+            "répondre à une suspicion d'offre anormalement basse",
+            "justification des prix marché public",
+            "OAB marché public"
+          ]
+        },
+        {
+          "name": "ao-relecture-evaluateur",
+          "path": "packs/fr-appels-offres-pack/skills/ao-relecture-evaluateur",
+          "order": 23,
+          "summary": "Note indicative de l'offre par sous-critère, phrases génériques, corrections classées",
+          "triggers": [
+            "run ao-relecture-evaluateur",
+            "relire mémoire technique",
+            "relecture mémoire technique appel d'offre",
+            "relire comme l'acheteur",
+            "grille de notation mémoire technique",
+            "noter mon offre avant dépôt",
+            "mémoire technique trop générique",
+            "vérifier mémoire avant envoi"
+          ]
+        },
+        {
+          "name": "ao-controle-final",
+          "path": "packs/fr-appels-offres-pack/skills/ao-controle-final",
+          "order": 24,
+          "summary": "Pièces du pli, format, nommage, signatures, erreurs éliminatoires",
+          "triggers": [
+            "run ao-controle-final",
+            "contrôle conformité offre",
+            "checklist dépôt appel d'offre",
+            "vérifier pièces offre marché public",
+            "offre irrégulière",
+            "limite de pages mémoire technique",
+            "nommage fichiers appel d'offre",
+            "contrôle avant dépôt"
+          ]
+        },
+        {
+          "name": "ao-depot",
+          "path": "packs/fr-appels-offres-pack/skills/ao-depot",
+          "order": 25,
+          "summary": "Compte, certificat, poids des fichiers, dépôt à J-1, copie de sauvegarde, accusé",
+          "triggers": [
+            "run ao-depot",
+            "dépôt offre marché public",
+            "déposer offre plateforme",
+            "dépôt dématérialisé appel d'offre",
+            "copie de sauvegarde marché public",
+            "signature électronique offre",
+            "accusé de réception dépôt",
+            "offre déposée hors délai"
+          ]
+        },
+        {
+          "name": "ao-reponse-precisions",
+          "path": "packs/fr-appels-offres-pack/skills/ao-reponse-precisions",
+          "order": 26,
+          "summary": "Ce qui est demandé, réponse qui précise sans modifier, pièces jointes",
+          "triggers": [
+            "run ao-reponse-precisions",
+            "demande de précisions acheteur",
+            "réponse demande de précision marché public",
+            "régularisation offre",
+            "régularisation candidature",
+            "courrier réponse acheteur après remise",
+            "pièce manquante demandée par l'acheteur",
+            "répondre sans modifier l'offre"
+          ]
+        },
+        {
+          "name": "ao-audition",
+          "path": "packs/fr-appels-offres-pack/skills/ao-audition",
+          "order": 27,
+          "summary": "Questions probables, réponses tirées du mémoire, qui parle de quoi, limites",
+          "triggers": [
+            "run ao-audition",
+            "préparer audition marché public",
+            "soutenance appel d'offre",
+            "oral appel d'offres",
+            "négociation marché public",
+            "questions acheteur audition",
+            "préparer soutenance offre",
+            "convocation audition"
+          ]
+        },
+        {
+          "name": "ao-motifs-rejet",
+          "path": "packs/fr-appels-offres-pack/skills/ao-motifs-rejet",
+          "order": 28,
+          "summary": "Lecture de la lettre, courrier de demande, délais à surveiller",
+          "triggers": [
+            "run ao-motifs-rejet",
+            "lettre de rejet marché public",
+            "demander motifs de rejet",
+            "courrier demande motifs rejet offre",
+            "candidat évincé",
+            "caractéristiques et avantages de l'offre retenue",
+            "notes offre retenue marché public",
+            "rapport d'analyse des offres"
+          ]
+        },
+        {
+          "name": "ao-retour-experience",
+          "path": "packs/fr-appels-offres-pack/skills/ao-retour-experience",
+          "order": 29,
+          "summary": "Prévu et réel, notes par critère, causes sur le travail, trois changements",
+          "triggers": [
+            "run ao-retour-experience",
+            "retour d'expérience appel d'offres",
+            "débrief appel d'offre perdu",
+            "pourquoi avons-nous perdu le marché",
+            "analyse offre perdue",
+            "RETEX marché public",
+            "bilan réponse appel d'offre",
+            "leçons appel d'offres gagné"
+          ]
+        },
+        {
+          "name": "ao-bibliotheque-contenus",
+          "path": "packs/fr-appels-offres-pack/skills/ao-bibliotheque-contenus",
+          "order": 30,
+          "summary": "Blocs validés et datés, source, règle d'adaptation, blocs à retirer",
+          "triggers": [
+            "run ao-bibliotheque-contenus",
+            "bibliothèque de contenus appel d'offres",
+            "base documentaire mémoire technique",
+            "réutiliser mémoire technique",
+            "éviter copier-coller mémoire technique",
+            "mettre à jour CV appel d'offre",
+            "contenus réutilisables réponse marché",
+            "fiches moyens et références"
+          ]
+        }
+      ]
     }
   ]
 }

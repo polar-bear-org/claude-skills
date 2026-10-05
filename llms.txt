@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-39 packs, 819 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+40 packs, 849 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -52,6 +52,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills (28 skills): 28 Claude skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine. Page: https://meet-polar-bear.com/skills/grad-linkedin-pack. README: [packs/grad-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/README.md)
 - Claude for Marketing Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the junior marketing job well with Claude, then showing it, from first brief to first job. Page: https://meet-polar-bear.com/skills/grad-marketing-pack. README: [packs/grad-marketing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/README.md)
 - Claude Graduate Networking Guide: 30 Claude Skills (30 skills): 30 Claude skills for networking from the people you already know to your first job. Page: https://meet-polar-bear.com/skills/grad-networking-pack. README: [packs/grad-networking-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/README.md)
+- Claude pour les Appels d'Offres : 30 skills Claude (30 skills): 30 Claude skills en français pour répondre aux appels d'offres publics, de la veille au retour d'expérience. Page: https://meet-polar-bear.com/skills/fr-appels-offres-pack. README: [packs/fr-appels-offres-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/README.md)
 
 ## Skills
 
@@ -256,6 +257,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/resources/evidence-and-sources.md): the Claude for LinkedIn Networking for Recent Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/resources/evidence-and-sources.md): the Claude for Marketing Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/resources/evidence-and-sources.md): the Claude Graduate Networking Guide Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/resources/evidence-and-sources.md): the Claude pour les Appels d'Offres Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1077,3 +1079,40 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - gnet-close-the-loop: packs/grad-networking-pack/skills/gnet-close-the-loop/SKILL.md — Points for telling the person who helped what happened, a thank-you, something to share back
 - gnet-networking-log: packs/grad-networking-pack/skills/gnet-networking-log/SKILL.md — A light private log, a weekly review that picks the next run of about 10, archive and delete notes
 - Reference: packs/grad-networking-pack/resources/evidence-and-sources.md
+
+## Claude pour les Appels d'Offres : 30 skills Claude
+
+30 Claude skills en français pour répondre aux appels d'offres publics, de la veille au retour d'expérience.
+
+- Pack: packs/fr-appels-offres-pack/README.md
+- ao-plan-veille: packs/fr-appels-offres-pack/skills/ao-plan-veille/SKILL.md — Mots-clés et codes CPV, sources, filtres, rythme de lecture, fiche d'avis d'une page
+- ao-go-no-go: packs/fr-appels-offres-pack/skills/ao-go-no-go/SKILL.md — Critères éliminatoires, critères pondérés, conditions d'un go, décision écrite
+- ao-retroplanning: packs/fr-appels-offres-pack/skills/ao-retroplanning/SKILL.md — Jalons à rebours, date limite des questions, qui fait quoi, réunion de lancement
+- ao-synthese-dce: packs/fr-appels-offres-pack/skills/ao-synthese-dce/SKILL.md — Objet, lots, critères et pondération, pièces, dates, points bloquants, questions
+- ao-matrice-conformite: packs/fr-appels-offres-pack/skills/ao-matrice-conformite/SKILL.md — Chaque exigence sur une ligne, source, réponse, responsable, statut
+- ao-vigilance-ccap: packs/fr-appels-offres-pack/skills/ao-vigilance-ccap/SKILL.md — Dérogations au CCAG, pénalités, paiement, garanties, questions à poser
+- ao-questions-acheteur: packs/fr-appels-offres-pack/skills/ao-questions-acheteur/SKILL.md — Questions neutres, date limite d'envoi, suivi des réponses publiées
+- ao-groupement-sous-traitance: packs/fr-appels-offres-pack/skills/ao-groupement-sous-traitance/SKILL.md — Options comparées, rôle du mandataire, pièces de chaque membre, DC4, questions au juriste
+- ao-dume-dc: packs/fr-appels-offres-pack/skills/ao-dume-dc/SKILL.md — Formulaire pré-rempli depuis vos vraies données, champs à compléter, contrôle de cohérence
+- ao-pieces-candidature: packs/fr-appels-offres-pack/skills/ao-pieces-candidature/SKILL.md — Pièces exigées, validité, pièces de l'attributaire, manques et responsables
+- ao-axes-differenciation: packs/fr-appels-offres-pack/skills/ao-axes-differenciation/SKILL.md — Trois axes reliés à un critère, un enjeu et une preuve, phrases d'ouverture
+- ao-plan-memoire: packs/fr-appels-offres-pack/skills/ao-plan-memoire/SKILL.md — Plan calé sur les critères, pages par partie, titres-messages, annexes
+- ao-comprehension-besoin: packs/fr-appels-offres-pack/skills/ao-comprehension-besoin/SKILL.md — Contexte sourcé, enjeux, hypothèses marquées, points de vigilance
+- ao-methodologie: packs/fr-appels-offres-pack/skills/ao-methodologie/SKILL.md — Phases, livrables comptables, gouvernance, risques et parades
+- ao-planning-execution: packs/fr-appels-offres-pack/skills/ao-planning-execution/SKILL.md — Tâches, jalons, délais du CCAP, dépendances, Gantt simple
+- ao-moyens-humains-techniques: packs/fr-appels-offres-pack/skills/ao-moyens-humains-techniques/SKILL.md — Organigramme, rôles et temps, CV adaptés avec accord, matériels réels
+- ao-fiches-references: packs/fr-appels-offres-pack/skills/ao-fiches-references/SKILL.md — Références choisies par ressemblance, paragraphe et version courte, attestation
+- ao-volet-environnemental: packs/fr-appels-offres-pack/skills/ao-volet-environnemental/SKILL.md — Ce que le DCE demande, pratiques réelles, indicateurs suivis, justificatifs
+- ao-tableau-preuves: packs/fr-appels-offres-pack/skills/ao-tableau-preuves/SKILL.md — Chaque affirmation, sa preuve, son statut, qui la valide
+- ao-lecture-bpu-dqe: packs/fr-appels-offres-pack/skills/ao-lecture-bpu-dqe/SKILL.md — Structure du cadre de prix, lignes ambiguës, hypothèses pour le chiffreur
+- ao-coherence-prix-memoire: packs/fr-appels-offres-pack/skills/ao-coherence-prix-memoire/SKILL.md — Promis sans être chiffré, chiffré sans être décrit, liste d'écarts
+- ao-offre-anormalement-basse: packs/fr-appels-offres-pack/skills/ao-offre-anormalement-basse/SKILL.md — Plan de réponse par motif admis, pièces détenues, délai
+- ao-relecture-evaluateur: packs/fr-appels-offres-pack/skills/ao-relecture-evaluateur/SKILL.md — Note indicative de l'offre par sous-critère, phrases génériques, corrections classées
+- ao-controle-final: packs/fr-appels-offres-pack/skills/ao-controle-final/SKILL.md — Pièces du pli, format, nommage, signatures, erreurs éliminatoires
+- ao-depot: packs/fr-appels-offres-pack/skills/ao-depot/SKILL.md — Compte, certificat, poids des fichiers, dépôt à J-1, copie de sauvegarde, accusé
+- ao-reponse-precisions: packs/fr-appels-offres-pack/skills/ao-reponse-precisions/SKILL.md — Ce qui est demandé, réponse qui précise sans modifier, pièces jointes
+- ao-audition: packs/fr-appels-offres-pack/skills/ao-audition/SKILL.md — Questions probables, réponses tirées du mémoire, qui parle de quoi, limites
+- ao-motifs-rejet: packs/fr-appels-offres-pack/skills/ao-motifs-rejet/SKILL.md — Lecture de la lettre, courrier de demande, délais à surveiller
+- ao-retour-experience: packs/fr-appels-offres-pack/skills/ao-retour-experience/SKILL.md — Prévu et réel, notes par critère, causes sur le travail, trois changements
+- ao-bibliotheque-contenus: packs/fr-appels-offres-pack/skills/ao-bibliotheque-contenus/SKILL.md — Blocs validés et datés, source, règle d'adaptation, blocs à retirer
+- Reference: packs/fr-appels-offres-pack/resources/evidence-and-sources.md

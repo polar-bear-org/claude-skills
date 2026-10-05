@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "fr-appels-offres-pack",
+  "version": "1.0.0",
+  "description": "30 skills en français pour répondre aux appels d'offres publics, en huit étapes : la veille et la décision go / no-go, la lecture complète du DCE, le dossier de candidature, le mémoire technique, les références, le volet environnemental et les preuves, la cohérence entre le prix et le mémoire, la relecture côté évaluateur et le dépôt, puis la demande des motifs de rejet et le retour d'expérience. Pour les ingénieurs d'affaires, directeurs commerciaux, dirigeants et bid managers qui répondent aux acheteurs publics. Claude lit le DCE et rédige à partir de ce que vous avez réellement fait et pouvez prouver : il n'invente aucune référence, certification, moyen ou prix, et ne calcule jamais votre prix.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/fr-appels-offres-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "appels-offres",
+    "marches-publics",
+    "commande-publique",
+    "memoire-technique",
+    "dce",
+    "cctp",
+    "ccap",
+    "reponse-appel-offres",
+    "bid-management",
+    "dume",
+    "go-no-go",
+    "bpu-dqe",
+    "francais",
+    "ai"
+  ]
+}
