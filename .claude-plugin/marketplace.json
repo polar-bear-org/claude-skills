@@ -1204,6 +1204,36 @@
         "consulting",
         "founders"
       ]
+    },
+    {
+      "name": "design-leaders-pack",
+      "source": "./packs/design-leaders-pack",
+      "description": "32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career, in seven steps: framing the problem with whoever holds the decision, explaining the decision so it stops being re-argued, preparing the room before the review and after it, running critique against a written bar, proving impact with metrics agreed up front, leading the team, and growing yourself. For senior, staff and principal designers who lead without reports, design leads, design managers and heads of design. Claude drafts the rationale, the deck and the write-up from your real work and real data: it never invents a metric, a user quote or a stakeholder's view, and it never rates a designer or a candidate.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/design-leaders-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "design-leadership",
+        "design-management",
+        "head-of-design",
+        "design-critique",
+        "stakeholder-management",
+        "design-rationale",
+        "design-strategy",
+        "ux-maturity",
+        "heart-metrics",
+        "ux-debt",
+        "staff-designer",
+        "promotion-case",
+        "design-hiring",
+        "design-reviews"
+      ]
     }
   ]
 }

@@ -12759,6 +12759,431 @@
           ]
         }
       ]
+    },
+    {
+      "name": "design-leaders-pack",
+      "title": "Claude for Design Leaders: 32 Claude Skills",
+      "path": "packs/design-leaders-pack",
+      "homepage": "https://meet-polar-bear.com/skills/design-leaders-pack",
+      "version": "1.0.0",
+      "description": "32 Claude Skills to frame, explain, defend and prove design work, and to grow a team and a career, in seven steps: framing the problem with whoever holds the decision, explaining the decision so it stops being re-argued, preparing the room before the review and after it, running critique against a written bar, proving impact with metrics agreed up front, leading the team, and growing yourself. For senior, staff and principal designers who lead without reports, design leads, design managers and heads of design. Claude drafts the rationale, the deck and the write-up from your real work and real data: it never invents a metric, a user quote or a stakeholder's view, and it never rates a designer or a candidate.",
+      "audience": [
+        "senior designers",
+        "staff designers",
+        "principal designers",
+        "design leads",
+        "design managers",
+        "heads of design"
+      ],
+      "keywords": [
+        "design leadership",
+        "design management",
+        "head of design",
+        "design critique",
+        "stakeholder management",
+        "design rationale",
+        "design decision log",
+        "design strategy",
+        "UX maturity",
+        "HEART metrics",
+        "UX debt",
+        "staff designer path",
+        "promotion case",
+        "design hiring loop",
+        "design review"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "dlead-stakeholder-map",
+          "path": "packs/design-leaders-pack/skills/dlead-stakeholder-map",
+          "order": 1,
+          "summary": "Builds a Stakeholder Map with a power and interest grid, each stakeholder's goal, constraint and decision rights with facts kept apart from guesses, a two-way dependency table and an engagement plan ending in the first conversation to have.",
+          "triggers": [
+            "run dlead-stakeholder-map",
+            "stakeholder map",
+            "power interest grid",
+            "who actually decides on this design"
+          ]
+        },
+        {
+          "name": "dlead-stakeholder-interview-guide",
+          "path": "packs/design-leaders-pack/skills/dlead-stakeholder-interview-guide",
+          "order": 2,
+          "summary": "Writes a Stakeholder Interview Guide with interview goals, a semi-structured guide on success, priorities, history and process, probes and a note template, then once real notes are pasted a summary in each person's own words and a gaps table.",
+          "triggers": [
+            "run dlead-stakeholder-interview-guide",
+            "stakeholder interview questions",
+            "what does the VP mean by make it simpler",
+            "kickoff interviews with stakeholders"
+          ]
+        },
+        {
+          "name": "dlead-problem-framing-brief",
+          "path": "packs/design-leaders-pack/skills/dlead-problem-framing-brief",
+          "order": 3,
+          "summary": "Writes a Problem Framing Brief with the problem statement and the outcome sought, evidence on hand and missing, constraints and what is not being solved, and \"we believe\" hypotheses sorted by risk and value, ending in the question the decision owner answers.",
+          "triggers": [
+            "run dlead-problem-framing-brief",
+            "problem framing",
+            "problem statement for this feature",
+            "what problem does this solve"
+          ]
+        },
+        {
+          "name": "dlead-design-strategy-one-pager",
+          "path": "packs/design-leaders-pack/skills/dlead-design-strategy-one-pager",
+          "order": 4,
+          "summary": "Writes a Design Strategy One-Pager with a diagnosis of the real challenge, a guiding policy and three to five coherent actions, what design stops doing, how you will know it is working, and an owner and review date.",
+          "triggers": [
+            "run dlead-design-strategy-one-pager",
+            "design strategy",
+            "design team strategy one pager",
+            "what is design's plan this year"
+          ]
+        },
+        {
+          "name": "dlead-design-principles",
+          "path": "packs/design-leaders-pack/skills/dlead-design-principles",
+          "order": 5,
+          "summary": "Writes Design Principles with four to seven product stances, the trade-off each one settles, a \"this, not that\" example from your own product, a conflict check between principles and where each will be used.",
+          "triggers": [
+            "run dlead-design-principles",
+            "write design principles for the team",
+            "every review is a taste argument",
+            "we have no shared criteria"
+          ]
+        },
+        {
+          "name": "dlead-design-options-tradeoffs",
+          "path": "packs/design-leaders-pack/skills/dlead-design-options-tradeoffs",
+          "order": 6,
+          "summary": "Builds a Design Options Trade-off Table with two to four genuinely different options, criteria taken from your principles and brief, consequences per option in words with no made-up score, what each option gives up and the evidence or gap behind each cell.",
+          "triggers": [
+            "run dlead-design-options-tradeoffs",
+            "show the options not just one design",
+            "stakeholders think there is only one way",
+            "compare design directions"
+          ]
+        },
+        {
+          "name": "dlead-daci-decision",
+          "path": "packs/design-leaders-pack/skills/dlead-daci-decision",
+          "order": 7,
+          "summary": "Drafts a DACI Decision Sheet with the decision statement and due date, the Driver, one Approver, Contributors and Informed, the input needed from whom by when, and the message that shares the outcome.",
+          "triggers": [
+            "run dlead-daci-decision",
+            "who signs off the design",
+            "nobody agreed who decides",
+            "responsible without authority"
+          ]
+        },
+        {
+          "name": "dlead-design-rationale-doc",
+          "path": "packs/design-leaders-pack/skills/dlead-design-rationale-doc",
+          "order": 8,
+          "summary": "Writes a Design Rationale Doc with the decision in one line, the problem and outcome, options considered and why each lost, principles applied, evidence linked or a visible gap, trade-offs accepted, risks from a pre-mortem, the signal that would reopen it and the decision owner.",
+          "triggers": [
+            "run dlead-design-rationale-doc",
+            "write up why we chose this design",
+            "I keep re-explaining the design",
+            "design rationale"
+          ]
+        },
+        {
+          "name": "dlead-design-decision-log",
+          "path": "packs/design-leaders-pack/skills/dlead-design-decision-log",
+          "order": 9,
+          "summary": "Keeps a Design Decision Log with one dated, numbered record per significant design decision (title, context, decision, status, consequences), a link to the rationale doc, a revisit trigger and an index, kept as a running file.",
+          "triggers": [
+            "run dlead-design-decision-log",
+            "why did we decide this",
+            "nobody remembers why",
+            "design decision record"
+          ]
+        },
+        {
+          "name": "dlead-pre-wire-plan",
+          "path": "packs/design-leaders-pack/skills/dlead-pre-wire-plan",
+          "order": 10,
+          "summary": "Builds a Pre-Wire Plan with who to see one to one before a design review, what each person needs to hear and might object to, the question to ask each, an objection log fed into the deck and the fallback if someone says no.",
+          "triggers": [
+            "run dlead-pre-wire-plan",
+            "pre-wire the review",
+            "who should I talk to before the meeting",
+            "no surprises in the review"
+          ]
+        },
+        {
+          "name": "dlead-design-review-deck",
+          "path": "packs/design-leaders-pack/skills/dlead-design-review-deck",
+          "order": 11,
+          "summary": "Builds a Design Review Deck that asks for the decision on slide one, with context and outcome, options and the recommendation, real evidence only, risks and open questions, the feedback in scope today and next steps with owners, in an executive and a working version.",
+          "triggers": [
+            "run dlead-design-review-deck",
+            "design review deck",
+            "present design to leadership",
+            "stakeholder review presentation"
+          ]
+        },
+        {
+          "name": "dlead-stakeholder-feedback-log",
+          "path": "packs/design-leaders-pack/skills/dlead-stakeholder-feedback-log",
+          "order": 12,
+          "summary": "Builds a Stakeholder Feedback Log with every comment from a design review in one table tied to the objective it touches, merged duplicates, conflicts routed to the Approver, accept, decline or park with a reason, and a reply draft per stakeholder.",
+          "triggers": [
+            "run dlead-stakeholder-feedback-log",
+            "conflicting stakeholder feedback",
+            "sort the review comments",
+            "three stakeholders want opposite things"
+          ]
+        },
+        {
+          "name": "dlead-design-pushback-brief",
+          "path": "packs/design-leaders-pack/skills/dlead-design-pushback-brief",
+          "order": 13,
+          "summary": "Builds a Design Pushback Brief with the request in its own words, the user and business risk backed by real evidence, two alternatives that meet the goal, what you will and will not do, an escalation route and how the disagreement is recorded if the call goes the other way.",
+          "triggers": [
+            "run dlead-design-pushback-brief",
+            "push back on a stakeholder",
+            "asked to ship a dark pattern",
+            "say no to a design request"
+          ]
+        },
+        {
+          "name": "dlead-design-quality-bar",
+          "path": "packs/design-leaders-pack/skills/dlead-design-quality-bar",
+          "order": 14,
+          "summary": "Writes a Design Quality Bar with yes or no criteria by stage (explore, refine, ready to build) drawn from usability heuristics, WCAG 2.2, system use, content and the team's principles, plus the must-pass list that defines good enough to ship.",
+          "triggers": [
+            "run dlead-design-quality-bar",
+            "raise the bar",
+            "write a team quality bar",
+            "design quality criteria"
+          ]
+        },
+        {
+          "name": "dlead-critique-ritual",
+          "path": "packs/design-leaders-pack/skills/dlead-critique-ritual",
+          "order": 15,
+          "summary": "Designs a Design Critique Ritual with two aims, who comes and who does not, critique split from review and status, a format (round robin, quota or silent first), role sentences, rules with consequences, the reply after and named failure modes.",
+          "triggers": [
+            "run dlead-critique-ritual",
+            "fix the design crit",
+            "design critiques are not working",
+            "set up design critique"
+          ]
+        },
+        {
+          "name": "dlead-critique-session-brief",
+          "path": "packs/design-leaders-pack/skills/dlead-critique-session-brief",
+          "order": 16,
+          "summary": "Prepares a Critique Session Brief with the presenter's numbered objectives, the stage of the work, the one question for the room, what is out of scope, a walkthrough cut to the timebox, the framing sentence to read out and the facilitator's prompts.",
+          "triggers": [
+            "run dlead-critique-session-brief",
+            "prep my crit",
+            "I present at critique on Thursday",
+            "what should I ask the room"
+          ]
+        },
+        {
+          "name": "dlead-critique-notes-to-actions",
+          "path": "packs/design-leaders-pack/skills/dlead-critique-notes-to-actions",
+          "order": 17,
+          "summary": "Turns raw crit notes into Critique Actions and Reply, with each note sorted as tied to an objective, preference, out of scope or open question, the presenter's change, will not change or test call per note, actions with owners and dates, and the three-line reply to the room.",
+          "triggers": [
+            "run dlead-critique-notes-to-actions",
+            "sort my crit notes",
+            "write up the crit",
+            "too many critique comments"
+          ]
+        },
+        {
+          "name": "dlead-heart-metrics-plan",
+          "path": "packs/design-leaders-pack/skills/dlead-heart-metrics-plan",
+          "order": 18,
+          "summary": "Builds a HEART Metrics Plan with goals, signals and metrics for the HEART dimensions that matter, today's baseline or a gap flag, the data owner per metric and what PM and design agree to watch.",
+          "triggers": [
+            "run dlead-heart-metrics-plan",
+            "HEART framework",
+            "goals signals metrics",
+            "what does design success look like"
+          ]
+        },
+        {
+          "name": "dlead-design-impact-writeup",
+          "path": "packs/design-leaders-pack/skills/dlead-design-impact-writeup",
+          "order": 19,
+          "summary": "Writes a Design Impact Write-Up with the problem, what design changed, before and after from your real data only, contribution kept apart from attribution, confidence and what else moved, and the lessons.",
+          "triggers": [
+            "run dlead-design-impact-writeup",
+            "what did design deliver",
+            "design impact report",
+            "quarterly design update"
+          ]
+        },
+        {
+          "name": "dlead-ux-debt-register",
+          "path": "packs/design-leaders-pack/skills/dlead-ux-debt-register",
+          "order": 20,
+          "summary": "Builds a UX Debt Register with each issue's user impact, journey stage, frequency, evidence source and fix effort, a value against effort plot, the short list for next quarter and the issues knowingly left.",
+          "triggers": [
+            "run dlead-ux-debt-register",
+            "UX debt",
+            "design debt backlog",
+            "prioritise UX fixes"
+          ]
+        },
+        {
+          "name": "dlead-design-investment-case",
+          "path": "packs/design-leaders-pack/skills/dlead-design-investment-case",
+          "order": 21,
+          "summary": "Builds a Design Investment Case with the concrete ask, the cost of not doing it per week from your own figures with a range, cost of delay divided by duration against the other asks, what the team stops to make room, risks and the decision owner.",
+          "triggers": [
+            "run dlead-design-investment-case",
+            "cost of delay",
+            "CD3",
+            "business case for design"
+          ]
+        },
+        {
+          "name": "dlead-ux-maturity-check",
+          "path": "packs/design-leaders-pack/skills/dlead-ux-maturity-check",
+          "order": 22,
+          "summary": "Builds a UX Maturity Assessment that places the design practice on six levels across strategy, culture, process and outcomes, with the evidence for each factor and the one move to the next level.",
+          "triggers": [
+            "run dlead-ux-maturity-check",
+            "UX maturity assessment",
+            "how mature is design here",
+            "NN/g maturity levels"
+          ]
+        },
+        {
+          "name": "dlead-design-operating-rhythm",
+          "path": "packs/design-leaders-pack/skills/dlead-design-operating-rhythm",
+          "order": 23,
+          "summary": "Builds a Design Team Operating Rhythm with every recurring meeting listed by purpose, owner, cadence and output, a keep, change or replace call for each, and the weekly and monthly rhythm with protected focus time on one page.",
+          "triggers": [
+            "run dlead-design-operating-rhythm",
+            "too many meetings",
+            "design team rituals",
+            "team cadence"
+          ]
+        },
+        {
+          "name": "dlead-delegation-board",
+          "path": "packs/design-leaders-pack/skills/dlead-delegation-board",
+          "order": 24,
+          "summary": "Builds a Delegation Board listing the team's decision areas, the delegation level agreed for each from tell to delegate, who holds it, the observable trigger for stepping in and a review date.",
+          "triggers": [
+            "run dlead-delegation-board",
+            "delegation board",
+            "delegation poker",
+            "I keep redesigning my team's work"
+          ]
+        },
+        {
+          "name": "dlead-design-hiring-loop",
+          "path": "packs/design-leaders-pack/skills/dlead-design-hiring-loop",
+          "order": 25,
+          "summary": "Builds a Design Hiring Loop with competencies from the role's real work, loop stages, portfolio review prompts, a timeboxed exercise brief, the same questions for every candidate, a blank anchored form each interviewer fills alone and debrief rules.",
+          "triggers": [
+            "run dlead-design-hiring-loop",
+            "design interview process",
+            "structured interview for designers",
+            "portfolio review questions"
+          ]
+        },
+        {
+          "name": "dlead-designer-30-60-90",
+          "path": "packs/design-leaders-pack/skills/dlead-designer-30-60-90",
+          "order": 26,
+          "summary": "Builds a Designer 30-60-90 Day Plan with before day one, the first week, 30, 60 and 90 day goals, a buddy, the first critique, the first real piece of work, the first handoff and check-in questions.",
+          "triggers": [
+            "run dlead-designer-30-60-90",
+            "30 60 90 plan for a new designer",
+            "designer onboarding plan",
+            "a designer starts in two weeks"
+          ]
+        },
+        {
+          "name": "dlead-sbi-feedback-prep",
+          "path": "packs/design-leaders-pack/skills/dlead-sbi-feedback-prep",
+          "order": 27,
+          "summary": "Builds an SBI Feedback Prep Sheet from the lead's own notes, with the situation, the observable behaviour and the impact, labels turned back into observations, the intent question to ask and what the lead wants to happen next.",
+          "triggers": [
+            "run dlead-sbi-feedback-prep",
+            "SBI feedback",
+            "situation behaviour impact",
+            "how do I give hard feedback to a designer"
+          ]
+        },
+        {
+          "name": "dlead-new-lead-90-day-plan",
+          "path": "packs/design-leaders-pack/skills/dlead-new-lead-90-day-plan",
+          "order": 28,
+          "summary": "Builds a New Design Lead 90-Day Plan with weeks 1 to 4 to listen, weeks 5 to 8 for one visible win and weeks 9 to 12 to set the rhythm, plus what you stop doing as an IC and the questions to ask your manager.",
+          "triggers": [
+            "run dlead-new-lead-90-day-plan",
+            "first 90 days as design lead",
+            "I just became a design manager",
+            "new head of design plan"
+          ]
+        },
+        {
+          "name": "dlead-staff-path-map",
+          "path": "packs/design-leaders-pack/skills/dlead-staff-path-map",
+          "order": 29,
+          "summary": "Builds a Staff Designer Path Map with the IC and manager paths side by side, four staff archetypes adapted here for design, which one fits your work, the gap to your own ladder and the conversation to have with your manager.",
+          "triggers": [
+            "run dlead-staff-path-map",
+            "what does staff designer mean",
+            "IC or manager path",
+            "I don't want to manage"
+          ]
+        },
+        {
+          "name": "dlead-brag-document",
+          "path": "packs/design-leaders-pack/skills/dlead-brag-document",
+          "order": 30,
+          "summary": "Keeps a Brag Document, a dated running log of projects and their effect, decisions led, collaboration and mentoring, documentation and system work, team building and learning, each entry linked to its evidence.",
+          "triggers": [
+            "run dlead-brag-document",
+            "log a win",
+            "add this to my brag doc",
+            "I can't remember what I did this year"
+          ]
+        },
+        {
+          "name": "dlead-promotion-case",
+          "path": "packs/design-leaders-pack/skills/dlead-promotion-case",
+          "order": 31,
+          "summary": "Builds a Promotion Case with your ladder's criteria for the next level, evidence from your brag document mapped to each, scope, impact and influence stories, gaps and how you are closing them, who can speak to the work and a short version for your manager.",
+          "triggers": [
+            "run dlead-promotion-case",
+            "promotion packet",
+            "staff designer promotion",
+            "promo case for lead designer"
+          ]
+        },
+        {
+          "name": "dlead-leadership-case-study",
+          "path": "packs/design-leaders-pack/skills/dlead-leadership-case-study",
+          "order": 32,
+          "summary": "Writes a Leadership Case Study with the situation, your role and who decided what, the key decisions and trade-offs, how you brought people along, outcomes from real data with placeholders where numbers are missing and what you would do differently.",
+          "triggers": [
+            "run dlead-leadership-case-study",
+            "design leadership portfolio",
+            "case study for a design lead",
+            "my portfolio doesn't show my work"
+          ]
+        }
+      ]
     }
   ]
 }

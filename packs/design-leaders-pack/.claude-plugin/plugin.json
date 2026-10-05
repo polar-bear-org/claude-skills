@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "design-leaders-pack",
+  "version": "1.0.0",
+  "description": "Claude for Design Leaders: 32 Claude Skills to frame, explain, defend and prove design work, and to grow a team and a career. Map the stakeholders and decision rights, interview them, write the problem framing brief and design's strategy on one page. Settle taste arguments with design principles, real options and trade-offs, one DACI approver, a rationale doc and a dated decision log. Pre-wire the review, run it off a deck that asks for a decision, sort conflicting notes in a feedback log, and push back on a harmful request with evidence. Write the quality bar, the critique ritual, the session brief, and turn crit notes into actions. Agree HEART metrics up front, write the impact write-up from real data, keep a UX debt register and build the investment case. Then lead: UX maturity, the team's operating rhythm, a delegation board, a structured hiring loop, a designer's 30-60-90, SBI feedback prep. Then grow: your first 90 days as a lead, the staff path map, a brag document, the promotion case and a leadership case study. For senior, staff and principal designers, design leads, design managers and heads of design. Claude drafts from your real work and real data: it never invents a metric, a user quote or a stakeholder's view, and it never rates a designer or a candidate.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/design-leaders-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "design-leadership",
+    "design-management",
+    "head-of-design",
+    "design-critique",
+    "stakeholder-management",
+    "design-rationale",
+    "design-strategy",
+    "ux-maturity",
+    "heart-metrics",
+    "ux-debt",
+    "staff-designer",
+    "promotion-case",
+    "design-hiring",
+    "design-reviews"
+  ]
+}

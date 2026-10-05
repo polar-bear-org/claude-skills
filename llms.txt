@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-42 packs, 907 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+43 packs, 939 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -55,6 +55,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude pour les Appels d'Offres : 30 skills Claude (30 skills): 30 Claude skills en français pour répondre aux appels d'offres publics, de la veille au retour d'expérience. Page: https://meet-polar-bear.com/skills/fr-appels-offres-pack. README: [packs/fr-appels-offres-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/README.md)
 - Pricing Under AI Pressure: 29 Claude Skills (29 skills): 29 Claude skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter. Page: https://meet-polar-bear.com/skills/ai-pricing-pack. README: [packs/ai-pricing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/README.md)
 - Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills (29 skills): 29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations. Page: https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack. README: [packs/authentic-linkedin-presence-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/README.md)
+- Claude for Design Leaders: 32 Claude Skills (32 skills): 32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career. Page: https://meet-polar-bear.com/skills/design-leaders-pack. README: [packs/design-leaders-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/README.md)
 
 ## Skills
 
@@ -262,6 +263,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/resources/evidence-and-sources.md): the Claude pour les Appels d'Offres Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/resources/evidence-and-sources.md): the Pricing Under AI Pressure Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md): the Claude Playbook for Authentic LinkedIn Presence Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/resources/evidence-and-sources.md): the Claude for Design Leaders Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1192,3 +1194,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - flink-conversations-log: packs/authentic-linkedin-presence-pack/skills/flink-conversations-log/SKILL.md — Each conversation started, where it came from, the next step and date
 - flink-monthly-review: packs/authentic-linkedin-presence-pack/skills/flink-monthly-review/SKILL.md — What started conversations, what stayed silent, stop, start and continue, one change
 - Reference: packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md
+
+## Claude for Design Leaders: 32 Claude Skills
+
+32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career.
+
+- Pack: packs/design-leaders-pack/README.md
+- dlead-stakeholder-map: packs/design-leaders-pack/skills/dlead-stakeholder-map/SKILL.md — Power and interest grid, goals, constraints and decision rights, facts apart from guesses, engagement plan, first conversation
+- dlead-stakeholder-interview-guide: packs/design-leaders-pack/skills/dlead-stakeholder-interview-guide/SKILL.md — Interview goals, semi-structured guide, probes, note template, summary in each person's own words, gaps to verify
+- dlead-problem-framing-brief: packs/design-leaders-pack/skills/dlead-problem-framing-brief/SKILL.md — Problem statement, outcome, evidence on hand and missing, constraints, out of scope, "we believe" hypothesis
+- dlead-design-strategy-one-pager: packs/design-leaders-pack/skills/dlead-design-strategy-one-pager/SKILL.md — Diagnosis, guiding approach, three to five coherent actions, what we stop, how we will know, owner
+- dlead-design-principles: packs/design-leaders-pack/skills/dlead-design-principles/SKILL.md — Four to seven principles that take a stand, the trade-off each settles, "this, not that" examples, conflict check
+- dlead-design-options-tradeoffs: packs/design-leaders-pack/skills/dlead-design-options-tradeoffs/SKILL.md — Two to four real options, criteria from the brief, consequences in words, what each gives up, evidence or gap
+- dlead-daci-decision: packs/design-leaders-pack/skills/dlead-daci-decision/SKILL.md — Decision statement, Driver, one Approver, Contributors, Informed, due date, how the outcome is shared
+- dlead-design-rationale-doc: packs/design-leaders-pack/skills/dlead-design-rationale-doc/SKILL.md — The decision, options and why not, principles applied, evidence or a visible gap, trade-offs, risks, owner
+- dlead-design-decision-log: packs/design-leaders-pack/skills/dlead-design-decision-log/SKILL.md — Dated records with context, decision, status and consequences, revisit triggers, a running file
+- dlead-pre-wire-plan: packs/design-leaders-pack/skills/dlead-pre-wire-plan/SKILL.md — Who to see one to one, what each needs and might object to, objections answered in the deck, what changes on a no
+- dlead-design-review-deck: packs/design-leaders-pack/skills/dlead-design-review-deck/SKILL.md — Decision asked on slide one, options and recommendation, real evidence, risks, feedback in scope, next steps
+- dlead-stakeholder-feedback-log: packs/design-leaders-pack/skills/dlead-stakeholder-feedback-log/SKILL.md — Every comment in one table, duplicates merged, conflicts sent to the approver, accept, decline or park, the reply
+- dlead-design-pushback-brief: packs/design-leaders-pack/skills/dlead-design-pushback-brief/SKILL.md — The request, user and business risk with evidence, two alternatives, escalation route, how dissent is recorded
+- dlead-design-quality-bar: packs/design-leaders-pack/skills/dlead-design-quality-bar/SKILL.md — Review criteria by stage from usability heuristics and WCAG 2.2, what good enough to ship means
+- dlead-critique-ritual: packs/design-leaders-pack/skills/dlead-critique-ritual/SKILL.md — Purpose, who comes, critique split from review, format, roles, rules with consequences, failure modes
+- dlead-critique-session-brief: packs/design-leaders-pack/skills/dlead-critique-session-brief/SKILL.md — Objectives, stage, the one question, out of scope, timebox, prompts that turn reactions into questions
+- dlead-critique-notes-to-actions: packs/design-leaders-pack/skills/dlead-critique-notes-to-actions/SKILL.md — Notes sorted by objective, preference, out of scope or question, what changes and why, the reply to the room
+- dlead-heart-metrics-plan: packs/design-leaders-pack/skills/dlead-heart-metrics-plan/SKILL.md — Goals, signals and metrics per HEART dimension, baseline or gap flag, data owner, what PM and design watch
+- dlead-design-impact-writeup: packs/design-leaders-pack/skills/dlead-design-impact-writeup/SKILL.md — Problem, what design changed, before and after from real data, contribution not attribution, what we learned
+- dlead-ux-debt-register: packs/design-leaders-pack/skills/dlead-ux-debt-register/SKILL.md — Each issue with impact, journey stage, frequency, evidence and effort, value against effort plot, short list
+- dlead-design-investment-case: packs/design-leaders-pack/skills/dlead-design-investment-case/SKILL.md — The ask, cost of delay from your own figures, cost of delay divided by duration, what stops, decision owner
+- dlead-ux-maturity-check: packs/design-leaders-pack/skills/dlead-ux-maturity-check/SKILL.md — Six levels across strategy, culture, process and outcomes, the evidence for each, the one move to the next level
+- dlead-design-operating-rhythm: packs/design-leaders-pack/skills/dlead-design-operating-rhythm/SKILL.md — Every recurring meeting with purpose and output, keep, change or replace, the week and month on one page
+- dlead-delegation-board: packs/design-leaders-pack/skills/dlead-delegation-board/SKILL.md — Decision areas, the delegation level agreed for each from tell to delegate, when you step in, review date
+- dlead-design-hiring-loop: packs/design-leaders-pack/skills/dlead-design-hiring-loop/SKILL.md — Competencies, stages, portfolio prompts, exercise brief, same questions, a blank form each interviewer fills alone
+- dlead-designer-30-60-90: packs/design-leaders-pack/skills/dlead-designer-30-60-90/SKILL.md — Before day one, first week, 30, 60 and 90 day goals, buddy, first critique, first real work, check-in questions
+- dlead-sbi-feedback-prep: packs/design-leaders-pack/skills/dlead-sbi-feedback-prep/SKILL.md — Situation, behaviour and impact from your notes, labels turned into observations, the intent question, next step
+- dlead-new-lead-90-day-plan: packs/design-leaders-pack/skills/dlead-new-lead-90-day-plan/SKILL.md — Weeks 1 to 4 listen, 5 to 8 one visible win, 9 to 12 set the rhythm, what you stop doing as an IC
+- dlead-staff-path-map: packs/design-leaders-pack/skills/dlead-staff-path-map/SKILL.md — IC and manager paths side by side, four staff archetypes adapted to design, the gap to your ladder
+- dlead-brag-document: packs/design-leaders-pack/skills/dlead-brag-document/SKILL.md — Running log of projects and effect, decisions led, mentoring, system work, learning, each entry dated with evidence
+- dlead-promotion-case: packs/design-leaders-pack/skills/dlead-promotion-case/SKILL.md — Your ladder's criteria, evidence mapped to each, scope, impact and influence stories, gaps, who can speak to it
+- dlead-leadership-case-study: packs/design-leaders-pack/skills/dlead-leadership-case-study/SKILL.md — Situation, your role, decisions and trade-offs, how you brought people along, outcomes from real data
+- Reference: packs/design-leaders-pack/resources/evidence-and-sources.md
