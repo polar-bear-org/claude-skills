@@ -13184,6 +13184,438 @@
           ]
         }
       ]
+    },
+    {
+      "name": "finding-clients-pack",
+      "title": "Claude Guide for Finding Clients: 32 Claude Skills",
+      "path": "packs/finding-clients-pack",
+      "homepage": "https://meet-polar-bear.com/skills/finding-clients-pack",
+      "version": "1.0.0",
+      "description": "Claude Guide for Finding Clients: 32 Claude Skills to win clients, from your warm network to the signed proposal. Keep the pipeline full while you deliver with a 90-day plan, a weekly selling hour, a pipeline review and a win/loss review, go back to past clients, key accounts, referrals and referral partners, work your network with a voice guide, a warm network map, reconnect messages, introduction requests and an event plan, sharpen your ideal client profile, positioning, productized offer and AI use statement, write your proof as case studies and a credentials deck, open new accounts on a real public trigger, qualify with MEDDICC and run discovery, then write the proposal, price the options, build the deck, plan the follow-up and answer the objection. For founders and owners who sell their own expertise, independent consultants, fractional executives and partners who sell and deliver. Claude researches, prepares and drafts from your real work and real clients: you choose who to talk to, put it in your own words and send it yourself.",
+      "audience": [
+        "founders who sell their own expertise",
+        "business owners",
+        "independent consultants",
+        "fractional executives",
+        "partners who sell and deliver",
+        "boutique agency leaders"
+      ],
+      "keywords": [
+        "business development",
+        "finding clients",
+        "consulting sales",
+        "warm network",
+        "referrals",
+        "referral partners",
+        "warm introductions",
+        "ideal client profile",
+        "positioning statement",
+        "productized service",
+        "case study",
+        "credentials deck",
+        "target account list",
+        "trigger outreach",
+        "MEDDICC",
+        "discovery call",
+        "SPIN questions",
+        "bid no bid",
+        "consulting proposal",
+        "pricing options",
+        "proposal deck",
+        "objection handling"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "win-business-development-plan",
+          "path": "packs/finding-clients-pack/skills/win-business-development-plan",
+          "order": 1,
+          "summary": "Builds a 90-day Business Development Plan from your own numbers, with one goal, a warm-first channel mix, 2 or 3 weekly actions you control and a stop list.",
+          "triggers": [
+            "run win-business-development-plan",
+            "business development plan",
+            "feast or famine",
+            "where will the next client come from"
+          ]
+        },
+        {
+          "name": "win-weekly-bd-hour",
+          "path": "packs/finding-clients-pack/skills/win-weekly-bd-hour",
+          "order": 2,
+          "summary": "Runs a fixed Weekly Business Development Hour, listing follow-ups due, warm signals from your inbox, 3 people to reconnect with, one piece of proof to share, the one conversation to book and a log line.",
+          "triggers": [
+            "run win-weekly-bd-hour",
+            "weekly business development hour",
+            "selling stops when I am busy",
+            "who do I follow up with"
+          ]
+        },
+        {
+          "name": "win-pipeline-review",
+          "path": "packs/finding-clients-pack/skills/win-pipeline-review",
+          "order": 3,
+          "summary": "Reviews every open deal against stages defined by what the buyer did, giving each a last buyer action and a dated next step, naming stale deals, the gap to your 90-day goal and three actions for this week.",
+          "triggers": [
+            "run win-pipeline-review",
+            "pipeline review",
+            "which deals are really moving",
+            "my pipeline looks full but nothing closes"
+          ]
+        },
+        {
+          "name": "win-win-loss-review",
+          "path": "packs/finding-clients-pack/skills/win-win-loss-review",
+          "order": 4,
+          "summary": "Writes a Win/Loss Review for deals you won or lost, with expected versus actual per deal, what to keep and change, questions to ask the client with their agreement, and patterns across recent deals.",
+          "triggers": [
+            "run win-win-loss-review",
+            "win loss review",
+            "why did I lose that pitch",
+            "we went another way"
+          ]
+        },
+        {
+          "name": "win-past-client-list",
+          "path": "packs/finding-clients-pack/skills/win-past-client-list",
+          "order": 5,
+          "summary": "Builds a Past Client Reconnect List from your own records, with last contact and last work together, what changed since from linked public sources, a useful reason to write to each, and a short run of 5 to 10 names you pick.",
+          "triggers": [
+            "run win-past-client-list",
+            "reconnect with past clients",
+            "who have I lost touch with",
+            "former clients who moved jobs"
+          ]
+        },
+        {
+          "name": "win-key-account-plan",
+          "path": "packs/finding-clients-pack/skills/win-key-account-plan",
+          "order": 6,
+          "summary": "Writes a Key Account Plan for one client you rely on, with their goals this year in their own words, who takes part in buying and how by role, relationship gaps, further work that fits their goals, a check-in rhythm and the next 90 days.",
+          "triggers": [
+            "run win-key-account-plan",
+            "key account plan",
+            "I depend on one client",
+            "who else should I know at this client"
+          ]
+        },
+        {
+          "name": "win-referral-request",
+          "path": "packs/finding-clients-pack/skills/win-referral-request",
+          "order": 7,
+          "summary": "Prepares a Referral Request to a client who has just seen value from your work, naming who to ask and after which moment, the specific introduction you want, talking points for your own words, an easy way to say no, and the thank-you and loop back.",
+          "triggers": [
+            "run win-referral-request",
+            "ask for a referral",
+            "asking for referrals feels needy",
+            "get introductions from happy clients"
+          ]
+        },
+        {
+          "name": "win-referral-partner-plan",
+          "path": "packs/finding-clients-pack/skills/win-referral-partner-plan",
+          "order": 8,
+          "summary": "Builds a Referral Partner Plan with complementary firms whose clients need you, what you send them first, the introduction protocol you both follow, a quarterly check-in and log, and referral fee questions marked for a qualified adviser.",
+          "triggers": [
+            "run win-referral-partner-plan",
+            "referral partners",
+            "my referrals stop when projects stop",
+            "who could send me clients"
+          ]
+        },
+        {
+          "name": "win-voice-guide",
+          "path": "packs/finding-clients-pack/skills/win-voice-guide",
+          "order": 9,
+          "summary": "Builds a Writing Voice Guide from 10 to 20 of your own sent emails and posts, with your openings, sentence length and the words you use and never use, an AI-tell checklist, and one real message shown before and after.",
+          "triggers": [
+            "run win-voice-guide",
+            "make it sound like me",
+            "my drafts sound like AI",
+            "check this for AI tells"
+          ]
+        },
+        {
+          "name": "win-warm-network-map",
+          "path": "packs/finding-clients-pack/skills/win-warm-network-map",
+          "order": 10,
+          "summary": "Maps your warm network against a written brief from your own LinkedIn Connections.csv, with closeness tiers you set, fit to the brief judged by you, at most 3 names per organisation and a short run of about 10 people you choose.",
+          "triggers": [
+            "run win-warm-network-map",
+            "who should I talk to this week",
+            "map my network",
+            "go through my LinkedIn connections"
+          ]
+        },
+        {
+          "name": "win-reconnect-message",
+          "path": "packs/finding-clients-pack/skills/win-reconnect-message",
+          "order": 11,
+          "summary": "Prepares a Reconnect Message to someone who already knows you, with a reason to write you choose, 2 or 3 talking points each with a source, your own draft checked for grammar only, and a follow-up date.",
+          "triggers": [
+            "run win-reconnect-message",
+            "reconnect with an old contact",
+            "how do I get back in touch",
+            "reach out without asking for work"
+          ]
+        },
+        {
+          "name": "win-warm-intro-request",
+          "path": "packs/finding-clients-pack/skills/win-warm-intro-request",
+          "order": 12,
+          "summary": "Prepares a Warm Introduction Request through someone you know, with the ask to the connector, a forwardable blurb they can send unchanged, the double opt-in check, the thank-you and the close-the-loop note.",
+          "triggers": [
+            "run win-warm-intro-request",
+            "ask for an introduction",
+            "can you introduce me to",
+            "double opt-in intro"
+          ]
+        },
+        {
+          "name": "win-event-networking-plan",
+          "path": "packs/finding-clients-pack/skills/win-event-networking-plan",
+          "order": 13,
+          "summary": "Builds an Event Networking Plan with events chosen against your brief, a few people to look for from public speaker and attendee lists, one useful thing to bring to each conversation, follow-up notes written by you within days, and a contact log.",
+          "triggers": [
+            "run win-event-networking-plan",
+            "which events should I go to",
+            "prepare for a networking event",
+            "I collect cards and nothing happens"
+          ]
+        },
+        {
+          "name": "win-ideal-client-profile",
+          "path": "packs/finding-clients-pack/skills/win-ideal-client-profile",
+          "order": 14,
+          "summary": "Builds an Ideal Client Profile from your best and worst past engagements, naming the situation and trigger that makes clients need you, the job they hire you for, who decides and the red flags to walk away from.",
+          "triggers": [
+            "run win-ideal-client-profile",
+            "who is my ideal client",
+            "I say yes to everyone",
+            "which clients should I turn down"
+          ]
+        },
+        {
+          "name": "win-positioning-statement",
+          "path": "packs/finding-clients-pack/skills/win-positioning-statement",
+          "order": 15,
+          "summary": "Writes a Positioning Statement from the five components of positioning, covering the competitive alternatives including doing it themselves with AI, your differentiated capabilities with proof, the value they make possible, who cares most, the category frame, and one line a contact can repeat.",
+          "triggers": [
+            "run win-positioning-statement",
+            "nobody can explain what I do",
+            "write my positioning",
+            "why me and not AI"
+          ]
+        },
+        {
+          "name": "win-productized-offer",
+          "path": "packs/finding-clients-pack/skills/win-productized-offer",
+          "order": 16,
+          "summary": "Packages your expertise into a Productized Service Offer with the outcome, fixed scope, timeline, what the client does, exclusions, a price worked from your own numbers and a small paid first step.",
+          "triggers": [
+            "run win-productized-offer",
+            "productize my service",
+            "stop writing custom quotes",
+            "clients compare my hours with AI"
+          ]
+        },
+        {
+          "name": "win-ai-use-statement",
+          "path": "packs/finding-clients-pack/skills/win-ai-use-statement",
+          "order": 17,
+          "summary": "Writes an AI Use Statement that maps how you use AI in the work and where a person decides, what clients pay you for that AI does not do, how client data is handled, and one line for proposals and your site.",
+          "triggers": [
+            "run win-ai-use-statement",
+            "do I tell clients I use AI",
+            "a client asked if I use AI",
+            "AI disclosure for my proposals"
+          ]
+        },
+        {
+          "name": "win-case-study-interview",
+          "path": "packs/finding-clients-pack/skills/win-case-study-interview",
+          "order": 18,
+          "summary": "Runs a Case Study Interview with the person who ran the work, one question at a time, and writes the Case Study Source File with the before, what was done, results with base and period, a client quote with permission and a named defender for every number.",
+          "triggers": [
+            "run win-case-study-interview",
+            "interview me about the project",
+            "write up our best work",
+            "start a case study"
+          ]
+        },
+        {
+          "name": "win-case-study-one-pager",
+          "path": "packs/finding-clients-pack/skills/win-case-study-one-pager",
+          "order": 19,
+          "summary": "Writes a Case Study One-Pager from your source file, with the change in the title, before, what was done, results with base and period, the client's quote and a step for the reader, as a file in your colours.",
+          "triggers": [
+            "run win-case-study-one-pager",
+            "make a one-pager for this case",
+            "have you done this before",
+            "put this case on one page"
+          ]
+        },
+        {
+          "name": "win-credentials-deck",
+          "path": "packs/finding-clients-pack/skills/win-credentials-deck",
+          "order": 20,
+          "summary": "Builds a Credentials Deck of 6 to 10 slides on your template, with who it is for, the problems you solve, 2 or 3 case slides matched to this prospect, how you work, the team and a next step.",
+          "triggers": [
+            "run win-credentials-deck",
+            "credentials deck",
+            "who we are deck",
+            "intro deck before the call"
+          ]
+        },
+        {
+          "name": "win-target-account-list",
+          "path": "packs/finding-clients-pack/skills/win-target-account-list",
+          "order": 21,
+          "summary": "Builds a short Target Account List of organisations that fit your ideal client profile, with the evidence for and against each, the trigger you would watch for, the warm path in, and the ones to drop.",
+          "triggers": [
+            "run win-target-account-list",
+            "build a target account list",
+            "new names without buying a list",
+            "which organisations fit my ideal client"
+          ]
+        },
+        {
+          "name": "win-account-research-brief",
+          "path": "packs/finding-clients-pack/skills/win-account-research-brief",
+          "order": 22,
+          "summary": "Writes an Account Research Brief on one organisation with sourced facts, recent triggers, likely problems as hypotheses to test, who you know there, and unknowns stated as unknown.",
+          "triggers": [
+            "run win-account-research-brief",
+            "research this account",
+            "prep me for this meeting",
+            "I have twenty minutes to prepare"
+          ]
+        },
+        {
+          "name": "win-trigger-outreach-email",
+          "path": "packs/finding-clients-pack/skills/win-trigger-outreach-email",
+          "order": 23,
+          "summary": "Prepares one Trigger Outreach Email to one person on one real public trigger, with why you and why now in your voice, a small easy ask, a voice check, and one follow-up at most, which you write and send yourself.",
+          "triggers": [
+            "run win-trigger-outreach-email",
+            "cold email without spam",
+            "write to someone who does not know me",
+            "outreach on a trigger"
+          ]
+        },
+        {
+          "name": "win-deal-qualification",
+          "path": "packs/finding-clients-pack/skills/win-deal-qualification",
+          "order": 24,
+          "summary": "Builds a Deal Qualification Checklist for one opportunity, with the seven MEDDICC elements each marked known, assumed or unknown, the questions still to ask, and the evidence for a go or walk away that you decide.",
+          "triggers": [
+            "run win-deal-qualification",
+            "qualify this deal",
+            "is this prospect real",
+            "MEDDICC this opportunity"
+          ]
+        },
+        {
+          "name": "win-discovery-call-guide",
+          "path": "packs/finding-clients-pack/skills/win-discovery-call-guide",
+          "order": 25,
+          "summary": "Writes a Discovery Call Guide for one prospect, with an agenda to agree at the start, situation, problem, implication and need-payoff questions written for them, room for the cost of doing nothing in their numbers, who else decides and the next step to ask for.",
+          "triggers": [
+            "run win-discovery-call-guide",
+            "prep my discovery call",
+            "SPIN questions for this prospect",
+            "what should I ask on the call"
+          ]
+        },
+        {
+          "name": "win-discovery-call-recap",
+          "path": "packs/finding-clients-pack/skills/win-discovery-call-recap",
+          "order": 26,
+          "summary": "Writes a Discovery Call Recap from your notes or transcript, with the problem and its cost in the client's words, what they want to be different, the decision process, open questions and the agreed next step, as a short email you edit and send.",
+          "triggers": [
+            "run win-discovery-call-recap",
+            "recap my discovery call",
+            "write up the call",
+            "follow-up email after the call"
+          ]
+        },
+        {
+          "name": "win-bid-no-bid",
+          "path": "packs/finding-clients-pack/skills/win-bid-no-bid",
+          "order": 27,
+          "summary": "Builds a Bid/No-Bid Decision for one request, with pass or fail gates, the three questions is it real, can we win and is it worth it, the cost of writing it in your hours, and a go or no-go you decide with the reason written down.",
+          "triggers": [
+            "run win-bid-no-bid",
+            "should I answer this RFP",
+            "bid or no bid",
+            "is this tender worth it"
+          ]
+        },
+        {
+          "name": "win-consulting-proposal",
+          "path": "packs/finding-clients-pack/skills/win-consulting-proposal",
+          "order": 28,
+          "summary": "Writes a 2 to 5 page consulting proposal that opens in Situation, Complication, Question, with objectives in the client's words, the problem as a diagnosis, an approach by phase, one relevant experience paragraph, options and a dated next step.",
+          "triggers": [
+            "run win-consulting-proposal",
+            "write the proposal",
+            "turn my discovery notes into a proposal",
+            "my proposals never get answered"
+          ]
+        },
+        {
+          "name": "win-pricing-options",
+          "path": "packs/finding-clients-pack/skills/win-pricing-options",
+          "order": 29,
+          "summary": "Builds one to three real pricing options for a proposal that differ in scope and outcome, each price worked from your own numbers, the assumptions each rests on and the value to the client in their numbers, with no decoy and no unasked discount.",
+          "triggers": [
+            "run win-pricing-options",
+            "price this proposal",
+            "should I offer three tiers",
+            "I always discount"
+          ]
+        },
+        {
+          "name": "win-proposal-deck",
+          "path": "packs/finding-clients-pack/skills/win-proposal-deck",
+          "order": 30,
+          "summary": "Turns a proposal into a deck the buyer can take to their boss, with a ghost deck of action titles, the executive summary first, slides built on your template or as a fast deck, and a read from the client's chair before it goes.",
+          "triggers": [
+            "run win-proposal-deck",
+            "turn my proposal into slides",
+            "proposal deck",
+            "the buyer wants a deck for their boss"
+          ]
+        },
+        {
+          "name": "win-proposal-follow-up",
+          "path": "packs/finding-clients-pack/skills/win-proposal-follow-up",
+          "order": 31,
+          "summary": "Plans how one proposal gets an answer, with the walk-through call booked before you send, a shared next-step list with dates both sides agree, two follow-ups that each add something useful, a close-the-loop note that makes no easy to say, and a log.",
+          "triggers": [
+            "run win-proposal-follow-up",
+            "the client went silent",
+            "follow up on my proposal",
+            "how do I chase without being pushy"
+          ]
+        },
+        {
+          "name": "win-objection-response",
+          "path": "packs/finding-clients-pack/skills/win-objection-response",
+          "order": 32,
+          "summary": "Prepares your answer to one live client objection with LAER, the objection in their exact words, an honest acknowledgement, exploring questions to find the concern under it, a response built only from your real proof, and what you will not say.",
+          "triggers": [
+            "run win-objection-response",
+            "the client says AI could do this",
+            "they said it is too expensive",
+            "why are you charging so much"
+          ]
+        }
+      ]
     }
   ]
 }

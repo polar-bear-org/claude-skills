@@ -1234,6 +1234,36 @@
         "design-hiring",
         "design-reviews"
       ]
+    },
+    {
+      "name": "finding-clients-pack",
+      "source": "./packs/finding-clients-pack",
+      "description": "Claude Guide for Finding Clients: 32 Claude Skills to win clients, from your warm network to the signed proposal. Keep the pipeline full while you deliver with a 90-day plan, a weekly selling hour, a pipeline review and a win/loss review, go back to past clients, key accounts, referrals and referral partners, work your network with a voice guide, a warm network map, reconnect messages, introduction requests and an event plan, sharpen your ideal client profile, positioning, productized offer and AI use statement, write your proof as case studies and a credentials deck, open new accounts on a real public trigger, qualify with MEDDICC and run discovery, then write the proposal, price the options, build the deck, plan the follow-up and answer the objection. For founders and owners who sell their own expertise, independent consultants, fractional executives and partners who sell and deliver. Claude researches, prepares and drafts from your real work and real clients: you choose who to talk to, put it in your own words and send it yourself.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/finding-clients-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "business-development",
+        "finding-clients",
+        "consulting-sales",
+        "warm-network",
+        "referrals",
+        "warm-introductions",
+        "positioning",
+        "productized-service",
+        "ideal-client-profile",
+        "case-study",
+        "credentials-deck",
+        "meddicc",
+        "discovery-call",
+        "consulting-proposal"
+      ]
     }
   ]
 }

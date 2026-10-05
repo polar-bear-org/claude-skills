@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-43 packs, 939 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+44 packs, 971 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -56,6 +56,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Pricing Under AI Pressure: 29 Claude Skills (29 skills): 29 Claude skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter. Page: https://meet-polar-bear.com/skills/ai-pricing-pack. README: [packs/ai-pricing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/README.md)
 - Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills (29 skills): 29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations. Page: https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack. README: [packs/authentic-linkedin-presence-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/README.md)
 - Claude for Design Leaders: 32 Claude Skills (32 skills): 32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career. Page: https://meet-polar-bear.com/skills/design-leaders-pack. README: [packs/design-leaders-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/README.md)
+- Claude Guide for Finding Clients: 32 Claude Skills (32 skills): 32 Claude skills to win clients, from your warm network to the signed proposal. Page: https://meet-polar-bear.com/skills/finding-clients-pack. README: [packs/finding-clients-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/README.md)
 
 ## Skills
 
@@ -264,6 +265,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/resources/evidence-and-sources.md): the Pricing Under AI Pressure Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md): the Claude Playbook for Authentic LinkedIn Presence Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/resources/evidence-and-sources.md): the Claude for Design Leaders Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/resources/evidence-and-sources.md): the Claude Guide for Finding Clients Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1233,3 +1235,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - dlead-promotion-case: packs/design-leaders-pack/skills/dlead-promotion-case/SKILL.md — Your ladder's criteria, evidence mapped to each, scope, impact and influence stories, gaps, who can speak to it
 - dlead-leadership-case-study: packs/design-leaders-pack/skills/dlead-leadership-case-study/SKILL.md — Situation, your role, decisions and trade-offs, how you brought people along, outcomes from real data
 - Reference: packs/design-leaders-pack/resources/evidence-and-sources.md
+
+## Claude Guide for Finding Clients: 32 Claude Skills
+
+32 Claude skills to win clients, from your warm network to the signed proposal: keeping the pipeline full while you deliver, going back to past clients and referrers, working your network and warm introductions, sharpening your positioning and offer, writing down your proof, opening new accounts on a real trigger, qualifying and running discovery, then the proposal, the price and a clear yes or no.
+
+- Pack: packs/finding-clients-pack/README.md
+- win-business-development-plan: packs/finding-clients-pack/skills/win-business-development-plan/SKILL.md — 90-day goal from your numbers, warm-first channel mix, weekly actions you control, what you stop
+- win-weekly-bd-hour: packs/finding-clients-pack/skills/win-weekly-bd-hour/SKILL.md — Fixed agenda, follow-ups due, warm signals, people to reconnect with, one conversation to book
+- win-pipeline-review: packs/finding-clients-pack/skills/win-pipeline-review/SKILL.md — Stages defined by buyer actions, dated next steps, stale deals named, gap to goal
+- win-win-loss-review: packs/finding-clients-pack/skills/win-win-loss-review/SKILL.md — Expected versus actual per deal, what to keep and change, questions for the client
+- win-past-client-list: packs/finding-clients-pack/skills/win-past-client-list/SKILL.md — Past clients and moved contacts, what changed, a reason to write, a short run you pick
+- win-key-account-plan: packs/finding-clients-pack/skills/win-key-account-plan/SKILL.md — Client goals in their words, buying roles, relationship gaps, further work that fits, 90 days
+- win-referral-request: packs/finding-clients-pack/skills/win-referral-request/SKILL.md — Who to ask and when, the specific introduction, your words, an easy no, the thank-you
+- win-referral-partner-plan: packs/finding-clients-pack/skills/win-referral-partner-plan/SKILL.md — Complementary firms, what you give first, an introduction protocol, a quarterly check-in
+- win-voice-guide: packs/finding-clients-pack/skills/win-voice-guide/SKILL.md — Your voice from your own messages, an AI-tell checklist, a before and after
+- win-warm-network-map: packs/finding-clients-pack/skills/win-warm-network-map/SKILL.md — A brief, your own connections export, closeness you set, fit you judge, a run of about 10
+- win-reconnect-message: packs/finding-clients-pack/skills/win-reconnect-message/SKILL.md — A useful reason to write, sourced talking points, your draft checked for grammar only
+- win-warm-intro-request: packs/finding-clients-pack/skills/win-warm-intro-request/SKILL.md — The ask, a forwardable blurb, the double opt-in check, the close-the-loop note
+- win-event-networking-plan: packs/finding-clients-pack/skills/win-event-networking-plan/SKILL.md — Events chosen against your brief, one useful thing per conversation, follow-ups, a log
+- win-ideal-client-profile: packs/finding-clients-pack/skills/win-ideal-client-profile/SKILL.md — Situation and trigger, the job they hire you for, who decides, red flags
+- win-positioning-statement: packs/finding-clients-pack/skills/win-positioning-statement/SKILL.md — Alternatives including AI, your capabilities, value, who cares most, category, one line
+- win-productized-offer: packs/finding-clients-pack/skills/win-productized-offer/SKILL.md — Outcome, fixed scope, timeline, client tasks, exclusions, price from your numbers
+- win-ai-use-statement: packs/finding-clients-pack/skills/win-ai-use-statement/SKILL.md — How you use AI, where a person decides, data handling, one line for proposals
+- win-case-study-interview: packs/finding-clients-pack/skills/win-case-study-interview/SKILL.md — One question at a time, a source file, results with base and period, a quote with permission
+- win-case-study-one-pager: packs/finding-clients-pack/skills/win-case-study-one-pager/SKILL.md — The change in the title, before, what was done, results, quote, as a file
+- win-credentials-deck: packs/finding-clients-pack/skills/win-credentials-deck/SKILL.md — 6 to 10 slides, cases matched to this prospect, how you work, next step
+- win-target-account-list: packs/finding-clients-pack/skills/win-target-account-list/SKILL.md — Organisations that fit your brief, the trigger to watch, the warm path, the ones to drop
+- win-account-research-brief: packs/finding-clients-pack/skills/win-account-research-brief/SKILL.md — Sourced facts, recent triggers, problems as hypotheses, unknowns stated
+- win-trigger-outreach-email: packs/finding-clients-pack/skills/win-trigger-outreach-email/SKILL.md — One person, one public trigger, why you and why now, a small ask, one follow-up
+- win-deal-qualification: packs/finding-clients-pack/skills/win-deal-qualification/SKILL.md — Each element known, assumed or unknown, questions to ask, go or walk away
+- win-discovery-call-guide: packs/finding-clients-pack/skills/win-discovery-call-guide/SKILL.md — Agreed agenda, questions for this prospect, the cost of doing nothing, the next step
+- win-discovery-call-recap: packs/finding-clients-pack/skills/win-discovery-call-recap/SKILL.md — Problem and cost in their words, decision process, open questions, next step
+- win-bid-no-bid: packs/finding-clients-pack/skills/win-bid-no-bid/SKILL.md — Is it real, can we win, is it worth it, gates, cost of writing, your go or no-go
+- win-consulting-proposal: packs/finding-clients-pack/skills/win-consulting-proposal/SKILL.md — Their situation, the diagnosis, approach by phase, relevant experience, options, next step
+- win-pricing-options: packs/finding-clients-pack/skills/win-pricing-options/SKILL.md — One to three real options, prices from your numbers, the value in their numbers
+- win-proposal-deck: packs/finding-clients-pack/skills/win-proposal-deck/SKILL.md — Ghost deck with action titles, summary first, a read from the client's chair
+- win-proposal-follow-up: packs/finding-clients-pack/skills/win-proposal-follow-up/SKILL.md — Walk-through booked, shared next steps, two useful follow-ups, an easy no
+- win-objection-response: packs/finding-clients-pack/skills/win-objection-response/SKILL.md — The concern under the objection, an exploring question, a reply from real proof
+- Reference: packs/finding-clients-pack/resources/evidence-and-sources.md
