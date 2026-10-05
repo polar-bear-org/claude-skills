@@ -16061,6 +16061,572 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ux-research-pack",
+      "title": "UX Research with Claude: 32 Claude Skills",
+      "path": "packs/ux-research-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ux-research-pack",
+      "version": "1.0.0",
+      "description": "32 Claude skills for planning, recruiting, running, synthesising and sharing user research, from the research plan to the repository, in seven stages: plan the study with what is already known, the assumptions that carry the risk, the research plan, and a check on any \"synthetic user\" answer offered instead of real people; recruit and consent real participants with a recruitment brief, a screener, an informed consent form, a data handling plan, an incentive plan and a participant database; write the guides for interviews, moderated and unmoderated usability tests, benchmarks, surveys and diary studies; run and capture sessions through contextual inquiry, accessible sessions, AI feature studies and same-day debriefs; synthesise with every quote kept through thematic analysis, usability findings, survey analysis, insight statements and an evidence trace audit; turn findings into a journey map, jobs to be done statements and an opportunity solution tree; then share and reuse them in a readout, an action tracker, repository entries and a tagging taxonomy. For designers who run their own research, UX researchers, and design leads who defend research time. Claude plans, organises and synthesises what real people said and did, with every insight traced to a quote or an observed session; it never invents a participant, a quote, a finding or a metric, and it never stands in for a user.",
+      "audience": [
+        "designers who run their own research",
+        "UX researchers",
+        "design leads",
+        "product teams without a researcher",
+        "research ops leads"
+      ],
+      "keywords": [
+        "ux research",
+        "user research",
+        "usability testing",
+        "user interviews",
+        "interview guide",
+        "research plan",
+        "assumption mapping",
+        "desk research",
+        "synthetic users",
+        "participant recruitment",
+        "participant screener",
+        "informed consent",
+        "research data handling",
+        "participant incentives",
+        "participant database",
+        "usability test plan",
+        "unmoderated testing",
+        "usability benchmark",
+        "SUS score",
+        "survey design",
+        "survey analysis",
+        "diary study",
+        "contextual inquiry",
+        "accessible research",
+        "AI feature research",
+        "interview debrief",
+        "thematic analysis",
+        "insight statements",
+        "evidence trace audit",
+        "journey map",
+        "jobs to be done",
+        "opportunity solution tree",
+        "research readout",
+        "research repository",
+        "research taxonomy",
+        "research operations"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "uxr-desk-research",
+          "path": "packs/ux-research-pack/skills/uxr-desk-research",
+          "order": 1,
+          "summary": "What is already known with source and date, what is stale, open questions, what not to research again",
+          "triggers": [
+            "run uxr-desk-research",
+            "what do we already know",
+            "summarise past research",
+            "read last year's research",
+            "pull together prior findings",
+            "has anyone studied this before",
+            "desk research before the study",
+            "secondary research summary"
+          ]
+        },
+        {
+          "name": "uxr-assumption-map",
+          "path": "packs/ux-research-pack/skills/uxr-assumption-map",
+          "order": 2,
+          "summary": "Assumptions placed by importance and evidence, risky unknowns to research first, what a skipped study puts at risk",
+          "triggers": [
+            "run uxr-assumption-map",
+            "assumption mapping",
+            "what are we assuming",
+            "riskiest assumptions",
+            "research got cut",
+            "which bet are we making without evidence",
+            "make the case for research",
+            "importance vs evidence"
+          ]
+        },
+        {
+          "name": "uxr-research-plan",
+          "path": "packs/ux-research-pack/skills/uxr-research-plan",
+          "order": 3,
+          "summary": "Decision informed, research questions, method and why, sample, timeline, roles, risks, what it will not answer",
+          "triggers": [
+            "run uxr-research-plan",
+            "write a research plan",
+            "user research plan",
+            "plan a round of research",
+            "which research method should I use",
+            "two weeks and a stakeholder question",
+            "research brief before recruiting",
+            "research questions vs interview questions"
+          ]
+        },
+        {
+          "name": "uxr-synthetic-user-check",
+          "path": "packs/ux-research-pack/skills/uxr-synthetic-user-check",
+          "order": 4,
+          "summary": "Each synthetic claim matched to real evidence, what stays a hypothesis, what is rejected, the real study that would answer it",
+          "triggers": [
+            "synthetic user",
+            "run uxr-synthetic-user-check",
+            "just ask the AI personas",
+            "synthetic users",
+            "AI persona interviews",
+            "can we use synthetic research",
+            "check these AI user answers",
+            "someone put synthetic quotes in the deck",
+            "synthetic participants"
+          ]
+        },
+        {
+          "name": "uxr-recruitment-brief",
+          "path": "packs/ux-research-pack/skills/uxr-recruitment-brief",
+          "order": 5,
+          "summary": "Who to hear from in behaviour terms, who wastes a slot, quotas, channels, owner, booking tracker, no-show buffer, fraud checks",
+          "triggers": [
+            "run uxr-recruitment-brief",
+            "recruitment brief",
+            "who do we recruit",
+            "nobody owns recruiting",
+            "book participants for next week",
+            "brief the recruitment agency",
+            "no-shows keep killing the sessions",
+            "find real users to test with"
+          ]
+        },
+        {
+          "name": "uxr-participant-screener",
+          "path": "packs/ux-research-pack/skills/uxr-participant-screener",
+          "order": 6,
+          "summary": "Behaviour and recency questions, hidden qualifying answers, decoys, disqualifiers, quotas, answer key for fit to the brief",
+          "triggers": [
+            "run uxr-participant-screener",
+            "write a screener",
+            "screener questions",
+            "the screener reads like a quiz",
+            "participants were not who they said",
+            "fake participants",
+            "screen for the right users",
+            "screener answer key"
+          ]
+        },
+        {
+          "name": "uxr-consent-form",
+          "path": "packs/ux-research-pack/skills/uxr-consent-form",
+          "order": 7,
+          "summary": "Plain-language information sheet, consent items, remote and verbal script, accessible version",
+          "triggers": [
+            "run uxr-consent-form",
+            "consent form for user research",
+            "participant information sheet",
+            "AI notetaker consent",
+            "recording consent",
+            "verbal consent script",
+            "update the consent form",
+            "easy read consent"
+          ]
+        },
+        {
+          "name": "uxr-data-handling-plan",
+          "path": "packs/ux-research-pack/skills/uxr-data-handling-plan",
+          "order": 8,
+          "summary": "Data inventory, minimum to collect, storage, access, anonymise steps, special category flags, deletion dates",
+          "triggers": [
+            "run uxr-data-handling-plan",
+            "research data plan",
+            "where do recordings go",
+            "when do we delete interview recordings",
+            "GDPR for user research",
+            "anonymise transcripts before AI",
+            "who can see the recordings",
+            "research data retention"
+          ]
+        },
+        {
+          "name": "uxr-incentive-plan",
+          "path": "packs/ux-research-pack/skills/uxr-incentive-plan",
+          "order": 9,
+          "summary": "Incentive per study type with amounts left blank, payment method and timing, no-show rules, questions for finance",
+          "triggers": [
+            "run uxr-incentive-plan",
+            "participant incentives",
+            "how do we pay research participants",
+            "thank-you for user interviews",
+            "are research incentives taxable",
+            "no-show payment rule",
+            "incentive wording for the invite"
+          ]
+        },
+        {
+          "name": "uxr-participant-database",
+          "path": "packs/ux-research-pack/skills/uxr-participant-database",
+          "order": 10,
+          "summary": "Minimum fields, consent to recontact, contact limits and rest periods, opt-out and deletion, access, contact log",
+          "triggers": [
+            "run uxr-participant-database",
+            "participant panel",
+            "research participant database",
+            "we keep recruiting the same customers",
+            "recontact consent",
+            "research panel rules",
+            "who owns the participant spreadsheet"
+          ]
+        },
+        {
+          "name": "uxr-interview-guide",
+          "path": "packs/ux-research-pack/skills/uxr-interview-guide",
+          "order": 11,
+          "summary": "Research questions mapped to interview questions, story openers, probes, time budget, leading-question check",
+          "triggers": [
+            "run uxr-interview-guide",
+            "write an interview guide",
+            "what should I ask in user interviews",
+            "prep my discovery interviews",
+            "my questions start with would you use",
+            "interview questions for customers",
+            "story-based interview",
+            "fix my leading questions"
+          ]
+        },
+        {
+          "name": "uxr-usability-test-plan",
+          "path": "packs/ux-research-pack/skills/uxr-usability-test-plan",
+          "order": 12,
+          "summary": "Test goals, task scenarios with success set in advance, think-aloud, moderator script, observer grid, pilot",
+          "triggers": [
+            "run uxr-usability-test-plan",
+            "write a usability test script",
+            "usability testing plan",
+            "prep the prototype sessions",
+            "task scenarios for a usability test",
+            "think aloud script",
+            "how many users do I need",
+            "my script asks do you like it"
+          ]
+        },
+        {
+          "name": "uxr-unmoderated-test-plan",
+          "path": "packs/ux-research-pack/skills/uxr-unmoderated-test-plan",
+          "order": 13,
+          "summary": "Self-explaining tasks, success per task, in-tool screener, attention checks, device pilot, what not to test this way",
+          "triggers": [
+            "run uxr-unmoderated-test-plan",
+            "unmoderated usability test",
+            "remote unmoderated test tasks",
+            "write tasks for a testing tool",
+            "I need sessions by Friday",
+            "nobody can moderate",
+            "unmoderated test script"
+          ]
+        },
+        {
+          "name": "uxr-usability-benchmark",
+          "path": "packs/ux-research-pack/skills/uxr-usability-benchmark",
+          "order": 14,
+          "summary": "Same tasks each round, task success, time, SEQ and SUS defined before data, baseline, re-run date",
+          "triggers": [
+            "run uxr-usability-benchmark",
+            "UX benchmark",
+            "SUS score",
+            "did the redesign make it better",
+            "before and after usability metrics",
+            "task success rate",
+            "Single Ease Question",
+            "how to score SUS"
+          ]
+        },
+        {
+          "name": "uxr-survey-design",
+          "path": "packs/ux-research-pack/skills/uxr-survey-design",
+          "order": 15,
+          "summary": "Decision served, one construct per question, neutral wording, scales, order, pilot, what it can and cannot say",
+          "triggers": [
+            "run uxr-survey-design",
+            "write a user survey",
+            "UX survey questions",
+            "quick survey for users",
+            "check my survey for bias",
+            "double-barrelled questions",
+            "agree disagree scale",
+            "survey questionnaire design"
+          ]
+        },
+        {
+          "name": "uxr-diary-study",
+          "path": "packs/ux-research-pack/skills/uxr-diary-study",
+          "order": 16,
+          "summary": "Behaviour over time, entry prompts, cadence, length, reminders, drop-off plan, onboarding call, coding plan",
+          "triggers": [
+            "run uxr-diary-study",
+            "set up a diary study",
+            "diary study prompts",
+            "see behaviour over weeks",
+            "longitudinal user research",
+            "how people use it across a week",
+            "diary study drop-off"
+          ]
+        },
+        {
+          "name": "uxr-contextual-inquiry",
+          "path": "packs/ux-research-pack/skills/uxr-contextual-inquiry",
+          "order": 17,
+          "summary": "Where and when to observe, apprentice stance, what to watch, note grid, site permissions, debrief per visit",
+          "triggers": [
+            "run uxr-contextual-inquiry",
+            "plan a field visit",
+            "shadow users at work",
+            "contextual inquiry plan",
+            "watch them do the work",
+            "what users say vs what they do",
+            "site visit plan",
+            "observation note grid"
+          ]
+        },
+        {
+          "name": "uxr-accessible-sessions",
+          "path": "packs/ux-research-pack/skills/uxr-accessible-sessions",
+          "order": 18,
+          "summary": "Recruiting disabled and older participants, access needs in advance, their own assistive technology, accessible consent, adjustments",
+          "triggers": [
+            "run uxr-accessible-sessions",
+            "include disabled participants",
+            "accessible research sessions",
+            "screen reader users in testing",
+            "access needs for participants",
+            "research with older users",
+            "no disabled person in the sessions"
+          ]
+        },
+        {
+          "name": "uxr-ai-feature-study",
+          "path": "packs/ux-research-pack/skills/uxr-ai-feature-study",
+          "order": 19,
+          "summary": "Current mental model, expectations, tasks on real inputs, wrong-answer scenarios, trust and correction checks, Wizard of Oz option",
+          "triggers": [
+            "run uxr-ai-feature-study",
+            "test the AI feature with users",
+            "what happens when the AI is wrong",
+            "Wizard of Oz test",
+            "user trust in AI output",
+            "mental model of the AI feature",
+            "AI feature research plan"
+          ]
+        },
+        {
+          "name": "uxr-interview-debrief",
+          "path": "packs/ux-research-pack/skills/uxr-interview-debrief",
+          "order": 20,
+          "summary": "Same-day notes per session, verbatim quotes with timestamps, observation vs interpretation, surprises, next questions",
+          "triggers": [
+            "run uxr-interview-debrief",
+            "debrief this interview",
+            "structure my session notes",
+            "here is today's transcript",
+            "I just got off a user call",
+            "notes are a wall of text",
+            "same-day debrief"
+          ]
+        },
+        {
+          "name": "uxr-thematic-analysis",
+          "path": "packs/ux-research-pack/skills/uxr-thematic-analysis",
+          "order": 21,
+          "summary": "Codebook, codes with quotes and participant ids, themes with counts, counter-examples, single-voice observations",
+          "triggers": [
+            "run uxr-thematic-analysis",
+            "synthesise these interviews",
+            "find themes in the transcripts",
+            "code these transcripts",
+            "build a codebook",
+            "affinity map these notes",
+            "the team wants themes by tomorrow",
+            "what patterns came up"
+          ]
+        },
+        {
+          "name": "uxr-usability-findings",
+          "path": "packs/ux-research-pack/skills/uxr-usability-findings",
+          "order": 22,
+          "summary": "Did vs said per task, completion with and without help, issues by severity, rainbow sheet, clips to pull",
+          "triggers": [
+            "run uxr-usability-findings",
+            "synthesise the usability tests",
+            "usability test report",
+            "rate these usability issues",
+            "severity ratings",
+            "rainbow spreadsheet",
+            "the tests went well, I think",
+            "did the prototype pass"
+          ]
+        },
+        {
+          "name": "uxr-survey-analysis",
+          "path": "packs/ux-research-pack/skills/uxr-survey-analysis",
+          "order": 23,
+          "summary": "Who answered, cleaning log, frequencies with base sizes, cross-tabs where the base allows, open-text coding, limits",
+          "triggers": [
+            "run uxr-survey-analysis",
+            "analyse these survey results",
+            "here is the survey export",
+            "what do the numbers tell us",
+            "Likert results",
+            "cross-tab this survey",
+            "code the open text answers",
+            "is this difference real"
+          ]
+        },
+        {
+          "name": "uxr-insight-statements",
+          "path": "packs/ux-research-pack/skills/uxr-insight-statements",
+          "order": 24,
+          "summary": "Five to nine \"want X but do Y because Z\" insights with quotes, counts and confidence, confirmations apart",
+          "triggers": [
+            "want X but do Y because Z",
+            "run uxr-insight-statements",
+            "write the insights",
+            "turn these themes into insights",
+            "so what does the research mean",
+            "insight statements",
+            "the findings feel flat",
+            "the room keeps saying so what"
+          ]
+        },
+        {
+          "name": "uxr-evidence-trace-audit",
+          "path": "packs/ux-research-pack/skills/uxr-evidence-trace-audit",
+          "order": 25,
+          "summary": "Every claim traced to a quote, session or data row, flags for untraced, thin, misquoted or synthetic claims",
+          "triggers": [
+            "users say",
+            "run uxr-evidence-trace-audit",
+            "check this deck before leadership",
+            "trace every claim",
+            "where did this finding come from",
+            "check the quotes against the transcripts",
+            "is this backed by research",
+            "audit the research report"
+          ]
+        },
+        {
+          "name": "uxr-journey-map",
+          "path": "packs/ux-research-pack/skills/uxr-journey-map",
+          "order": 26,
+          "summary": "Stages, actions, thoughts in participants' words, feelings, pain points, each cell tagged to evidence, gaps marked",
+          "triggers": [
+            "not researched",
+            "run uxr-journey-map",
+            "map the user journey",
+            "experience map from interviews",
+            "where does the experience break",
+            "current-state journey",
+            "journey map with evidence",
+            "every team owns one touchpoint"
+          ]
+        },
+        {
+          "name": "uxr-jtbd-statements",
+          "path": "packs/ux-research-pack/skills/uxr-jtbd-statements",
+          "order": 27,
+          "summary": "Jobs with situation, motivation and outcome, job stories, switching forces, each tied to quotes",
+          "triggers": [
+            "When, I want to, so I can",
+            "run uxr-jtbd-statements",
+            "jobs to be done",
+            "write job stories",
+            "what job are people hiring this for",
+            "JTBD from interviews",
+            "what progress are users trying to make",
+            "push and pull forces"
+          ]
+        },
+        {
+          "name": "uxr-opportunity-tree",
+          "path": "packs/ux-research-pack/skills/uxr-opportunity-tree",
+          "order": 28,
+          "summary": "Outcome, opportunities from interviews, ideas per opportunity, assumption test for each, branch to explore next",
+          "triggers": [
+            "run uxr-opportunity-tree",
+            "opportunity solution tree",
+            "OST from research",
+            "which need do we work on first",
+            "too many needs from research",
+            "stop jumping to the first idea",
+            "turn research into opportunities"
+          ]
+        },
+        {
+          "name": "uxr-readout-deck",
+          "path": "packs/ux-research-pack/skills/uxr-readout-deck",
+          "order": 29,
+          "summary": "Decision first, three to five insights with quote and count, what we did not learn, recommendations, the decision asked",
+          "triggers": [
+            "run uxr-readout-deck",
+            "research readout",
+            "findings presentation",
+            "share user research findings",
+            "research deck for stakeholders",
+            "readout memo",
+            "nobody acts on the research",
+            "turn insights into a decision"
+          ]
+        },
+        {
+          "name": "uxr-action-tracker",
+          "path": "packs/ux-research-pack/skills/uxr-action-tracker",
+          "order": 30,
+          "summary": "Each recommendation with owner, decision and reason, date, evidence, follow-up check, what changed",
+          "triggers": [
+            "run uxr-action-tracker",
+            "research action tracker",
+            "what did the last study change",
+            "track research recommendations",
+            "research impact log",
+            "follow up on findings",
+            "decision log for research",
+            "nobody acted on the research"
+          ]
+        },
+        {
+          "name": "uxr-repository-entry",
+          "path": "packs/ux-research-pack/skills/uxr-repository-entry",
+          "order": 31,
+          "summary": "Atomic entries (experiment, fact, insight, recommendation), conditions and date, anonymised quote, tags, review date",
+          "triggers": [
+            "run uxr-repository-entry",
+            "research repository entry",
+            "atomic research",
+            "file these findings",
+            "add to the research repository",
+            "nuggets from this study",
+            "insight database entry",
+            "findings will die in a deck"
+          ]
+        },
+        {
+          "name": "uxr-tagging-taxonomy",
+          "path": "packs/ux-research-pack/skills/uxr-tagging-taxonomy",
+          "order": 32,
+          "summary": "A short set of broad tags with definitions, rules for new tags, owner, a label test, review cadence",
+          "triggers": [
+            "run uxr-tagging-taxonomy",
+            "research tagging taxonomy",
+            "too many tags in the repository",
+            "clean up research tags",
+            "tag structure for research",
+            "nobody finds anything in the repository",
+            "repository tags",
+            "research taxonomy"
+          ]
+        }
+      ]
     }
   ]
 }

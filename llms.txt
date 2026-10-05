@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-49 packs, 1115 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+50 packs, 1147 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -62,6 +62,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude pour le recrutement : 32 skills Claude (32 skills): 32 skills Claude en français pour recruter en droit français, du besoin du manager à la fin de la période d'essai. Page: https://meet-polar-bear.com/skills/fr-recrutement-pack. README: [packs/fr-recrutement-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/README.md)
 - Claude pour les RH : 32 skills Claude (32 skills): 32 skills Claude en français pour tenir toute l'année RH en droit français, de la fiche de poste au départ d'un salarié. Page: https://meet-polar-bear.com/skills/fr-rh-pack. README: [packs/fr-rh-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/README.md)
 - Claude for Networking on LinkedIn: 31 Claude Skills (31 skills): 31 Claude skills for winning clients through the people you already know, from your own network to warm introductions. Page: https://meet-polar-bear.com/skills/networking-on-linkedin-pack. README: [packs/networking-on-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/README.md)
+- UX Research with Claude: 32 Claude Skills (32 skills): 32 Claude skills for planning, recruiting, running, synthesising and sharing user research, from the research plan to the repository, with real users only. Page: https://meet-polar-bear.com/skills/ux-research-pack. README: [packs/ux-research-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ux-research-pack/README.md)
 
 ## Skills
 
@@ -276,6 +277,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/resources/evidence-and-sources.md): the Claude pour le recrutement : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/resources/evidence-and-sources.md): the Claude pour les RH : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/resources/evidence-and-sources.md): the Claude for Networking on LinkedIn: 31 Claude Skills Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ux-research-pack/resources/evidence-and-sources.md): the UX Research with Claude: 32 Claude Skills Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1463,3 +1465,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - net-personal-crm-log: packs/networking-on-linkedin-pack/skills/net-personal-crm-log/SKILL.md — Who you spoke to and when, what they need, what you promised and by when, next touch date, facts only
 - net-monthly-network-review: packs/networking-on-linkedin-pack/skills/net-monthly-network-review/SKILL.md — Where introductions and work came from, which reasons got replies, promises kept and open, gaps, the brief updated
 - Reference: packs/networking-on-linkedin-pack/resources/evidence-and-sources.md
+
+## UX Research with Claude: 32 Claude Skills
+
+32 Claude skills for planning, recruiting, running, synthesising and sharing user research, from the research plan to the repository, in seven stages: plan the study with what is already known, the assumptions that carry the risk, the research plan, and a check on any "synthetic user" answer offered instead of real people; recruit and consent real participants with a recruitment brief, a screener, an informed consent form, a data handling plan, an incentive plan and a participant database; write the guides for interviews, moderated and unmoderated usability tests, benchmarks, surveys and diary studies; run and capture sessions through contextual inquiry, accessible sessions, AI feature studies and same-day debriefs; synthesise with every quote kept through thematic analysis, usability findings, survey analysis, insight statements and an evidence trace audit; turn findings into a journey map, jobs to be done statements and an opportunity solution tree; then share and reuse them in a readout, an action tracker, repository entries and a tagging taxonomy. For designers who run their own research, UX researchers, and design leads who defend research time. Claude plans, organises and synthesises what real people said and did, with every insight traced to a quote or an observed session; it never invents a participant, a quote, a finding or a metric, and it never stands in for a user.
+
+- Pack: packs/ux-research-pack/README.md
+- uxr-desk-research: packs/ux-research-pack/skills/uxr-desk-research/SKILL.md — What is already known with source and date, what is stale, open questions, what not to research again
+- uxr-assumption-map: packs/ux-research-pack/skills/uxr-assumption-map/SKILL.md — Assumptions placed by importance and evidence, risky unknowns to research first, what a skipped study puts at risk
+- uxr-research-plan: packs/ux-research-pack/skills/uxr-research-plan/SKILL.md — Decision informed, research questions, method and why, sample, timeline, roles, risks, what it will not answer
+- uxr-synthetic-user-check: packs/ux-research-pack/skills/uxr-synthetic-user-check/SKILL.md — Each synthetic claim matched to real evidence, what stays a hypothesis, what is rejected, the real study that would answer it
+- uxr-recruitment-brief: packs/ux-research-pack/skills/uxr-recruitment-brief/SKILL.md — Who to hear from in behaviour terms, who wastes a slot, quotas, channels, owner, booking tracker, no-show buffer, fraud checks
+- uxr-participant-screener: packs/ux-research-pack/skills/uxr-participant-screener/SKILL.md — Behaviour and recency questions, hidden qualifying answers, decoys, disqualifiers, quotas, answer key for fit to the brief
+- uxr-consent-form: packs/ux-research-pack/skills/uxr-consent-form/SKILL.md — Plain-language information sheet, consent items, remote and verbal script, accessible version
+- uxr-data-handling-plan: packs/ux-research-pack/skills/uxr-data-handling-plan/SKILL.md — Data inventory, minimum to collect, storage, access, anonymise steps, special category flags, deletion dates
+- uxr-incentive-plan: packs/ux-research-pack/skills/uxr-incentive-plan/SKILL.md — Incentive per study type with amounts left blank, payment method and timing, no-show rules, questions for finance
+- uxr-participant-database: packs/ux-research-pack/skills/uxr-participant-database/SKILL.md — Minimum fields, consent to recontact, contact limits and rest periods, opt-out and deletion, access, contact log
+- uxr-interview-guide: packs/ux-research-pack/skills/uxr-interview-guide/SKILL.md — Research questions mapped to interview questions, story openers, probes, time budget, leading-question check
+- uxr-usability-test-plan: packs/ux-research-pack/skills/uxr-usability-test-plan/SKILL.md — Test goals, task scenarios with success set in advance, think-aloud, moderator script, observer grid, pilot
+- uxr-unmoderated-test-plan: packs/ux-research-pack/skills/uxr-unmoderated-test-plan/SKILL.md — Self-explaining tasks, success per task, in-tool screener, attention checks, device pilot, what not to test this way
+- uxr-usability-benchmark: packs/ux-research-pack/skills/uxr-usability-benchmark/SKILL.md — Same tasks each round, task success, time, SEQ and SUS defined before data, baseline, re-run date
+- uxr-survey-design: packs/ux-research-pack/skills/uxr-survey-design/SKILL.md — Decision served, one construct per question, neutral wording, scales, order, pilot, what it can and cannot say
+- uxr-diary-study: packs/ux-research-pack/skills/uxr-diary-study/SKILL.md — Behaviour over time, entry prompts, cadence, length, reminders, drop-off plan, onboarding call, coding plan
+- uxr-contextual-inquiry: packs/ux-research-pack/skills/uxr-contextual-inquiry/SKILL.md — Where and when to observe, apprentice stance, what to watch, note grid, site permissions, debrief per visit
+- uxr-accessible-sessions: packs/ux-research-pack/skills/uxr-accessible-sessions/SKILL.md — Recruiting disabled and older participants, access needs in advance, their own assistive technology, accessible consent, adjustments
+- uxr-ai-feature-study: packs/ux-research-pack/skills/uxr-ai-feature-study/SKILL.md — Current mental model, expectations, tasks on real inputs, wrong-answer scenarios, trust and correction checks, Wizard of Oz option
+- uxr-interview-debrief: packs/ux-research-pack/skills/uxr-interview-debrief/SKILL.md — Same-day notes per session, verbatim quotes with timestamps, observation vs interpretation, surprises, next questions
+- uxr-thematic-analysis: packs/ux-research-pack/skills/uxr-thematic-analysis/SKILL.md — Codebook, codes with quotes and participant ids, themes with counts, counter-examples, single-voice observations
+- uxr-usability-findings: packs/ux-research-pack/skills/uxr-usability-findings/SKILL.md — Did vs said per task, completion with and without help, issues by severity, rainbow sheet, clips to pull
+- uxr-survey-analysis: packs/ux-research-pack/skills/uxr-survey-analysis/SKILL.md — Who answered, cleaning log, frequencies with base sizes, cross-tabs where the base allows, open-text coding, limits
+- uxr-insight-statements: packs/ux-research-pack/skills/uxr-insight-statements/SKILL.md — Five to nine "want X but do Y because Z" insights with quotes, counts and confidence, confirmations apart
+- uxr-evidence-trace-audit: packs/ux-research-pack/skills/uxr-evidence-trace-audit/SKILL.md — Every claim traced to a quote, session or data row, flags for untraced, thin, misquoted or synthetic claims
+- uxr-journey-map: packs/ux-research-pack/skills/uxr-journey-map/SKILL.md — Stages, actions, thoughts in participants' words, feelings, pain points, each cell tagged to evidence, gaps marked
+- uxr-jtbd-statements: packs/ux-research-pack/skills/uxr-jtbd-statements/SKILL.md — Jobs with situation, motivation and outcome, job stories, switching forces, each tied to quotes
+- uxr-opportunity-tree: packs/ux-research-pack/skills/uxr-opportunity-tree/SKILL.md — Outcome, opportunities from interviews, ideas per opportunity, assumption test for each, branch to explore next
+- uxr-readout-deck: packs/ux-research-pack/skills/uxr-readout-deck/SKILL.md — Decision first, three to five insights with quote and count, what we did not learn, recommendations, the decision asked
+- uxr-action-tracker: packs/ux-research-pack/skills/uxr-action-tracker/SKILL.md — Each recommendation with owner, decision and reason, date, evidence, follow-up check, what changed
+- uxr-repository-entry: packs/ux-research-pack/skills/uxr-repository-entry/SKILL.md — Atomic entries (experiment, fact, insight, recommendation), conditions and date, anonymised quote, tags, review date
+- uxr-tagging-taxonomy: packs/ux-research-pack/skills/uxr-tagging-taxonomy/SKILL.md — A short set of broad tags with definitions, rules for new tags, owner, a label test, review cadence
+- Reference: packs/ux-research-pack/resources/evidence-and-sources.md

@@ -1414,6 +1414,36 @@
         "consulting",
         "founders"
       ]
+    },
+    {
+      "name": "ux-research-pack",
+      "source": "./packs/ux-research-pack",
+      "description": "32 Claude skills for planning, recruiting, running, synthesising and sharing user research, from the research plan to the repository, in seven stages: plan the study with what is already known, the assumptions that carry the risk, the research plan, and a check on any \"synthetic user\" answer offered instead of real people; recruit and consent real participants with a recruitment brief, a screener, an informed consent form, a data handling plan, an incentive plan and a participant database; write the guides for interviews, moderated and unmoderated usability tests, benchmarks, surveys and diary studies; run and capture sessions through contextual inquiry, accessible sessions, AI feature studies and same-day debriefs; synthesise with every quote kept through thematic analysis, usability findings, survey analysis, insight statements and an evidence trace audit; turn findings into a journey map, jobs to be done statements and an opportunity solution tree; then share and reuse them in a readout, an action tracker, repository entries and a tagging taxonomy. For designers who run their own research, UX researchers, and design leads who defend research time. Claude plans, organises and synthesises what real people said and did, with every insight traced to a quote or an observed session; it never invents a participant, a quote, a finding or a metric, and it never stands in for a user.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/ux-research-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "ux-research",
+        "user-research",
+        "usability-testing",
+        "user-interviews",
+        "thematic-analysis",
+        "research-plan",
+        "participant-recruitment",
+        "informed-consent",
+        "survey-design",
+        "diary-study",
+        "journey-map",
+        "jobs-to-be-done",
+        "research-repository",
+        "research-operations"
+      ]
     }
   ]
 }
