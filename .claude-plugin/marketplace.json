@@ -1294,6 +1294,36 @@
         "revue-de-pipe",
         "francais"
       ]
+    },
+    {
+      "name": "fr-entretiens-pack",
+      "source": "./packs/fr-entretiens-pack",
+      "description": "20 skills en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, dans l'ordre où les RH la mènent : comprendre la réforme et cadrer la campagne, informer le CSE et poser les règles RGPD, outiller les managers avec des trames courtes, un référentiel de compétences et un guide, contrôler les comptes rendus et traiter les évaluations contestées, puis prouver les entretiens tenus, relier les besoins à la formation et tirer le bilan. Pour les RRH, DRH, chargés RH, responsables formation et consultants RH. Les deux entretiens restent séparés de bout en bout, chaque point juridique cite sa source officielle, et Claude ne note, ne classe ni ne devine rien sur une personne : les managers remplissent, apprécient et signent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/fr-entretiens-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "entretien-annuel",
+        "entretien-professionnel",
+        "parcours-professionnel",
+        "campagne-entretiens",
+        "ressources-humaines",
+        "rrh",
+        "trame-entretien",
+        "compte-rendu-entretien",
+        "referentiel-competences",
+        "objectifs-smart",
+        "etat-des-lieux",
+        "plan-de-formation",
+        "rgpd-rh",
+        "francais"
+      ]
     }
   ]
 }

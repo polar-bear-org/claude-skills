@@ -14107,6 +14107,352 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fr-entretiens-pack",
+      "title": "Claude pour les entretiens annuels : 20 skills Claude",
+      "path": "packs/fr-entretiens-pack",
+      "homepage": "https://meet-polar-bear.com/skills/fr-entretiens-pack",
+      "version": "1.0.0",
+      "description": "20 skills en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, dans l'ordre où les RH la mènent : comprendre la réforme et cadrer la campagne, informer le CSE et poser les règles RGPD, outiller les managers avec des trames courtes, un référentiel de compétences et un guide, contrôler les comptes rendus et traiter les évaluations contestées, puis prouver les entretiens tenus, relier les besoins à la formation et tirer le bilan. Pour les RRH, DRH, chargés RH, responsables formation et consultants RH. Les deux entretiens restent séparés de bout en bout, chaque point juridique cite sa source officielle, et Claude ne note, ne classe ni ne devine rien sur une personne : les managers remplissent, apprécient et signent.",
+      "audience": [
+        "responsables et chargés RH (RRH)",
+        "DRH et dirigeants de PME",
+        "responsables formation et développement des compétences",
+        "consultants RH",
+        "managers qui mènent les entretiens, via les guides et trames"
+      ],
+      "keywords": [
+        "entretien-annuel",
+        "entretien-professionnel",
+        "parcours-professionnel",
+        "campagne-entretiens",
+        "ressources-humaines",
+        "rrh",
+        "trame-entretien",
+        "compte-rendu-entretien",
+        "referentiel-competences",
+        "objectifs-smart",
+        "etat-des-lieux",
+        "plan-de-formation",
+        "rgpd-rh",
+        "francais"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "entretien-note-reforme",
+          "path": "packs/fr-entretiens-pack/skills/entretien-note-reforme",
+          "order": 1,
+          "summary": "Note d'une page, questions pour le juriste, actions RH datées",
+          "triggers": [
+            "run entretien-note-reforme",
+            "réforme entretien professionnel 2025",
+            "entretien de parcours professionnel",
+            "loi du 24 octobre 2025 entretien professionnel",
+            "nouvel article L6315-1",
+            "état des lieux récapitulatif huit ans",
+            "note direction réforme entretien professionnel",
+            "abondement CPF entretien professionnel"
+          ]
+        },
+        {
+          "name": "entretien-cadrage-campagne",
+          "path": "packs/fr-entretiens-pack/skills/entretien-cadrage-campagne",
+          "order": 2,
+          "summary": "Finalité de chaque entretien, salariés concernés par cas, rôles, règles de données",
+          "triggers": [
+            "run entretien-cadrage-campagne",
+            "note de cadrage campagne entretiens annuels",
+            "qui doit avoir son entretien professionnel cette année",
+            "lancer la campagne d'entretiens",
+            "séparer entretien annuel et entretien professionnel",
+            "finalité de l'entretien annuel",
+            "rôles RH et managers entretiens"
+          ]
+        },
+        {
+          "name": "entretien-retroplanning",
+          "path": "packs/fr-entretiens-pack/skills/entretien-retroplanning",
+          "order": 3,
+          "summary": "Calendrier semaine par semaine, charge par manager, jalons de relance",
+          "triggers": [
+            "run entretien-retroplanning",
+            "rétroplanning campagne entretiens annuels",
+            "calendrier campagne entretiens",
+            "planning entretiens annuels managers",
+            "date limite entretiens annuels",
+            "charge des managers entretiens",
+            "jalons de relance campagne"
+          ]
+        },
+        {
+          "name": "entretien-information-cse",
+          "path": "packs/fr-entretiens-pack/skills/entretien-information-cse",
+          "order": 4,
+          "summary": "Note au CSE, questions à anticiper, point juriste",
+          "triggers": [
+            "run entretien-information-cse",
+            "information consultation CSE entretien annuel",
+            "faut-il consulter le CSE entretiens",
+            "note CSE nouvel outil d'évaluation",
+            "CSE et IA entretiens",
+            "L2312-38 CSE",
+            "présenter la campagne d'entretiens au CSE"
+          ]
+        },
+        {
+          "name": "entretien-regles-rgpd",
+          "path": "packs/fr-entretiens-pack/skills/entretien-regles-rgpd",
+          "order": 5,
+          "summary": "Données autorisées et interdites, conservation, accès, pseudonymisation",
+          "triggers": [
+            "run entretien-regles-rgpd",
+            "RGPD entretien annuel",
+            "CNIL évaluation annuelle des salariés",
+            "durée de conservation compte rendu entretien",
+            "zone de commentaire entretien annuel CNIL",
+            "pseudonymiser comptes rendus IA",
+            "droit d'accès évaluation salarié",
+            "règles DPO entretiens"
+          ]
+        },
+        {
+          "name": "entretien-messages-campagne",
+          "path": "packs/fr-entretiens-pack/skills/entretien-messages-campagne",
+          "order": 6,
+          "summary": "Lancement, note aux managers, convocation, relances, clôture",
+          "triggers": [
+            "run entretien-messages-campagne",
+            "message lancement campagne entretiens annuels",
+            "mail convocation entretien annuel",
+            "modèle convocation entretien professionnel",
+            "relance managers entretiens",
+            "information préalable méthodes d'évaluation",
+            "message de clôture campagne entretiens"
+          ]
+        },
+        {
+          "name": "entretien-trame-annuel",
+          "path": "packs/fr-entretiens-pack/skills/entretien-trame-annuel",
+          "order": 7,
+          "summary": "Trame courte en miroir, « pourquoi cette question », mention d'information",
+          "triggers": [
+            "run entretien-trame-annuel",
+            "trame entretien annuel",
+            "grille entretien annuel",
+            "support entretien annuel d'évaluation",
+            "réduire la trame d'entretien",
+            "questions entretien annuel",
+            "formulaire entretien annuel",
+            "trame entretien individuel"
+          ]
+        },
+        {
+          "name": "entretien-trame-parcours",
+          "path": "packs/fr-entretiens-pack/skills/entretien-trame-parcours",
+          "order": 8,
+          "summary": "Trame sans évaluation, variantes par cas, zone de signature",
+          "triggers": [
+            "run entretien-trame-parcours",
+            "trame entretien professionnel",
+            "trame entretien de parcours professionnel",
+            "entretien professionnel réforme 2025",
+            "modèle entretien professionnel",
+            "entretien de mi-carrière",
+            "entretien avant 60 ans",
+            "entretien professionnel retour de congé"
+          ]
+        },
+        {
+          "name": "entretien-trame-forfait-jours",
+          "path": "packs/fr-entretiens-pack/skills/entretien-trame-forfait-jours",
+          "order": 9,
+          "summary": "Rubriques charge, organisation, équilibre, rémunération, suites",
+          "triggers": [
+            "run entretien-trame-forfait-jours",
+            "entretien forfait jours",
+            "entretien annuel forfait jours",
+            "trame entretien charge de travail",
+            "entretien charge de travail cadre",
+            "suivi de la charge forfait jours",
+            "entretien cadre au forfait"
+          ]
+        },
+        {
+          "name": "entretien-referentiel-competences",
+          "path": "packs/fr-entretiens-pack/skills/entretien-referentiel-competences",
+          "order": 10,
+          "summary": "Niveaux en comportements observables, exemples de preuves",
+          "triggers": [
+            "run entretien-referentiel-competences",
+            "référentiel de compétences",
+            "grille de compétences",
+            "niveaux de compétence",
+            "définir junior confirmé expert",
+            "matrice de compétences",
+            "référentiel compétences entretien annuel",
+            "harmoniser les niveaux entre managers"
+          ]
+        },
+        {
+          "name": "entretien-objectifs-smart",
+          "path": "packs/fr-entretiens-pack/skills/entretien-objectifs-smart",
+          "order": 11,
+          "summary": "Règles d'écriture, exemples avant et après, liste de contrôle RH",
+          "triggers": [
+            "run entretien-objectifs-smart",
+            "objectifs SMART",
+            "rédiger des objectifs SMART",
+            "fixer les objectifs entretien annuel",
+            "exemples d'objectifs SMART",
+            "objectifs mesurables",
+            "vérifier les objectifs des managers",
+            "objectif de contribution"
+          ]
+        },
+        {
+          "name": "entretien-guide-manager",
+          "path": "packs/fr-entretiens-pack/skills/entretien-guide-manager",
+          "order": 12,
+          "summary": "Déroulé, règles, ce qu'on n'écrit jamais, quand appeler les RH",
+          "triggers": [
+            "run entretien-guide-manager",
+            "guide manager entretien annuel",
+            "préparer les managers aux entretiens annuels",
+            "kit manager entretien annuel",
+            "conseils pour mener un entretien annuel",
+            "brief managers campagne d'entretiens",
+            "ce qu'un manager ne doit pas écrire"
+          ]
+        },
+        {
+          "name": "entretien-compte-rendu-annuel",
+          "path": "packs/fr-entretiens-pack/skills/entretien-compte-rendu-annuel",
+          "order": 13,
+          "summary": "Modèle, consignes aux managers, grille de relecture RH",
+          "triggers": [
+            "run entretien-compte-rendu-annuel",
+            "compte rendu entretien annuel",
+            "modèle compte rendu entretien annuel",
+            "grille de relecture des comptes rendus",
+            "consignes rédaction compte rendu manager",
+            "commentaires entretien annuel CNIL",
+            "comptes rendus incomplets",
+            "contrôle des comptes rendus d'entretien"
+          ]
+        },
+        {
+          "name": "entretien-compte-rendu-parcours",
+          "path": "packs/fr-entretiens-pack/skills/entretien-compte-rendu-parcours",
+          "order": 14,
+          "summary": "Modèle du document écrit, preuve de remise, contrôle avant archivage",
+          "triggers": [
+            "run entretien-compte-rendu-parcours",
+            "compte rendu entretien professionnel",
+            "compte rendu entretien de parcours professionnel",
+            "modèle document écrit entretien professionnel",
+            "preuve remise copie entretien professionnel",
+            "archivage entretien professionnel",
+            "contrôle compte rendu avant état des lieux"
+          ]
+        },
+        {
+          "name": "entretien-revue-contestee",
+          "path": "packs/fr-entretiens-pack/skills/entretien-revue-contestee",
+          "order": 15,
+          "summary": "Chronologie, faits face aux observations, options, réponse à valider",
+          "triggers": [
+            "run entretien-revue-contestee",
+            "salarié conteste son évaluation",
+            "contestation entretien annuel",
+            "répondre à une contestation d'évaluation",
+            "refus de signer entretien annuel",
+            "droit d'accès évaluation salarié",
+            "désaccord compte rendu entretien"
+          ]
+        },
+        {
+          "name": "entretien-registre-entretiens",
+          "path": "packs/fr-entretiens-pack/skills/entretien-registre-entretiens",
+          "order": 16,
+          "summary": "Une ligne par salarié, échéances, preuves, alertes",
+          "triggers": [
+            "run entretien-registre-entretiens",
+            "registre entretiens professionnels",
+            "suivi entretiens professionnels tableau",
+            "preuve entretien professionnel",
+            "échéances entretien professionnel",
+            "tableau de suivi entretiens tous les quatre ans",
+            "contrôle entretiens professionnels CSE"
+          ]
+        },
+        {
+          "name": "entretien-etat-des-lieux",
+          "path": "packs/fr-entretiens-pack/skills/entretien-etat-des-lieux",
+          "order": 17,
+          "summary": "Vérification des preuves sur huit ans, signal à faire valider",
+          "triggers": [
+            "run entretien-etat-des-lieux",
+            "état des lieux récapitulatif",
+            "état des lieux entretien professionnel huit ans",
+            "entretien professionnel tous les huit ans",
+            "vérifier état des lieux salarié",
+            "risque abondement CPF",
+            "preuves état des lieux entretien professionnel"
+          ]
+        },
+        {
+          "name": "entretien-besoins-formation",
+          "path": "packs/fr-entretiens-pack/skills/entretien-besoins-formation",
+          "order": 18,
+          "summary": "Besoins regroupés par compétence et par équipe, priorités proposées",
+          "triggers": [
+            "run entretien-besoins-formation",
+            "synthèse besoins de formation",
+            "besoins de formation entretiens annuels",
+            "recueil des besoins de formation",
+            "préparer le plan de développement des compétences",
+            "exploiter les comptes rendus d'entretien",
+            "tableau besoins formation par équipe"
+          ]
+        },
+        {
+          "name": "entretien-financement-formation",
+          "path": "packs/fr-entretiens-pack/skills/entretien-financement-formation",
+          "order": 19,
+          "summary": "Voie possible par besoin, pièces à réunir, questions pour l'OPCO",
+          "triggers": [
+            "run entretien-financement-formation",
+            "financement formation salarié",
+            "qui paie la formation",
+            "CPF ou plan de développement des compétences",
+            "CPF sur le temps de travail",
+            "questions pour l'OPCO",
+            "financer une VAE ou un bilan de compétences"
+          ]
+        },
+        {
+          "name": "entretien-bilan-campagne",
+          "path": "packs/fr-entretiens-pack/skills/entretien-bilan-campagne",
+          "order": 20,
+          "summary": "Plan face à la réalité, questions de trame, trois changements",
+          "triggers": [
+            "run entretien-bilan-campagne",
+            "bilan campagne entretiens annuels",
+            "retour d'expérience campagne entretiens",
+            "rétrospective campagne entretiens",
+            "taux de réalisation entretiens annuels",
+            "améliorer la prochaine campagne d'entretiens",
+            "commencer arrêter continuer RH"
+          ]
+        }
+      ]
     }
   ]
 }

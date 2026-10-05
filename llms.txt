@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-45 packs, 1000 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+46 packs, 1020 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -58,6 +58,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude for Design Leaders: 32 Claude Skills (32 skills): 32 Claude skills to frame, explain, defend and prove design work, and to grow a team and a career. Page: https://meet-polar-bear.com/skills/design-leaders-pack. README: [packs/design-leaders-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/README.md)
 - Claude Guide for Finding Clients: 32 Claude Skills (32 skills): 32 Claude skills to win clients, from your warm network to the signed proposal. Page: https://meet-polar-bear.com/skills/finding-clients-pack. README: [packs/finding-clients-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/README.md)
 - Claude pour les commerciaux : 29 skills Claude (29 skills): 29 skills Claude en français pour le métier commercial B2B, de la préparation des comptes au pilotage du pipe. Page: https://meet-polar-bear.com/skills/fr-commerciaux-pack. README: [packs/fr-commerciaux-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/README.md)
+- Claude pour les entretiens annuels : 20 skills Claude (20 skills): 20 skills Claude en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, de la trame à l'état des lieux. Page: https://meet-polar-bear.com/skills/fr-entretiens-pack. README: [packs/fr-entretiens-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/README.md)
 
 ## Skills
 
@@ -268,6 +269,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/design-leaders-pack/resources/evidence-and-sources.md): the Claude for Design Leaders Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/resources/evidence-and-sources.md): the Claude Guide for Finding Clients Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/resources/evidence-and-sources.md): the Claude pour les commerciaux : 29 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/resources/evidence-and-sources.md): the Claude pour les entretiens annuels : 20 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1312,3 +1314,30 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - vente-organisation-semaine: packs/fr-commerciaux-pack/skills/vente-organisation-semaine/SKILL.md — Semaine en blocs, trois affaires à faire avancer, renoncements
 - vente-bilan-affaire: packs/fr-commerciaux-pack/skills/vente-bilan-affaire/SKILL.md — Faits du cycle, raisons du client, ce que vous changez
 - Reference: packs/fr-commerciaux-pack/resources/evidence-and-sources.md
+
+## Claude pour les entretiens annuels : 20 skills Claude
+
+20 skills en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, dans l'ordre où les RH la mènent : comprendre la réforme et cadrer la campagne, informer le CSE et poser les règles RGPD, outiller les managers avec des trames courtes, un référentiel de compétences et un guide, contrôler les comptes rendus et traiter les évaluations contestées, puis prouver les entretiens tenus, relier les besoins à la formation et tirer le bilan. Pour les RRH, DRH, chargés RH, responsables formation et consultants RH. Les deux entretiens restent séparés de bout en bout, chaque point juridique cite sa source officielle, et Claude ne note, ne classe ni ne devine rien sur une personne : les managers remplissent, apprécient et signent.
+
+- Pack: packs/fr-entretiens-pack/README.md
+- entretien-note-reforme: packs/fr-entretiens-pack/skills/entretien-note-reforme/SKILL.md — Note d'une page, questions pour le juriste, actions RH datées
+- entretien-cadrage-campagne: packs/fr-entretiens-pack/skills/entretien-cadrage-campagne/SKILL.md — Finalité de chaque entretien, salariés concernés par cas, rôles, règles de données
+- entretien-retroplanning: packs/fr-entretiens-pack/skills/entretien-retroplanning/SKILL.md — Calendrier semaine par semaine, charge par manager, jalons de relance
+- entretien-information-cse: packs/fr-entretiens-pack/skills/entretien-information-cse/SKILL.md — Note au CSE, questions à anticiper, point juriste
+- entretien-regles-rgpd: packs/fr-entretiens-pack/skills/entretien-regles-rgpd/SKILL.md — Données autorisées et interdites, conservation, accès, pseudonymisation
+- entretien-messages-campagne: packs/fr-entretiens-pack/skills/entretien-messages-campagne/SKILL.md — Lancement, note aux managers, convocation, relances, clôture
+- entretien-trame-annuel: packs/fr-entretiens-pack/skills/entretien-trame-annuel/SKILL.md — Trame courte en miroir, « pourquoi cette question », mention d'information
+- entretien-trame-parcours: packs/fr-entretiens-pack/skills/entretien-trame-parcours/SKILL.md — Trame sans évaluation, variantes par cas, zone de signature
+- entretien-trame-forfait-jours: packs/fr-entretiens-pack/skills/entretien-trame-forfait-jours/SKILL.md — Rubriques charge, organisation, équilibre, rémunération, suites
+- entretien-referentiel-competences: packs/fr-entretiens-pack/skills/entretien-referentiel-competences/SKILL.md — Niveaux en comportements observables, exemples de preuves
+- entretien-objectifs-smart: packs/fr-entretiens-pack/skills/entretien-objectifs-smart/SKILL.md — Règles d'écriture, exemples avant et après, liste de contrôle RH
+- entretien-guide-manager: packs/fr-entretiens-pack/skills/entretien-guide-manager/SKILL.md — Déroulé, règles, ce qu'on n'écrit jamais, quand appeler les RH
+- entretien-compte-rendu-annuel: packs/fr-entretiens-pack/skills/entretien-compte-rendu-annuel/SKILL.md — Modèle, consignes aux managers, grille de relecture RH
+- entretien-compte-rendu-parcours: packs/fr-entretiens-pack/skills/entretien-compte-rendu-parcours/SKILL.md — Modèle du document écrit, preuve de remise, contrôle avant archivage
+- entretien-revue-contestee: packs/fr-entretiens-pack/skills/entretien-revue-contestee/SKILL.md — Chronologie, faits face aux observations, options, réponse à valider
+- entretien-registre-entretiens: packs/fr-entretiens-pack/skills/entretien-registre-entretiens/SKILL.md — Une ligne par salarié, échéances, preuves, alertes
+- entretien-etat-des-lieux: packs/fr-entretiens-pack/skills/entretien-etat-des-lieux/SKILL.md — Vérification des preuves sur huit ans, signal à faire valider
+- entretien-besoins-formation: packs/fr-entretiens-pack/skills/entretien-besoins-formation/SKILL.md — Besoins regroupés par compétence et par équipe, priorités proposées
+- entretien-financement-formation: packs/fr-entretiens-pack/skills/entretien-financement-formation/SKILL.md — Voie possible par besoin, pièces à réunir, questions pour l'OPCO
+- entretien-bilan-campagne: packs/fr-entretiens-pack/skills/entretien-bilan-campagne/SKILL.md — Plan face à la réalité, questions de trame, trois changements
+- Reference: packs/fr-entretiens-pack/resources/evidence-and-sources.md
