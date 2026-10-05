@@ -15552,6 +15552,515 @@
           ]
         }
       ]
+    },
+    {
+      "name": "networking-on-linkedin-pack",
+      "title": "Claude for Networking on LinkedIn: 31 Claude Skills",
+      "path": "packs/networking-on-linkedin-pack",
+      "homepage": "https://meet-polar-bear.com/skills/networking-on-linkedin-pack",
+      "version": "1.0.0",
+      "description": "31 skills for winning clients through the people you already know, in seven stages: write your networking brief, your fit criteria and the line a contact can repeat; map your own network from your own LinkedIn data export, by fit to the brief and by closeness, down to a shortlist you choose by hand; research each person from public sources with a source for every fact; pick a reason to write that is useful to them and prepare the points you write from; tend past clients with no-ask check-ins, after-action reviews and approved case studies; ask for one specific introduction and make the introduction easy to forward; and keep a weekly rhythm with a run of ten, a follow-up tracker, a private log and a monthly review. For consultants, advisers, fractional executives, founders and owners who sell their own expertise. Claude helps you see your own network and prepare each conversation: you choose every person, write every word and send every message yourself, and nothing is scraped, automated or sent for you.",
+      "audience": [
+        "consultants and advisers",
+        "fractional executives",
+        "founders and business owners who sell their own expertise",
+        "independent consultants",
+        "partners who sell and deliver"
+      ],
+      "keywords": [
+        "networking",
+        "linkedin networking",
+        "linkedin data export",
+        "network map",
+        "closeness tiers",
+        "dormant ties",
+        "warm introductions",
+        "double opt-in introduction",
+        "forwardable blurb",
+        "introduction ask",
+        "referral partners",
+        "partner agreement",
+        "past client reconnect",
+        "client check-in",
+        "client after-action review",
+        "client case study",
+        "client relationship map",
+        "personal CRM",
+        "follow-up tracker",
+        "ideal client profile",
+        "elevator pitch",
+        "five-minute favor",
+        "trigger event scan",
+        "person research brief",
+        "coffee chat",
+        "reason to write",
+        "talking points",
+        "message checklist",
+        "business development",
+        "selling expertise"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "net-networking-brief",
+          "path": "packs/networking-on-linkedin-pack/skills/net-networking-brief",
+          "order": 1,
+          "summary": "Who you help, the problem you solve, what you want help with now, who you would like to meet, a good introduction, who is not a fit",
+          "triggers": [
+            "run net-networking-brief",
+            "nobody knows who to send my way",
+            "write my networking brief",
+            "who should I ask people to introduce me to",
+            "help me say who I help",
+            "what do I want from my network",
+            "people like me but never introduce me"
+          ]
+        },
+        {
+          "name": "net-ideal-client-profile",
+          "path": "packs/networking-on-linkedin-pack/skills/net-ideal-client-profile",
+          "order": 2,
+          "summary": "Fit criteria as situations, roles and triggers, signals you can read in a connections list, poor-fit signs, fit questions",
+          "triggers": [
+            "run net-ideal-client-profile",
+            "who is my ideal client",
+            "define my ideal client profile",
+            "fit criteria for my network",
+            "what signals show a good fit",
+            "I say anyone who needs help with X"
+          ]
+        },
+        {
+          "name": "net-elevator-pitch",
+          "path": "packs/networking-on-linkedin-pack/skills/net-elevator-pitch",
+          "order": 3,
+          "summary": "One or two sentences a contact can repeat, the problem in the client's words, three versions to test, words to drop",
+          "triggers": [
+            "run net-elevator-pitch",
+            "nobody can explain what I do",
+            "write a line people can repeat about me",
+            "elevator pitch for networking",
+            "how should others describe me",
+            "my intro is too vague"
+          ]
+        },
+        {
+          "name": "net-five-minute-favor-list",
+          "path": "packs/networking-on-linkedin-pack/skills/net-five-minute-favor-list",
+          "order": 4,
+          "summary": "What you can give in five minutes, who it suits by situation, what you will not offer, a log with no scorekeeping",
+          "triggers": [
+            "run net-five-minute-favor-list",
+            "I have nothing to offer but an ask",
+            "what can I give before I ask",
+            "five-minute favor",
+            "how do I help my network",
+            "give before you ask"
+          ]
+        },
+        {
+          "name": "net-linkedin-data-export",
+          "path": "packs/networking-on-linkedin-pack/skills/net-linkedin-data-export",
+          "order": 5,
+          "summary": "Request steps from LinkedIn's help page, which files to use and leave out, where the file lives, column cleanup, when to delete it",
+          "triggers": [
+            "run net-linkedin-data-export",
+            "download my LinkedIn connections",
+            "export my LinkedIn network",
+            "how do I get my connections file",
+            "see my network without scraping",
+            "LinkedIn data export",
+            "where do I keep my export"
+          ]
+        },
+        {
+          "name": "net-network-fit-map",
+          "path": "packs/networking-on-linkedin-pack/skills/net-network-fit-map",
+          "order": 6,
+          "summary": "Each connection read against the brief, the visible match and its reason, fit left for you to set, a fit floor, a cap per company",
+          "triggers": [
+            "run net-network-fit-map",
+            "who in my network fits my brief",
+            "read my connections against my ideal client",
+            "map my network",
+            "who is relevant in my LinkedIn connections",
+            "fit map",
+            "sort my connections by fit"
+          ]
+        },
+        {
+          "name": "net-closeness-tiers",
+          "path": "packs/networking-on-linkedin-pack/skills/net-closeness-tiers",
+          "order": 7,
+          "summary": "A first estimate from your own message exchanges, four tiers in your own words, every tier corrected by you",
+          "triggers": [
+            "run net-closeness-tiers",
+            "how well do I know these people",
+            "who could I actually write to",
+            "sort my contacts by closeness",
+            "who would remember me",
+            "close or distant contacts",
+            "tier my network"
+          ]
+        },
+        {
+          "name": "net-dormant-ties-list",
+          "path": "packs/networking-on-linkedin-pack/skills/net-dormant-ties-list",
+          "order": 8,
+          "summary": "People you once exchanged with often and lost touch with, the thread to pick up, what to research, the reason to reconnect",
+          "triggers": [
+            "run net-dormant-ties-list",
+            "who have I lost touch with",
+            "reconnect with old contacts",
+            "dormant ties",
+            "people I used to talk to",
+            "revive my network",
+            "who went quiet"
+          ]
+        },
+        {
+          "name": "net-hand-picked-shortlist",
+          "path": "packs/networking-on-linkedin-pack/skills/net-hand-picked-shortlist",
+          "order": 9,
+          "summary": "About 10 names you choose, your reason for each, fit and tier as you set them, company cap checked, names set aside",
+          "triggers": [
+            "run net-hand-picked-shortlist",
+            "who should I write to this week",
+            "choose my shortlist",
+            "pick 10 people to contact",
+            "narrow down my network list",
+            "build this week's list",
+            "who goes on the list"
+          ]
+        },
+        {
+          "name": "net-person-research-brief",
+          "path": "packs/networking-on-linkedin-pack/skills/net-person-research-brief",
+          "order": 10,
+          "summary": "Public facts about one person's work, each with a source and date, unknowns stated, what you share, open questions",
+          "triggers": [
+            "run net-person-research-brief",
+            "research this person before I write",
+            "what is public about her work",
+            "brief me on this contact",
+            "I do not want to guess",
+            "find sourced facts about him",
+            "prepare before I reach out"
+          ]
+        },
+        {
+          "name": "net-trigger-event-scan",
+          "path": "packs/networking-on-linkedin-pack/skills/net-trigger-event-scan",
+          "order": 11,
+          "summary": "Recent public events with date and source, which one is worth a congratulation, what is too old or too private",
+          "triggers": [
+            "run net-trigger-event-scan",
+            "give me a real reason to write",
+            "what is new with her",
+            "anything recent I could congratulate him on",
+            "not just checking in",
+            "did they change roles",
+            "scan for recent news on this contact"
+          ]
+        },
+        {
+          "name": "net-coffee-chat-prep",
+          "path": "packs/networking-on-linkedin-pack/skills/net-coffee-chat-prep",
+          "order": 12,
+          "summary": "What you know (sourced), three questions you want answered, one thing to offer, what you will not pitch, how to close",
+          "triggers": [
+            "run net-coffee-chat-prep",
+            "prep me for this coffee chat",
+            "I have a call with a contact tomorrow",
+            "I do not want this to feel like a sales call",
+            "what should I ask her",
+            "plan my intro call",
+            "help me prepare a catch-up"
+          ]
+        },
+        {
+          "name": "net-reason-to-write",
+          "path": "packs/networking-on-linkedin-pack/skills/net-reason-to-write",
+          "order": 13,
+          "summary": "The five reasons, which fits this person, why it is useful to them, the reasons that would be a pitch in disguise",
+          "triggers": [
+            "run net-reason-to-write",
+            "what do I say to her",
+            "reason to reach out",
+            "I don't want to just ask",
+            "not just checking in",
+            "how do I reconnect without pitching",
+            "what's a good excuse to message him"
+          ]
+        },
+        {
+          "name": "net-talking-points",
+          "path": "packs/networking-on-linkedin-pack/skills/net-talking-points",
+          "order": 14,
+          "summary": "2 or 3 sourced points for the chosen reason, nothing pushed, no message assembled",
+          "triggers": [
+            "run net-talking-points",
+            "what should I say",
+            "help me think about this message",
+            "give me points not a draft",
+            "I don't want it to sound like AI",
+            "notes for my message to"
+          ]
+        },
+        {
+          "name": "net-message-checklist",
+          "path": "packs/networking-on-linkedin-pack/skills/net-message-checklist",
+          "order": 15,
+          "summary": "Your own message checked line by line against the checklist, flags only, no rewriting",
+          "triggers": [
+            "run net-message-checklist",
+            "check my message",
+            "second look before I send",
+            "does this sound salesy",
+            "is this too pushy",
+            "review my outreach note"
+          ]
+        },
+        {
+          "name": "net-grammar-check",
+          "path": "packs/networking-on-linkedin-pack/skills/net-grammar-check",
+          "order": 16,
+          "summary": "Grammar, spelling and punctuation fixes only, each change shown before and after, tone and length untouched",
+          "triggers": [
+            "run net-grammar-check",
+            "fix my typos",
+            "proofread this but don't change it",
+            "grammar only",
+            "check spelling before I send",
+            "clean this up without rewriting"
+          ]
+        },
+        {
+          "name": "net-past-client-list",
+          "path": "packs/networking-on-linkedin-pack/skills/net-past-client-list",
+          "order": 17,
+          "summary": "Past clients from your own records, last real exchange, what has changed, the thread to pick up, no ranking by value",
+          "triggers": [
+            "run net-past-client-list",
+            "who have I worked with before",
+            "list my past clients",
+            "I have not spoken to old clients in a year",
+            "find past clients in my inbox",
+            "reconnect with former clients",
+            "who did I do projects with"
+          ]
+        },
+        {
+          "name": "net-client-check-in",
+          "path": "packs/networking-on-linkedin-pack/skills/net-client-check-in",
+          "order": 18,
+          "summary": "A no-ask conversation plan, what changed, one useful thing to bring, questions, what you will not sell, a note to log",
+          "triggers": [
+            "run net-client-check-in",
+            "plan a client check-in",
+            "catch up with a past client",
+            "my clients only hear from me at renewal",
+            "I want to call a client with nothing to sell",
+            "prep a call with an old client",
+            "how do I stay in touch with clients"
+          ]
+        },
+        {
+          "name": "net-client-after-action-review",
+          "path": "packs/networking-on-linkedin-pack/skills/net-client-after-action-review",
+          "order": 19,
+          "summary": "With the client: what was meant to happen, what happened, why, what to keep and change, what they want next",
+          "triggers": [
+            "run net-client-after-action-review",
+            "the project just ended",
+            "run a project retrospective with the client",
+            "close out this engagement properly",
+            "what did we learn from this project",
+            "plan an end of project review",
+            "wrap-up meeting with the client"
+          ]
+        },
+        {
+          "name": "net-client-case-study",
+          "path": "packs/networking-on-linkedin-pack/skills/net-client-case-study",
+          "order": 20,
+          "summary": "A short case from an interview, the client's approval of naming and numbers, a sourced figure list, a one-page version",
+          "triggers": [
+            "run net-client-case-study",
+            "write up this project",
+            "turn this client work into a case study",
+            "interview me about the project",
+            "make a one-page case",
+            "something past clients can share",
+            "I need proof they approved"
+          ]
+        },
+        {
+          "name": "net-client-relationship-map",
+          "path": "packs/networking-on-linkedin-pack/skills/net-client-relationship-map",
+          "order": 21,
+          "summary": "Who you know inside a client, two-way dependencies, who else faces the problem, facts separate from guesses",
+          "triggers": [
+            "run net-client-relationship-map",
+            "map who I know at this client",
+            "another team there could use this",
+            "who else at the client has this problem",
+            "I only know one person at this client",
+            "where could an internal introduction help",
+            "map the account"
+          ]
+        },
+        {
+          "name": "net-introduction-ask",
+          "path": "packs/networking-on-linkedin-pack/skills/net-introduction-ask",
+          "order": 22,
+          "summary": "When to ask, one specific introduction tied to the brief, the easy way to say no, what you offer back, what not to say",
+          "triggers": [
+            "run net-introduction-ask",
+            "how do I ask for an introduction",
+            "asking for introductions feels needy",
+            "who do you know who",
+            "ask a client for an introduction",
+            "let me know if you hear of anyone never works"
+          ]
+        },
+        {
+          "name": "net-forwardable-blurb",
+          "path": "packs/networking-on-linkedin-pack/skills/net-forwardable-blurb",
+          "order": 23,
+          "summary": "A short note the introducer can forward unedited: who you are, why this person, what you would ask, how to decline",
+          "triggers": [
+            "run net-forwardable-blurb",
+            "forwardable email",
+            "make the intro easy for them",
+            "they said they would introduce me",
+            "note to forward",
+            "the introduction never happened"
+          ]
+        },
+        {
+          "name": "net-double-opt-in-intro",
+          "path": "packs/networking-on-linkedin-pack/skills/net-double-opt-in-intro",
+          "order": 24,
+          "summary": "Two separate permission notes, what each side gains, the introduction once both say yes, a graceful line for a no",
+          "triggers": [
+            "run net-double-opt-in-intro",
+            "double opt-in intro",
+            "introduce two people",
+            "connect two contacts",
+            "ask before I introduce",
+            "how do I make an introduction",
+            "someone wants me to introduce them"
+          ]
+        },
+        {
+          "name": "net-shared-intro-list",
+          "path": "packs/networking-on-linkedin-pack/skills/net-shared-intro-list",
+          "order": 25,
+          "summary": "Your brief shared with a friend or partner, their people added against it, an owner column, what stays private, how to retire it",
+          "triggers": [
+            "run net-shared-intro-list",
+            "a friend offered to help me find clients",
+            "share my brief with a partner",
+            "let someone add people to my list",
+            "introductions from a friend's network",
+            "shared intro list"
+          ]
+        },
+        {
+          "name": "net-partner-agreement",
+          "path": "packs/networking-on-linkedin-pack/skills/net-partner-agreement",
+          "order": 26,
+          "summary": "Each side's work, who each introduces to the other and why, how introductions and loop closing work, fee questions for an adviser, review date",
+          "triggers": [
+            "run net-partner-agreement",
+            "networking partner",
+            "another firm keeps sending me work",
+            "write down our introduction arrangement",
+            "should I pay a fee for introductions",
+            "partner agreement draft"
+          ]
+        },
+        {
+          "name": "net-thank-you-note",
+          "path": "packs/networking-on-linkedin-pack/skills/net-thank-you-note",
+          "order": 27,
+          "summary": "A thank-you within days, what happened next (only what may be shared), a give back, a reminder to update the introducer",
+          "triggers": [
+            "run net-thank-you-note",
+            "thank someone for an introduction",
+            "close the loop with the person who introduced me",
+            "tell them how it went",
+            "thank-you note for an introduction",
+            "I never told them what happened"
+          ]
+        },
+        {
+          "name": "net-run-of-ten",
+          "path": "packs/networking-on-linkedin-pack/skills/net-run-of-ten",
+          "order": 28,
+          "summary": "This week's run of about 10 people, reason and status per person, what is ready, what waits for research",
+          "triggers": [
+            "run net-run-of-ten",
+            "plan my networking this week",
+            "who am I writing to this week",
+            "set up my next run",
+            "I only network when work dries up",
+            "keep my outreach steady",
+            "where is each message at"
+          ]
+        },
+        {
+          "name": "net-follow-up-tracker",
+          "path": "packs/networking-on-linkedin-pack/skills/net-follow-up-tracker",
+          "order": 29,
+          "summary": "Replies due, one polite follow-up and when, when to stop, times found in your calendar, threads found in your inbox",
+          "triggers": [
+            "run net-follow-up-tracker",
+            "who do I owe a reply",
+            "what follow-ups are due this week",
+            "did they ever write back",
+            "should I chase this",
+            "find times for a call",
+            "my conversations keep dying"
+          ]
+        },
+        {
+          "name": "net-personal-crm-log",
+          "path": "packs/networking-on-linkedin-pack/skills/net-personal-crm-log",
+          "order": 30,
+          "summary": "Who you spoke to and when, what they need, what you promised and by when, next touch date, facts only",
+          "triggers": [
+            "run net-personal-crm-log",
+            "log this conversation",
+            "what did I promise him",
+            "who did I say I would introduce",
+            "update my contact notes",
+            "what is still open from my calls",
+            "keep track of my promises"
+          ]
+        },
+        {
+          "name": "net-monthly-network-review",
+          "path": "packs/networking-on-linkedin-pack/skills/net-monthly-network-review",
+          "order": 31,
+          "summary": "Where introductions and work came from, which reasons got replies, promises kept and open, gaps, the brief updated",
+          "triggers": [
+            "run net-monthly-network-review",
+            "is my networking working",
+            "review my month",
+            "where did my work come from",
+            "what should I change in my brief",
+            "monthly networking check",
+            "am I too dependent on a few introducers"
+          ]
+        }
+      ]
     }
   ]
 }

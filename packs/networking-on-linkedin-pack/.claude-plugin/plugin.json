@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "networking-on-linkedin-pack",
+  "version": "1.0.0",
+  "description": "31 skills for winning clients through the people you already know, in seven stages: write your networking brief, your fit criteria and the line a contact can repeat; map your own network from your own LinkedIn data export, by fit to the brief and by closeness, down to a shortlist you choose by hand; research each person from public sources with a source for every fact; pick a reason to write that is useful to them and prepare the points you write from; tend past clients with no-ask check-ins, after-action reviews and approved case studies; ask for one specific introduction and make the introduction easy to forward; and keep a weekly rhythm with a run of ten, a follow-up tracker, a private log and a monthly review. For consultants, advisers, fractional executives, founders and owners who sell their own expertise. Claude helps you see your own network and prepare each conversation: you choose every person, write every word and send every message yourself, and nothing is scraped, automated or sent for you.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/networking-on-linkedin-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "networking",
+    "linkedin-networking",
+    "linkedin-data-export",
+    "warm-introductions",
+    "double-opt-in-introduction",
+    "dormant-ties",
+    "referrals",
+    "past-clients",
+    "client-case-study",
+    "partner-agreement",
+    "personal-crm",
+    "business-development",
+    "consulting",
+    "founders"
+  ]
+}

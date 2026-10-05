@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-48 packs, 1084 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+49 packs, 1115 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -61,6 +61,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude pour les entretiens annuels : 20 skills Claude (20 skills): 20 skills Claude en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, de la trame à l'état des lieux. Page: https://meet-polar-bear.com/skills/fr-entretiens-pack. README: [packs/fr-entretiens-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/README.md)
 - Claude pour le recrutement : 32 skills Claude (32 skills): 32 skills Claude en français pour recruter en droit français, du besoin du manager à la fin de la période d'essai. Page: https://meet-polar-bear.com/skills/fr-recrutement-pack. README: [packs/fr-recrutement-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/README.md)
 - Claude pour les RH : 32 skills Claude (32 skills): 32 skills Claude en français pour tenir toute l'année RH en droit français, de la fiche de poste au départ d'un salarié. Page: https://meet-polar-bear.com/skills/fr-rh-pack. README: [packs/fr-rh-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/README.md)
+- Claude for Networking on LinkedIn: 31 Claude Skills (31 skills): 31 Claude skills for winning clients through the people you already know, from your own network to warm introductions. Page: https://meet-polar-bear.com/skills/networking-on-linkedin-pack. README: [packs/networking-on-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/README.md)
 
 ## Skills
 
@@ -274,6 +275,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/resources/evidence-and-sources.md): the Claude pour les entretiens annuels : 20 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/resources/evidence-and-sources.md): the Claude pour le recrutement : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-rh-pack/resources/evidence-and-sources.md): the Claude pour les RH : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/networking-on-linkedin-pack/resources/evidence-and-sources.md): the Claude for Networking on LinkedIn: 31 Claude Skills Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1423,3 +1425,41 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - rh-rupture-conventionnelle: packs/fr-rh-pack/skills/rh-rupture-conventionnelle/SKILL.md — Calendrier des entretiens, rétractation et homologation, points de la convention, questions
 - rh-depart-salarie: packs/fr-rh-pack/skills/rh-depart-salarie/SKILL.md — Liste du préavis au dernier jour, documents de fin de contrat, accès retirés, archivage
 - Reference: packs/fr-rh-pack/resources/evidence-and-sources.md
+
+## Claude for Networking on LinkedIn: 31 Claude Skills
+
+31 Claude skills for winning clients through the people you already know, from your own network to warm introductions, in seven stages: write your networking brief, your ideal client fit criteria and the line a contact can repeat; map your own network from your own LinkedIn data export, by fit to the brief and by closeness, down to a shortlist you choose by hand; research each person from public sources with a source for every fact; pick a reason to write that is useful to them and prepare the points you write from; tend past clients with no-ask check-ins, after-action reviews and approved case studies; ask for one specific introduction and make the introduction easy to forward; then keep a weekly rhythm with a run of ten, a follow-up tracker, a private log and a monthly review. For consultants, advisers, fractional executives, founders and owners who sell their own expertise. Claude helps you see your own network and prepare each conversation: you choose every person, write every word and send every message yourself, and nothing is scraped, automated or sent for you.
+
+- Pack: packs/networking-on-linkedin-pack/README.md
+- net-networking-brief: packs/networking-on-linkedin-pack/skills/net-networking-brief/SKILL.md — Who you help, the problem you solve, what you want help with now, who you would like to meet, a good introduction, who is not a fit
+- net-ideal-client-profile: packs/networking-on-linkedin-pack/skills/net-ideal-client-profile/SKILL.md — Fit criteria as situations, roles and triggers, signals you can read in a connections list, poor-fit signs, fit questions
+- net-elevator-pitch: packs/networking-on-linkedin-pack/skills/net-elevator-pitch/SKILL.md — One or two sentences a contact can repeat, the problem in the client's words, three versions to test, words to drop
+- net-five-minute-favor-list: packs/networking-on-linkedin-pack/skills/net-five-minute-favor-list/SKILL.md — What you can give in five minutes, who it suits by situation, what you will not offer, a log with no scorekeeping
+- net-linkedin-data-export: packs/networking-on-linkedin-pack/skills/net-linkedin-data-export/SKILL.md — Request steps from LinkedIn's help page, which files to use and leave out, where the file lives, column cleanup, when to delete it
+- net-network-fit-map: packs/networking-on-linkedin-pack/skills/net-network-fit-map/SKILL.md — Each connection read against the brief, the visible match and its reason, fit left for you to set, a fit floor, a cap per company
+- net-closeness-tiers: packs/networking-on-linkedin-pack/skills/net-closeness-tiers/SKILL.md — A first estimate from your own message exchanges, four tiers in your own words, every tier corrected by you
+- net-dormant-ties-list: packs/networking-on-linkedin-pack/skills/net-dormant-ties-list/SKILL.md — People you once exchanged with often and lost touch with, the thread to pick up, what to research, the reason to reconnect
+- net-hand-picked-shortlist: packs/networking-on-linkedin-pack/skills/net-hand-picked-shortlist/SKILL.md — About 10 names you choose, your reason for each, fit and tier as you set them, company cap checked, names set aside
+- net-person-research-brief: packs/networking-on-linkedin-pack/skills/net-person-research-brief/SKILL.md — Public facts about one person's work, each with a source and date, unknowns stated, what you share, open questions
+- net-trigger-event-scan: packs/networking-on-linkedin-pack/skills/net-trigger-event-scan/SKILL.md — Recent public events with date and source, which one is worth a congratulation, what is too old or too private
+- net-coffee-chat-prep: packs/networking-on-linkedin-pack/skills/net-coffee-chat-prep/SKILL.md — What you know (sourced), three questions you want answered, one thing to offer, what you will not pitch, how to close
+- net-reason-to-write: packs/networking-on-linkedin-pack/skills/net-reason-to-write/SKILL.md — The five reasons, which fits this person, why it is useful to them, the reasons that would be a pitch in disguise
+- net-talking-points: packs/networking-on-linkedin-pack/skills/net-talking-points/SKILL.md — 2 or 3 sourced points for the chosen reason, nothing pushed, no message assembled
+- net-message-checklist: packs/networking-on-linkedin-pack/skills/net-message-checklist/SKILL.md — Your own message checked line by line against the checklist, flags only, no rewriting
+- net-grammar-check: packs/networking-on-linkedin-pack/skills/net-grammar-check/SKILL.md — Grammar, spelling and punctuation fixes only, each change shown before and after, tone and length untouched
+- net-past-client-list: packs/networking-on-linkedin-pack/skills/net-past-client-list/SKILL.md — Past clients from your own records, last real exchange, what has changed, the thread to pick up, no ranking by value
+- net-client-check-in: packs/networking-on-linkedin-pack/skills/net-client-check-in/SKILL.md — A no-ask conversation plan, what changed, one useful thing to bring, questions, what you will not sell, a note to log
+- net-client-after-action-review: packs/networking-on-linkedin-pack/skills/net-client-after-action-review/SKILL.md — With the client: what was meant to happen, what happened, why, what to keep and change, what they want next
+- net-client-case-study: packs/networking-on-linkedin-pack/skills/net-client-case-study/SKILL.md — A short case from an interview, the client's approval of naming and numbers, a sourced figure list, a one-page version
+- net-client-relationship-map: packs/networking-on-linkedin-pack/skills/net-client-relationship-map/SKILL.md — Who you know inside a client, two-way dependencies, who else faces the problem, facts separate from guesses
+- net-introduction-ask: packs/networking-on-linkedin-pack/skills/net-introduction-ask/SKILL.md — When to ask, one specific introduction tied to the brief, the easy way to say no, what you offer back, what not to say
+- net-forwardable-blurb: packs/networking-on-linkedin-pack/skills/net-forwardable-blurb/SKILL.md — A short note the introducer can forward unedited: who you are, why this person, what you would ask, how to decline
+- net-double-opt-in-intro: packs/networking-on-linkedin-pack/skills/net-double-opt-in-intro/SKILL.md — Two separate permission notes, what each side gains, the introduction once both say yes, a graceful line for a no
+- net-shared-intro-list: packs/networking-on-linkedin-pack/skills/net-shared-intro-list/SKILL.md — Your brief shared with a friend or partner, their people added against it, an owner column, what stays private, how to retire it
+- net-partner-agreement: packs/networking-on-linkedin-pack/skills/net-partner-agreement/SKILL.md — Each side's work, who each introduces to the other and why, how introductions and loop closing work, fee questions for an adviser, review date
+- net-thank-you-note: packs/networking-on-linkedin-pack/skills/net-thank-you-note/SKILL.md — A thank-you within days, what happened next (only what may be shared), a give back, a reminder to update the introducer
+- net-run-of-ten: packs/networking-on-linkedin-pack/skills/net-run-of-ten/SKILL.md — This week's run of about 10 people, reason and status per person, what is ready, what waits for research
+- net-follow-up-tracker: packs/networking-on-linkedin-pack/skills/net-follow-up-tracker/SKILL.md — Replies due, one polite follow-up and when, when to stop, times found in your calendar, threads found in your inbox
+- net-personal-crm-log: packs/networking-on-linkedin-pack/skills/net-personal-crm-log/SKILL.md — Who you spoke to and when, what they need, what you promised and by when, next touch date, facts only
+- net-monthly-network-review: packs/networking-on-linkedin-pack/skills/net-monthly-network-review/SKILL.md — Where introductions and work came from, which reasons got replies, promises kept and open, gaps, the brief updated
+- Reference: packs/networking-on-linkedin-pack/resources/evidence-and-sources.md
