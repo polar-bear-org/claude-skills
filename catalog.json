@@ -11815,6 +11815,485 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ai-pricing-pack",
+      "title": "Pricing Under AI Pressure: 29 Claude Skills",
+      "path": "packs/ai-pricing-pack",
+      "homepage": "https://meet-polar-bear.com/skills/ai-pricing-pack",
+      "version": "1.0.0",
+      "description": "29 Claude skills for pricing your expertise when your clients have AI too, in seven steps: knowing your own numbers, deciding what AI changes, productising an offer, pricing on value and outcomes, having the price conversation, disclosing AI and agreeing the terms, then retainers, scope and raising prices. For founders and owners who sell their expertise, consultants, advisers and fractional leaders who set their own prices. Claude works from your own numbers and helps you prepare an honest conversation: it never sets your price, never invents a benchmark or a competitor's rate, and never hides your use of AI.",
+      "audience": [
+        "founders and owners who sell their expertise",
+        "independent consultants and advisers",
+        "fractional leaders",
+        "freelancers and solo practitioners",
+        "small agency and boutique owners who set their own prices"
+      ],
+      "keywords": [
+        "pricing",
+        "ai-pricing",
+        "value-based-pricing",
+        "outcome-based-pricing",
+        "floor-rate",
+        "day-rate",
+        "price-increase",
+        "retainer",
+        "scope-creep",
+        "statement-of-work",
+        "productized-service",
+        "ai-disclosure",
+        "consulting",
+        "freelance"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "price-floor-rate",
+          "path": "packs/ai-pricing-pack/skills/price-floor-rate",
+          "order": 1,
+          "summary": "Fully loaded cost, real non-billable time, floor per day and per hour, kept internal",
+          "triggers": [
+            "run price-floor-rate",
+            "what is my minimum day rate",
+            "what is the lowest I can quote",
+            "work out my break-even rate",
+            "how much do I need to charge per day",
+            "am I undercharging",
+            "cost floor before I quote"
+          ]
+        },
+        {
+          "name": "price-client-profitability",
+          "path": "packs/ai-pricing-pack/skills/price-client-profitability",
+          "order": 2,
+          "summary": "Margin per client, the whale curve, realisation by client, two clients to look at first",
+          "triggers": [
+            "run price-client-profitability",
+            "which clients make me money",
+            "which client is eating my margin",
+            "margin per client",
+            "whale curve",
+            "billed versus worked hours by client",
+            "is this client worth keeping"
+          ]
+        },
+        {
+          "name": "price-ai-activity-map",
+          "path": "packs/ai-pricing-pack/skills/price-ai-activity-map",
+          "order": 3,
+          "summary": "Activities per service, time before and after AI measured on real jobs, what stays human, net saving",
+          "triggers": [
+            "run price-ai-activity-map",
+            "where does AI actually save me time",
+            "how much time does AI save per project",
+            "map my work before and after AI",
+            "what is still human in my service",
+            "measure my AI time savings",
+            "what AI changed in my delivery"
+          ]
+        },
+        {
+          "name": "price-ai-cost-ledger",
+          "path": "packs/ai-pricing-pack/skills/price-ai-cost-ledger",
+          "order": 4,
+          "summary": "AI tool and API costs per client or offer, review time AI adds, absorb, bill or price in",
+          "triggers": [
+            "run price-ai-cost-ledger",
+            "should I bill clients for AI tools",
+            "pass AI costs to clients",
+            "absorb or bill my AI subscriptions",
+            "track my AI spend per client",
+            "my AI bills keep growing"
+          ]
+        },
+        {
+          "name": "price-ai-savings-decision",
+          "path": "packs/ai-pricing-pack/skills/price-ai-savings-decision",
+          "order": 5,
+          "summary": "Pass on, keep as margin or reinvest, per service, with the line you will say to clients",
+          "triggers": [
+            "run price-ai-savings-decision",
+            "should I pass AI savings on to clients",
+            "keep the AI saving as margin",
+            "do I lower my fees because AI is faster",
+            "what do I do with the time AI saves",
+            "AI made me faster, now what about price",
+            "set my policy on AI savings"
+          ]
+        },
+        {
+          "name": "price-full-price-list",
+          "path": "packs/ai-pricing-pack/skills/price-full-price-list",
+          "order": 6,
+          "summary": "What clients pay for beyond the output, your evidence, what no longer earns full price",
+          "triggers": [
+            "run price-full-price-list",
+            "what do I still charge full price for",
+            "AI did most of the work, what am I paid for",
+            "what is my work worth beyond the deliverable",
+            "what should I stop charging for",
+            "justify my fee now that AI exists",
+            "what can clients do themselves now"
+          ]
+        },
+        {
+          "name": "price-ai-positioning-statement",
+          "path": "packs/ai-pricing-pack/skills/price-ai-positioning-statement",
+          "order": 7,
+          "summary": "How you use AI in plain words, what clients get that their own AI does not give them, short versions",
+          "triggers": [
+            "run price-ai-positioning-statement",
+            "do I market as AI powered",
+            "clients think AI is good enough",
+            "how do I position myself against AI",
+            "explain how I use AI",
+            "why hire me when they have AI",
+            "a line about AI for my website"
+          ]
+        },
+        {
+          "name": "price-pricing-models-comparison",
+          "path": "packs/ai-pricing-pack/skills/price-pricing-models-comparison",
+          "order": 8,
+          "summary": "Hourly to outcome models side by side on five considerations, who carries the risk, your pick",
+          "triggers": [
+            "run price-pricing-models-comparison",
+            "how do I bill when AI does the work",
+            "hourly or fixed fee",
+            "should I move off hourly billing",
+            "compare pricing models",
+            "fixed fee or value pricing",
+            "which fee model for this service"
+          ]
+        },
+        {
+          "name": "price-productized-service",
+          "path": "packs/ai-pricing-pack/skills/price-productized-service",
+          "order": 9,
+          "summary": "One named offer with outcome, fixed scope, timeline, fixed price from your numbers",
+          "triggers": [
+            "run price-productized-service",
+            "productise my service",
+            "turn my project into a fixed offer",
+            "stop custom quoting every job",
+            "fixed price package",
+            "make a standard offer",
+            "price stops following the hours"
+          ]
+        },
+        {
+          "name": "price-service-blueprint",
+          "path": "packs/ai-pricing-pack/skills/price-service-blueprint",
+          "order": 10,
+          "summary": "The offer from the client's side, where AI works and where a named person checks and decides",
+          "triggers": [
+            "run price-service-blueprint",
+            "service blueprint",
+            "show the client what AI does",
+            "map how my offer is delivered",
+            "where does AI work in my process",
+            "explain my AI use to a client",
+            "frontstage backstage"
+          ]
+        },
+        {
+          "name": "price-offer-unit-economics",
+          "path": "packs/ai-pricing-pack/skills/price-offer-unit-economics",
+          "order": 11,
+          "summary": "Price, delivery and AI cost per sale, contribution margin, sales needed to break even",
+          "triggers": [
+            "run price-offer-unit-economics",
+            "does my offer pay",
+            "how many do I need to sell",
+            "break-even for my offer",
+            "contribution margin per sale",
+            "unit economics of my package",
+            "what if I change the price"
+          ]
+        },
+        {
+          "name": "price-ai-workflow-offer",
+          "path": "packs/ai-pricing-pack/skills/price-ai-workflow-offer",
+          "order": 12,
+          "summary": "The options when a client wants to buy your AI workflow, IP and licensing questions to check with a qualified adviser",
+          "triggers": [
+            "run price-ai-workflow-offer",
+            "client wants to buy our AI workflow",
+            "sell my workflow",
+            "license my process",
+            "handover offer",
+            "client wants to do it in house",
+            "price a workflow build"
+          ]
+        },
+        {
+          "name": "price-value-discovery-questions",
+          "path": "packs/ai-pricing-pack/skills/price-value-discovery-questions",
+          "order": 13,
+          "summary": "Questions on the outcome, its worth in the client's numbers, the cost of doing nothing, the alternative",
+          "triggers": [
+            "run price-value-discovery-questions",
+            "what is this worth to the client",
+            "value discovery call",
+            "questions before I price on value",
+            "find out what the outcome is worth",
+            "how do I ask about budget without asking about budget",
+            "prep my discovery questions"
+          ]
+        },
+        {
+          "name": "price-value-based-pricing",
+          "path": "packs/ai-pricing-pack/skills/price-value-based-pricing",
+          "order": 14,
+          "summary": "Value drivers in the client's numbers, value range, your floor, the price you set and why",
+          "triggers": [
+            "run price-value-based-pricing",
+            "price this on value",
+            "move from hours to value",
+            "what should I charge for this outcome",
+            "value price worksheet",
+            "is my price defensible",
+            "price above my day rate"
+          ]
+        },
+        {
+          "name": "price-outcome-based-pricing",
+          "path": "packs/ai-pricing-pack/skills/price-outcome-based-pricing",
+          "order": 15,
+          "summary": "Outcome metric, baseline, attribution rule, base fee plus outcome part, cap, floor, window",
+          "triggers": [
+            "run price-outcome-based-pricing",
+            "the client wants to pay for results",
+            "pay on outcome",
+            "success fee",
+            "gain share",
+            "performance-based fee",
+            "can I price on this result"
+          ]
+        },
+        {
+          "name": "price-three-option-proposal",
+          "path": "packs/ai-pricing-pack/skills/price-three-option-proposal",
+          "order": 16,
+          "summary": "One to three real options by scope and outcome, fee by phase, assumptions, plain terms, dated next steps",
+          "triggers": [
+            "run price-three-option-proposal",
+            "give the client options",
+            "good better best proposal",
+            "write the fee section",
+            "how do I present the price",
+            "stop sending one number",
+            "build the options for this client"
+          ]
+        },
+        {
+          "name": "price-conversation-prep",
+          "path": "packs/ai-pricing-pack/skills/price-conversation-prep",
+          "order": 17,
+          "summary": "Your number, your walk-away floor, your alternative, their interests, first two sentences, trades",
+          "triggers": [
+            "run price-conversation-prep",
+            "the price call is tomorrow",
+            "prepare me for the fee conversation",
+            "I always discount before they ask",
+            "help me hold my price",
+            "what do I say when they push back on price",
+            "walk the client through my proposal"
+          ]
+        },
+        {
+          "name": "price-ai-objection-answer",
+          "path": "packs/ai-pricing-pack/skills/price-ai-objection-answer",
+          "order": 18,
+          "summary": "What is true in the objection, what clients get from you, an offer to show your workflow, your reply",
+          "triggers": [
+            "run price-ai-objection-answer",
+            "AI could do this in 10 seconds",
+            "why are you charging so much",
+            "my client says a chatbot can do this",
+            "answer the AI objection",
+            "how do I defend my fee against AI",
+            "reply to a client who doubts my value"
+          ]
+        },
+        {
+          "name": "price-ai-discount-response",
+          "path": "packs/ai-pricing-pack/skills/price-ai-discount-response",
+          "order": 19,
+          "summary": "What the request asks, what changed in the work, four honest options, the trades, a reply draft",
+          "triggers": [
+            "run price-ai-discount-response",
+            "the client wants money off because I use AI",
+            "AI discount request",
+            "they say AI should make it cheaper",
+            "should I lower my fee because of AI",
+            "reply to a discount request",
+            "the client wants a share of my AI savings"
+          ]
+        },
+        {
+          "name": "price-ai-brief-review",
+          "path": "packs/ai-pricing-pack/skills/price-ai-brief-review",
+          "order": 20,
+          "summary": "The brief reduced to one objective and audience, gaps and invented facts, questions back, scope impact",
+          "triggers": [
+            "run price-ai-brief-review",
+            "this brief says everything and nothing",
+            "the client sent a ten-page AI brief",
+            "what does this brief actually want",
+            "the brief came with AI mockups",
+            "does this brief change my price",
+            "questions to send back on a brief"
+          ]
+        },
+        {
+          "name": "price-client-ai-feedback",
+          "path": "packs/ai-pricing-pack/skills/price-client-ai-feedback",
+          "order": 21,
+          "summary": "A chatbot review sorted against the agreed brief, change requests, a calm reply, the cost of a new round",
+          "triggers": [
+            "run price-client-ai-feedback",
+            "the client ran my work through a chatbot",
+            "they say AI found problems in my report",
+            "the client says I am doing a bad job",
+            "triage this feedback",
+            "is this feedback in scope",
+            "how many revision rounds have we used"
+          ]
+        },
+        {
+          "name": "price-ai-disclosure-policy",
+          "path": "packs/ai-pricing-pack/skills/price-ai-disclosure-policy",
+          "order": 22,
+          "summary": "What AI does and what a person always does, client data rules, how clients are told, opt-out",
+          "triggers": [
+            "run price-ai-disclosure-policy",
+            "should I tell clients I use AI",
+            "AI disclosure policy",
+            "AI use statement",
+            "how do I disclose AI to clients",
+            "what client data can go into AI tools",
+            "client wants no AI on their work",
+            "AI line for my website"
+          ]
+        },
+        {
+          "name": "price-statement-of-work",
+          "path": "packs/ai-pricing-pack/skills/price-statement-of-work",
+          "order": 23,
+          "summary": "Outcome, deliverables, acceptance criteria, assumptions, revision rounds, change triggers, AI use line",
+          "triggers": [
+            "run price-statement-of-work",
+            "write a statement of work",
+            "SOW for this project",
+            "turn the proposal into a SOW",
+            "stop scope creep",
+            "acceptance criteria for the deliverables",
+            "how many revision rounds",
+            "AI line in the contract"
+          ]
+        },
+        {
+          "name": "price-ai-contract-questions",
+          "path": "packs/ai-pricing-pack/skills/price-ai-contract-questions",
+          "order": 24,
+          "summary": "Grouped questions for your adviser on AI clauses, with your facts attached",
+          "triggers": [
+            "run price-ai-contract-questions",
+            "client sent AI clauses",
+            "AI clause in the master agreement",
+            "no AI clause",
+            "who owns AI-assisted work",
+            "AI indemnity clause",
+            "questions for my lawyer about AI",
+            "my own AI clauses"
+          ]
+        },
+        {
+          "name": "price-retainer-redesign",
+          "path": "packs/ai-pricing-pack/skills/price-retainer-redesign",
+          "order": 25,
+          "summary": "What the retainer buys in hours and in value, the options, the move per client, the conversation outline",
+          "triggers": [
+            "run price-retainer-redesign",
+            "my retainer is sold as hours",
+            "AI made the hours shrink",
+            "should I kill the retainer",
+            "move a retainer to outcomes",
+            "retainer redesign",
+            "the client did the maths on AI hours",
+            "change how a retainer is priced"
+          ]
+        },
+        {
+          "name": "price-change-request",
+          "path": "packs/ai-pricing-pack/skills/price-change-request",
+          "order": 26,
+          "summary": "The ask, impact against the signed scope, accept, defer, swap or decline, the change log entry",
+          "triggers": [
+            "small",
+            "run price-change-request",
+            "it's just one small change",
+            "scope creep",
+            "price this extra request",
+            "write a change request",
+            "is this in scope",
+            "update the change log",
+            "how do I say this costs extra"
+          ]
+        },
+        {
+          "name": "price-increase-plan",
+          "path": "packs/ai-pricing-pack/skills/price-increase-plan",
+          "order": 27,
+          "summary": "Which clients and offers, the new price from your numbers, timing, notice, order, your decision per client",
+          "triggers": [
+            "run price-increase-plan",
+            "I want to raise my prices",
+            "I keep putting off a price increase",
+            "plan a fee increase",
+            "which clients to raise first",
+            "how much notice do I give",
+            "raise rates without losing clients"
+          ]
+        },
+        {
+          "name": "price-increase-letter",
+          "path": "packs/ai-pricing-pack/skills/price-increase-letter",
+          "order": 28,
+          "summary": "A short plain letter per client with the new price, date, notice, an honest line on how you work now",
+          "triggers": [
+            "run price-increase-letter",
+            "write my price increase email",
+            "how do I tell a client my rates are going up",
+            "price increase letter",
+            "rate increase notice",
+            "letter to clients about new fees",
+            "word my fee increase"
+          ]
+        },
+        {
+          "name": "price-pricing-review",
+          "path": "packs/ai-pricing-pack/skills/price-pricing-review",
+          "order": 29,
+          "summary": "Floor re-run, margins, AI savings and costs, fee leakage, wins and losses on price, three decisions",
+          "triggers": [
+            "run price-pricing-review",
+            "quarterly pricing review",
+            "where is my fee leaking",
+            "review my prices this quarter",
+            "pricing health check",
+            "am I still charging enough",
+            "fee leakage"
+          ]
+        }
+      ]
     }
   ]
 }

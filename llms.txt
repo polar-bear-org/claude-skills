@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-40 packs, 849 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+41 packs, 878 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -53,6 +53,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude for Marketing Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the junior marketing job well with Claude, then showing it, from first brief to first job. Page: https://meet-polar-bear.com/skills/grad-marketing-pack. README: [packs/grad-marketing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/README.md)
 - Claude Graduate Networking Guide: 30 Claude Skills (30 skills): 30 Claude skills for networking from the people you already know to your first job. Page: https://meet-polar-bear.com/skills/grad-networking-pack. README: [packs/grad-networking-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/README.md)
 - Claude pour les Appels d'Offres : 30 skills Claude (30 skills): 30 Claude skills en français pour répondre aux appels d'offres publics, de la veille au retour d'expérience. Page: https://meet-polar-bear.com/skills/fr-appels-offres-pack. README: [packs/fr-appels-offres-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/README.md)
+- Pricing Under AI Pressure: 29 Claude Skills (29 skills): 29 Claude skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter. Page: https://meet-polar-bear.com/skills/ai-pricing-pack. README: [packs/ai-pricing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/README.md)
 
 ## Skills
 
@@ -258,6 +259,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/resources/evidence-and-sources.md): the Claude for Marketing Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/resources/evidence-and-sources.md): the Claude Graduate Networking Guide Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/resources/evidence-and-sources.md): the Claude pour les Appels d'Offres Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/resources/evidence-and-sources.md): the Pricing Under AI Pressure Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1116,3 +1118,39 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - ao-retour-experience: packs/fr-appels-offres-pack/skills/ao-retour-experience/SKILL.md — Prévu et réel, notes par critère, causes sur le travail, trois changements
 - ao-bibliotheque-contenus: packs/fr-appels-offres-pack/skills/ao-bibliotheque-contenus/SKILL.md — Blocs validés et datés, source, règle d'adaptation, blocs à retirer
 - Reference: packs/fr-appels-offres-pack/resources/evidence-and-sources.md
+
+## Pricing Under AI Pressure: 29 Claude Skills
+
+29 Claude skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter.
+
+- Pack: packs/ai-pricing-pack/README.md
+- price-floor-rate: packs/ai-pricing-pack/skills/price-floor-rate/SKILL.md — Fully loaded cost, real non-billable time, floor per day and per hour, kept internal
+- price-client-profitability: packs/ai-pricing-pack/skills/price-client-profitability/SKILL.md — Margin per client, the whale curve, realisation by client, two clients to look at first
+- price-ai-activity-map: packs/ai-pricing-pack/skills/price-ai-activity-map/SKILL.md — Activities per service, time before and after AI measured on real jobs, what stays human, net saving
+- price-ai-cost-ledger: packs/ai-pricing-pack/skills/price-ai-cost-ledger/SKILL.md — AI tool and API costs per client or offer, review time AI adds, absorb, bill or price in
+- price-ai-savings-decision: packs/ai-pricing-pack/skills/price-ai-savings-decision/SKILL.md — Pass on, keep as margin or reinvest, per service, with the line you will say to clients
+- price-full-price-list: packs/ai-pricing-pack/skills/price-full-price-list/SKILL.md — What clients pay for beyond the output, your evidence, what no longer earns full price
+- price-ai-positioning-statement: packs/ai-pricing-pack/skills/price-ai-positioning-statement/SKILL.md — How you use AI in plain words, what clients get that their own AI does not give them, short versions
+- price-pricing-models-comparison: packs/ai-pricing-pack/skills/price-pricing-models-comparison/SKILL.md — Hourly to outcome models side by side on five considerations, who carries the risk, your pick
+- price-productized-service: packs/ai-pricing-pack/skills/price-productized-service/SKILL.md — One named offer with outcome, fixed scope, timeline, fixed price from your numbers
+- price-service-blueprint: packs/ai-pricing-pack/skills/price-service-blueprint/SKILL.md — The offer from the client's side, where AI works and where a named person checks and decides
+- price-offer-unit-economics: packs/ai-pricing-pack/skills/price-offer-unit-economics/SKILL.md — Price, delivery and AI cost per sale, contribution margin, sales needed to break even
+- price-ai-workflow-offer: packs/ai-pricing-pack/skills/price-ai-workflow-offer/SKILL.md — The options when a client wants to buy your AI workflow, IP and licensing questions to check with a qualified adviser
+- price-value-discovery-questions: packs/ai-pricing-pack/skills/price-value-discovery-questions/SKILL.md — Questions on the outcome, its worth in the client's numbers, the cost of doing nothing, the alternative
+- price-value-based-pricing: packs/ai-pricing-pack/skills/price-value-based-pricing/SKILL.md — Value drivers in the client's numbers, value range, your floor, the price you set and why
+- price-outcome-based-pricing: packs/ai-pricing-pack/skills/price-outcome-based-pricing/SKILL.md — Outcome metric, baseline, attribution rule, base fee plus outcome part, cap, floor, window
+- price-three-option-proposal: packs/ai-pricing-pack/skills/price-three-option-proposal/SKILL.md — One to three real options by scope and outcome, fee by phase, assumptions, plain terms, dated next steps
+- price-conversation-prep: packs/ai-pricing-pack/skills/price-conversation-prep/SKILL.md — Your number, your walk-away floor, your alternative, their interests, first two sentences, trades
+- price-ai-objection-answer: packs/ai-pricing-pack/skills/price-ai-objection-answer/SKILL.md — What is true in the objection, what clients get from you, an offer to show your workflow, your reply
+- price-ai-discount-response: packs/ai-pricing-pack/skills/price-ai-discount-response/SKILL.md — What the request asks, what changed in the work, four honest options, the trades, a reply draft
+- price-ai-brief-review: packs/ai-pricing-pack/skills/price-ai-brief-review/SKILL.md — The brief reduced to one objective and audience, gaps and invented facts, questions back, scope impact
+- price-client-ai-feedback: packs/ai-pricing-pack/skills/price-client-ai-feedback/SKILL.md — A chatbot review sorted against the agreed brief, change requests, a calm reply, the cost of a new round
+- price-ai-disclosure-policy: packs/ai-pricing-pack/skills/price-ai-disclosure-policy/SKILL.md — What AI does and what a person always does, client data rules, how clients are told, opt-out
+- price-statement-of-work: packs/ai-pricing-pack/skills/price-statement-of-work/SKILL.md — Outcome, deliverables, acceptance criteria, assumptions, revision rounds, change triggers, AI use line
+- price-ai-contract-questions: packs/ai-pricing-pack/skills/price-ai-contract-questions/SKILL.md — Grouped questions for your adviser on AI clauses, with your facts attached
+- price-retainer-redesign: packs/ai-pricing-pack/skills/price-retainer-redesign/SKILL.md — What the retainer buys in hours and in value, the options, the move per client, the conversation outline
+- price-change-request: packs/ai-pricing-pack/skills/price-change-request/SKILL.md — The ask, impact against the signed scope, accept, defer, swap or decline, the change log entry
+- price-increase-plan: packs/ai-pricing-pack/skills/price-increase-plan/SKILL.md — Which clients and offers, the new price from your numbers, timing, notice, order, your decision per client
+- price-increase-letter: packs/ai-pricing-pack/skills/price-increase-letter/SKILL.md — A short plain letter per client with the new price, date, notice, an honest line on how you work now
+- price-pricing-review: packs/ai-pricing-pack/skills/price-pricing-review/SKILL.md — Floor re-run, margins, AI savings and costs, fee leakage, wins and losses on price, three decisions
+- Reference: packs/ai-pricing-pack/resources/evidence-and-sources.md

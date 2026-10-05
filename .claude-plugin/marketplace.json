@@ -1144,6 +1144,36 @@
         "francais",
         "ai"
       ]
+    },
+    {
+      "name": "ai-pricing-pack",
+      "source": "./packs/ai-pricing-pack",
+      "description": "29 Claude Skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter: the floor rate, the client profitability map, the AI activity map and cost ledger, the savings decision, the full-price work list and AI positioning, productised offers and their unit economics, value and outcome-based pricing, the three-option proposal, the price conversation, the AI discount request and the “AI could do this in 10 seconds” objection, the AI disclosure policy and statement of work, retainer redesign, scope changes, and the price increase plan, letter and quarterly review.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/ai-pricing-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "pricing",
+        "ai-pricing",
+        "value-based-pricing",
+        "outcome-based-pricing",
+        "floor-rate",
+        "day-rate",
+        "price-increase",
+        "retainer",
+        "scope-creep",
+        "statement-of-work",
+        "productized-service",
+        "ai-disclosure",
+        "consulting",
+        "freelance"
+      ]
     }
   ]
 }

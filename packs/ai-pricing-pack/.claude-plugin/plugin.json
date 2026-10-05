@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "ai-pricing-pack",
+  "version": "1.0.0",
+  "description": "Pricing Under AI Pressure: 29 Claude Skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter. Work out the floor below which a job loses you money, see which clients carry your margin, measure where AI really saves time and what it costs, decide whether to pass the saving on, productise an offer and price it on value and outcomes, prepare the price call and the \"AI could do this in 10 seconds\" objection, put your AI use and your scope in writing, and keep retainers and prices current. For founders, consultants, advisers and fractional leaders who set their own prices. Claude works from your own numbers: it never sets your price, never invents a benchmark or a competitor's rate, and never hides your use of AI.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/ai-pricing-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "pricing",
+    "ai-pricing",
+    "value-based-pricing",
+    "outcome-based-pricing",
+    "floor-rate",
+    "day-rate",
+    "price-increase",
+    "retainer",
+    "scope-creep",
+    "statement-of-work",
+    "productized-service",
+    "ai-disclosure",
+    "consulting",
+    "freelance"
+  ]
+}
