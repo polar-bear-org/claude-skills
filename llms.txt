@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-38 packs, 789 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+39 packs, 819 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -51,6 +51,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Nail Your First Job with Claude: 31 Claude Skills (31 skills): 31 Claude skills for getting up to speed in your first job, from before day one to your first review. Page: https://meet-polar-bear.com/skills/grad-first-job-pack. README: [packs/grad-first-job-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/README.md)
 - Claude for LinkedIn Networking for Recent Graduates: 28 Claude Skills (28 skills): 28 Claude skills for an honest LinkedIn presence in your own voice, from an empty profile to a 20-minute weekly routine. Page: https://meet-polar-bear.com/skills/grad-linkedin-pack. README: [packs/grad-linkedin-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/README.md)
 - Claude for Marketing Graduates: 31 Claude Skills (31 skills): 31 Claude skills for doing the junior marketing job well with Claude, then showing it, from first brief to first job. Page: https://meet-polar-bear.com/skills/grad-marketing-pack. README: [packs/grad-marketing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/README.md)
+- Claude Graduate Networking Guide: 30 Claude Skills (30 skills): 30 Claude skills for networking from the people you already know to your first job. Page: https://meet-polar-bear.com/skills/grad-networking-pack. README: [packs/grad-networking-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/README.md)
 
 ## Skills
 
@@ -254,6 +255,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-first-job-pack/resources/evidence-and-sources.md): the Nail Your First Job with Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-linkedin-pack/resources/evidence-and-sources.md): the Claude for LinkedIn Networking for Recent Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-marketing-pack/resources/evidence-and-sources.md): the Claude for Marketing Graduates Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/resources/evidence-and-sources.md): the Claude Graduate Networking Guide Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1038,3 +1040,40 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - gmkt-marketing-task-prep: packs/grad-marketing-pack/skills/gmkt-marketing-task-prep/SKILL.md — Task brief decoded, plan and timing, practice on a sample brief, critique of your own draft, rehearsal questions
 - gmkt-interview-questions: packs/grad-marketing-pack/skills/gmkt-interview-questions/SKILL.md — Likely questions from the ad, STAR stories from real experience, a mock interview, feedback on your answers
 - Reference: packs/grad-marketing-pack/resources/evidence-and-sources.md
+
+## Claude Graduate Networking Guide: 30 Claude Skills
+
+30 Claude skills for networking from the people you already know to your first job.
+
+- Pack: packs/grad-networking-pack/README.md
+- gnet-networking-brief: packs/grad-networking-pack/skills/gnet-networking-brief/SKILL.md — Target roles, the help you need, what you can offer back, what you will not ask for yet
+- gnet-target-employer-list: packs/grad-networking-pack/skills/gnet-target-employer-list/SKILL.md — 10 to 20 employers against the brief, routes and dates, a sourced reason each, smaller employers, the ones you drop
+- gnet-elevator-pitch: packs/grad-networking-pack/skills/gnet-elevator-pitch/SKILL.md — A 30-second introduction in your words, a 10-second version, one question to hand over
+- gnet-linkedin-data-export: packs/grad-networking-pack/skills/gnet-linkedin-data-export/SKILL.md — Download steps, your Connections file as a clean list, message counts per person, gaps noted
+- gnet-network-map: packs/grad-networking-pack/skills/gnet-network-map/SKILL.md — People from real life added by hand, grouped in circles, how each could help, who you forgot
+- gnet-closeness-tiers: packs/grad-networking-pack/skills/gnet-closeness-tiers/SKILL.md — Each person tagged in your own words, a first guess you correct, dormant ties flagged
+- gnet-contact-shortlist: packs/grad-networking-pack/skills/gnet-contact-shortlist/SKILL.md — Fit first, closeness second, a cap per employer, about 10 per run, chosen by you
+- gnet-alumni-search-plan: packs/grad-networking-pack/skills/gnet-alumni-search-plan/SKILL.md — Where to look, what to search for, up to 10 names you add by hand, what to ask
+- gnet-person-research: packs/grad-networking-pack/skills/gnet-person-research/SKILL.md — Career path, recent work, shared links, a source per fact, unknowns stated, one question only they could answer
+- gnet-employer-research: packs/grad-networking-pack/skills/gnet-employer-research/SKILL.md — What they do, dated news with sources, graduate routes and deadlines, values, three questions a website cannot answer
+- gnet-reason-to-write: packs/grad-networking-pack/skills/gnet-reason-to-write/SKILL.md — One reason per person that helps them, why it fits, what not to ask yet
+- gnet-message-points: packs/grad-networking-pack/skills/gnet-message-points/SKILL.md — 2 or 3 points for your first message, length and ask checked; you write it
+- gnet-connection-request-note: packs/grad-networking-pack/skills/gnet-connection-request-note/SKILL.md — Points for a short personal note, a check against the default request and any job ask
+- gnet-speculative-approach: packs/grad-networking-pack/skills/gnet-speculative-approach/SKILL.md — Named recipient check, points for each part, follow-up date
+- gnet-grammar-check: packs/grad-networking-pack/skills/gnet-grammar-check/SKILL.md — Grammar and spelling fixed only, every change highlighted, flags for a job ask, length, unsourced facts
+- gnet-follow-up-nudge: packs/grad-networking-pack/skills/gnet-follow-up-nudge/SKILL.md — When to nudge, points for one short nudge, when to stop and log it closed
+- gnet-coffee-chat-prep: packs/grad-networking-pack/skills/gnet-coffee-chat-prep/SKILL.md — One page: who they are, your pitch, your goal, five question slots, what to offer, how to end on time
+- gnet-informational-interview-questions: packs/grad-networking-pack/skills/gnet-informational-interview-questions/SKILL.md — Questions matched to their stage, none answerable from the website, a closing question on who else to talk to
+- gnet-practice-conversation: packs/grad-networking-pack/skills/gnet-practice-conversation/SKILL.md — Claude plays the contact so you rehearse opening, questions and close, then notes what to change
+- gnet-chat-debrief: packs/grad-networking-pack/skills/gnet-chat-debrief/SKILL.md — What you learned, advice to act on, names suggested, promises with dates, one log line
+- gnet-thank-you-note: packs/grad-networking-pack/skills/gnet-thank-you-note/SKILL.md — Points for a thank-you that names one piece of advice and what you will do with it
+- gnet-careers-fair-plan: packs/grad-networking-pack/skills/gnet-careers-fair-plan/SKILL.md — Priority and warm-up stands, two questions per employer, your pitch, what to bring, timing, virtual set-up
+- gnet-event-prep: packs/grad-networking-pack/skills/gnet-event-prep/SKILL.md — Who is speaking, three questions, one person to meet, how you will introduce yourself and leave
+- gnet-event-follow-up: packs/grad-networking-pack/skills/gnet-event-follow-up/SKILL.md — Notes right after each conversation, then one follow-up per person within 48 hours
+- gnet-helper-brief: packs/grad-networking-pack/skills/gnet-helper-brief/SKILL.md — One page a friend, lecturer or mentor reads to open their own network; they choose and write
+- gnet-intro-request: packs/grad-networking-pack/skills/gnet-intro-request/SKILL.md — Points for asking one contact for one introduction, an easy no, double opt-in
+- gnet-forwardable-blurb: packs/grad-networking-pack/skills/gnet-forwardable-blurb/SKILL.md — Three or four sentences the introducer can forward unchanged
+- gnet-referral-ask: packs/grad-networking-pack/skills/gnet-referral-ask/SKILL.md — A readiness check first, then points for a referral ask with an easy no
+- gnet-close-the-loop: packs/grad-networking-pack/skills/gnet-close-the-loop/SKILL.md — Points for telling the person who helped what happened, a thank-you, something to share back
+- gnet-networking-log: packs/grad-networking-pack/skills/gnet-networking-log/SKILL.md — A light private log, a weekly review that picks the next run of about 10, archive and delete notes
+- Reference: packs/grad-networking-pack/resources/evidence-and-sources.md

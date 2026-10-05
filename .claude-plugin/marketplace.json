@@ -1084,6 +1084,36 @@
         "job-search",
         "ai"
       ]
+    },
+    {
+      "name": "grad-networking-pack",
+      "source": "./packs/grad-networking-pack",
+      "description": "30 skills for networking from the people you already know to your first job, in seven stages: write your networking brief, map who you already know, research people and employers from public sources, write to people in your own words, prepare coffee chats and informational interviews, work careers fairs and employer events, and ask for introductions and referrals while keeping a light private log. For final-year students and new graduates. Each skill is one method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/grad-networking-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "networking",
+        "graduate-networking",
+        "graduate-jobs",
+        "early-career",
+        "student-careers",
+        "informational-interview",
+        "coffee-chat",
+        "careers-fair",
+        "alumni-networking",
+        "warm-introductions",
+        "referrals",
+        "speculative-application",
+        "job-search",
+        "ai"
+      ]
     }
   ]
 }

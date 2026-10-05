@@ -10811,6 +10811,505 @@
           ]
         }
       ]
+    },
+    {
+      "name": "grad-networking-pack",
+      "title": "Claude Graduate Networking Guide: 30 Claude Skills",
+      "path": "packs/grad-networking-pack",
+      "homepage": "https://meet-polar-bear.com/skills/grad-networking-pack",
+      "version": "1.0.0",
+      "description": "30 skills for networking from the people you already know to your first job, in seven stages: write your networking brief, map who you already know, research people and employers from public sources, write to people in your own words, prepare coffee chats and informational interviews, work careers fairs and employer events, and ask for introductions and referrals while keeping a light private log. For final-year students and new graduates. Each skill is one method or one artifact, with the inputs it needs, where it breaks, a fixed output template, a finish line and the next skill to run.",
+      "audience": [
+        "final-year students",
+        "new graduates",
+        "university students starting a graduate job search",
+        "students preparing for careers fairs and employer events",
+        "graduates who think they do not know anyone useful"
+      ],
+      "keywords": [
+        "networking",
+        "graduate-networking",
+        "graduate-jobs",
+        "early-career",
+        "student-careers",
+        "informational-interview",
+        "coffee-chat",
+        "careers-fair",
+        "alumni-networking",
+        "warm-introductions",
+        "referrals",
+        "speculative-application",
+        "job-search",
+        "ai"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "gnet-networking-brief",
+          "path": "packs/grad-networking-pack/skills/gnet-networking-brief",
+          "order": 1,
+          "summary": "Target roles, the help you need, what you can offer back, what you will not ask for yet",
+          "triggers": [
+            "run gnet-networking-brief",
+            "I want to network but don't know what for",
+            "what should I ask people for",
+            "help me plan my networking",
+            "who could help me get into this role",
+            "networking goals as a graduate",
+            "turn my CV into a networking plan"
+          ]
+        },
+        {
+          "name": "gnet-target-employer-list",
+          "path": "packs/grad-networking-pack/skills/gnet-target-employer-list",
+          "order": 2,
+          "summary": "10 to 20 employers against the brief, routes and dates, a sourced reason each, smaller employers, the ones you drop",
+          "triggers": [
+            "run gnet-target-employer-list",
+            "which employers should I target",
+            "my list is just the big names",
+            "find smaller graduate employers",
+            "employers for my careers fair",
+            "build a list of companies to apply to",
+            "graduate schemes that fit me"
+          ]
+        },
+        {
+          "name": "gnet-elevator-pitch",
+          "path": "packs/grad-networking-pack/skills/gnet-elevator-pitch",
+          "order": 3,
+          "summary": "A 30-second introduction in your words, a 10-second version, one question to hand over",
+          "triggers": [
+            "run gnet-elevator-pitch",
+            "tell me about yourself",
+            "elevator pitch for a careers fair",
+            "how do I introduce myself to a recruiter",
+            "30-second pitch as a graduate",
+            "what do I say at an employer stand",
+            "intro for an alumni call"
+          ]
+        },
+        {
+          "name": "gnet-linkedin-data-export",
+          "path": "packs/grad-networking-pack/skills/gnet-linkedin-data-export",
+          "order": 4,
+          "summary": "Download steps, your Connections file as a clean list, message counts per person, gaps noted",
+          "triggers": [
+            "run gnet-linkedin-data-export",
+            "read my LinkedIn connections file",
+            "clean my Connections.csv",
+            "how do I download my LinkedIn data",
+            "who am I connected to on LinkedIn",
+            "count my LinkedIn messages per person",
+            "start from my real connections"
+          ]
+        },
+        {
+          "name": "gnet-network-map",
+          "path": "packs/grad-networking-pack/skills/gnet-network-map",
+          "order": 5,
+          "summary": "People from real life added by hand, grouped in circles, how each could help, who you forgot",
+          "triggers": [
+            "run gnet-network-map",
+            "I don't know anyone useful",
+            "map my network",
+            "who do I already know",
+            "networking mind map",
+            "list my contacts by circle",
+            "people I forgot I know"
+          ]
+        },
+        {
+          "name": "gnet-closeness-tiers",
+          "path": "packs/grad-networking-pack/skills/gnet-closeness-tiers",
+          "order": 6,
+          "summary": "Each person tagged in your own words, a first guess you correct, dormant ties flagged",
+          "triggers": [
+            "run gnet-closeness-tiers",
+            "sort my contacts by how well I know them",
+            "who do I actually know",
+            "strong and weak ties",
+            "dormant ties",
+            "who should I reconnect with",
+            "friends versus strangers on LinkedIn"
+          ]
+        },
+        {
+          "name": "gnet-contact-shortlist",
+          "path": "packs/grad-networking-pack/skills/gnet-contact-shortlist",
+          "order": 7,
+          "summary": "Fit first, closeness second, a cap per employer, about 10 per run, chosen by you",
+          "triggers": [
+            "run gnet-contact-shortlist",
+            "who should I contact first",
+            "pick who to message",
+            "shortlist my contacts",
+            "networking shortlist",
+            "narrow down my network",
+            "who fits my brief"
+          ]
+        },
+        {
+          "name": "gnet-alumni-search-plan",
+          "path": "packs/grad-networking-pack/skills/gnet-alumni-search-plan",
+          "order": 8,
+          "summary": "Where to look, what to search for, up to 10 names you add by hand, what to ask",
+          "triggers": [
+            "run gnet-alumni-search-plan",
+            "I don't know anyone at",
+            "find alumni at",
+            "use the LinkedIn alumni tool",
+            "nobody I know works there",
+            "who from my course works in",
+            "alumni mentoring platform",
+            "how do I find people to talk to"
+          ]
+        },
+        {
+          "name": "gnet-person-research",
+          "path": "packs/grad-networking-pack/skills/gnet-person-research",
+          "order": 9,
+          "summary": "Career path, recent work, shared links, a source per fact, unknowns stated, one question only they could answer",
+          "triggers": [
+            "run gnet-person-research",
+            "research this person before I message them",
+            "what should I know about",
+            "I only know their job title",
+            "find something in common with",
+            "prep on this alumnus",
+            "is there a shared link"
+          ]
+        },
+        {
+          "name": "gnet-employer-research",
+          "path": "packs/grad-networking-pack/skills/gnet-employer-research",
+          "order": 10,
+          "summary": "What they do, dated news with sources, graduate routes and deadlines, values, three questions a website cannot answer",
+          "triggers": [
+            "run gnet-employer-research",
+            "research this employer",
+            "commercial awareness on",
+            "what should I know before the careers fair",
+            "prep for a call with someone at",
+            "recent news about",
+            "graduate scheme deadlines at"
+          ]
+        },
+        {
+          "name": "gnet-reason-to-write",
+          "path": "packs/grad-networking-pack/skills/gnet-reason-to-write",
+          "order": 11,
+          "summary": "One reason per person that helps them, why it fits, what not to ask yet",
+          "triggers": [
+            "run gnet-reason-to-write",
+            "every message I start is an ask",
+            "what do I say to them",
+            "reason to message someone",
+            "how to reach out without asking for a job",
+            "I don't want to sound needy",
+            "reconnect with an old contact",
+            "why would they reply to me"
+          ]
+        },
+        {
+          "name": "gnet-message-points",
+          "path": "packs/grad-networking-pack/skills/gnet-message-points",
+          "order": 12,
+          "summary": "2 or 3 points for your first message, length and ask checked; you write it",
+          "triggers": [
+            "run gnet-message-points",
+            "what should I say in my message",
+            "help me write to my old manager",
+            "first message to a contact",
+            "message points",
+            "blank screen",
+            "check my outreach message",
+            "ask for advice message"
+          ]
+        },
+        {
+          "name": "gnet-connection-request-note",
+          "path": "packs/grad-networking-pack/skills/gnet-connection-request-note",
+          "order": 13,
+          "summary": "Points for a short personal note, a check against the default request and any job ask",
+          "triggers": [
+            "run gnet-connection-request-note",
+            "connection request message",
+            "what to write when adding someone on LinkedIn",
+            "LinkedIn invitation note",
+            "add a note to my connection request",
+            "connect with an alumnus",
+            "met them at a careers fair"
+          ]
+        },
+        {
+          "name": "gnet-speculative-approach",
+          "path": "packs/grad-networking-pack/skills/gnet-speculative-approach",
+          "order": 14,
+          "summary": "Named recipient check, points for each part, follow-up date",
+          "triggers": [
+            "run gnet-speculative-approach",
+            "speculative application",
+            "speculative email",
+            "how to ask for a job that is not advertised",
+            "cold email an employer",
+            "email a company that is not hiring",
+            "unadvertised graduate jobs",
+            "who do I send my CV to"
+          ]
+        },
+        {
+          "name": "gnet-grammar-check",
+          "path": "packs/grad-networking-pack/skills/gnet-grammar-check",
+          "order": 15,
+          "summary": "Grammar and spelling fixed only, every change highlighted, flags for a job ask, length, unsourced facts",
+          "triggers": [
+            "run gnet-grammar-check",
+            "check my grammar",
+            "proofread my message",
+            "fix spelling but keep my words",
+            "does this sound ok",
+            "check my email before I send it",
+            "grammar check my LinkedIn message"
+          ]
+        },
+        {
+          "name": "gnet-follow-up-nudge",
+          "path": "packs/grad-networking-pack/skills/gnet-follow-up-nudge",
+          "order": 16,
+          "summary": "When to nudge, points for one short nudge, when to stop and log it closed",
+          "triggers": [
+            "run gnet-follow-up-nudge",
+            "they haven't replied",
+            "how to follow up on LinkedIn",
+            "follow up email no response",
+            "should I message again",
+            "polite reminder message",
+            "how long to wait before following up",
+            "I got ghosted"
+          ]
+        },
+        {
+          "name": "gnet-coffee-chat-prep",
+          "path": "packs/grad-networking-pack/skills/gnet-coffee-chat-prep",
+          "order": 17,
+          "summary": "One page: who they are, your pitch, your goal, five question slots, what to offer, how to end on time",
+          "triggers": [
+            "run gnet-coffee-chat-prep",
+            "prep for a coffee chat",
+            "someone said yes to a call",
+            "informational interview prep",
+            "what do I do in a 15-minute call",
+            "plan my chat with an alumnus",
+            "coffee chat tomorrow",
+            "how do I end the call on time"
+          ]
+        },
+        {
+          "name": "gnet-informational-interview-questions",
+          "path": "packs/grad-networking-pack/skills/gnet-informational-interview-questions",
+          "order": 18,
+          "summary": "Questions matched to their stage, none answerable from the website, a closing question on who else to talk to",
+          "triggers": [
+            "run gnet-informational-interview-questions",
+            "what to ask in an informational interview",
+            "questions for a coffee chat",
+            "what do I ask an alumnus",
+            "questions for a recruiter",
+            "questions for a senior manager",
+            "good networking questions",
+            "beyond what is it like"
+          ]
+        },
+        {
+          "name": "gnet-practice-conversation",
+          "path": "packs/grad-networking-pack/skills/gnet-practice-conversation",
+          "order": 19,
+          "summary": "Claude plays the contact so you rehearse opening, questions and close, then notes what to change",
+          "triggers": [
+            "run gnet-practice-conversation",
+            "rehearse my coffee chat",
+            "practise an informational interview",
+            "role-play the call",
+            "I am nervous about my first chat",
+            "mock networking call",
+            "pretend to be the alumnus",
+            "practise ending on time"
+          ]
+        },
+        {
+          "name": "gnet-chat-debrief",
+          "path": "packs/grad-networking-pack/skills/gnet-chat-debrief",
+          "order": 20,
+          "summary": "What you learned, advice to act on, names suggested, promises with dates, one log line",
+          "triggers": [
+            "run gnet-chat-debrief",
+            "debrief my coffee chat",
+            "write up my informational interview",
+            "notes after a networking call",
+            "what did I promise",
+            "the call just ended",
+            "organise my call notes",
+            "who did they suggest I talk to"
+          ]
+        },
+        {
+          "name": "gnet-thank-you-note",
+          "path": "packs/grad-networking-pack/skills/gnet-thank-you-note",
+          "order": 21,
+          "summary": "Points for a thank-you that names one piece of advice and what you will do with it",
+          "triggers": [
+            "run gnet-thank-you-note",
+            "thank-you after a coffee chat",
+            "thank someone for their time",
+            "follow up after an informational interview",
+            "what to say after a networking call",
+            "thank an alumnus",
+            "how do I thank them",
+            "thank-you message points"
+          ]
+        },
+        {
+          "name": "gnet-careers-fair-plan",
+          "path": "packs/grad-networking-pack/skills/gnet-careers-fair-plan",
+          "order": 22,
+          "summary": "Priority and warm-up stands, two questions per employer, your pitch, what to bring, timing, virtual set-up",
+          "triggers": [
+            "run gnet-careers-fair-plan",
+            "plan my careers fair",
+            "which stands should I visit",
+            "what should I ask at the careers fair",
+            "careers fair next week",
+            "virtual careers fair prep",
+            "questions for recruiters at a fair"
+          ]
+        },
+        {
+          "name": "gnet-event-prep",
+          "path": "packs/grad-networking-pack/skills/gnet-event-prep",
+          "order": 23,
+          "summary": "Who is speaking, three questions, one person to meet, how you will introduce yourself and leave",
+          "triggers": [
+            "run gnet-event-prep",
+            "prepare for an employer presentation",
+            "insight evening prep",
+            "alumni evening prep",
+            "questions for the Q&A",
+            "who should I talk to at the event",
+            "how do I leave a conversation"
+          ]
+        },
+        {
+          "name": "gnet-event-follow-up",
+          "path": "packs/grad-networking-pack/skills/gnet-event-follow-up",
+          "order": 24,
+          "summary": "Notes right after each conversation, then one follow-up per person within 48 hours",
+          "triggers": [
+            "run gnet-event-follow-up",
+            "follow up after the careers fair",
+            "I met recruiters what now",
+            "notes from the employer event",
+            "follow-up after networking event",
+            "who do I follow up with"
+          ]
+        },
+        {
+          "name": "gnet-helper-brief",
+          "path": "packs/grad-networking-pack/skills/gnet-helper-brief",
+          "order": 25,
+          "summary": "One page a friend, lecturer or mentor reads to open their own network; they choose and write",
+          "triggers": [
+            "run gnet-helper-brief",
+            "my lecturer said let me know how I can help",
+            "what do I send a family friend who offered to help",
+            "write a one-pager for my mentor",
+            "brief for someone helping me network",
+            "how do I ask people to help me find contacts",
+            "make it easy for someone to help me"
+          ]
+        },
+        {
+          "name": "gnet-intro-request",
+          "path": "packs/grad-networking-pack/skills/gnet-intro-request",
+          "order": 26,
+          "summary": "Points for asking one contact for one introduction, an easy no, double opt-in",
+          "triggers": [
+            "run gnet-intro-request",
+            "how do I ask for an introduction",
+            "my contact mentioned someone I want to meet",
+            "ask a lecturer to introduce me",
+            "can you introduce me message",
+            "warm introduction request",
+            "ask a friend to connect me with someone"
+          ]
+        },
+        {
+          "name": "gnet-forwardable-blurb",
+          "path": "packs/grad-networking-pack/skills/gnet-forwardable-blurb",
+          "order": 27,
+          "summary": "Three or four sentences the introducer can forward unchanged",
+          "triggers": [
+            "run gnet-forwardable-blurb",
+            "send me something I can forward",
+            "write a blurb for an introduction",
+            "forwardable email",
+            "what to send someone introducing me",
+            "short intro paragraph about me",
+            "blurb for a warm intro"
+          ]
+        },
+        {
+          "name": "gnet-referral-ask",
+          "path": "packs/grad-networking-pack/skills/gnet-referral-ask",
+          "order": 28,
+          "summary": "A readiness check first, then points for a referral ask with an easy no",
+          "triggers": [
+            "not yet",
+            "run gnet-referral-ask",
+            "should I ask for a referral",
+            "how do I ask someone to refer me",
+            "ask a contact for a referral",
+            "is it too early to ask for a referral",
+            "referral request message",
+            "employee referral ask"
+          ]
+        },
+        {
+          "name": "gnet-close-the-loop",
+          "path": "packs/grad-networking-pack/skills/gnet-close-the-loop",
+          "order": 29,
+          "summary": "Points for telling the person who helped what happened, a thank-you, something to share back",
+          "triggers": [
+            "run gnet-close-the-loop",
+            "update the person who introduced me",
+            "tell my referrer what happened",
+            "follow up with someone who helped me",
+            "thank you for the introduction update",
+            "close the loop with a contact",
+            "I never told them how it went"
+          ]
+        },
+        {
+          "name": "gnet-networking-log",
+          "path": "packs/grad-networking-pack/skills/gnet-networking-log",
+          "order": 30,
+          "summary": "A light private log, a weekly review that picks the next run of about 10, archive and delete notes",
+          "triggers": [
+            "run gnet-networking-log",
+            "networking tracker",
+            "keep track of who I messaged",
+            "networking spreadsheet template",
+            "who replied and what did I promise",
+            "weekly networking review",
+            "contact log for job search"
+          ]
+        }
+      ]
     }
   ]
 }
