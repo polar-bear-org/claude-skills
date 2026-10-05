@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "fr-recrutement-pack",
+  "version": "1.0.0",
+  "description": "32 skills en français pour recruter en droit français, dans l'ordre du recrutement : cadrer le besoin avec le manager et fixer la fourchette salariale, écrire l'annonce et construire le sourcing, faire lire chaque candidature par une personne, mener des entretiens structurés et contrôler la non-discrimination, décider sur preuves et répondre à chaque candidat, préparer la promesse, l'intégration et la période d'essai, tenir le travail client des cabinets et des agences d'intérim, puis poser le socle RGPD, IA et pilotage. Pour les chargés et responsables de recrutement, RRH, consultants en cabinet, responsables d'agence d'intérim et managers qui recrutent. Claude prépare les critères, les questions et les messages ; une personne lit chaque candidature, remplit chaque grille et décide pour chaque candidat, et Claude ne trie, ne classe ni ne note jamais une personne.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/fr-recrutement-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "recrutement",
+    "offre-emploi",
+    "fiche-de-poste",
+    "entretien-structure",
+    "sourcing",
+    "non-discrimination",
+    "rgpd-recrutement",
+    "cabinet-recrutement",
+    "interim",
+    "promesse-embauche",
+    "periode-essai",
+    "grille-evaluation",
+    "fourchette-salariale",
+    "francais"
+  ]
+}

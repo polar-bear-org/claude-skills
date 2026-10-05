@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-46 packs, 1020 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+47 packs, 1052 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -59,6 +59,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Guide for Finding Clients: 32 Claude Skills (32 skills): 32 Claude skills to win clients, from your warm network to the signed proposal. Page: https://meet-polar-bear.com/skills/finding-clients-pack. README: [packs/finding-clients-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/README.md)
 - Claude pour les commerciaux : 29 skills Claude (29 skills): 29 skills Claude en français pour le métier commercial B2B, de la préparation des comptes au pilotage du pipe. Page: https://meet-polar-bear.com/skills/fr-commerciaux-pack. README: [packs/fr-commerciaux-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/README.md)
 - Claude pour les entretiens annuels : 20 skills Claude (20 skills): 20 skills Claude en français pour piloter la campagne d'entretiens annuels et l'entretien de parcours professionnel, de la trame à l'état des lieux. Page: https://meet-polar-bear.com/skills/fr-entretiens-pack. README: [packs/fr-entretiens-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/README.md)
+- Claude pour le recrutement : 32 skills Claude (32 skills): 32 skills Claude en français pour recruter en droit français, du besoin du manager à la fin de la période d'essai. Page: https://meet-polar-bear.com/skills/fr-recrutement-pack. README: [packs/fr-recrutement-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/README.md)
 
 ## Skills
 
@@ -270,6 +271,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/finding-clients-pack/resources/evidence-and-sources.md): the Claude Guide for Finding Clients Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-commerciaux-pack/resources/evidence-and-sources.md): the Claude pour les commerciaux : 29 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-entretiens-pack/resources/evidence-and-sources.md): the Claude pour les entretiens annuels : 20 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-recrutement-pack/resources/evidence-and-sources.md): the Claude pour le recrutement : 32 skills Claude Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1341,3 +1343,42 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - entretien-financement-formation: packs/fr-entretiens-pack/skills/entretien-financement-formation/SKILL.md — Voie possible par besoin, pièces à réunir, questions pour l'OPCO
 - entretien-bilan-campagne: packs/fr-entretiens-pack/skills/entretien-bilan-campagne/SKILL.md — Plan face à la réalité, questions de trame, trois changements
 - Reference: packs/fr-entretiens-pack/resources/evidence-and-sources.md
+
+## Claude pour le recrutement : 32 skills Claude
+
+32 skills en français pour recruter en droit français, dans l'ordre du recrutement : cadrer le besoin avec le manager et fixer la fourchette salariale, écrire l'annonce et construire le sourcing, faire lire chaque candidature par une personne, mener des entretiens structurés et contrôler la non-discrimination, décider sur preuves et répondre à chaque candidat, préparer la promesse, l'intégration et la période d'essai, tenir le travail client des cabinets et des agences d'intérim, puis poser le socle RGPD, IA et pilotage. Pour les chargés et responsables de recrutement, RRH, consultants en cabinet, responsables d'agence d'intérim et managers qui recrutent. Claude prépare les critères, les questions et les messages ; une personne lit chaque candidature, remplit chaque grille et décide pour chaque candidat, et Claude ne trie, ne classe ni ne note jamais une personne.
+
+- Pack: packs/fr-recrutement-pack/README.md
+- recrut-brief-recrutement: packs/fr-recrutement-pack/skills/recrut-brief-recrutement/SKILL.md — Questions de cadrage, critères indispensables et formables, brief d'une page à signer
+- recrut-fiche-de-poste: packs/fr-recrutement-pack/skills/recrut-fiche-de-poste/SKILL.md — Missions, résultats attendus, compétences observables, étape d'évaluation de chaque critère
+- recrut-fourchette-salariale: packs/fr-recrutement-pack/skills/recrut-fourchette-salariale/SKILL.md — Fourchette tirée de vos données, éléments de rémunération, réponses prêtes au candidat
+- recrut-processus-recrutement: packs/fr-recrutement-pack/skills/recrut-processus-recrutement/SKILL.md — Carte des étapes, critère par étape, délais de retour, méthodes annoncées aux candidats
+- recrut-annonce: packs/fr-recrutement-pack/skills/recrut-annonce/SKILL.md — Annonce avec le poste réel, salaire, lieu et télétravail, contrôle des mentions
+- recrut-plan-sourcing: packs/fr-recrutement-pack/skills/recrut-plan-sourcing/SKILL.md — Répartition des canaux, entreprises cibles, objectifs hebdomadaires, ce qu'on arrête
+- recrut-recherche-booleenne: packs/fr-recrutement-pack/skills/recrut-recherche-booleenne/SKILL.md — Synonymes, chaînes large et étroite, journal d'essais, liste d'exclusion
+- recrut-message-approche: packs/fr-recrutement-pack/skills/recrut-message-approche/SKILL.md — Premier message, deux relances, version courte, phrase d'information RGPD
+- recrut-cooptation: packs/fr-recrutement-pack/skills/recrut-cooptation/SKILL.md — Message aux salariés, règles de prime à remplir, même processus pour les cooptés
+- recrut-grille-lecture-cv: packs/fr-recrutement-pack/skills/recrut-grille-lecture-cv/SKILL.md — Grille vierge par critère, protocole de lecture, informations à masquer
+- recrut-trame-prequalification: packs/fr-recrutement-pack/skills/recrut-trame-prequalification/SKILL.md — Questions de preuve, appel posé de la même façon à tous, règles automatiques à revoir
+- recrut-mise-en-situation: packs/fr-recrutement-pack/skills/recrut-mise-en-situation/SKILL.md — Exercice court tiré du poste, consignes au candidat, guide d'observation
+- recrut-guide-entretien: packs/fr-recrutement-pack/skills/recrut-guide-entretien/SKILL.md — Critères par intervenant, déroulé minuté, relances fixes, règles de notes
+- recrut-questions-star: packs/fr-recrutement-pack/skills/recrut-questions-star/SKILL.md — Questions comportementales et situationnelles, relances STAR, questions interdites
+- recrut-controle-non-discrimination: packs/fr-recrutement-pack/skills/recrut-controle-non-discrimination/SKILL.md — Relecture ligne par ligne, formulation neutre, décision pour chaque ligne
+- recrut-grille-evaluation: packs/fr-recrutement-pack/skills/recrut-grille-evaluation/SKILL.md — Formulaire vierge à niveaux de preuve ancrés, case de notes, aucun total
+- recrut-formation-recruteurs: packs/fr-recrutement-pack/skills/recrut-formation-recruteurs/SKILL.md — Séance de 45 minutes, fiche mémo, trace de la session
+- recrut-debrief: packs/fr-recrutement-pack/skills/recrut-debrief/SKILL.md — Ordre du jour, revue des preuves par critère, compte rendu de la décision
+- recrut-prise-references: packs/fr-recrutement-pack/skills/recrut-prise-references/SKILL.md — Accord du candidat, questions liées aux critères, modèle de note
+- recrut-plan-communication-candidat: packs/fr-recrutement-pack/skills/recrut-plan-communication-candidat/SKILL.md — Promesse de réponse par étape, convocation, suivi pendant le préavis
+- recrut-reponse-negative: packs/fr-recrutement-pack/skills/recrut-reponse-negative/SKILL.md — Message par étape, script d'appel pour les finalistes, mention de conservation
+- recrut-promesse-embauche: packs/fr-recrutement-pack/skills/recrut-promesse-embauche/SKILL.md — Choix entre offre et promesse, courrier sur conditions validées, clauses pour un juriste
+- recrut-plan-integration: packs/fr-recrutement-pack/skills/recrut-plan-integration/SKILL.md — Avant l'arrivée, premier jour, premier mois, rapport d'étonnement, référent
+- recrut-periode-essai: packs/fr-recrutement-pack/skills/recrut-periode-essai/SKILL.md — Calendrier des points, trames de bilan sur faits, conditions de renouvellement
+- recrut-commande-client: packs/fr-recrutement-pack/skills/recrut-commande-client/SKILL.md — Fiche de commande, motif de recours, caractéristiques du poste, questions au client
+- recrut-conditions-cabinet: packs/fr-recrutement-pack/skills/recrut-conditions-cabinet/SKILL.md — Conditions en langage clair, synthèse d'une page, clauses pour un juriste
+- recrut-presentation-candidat: packs/fr-recrutement-pack/skills/recrut-presentation-candidat/SKILL.md — Accord du candidat, faits par critère, disponibilité, aucune note
+- recrut-point-avancement-client: packs/fr-recrutement-pack/skills/recrut-point-avancement-client/SKILL.md — Activité par étape, retours du marché, décisions demandées au client
+- recrut-notice-information-candidats: packs/fr-recrutement-pack/skills/recrut-notice-information-candidats/SKILL.md — Mentions RGPD en langage simple, méthodes annoncées, usage de l'IA décrit
+- recrut-conservation-candidatures: packs/fr-recrutement-pack/skills/recrut-conservation-candidatures/SKILL.md — Tableau par catégorie de données, durée, point de départ, responsable
+- recrut-charte-ia: packs/fr-recrutement-pack/skills/recrut-charte-ia/SKILL.md — Usages permis et interdits, relecture humaine nommée, questions aux éditeurs
+- recrut-tableau-de-bord: packs/fr-recrutement-pack/skills/recrut-tableau-de-bord/SKILL.md — Délais, taux de passage, sources, postes bloqués, par poste et par canal
+- Reference: packs/fr-recrutement-pack/resources/evidence-and-sources.md

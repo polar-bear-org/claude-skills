@@ -14453,6 +14453,556 @@
           ]
         }
       ]
+    },
+    {
+      "name": "fr-recrutement-pack",
+      "title": "Claude pour le recrutement : 32 skills Claude",
+      "path": "packs/fr-recrutement-pack",
+      "homepage": "https://meet-polar-bear.com/skills/fr-recrutement-pack",
+      "version": "1.0.0",
+      "description": "32 skills en français pour recruter en droit français, dans l'ordre du recrutement : cadrer le besoin avec le manager et fixer la fourchette salariale, écrire l'annonce et construire le sourcing, faire lire chaque candidature par une personne, mener des entretiens structurés et contrôler la non-discrimination, décider sur preuves et répondre à chaque candidat, préparer la promesse, l'intégration et la période d'essai, tenir le travail client des cabinets et des agences d'intérim, puis poser le socle RGPD, IA et pilotage. Pour les chargés et responsables de recrutement, RRH, consultants en cabinet, responsables d'agence d'intérim et managers qui recrutent. Claude prépare les critères, les questions et les messages ; une personne lit chaque candidature, remplit chaque grille et décide pour chaque candidat, et Claude ne trie, ne classe ni ne note jamais une personne.",
+      "audience": [
+        "chargés et responsables de recrutement",
+        "RRH et DRH de PME",
+        "consultants en cabinet de recrutement",
+        "responsables d'agence d'intérim",
+        "managers qui recrutent, via les briefs, guides et grilles"
+      ],
+      "keywords": [
+        "recrutement",
+        "offre-emploi",
+        "fiche-de-poste",
+        "entretien-structure",
+        "sourcing",
+        "non-discrimination",
+        "rgpd-recrutement",
+        "cabinet-recrutement",
+        "interim",
+        "promesse-embauche",
+        "periode-essai",
+        "grille-evaluation",
+        "fourchette-salariale",
+        "francais"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "recrut-brief-recrutement",
+          "path": "packs/fr-recrutement-pack/skills/recrut-brief-recrutement",
+          "order": 1,
+          "summary": "Questions de cadrage, critères indispensables et formables, brief d'une page à signer",
+          "triggers": [
+            "run recrut-brief-recrutement",
+            "brief de recrutement",
+            "réunion de cadrage recrutement",
+            "prise de brief manager",
+            "définir le profil recherché",
+            "critères de recrutement",
+            "cahier des charges recrutement",
+            "calibrage recrutement"
+          ]
+        },
+        {
+          "name": "recrut-fiche-de-poste",
+          "path": "packs/fr-recrutement-pack/skills/recrut-fiche-de-poste",
+          "order": 2,
+          "summary": "Missions, résultats attendus, compétences observables, étape d'évaluation de chaque critère",
+          "triggers": [
+            "run recrut-fiche-de-poste",
+            "fiche de poste",
+            "rédiger une fiche de poste",
+            "modèle fiche de poste",
+            "exemple de fiche de poste",
+            "description de poste",
+            "mettre à jour une fiche de poste",
+            "missions et compétences du poste"
+          ]
+        },
+        {
+          "name": "recrut-fourchette-salariale",
+          "path": "packs/fr-recrutement-pack/skills/recrut-fourchette-salariale",
+          "order": 3,
+          "summary": "Fourchette tirée de vos données, éléments de rémunération, réponses prêtes au candidat",
+          "triggers": [
+            "run recrut-fourchette-salariale",
+            "fourchette salariale",
+            "fourchette de salaire annonce",
+            "transparence salariale recrutement",
+            "directive transparence salariale",
+            "afficher le salaire dans l'annonce",
+            "prétentions salariales candidat",
+            "grille de salaire poste"
+          ]
+        },
+        {
+          "name": "recrut-processus-recrutement",
+          "path": "packs/fr-recrutement-pack/skills/recrut-processus-recrutement",
+          "order": 4,
+          "summary": "Carte des étapes, critère par étape, délais de retour, méthodes annoncées aux candidats",
+          "triggers": [
+            "run recrut-processus-recrutement",
+            "processus de recrutement",
+            "étapes du recrutement",
+            "trop de tours d'entretien",
+            "délai de recrutement trop long",
+            "organiser les entretiens de recrutement",
+            "méthodes de recrutement information candidat",
+            "information du CSE recrutement"
+          ]
+        },
+        {
+          "name": "recrut-annonce",
+          "path": "packs/fr-recrutement-pack/skills/recrut-annonce",
+          "order": 5,
+          "summary": "Annonce avec le poste réel, salaire, lieu et télétravail, contrôle des mentions",
+          "triggers": [
+            "run recrut-annonce",
+            "annonce de recrutement",
+            "offre d'emploi",
+            "rédiger une offre d'emploi",
+            "exemple d'annonce de recrutement",
+            "mentions obligatoires offre d'emploi",
+            "réécrire mon annonce",
+            "annonce emploi attractive"
+          ]
+        },
+        {
+          "name": "recrut-plan-sourcing",
+          "path": "packs/fr-recrutement-pack/skills/recrut-plan-sourcing",
+          "order": 6,
+          "summary": "Répartition des canaux, entreprises cibles, objectifs hebdomadaires, ce qu'on arrête",
+          "triggers": [
+            "run recrut-plan-sourcing",
+            "plan de sourcing",
+            "stratégie de sourcing",
+            "canaux de recrutement",
+            "où publier mon offre d'emploi",
+            "sourcing profils pénuriques",
+            "réactiver le vivier de candidats",
+            "entreprises cibles recrutement"
+          ]
+        },
+        {
+          "name": "recrut-recherche-booleenne",
+          "path": "packs/fr-recrutement-pack/skills/recrut-recherche-booleenne",
+          "order": 7,
+          "summary": "Synonymes, chaînes large et étroite, journal d'essais, liste d'exclusion",
+          "triggers": [
+            "run recrut-recherche-booleenne",
+            "recherche booléenne",
+            "requête booléenne recrutement",
+            "chaîne booléenne sourcing",
+            "opérateurs booléens",
+            "trop de résultats sourcing",
+            "aucun profil trouvé",
+            "recherche x-ray"
+          ]
+        },
+        {
+          "name": "recrut-message-approche",
+          "path": "packs/fr-recrutement-pack/skills/recrut-message-approche",
+          "order": 8,
+          "summary": "Premier message, deux relances, version courte, phrase d'information RGPD",
+          "triggers": [
+            "run recrut-message-approche",
+            "message d'approche",
+            "message d'approche candidat",
+            "message de chasse",
+            "relance candidat",
+            "approche directe recrutement",
+            "message recrutement réseau professionnel",
+            "modèle message de recrutement"
+          ]
+        },
+        {
+          "name": "recrut-cooptation",
+          "path": "packs/fr-recrutement-pack/skills/recrut-cooptation",
+          "order": 9,
+          "summary": "Message aux salariés, règles de prime à remplir, même processus pour les cooptés",
+          "triggers": [
+            "run recrut-cooptation",
+            "cooptation",
+            "programme de cooptation",
+            "prime de cooptation",
+            "règlement de cooptation",
+            "message cooptation salariés",
+            "recommandation par les salariés",
+            "parrainage recrutement"
+          ]
+        },
+        {
+          "name": "recrut-grille-lecture-cv",
+          "path": "packs/fr-recrutement-pack/skills/recrut-grille-lecture-cv",
+          "order": 10,
+          "summary": "Grille vierge par critère, protocole de lecture, informations à masquer",
+          "triggers": [
+            "run recrut-grille-lecture-cv",
+            "grille de lecture CV",
+            "grille de présélection des candidatures",
+            "comment lire 300 CV",
+            "trier les CV",
+            "CV écrits par IA",
+            "présélection des candidatures",
+            "critères de présélection CV"
+          ]
+        },
+        {
+          "name": "recrut-trame-prequalification",
+          "path": "packs/fr-recrutement-pack/skills/recrut-trame-prequalification",
+          "order": 11,
+          "summary": "Questions de preuve, appel posé de la même façon à tous, règles automatiques à revoir",
+          "triggers": [
+            "run recrut-trame-prequalification",
+            "trame de préqualification",
+            "questions de préqualification téléphonique",
+            "script appel candidat",
+            "questions éliminatoires",
+            "entretien téléphonique de présélection",
+            "présélection par téléphone",
+            "candidatures fictives"
+          ]
+        },
+        {
+          "name": "recrut-mise-en-situation",
+          "path": "packs/fr-recrutement-pack/skills/recrut-mise-en-situation",
+          "order": 12,
+          "summary": "Exercice court tiré du poste, consignes au candidat, guide d'observation",
+          "triggers": [
+            "run recrut-mise-en-situation",
+            "mise en situation professionnelle",
+            "exercice de recrutement",
+            "test pratique candidat",
+            "cas pratique entretien d'embauche",
+            "méthode de recrutement par simulation",
+            "MRS France Travail",
+            "étude de cas recrutement"
+          ]
+        },
+        {
+          "name": "recrut-guide-entretien",
+          "path": "packs/fr-recrutement-pack/skills/recrut-guide-entretien",
+          "order": 13,
+          "summary": "Critères par intervenant, déroulé minuté, relances fixes, règles de notes",
+          "triggers": [
+            "run recrut-guide-entretien",
+            "guide d'entretien structuré",
+            "trame d'entretien d'embauche",
+            "déroulé d'entretien de recrutement",
+            "entretien structuré",
+            "préparer un entretien d'embauche",
+            "entretien avec plusieurs intervenants",
+            "jury de recrutement"
+          ]
+        },
+        {
+          "name": "recrut-questions-star",
+          "path": "packs/fr-recrutement-pack/skills/recrut-questions-star",
+          "order": 14,
+          "summary": "Questions comportementales et situationnelles, relances STAR, questions interdites",
+          "triggers": [
+            "run recrut-questions-star",
+            "questions STAR",
+            "questions d'entretien comportemental",
+            "questions d'entretien d'embauche",
+            "méthode STAR entretien",
+            "questions situationnelles",
+            "réponses préparées avec une IA",
+            "questions interdites en entretien"
+          ]
+        },
+        {
+          "name": "recrut-controle-non-discrimination",
+          "path": "packs/fr-recrutement-pack/skills/recrut-controle-non-discrimination",
+          "order": 15,
+          "summary": "Relecture ligne par ligne, formulation neutre, décision pour chaque ligne",
+          "triggers": [
+            "run recrut-controle-non-discrimination",
+            "relire une annonce discriminante",
+            "questions interdites entretien d'embauche",
+            "critères de discrimination recrutement",
+            "vérifier une offre d'emploi",
+            "jeune et dynamique annonce",
+            "formulaire de candidature conforme",
+            "relecture non-discrimination"
+          ]
+        },
+        {
+          "name": "recrut-grille-evaluation",
+          "path": "packs/fr-recrutement-pack/skills/recrut-grille-evaluation",
+          "order": 16,
+          "summary": "Formulaire vierge à niveaux de preuve ancrés, case de notes, aucun total",
+          "triggers": [
+            "run recrut-grille-evaluation",
+            "grille d'évaluation d'entretien",
+            "grille d'entretien d'embauche",
+            "fiche d'évaluation candidat",
+            "évaluer un candidat après entretien",
+            "échelle d'évaluation ancrée",
+            "grille d'entretien structuré",
+            "bon feeling en entretien"
+          ]
+        },
+        {
+          "name": "recrut-formation-recruteurs",
+          "path": "packs/fr-recrutement-pack/skills/recrut-formation-recruteurs",
+          "order": 17,
+          "summary": "Séance de 45 minutes, fiche mémo, trace de la session",
+          "triggers": [
+            "run recrut-formation-recruteurs",
+            "formation non-discrimination recrutement",
+            "former les managers au recrutement",
+            "formation recruteurs tous les cinq ans",
+            "formation entretien structuré",
+            "sensibilisation discrimination à l'embauche",
+            "former un jury de recrutement",
+            "questions interdites formation managers"
+          ]
+        },
+        {
+          "name": "recrut-debrief",
+          "path": "packs/fr-recrutement-pack/skills/recrut-debrief",
+          "order": 18,
+          "summary": "Ordre du jour, revue des preuves par critère, compte rendu de la décision",
+          "triggers": [
+            "run recrut-debrief",
+            "débrief de recrutement",
+            "débrief après entretiens",
+            "réunion de décision recrutement",
+            "compte rendu de débrief",
+            "décision d'embauche",
+            "le manager veut voir d'autres candidats",
+            "désaccord entre recruteurs"
+          ]
+        },
+        {
+          "name": "recrut-prise-references",
+          "path": "packs/fr-recrutement-pack/skills/recrut-prise-references",
+          "order": 19,
+          "summary": "Accord du candidat, questions liées aux critères, modèle de note",
+          "triggers": [
+            "run recrut-prise-references",
+            "prise de références",
+            "appeler les références d'un candidat",
+            "questions prise de références",
+            "vérifier les références",
+            "référence ancien employeur",
+            "trame d'appel références",
+            "contrôle de références"
+          ]
+        },
+        {
+          "name": "recrut-plan-communication-candidat",
+          "path": "packs/fr-recrutement-pack/skills/recrut-plan-communication-candidat",
+          "order": 20,
+          "summary": "Promesse de réponse par étape, convocation, suivi pendant le préavis",
+          "triggers": [
+            "run recrut-plan-communication-candidat",
+            "communication candidat",
+            "expérience candidat",
+            "convocation entretien",
+            "candidat sans nouvelles",
+            "ghosting candidat",
+            "candidat qui se désiste pendant le préavis",
+            "délai de réponse aux candidats"
+          ]
+        },
+        {
+          "name": "recrut-reponse-negative",
+          "path": "packs/fr-recrutement-pack/skills/recrut-reponse-negative",
+          "order": 21,
+          "summary": "Message par étape, script d'appel pour les finalistes, mention de conservation",
+          "triggers": [
+            "run recrut-reponse-negative",
+            "réponse négative candidat",
+            "mail de refus candidature",
+            "lettre de refus après entretien",
+            "refuser un candidat",
+            "annoncer un refus à un finaliste",
+            "candidat qui demande pourquoi",
+            "retour à un candidat non retenu"
+          ]
+        },
+        {
+          "name": "recrut-promesse-embauche",
+          "path": "packs/fr-recrutement-pack/skills/recrut-promesse-embauche",
+          "order": 22,
+          "summary": "Choix entre offre et promesse, courrier sur conditions validées, clauses pour un juriste",
+          "triggers": [
+            "run recrut-promesse-embauche",
+            "promesse d'embauche",
+            "offre de contrat de travail",
+            "lettre d'offre",
+            "proposition d'embauche",
+            "envoyer une promesse d'embauche",
+            "rétractation promesse d'embauche",
+            "modèle promesse d'embauche"
+          ]
+        },
+        {
+          "name": "recrut-plan-integration",
+          "path": "packs/fr-recrutement-pack/skills/recrut-plan-integration",
+          "order": 23,
+          "summary": "Avant l'arrivée, premier jour, premier mois, rapport d'étonnement, référent",
+          "triggers": [
+            "run recrut-plan-integration",
+            "plan d'intégration",
+            "onboarding nouvel arrivant",
+            "parcours d'intégration",
+            "livret d'accueil",
+            "rapport d'étonnement",
+            "premier jour d'un nouveau salarié",
+            "accueil d'un nouveau collaborateur"
+          ]
+        },
+        {
+          "name": "recrut-periode-essai",
+          "path": "packs/fr-recrutement-pack/skills/recrut-periode-essai",
+          "order": 24,
+          "summary": "Calendrier des points, trames de bilan sur faits, conditions de renouvellement",
+          "triggers": [
+            "run recrut-periode-essai",
+            "période d'essai",
+            "bilan de période d'essai",
+            "renouvellement période d'essai",
+            "fin de période d'essai",
+            "point mi-parcours période d'essai",
+            "délai de prévenance période d'essai",
+            "rupture période d'essai"
+          ]
+        },
+        {
+          "name": "recrut-commande-client",
+          "path": "packs/fr-recrutement-pack/skills/recrut-commande-client",
+          "order": 25,
+          "summary": "Fiche de commande, motif de recours, caractéristiques du poste, questions au client",
+          "triggers": [
+            "run recrut-commande-client",
+            "prise de commande intérim",
+            "fiche de commande client",
+            "commande intérim urgente",
+            "motif de recours intérim",
+            "contrat de mise à disposition",
+            "besoin d'intérimaire pour demain",
+            "qualifier une commande client"
+          ]
+        },
+        {
+          "name": "recrut-conditions-cabinet",
+          "path": "packs/fr-recrutement-pack/skills/recrut-conditions-cabinet",
+          "order": 26,
+          "summary": "Conditions en langage clair, synthèse d'une page, clauses pour un juriste",
+          "triggers": [
+            "run recrut-conditions-cabinet",
+            "conditions générales cabinet de recrutement",
+            "expliquer nos honoraires",
+            "client conteste les honoraires",
+            "garantie de remplacement",
+            "candidat embauché sans passer par le cabinet",
+            "synthèse des conditions pour le client",
+            "acompte approche directe"
+          ]
+        },
+        {
+          "name": "recrut-presentation-candidat",
+          "path": "packs/fr-recrutement-pack/skills/recrut-presentation-candidat",
+          "order": 27,
+          "summary": "Accord du candidat, faits par critère, disponibilité, aucune note",
+          "triggers": [
+            "run recrut-presentation-candidat",
+            "présentation de candidat au client",
+            "dossier de présentation candidat",
+            "envoyer la short-list au client",
+            "synthèse candidat pour le client",
+            "fiche de présentation candidat",
+            "rédiger une présentation de candidat"
+          ]
+        },
+        {
+          "name": "recrut-point-avancement-client",
+          "path": "packs/fr-recrutement-pack/skills/recrut-point-avancement-client",
+          "order": 28,
+          "summary": "Activité par étape, retours du marché, décisions demandées au client",
+          "triggers": [
+            "run recrut-point-avancement-client",
+            "point d'avancement client",
+            "compte rendu de mission recrutement",
+            "reporting client cabinet",
+            "le client refuse tous les profils",
+            "client qui ne répond plus",
+            "relancer un client silencieux",
+            "faire évoluer le brief"
+          ]
+        },
+        {
+          "name": "recrut-notice-information-candidats",
+          "path": "packs/fr-recrutement-pack/skills/recrut-notice-information-candidats",
+          "order": 29,
+          "summary": "Mentions RGPD en langage simple, méthodes annoncées, usage de l'IA décrit",
+          "triggers": [
+            "run recrut-notice-information-candidats",
+            "notice d'information candidats",
+            "mentions RGPD recrutement",
+            "information des candidats RGPD",
+            "que faites-vous de mon CV",
+            "politique de confidentialité candidats",
+            "contrôle CNIL recrutement",
+            "mentions légales annonce"
+          ]
+        },
+        {
+          "name": "recrut-conservation-candidatures",
+          "path": "packs/fr-recrutement-pack/skills/recrut-conservation-candidatures",
+          "order": 30,
+          "summary": "Tableau par catégorie de données, durée, point de départ, responsable",
+          "triggers": [
+            "run recrut-conservation-candidatures",
+            "durée de conservation des CV",
+            "combien de temps garder un CV",
+            "durée de conservation candidature CNIL",
+            "purge des candidatures",
+            "vivier de candidats RGPD",
+            "supprimer les CV",
+            "politique de conservation recrutement"
+          ]
+        },
+        {
+          "name": "recrut-charte-ia",
+          "path": "packs/fr-recrutement-pack/skills/recrut-charte-ia",
+          "order": 31,
+          "summary": "Usages permis et interdits, relecture humaine nommée, questions aux éditeurs",
+          "triggers": [
+            "run recrut-charte-ia",
+            "charte IA recrutement",
+            "politique d'usage de l'IA en recrutement",
+            "IA et tri de CV",
+            "AI Act recrutement",
+            "encadrer l'IA générative chez les recruteurs",
+            "questions à poser à un éditeur de logiciel de recrutement",
+            "règles IA pour les managers qui recrutent"
+          ]
+        },
+        {
+          "name": "recrut-tableau-de-bord",
+          "path": "packs/fr-recrutement-pack/skills/recrut-tableau-de-bord",
+          "order": 32,
+          "summary": "Délais, taux de passage, sources, postes bloqués, par poste et par canal",
+          "triggers": [
+            "run recrut-tableau-de-bord",
+            "tableau de bord recrutement",
+            "indicateurs de recrutement",
+            "délai de recrutement",
+            "time to hire",
+            "taux de transformation recrutement",
+            "pourquoi le recrutement est lent",
+            "reporting recrutement direction"
+          ]
+        }
+      ]
     }
   ]
 }
