@@ -1174,6 +1174,36 @@
         "consulting",
         "freelance"
       ]
+    },
+    {
+      "name": "authentic-linkedin-presence-pack",
+      "source": "./packs/authentic-linkedin-presence-pack",
+      "description": "29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations, in seven steps: your point of view, a profile that sells, finding the ideas already in your work, writing in your voice, the formats, the comments and conversations, then the weekly rhythm and what to measure. For founders, owners, partners, consultants, speakers and authors. Claude finds the idea in your own work and checks the draft against your own voice: it never invents a story, client, number or opinion, and it never posts, comments or messages for you.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Polar Bear",
+        "url": "https://meet-polar-bear.com"
+      },
+      "homepage": "https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack",
+      "repository": "https://github.com/polar-bear-org/claude-skills",
+      "license": "LicenseRef-PolarBear-Internal-Use",
+      "category": "productivity",
+      "keywords": [
+        "linkedin",
+        "personal-branding",
+        "thought-leadership",
+        "linkedin-content",
+        "linkedin-headline",
+        "linkedin-about",
+        "positioning",
+        "point-of-view",
+        "voice-guide",
+        "ai-tells",
+        "ai-disclosure",
+        "linkedin-networking",
+        "consulting",
+        "founders"
+      ]
     }
   ]
 }

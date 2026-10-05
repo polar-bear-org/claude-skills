@@ -12294,6 +12294,471 @@
           ]
         }
       ]
+    },
+    {
+      "name": "authentic-linkedin-presence-pack",
+      "title": "Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills",
+      "path": "packs/authentic-linkedin-presence-pack",
+      "homepage": "https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack",
+      "version": "1.0.0",
+      "description": "29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations, in seven steps: your point of view, a profile that sells, finding the ideas already in your work, writing in your voice, the formats, the comments and conversations, then the weekly rhythm and what to measure. For founders, owners, partners, consultants, speakers and authors. Claude finds the idea in your own work and checks the draft against your own voice: it never invents a story, client, number or opinion, and it never posts, comments or messages for you.",
+      "audience": [
+        "founders and owners of consultancies and agencies",
+        "partners and practice leads",
+        "independent consultants and advisers",
+        "speakers and authors",
+        "fractional leaders who sell their own expertise"
+      ],
+      "keywords": [
+        "linkedin",
+        "personal-branding",
+        "thought-leadership",
+        "linkedin-content",
+        "linkedin-headline",
+        "linkedin-about",
+        "positioning",
+        "point-of-view",
+        "voice-guide",
+        "ai-tells",
+        "ai-disclosure",
+        "linkedin-networking",
+        "consulting",
+        "founders"
+      ],
+      "resources": [
+        {
+          "file": "resources/evidence-and-sources.md",
+          "description": "evidence and sources"
+        }
+      ],
+      "skills": [
+        {
+          "name": "flink-ideal-client-profile",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-ideal-client-profile",
+          "order": 1,
+          "summary": "Situations your best clients were in, the job they hired you for, their words, who you are not for",
+          "triggers": [
+            "run flink-ideal-client-profile",
+            "who do I help",
+            "write my ideal client profile",
+            "who should I write for on LinkedIn",
+            "describe my best clients",
+            "jobs to be done for my clients",
+            "who am I not for"
+          ]
+        },
+        {
+          "name": "flink-buying-situations-map",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-buying-situations-map",
+          "order": 2,
+          "summary": "Moments a buyer starts needing you, the ones you can speak to, one post theme each",
+          "triggers": [
+            "run flink-buying-situations-map",
+            "buying situations",
+            "category entry points for me",
+            "what should my posts be about",
+            "post themes",
+            "be remembered when the need comes",
+            "content pillars"
+          ]
+        },
+        {
+          "name": "flink-point-of-view",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-point-of-view",
+          "order": 3,
+          "summary": "Three beliefs, the shift behind each, evidence from your work, where you might be wrong",
+          "triggers": [
+            "run flink-point-of-view",
+            "what do I believe",
+            "my point of view",
+            "help me find my opinions",
+            "should I lean into AI or argue against it",
+            "what do others get wrong in my field",
+            "thought leadership stance"
+          ]
+        },
+        {
+          "name": "flink-positioning-statement",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-positioning-statement",
+          "order": 4,
+          "summary": "One sentence in three versions, the project behind each, words to drop",
+          "triggers": [
+            "run flink-positioning-statement",
+            "what do I do in one sentence",
+            "positioning statement",
+            "my elevator pitch",
+            "how do I explain what I do",
+            "my answer keeps changing",
+            "sharpen my positioning"
+          ]
+        },
+        {
+          "name": "flink-linkedin-headline",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-linkedin-headline",
+          "order": 5,
+          "summary": "Five headline options, buyer search words, the read-aloud test",
+          "triggers": [
+            "run flink-linkedin-headline",
+            "rewrite my LinkedIn headline",
+            "my headline is just my job title",
+            "headline for a founder",
+            "what should my LinkedIn headline say",
+            "make my headline tell buyers why to talk to me",
+            "headline options from my positioning"
+          ]
+        },
+        {
+          "name": "flink-linkedin-about-section",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-linkedin-about-section",
+          "order": 6,
+          "summary": "First two lines, the problem, how you work, two proofs, how to start a conversation",
+          "triggers": [
+            "run flink-linkedin-about-section",
+            "rewrite my LinkedIn About",
+            "my About reads like a CV",
+            "LinkedIn summary for a founder",
+            "what should my About section say",
+            "make my About speak to buyers",
+            "fix my LinkedIn bio"
+          ]
+        },
+        {
+          "name": "flink-featured-section",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-featured-section",
+          "order": 7,
+          "summary": "Three to five items chosen, one line each, what to make when one is missing",
+          "triggers": [
+            "run flink-featured-section",
+            "what should I put in Featured",
+            "plan my LinkedIn Featured section",
+            "my profile has nothing to read",
+            "pick my best posts for my profile",
+            "what to pin on my LinkedIn profile"
+          ]
+        },
+        {
+          "name": "flink-recommendation-request",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-recommendation-request",
+          "order": 8,
+          "summary": "Who you choose to ask, a short ask naming the project, a reminder of the work",
+          "triggers": [
+            "run flink-recommendation-request",
+            "ask a client for a LinkedIn recommendation",
+            "how do I ask for a recommendation",
+            "recommendation request message",
+            "get testimonials on my profile",
+            "remind a client what we did together"
+          ]
+        },
+        {
+          "name": "flink-founder-interview",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-founder-interview",
+          "order": 9,
+          "summary": "Questions about your week, your answers word for word, two ideas worth a post",
+          "triggers": [
+            "run flink-founder-interview",
+            "interview me about my week",
+            "I have nothing to post",
+            "find me a post idea from this week",
+            "ask me questions so I can write",
+            "what should I post about",
+            "help me find something to say"
+          ]
+        },
+        {
+          "name": "flink-client-questions-log",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-client-questions-log",
+          "order": 10,
+          "summary": "Questions clients actually asked, the question behind each, which deserve a public answer",
+          "triggers": [
+            "run flink-client-questions-log",
+            "what do my clients keep asking",
+            "turn client questions into posts",
+            "I answer the same question every call",
+            "pull the questions from my calls",
+            "log questions from my inbox"
+          ]
+        },
+        {
+          "name": "flink-content-repurposing",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-content-repurposing",
+          "order": 11,
+          "summary": "Separate ideas inside a talk or article, one post per idea, publishing order",
+          "triggers": [
+            "run flink-content-repurposing",
+            "turn my talk into posts",
+            "repurpose this transcript",
+            "get posts out of this article",
+            "I gave a talk and nothing came of it",
+            "split this podcast into ideas"
+          ]
+        },
+        {
+          "name": "flink-idea-bank",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-idea-bank",
+          "order": 12,
+          "summary": "One idea per line with its source, buying situation, format and status",
+          "triggers": [
+            "run flink-idea-bank",
+            "add this to my idea bank",
+            "save this post idea",
+            "where do I keep my ideas",
+            "clean up my idea list",
+            "what ideas do I have"
+          ]
+        },
+        {
+          "name": "flink-voice-guide",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-voice-guide",
+          "order": 13,
+          "summary": "Tone dimensions, \"I am X but not Y\" lines, your words, words you never use, rhythm",
+          "triggers": [
+            "run flink-voice-guide",
+            "build my voice guide",
+            "what does like me mean",
+            "make Claude sound like me",
+            "my AI drafts sound generic",
+            "describe my writing style",
+            "voice guide from my old posts"
+          ]
+        },
+        {
+          "name": "flink-voice-memo-to-post",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-voice-memo-to-post",
+          "order": 14,
+          "summary": "A post from your own spoken sentences, every added word marked",
+          "triggers": [
+            "run flink-voice-memo-to-post",
+            "turn my voice memo into a post",
+            "I talked it through, make it a post",
+            "edit this transcript into a LinkedIn post",
+            "keep my words",
+            "I think better out loud",
+            "clean up my voice note"
+          ]
+        },
+        {
+          "name": "flink-ai-tells-check",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-ai-tells-check",
+          "order": 15,
+          "summary": "AI tells flagged by type, read-aloud test, a suggested cut for each flag",
+          "triggers": [
+            "run flink-ai-tells-check",
+            "does this sound like AI",
+            "check my draft for AI tells",
+            "does this sound like me",
+            "flag the generic bits",
+            "read this against my voice guide",
+            "make it sound less generated"
+          ]
+        },
+        {
+          "name": "flink-claim-check",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-claim-check",
+          "order": 16,
+          "summary": "Every story, number and quote traced to a source, client permission recorded, do-not-claim list",
+          "triggers": [
+            "run flink-claim-check",
+            "check my claims",
+            "can I say this about a client",
+            "is this number safe to post",
+            "check permission before I post",
+            "fact check my LinkedIn post",
+            "what should I not claim"
+          ]
+        },
+        {
+          "name": "flink-ai-use-statement",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-ai-use-statement",
+          "order": 17,
+          "summary": "How you use Claude in your writing, as one line and one paragraph",
+          "triggers": [
+            "run flink-ai-use-statement",
+            "did AI write this",
+            "how do I disclose AI use",
+            "should I say I use Claude",
+            "AI disclosure for my profile",
+            "honest answer about AI in my posts",
+            "write my AI use line"
+          ]
+        },
+        {
+          "name": "flink-project-story-post",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-project-story-post",
+          "order": 18,
+          "summary": "One moment from a real project, what you did, an ending that is a plain fact",
+          "triggers": [
+            "run flink-project-story-post",
+            "write a post about this project",
+            "show the work we did for a client",
+            "turn this engagement into a post",
+            "nobody knows about this project",
+            "a case post for LinkedIn",
+            "post about a win without bragging"
+          ]
+        },
+        {
+          "name": "flink-lesson-learned-post",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-lesson-learned-post",
+          "order": 19,
+          "summary": "What you planned, what happened, why, what you do differently now",
+          "triggers": [
+            "run flink-lesson-learned-post",
+            "write about a mistake I made",
+            "post about what went wrong",
+            "share a lesson from a project",
+            "turn this failure into a post",
+            "what I would do differently",
+            "an honest post about a bad week"
+          ]
+        },
+        {
+          "name": "flink-opinion-post",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-opinion-post",
+          "order": 20,
+          "summary": "A dated news hook, your thesis, three points, the best counterargument",
+          "triggers": [
+            "run flink-opinion-post",
+            "I disagree with this advice",
+            "write my take on this news",
+            "argue my point of view",
+            "a post pushing back on a trend",
+            "my honest view on AI in my field",
+            "op-ed for LinkedIn"
+          ]
+        },
+        {
+          "name": "flink-linkedin-carousel",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-linkedin-carousel",
+          "order": 21,
+          "summary": "Six to ten text slides, one idea each, exported as a PDF document post",
+          "triggers": [
+            "run flink-linkedin-carousel",
+            "turn this post into a carousel",
+            "make slides from my framework",
+            "a PDF post people can save",
+            "carousel outline for LinkedIn",
+            "document post from this idea"
+          ]
+        },
+        {
+          "name": "flink-warm-conversations-list",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-warm-conversations-list",
+          "order": 22,
+          "summary": "Up to ten people you choose, how well you know each in your words, the reason to talk",
+          "triggers": [
+            "run flink-warm-conversations-list",
+            "who should I talk to this week",
+            "people react to my posts and I never follow up",
+            "turn my LinkedIn export into a short list",
+            "who from my comments is worth a conversation",
+            "warm list for this week",
+            "help me follow up with people I know"
+          ]
+        },
+        {
+          "name": "flink-thoughtful-comment",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-thoughtful-comment",
+          "order": 23,
+          "summary": "Two or three angles for a post you chose, the facts you would add",
+          "triggers": [
+            "run flink-thoughtful-comment",
+            "what should I say on this post",
+            "great post says nothing",
+            "help me comment on this",
+            "I want to add something real to this thread",
+            "comment angles for this post",
+            "I disagree with this post, how do I say it"
+          ]
+        },
+        {
+          "name": "flink-connection-request",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-connection-request",
+          "order": 24,
+          "summary": "One short note per person you met, the real context, no pitch",
+          "triggers": [
+            "run flink-connection-request",
+            "connection request note",
+            "I met people this week",
+            "what do I write when I connect",
+            "a blank request will be ignored",
+            "notes for people I met at the event",
+            "connect with someone from a comment thread"
+          ]
+        },
+        {
+          "name": "flink-conversation-opener",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-conversation-opener",
+          "order": 25,
+          "summary": "The reason to write, two or three points, an easy way to decline",
+          "triggers": [
+            "run flink-conversation-opener",
+            "turn this comment thread into a call",
+            "what do I DM after a good thread",
+            "how do I follow up without pitching",
+            "message to someone who commented",
+            "reconnect with an old contact"
+          ]
+        },
+        {
+          "name": "flink-content-calendar",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-content-calendar",
+          "order": 26,
+          "summary": "The month at a glance, one to three posts a week, the hours it costs, a rule for skipped weeks",
+          "triggers": [
+            "run flink-content-calendar",
+            "plan my LinkedIn month",
+            "content calendar",
+            "what do I post this month",
+            "I keep disappearing from LinkedIn",
+            "make a posting plan I can keep",
+            "schedule my ideas"
+          ]
+        },
+        {
+          "name": "flink-weekly-linkedin-routine",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-weekly-linkedin-routine",
+          "order": 27,
+          "summary": "A 60 minute checklist, what Claude prepares, what only you do",
+          "triggers": [
+            "run flink-weekly-linkedin-routine",
+            "my LinkedIn hour",
+            "weekly LinkedIn routine",
+            "I have one hour for LinkedIn this week",
+            "prep my LinkedIn session",
+            "LinkedIn keeps falling off my week"
+          ]
+        },
+        {
+          "name": "flink-conversations-log",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-conversations-log",
+          "order": 28,
+          "summary": "Each conversation started, where it came from, the next step and date",
+          "triggers": [
+            "run flink-conversations-log",
+            "log this conversation",
+            "does LinkedIn bring me work",
+            "track where my leads come from",
+            "what made them reach out",
+            "conversations log",
+            "add to my log"
+          ]
+        },
+        {
+          "name": "flink-monthly-review",
+          "path": "packs/authentic-linkedin-presence-pack/skills/flink-monthly-review",
+          "order": 29,
+          "summary": "What started conversations, what stayed silent, stop, start and continue, one change",
+          "triggers": [
+            "run flink-monthly-review",
+            "review my LinkedIn month",
+            "monthly LinkedIn review",
+            "is LinkedIn working for me",
+            "what should I change next month",
+            "start stop continue for LinkedIn"
+          ]
+        }
+      ]
     }
   ]
 }

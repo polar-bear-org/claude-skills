@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "authentic-linkedin-presence-pack",
+  "version": "1.0.0",
+  "description": "Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations. Write your ideal client profile, map the buying situations you can speak to, record your point of view and your positioning sentence, then fix the headline, the About section, the Featured section and the recommendation requests a referred buyer reads. Find the ideas already sitting in your calls, client questions and talks, keep them in an idea bank, build a personal voice guide, turn a voice memo into a draft, flag the AI tells, trace every claim and client mention to its source, and write your AI use statement. Then the formats: the project story, the lesson learned, the opinion post and the carousel. Then the networking: a warm conversations list, thoughtful comment angles, connection request notes and conversation openers. Then the rhythm: a content calendar, a 60 minute weekly routine, a conversations log and a monthly review judged on conversations started, not likes. For founders, owners, partners, consultants, speakers and authors. Claude finds the idea in your own work and checks the draft against your own voice: it never invents a story, client, number or opinion, and it never posts, comments or messages for you.",
+  "author": {
+    "name": "Polar Bear",
+    "url": "https://meet-polar-bear.com"
+  },
+  "homepage": "https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack",
+  "repository": "https://github.com/polar-bear-org/claude-skills",
+  "license": "LicenseRef-PolarBear-Internal-Use",
+  "keywords": [
+    "linkedin",
+    "personal-branding",
+    "thought-leadership",
+    "linkedin-content",
+    "linkedin-headline",
+    "linkedin-about",
+    "positioning",
+    "point-of-view",
+    "voice-guide",
+    "ai-tells",
+    "ai-disclosure",
+    "linkedin-networking",
+    "consulting",
+    "founders"
+  ]
+}

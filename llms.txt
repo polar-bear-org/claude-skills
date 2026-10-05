@@ -11,7 +11,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 
 ## Packs
 
-41 packs, 878 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
+42 packs, 907 skills. Every pack has a page with a guide, screenshots and a zip download at https://meet-polar-bear.com/skills/<pack-name>.
 
 - The Workshop Pack (7 skills): 7 Claude Skills for workshops worth the room. Page: https://meet-polar-bear.com/skills/workshop-pack. README: [packs/workshop-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/workshop-pack/README.md)
 - The Annual Review Cycle Pack (11 skills): 11 Claude Skills that run an annual performance review cycle without performance software. Page: https://meet-polar-bear.com/skills/review-cycle-pack. README: [packs/review-cycle-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/review-cycle-pack/README.md)
@@ -54,6 +54,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - Claude Graduate Networking Guide: 30 Claude Skills (30 skills): 30 Claude skills for networking from the people you already know to your first job. Page: https://meet-polar-bear.com/skills/grad-networking-pack. README: [packs/grad-networking-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/README.md)
 - Claude pour les Appels d'Offres : 30 skills Claude (30 skills): 30 Claude skills en français pour répondre aux appels d'offres publics, de la veille au retour d'expérience. Page: https://meet-polar-bear.com/skills/fr-appels-offres-pack. README: [packs/fr-appels-offres-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/README.md)
 - Pricing Under AI Pressure: 29 Claude Skills (29 skills): 29 Claude skills for pricing your expertise when your clients have AI too, from your own numbers to the price increase letter. Page: https://meet-polar-bear.com/skills/ai-pricing-pack. README: [packs/ai-pricing-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/README.md)
+- Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills (29 skills): 29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations. Page: https://meet-polar-bear.com/skills/authentic-linkedin-presence-pack. README: [packs/authentic-linkedin-presence-pack/README.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/README.md)
 
 ## Skills
 
@@ -260,6 +261,7 @@ Install manually: copy `packs/<pack>/skills/*` into `~/.claude/skills/` or a pro
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/grad-networking-pack/resources/evidence-and-sources.md): the Claude Graduate Networking Guide Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/fr-appels-offres-pack/resources/evidence-and-sources.md): the Claude pour les Appels d'Offres Pack's shared file — the public source behind each method the skills use, and its limits.
 - [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/ai-pricing-pack/resources/evidence-and-sources.md): the Pricing Under AI Pressure Pack's shared file — the public source behind each method the skills use, and its limits.
+- [resources/evidence-and-sources.md](https://github.com/polar-bear-org/claude-skills/blob/main/packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md): the Claude Playbook for Authentic LinkedIn Presence Pack's shared file — the public source behind each method the skills use, and its limits.
 - [catalog.json](https://github.com/polar-bear-org/claude-skills/blob/main/catalog.json): machine-readable index of every pack and skill.
 - [CONTRIBUTING.md](https://github.com/polar-bear-org/claude-skills/blob/main/CONTRIBUTING.md): how to create a pack, add an existing one, add a skill, or edit one.
 - [docs/installing.md](https://github.com/polar-bear-org/claude-skills/blob/main/docs/installing.md): all installation paths in detail.
@@ -1154,3 +1156,39 @@ Made by Polar Bear (https://meet-polar-bear.com), a people ops consultancy for t
 - price-increase-letter: packs/ai-pricing-pack/skills/price-increase-letter/SKILL.md — A short plain letter per client with the new price, date, notice, an honest line on how you work now
 - price-pricing-review: packs/ai-pricing-pack/skills/price-pricing-review/SKILL.md — Floor re-run, margins, AI savings and costs, fee leakage, wins and losses on price, three decisions
 - Reference: packs/ai-pricing-pack/resources/evidence-and-sources.md
+
+## Claude Playbook for Authentic LinkedIn Presence: 29 Claude Skills
+
+29 Claude skills for a LinkedIn presence built from your own ideas, in your own voice, that starts client conversations.
+
+- Pack: packs/authentic-linkedin-presence-pack/README.md
+- flink-ideal-client-profile: packs/authentic-linkedin-presence-pack/skills/flink-ideal-client-profile/SKILL.md — Situations your best clients were in, the job they hired you for, their words, who you are not for
+- flink-buying-situations-map: packs/authentic-linkedin-presence-pack/skills/flink-buying-situations-map/SKILL.md — Moments a buyer starts needing you, the ones you can speak to, one post theme each
+- flink-point-of-view: packs/authentic-linkedin-presence-pack/skills/flink-point-of-view/SKILL.md — Three beliefs, the shift behind each, evidence from your work, where you might be wrong
+- flink-positioning-statement: packs/authentic-linkedin-presence-pack/skills/flink-positioning-statement/SKILL.md — One sentence in three versions, the project behind each, words to drop
+- flink-linkedin-headline: packs/authentic-linkedin-presence-pack/skills/flink-linkedin-headline/SKILL.md — Five headline options, buyer search words, the read-aloud test
+- flink-linkedin-about-section: packs/authentic-linkedin-presence-pack/skills/flink-linkedin-about-section/SKILL.md — First two lines, the problem, how you work, two proofs, how to start a conversation
+- flink-featured-section: packs/authentic-linkedin-presence-pack/skills/flink-featured-section/SKILL.md — Three to five items chosen, one line each, what to make when one is missing
+- flink-recommendation-request: packs/authentic-linkedin-presence-pack/skills/flink-recommendation-request/SKILL.md — Who you choose to ask, a short ask naming the project, a reminder of the work
+- flink-founder-interview: packs/authentic-linkedin-presence-pack/skills/flink-founder-interview/SKILL.md — Questions about your week, your answers word for word, two ideas worth a post
+- flink-client-questions-log: packs/authentic-linkedin-presence-pack/skills/flink-client-questions-log/SKILL.md — Questions clients actually asked, the question behind each, which deserve a public answer
+- flink-content-repurposing: packs/authentic-linkedin-presence-pack/skills/flink-content-repurposing/SKILL.md — Separate ideas inside a talk or article, one post per idea, publishing order
+- flink-idea-bank: packs/authentic-linkedin-presence-pack/skills/flink-idea-bank/SKILL.md — One idea per line with its source, buying situation, format and status
+- flink-voice-guide: packs/authentic-linkedin-presence-pack/skills/flink-voice-guide/SKILL.md — Tone dimensions, "I am X but not Y" lines, your words, words you never use, rhythm
+- flink-voice-memo-to-post: packs/authentic-linkedin-presence-pack/skills/flink-voice-memo-to-post/SKILL.md — A post from your own spoken sentences, every added word marked
+- flink-ai-tells-check: packs/authentic-linkedin-presence-pack/skills/flink-ai-tells-check/SKILL.md — AI tells flagged by type, read-aloud test, a suggested cut for each flag
+- flink-claim-check: packs/authentic-linkedin-presence-pack/skills/flink-claim-check/SKILL.md — Every story, number and quote traced to a source, client permission recorded, do-not-claim list
+- flink-ai-use-statement: packs/authentic-linkedin-presence-pack/skills/flink-ai-use-statement/SKILL.md — How you use Claude in your writing, as one line and one paragraph
+- flink-project-story-post: packs/authentic-linkedin-presence-pack/skills/flink-project-story-post/SKILL.md — One moment from a real project, what you did, an ending that is a plain fact
+- flink-lesson-learned-post: packs/authentic-linkedin-presence-pack/skills/flink-lesson-learned-post/SKILL.md — What you planned, what happened, why, what you do differently now
+- flink-opinion-post: packs/authentic-linkedin-presence-pack/skills/flink-opinion-post/SKILL.md — A dated news hook, your thesis, three points, the best counterargument
+- flink-linkedin-carousel: packs/authentic-linkedin-presence-pack/skills/flink-linkedin-carousel/SKILL.md — Six to ten text slides, one idea each, exported as a PDF document post
+- flink-warm-conversations-list: packs/authentic-linkedin-presence-pack/skills/flink-warm-conversations-list/SKILL.md — Up to ten people you choose, how well you know each in your words, the reason to talk
+- flink-thoughtful-comment: packs/authentic-linkedin-presence-pack/skills/flink-thoughtful-comment/SKILL.md — Two or three angles for a post you chose, the facts you would add
+- flink-connection-request: packs/authentic-linkedin-presence-pack/skills/flink-connection-request/SKILL.md — One short note per person you met, the real context, no pitch
+- flink-conversation-opener: packs/authentic-linkedin-presence-pack/skills/flink-conversation-opener/SKILL.md — The reason to write, two or three points, an easy way to decline
+- flink-content-calendar: packs/authentic-linkedin-presence-pack/skills/flink-content-calendar/SKILL.md — The month at a glance, one to three posts a week, the hours it costs, a rule for skipped weeks
+- flink-weekly-linkedin-routine: packs/authentic-linkedin-presence-pack/skills/flink-weekly-linkedin-routine/SKILL.md — A 60 minute checklist, what Claude prepares, what only you do
+- flink-conversations-log: packs/authentic-linkedin-presence-pack/skills/flink-conversations-log/SKILL.md — Each conversation started, where it came from, the next step and date
+- flink-monthly-review: packs/authentic-linkedin-presence-pack/skills/flink-monthly-review/SKILL.md — What started conversations, what stayed silent, stop, start and continue, one change
+- Reference: packs/authentic-linkedin-presence-pack/resources/evidence-and-sources.md
